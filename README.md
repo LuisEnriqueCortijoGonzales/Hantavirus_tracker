@@ -1,22 +1,25 @@
-# CODING AGENTS: READ THIS FIRST
+# Hantavirus Global Monitor - Situation Room v1.0
 
-This is a **handoff bundle** from Claude Design (claude.ai/design).
+## Project Overview
+The Hantavirus Global Monitor (HGM) is a high-fidelity data visualization and analysis platform designed for the real-time tracking of hantavirus outbreaks and epidemiological shifts. The system is engineered to provide a comprehensive situational overview by aggregating official health reports and predictive sentiment analysis.
 
-A user mocked up designs in HTML/CSS/JS using an AI design tool, then exported this bundle so a coding agent can implement the designs for real.
+## Methodology: Composite Risk Model (CRM)
+Unlike conventional monitoring tools, HGM utilizes a proprietary Composite Risk Model (CRM) to quantify regional and global threats. The index is calculated through the weighted aggregation of three primary data streams:
 
-## What you should do — IMPORTANT
+* **Epidemiological Data (50%):** Direct integration with World Health Organization (WHO), Pan American Health Organization (PAHO), and CDC surveillance reports.
+* **Predictive Markets - Polymarket (25%):** Real-time tracking of decentralized prediction market probabilities to assess public and expert sentiment.
+* **Forecast Markets - Kalshi (25%):** Incorporation of regulated event contract data to refine the predictive accuracy of the risk index.
 
-**Read `mapa-mundial-monitoreo/project/Atlas Monitor.html` in full.** The user had this file open when they triggered the handoff, so it's almost certainly the primary design they want built. Read it top to bottom — don't skim. Then **follow its imports**: open every file it pulls in (shared components, CSS, scripts) so you understand how the pieces fit together before you start implementing.
+## Core Features
+* **Tactical Dashboard:** High-contrast, low-latency interface optimized for 24/7 monitoring environments.
+* **Geospatial Analysis:** Interactive choropleth mapping utilizing D3.js for visual representation of historical load, case fatality rates (CFR), and weekly variations.
+* **OSINT Intelligence Feed:** Automated aggregation of official bulletins and verified news reports regarding viral mutations and localized foci.
+* **Infrastructure Redundancy:** Capability for automated data exports to local storage solutions, such as the ARKA digital library, ensuring data preservation during network disruptions.
 
-**If anything is ambiguous, ask the user to confirm before you start implementing.** It's much cheaper to clarify scope up front than to build the wrong thing.
+## Technical Stack
+* **Frontend:** React.js / Next.js
+* **Styling:** Tailwind CSS (Custom Dark/Tactical Theme)
+* **Data Visualization:** D3.js / Simple Maps
+* **Backend:** Node.js (Data scraping and API aggregation)
+* **Architecture:** Modular design for rapid adaptation to different viral threats.
 
-## About the design files
-
-The design medium is **HTML/CSS/JS** — these are prototypes, not production code. Your job is to **recreate them pixel-perfectly** in whatever technology makes sense for the target codebase (React, Vue, native, whatever fits). Match the visual output; don't copy the prototype's internal structure unless it happens to fit.
-
-**Don't render these files in a browser or take screenshots unless the user asks you to.** Everything you need — dimensions, colors, layout rules — is spelled out in the source. Read the HTML and CSS directly; a screenshot won't tell you anything they don't.
-
-## Bundle contents
-
-- `mapa-mundial-monitoreo/README.md` — this file
-- `mapa-mundial-monitoreo/project/` — the `mapa mundial monitoreo` project files (HTML prototypes, assets, components)
