@@ -1,0 +1,15 @@
+[Unit]
+Description=Run HantaTracker fetch every hour
+Requires=hantatracker.service
+
+[Timer]
+# Cada hora, en el minuto :05 (deja margen para no chocar con el cron horario de GitHub)
+OnCalendar=*-*-* *:05:00
+# Si la Pi estaba apagada cuando tocaba, dispara al arrancar
+Persistent=true
+# Aleatoriza ±60s para no martillear servidores en el segundo exacto
+RandomizedDelaySec=60
+Unit=hantatracker.service
+
+[Install]
+WantedBy=timers.target

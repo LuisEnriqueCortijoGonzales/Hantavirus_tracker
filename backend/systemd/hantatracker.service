@@ -1,0 +1,21 @@
+[Unit]
+Description=HantaTracker - data fetch + git push (one-shot)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=pi
+Group=pi
+WorkingDirectory=/home/pi/proyecto_tracker/backend
+EnvironmentFile=-/home/pi/proyecto_tracker/backend/.env
+ExecStart=/home/pi/proyecto_tracker/backend/venv/bin/python3 /home/pi/proyecto_tracker/backend/fetch_data.py
+Nice=5
+StandardOutput=journal
+StandardError=journal
+
+# Timeout — si la red está lenta no queremos quedarnos colgados
+TimeoutStartSec=300
+
+[Install]
+WantedBy=multi-user.target

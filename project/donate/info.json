@@ -1,0 +1,47 @@
+{
+  "donations": [
+    {
+      "id": "btc",
+      "currency": "BTC",
+      "network": "Bitcoin",
+      "address": "bc1q4nrlum0umjw7ge3d562urzvvp6mmpcxvenamzu",
+      "qr_image": "BTC.jpeg"
+    },
+    {
+      "id": "eth",
+      "currency": "ETH",
+      "network": "Arbitrum",
+      "address": "0x5F40D5F2f9ace3D9a941B9058c8E38B7C5bb1366",
+      "qr_image": "ethereum.jpeg"
+    },
+    {
+      "id": "sol",
+      "currency": "SOL",
+      "network": "Solana",
+      "address": "5YKEgAJ8cDbw8QkTDm1UGfgYXFaasaD1K5kBCRpoHKZa",
+      "qr_image": "solana.jpeg"
+    },
+    {
+      "id": "usdc",
+      "currency": "USDC",
+      "network": "Polygon",
+      "address": "0x5F40D5F2f9ace3D9a941B9058c8E38B7C5bb1366",
+      "qr_image": "USDC.jpeg"
+    },
+    {
+      "id": "usdt",
+      "currency": "USDT",
+      "network": "Polygon",
+      "address": "0x5F40D5F2f9ace3D9a941B9058c8E38B7C5bb1366",
+      "qr_image": "USDT.jpeg"
+    },
+    {
+      "id": "pen_soles",
+      "currency": "PEN",
+      "network": "Soles · Billetera Digital",
+      "address": null,
+      "account_name": "Luis Enrique Cortijo Gonzales",
+      "qr_image": "soles.jpeg"
+    }
+  ]
+}
