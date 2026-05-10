@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T09:20:16.815148Z",
-  "next_update": "2026-05-10T09:25:00Z",
+  "generated": "2026-05-10T09:25:16.786722Z",
+  "next_update": "2026-05-10T09:30:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 18,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "USA": 3,
     "GBR": 1,
     "ARG": 17,
-    "FRA": 3,
+    "FRA": 2,
     "CHL": 1,
     "URY": 1
   },
@@ -4046,13 +4046,6 @@
       "t": "2026-05-09T23:52:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOa3JKdFdFSTlER2dhZUNybVprZ3ZEUXJJUFVacENIdHBCZzA0NVdUcWE1eXFGbG1BR3JYeUFmU3RVRzF2eklVcHh2WVdZeUNrWHNnQzUwcGs3U2p4dEFHamNmUElwaVE5NjN5T2RfaU5FNmVPWmJvWVpDajBPMG80NzhIN2ROUEpBX0JzM3VadndmSFhJTlAtdFROTVZtUExXVXJvbVYzS2lXenMxWlhYLTl1R2FmVDlUTEJZNjJVNXRYcVpTQU16Z2RMRG80MTB3?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Jefe de la OMS viaja a Canarias para coordinar evacuaci\u00f3n por brote de hantavirus en crucero - France 24",
-      "t": "2026-05-09T23:31:59Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQY2k1V3NLamplNG9vcmhHYWx3N2tyamxLQjF0MUlVRk92RURERlY5cUVmWXB6RkdCcmZac1lEWXlRTHhCRTdubnRaWXBIVzl5UGpLWHJxTVhzWl9iTmxJOTA5cWZjWnpvQzZ6SFFzMmlQaTRMdUhYRnNSMTlEWFJPSzdacTFPY2lzMnpoTWNWWmY5RmVUdkQ5emQ1eDl2ek45eTlKclpQNmItMjJGZURzN1BNRkVDUEgtdUhjSDRWNDN1TTVRUmZ6Y29OUjBwc09mYk1jVU9YMA?oc=5"
     },
     {
       "iso": "USA",
@@ -4225,8 +4218,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T09:20:16Z",
-      "signals": 14,
+      "last_update": "2026-05-10T09:25:16Z",
+      "signals": 13,
       "recent": [
         {
           "title": "When will passengers leave hantavirus cruise ship? WHO details its plan - USA Today",
