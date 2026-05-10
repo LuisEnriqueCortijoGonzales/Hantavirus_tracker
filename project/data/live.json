@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T02:10:16.746110Z",
-  "next_update": "2026-05-10T02:15:00Z",
+  "generated": "2026-05-10T02:15:14.828686Z",
+  "next_update": "2026-05-10T02:20:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 73,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 9,
+      "var_pct": 8,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 18,
+      "signals": 17,
       "gov_alert": false
     },
     "CHL": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 16,
     "polymarket": 8,
-    "kalshi": 25,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 3,
-    "ARG": 18,
+    "ARG": 17,
     "GBR": 1,
     "MEX": 1,
     "FRA": 3,
@@ -4190,13 +4190,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus en Argentina: por qu\u00e9 el aumento de casos en 2026 no se considera un brote seg\u00fan los expertos del C... - Perfil",
-      "t": "2026-05-06T20:30:56Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSGNoTTFOODJvRzF0ajZjcjM1SVhWdHY4aDBRcFhSdWp0emRGeHE1TVMzQktXMWwzeFJxcGJqUlJUYWdNaElyYzhRSWxMRGZPZVJnY0NfLTNTX1hydE9jQ0pZdG1HcjlWOVM3SW5VRTlZdmlmRTlFa0VHalZ1U2NNNGVOSGtLUzNSRVhfSlQ3WDhub21lT19seTZxMnJ5VkVacG9yWEN5VXc5NWtzSTJ3aTZXVGhQRl9rejEyT1pvcUZyc2VCSTVMMHR4NW81a294MGZiLVREcC1TeEZUWmdBOWduWXNTajRCa0l1MFRZYU_SAfYBQVVfeXFMTlgybWFhZlhEUFFRTUNoNUtfU05sTTMxNTFqSFlfeVNGZm5lRm9wYVJQVnRONWdLcFhFMWNzZ3B2M2xEMnhhY3RUQlhpZjB2V29Wd2prUGRoRGVSSGN4NUhzdkVsUEFQc2xZTTUyeFRTVFNyUERZMER5cUlzaVZqalFiRmRFeHpTU005dWxkaEtWV2RTWmNYOXdMVVM1dk1RcXoyR1dWRzJhS3Z6dzJBQ2xwUmVTMW1QM1Vxb0U1N2lJZ0xxTE94YmM4SmZHaktXZm1ublowcWxyVXNDRWxZWGhQVUNYSVg1LWxYUWczQXZpYkpGdmlR?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
       "t": "2026-05-06T15:29:33Z",
       "source": "GoogleNews-ES",
@@ -4240,7 +4233,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T02:10:16Z",
+      "last_update": "2026-05-10T02:15:14Z",
       "signals": 15,
       "recent": [
         {
