@@ -1314,18 +1314,18 @@ function BottomBar({ ds, step, setStep, filterSet, setFilterSet }) {
 // Timeline
 // ============================================================================
 function Timeline({ step, setStep, ds }) {
-  const sampleIso = Object.keys(ds.values)[0];
-  const hist = (sampleIso && ds.values[sampleIso]?.history) || [];
-
-  // 4 historical labels (oldest → yesterday). Fall back to static dates until live.json loads.
-  const histLabels = hist.length >= 4
-    ? hist.slice(0, 4).map(h => dateLabel(h.t))
-    : ['05/05','06/05','07/05','08/05'];
-
-  // Today is always computed from the real clock — never relies on loaded data
+  // Always derive dates from the real clock so the timeline advances correctly each day
   const now = new Date();
   const todayStr = String(now.getDate()).padStart(2,'0') + '/'
                  + String(now.getMonth() + 1).padStart(2,'0');
+
+  // 4 historical labels: D-4, D-3, D-2, D-1 (oldest → yesterday)
+  const histLabels = Array.from({ length: 4 }, (_, i) => {
+    const d = new Date(now);
+    d.setDate(d.getDate() - (4 - i));
+    return String(d.getDate()).padStart(2,'0') + '/'
+         + String(d.getMonth() + 1).padStart(2,'0');
+  });
 
   const isToday = step >= 5;
   const stepLabel = isToday
