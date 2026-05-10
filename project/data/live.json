@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T17:35:16.807069Z",
-  "next_update": "2026-05-10T17:40:00Z",
+  "generated": "2026-05-10T17:40:14.867409Z",
+  "next_update": "2026-05-10T17:45:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 20,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,8 +4019,8 @@
   },
   "signal_summary": {
     "ARG": 11,
+    "USA": 2,
     "FRA": 2,
-    "USA": 1,
     "CHL": 1,
     "URY": 1
   },
@@ -4038,6 +4038,13 @@
       "t": "2026-05-10T15:50:30Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVE9EVEpucmlxNXFtQmd1NEI2dDJCTkR2S0JFOHRQMDlkNmQycTV3WFBWMnkxajkyZ0J5Y0ZUWktfUnBxOXNtNndqTGJaR2V1R1ZDakhncENicGlrMHY3VHdQcjBYMk9ZNkZ0ck9FeWluUkxkSWx6dWVySFRITlJRNmpFeUNYOWtOREdRMjB6Mk9zSGdVWWhOeG9WMjZyQWNZYkZrcFpR?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Cruise ship with deadly hantavirus to evacuate passengers near Spain - USA Today",
+      "t": "2026-05-10T14:59:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNGd4RnUyREQ0dmw5bUhGQ0tzRVQ1ckNXZFYzNElDdXBFSlV1U3hKb3RKRFNnUDVQVU40N2prVVhRaXk0MFJvTUo0bVlEZ1NEeUI4cERxdmt3SmRZemJONnhuNmpKU1IydUlWSkMtR0FwNC13MGZ0b1dhUHV3TjYtYU5RVUtkcFJUVjhLYkh4TjlrOUNvTDFz?oc=5"
     },
     {
       "iso": "ARG",
@@ -4154,8 +4161,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T17:35:16Z",
-      "signals": 8,
+      "last_update": "2026-05-10T17:40:14Z",
+      "signals": 9,
       "recent": [
         {
           "title": "Hantavirus is on the rise in Argentina, where a stricken cruise ship began its journey - AP News",
