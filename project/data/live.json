@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T16:35:04.759828Z",
-  "next_update": "2026-05-10T16:40:00Z",
+  "generated": "2026-05-10T16:40:16.818769Z",
+  "next_update": "2026-05-10T16:45:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "ARG": 13,
     "FRA": 2,
-    "USA": 2,
+    "USA": 1,
     "CHL": 1,
     "URY": 1
   },
@@ -4073,13 +4073,6 @@
       "t": "2026-05-09T23:52:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOa3JKdFdFSTlER2dhZUNybVprZ3ZEUXJJUFVacENIdHBCZzA0NVdUcWE1eXFGbG1BR3JYeUFmU3RVRzF2eklVcHh2WVdZeUNrWHNnQzUwcGs3U2p4dEFHamNmUElwaVE5NjN5T2RfaU5FNmVPWmJvWVpDajBPMG80NzhIN2ROUEpBX0JzM3VadndmSFhJTlAtdFROTVZtUExXVXJvbVYzS2lXenMxWlhYLTl1R2FmVDlUTEJZNjJVNXRYcVpTQU16Z2RMRG80MTB3?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "With fears of hantavirus outbreak, here's the real pandemic risk - USA Today",
-      "t": "2026-05-09T22:07:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUHlOSHVBTi1lN1FiM1JKQzdqUEpKcGpsUndhOERZWnFJWXhWOXg1V0NGaDg1d2dkZE1EbnJteXQ5RGVNMGRNTXBqdENxWGxBN1A4RlpBbHJUSjdOYXI0ZTR2Q0hrREozMjIwUmZLSldmYnJJdllsTUlCbjJqWUpucFVHMl9nYXZJV3hvdmdFSzh1WlVITThpckl0bVc5UDRTWXd0ckVUcDQ3MzlBaTdDTS12LWprMDRtV2x6WjRKX29GNkw3UkpmRDlmNDUtaTFGSHdN?oc=5"
     },
     {
       "iso": "ARG",
@@ -4175,7 +4168,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T16:35:04Z",
+      "last_update": "2026-05-10T16:40:16Z",
       "signals": 10,
       "recent": [
         {
