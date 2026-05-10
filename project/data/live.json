@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T12:05:16.817681Z",
-  "next_update": "2026-05-10T12:10:00Z",
+  "generated": "2026-05-10T12:10:16.788813Z",
+  "next_update": "2026-05-10T12:15:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 25,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4098,13 +4098,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus: Argentina enviar\u00e1 insumos y asistencia a pa\u00edses afectados por el brote - Diario La Capital de Mar del Plata",
-      "t": "2026-05-09T13:25:50Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaU9UYUxyQXozYjhhcU5kYVd6MTJRTzdJaG91SThkMmk4b2R2TnBTcFNGb2xvcFlHNnh0N0lmdXZ4SXRiUXR4QnM5N09HMEJfYXRnMzVzdlZiQkpDS1lOeXREWHI2X0pIcEY3Q285RFRRWjNBMDRTeGRFcFQ4VjJrMVV3X001ODdzb1hFQ1l6MFZMQ2ZfMkxRVU9Fa2szeS1rV21Rb0VKMjJsd2hKbjBTSNIBtgFBVV95cUxOcVBLc1kxQWxKeE1PcTdmUzBYbG9LcG1JRkVRdVpZMHdQM2xKUG9TLTdMVXlWMHY5MFlTck1mUnZQSEQxUTk1UFhlNGFRRlQ5cmN5TndlRFkyczJvaXlzWTZRZl9CY2FPYkYtZjE1VHU2Wjhtc0NBckUtMkRPaGM4ZnNSd2o5VXZuUzBvbW9neE9xblhBb3gtOFFSaGpsaTRzRDcwTGtBMnc3czJxdUdxblRQb3BBQQ?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Argentina refuerza el monitoreo por hantavirus tras el brote en un crucero - vetmarketportal.com.ar",
       "t": "2026-05-08T21:21:43Z",
       "source": "GoogleNews-ES",
@@ -4189,6 +4182,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Hantavirus is on the rise in Argentina, where a stricken cruise ship began its journey - AP News",
+      "t": "2026-05-07T05:43:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb0FiM2x4NmY4VF9leUdBZXBMSFh2TnJaUW5vSHNRWU9HcS14WEJEaEFKNzhYTHFGVzRkbzliRW0xb1NCUHB1QUhLMDlTRU5mZzFqbHo2WkJWaTk5aW9oaENXWEVHR21wXzViUnE0Tjc1d1VjQWlFSFMwclhWSGIxOE5YV2hKeTc1N0RaMnVGWm01akY1VTJR?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Hantavirus en Argentina: por qu\u00e9 el aumento de casos en 2026 no se considera un brote seg\u00fan los expertos del C... - Perfil",
       "t": "2026-05-06T20:30:56Z",
       "source": "GoogleNews-ES",
@@ -4239,9 +4239,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T12:05:16Z",
-      "signals": 14,
+      "last_update": "2026-05-10T12:10:16Z",
+      "signals": 15,
       "recent": [
+        {
+          "title": "Hantavirus is on the rise in Argentina, where a stricken cruise ship began its journey - AP News",
+          "t": "2026-05-07T05:43:00Z",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb0FiM2x4NmY4VF9leUdBZXBMSFh2TnJaUW5vSHNRWU9HcS14WEJEaEFKNzhYTHFGVzRkbzliRW0xb1NCUHB1QUhLMDlTRU5mZzFqbHo2WkJWaTk5aW9oaENXWEVHR21wXzViUnE0Tjc1d1VjQWlFSFMwclhWSGIxOE5YV2hKeTc1N0RaMnVGWm01akY1VTJR?oc=5"
+        },
         {
           "title": "Argentina investiga si el brote de hantavirus en el crucero MV Hondius se origin\u00f3 en la Patagonia - Perfil",
           "t": "2026-05-09T18:19:00Z",
@@ -4261,11 +4266,6 @@
           "title": "Qu\u00e9 se sabe del viaje por Argentina, Chile y Uruguay de los turistas que presentaron los primeros s\u00edntomas de hantavirus en el crucero y luego murieron - BBC",
           "t": "2026-05-07T23:22:53Z",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvQk85TUotMXBBY2dsU2hHVGxNUEk3OENZdFRHR0dYLVVoWGIwaG5IVS04LXVNU1R5NXhWZU5zX2E2aXBlcXBEYXhDcllqRmRPb3hqVDY2RFRkdVXSAWBBVV95cUxNdE5pdDNZbU1qZjFPSFRBeWZWaHJGX2p0V3FBbjllTWFQNG9VekxNc0FVcVV4cEd0em5UYUxTd2JpMG9pMzREMFMzWHFUX3BZai1SeXdLZ01TR2pEenk5OHQ?oc=5"
-        },
-        {
-          "title": "Argentina reconstruye el periplo del \u2018caso \u00edndice\u2019 de hantavirus antes de subir al crucero - Sinc",
-          "t": "2026-05-07T06:16:00Z",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
         }
       ]
     }
