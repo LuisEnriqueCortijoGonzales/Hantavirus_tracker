@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T04:05:16.792195Z",
-  "next_update": "2026-05-10T04:10:00Z",
+  "generated": "2026-05-10T04:10:16.820543Z",
+  "next_update": "2026-05-10T04:15:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 8,
-    "kalshi": 24,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 3,
-    "GBR": 2,
+    "GBR": 1,
     "ARG": 16,
     "CHN": 1,
     "MEX": 1,
@@ -4069,13 +4069,6 @@
       "t": "2026-05-09T22:07:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUHlOSHVBTi1lN1FiM1JKQzdqUEpKcGpsUndhOERZWnFJWXhWOXg1V0NGaDg1d2dkZE1EbnJteXQ5RGVNMGRNTXBqdENxWGxBN1A4RlpBbHJUSjdOYXI0ZTR2Q0hrREozMjIwUmZLSldmYnJJdllsTUlCbjJqWUpucFVHMl9nYXZJV3hvdmdFSzh1WlVITThpckl0bVc5UDRTWXd0ckVUcDQ3MzlBaTdDTS12LWprMDRtV2x6WjRKX29GNkw3UkpmRDlmNDUtaTFGSHdN?oc=5"
-    },
-    {
-      "iso": "GBR",
-      "title": "UK passengers on hantavirus-hit cruise to be flown to Merseyside for quarantine - The Guardian",
-      "t": "2026-05-09T21:18:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQN25Rek9OdWVvSE5QMENKU2hxLXIybmlSRWxCN1VEeXFOS1pPdnVhMEFZNk9abDBURWZuV0tyVlA0czZwMkNOb0Jpd3pWTVc2cmlNcjk1U1JpUl9wd0FqRnowMWFIYW9oZE5aeVBsdkV2ZlhkUWZ5Qmo2VHE0NnZKZ19fSlA?oc=5"
     },
     {
       "iso": "ARG",
@@ -4241,7 +4234,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T04:05:16Z",
+      "last_update": "2026-05-10T04:10:16Z",
       "signals": 17,
       "recent": [
         {
