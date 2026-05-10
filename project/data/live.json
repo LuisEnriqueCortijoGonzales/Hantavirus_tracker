@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T17:55:16.785436Z",
-  "next_update": "2026-05-10T18:00:00Z",
+  "generated": "2026-05-10T18:00:16.779508Z",
+  "next_update": "2026-05-10T18:05:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "CHE": {
@@ -1401,7 +1401,6 @@
     "2026-05-10T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-08T18:00:00Z",
     "2026-05-08T19:00:00Z",
     "2026-05-08T20:00:00Z",
     "2026-05-08T21:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-10T14:00:00Z",
     "2026-05-10T15:00:00Z",
     "2026-05-10T16:00:00Z",
-    "2026-05-10T17:00:00Z"
+    "2026-05-10T17:00:00Z",
+    "2026-05-10T18:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 17,
+    "kalshi": 16,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,6 @@
   },
   "signal_summary": {
     "ARG": 13,
-    "FRA": 1,
     "USA": 1
   },
   "events": [
@@ -4043,13 +4042,6 @@
       "t": "2026-05-10T12:18:14Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWFpyZlk3b3R4MGZoRDdBVEE3QkVraFh5Z2hjLTk3bEdDcUc1Szg1UGdESzVSS2Y5cTN2dzJHYVVWc2ZnanpMNUJoRC03Zi1ydmVwOTg3VlVHNTNxZG8yS1FOV01PLXVQM004NG8yZjFseUQtSU9hbGxZc3ZFQkxfYk9jSDhidEZaME52WWxNWGFRQ0lvSi1mNldwbVBYeFZGT3lYZkJJdUxsMG5Bc3diQ01tdXRha3ZpVGJV0gG7AUFVX3lxTFBYWnJmWTdvdHgwZmhEN0FUQTdCRWtoWHlnaGMtOTdsR0NxRzVLODVQZ0RLNVJLZjlxM3Z3MkdhVVZzZmdqekw1QmhELTdmLXJ2ZXA5ODdWVUc1M3FkbzJLUU5XTU8tdVAzTTg0bzJmMWx5RC1JT2FsbFlzdkVCTF9iT2NIOGJ0RlowTnZZbE1YYVFDSW9KLWY2V3BtUFh4VkZPeVhmQkl1TGwwbkFzd2JDTW11dGFrdmlUYlU?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Passengers begin disembarking from cruise ship hit by hantavirus - France 24",
-      "t": "2026-05-10T05:35:58Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSU1UcGJjdkk3YlNIV2M2dWQwRktITjkyUnYzb21WcWE2Q2pGTWJuNzRWQWUzdEpicmhHZUZBdUZXaW1yNURIaXktU0w4aVM5SVZocFpmZncwa0J6eDM5TzA2SlY5SnJHdUduS3dYNjhOa2lNNXo2UGVDVHQ5Qi1yOENVVGowdFYwbTBsZXN2QWN6STlwb0xVYVlDc040ekhSQXZIX2tITm1XUzlUMnd5cVJQUjlEc3c?oc=5"
     },
     {
       "iso": "USA",
@@ -4145,8 +4137,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T17:55:16Z",
-      "signals": 10,
+      "last_update": "2026-05-10T18:00:16Z",
+      "signals": 9,
       "recent": [
         {
           "title": "Hantavirus is on the rise in Argentina, where a stricken cruise ship began its journey - AP News",
