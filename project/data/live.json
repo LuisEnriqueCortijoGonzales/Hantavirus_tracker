@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T22:35:16.798014Z",
-  "next_update": "2026-05-10T22:40:00Z",
+  "generated": "2026-05-10T22:40:14.762452Z",
+  "next_update": "2026-05-10T22:45:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -100,7 +100,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "URY": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 17,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,9 +4020,17 @@
   "signal_summary": {
     "USA": 1,
     "ARG": 13,
+    "PRY": 1,
     "FRA": 4
   },
   "events": [
+    {
+      "iso": "PRY",
+      "title": "Hantavirus in Paraguay: The current situation - Outbreak News Today",
+      "t": "2026-05-10T22:37:01Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOEM2NGNlcE5UNmQyY214NGVDMGdnMkZaeHRXVUpZNnVyNjVWblpfaHZZNXJYZFYwdUdNdGpmX1AtVVh2WlFuZVBWQVd3QjFDQWJrdXQ3Uk5UMWo5NEFXVEYtb1hBb0pIWkNWODU3V0tjVnptMnV1ZWwwb3VpLVVjbw?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Alerta por hantavirus en Argentina: cu\u00e1les son los roedores que transmiten la enfermedad y d\u00f3nde est\u00e1n - Radio Mitre",
@@ -4166,7 +4174,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T22:35:16Z",
+      "last_update": "2026-05-10T22:40:14Z",
       "signals": 9,
       "recent": [
         {
