@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T17:30:16.783445Z",
-  "next_update": "2026-05-10T17:35:00Z",
+  "generated": "2026-05-10T17:35:16.807069Z",
+  "next_update": "2026-05-10T17:40:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 19,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4028,9 +4028,16 @@
     {
       "iso": "ARG",
       "title": "Hantavirus en Argentina: qu\u00e9 roedores transmiten la enfermedad y en qu\u00e9 zonas viven - Canal26",
-      "t": "2026-05-10T15:59:31Z",
+      "t": "2026-05-10T16:00:49Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaGtPQ2tVWGViN21Kd25aT0RaRFRTZENGVy10Z3YtZzVvNmF5MmNMWXVMX1lNbkhBSkp4ZDRjSG5SaFRvTFZ1U0NoRmVvdnNSejR0Q3hvdjFwOWFYLWdVUmV6Ykh3N2ptZUduZXZuYUd3OXpwaTVDVjlOR1pCR2pJWTRucjBEOV93UDFPbEkwMzlsWDJrMkVLZzRTUkltM25udjVMN2R1dnJrSFZRY2cwSmRURm4yQi1fdzNEN3U5cWhjMEdx?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Brote de hantavirus en Argentina deja 32 muertos y alerta - laradiodelmercosur.com.ar",
+      "t": "2026-05-10T15:50:30Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVE9EVEpucmlxNXFtQmd1NEI2dDJCTkR2S0JFOHRQMDlkNmQycTV3WFBWMnkxajkyZ0J5Y0ZUWktfUnBxOXNtNndqTGJaR2V1R1ZDakhncENicGlrMHY3VHdQcjBYMk9ZNkZ0ck9FeWluUkxkSWx6dWVySFRITlJRNmpFeUNYOWtOREdRMjB6Mk9zSGdVWWhOeG9WMjZyQWNZYkZrcFpR?oc=5"
     },
     {
       "iso": "ARG",
@@ -4052,13 +4059,6 @@
       "t": "2026-05-10T05:35:58Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSU1UcGJjdkk3YlNIV2M2dWQwRktITjkyUnYzb21WcWE2Q2pGTWJuNzRWQWUzdEpicmhHZUZBdUZXaW1yNURIaXktU0w4aVM5SVZocFpmZncwa0J6eDM5TzA2SlY5SnJHdUduS3dYNjhOa2lNNXo2UGVDVHQ5Qi1yOENVVGowdFYwbTBsZXN2QWN6STlwb0xVYVlDc040ekhSQXZIX2tITm1XUzlUMnd5cVJQUjlEc3c?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Brote de hantavirus en Argentina deja 32 muertos y alerta - Yahoo",
-      "t": "2026-05-10T01:42:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTFZqbWhlSG44bU5kdFNZRnR4Um5vbnBRWDg5MnQtMkVMNjEtQnNCMUstajd4TVRvampncHJnNjI3aDluMmJ5MFA4NnYtZnV4dVd3MTBzQ0tkelEwQ1pLWmFsUS00VEFpOElTRkVoVXRwLWVUZzJiQWVueFdjNlJ1MFlSbzZkVUZKQ0E?oc=5"
     },
     {
       "iso": "USA",
@@ -4154,7 +4154,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T17:30:16Z",
+      "last_update": "2026-05-10T17:35:16Z",
       "signals": 8,
       "recent": [
         {
