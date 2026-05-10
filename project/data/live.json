@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T13:00:16.787466Z",
-  "next_update": "2026-05-10T13:05:00Z",
+  "generated": "2026-05-10T13:05:16.817814Z",
+  "next_update": "2026-05-10T13:10:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4048,6 +4048,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Brote de hantavirus en Argentina deja 32 muertos y alerta - laradiodelmercosur.com.ar",
+      "t": "2026-05-10T09:50:33Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMlNMdFdYeXFFNG84cl9uTWFsbzN2YmRoNTFQQmxKNC1mYndWLVJHakxLYTZHdlhscWViaFRQeVMzSk9yRTBrMXhjckpWQWNuWGQ0ZU9kRFpCWm5CSFEtWF9RTGY4NWh6MHZRR3Z6U19aNmV0RXR1akJMaXNCRmxuYkVBOHBGRk5qVWx6Qzl4QVdOWGdacTlaamR6cDIwOUxQSVFFb01TZlFUZWkzcXc?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Crucero con brote de hantavirus desembarca en Tenerife para evacuaci\u00f3n - Cadena 3 Argentina",
       "t": "2026-05-10T06:38:56Z",
       "source": "GoogleNews-ES",
@@ -4073,13 +4080,6 @@
       "t": "2026-05-10T05:10:34Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbGpxQlBwa3Mxb09sNWpmU1BoaFp3VGhITHZraDhydTdvS1VPUkhVNTJSQ3BaekN3QVB4TFVqVWFRZjl1Q3dpNHVnQlBsYzNvSm5NMlNUUUlzLTFIdnhVamgyY2d6bWp2MzJlU2htaHJrRWs4YVNGMUJvWDZ1Q2hOU3pGdk5pRTFMTl9fWTFRQ0V4bDVoWk54LWZCSGd2cEh3YjZYeENxdG55R2hpQTYw0gG0AUFVX3lxTE5QQVk5X3V2Tnk3Y0Jvd3J1a2M2ZFBWcWQ2ZEloSU4tV1NuNVFaMjh5Z2JHd1pUeExuVG5LWWt3NVFOUXpvMTZUc1JfRzVEQjNXSVhSVUxRWTFkR1dVMHRIVWhScjhValY1RjFxY0FtYWFCa1RLdGQ3OUc5Q2JvX3JLLWN4eFNXTjd1QWFHLVpwbjF4cHlBX3BaN1EySVZSUTlwNTl2dFlWT2RqeDNyZ0tBSTg2Qg?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Brote de hantavirus en Argentina deja 32 muertos y alerta - Yahoo",
-      "t": "2026-05-10T01:42:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTFZqbWhlSG44bU5kdFNZRnR4Um5vbnBRWDg5MnQtMkVMNjEtQnNCMUstajd4TVRvampncHJnNjI3aDluMmJ5MFA4NnYtZnV4dVd3MTBzQ0tkelEwQ1pLWmFsUS00VEFpOElTRkVoVXRwLWVUZzJiQWVueFdjNlJ1MFlSbzZkVUZKQ0E?oc=5"
     },
     {
       "iso": "USA",
@@ -4245,7 +4245,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T13:00:16Z",
+      "last_update": "2026-05-10T13:05:16Z",
       "signals": 14,
       "recent": [
         {
