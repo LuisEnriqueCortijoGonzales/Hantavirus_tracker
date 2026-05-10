@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-10T18:30:14.847007Z",
-  "next_update": "2026-05-10T18:35:00Z",
+  "generated": "2026-05-10T18:35:16.811619Z",
+  "next_update": "2026-05-10T18:40:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 71,
+      "ytd": 70,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 6,
+      "var_pct": 5,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 12,
+      "signals": 10,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
     ],
     "CHL": [
       31,
@@ -1452,54 +1452,54 @@
   ],
   "hourly_history": {
     "ARG": [
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
     ],
     "CHL": [
       31,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "ARG": 12,
+    "ARG": 10,
     "USA": 1
   },
   "events": [
@@ -4031,6 +4031,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Brote de hantavirus en Argentina deja 32 muertos y alerta - laradiodelmercosur.com.ar",
+      "t": "2026-05-10T15:50:30Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVE9EVEpucmlxNXFtQmd1NEI2dDJCTkR2S0JFOHRQMDlkNmQycTV3WFBWMnkxajkyZ0J5Y0ZUWktfUnBxOXNtNndqTGJaR2V1R1ZDakhncENicGlrMHY3VHdQcjBYMk9ZNkZ0ck9FeWluUkxkSWx6dWVySFRITlJRNmpFeUNYOWtOREdRMjB6Mk9zSGdVWWhOeG9WMjZyQWNZYkZrcFpR?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Argentina in spotlight over hantavirus as authorities retrace footsteps of ship\u2019s passengers - The Guardian",
       "t": "2026-05-10T13:33:00Z",
       "source": "GoogleNews-EN",
@@ -4039,9 +4046,9 @@
     {
       "iso": "ARG",
       "title": "Desembarco del crucero MV Hondius en Tenerife tras brote de hantavirus - Cadena 3 Argentina",
-      "t": "2026-05-10T12:18:14Z",
+      "t": "2026-05-10T12:17:39Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWFpyZlk3b3R4MGZoRDdBVEE3QkVraFh5Z2hjLTk3bEdDcUc1Szg1UGdESzVSS2Y5cTN2dzJHYVVWc2ZnanpMNUJoRC03Zi1ydmVwOTg3VlVHNTNxZG8yS1FOV01PLXVQM004NG8yZjFseUQtSU9hbGxZc3ZFQkxfYk9jSDhidEZaME52WWxNWGFRQ0lvSi1mNldwbVBYeFZGT3lYZkJJdUxsMG5Bc3diQ01tdXRha3ZpVGJV0gG7AUFVX3lxTFBYWnJmWTdvdHgwZmhEN0FUQTdCRWtoWHlnaGMtOTdsR0NxRzVLODVQZ0RLNVJLZjlxM3Z3MkdhVVZzZmdqekw1QmhELTdmLXJ2ZXA5ODdWVUc1M3FkbzJLUU5XTU8tdVAzTTg0bzJmMWx5RC1JT2FsbFlzdkVCTF9iT2NIOGJ0RlowTnZZbE1YYVFDSW9KLWY2V3BtUFh4VkZPeVhmQkl1TGwwbkFzd2JDTW11dGFrdmlUYlU?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRDg4RHFzZWZ5S1VVYnhMcVB6MEdhSXdFXzVOdnF2R1ppUzlJUU9QWWdza3R1cG5pWlFUQzJsZE5CeHFJWXMtV0ZLZEdfUy1tQ0VCYlU5WTlqY3RwWEF5M1JfaUU4aXNLaERkTVp2N2xoUTlEd3FMbURhUzRfOHN6WF9Pa0RFV29MMEpMTnRkVHVTTnk1RzJVU0hueVY2ejFIdXlqdzJMdUZMdzJlaXdXbG5ZOU15QdIBuwFBVV95cUxQWFpyZlk3b3R4MGZoRDdBVEE3QkVraFh5Z2hjLTk3bEdDcUc1Szg1UGdESzVSS2Y5cTN2dzJHYVVWc2ZnanpMNUJoRC03Zi1ydmVwOTg3VlVHNTNxZG8yS1FOV01PLXVQM004NG8yZjFseUQtSU9hbGxZc3ZFQkxfYk9jSDhidEZaME52WWxNWGFRQ0lvSi1mNldwbVBYeFZGT3lYZkJJdUxsMG5Bc3diQ01tdXRha3ZpVGJV?oc=5"
     },
     {
       "iso": "USA",
@@ -4080,13 +4087,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus en Argentina: por qu\u00e9 el aumento de casos en 2026 no se considera un brote seg\u00fan los expertos del C... - Perfil",
-      "t": "2026-05-06T20:30:56Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSGNoTTFOODJvRzF0ajZjcjM1SVhWdHY4aDBRcFhSdWp0emRGeHE1TVMzQktXMWwzeFJxcGJqUlJUYWdNaElyYzhRSWxMRGZPZVJnY0NfLTNTX1hydE9jQ0pZdG1HcjlWOVM3SW5VRTlZdmlmRTlFa0VHalZ1U2NNNGVOSGtLUzNSRVhfSlQ3WDhub21lT19seTZxMnJ5VkVacG9yWEN5VXc5NWtzSTJ3aTZXVGhQRl9rejEyT1pvcUZyc2VCSTVMMHR4NW81a294MGZiLVREcC1TeEZUWmdBOWduWXNTajRCa0l1MFRZYU_SAfYBQVVfeXFMTlgybWFhZlhEUFFRTUNoNUtfU05sTTMxNTFqSFlfeVNGZm5lRm9wYVJQVnRONWdLcFhFMWNzZ3B2M2xEMnhhY3RUQlhpZjB2V29Wd2prUGRoRGVSSGN4NUhzdkVsUEFQc2xZTTUyeFRTVFNyUERZMER5cUlzaVZqalFiRmRFeHpTU005dWxkaEtWV2RTWmNYOXdMVVM1dk1RcXoyR1dWRzJhS3Z6dzJBQ2xwUmVTMW1QM1Vxb0U1N2lJZ0xxTE94YmM4SmZHaktXZm1ublowcWxyVXNDRWxZWGhQVUNYSVg1LWxYUWczQXZpYkpGdmlR?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
       "t": "2026-05-06T15:29:33Z",
       "source": "GoogleNews-ES",
@@ -4098,20 +4098,6 @@
       "t": "2026-05-06T04:21:57Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdDd6MHQ1c25HX0lPOEk0QjNtNzFoY0pNUE8xZG1JZnZETGNTd01zN29qSHFVdS1vLThZYnBKN1VMZGFCdTFfSDR6eXNWRkFlSnhPWG1JTU9NdmxBQ1JOeXRuQ0VCZ2J4cHVmS1ZnWXVsbTVqRGtKOFBMZUxoOURVMENpT0hFel9NU2RRTGpSbl9oNGRKNHh6OXNuOTlXNFJyRVZYc1JUekJiNFByLWxob3NTNUdfLWJpQ1FVSmpNQmhrNEU3bWZXUzRYbV9Idzl2OXBFaGJBcVYyTnREODZB?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Qu\u00e9 es el hantavirus, la infecci\u00f3n que caus\u00f3 la muerte de tres pasajeros de un crucero que sali\u00f3 de la Argentina - La Naci\u00f3n",
-      "t": "2026-05-05T12:58:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPd1lpMDl4SG5VRHFzNUwyOHp0VGRlWjEwdFZkRVJfTjVncmlENFcxRkFTX2U3Nm14VnRtZ2VSYTNOdUxOVEc1UHZxMG52S3VEM1AzekdoOHBnelRjakQ2WndvUjhwaGl5NmoyYVVZd2s1b1o0NXF1NTZmbUc5TklpTlFMSFJHX2dMX0ZiUThSY2x3VlVnQjBJNXZKZG4zajRRNldGMUg0emJlbUphRldJS3JvVDdPZGRHeHEtaEZJUThodE9tYkliZG5UNFNSV3FZaUpSNVlEYjF2R0pYYUNUb013?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "El crucero que enfrenta un brote mortal de hantavirus zarp\u00f3 de Argentina. El virus en ese pa\u00eds tiene un cap\u00edtulo traum\u00e1tico - CNN en Espa\u00f1ol",
-      "t": "2026-05-04T17:02:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUmpOemFSbjFHb0F2bkVEMmRlZzdFdlFCYXpXb1pib1dra0lOa2gyNVB4bmdRUVdFM2VqZTRQZi1ZTXUwR3lwRnVUNUZ2d25DMGdYeDFvN3QwU2dVeUtZbjBuam9XX0c1Z0NManZLMjBzSmZzUnZDVjFBVXFUblNXZDRseTZ3SUNNSlVfNmlobVdZdlFyUGpxS0lyZw?oc=5"
     }
   ],
   "maritime_events": [
@@ -4130,8 +4116,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T18:30:14Z",
-      "signals": 9,
+      "last_update": "2026-05-10T18:35:16Z",
+      "signals": 7,
       "recent": [
         {
           "title": "Hantavirus is on the rise in Argentina, where a stricken cruise ship began its journey - AP News",
@@ -4139,9 +4125,9 @@
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb0FiM2x4NmY4VF9leUdBZXBMSFh2TnJaUW5vSHNRWU9HcS14WEJEaEFKNzhYTHFGVzRkbzliRW0xb1NCUHB1QUhLMDlTRU5mZzFqbHo2WkJWaTk5aW9oaENXWEVHR21wXzViUnE0Tjc1d1VjQWlFSFMwclhWSGIxOE5YV2hKeTc1N0RaMnVGWm01akY1VTJR?oc=5"
         },
         {
-          "title": "Brote de hantavirus en un crucero que zarp\u00f3 desde Argentina: qu\u00e9 se sabe sobre la enfermedad y c\u00f3mo prevenirla - Chequeado",
-          "t": "2026-05-06T04:21:57Z",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdDd6MHQ1c25HX0lPOEk0QjNtNzFoY0pNUE8xZG1JZnZETGNTd01zN29qSHFVdS1vLThZYnBKN1VMZGFCdTFfSDR6eXNWRkFlSnhPWG1JTU9NdmxBQ1JOeXRuQ0VCZ2J4cHVmS1ZnWXVsbTVqRGtKOFBMZUxoOURVMENpT0hFel9NU2RRTGpSbl9oNGRKNHh6OXNuOTlXNFJyRVZYc1JUekJiNFByLWxob3NTNUdfLWJpQ1FVSmpNQmhrNEU3bWZXUzRYbV9Idzl2OXBFaGJBcVYyTnREODZB?oc=5"
+          "title": "Desembarco del crucero MV Hondius en Tenerife tras brote de hantavirus - Cadena 3 Argentina",
+          "t": "2026-05-10T12:17:39Z",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRDg4RHFzZWZ5S1VVYnhMcVB6MEdhSXdFXzVOdnF2R1ppUzlJUU9QWWdza3R1cG5pWlFUQzJsZE5CeHFJWXMtV0ZLZEdfUy1tQ0VCYlU5WTlqY3RwWEF5M1JfaUU4aXNLaERkTVp2N2xoUTlEd3FMbURhUzRfOHN6WF9Pa0RFV29MMEpMTnRkVHVTTnk1RzJVU0hueVY2ejFIdXlqdzJMdUZMdzJlaXdXbG5ZOU15QdIBuwFBVV95cUxQWFpyZlk3b3R4MGZoRDdBVEE3QkVraFh5Z2hjLTk3bEdDcUc1Szg1UGdESzVSS2Y5cTN2dzJHYVVWc2ZnanpMNUJoRC03Zi1ydmVwOTg3VlVHNTNxZG8yS1FOV01PLXVQM004NG8yZjFseUQtSU9hbGxZc3ZFQkxfYk9jSDhidEZaME52WWxNWGFRQ0lvSi1mNldwbVBYeFZGT3lYZkJJdUxsMG5Bc3diQ01tdXRha3ZpVGJV?oc=5"
         },
         {
           "title": "Argentina reconstruye el periplo del \u2018caso \u00edndice\u2019 de hantavirus antes de subir al crucero - Sinc",
@@ -4154,9 +4140,9 @@
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
         },
         {
-          "title": "El crucero que enfrenta un brote mortal de hantavirus zarp\u00f3 de Argentina. El virus en ese pa\u00eds tiene un cap\u00edtulo traum\u00e1tico - CNN en Espa\u00f1ol",
-          "t": "2026-05-04T17:02:00Z",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUmpOemFSbjFHb0F2bkVEMmRlZzdFdlFCYXpXb1pib1dra0lOa2gyNVB4bmdRUVdFM2VqZTRQZi1ZTXUwR3lwRnVUNUZ2d25DMGdYeDFvN3QwU2dVeUtZbjBuam9XX0c1Z0NManZLMjBzSmZzUnZDVjFBVXFUblNXZDRseTZ3SUNNSlVfNmlobVdZdlFyUGpxS0lyZw?oc=5"
+          "title": "Brote de hantavirus en un crucero que zarp\u00f3 desde Argentina: qu\u00e9 se sabe sobre la enfermedad y c\u00f3mo prevenirla - Chequeado",
+          "t": "2026-05-06T04:21:57Z",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdDd6MHQ1c25HX0lPOEk0QjNtNzFoY0pNUE8xZG1JZnZETGNTd01zN29qSHFVdS1vLThZYnBKN1VMZGFCdTFfSDR6eXNWRkFlSnhPWG1JTU9NdmxBQ1JOeXRuQ0VCZ2J4cHVmS1ZnWXVsbTVqRGtKOFBMZUxoOURVMENpT0hFel9NU2RRTGpSbl9oNGRKNHh6OXNuOTlXNFJyRVZYc1JUekJiNFByLWxob3NTNUdfLWJpQ1FVSmpNQmhrNEU3bWZXUzRYbV9Idzl2OXBFaGJBcVYyTnREODZB?oc=5"
         }
       ]
     }
