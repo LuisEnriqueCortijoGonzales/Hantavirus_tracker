@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T07:20:16.781528Z",
-  "next_update": "2026-05-10T07:25:00Z",
+  "generated": "2026-05-10T07:25:16.799838Z",
+  "next_update": "2026-05-10T07:30:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 22,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,6 +4020,7 @@
   "signal_summary": {
     "USA": 3,
     "ARG": 17,
+    "GBR": 1,
     "FRA": 3,
     "CHL": 1,
     "URY": 1
@@ -4087,6 +4088,13 @@
       "t": "2026-05-09T13:25:50Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaU9UYUxyQXozYjhhcU5kYVd6MTJRTzdJaG91SThkMmk4b2R2TnBTcFNGb2xvcFlHNnh0N0lmdXZ4SXRiUXR4QnM5N09HMEJfYXRnMzVzdlZiQkpDS1lOeXREWHI2X0pIcEY3Q285RFRRWjNBMDRTeGRFcFQ4VjJrMVV3X001ODdzb1hFQ1l6MFZMQ2ZfMkxRVU9Fa2szeS1rV21Rb0VKMjJsd2hKbjBTSNIBtgFBVV95cUxOcVBLc1kxQWxKeE1PcTdmUzBYbG9LcG1JRkVRdVpZMHdQM2xKUG9TLTdMVXlWMHY5MFlTck1mUnZQSEQxUTk1UFhlNGFRRlQ5cmN5TndlRFkyczJvaXlzWTZRZl9CY2FPYkYtZjE1VHU2Wjhtc0NBckUtMkRPaGM4ZnNSd2o5VXZuUzBvbW9neE9xblhBb3gtOFFSaGpsaTRzRDcwTGtBMnc3czJxdUdxblRQb3BBQQ?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "Britain Identifies New Suspected Hantavirus Cruise Case As Ship Prepares To Dock Saturday (Live Updates) - Forbes",
+      "t": "2026-05-08T14:18:45Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQTl6OGh3Y2RHY1pYWDlYZUdJYnVnTFA5RENsblN1eG5fV0dUN1YtZEtKODRLeDFZbTB4M2Zld0JOT3Zhb3BCTG81ZTZPbWtPOUVLWUhXNFNkMzZxTUQ5NS1QdFFkVEo5VWlLQmNIb0pCWEtnS0EtLU41X0YtbFdQR0RkSU9VMGZyVEx6QWhpWWZwbENBVHlGRElJTERMUFh1OTZyc1pHSDZpUTdhR0RKMkJBbDRNdVNBWmRUck05cE14a25kM19WQzAwTWo?oc=5"
     },
     {
       "iso": "ARG",
@@ -4217,7 +4225,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T07:20:16Z",
+      "last_update": "2026-05-10T07:25:16Z",
       "signals": 13,
       "recent": [
         {
