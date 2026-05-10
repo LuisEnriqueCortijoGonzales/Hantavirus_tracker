@@ -257,65 +257,83 @@ function App() {
   };
 
   return (
-    <div className="app">
-      <Header
+    <>
+      <div className="app desktop-app">
+        <Header
+          ds={ds} datasetId={datasetId} setDatasetId={setDatasetId}
+          theme={theme} setTheme={v => setTweak('theme', v)}
+          search={search} setSearch={setSearch}
+          compareMode={compareMode}
+          setCompareMode={v => { setCompareMode(v); if (!v) setCompare(null); }}
+          now={now} onDonate={() => setDonationOpen(true)}
+          lang={lang} onToggleLang={toggleLang}
+          lastUpdated={lastUpdated}
+        />
+
+        <div className="layout">
+          <aside className="left">
+            <PandemicPanel datasetsVer={datasetsVer} />
+            <SummaryPanel ds={ds} step={step} />
+            <RankingPanel ds={ds} step={step} onPick={setSelected} selected={selected} compare={compare} />
+          </aside>
+
+          <main className="center">
+            <MapView
+              ds={ds} topo={topo} theme={theme} step={step}
+              filterSet={filterSet} hovered={hovered} setHovered={setHovered}
+              selected={selected} setSelected={setSelected}
+              compare={compare} setCompare={setCompare}
+              compareMode={compareMode} search={search}
+              liveReady={liveReady}
+            />
+            <BottomBar ds={ds} step={step} setStep={setStep} filterSet={filterSet} setFilterSet={setFilterSet} />
+          </main>
+
+          <aside className="right">
+            <DetailPanel ds={ds} iso={selected} compareIso={compare} compareMode={compareMode} step={step} />
+            <ChartPanel ds={ds} iso={selected} compareIso={compare} step={step} lang={lang} />
+            <NewsPanel iso={selected} lang={lang} />
+            <EventsPanel ds={ds} onPick={setSelected} />
+          </aside>
+        </div>
+
+        {hovered && <Tooltip ds={ds} hovered={hovered} step={step} />}
+
+        <footer className="page-footer">
+          <span className="footer-brand">HantaTracker</span>
+          <span className="footer-sep">·</span>
+          <span className="footer-author">by <strong>Luis Enrique Cortijo Gonzales</strong></span>
+          <span className="footer-sep">·</span>
+          <span className="footer-data">Datos: OPS/OMS · CDC · ECDC · RKI · THL</span>
+        </footer>
+
+        <window.TweaksPanel title="Tweaks">
+          <window.TweakSection title="Apariencia">
+            <window.TweakRadio label="Tema" value={theme}
+              onChange={v => setTweak('theme', v)}
+              options={[{ value: 'light', label: 'Claro' }, { value: 'dark', label: 'Oscuro' }]}
+            />
+          </window.TweakSection>
+        </window.TweaksPanel>
+      </div>
+
+      <MobileApp
         ds={ds} datasetId={datasetId} setDatasetId={setDatasetId}
-        theme={theme} setTheme={v => setTweak('theme', v)}
+        topo={topo} theme={theme} setTheme={v => setTweak('theme', v)}
+        step={step} setStep={setStep}
+        filterSet={filterSet} setFilterSet={setFilterSet}
+        selected={selected} setSelected={setSelected}
+        compare={compare} setCompare={setCompare}
+        compareMode={compareMode} setCompareMode={v => { setCompareMode(v); if (!v) setCompare(null); }}
         search={search} setSearch={setSearch}
-        compareMode={compareMode}
-        setCompareMode={v => { setCompareMode(v); if (!v) setCompare(null); }}
-        now={now} onDonate={() => setDonationOpen(true)}
         lang={lang} onToggleLang={toggleLang}
+        onDonate={() => setDonationOpen(true)}
+        liveReady={liveReady} datasetsVer={datasetsVer}
         lastUpdated={lastUpdated}
       />
 
-      <div className="layout">
-        <aside className="left">
-          <PandemicPanel datasetsVer={datasetsVer} />
-          <SummaryPanel ds={ds} step={step} />
-          <RankingPanel ds={ds} step={step} onPick={setSelected} selected={selected} compare={compare} />
-        </aside>
-
-        <main className="center">
-          <MapView
-            ds={ds} topo={topo} theme={theme} step={step}
-            filterSet={filterSet} hovered={hovered} setHovered={setHovered}
-            selected={selected} setSelected={setSelected}
-            compare={compare} setCompare={setCompare}
-            compareMode={compareMode} search={search}
-            liveReady={liveReady}
-          />
-          <BottomBar ds={ds} step={step} setStep={setStep} filterSet={filterSet} setFilterSet={setFilterSet} />
-        </main>
-
-        <aside className="right">
-          <DetailPanel ds={ds} iso={selected} compareIso={compare} compareMode={compareMode} step={step} />
-          <ChartPanel ds={ds} iso={selected} compareIso={compare} step={step} lang={lang} />
-          <NewsPanel iso={selected} lang={lang} />
-          <EventsPanel ds={ds} onPick={setSelected} />
-        </aside>
-      </div>
-
-      {hovered && <Tooltip ds={ds} hovered={hovered} step={step} />}
       {donationOpen && <DonationModal onClose={() => setDonationOpen(false)} />}
-
-      <footer className="page-footer">
-        <span className="footer-brand">HantaTracker</span>
-        <span className="footer-sep">·</span>
-        <span className="footer-author">by <strong>Luis Enrique Cortijo Gonzales</strong></span>
-        <span className="footer-sep">·</span>
-        <span className="footer-data">Datos: OPS/OMS · CDC · ECDC · RKI · THL</span>
-      </footer>
-
-      <window.TweaksPanel title="Tweaks">
-        <window.TweakSection title="Apariencia">
-          <window.TweakRadio label="Tema" value={theme}
-            onChange={v => setTweak('theme', v)}
-            options={[{ value: 'light', label: 'Claro' }, { value: 'dark', label: 'Oscuro' }]}
-          />
-        </window.TweakSection>
-      </window.TweaksPanel>
-    </div>
+    </>
   );
 }
 
@@ -1496,6 +1514,121 @@ function DonateCard({ wallet }) {
           </button>
         </>
       )}
+    </div>
+  );
+}
+
+// ============================================================================
+// Mobile App — optimized for ≤768px, hidden on desktop via CSS
+// ============================================================================
+function MobileApp({
+  ds, datasetId, setDatasetId, topo, theme, setTheme,
+  step, setStep, filterSet, setFilterSet,
+  selected, setSelected, compare, setCompare,
+  compareMode, setCompareMode, search, setSearch,
+  lang, onToggleLang, onDonate, liveReady, datasetsVer,
+}) {
+  const [mobileTab, setMobileTab] = useState('map');
+  const [hovered, setHovered]     = useState(null);
+
+  const pickCountry = iso => {
+    setSelected(iso);
+    setMobileTab('detail');
+  };
+
+  return (
+    <div className="mob-app" data-theme={theme}>
+
+      {/* ── Header ── */}
+      <header className="mob-header">
+        <div className="mob-brand">
+          <div className="brand-mark" aria-hidden="true"><span/></div>
+          <div className="mob-brand-text">
+            <span className="mob-brand-title">Hantavirus</span>
+            <span className="mob-brand-sub">{window.t('header.sub')}</span>
+          </div>
+        </div>
+        <div className="mob-actions">
+          <button className="mob-btn" onClick={onToggleLang}>{window.t('lang.toggle')}</button>
+          <button className="mob-btn" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} title="Tema">
+            {theme === 'dark'
+              ? <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4" fill="currentColor"/><g stroke="currentColor" strokeWidth="1.6" strokeLinecap="round"><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M5.6 18.4 7 17M17 7l1.4-1.4"/></g></svg>
+              : <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" fill="currentColor"/></svg>}
+          </button>
+          <button className="mob-btn" onClick={onDonate} title={window.t('header.donate')}>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+          </button>
+        </div>
+      </header>
+
+      {/* ── Dataset pills (only on map tab) ── */}
+      {mobileTab === 'map' && (
+        <div className="mob-ds-pills">
+          {Object.values(window.DATASETS).map(d => (
+            <button key={d.id}
+              className={`mob-ds-pill${d.id === datasetId ? ' is-active' : ''}`}
+              onClick={() => setDatasetId(d.id)}>
+              {window.t('ds.' + d.id + '.sub')}
+            </button>
+          ))}
+        </div>
+      )}
+
+      {/* ── Content area ── */}
+      <div className="mob-content">
+        {mobileTab === 'map' && (
+          <MapView
+            ds={ds} topo={topo} theme={theme} step={step}
+            filterSet={filterSet} hovered={hovered} setHovered={setHovered}
+            selected={selected} setSelected={pickCountry}
+            compare={compare} setCompare={setCompare}
+            compareMode={compareMode} search={search}
+            liveReady={liveReady}
+          />
+        )}
+        {mobileTab === 'analysis' && (
+          <div className="mob-panel-scroll">
+            <PandemicPanel datasetsVer={datasetsVer} />
+            <SummaryPanel ds={ds} step={step} />
+            <RankingPanel ds={ds} step={step} onPick={pickCountry} selected={selected} compare={compare} />
+          </div>
+        )}
+        {mobileTab === 'detail' && (
+          <div className="mob-panel-scroll">
+            {!selected && (
+              <div className="mob-no-sel">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
+                <p>{lang === 'es' ? 'Toca un país en el Mapa para ver su detalle.' : 'Tap a country on the Map to see details.'}</p>
+              </div>
+            )}
+            <DetailPanel ds={ds} iso={selected} compareIso={compare} compareMode={compareMode} step={step} />
+            <ChartPanel ds={ds} iso={selected} compareIso={compare} step={step} lang={lang} />
+            <NewsPanel iso={selected} lang={lang} />
+            <EventsPanel ds={ds} onPick={setSelected} />
+          </div>
+        )}
+      </div>
+
+      {/* ── Bottom nav ── */}
+      <nav className="mob-nav">
+        <button className={`mob-nav-tab${mobileTab === 'analysis' ? ' is-active' : ''}`}
+                onClick={() => setMobileTab('analysis')}>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"><rect x="3" y="12" width="4" height="9"/><rect x="10" y="7" width="4" height="14"/><rect x="17" y="3" width="4" height="18"/></svg>
+          <span>{lang === 'es' ? 'Análisis' : 'Analysis'}</span>
+        </button>
+        <button className={`mob-nav-tab mob-nav-center${mobileTab === 'map' ? ' is-active' : ''}`}
+                onClick={() => setMobileTab('map')}>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg>
+          <span>{lang === 'es' ? 'Mapa' : 'Map'}</span>
+        </button>
+        <button className={`mob-nav-tab${mobileTab === 'detail' ? ' is-active' : ''}`}
+                onClick={() => setMobileTab('detail')}>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          <span>{lang === 'es' ? 'Detalle' : 'Detail'}</span>
+        </button>
+      </nav>
+
+      {hovered && mobileTab === 'map' && <Tooltip ds={ds} hovered={hovered} step={step} />}
     </div>
   );
 }
