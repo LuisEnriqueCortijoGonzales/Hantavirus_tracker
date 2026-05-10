@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T06:15:14.943425Z",
-  "next_update": "2026-05-10T06:20:00Z",
+  "generated": "2026-05-10T06:20:14.771699Z",
+  "next_update": "2026-05-10T06:25:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 73,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 9,
+      "var_pct": 8,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 18,
+      "signals": 17,
       "gov_alert": false
     },
     "CHL": {
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 3,
     "GBR": 1,
-    "ARG": 18,
+    "ARG": 17,
     "FRA": 3,
     "CHL": 1,
     "URY": 1
@@ -4053,13 +4053,6 @@
       "t": "2026-05-09T23:31:59Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQY2k1V3NLamplNG9vcmhHYWx3N2tyamxLQjF0MUlVRk92RURERlY5cUVmWXB6RkdCcmZac1lEWXlRTHhCRTdubnRaWXBIVzl5UGpLWHJxTVhzWl9iTmxJOTA5cWZjWnpvQzZ6SFFzMmlQaTRMdUhYRnNSMTlEWFJPSzdacTFPY2lzMnpoTWNWWmY5RmVUdkQ5emQ1eDl2ek45eTlKclpQNmItMjJGZURzN1BNRkVDUEgtdUhjSDRWNDN1TTVRUmZ6Y29OUjBwc09mYk1jVU9YMA?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "La OMS asegura que el crucero con hantavirus no representa un riesgo como el Covid - Cadena 3 Argentina",
-      "t": "2026-05-09T22:58:51Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNzZYamxqYzBHQVlBTTdYa1lWS3lZNHI3WVJEZHJ6djc4MERWdFV2QktKU05GMEJkQTV5cE02TWFoQ25xNXNuR2dESEprb01kOWJZd21RTHFoUUhfc3h5NDZkcGM4OGRsS1BNVXpZOG9HU21iMzNiNnZ3Nk1kTnNrMGRYWHR5VkJKaXE0SHZoMTVtdHZOVWtVdXFfWWZ5dk5fSEtFZGNJOFNLdjFieWE1N242ZXhWN2EwU3JpejZpVktuVVlxdWfSAcsBQVVfeXFMTU95bmRGb3ptdGpRejdWZHJxYVFZenJ5ZEwxTFhlNG5zdWZneC1WVXNudC1OcGdmeWk1eWNiTHhNcVEzRUE4Znc2YWRtNkhqdG53eDFUZmU2UFlYMnU4QWJxanVWQnRzMWE2YnJBQ2pZZWwwVERCWnlZUmN3bE9SRjNIYXZ3OEMtTjNvcUR3UGlqUkFOcnBVdnJpYWRYQWIxZVZDRWp4eWdZVkZicHpubGpYRk5hRGZpRWtWOGJNYUhqcUdqbFdob251b0U?oc=5"
     },
     {
       "iso": "USA",
@@ -4232,8 +4225,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T06:15:14Z",
-      "signals": 14,
+      "last_update": "2026-05-10T06:20:14Z",
+      "signals": 13,
       "recent": [
         {
           "title": "When will passengers leave hantavirus cruise ship? WHO details its plan - USA Today",
