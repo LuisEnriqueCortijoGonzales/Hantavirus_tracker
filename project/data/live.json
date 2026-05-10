@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T18:10:16.783694Z",
-  "next_update": "2026-05-10T18:15:00Z",
+  "generated": "2026-05-10T18:15:14.883736Z",
+  "next_update": "2026-05-10T18:20:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 13,
+      "signals": 12,
       "gov_alert": false
     },
     "CHL": {
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 19,
+    "kalshi": 15,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "ARG": 13,
+    "ARG": 12,
     "USA": 1
   },
   "events": [
@@ -4094,13 +4094,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus en Argentina: se notificaron 42 casos en lo que va del a\u00f1o - Infobae",
-      "t": "2026-05-06T14:52:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVEdJcmd0RHBRRWRpOEZMLUpDZEhlTk5ENm9VdUFyWXo2U3hENlMyR00zOUl2eTZIQlVRVm03dWFKZTdUejJjcFU2Q0lDVmp6RkdvallwZEdZeHphRTBWbmhTZkRjTzFfbHlsRnhRczZ0THBYTE1lTTFpWkJsZzBLbXZ4VjNlcjlNOUhJWGdJSHV5STdneFN6dUs3dW9VVkY3NzU2RHlhbGxZa2x6Q3ZR0gHKAUFVX3lxTE5YblBBX1AwOEFBMFJiTjJBS1MxMUFMNDBIWGZqYzBncVlwcTdaQ2J3dHEtOWNsYUN3T1cweFZvMWRzMUZGa3dYdzRJVEhhRi05aVFKR1lqTXBqTFpPX28yQThYclFraElONDl4aVVSN3ZYT0lGdEVycGp5RE1HOUJmOHY0WkpDaW92VWQtSjN4MzhoSzJZeU5VM1cxUEEyV3BaeVBpZEpQdGpkVEtXNmZSYlY4Z0dIRWlxWDR4Z3JKNmN2UFktd0d3UEE?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Brote de hantavirus en un crucero que zarp\u00f3 desde Argentina: qu\u00e9 se sabe sobre la enfermedad y c\u00f3mo prevenirla - Chequeado",
       "t": "2026-05-06T04:21:57Z",
       "source": "GoogleNews-ES",
@@ -4137,7 +4130,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T18:10:16Z",
+      "last_update": "2026-05-10T18:15:14Z",
       "signals": 9,
       "recent": [
         {
