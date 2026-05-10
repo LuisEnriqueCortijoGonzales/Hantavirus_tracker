@@ -181,6 +181,7 @@ function App() {
   });
   const [lastUpdated, setLastUpdated] = useState(null);
   const [datasetsVer, setDatasetsVer] = useState(0);
+  const [liveReady,   setLiveReady]   = useState(false);
 
   const ds = window.DATASETS[datasetId];
 
@@ -219,9 +220,9 @@ function App() {
             };
           }
           if (upd.casos.values[iso]) {
-            // Use indices 8-12 of the 14-day history for timeline steps 0-4
-            const hist5 = (history[iso] && dates && dates.length >= 13)
-              ? [8,9,10,11,12].map(j => ({ t: dates[j], v: history[iso][j] ?? c.ytd }))
+            // Indices 9-13 of the 14-day array (index 13 = today)
+            const hist5 = (history[iso] && dates && dates.length >= 14)
+              ? [9,10,11,12,13].map(j => ({ t: dates[j], v: history[iso][j] ?? c.ytd }))
               : upd.casos.values[iso].history;
             upd.casos.values[iso] = { ...upd.casos.values[iso], current: c.ytd, history: hist5 };
           }
@@ -237,6 +238,7 @@ function App() {
         window.DATASETS = upd;
         setLastUpdated(Date.now());
         setDatasetsVer(v => v + 1);
+        setLiveReady(true);
       })
       .catch(() => {});
   }, []);
@@ -280,6 +282,7 @@ function App() {
             selected={selected} setSelected={setSelected}
             compare={compare} setCompare={setCompare}
             compareMode={compareMode} search={search}
+            liveReady={liveReady}
           />
           <BottomBar ds={ds} step={step} setStep={setStep} filterSet={filterSet} setFilterSet={setFilterSet} />
         </main>
@@ -472,7 +475,7 @@ function PandemicPanel({ datasetsVer }) {
 // Map
 // ============================================================================
 function MapView({ ds, topo, theme, step, filterSet, hovered, setHovered,
-                   selected, setSelected, compare, setCompare, compareMode, search }) {
+                   selected, setSelected, compare, setCompare, compareMode, search, liveReady }) {
   const wrapperRef = useRef(null);
   const svgRef    = useRef(null);
   const gRef      = useRef(null);
@@ -558,7 +561,7 @@ function MapView({ ds, topo, theme, step, filterSet, hovered, setHovered,
   };
 
   return (
-    <div className="map-wrap" ref={wrapperRef}>
+    <div className={`map-wrap${liveReady ? ' data-ready' : ''}`} ref={wrapperRef}>
       <span className="corner-tl" aria-hidden="true"/>
       <span className="corner-bl" aria-hidden="true"/>
 
@@ -748,7 +751,7 @@ function Tooltip({ ds, hovered, step }) {
       {extra && <div className="tt-extra">{extra}</div>}
       {strainInfo && (
         <div className="tt-strain" style={{ color: strainInfo.color }}>
-          {strainInfo.badge} — {strainInfo.label}
+          {strainInfo.badge} — {window.strainL(strainInfo, 'label')}
         </div>
       )}
       {!rec && <div className="tt-extra tt-no-data">{window.t('tt.nodata')}</div>}
@@ -913,7 +916,7 @@ function DetailPanel({ ds, iso, compareIso, compareMode, step }) {
               return si ? (
                 <div className="detail-strain-banner" style={{ borderColor: si.color, color: si.color }}>
                   <span className="dsb-badge">{si.badge}</span>
-                  <span className="dsb-note">{si.note}</span>
+                  <span className="dsb-note">{window.strainL(si, 'note')}</span>
                 </div>
               ) : null;
             })()}

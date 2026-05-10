@@ -445,16 +445,47 @@ window.COUNTRY_NEWS = {
 // Información de cepas — clasificación epidemiológica
 // =============================================================================
 window.STRAIN_INFO = {
-  andes:   { label: 'Virus Andes', badge: 'ANDES·P2P', color: '#cc2222',
-             note: 'Única cepa con transmisión persona-a-persona confirmada. CFR 35-42 %. Foco del riesgo pandémico.' },
-  hps:     { label: 'HPS / Sin Nombre', badge: 'HPS', color: '#e05a1a',
-             note: 'Síndrome pulmonar por hantavirus. Solo transmisión por roedores. CFR 30-42 %.' },
-  puumala: { label: 'Puumala (FHSR)', badge: 'FHSR', color: '#d49a28',
-             note: 'Fiebre hemorrágica con síndrome renal, curso leve. CFR < 1 %. NO pandémica.' },
-  dobrava: { label: 'Dobrava (FHSR)', badge: 'FHSR+', color: '#c05000',
-             note: 'FHSR moderada-grave (Balcanes). CFR 0.5-2 %. NO pandémica.' },
-  hantaan: { label: 'Hantaan/Seoul (HFRS)', badge: 'HFRS', color: '#b07820',
-             note: 'Fiebre hemorrágica con síndrome renal grave. CFR 1-5 %. NO pandémica.' },
+  andes:   {
+    badge: 'ANDES·P2P', color: '#cc2222',
+    label_es: 'Virus Andes',
+    label_en: 'Andes Virus',
+    note_es:  'Única cepa con transmisión persona-a-persona confirmada. CFR 35–42 %. Foco del riesgo pandémico.',
+    note_en:  'Only strain with confirmed person-to-person transmission. CFR 35–42 %. Core pandemic risk.',
+  },
+  hps:     {
+    badge: 'HPS', color: '#e05a1a',
+    label_es: 'HPS / Sin Nombre',
+    label_en: 'HPS / Sin Nombre',
+    note_es:  'Síndrome pulmonar por hantavirus. Solo transmisión por roedores. CFR 30–42 %.',
+    note_en:  'Hantavirus Pulmonary Syndrome. Rodent-to-human transmission only. CFR 30–42 %.',
+  },
+  puumala: {
+    badge: 'FHSR', color: '#d49a28',
+    label_es: 'Puumala (FHSR)',
+    label_en: 'Puumala (HFRS)',
+    note_es:  'Fiebre hemorrágica con síndrome renal, curso leve. CFR < 1 %. NO pandémica.',
+    note_en:  'Hemorrhagic fever with renal syndrome, mild course. CFR < 1 %. NOT pandemic.',
+  },
+  dobrava: {
+    badge: 'FHSR+', color: '#c05000',
+    label_es: 'Dobrava (FHSR)',
+    label_en: 'Dobrava (HFRS)',
+    note_es:  'FHSR moderada-grave (Balcanes). CFR 0.5–2 %. NO pandémica.',
+    note_en:  'Moderate-to-severe HFRS (Balkans). CFR 0.5–2 %. NOT pandemic.',
+  },
+  hantaan: {
+    badge: 'HFRS', color: '#b07820',
+    label_es: 'Hantaan/Seoul (HFRS)',
+    label_en: 'Hantaan/Seoul (HFRS)',
+    note_es:  'Fiebre hemorrágica con síndrome renal grave. CFR 1–5 %. NO pandémica.',
+    note_en:  'Severe hemorrhagic fever with renal syndrome. CFR 1–5 %. NOT pandemic.',
+  },
+};
+
+// Helper: returns localized strain field (label or note) based on active language
+window.strainL = (si, field) => {
+  const lang = (window.getLang && window.getLang()) || 'es';
+  return si[`${field}_${lang}`] || si[`${field}_es`] || '';
 };
 
 // =============================================================================
