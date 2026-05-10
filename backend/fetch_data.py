@@ -555,41 +555,82 @@ def build_snapshot(now: dt.datetime, cache: dict[str, Any],
     }
 
 
+# ── Fetch real de Polymarket y Kalshi ────────────────────────────────────
+POLYMARKET_API = 'https://gamma-api.polymarket.com/events?slug=hantavirus-pandemic-in-2026'
+KALSHI_API     = 'https://trading.kalshi.com/trade-api/v2/markets/KXNEWOUTBREAK-P-26'
+_HEADERS       = {'User-Agent': 'HantaTracker/1.0', 'Accept': 'application/json'}
+
+
+def _fetch_polymarket() -> float | None:
+    try:
+        r = requests.get(POLYMARKET_API, headers=_HEADERS, timeout=10)
+        if not r.ok:
+            return None
+        events = r.json()
+        for event in (events if isinstance(events, list) else [events]):
+            for market in event.get('markets', []):
+                prices = market.get('outcomePrices') or []
+                if prices:
+                    return round(float(prices[0]) * 100, 1)   # YES price → %
+    except Exception as e:
+        log.warning(f'Polymarket fetch failed: {e}')
+    return None
+
+
+def _fetch_kalshi() -> float | None:
+    try:
+        r = requests.get(KALSHI_API, headers=_HEADERS, timeout=10)
+        if not r.ok:
+            return None
+        data = r.json()
+        market = data.get('market', data)  # some endpoints wrap, some don't
+        # yes_ask / last_price are in cents (0–100)
+        price = market.get('yes_ask') or market.get('last_price') or market.get('yes_bid')
+        if price is not None:
+            return float(price)
+    except Exception as e:
+        log.warning(f'Kalshi fetch failed: {e}')
+    return None
+
+
 # ── Estimación dinámica Polymarket / Kalshi ───────────────────────────────
-# Persiste entre ciclos para simular random walk realista de mercados de predicción
+# Persiste entre ciclos para random walk cuando el fetch real falla
 _MARKET_CACHE: dict[str, float] = {}
+
 
 def _estimate_markets(epidemio: float, n_signals: int,
                       cache: dict[str, float]) -> tuple[int, int]:
     """
-    Estima probabilidades de Polymarket y Kalshi mediante random walk correlacionado
-    con el score epidemiológico. Los valores se persisten en _MARKET_CACHE entre ciclos.
-    Rango realista: Polymarket [10, 55], Kalshi [12, 60].
+    1. Intenta fetch real de Polymarket y Kalshi.
+    2. Si ambos fallan, usa random walk correlacionado con epidemio como fallback.
     """
     import random
 
-    # Ancla: el modelo epidemiológico guía la dirección del mercado
+    pm_real = _fetch_polymarket()
+    ks_real = _fetch_kalshi()
+
+    if pm_real is not None:
+        log.info(f'Polymarket LIVE: {pm_real}%')
+        cache['polymarket'] = pm_real
+    if ks_real is not None:
+        log.info(f'Kalshi LIVE: {ks_real}%')
+        cache['kalshi'] = ks_real
+
+    # Fallback random walk si alguno falla
     anchor = min(max(epidemio * 0.85 + n_signals * 0.15, 10), 55)
 
-    # Inicializar si es la primera vez
     if 'polymarket' not in cache:
         cache['polymarket'] = float(anchor + random.uniform(-4, 4))
     if 'kalshi' not in cache:
         cache['kalshi']     = float(anchor + random.uniform(-2, 6))
 
-    pm_prev = cache['polymarket']
-    ks_prev = cache['kalshi']
+    if pm_real is None:
+        pm_pull = (anchor - cache['polymarket']) * 0.08
+        cache['polymarket'] = min(max(cache['polymarket'] + pm_pull + random.uniform(-0.6, 0.6), 10.0), 55.0)
 
-    # Dirección: el mercado tiende a converger hacia el anchor con inercia
-    pm_pull = (anchor - pm_prev) * 0.08
-    ks_pull = (anchor - ks_prev) * 0.06
-
-    # Ruido aleatorio (±0.5 por ciclo — cada 5 min, ~6 cambios/hora máx)
-    pm_new = pm_prev + pm_pull + random.uniform(-0.6, 0.6)
-    ks_new = ks_prev + ks_pull + random.uniform(-0.5, 0.5) + 1.5  # Kalshi ligeramente mayor
-
-    cache['polymarket'] = min(max(pm_new, 10.0), 55.0)
-    cache['kalshi']     = min(max(ks_new, 12.0), 60.0)
+    if ks_real is None:
+        ks_pull = (anchor - cache['kalshi']) * 0.06
+        cache['kalshi'] = min(max(cache['kalshi'] + ks_pull + random.uniform(-0.5, 0.5) + 1.5, 12.0), 60.0)
 
     return round(cache['polymarket']), round(cache['kalshi'])
 
