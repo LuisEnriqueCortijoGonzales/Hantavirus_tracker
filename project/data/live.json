@@ -1,23 +1,28 @@
 {
-  "generated": "2026-05-09T22:00:03.742Z",
-  "next_update": "2026-05-09T23:00:00.000Z",
-  "days_active": 1,
+  "generated": "2026-05-10T00:31:21.565827Z",
+  "next_update": "2026-05-10T00:40:00Z",
+  "days_active": 2,
+  "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 67,
-      "alert": "emergencia",
+      "ytd": 74,
+      "alert": "vigilancia",
       "cfr": 37.3,
-      "var_pct": 0,
+      "var_pct": 10,
       "strain": "andes",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 22
     },
     "CHL": {
       "ytd": 31,
       "alert": "brote",
       "cfr": 35.5,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "andes",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 3
     },
     "BRA": {
       "ytd": 89,
@@ -25,47 +30,59 @@
       "cfr": 41.6,
       "var_pct": 0,
       "strain": "hps",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "BOL": {
       "ytd": 14,
       "alert": "vigilancia",
-      "cfr": 40,
+      "cfr": 40.0,
       "var_pct": 0,
       "strain": "hps",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "PER": {
       "ytd": 11,
       "alert": "vigilancia",
-      "cfr": 39,
+      "cfr": 39.0,
       "var_pct": 0,
       "strain": "hps",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "COL": {
       "ytd": 6,
       "alert": "vigilancia",
-      "cfr": 33,
+      "cfr": 33.0,
       "var_pct": 0,
       "strain": "hps",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "MEX": {
       "ytd": 8,
       "alert": "vigilancia",
-      "cfr": 30,
+      "cfr": 30.0,
       "var_pct": 0,
       "strain": "hps",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 1
     },
     "USA": {
       "ytd": 18,
       "alert": "brote",
-      "cfr": 36,
-      "var_pct": 0,
+      "cfr": 36.0,
+      "var_pct": 2,
       "strain": "hps",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 4
     },
     "PRY": {
       "ytd": 8,
@@ -73,87 +90,109 @@
       "cfr": 37.5,
       "var_pct": 0,
       "strain": "hps",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "URY": {
       "ytd": 5,
       "alert": "endemico",
-      "cfr": 36,
-      "var_pct": 0,
+      "cfr": 36.0,
+      "var_pct": 1,
       "strain": "hps",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 2
     },
     "PAN": {
       "ytd": 4,
       "alert": "endemico",
-      "cfr": 33,
+      "cfr": 33.0,
       "var_pct": 0,
       "strain": "hps",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "CRI": {
       "ytd": 2,
       "alert": "endemico",
-      "cfr": 25,
+      "cfr": 25.0,
       "var_pct": 0,
       "strain": "hps",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "VEN": {
       "ytd": 3,
       "alert": "endemico",
-      "cfr": 33,
+      "cfr": 33.0,
       "var_pct": 0,
       "strain": "hps",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "CAN": {
       "ytd": 3,
       "alert": "endemico",
-      "cfr": 29,
+      "cfr": 29.0,
       "var_pct": 0,
       "strain": "hps",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "GTM": {
       "ytd": 2,
       "alert": "endemico",
-      "cfr": 50,
+      "cfr": 50.0,
       "var_pct": 0,
       "strain": "hps",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "HND": {
       "ytd": 1,
       "alert": "endemico",
-      "cfr": 33,
+      "cfr": 33.0,
       "var_pct": 0,
       "strain": "hps",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "SLV": {
       "ytd": 1,
       "alert": "endemico",
-      "cfr": 33,
+      "cfr": 33.0,
       "var_pct": 0,
       "strain": "hps",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "ECU": {
       "ytd": 2,
       "alert": "endemico",
-      "cfr": 40,
+      "cfr": 40.0,
       "var_pct": 0,
       "strain": "hps",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "GUY": {
       "ytd": 1,
       "alert": "endemico",
-      "cfr": 33,
+      "cfr": 33.0,
       "var_pct": 0,
       "strain": "hps",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "FIN": {
       "ytd": 312,
@@ -161,7 +200,9 @@
       "cfr": 0.1,
       "var_pct": 0,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "SWE": {
       "ytd": 145,
@@ -169,7 +210,9 @@
       "cfr": 0.1,
       "var_pct": 0,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "DEU": {
       "ytd": 234,
@@ -177,7 +220,9 @@
       "cfr": 0.2,
       "var_pct": 0,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "POL": {
       "ytd": 45,
@@ -185,7 +230,9 @@
       "cfr": 0.3,
       "var_pct": 0,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "NOR": {
       "ytd": 67,
@@ -193,15 +240,19 @@
       "cfr": 0.2,
       "var_pct": 0,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "FRA": {
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 2
     },
     "CHE": {
       "ytd": 8,
@@ -209,7 +260,9 @@
       "cfr": 0.2,
       "var_pct": 0,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "AUT": {
       "ytd": 7,
@@ -217,7 +270,9 @@
       "cfr": 0.2,
       "var_pct": 0,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "BEL": {
       "ytd": 3,
@@ -225,7 +280,9 @@
       "cfr": 0.2,
       "var_pct": 0,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "LTU": {
       "ytd": 8,
@@ -233,7 +290,9 @@
       "cfr": 0.3,
       "var_pct": 0,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "LVA": {
       "ytd": 5,
@@ -241,7 +300,9 @@
       "cfr": 0.3,
       "var_pct": 0,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "EST": {
       "ytd": 4,
@@ -249,7 +310,9 @@
       "cfr": 0.2,
       "var_pct": 0,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "DNK": {
       "ytd": 2,
@@ -257,15 +320,19 @@
       "cfr": 0.2,
       "var_pct": 0,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "GBR": {
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 2
     },
     "GRC": {
       "ytd": 6,
@@ -273,7 +340,9 @@
       "cfr": 0.3,
       "var_pct": 0,
       "strain": "dobrava",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "ROU": {
       "ytd": 34,
@@ -281,7 +350,9 @@
       "cfr": 1.5,
       "var_pct": 0,
       "strain": "dobrava",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "HUN": {
       "ytd": 28,
@@ -289,7 +360,9 @@
       "cfr": 1.2,
       "var_pct": 0,
       "strain": "dobrava",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "SVN": {
       "ytd": 12,
@@ -297,7 +370,9 @@
       "cfr": 0.8,
       "var_pct": 0,
       "strain": "dobrava",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "SVK": {
       "ytd": 9,
@@ -305,7 +380,9 @@
       "cfr": 0.5,
       "var_pct": 0,
       "strain": "dobrava",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "SRB": {
       "ytd": 15,
@@ -313,7 +390,9 @@
       "cfr": 0.8,
       "var_pct": 0,
       "strain": "dobrava",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "HRV": {
       "ytd": 6,
@@ -321,7 +400,9 @@
       "cfr": 0.5,
       "var_pct": 0,
       "strain": "dobrava",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "BGR": {
       "ytd": 8,
@@ -329,15 +410,19 @@
       "cfr": 0.5,
       "var_pct": 0,
       "strain": "dobrava",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "MKD": {
       "ytd": 4,
       "alert": "endemico",
-      "cfr": 1,
+      "cfr": 1.0,
       "var_pct": 0,
       "strain": "dobrava",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "RUS": {
       "ytd": 1872,
@@ -345,7 +430,9 @@
       "cfr": 0.9,
       "var_pct": 0,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "BLR": {
       "ytd": 34,
@@ -353,7 +440,9 @@
       "cfr": 0.5,
       "var_pct": 0,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "UKR": {
       "ytd": 18,
@@ -361,7 +450,9 @@
       "cfr": 0.6,
       "var_pct": 0,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "CZE": {
       "ytd": 9,
@@ -369,7 +460,9 @@
       "cfr": 0.3,
       "var_pct": 0,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "MDA": {
       "ytd": 5,
@@ -377,7 +470,9 @@
       "cfr": 0.8,
       "var_pct": 0,
       "strain": "puumala",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "KAZ": {
       "ytd": 23,
@@ -385,7 +480,9 @@
       "cfr": 0.8,
       "var_pct": 0,
       "strain": "hantaan",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "CHN": {
       "ytd": 2341,
@@ -393,7 +490,9 @@
       "cfr": 1.2,
       "var_pct": 0,
       "strain": "hantaan",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "KOR": {
       "ytd": 89,
@@ -401,7 +500,9 @@
       "cfr": 1.5,
       "var_pct": 0,
       "strain": "hantaan",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     },
     "JPN": {
       "ytd": 12,
@@ -409,25 +510,27 @@
       "cfr": 0.5,
       "var_pct": 0,
       "strain": "hantaan",
-      "new_today": 0
+      "new_today": 0,
+      "r0": null,
+      "signals": 0
     }
   },
   "history": {
     "ARG": [
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74
     ],
     "CHL": [
       31,
@@ -1231,7 +1334,6 @@
     ]
   },
   "dates": [
-    "2026-04-26T12:00Z",
     "2026-04-27T12:00Z",
     "2026-04-28T12:00Z",
     "2026-04-29T12:00Z",
@@ -1244,11 +1346,10 @@
     "2026-05-06T12:00Z",
     "2026-05-07T12:00Z",
     "2026-05-08T12:00Z",
-    "2026-05-09T12:00Z"
+    "2026-05-09T12:00Z",
+    "2026-05-10T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-07T23:00:00Z",
-    "2026-05-08T00:00:00Z",
     "2026-05-08T01:00:00Z",
     "2026-05-08T02:00:00Z",
     "2026-05-08T03:00:00Z",
@@ -1294,58 +1395,60 @@
     "2026-05-09T19:00:00Z",
     "2026-05-09T20:00:00Z",
     "2026-05-09T21:00:00Z",
-    "2026-05-09T22:00:00Z"
+    "2026-05-09T22:00:00Z",
+    "2026-05-09T23:00:00Z",
+    "2026-05-10T00:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67,
-      67
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74
     ],
     "CHL": [
       31,
@@ -3847,5 +3950,283 @@
       12,
       12
     ]
-  }
+  },
+  "pandemic": {
+    "composite": 24,
+    "epidemio": 17,
+    "polymarket": 28,
+    "kalshi": 35,
+    "max_andes_r0": 1.0,
+    "avg_other_r0": 1.0,
+    "continents": [
+      "Americas",
+      "Asia",
+      "Europe"
+    ],
+    "emergency_count": 1,
+    "outbreak_count": 5
+  },
+  "signal_summary": {
+    "USA": 4,
+    "ARG": 22,
+    "GBR": 2,
+    "MEX": 1,
+    "FRA": 2,
+    "CHL": 3,
+    "URY": 2
+  },
+  "events": [
+    {
+      "iso": "USA",
+      "title": "When will passengers leave hantavirus cruise ship? WHO details its plan - USA Today",
+      "t": "2026-05-09T23:52:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOa3JKdFdFSTlER2dhZUNybVprZ3ZEUXJJUFVacENIdHBCZzA0NVdUcWE1eXFGbG1BR3JYeUFmU3RVRzF2eklVcHh2WVdZeUNrWHNnQzUwcGs3U2p4dEFHamNmUElwaVE5NjN5T2RfaU5FNmVPWmJvWVpDajBPMG80NzhIN2ROUEpBX0JzM3VadndmSFhJTlAtdFROTVZtUExXVXJvbVYzS2lXenMxWlhYLTl1R2FmVDlUTEJZNjJVNXRYcVpTQU16Z2RMRG80MTB3?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "La OMS asegura que el crucero con hantavirus no representa un riesgo como el Covid - Cadena 3 Argentina",
+      "t": "2026-05-09T22:57:34Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNzZYamxqYzBHQVlBTTdYa1lWS3lZNHI3WVJEZHJ6djc4MERWdFV2QktKU05GMEJkQTV5cE02TWFoQ25xNXNuR2dESEprb01kOWJZd21RTHFoUUhfc3h5NDZkcGM4OGRsS1BNVXpZOG9HU21iMzNiNnZ3Nk1kTnNrMGRYWHR5VkJKaXE0SHZoMTVtdHZOVWtVdXFfWWZ5dk5fSEtFZGNJOFNLdjFieWE1N242ZXhWN2EwU3JpejZpVktuVVlxdWfSAcsBQVVfeXFMTU95bmRGb3ptdGpRejdWZHJxYVFZenJ5ZEwxTFhlNG5zdWZneC1WVXNudC1OcGdmeWk1eWNiTHhNcVEzRUE4Znc2YWRtNkhqdG53eDFUZmU2UFlYMnU4QWJxanVWQnRzMWE2YnJBQ2pZZWwwVERCWnlZUmN3bE9SRjNIYXZ3OEMtTjNvcUR3UGlqUkFOcnBVdnJpYWRYQWIxZVZDRWp4eWdZVkZicHpubGpYRk5hRGZpRWtWOGJNYUhqcUdqbFdob251b0U?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Cruise ship with deadly hantavirus to evacuate passengers near Spain - USA Today",
+      "t": "2026-05-09T22:24:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNGd4RnUyREQ0dmw5bUhGQ0tzRVQ1ckNXZFYzNElDdXBFSlV1U3hKb3RKRFNnUDVQVU40N2prVVhRaXk0MFJvTUo0bVlEZ1NEeUI4cERxdmt3SmRZemJONnhuNmpKU1IydUlWSkMtR0FwNC13MGZ0b1dhUHV3TjYtYU5RVUtkcFJUVjhLYkh4TjlrOUNvTDFz?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "With fears of hantavirus outbreak, here's the real pandemic risk - USA Today",
+      "t": "2026-05-09T22:07:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUHlOSHVBTi1lN1FiM1JKQzdqUEpKcGpsUndhOERZWnFJWXhWOXg1V0NGaDg1d2dkZE1EbnJteXQ5RGVNMGRNTXBqdENxWGxBN1A4RlpBbHJUSjdOYXI0ZTR2Q0hrREozMjIwUmZLSldmYnJJdllsTUlCbjJqWUpucFVHMl9nYXZJV3hvdmdFSzh1WlVITThpckl0bVc5UDRTWXd0ckVUcDQ3MzlBaTdDTS12LWprMDRtV2x6WjRKX29GNkw3UkpmRDlmNDUtaTFGSHdN?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "UK passengers on hantavirus-hit cruise to be flown to Merseyside for quarantine - The Guardian",
+      "t": "2026-05-09T21:18:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQN25Rek9OdWVvSE5QMENKU2hxLXIybmlSRWxCN1VEeXFOS1pPdnVhMEFZNk9abDBURWZuV0tyVlA0czZwMkNOb0Jpd3pWTVc2cmlNcjk1U1JpUl9wd0FqRnowMWFIYW9oZE5aeVBsdkV2ZlhkUWZ5Qmo2VHE0NnZKZ19fSlA?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina coordina traslado a Pa\u00edses Bajos de ciudadano a bordo de crucero con hantavirus - Infobae",
+      "t": "2026-05-09T21:12:54Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQkdmNFlRVmJ4S2dlVnlqTlp6a1N3blJoTFZEMWQ2YUlteDVrQVNrUjJCalVWWUZHM2ZEekFnbmg3eWdVdDl0UjJmV0tGd19FVFZZVTZCREl6VG43V2pwU1hKeGRaUkZYSlpfU2NycnIxUV9pY2ZJX2pVRVVHSjdjcXFTcEhaazFVS3hERzhsUEdpcGxLX043OTNJY0ZaXzlxbDNtdWJRbEUtXzBFSTNzM2UyNFZ0cVB4NG1RLXpoV0g4Rk9HeGJsYXJUcHNScjRjY2M2NnVYRnFId9IB9AFBVV95cUxONlVsSzBCV2NsMFc5N09uUFlSalEwV3kwT3dVQ0Q1NlI5M3ZDOHdoWHpsendLQk5RZXR2ZzVIUWduejFiRENtN1p6eUloUk9WNkMtWm9iaUgwaDdHRXV1R0R6aTN1bkxuNlZKd293ODNVdHVUMElxNmhVc1RtelBoeU53eFd0VE9uajRncnI4d21EWmdicnJmN1U1cXBWUzRhUlZ4THpCUGREVjlXcF83LU9hOGkwbUFoYkdJN2dNcEJaUVFyWkNhQ2pnVmRtOTlBa1FfU01KZjM3WUZPRl85c3dMaHZhUFZOdnJpOGh4eHhrQ2pT?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina investiga si el brote de hantavirus en el crucero MV Hondius se origin\u00f3 en la Patagonia - Perfil",
+      "t": "2026-05-09T18:19:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMHdscFdoMUZwQUFBUlNfZW9SQ1NQclNQMVZ0dkJHVVM2N01EdGVuNTZkeEVCcVJFRUZySE9XdjA0SEtVYjVRQ1NnOUlUTnprVXJtRzF5bE5LU3RiR1llQ0VtZlJFRERqVDdsV0tRSjgzNUROVTJlbUM2a0pyaHEyd3pMWGhBTjRsZ1g0MWlTUkhPZTY3NzdQZFJURXE3akJXUkVFdWdyMUhXR2hkem1RYVdpZklwai0xbFJQVktnZkprU1J6dGcyNm44V3ZFZ3BXX0t6Q19BLTjSAd4BQVVfeXFMUFFYX1pOdGViaUNuLTlNQkdfOHJZQ1FRS25aUEVvTlJNdklfaWhjTEpvdG13S0ZQcjMtdnJlMDhaNV9rbUltUkRqcnByUzRvRWZpcDFrNGRVOUlaZk15SmpvLXNtbkQ4cGZWcGVIbGI1WEVMS0RpSGhZQ0FGLVdMWURqdHVTZEVfLVc3cWl1aDNPbFlBYXRXVDFobVBCQUpzNVZMQ0F5RGVYaTJpNzl5RGtDM2NRS1F0dTI2WFk4eGNHUldJVXpiTzlUOFNJU0ZfVUNlWXpwQXNja1hZVVdR?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus en el crucero MV Hondius: Argentina se despega del origen del brote y la OMS analiza c\u00f3mo seguir - curecompass.com.ar",
+      "t": "2026-05-09T16:59:09Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcXBkYjdNdFI5elBnaE9pd2hheHlFX1RPeV9qY2FxdWZMN3B2NHFlMmxRdUhFeE0zUlo2amhNNXNnOThuMkExWC12OHBDT2NGREY3WmhCQUp3dGJTb19PZl92MXYxV0hVM25GUVRkWGVwYUJibTB2Mk56Q2dFMFJVRmhJbEN5bVdvUHVRUV9iaUVKNmRfcnl6d29HUmpjZjJlR0tsVWY5WVY4OGNUSHZXQVRpdGdhTmkxeHpQX1JTeGFaS19hVHFXWGF4em03cUE?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "UK nationals on hantavirus-hit cruise ship to isolate in hospital on return - Reuters",
+      "t": "2026-05-09T16:56:44Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSDBQTHpOdk5hVkRkR3g4Yk9WUmh6THoyRnlJVlhRTHBPTDZqVDl5X0Q4dDNrZzVteUtDZ1I1aVVhdzh5anlYVERhR2YzeHJkaHM0VnphTmN2OUJXWTNQS1VvLWZ4Uk51em5hcTY5YUcwVGdzY2sxSGQwT2tEREJpLVVVTHJLNzN6bTd1bXNyOGloa1hwV2JfdEpCZ3J5ZHZXandrM0toenQ?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Estados Unidos planea evacuar a los estadounidenses a bordo de un crucero debido al brote de hantavirus - Infobae",
+      "t": "2026-05-09T12:06:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOUzR5eElOeVVnREFxbkhEUVpJek1ER2FIdmRKajBfQUNFaWRYZ1V3Qm9rNEhWbHZJYW9ieFhLQ2JyYWFYRkZuMlFWTW9Ob1VVcEYyYlI5Y0pIc0FRVVNGOXRhVGI0dUdVM3dtNm1UMVM0Y0tJRDFKVEwzVUg2eFF6emRsb2lPeE1VUTNGVS0zQTJvOXF6MkFfUWVaNUMxejVJc0FpdXhuakktRUJ0b3IxMThmWWV4MHB4Vm1pajQ4Y2hNa05fRHd3NWVyLU50YXdocXZlelJpQi1GOVZIQmNhTGRPUFRsTndRMUHSAYQCQVVfeXFMT1M5UXNRdC13bjhUOXA5WXRlMG4yZC1EN0JkaW1lemlZT2VRSkpuaXdTWVNRTS01LTVmdXN5cTlFMlVkYnlWc3VqcG9RYTZlSXQ2bjdBVTBxTHpxNDFXZDU5dTNqem1FYkZRMkFiV01kMTVCSXFlOUhMUUJSOVV2YzMwZHhnWUx1dTdmTDZwT2FnVFJqYjNSU0RlQ2d1eU9hb2FpN2hfbVdoT1ZSTzY3SXRfeTNzUWlKWTFOaHZ5WG5PdXJNX082c3c3S25lS0FMczd3R0xfeXQwekNrVVhXbDdBSjRXcEk2eUVoT3RmcVlVUGRNZmM1T0JfaGE3U2tQdkItYVg?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "El basurero de Ushuaia, uno de los puntos que rastrea Argentina por el brote de hantavirus del crucero - EL PA\u00cdS",
+      "t": "2026-05-08T13:47:05Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUmFJWDFHRkZVcW82bmVQdVV1TWx4OEQ0S0E0RERkZUg5bG1KZWNLYXZGMWJ6bWlUSHRfdWl2eWFJQVVYYjN1OWctM3llcmRqX0lNYm9ybFNJWUthdUhhNXJ5eF9zSjMwUFpUWFNsX3NadWRZUnRfQk5idzNrTEQycTJnZk5RQVBrWldYenFiekFiMlpiV0ZxNkxBVVVZbFN3TllkejBsMF80VFgwQ3JCRWwydm11YUJRZmRSM0FJcktzSThBUTYweEhaZUtXY0QwYW45YnlrNE5rRnpQMmk40gHzAUFVX3lxTE5NZEQ2cE5xcF84YXZrRERPRGtVWXh6bGRKQVZmYXRnYkhBTWVXSndFT1FmOVpJSFZ5Ni1DU2hNRDVjMEtZU0NhTWVQZzZtZDNhaEVSekxacmdUT3NOcThCX2oxODZUUDE5SGVaVWdRZTVVNkdNZFA2MUlpUUxncmRnZkcxXzdaN1BwR0lJcDBtUl9yWWJsRXJaSUx5aTd6dm1KaUpDRUlYdElvcVgzRElTUThtS3dVSk9sY1d5OUp3WEV0R3FPMHFMdk42VmcwbGRLUFotTGVxUDdTVUJtaUd4TTRXRHg2dmpVUU9PUV82SF9tYw?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "C\u00f3mo la destrucci\u00f3n de h\u00e1bitats y el cambio clim\u00e1tico contribuyeron al aumento de casos de hantavirus en Argentina - CNN en Espa\u00f1ol",
+      "t": "2026-05-08T13:12:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNTA4a2JUem5XRW5Xc05ENXpQalZwV0pyQlAtZDljVTBoNnJYYTMyMV9qVEN3Wmd0RG1mcnh1N0ViQkNpdTJoVzQ4STFNMm43MDN5RlRMaURxZ2tQMXdxYktJNkVKa2NXdzlLS3cteGlEMGszcFBQN2NJNVBFM0hyektrejVuOWp4RUt2VFhUMFduaVE?oc=5"
+    },
+    {
+      "iso": "MEX",
+      "title": "Hantavirus outbreak linked to cruise ship raises questions about strain in New Mexico - KOAT",
+      "t": "2026-05-08T00:20:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWE5ETS1NX1NIOUMxZUluM2VTQ28xZ09PMmNreTVxU3Ztc0lPdV91WFdzeXI2YkdDRWhaNGFJUWY3NThCTGlVc05kOEVoRi00Zk0tZGJ5RnR1cVBGWGIxZTZXaDBXQ2c1OHc2U3JhSlk3UWdkUS1ybGowR3JoLXhhN1hVSFdCUnZC?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus en Argentina: el brote vuelve a poner el foco en una enfermedad olvidada - CNN en Espa\u00f1ol",
+      "t": "2026-05-07T23:24:18Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPczJSUXlha0NhSUVORUdEWlE1bEcyMkhVb2JzNExwM1Bqb3RCZklHMkhQQy0tZkFLTFdLX3BBQ2VvVlk1U0NOTmxMdUFVdS1IeGdsUDVrekhQcmJjRG9QNlAwZVNtT1ViTWc1V0c0N1ZGRGY5SzM1dWFCVTR6b2hBWGV6cUtTakE5VXREQm92RDVJOE41OVJEeVU3Rjh5MUh3TGZyVjN0RGx4ZkVrNWM5b21uQkhvTjFoUnRqQTJwN19aTnRwMjJBdUdNczZMM1ZkQ2c?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Qu\u00e9 se sabe del viaje por Argentina, Chile y Uruguay de los turistas que presentaron los primeros s\u00edntomas de hantavirus en el crucero y luego murieron - BBC",
+      "t": "2026-05-07T23:22:53Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvQk85TUotMXBBY2dsU2hHVGxNUEk3OENZdFRHR0dYLVVoWGIwaG5IVS04LXVNU1R5NXhWZU5zX2E2aXBlcXBEYXhDcllqRmRPb3hqVDY2RFRkdVXSAWBBVV95cUxNdE5pdDNZbU1qZjFPSFRBeWZWaHJGX2p0V3FBbjllTWFQNG9VekxNc0FVcVV4cEd0em5UYUxTd2JpMG9pMzREMFMzWHFUX3BZai1SeXdLZ01TR2pEenk5OHQ?oc=5"
+    },
+    {
+      "iso": "CHL",
+      "title": "Qu\u00e9 se sabe del viaje por Argentina, Chile y Uruguay de los turistas que presentaron los primeros s\u00edntomas de hantavirus en el crucero y luego murieron - BBC",
+      "t": "2026-05-07T23:22:53Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvQk85TUotMXBBY2dsU2hHVGxNUEk3OENZdFRHR0dYLVVoWGIwaG5IVS04LXVNU1R5NXhWZU5zX2E2aXBlcXBEYXhDcllqRmRPb3hqVDY2RFRkdVXSAWBBVV95cUxNdE5pdDNZbU1qZjFPSFRBeWZWaHJGX2p0V3FBbjllTWFQNG9VekxNc0FVcVV4cEd0em5UYUxTd2JpMG9pMzREMFMzWHFUX3BZai1SeXdLZ01TR2pEenk5OHQ?oc=5"
+    },
+    {
+      "iso": "URY",
+      "title": "Qu\u00e9 se sabe del viaje por Argentina, Chile y Uruguay de los turistas que presentaron los primeros s\u00edntomas de hantavirus en el crucero y luego murieron - BBC",
+      "t": "2026-05-07T23:22:53Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvQk85TUotMXBBY2dsU2hHVGxNUEk3OENZdFRHR0dYLVVoWGIwaG5IVS04LXVNU1R5NXhWZU5zX2E2aXBlcXBEYXhDcllqRmRPb3hqVDY2RFRkdVXSAWBBVV95cUxNdE5pdDNZbU1qZjFPSFRBeWZWaHJGX2p0V3FBbjllTWFQNG9VekxNc0FVcVV4cEd0em5UYUxTd2JpMG9pMzREMFMzWHFUX3BZai1SeXdLZ01TR2pEenk5OHQ?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Un brote de 2018 en Argentina da pistas sobre c\u00f3mo se propaga el hantavirus - France 24",
+      "t": "2026-05-07T19:25:16Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc1hUT2M2aC10WmZZc01QMURwWU1hZ2tpYmJPbHllSVRiRlVKZ3RBMERpZmJ4Wk56LUFfX1NQZVk2U1BSXzdNdzFpb2U4WFdyay1tM1RyamZBTnF4MFdNLVpTWm5ucmdjSThNSk16eXU4U0Jwb01TMTAxWHVNUXpTSUtsaVNyd2ZubzhXZ0dsQzBOMDVybkFScjVhejhOdnNkZGV6WVppd01uVGI5dFMzZ0YwQk4tdHk2R1ZHXy1BSnVGbFhNWl9WZVVkUlp5UQ?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Un brote de 2018 en Argentina da pistas sobre c\u00f3mo se propaga el hantavirus - France 24",
+      "t": "2026-05-07T19:25:16Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc1hUT2M2aC10WmZZc01QMURwWU1hZ2tpYmJPbHllSVRiRlVKZ3RBMERpZmJ4Wk56LUFfX1NQZVk2U1BSXzdNdzFpb2U4WFdyay1tM1RyamZBTnF4MFdNLVpTWm5ucmdjSThNSk16eXU4U0Jwb01TMTAxWHVNUXpTSUtsaVNyd2ZubzhXZ0dsQzBOMDVybkFScjVhejhOdnNkZGV6WVppd01uVGI5dFMzZ0YwQk4tdHk2R1ZHXy1BSnVGbFhNWl9WZVVkUlp5UQ?oc=5"
+    },
+    {
+      "iso": "CHL",
+      "title": "Crucero con hantavirus: antes de embarcar, la pareja que habr\u00eda iniciado el brote viaj\u00f3 por todo el pa\u00eds, Chile y Uruguay - P\u00e1gina|12",
+      "t": "2026-05-07T14:13:48Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTWhWWmtrcF9CREptRElfOFd3OHJLV1dPMDdRVl95QVc2cTZGSU1hdXpjMVJUUXd3bHpDNVVNdFd1T21GNW53OWVUVEs0ZFpBSGdvX3daM2ZnaHRmeUpROFgyRUdMRFUyNnh3QjN0VHZGZ3pPcE1mSjh6SlVLS19pWTEwNTVUaTJqVGZaV0duR08yNjA2YTJkb0dySklMSHpFY3prUkFCS1UzMUhTV3lSREZtbTdpQ0llQ1drT2Jnb1hjMklPV21IM1RDQk1Ha201SXc0UVREVF9YdGJMVFJFS2h0Q25DcVZhY3dVb0xDNA?oc=5"
+    },
+    {
+      "iso": "URY",
+      "title": "Crucero con hantavirus: antes de embarcar, la pareja que habr\u00eda iniciado el brote viaj\u00f3 por todo el pa\u00eds, Chile y Uruguay - P\u00e1gina|12",
+      "t": "2026-05-07T14:13:48Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTWhWWmtrcF9CREptRElfOFd3OHJLV1dPMDdRVl95QVc2cTZGSU1hdXpjMVJUUXd3bHpDNVVNdFd1T21GNW53OWVUVEs0ZFpBSGdvX3daM2ZnaHRmeUpROFgyRUdMRFUyNnh3QjN0VHZGZ3pPcE1mSjh6SlVLS19pWTEwNTVUaTJqVGZaV0duR08yNjA2YTJkb0dySklMSHpFY3prUkFCS1UzMUhTV3lSREZtbTdpQ0llQ1drT2Jnb1hjMklPV21IM1RDQk1Ha201SXc0UVREVF9YdGJMVFJFS2h0Q25DcVZhY3dVb0xDNA?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina registra un aumento de casos de hantavirus, pero sin brote, dice un experto - France 24",
+      "t": "2026-05-07T09:51:20Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNLTFxOHZhTWlVVlNad3M3TmRjVVNvM0gyMG1FUEpWNXZoUnp0b1ZaUEtTSkl1VkpXTHFmdHFZOTdBOFF2azUtY05XWGE0bVl2UFR3NUFLaDYzY0J2aDV4MkhUZUhMZlRNVTlsUTlHZ3o2eHBqMnlIbmt3MW5XRTBJM1drNThXd2RPQVJwTkJGQmNObE5INjRqRXVLRHZoOVY1aFBlSlR2RGhfZnlLWmU3WkwyUUItUWlyU2prWXFzM0NYVE1KRmpQOUFaQUZSaE5hNnc?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Argentina registra un aumento de casos de hantavirus, pero sin brote, dice un experto - France 24",
+      "t": "2026-05-07T09:51:20Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNLTFxOHZhTWlVVlNad3M3TmRjVVNvM0gyMG1FUEpWNXZoUnp0b1ZaUEtTSkl1VkpXTHFmdHFZOTdBOFF2azUtY05XWGE0bVl2UFR3NUFLaDYzY0J2aDV4MkhUZUhMZlRNVTlsUTlHZ3o2eHBqMnlIbmt3MW5XRTBJM1drNThXd2RPQVJwTkJGQmNObE5INjRqRXVLRHZoOVY1aFBlSlR2RGhfZnlLWmU3WkwyUUItUWlyU2prWXFzM0NYVE1KRmpQOUFaQUZSaE5hNnc?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina reconstruye el periplo del \u2018caso \u00edndice\u2019 de hantavirus antes de subir al crucero - Sinc",
+      "t": "2026-05-07T06:16:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus is on the rise in Argentina, where a stricken cruise ship began its journey - AP News",
+      "t": "2026-05-07T05:43:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb0FiM2x4NmY4VF9leUdBZXBMSFh2TnJaUW5vSHNRWU9HcS14WEJEaEFKNzhYTHFGVzRkbzliRW0xb1NCUHB1QUhLMDlTRU5mZzFqbHo2WkJWaTk5aW9oaENXWEVHR21wXzViUnE0Tjc1d1VjQWlFSFMwclhWSGIxOE5YV2hKeTc1N0RaMnVGWm01akY1VTJR?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus en Argentina: por qu\u00e9 el aumento de casos en 2026 no se considera un brote seg\u00fan los expertos del C... - Perfil",
+      "t": "2026-05-06T20:30:56Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSGNoTTFOODJvRzF0ajZjcjM1SVhWdHY4aDBRcFhSdWp0emRGeHE1TVMzQktXMWwzeFJxcGJqUlJUYWdNaElyYzhRSWxMRGZPZVJnY0NfLTNTX1hydE9jQ0pZdG1HcjlWOVM3SW5VRTlZdmlmRTlFa0VHalZ1U2NNNGVOSGtLUzNSRVhfSlQ3WDhub21lT19seTZxMnJ5VkVacG9yWEN5VXc5NWtzSTJ3aTZXVGhQRl9rejEyT1pvcUZyc2VCSTVMMHR4NW81a294MGZiLVREcC1TeEZUWmdBOWduWXNTajRCa0l1MFRZYU_SAfYBQVVfeXFMTlgybWFhZlhEUFFRTUNoNUtfU05sTTMxNTFqSFlfeVNGZm5lRm9wYVJQVnRONWdLcFhFMWNzZ3B2M2xEMnhhY3RUQlhpZjB2V29Wd2prUGRoRGVSSGN4NUhzdkVsUEFQc2xZTTUyeFRTVFNyUERZMER5cUlzaVZqalFiRmRFeHpTU005dWxkaEtWV2RTWmNYOXdMVVM1dk1RcXoyR1dWRzJhS3Z6dzJBQ2xwUmVTMW1QM1Vxb0U1N2lJZ0xxTE94YmM4SmZHaktXZm1ublowcWxyVXNDRWxZWGhQVUNYSVg1LWxYUWczQXZpYkpGdmlR?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "La pareja holandesa que muri\u00f3 en el crucero con hantavirus pas\u00f3 cuatro meses entre Argentina y Chile - EL PA\u00cdS",
+      "t": "2026-05-06T19:01:24Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT0h1cFRDdGhCeWVBNmFfWWxrRUZzZy1HS3d6VDNFd0FndE1OckxVSWNjeTNoVWlURmQ1UXJXWUpPbGlKWTY0c3o2NkJRVGx2RHFWcWdFR3ZFLWh1REZwVFp4ZGw4c1RrM3NmaUQyLVhTd3RoQWhUaFNZNVhYVF9WZ1k0YjgzNnNqQUN2VThXVkpzV0Ezd25qbTZQUG8tdVZ4QThhOVB4S2dJYVpXQk55VkhJdURaUjVDT1VSNlptTXEzUEdFRDVlR1B6cjZiY1RBUHRGSzBVTW9sVG_SAe8BQVVfeXFMTUFXRUwtbGR5MjhMcEdpclNNY0d0N3RYeGROTzlNTkNKa01FRzlwbU05bVphcXVoMl84R0sza0lHd2ZEZmhLbGtEOE1CLWZzWTg3ZkhOT1lZM2k2eDhTb1dTWlVfbVdhaGtCUi16bkNfT2hwdm5rc1BXZDBySlRTVG1ta2Y4bU52MkRHT3BlMEV3N01KSlZvTzM1UzFtQ2hmMzFQdXhBWFVSUVJ5M2xpZnVGNHdneUF6RzU0SFRnTkp6bE5sZzRhQ2N3SDcyVDZBLUpzRzhVbFZpVXItS3ZIYnZYTGlTZW1rY0tUZldKeVU?oc=5"
+    },
+    {
+      "iso": "CHL",
+      "title": "La pareja holandesa que muri\u00f3 en el crucero con hantavirus pas\u00f3 cuatro meses entre Argentina y Chile - EL PA\u00cdS",
+      "t": "2026-05-06T19:01:24Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT0h1cFRDdGhCeWVBNmFfWWxrRUZzZy1HS3d6VDNFd0FndE1OckxVSWNjeTNoVWlURmQ1UXJXWUpPbGlKWTY0c3o2NkJRVGx2RHFWcWdFR3ZFLWh1REZwVFp4ZGw4c1RrM3NmaUQyLVhTd3RoQWhUaFNZNVhYVF9WZ1k0YjgzNnNqQUN2VThXVkpzV0Ezd25qbTZQUG8tdVZ4QThhOVB4S2dJYVpXQk55VkhJdURaUjVDT1VSNlptTXEzUEdFRDVlR1B6cjZiY1RBUHRGSzBVTW9sVG_SAe8BQVVfeXFMTUFXRUwtbGR5MjhMcEdpclNNY0d0N3RYeGROTzlNTkNKa01FRzlwbU05bVphcXVoMl84R0sza0lHd2ZEZmhLbGtEOE1CLWZzWTg3ZkhOT1lZM2k2eDhTb1dTWlVfbVdhaGtCUi16bkNfT2hwdm5rc1BXZDBySlRTVG1ta2Y4bU52MkRHT3BlMEV3N01KSlZvTzM1UzFtQ2hmMzFQdXhBWFVSUVJ5M2xpZnVGNHdneUF6RzU0SFRnTkp6bE5sZzRhQ2N3SDcyVDZBLUpzRzhVbFZpVXItS3ZIYnZYTGlTZW1rY0tUZldKeVU?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
+      "t": "2026-05-06T15:29:33Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Brote de hantavirus en un crucero que zarp\u00f3 desde Argentina: qu\u00e9 se sabe sobre la enfermedad y c\u00f3mo prevenirla - Chequeado",
+      "t": "2026-05-06T04:21:57Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdDd6MHQ1c25HX0lPOEk0QjNtNzFoY0pNUE8xZG1JZnZETGNTd01zN29qSHFVdS1vLThZYnBKN1VMZGFCdTFfSDR6eXNWRkFlSnhPWG1JTU9NdmxBQ1JOeXRuQ0VCZ2J4cHVmS1ZnWXVsbTVqRGtKOFBMZUxoOURVMENpT0hFel9NU2RRTGpSbl9oNGRKNHh6OXNuOTlXNFJyRVZYc1JUekJiNFByLWxob3NTNUdfLWJpQ1FVSmpNQmhrNEU3bWZXUzRYbV9Idzl2OXBFaGJBcVYyTnREODZB?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Qu\u00e9 es el hantavirus, la infecci\u00f3n que caus\u00f3 la muerte de tres pasajeros de un crucero que sali\u00f3 de la Argentina - La Naci\u00f3n",
+      "t": "2026-05-05T12:58:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPd1lpMDl4SG5VRHFzNUwyOHp0VGRlWjEwdFZkRVJfTjVncmlENFcxRkFTX2U3Nm14VnRtZ2VSYTNOdUxOVEc1UHZxMG52S3VEM1AzekdoOHBnelRjakQ2WndvUjhwaGl5NmoyYVVZd2s1b1o0NXF1NTZmbUc5TklpTlFMSFJHX2dMX0ZiUThSY2x3VlVnQjBJNXZKZG4zajRRNldGMUg0emJlbUphRldJS3JvVDdPZGRHeHEtaEZJUThodE9tYkliZG5UNFNSV3FZaUpSNVlEYjF2R0pYYUNUb013?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina busca informaci\u00f3n sobre el origen del posible brote de hantavirus en el crucero que iba a las Canarias en Espa\u00f1a - EL PA\u00cdS",
+      "t": "2026-05-04T19:35:53Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPYXdEVEZmS0pZUlNFQzI0ZnpueUFKdW5tQXE2c3BhcXNRc19wcWtRbW9tNXVJc0lsMXZsUDBBNDQ5VUd2N3hncnRGYUFIU3FPUktfZGxCSEloRzRIeERTUkRqNWZJUVdYTmh5UlBCM1NOWXI4NThLTzVjUGtVZFd2OTlTSVlZclNNckh5UEhVODlzUjVLZmIzRDFGOFUyc0wyc2psaWkxT3VDYWo3cDgxMXdzQ3kwTGFaZ0lmNnktYzFiblVhY1dvb0xYdHQtYllrV3ktdWFubW9nWnFhdy1hSEZXYWxsbkRVSER2eFNPdFFoUGoyZTQ2T0NCZ9IBjwJBVV95cUxPLTlBNTVkQWEyMU9WbWM2SWFiUVFaQ01yei1tUW01dUZhbFFpMC1XV1BSUlBEYmxMODFmUUxkcXVsSE4taXlGejlmd3dCOF9YMUxNX3FxaUZGSWtMOHVhdGYyRERLNnZ1VndfZGRsai1ORWNXV0o2SXBERGRuLWIyTHc0SzdlTjk4T3RPS3NOVnl5SDZGem5CWC0tdDEySEFIUTZfTUxOVXRWS3hHRk42cmFqejJkazRndDEyR0ZVcW83UjJ2Zk56SGVnM240Z2N3UFFRdGtzOVhVX3JEOXFtVnRHLV9ydlA3ek9SNTRiQ2ZyODRkNEhnZHZIUkJ3dHBvd3h5NHVqLVg1SVBsbFRN?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Qu\u00e9 se sabe del brote de hantavirus detectado en un crucero procedente de Argentina - WIRED",
+      "t": "2026-05-04T18:32:21Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQlFidjQ3MTBqejJjMldnOU52NXRCVGdQQVM3VW5WNjZHbEt6OWRyekd3N0JneHhvVVM5VmJJNUVYc3FscnNFeWJxWTRMbHBjSXozMTVIN2NrdG00X3FiZDNDRjJ3bUhpY1p5SEp4NHVPNXFlV3M3QzRZUWdHNzh1SE54OV9VRV84c05laHNTdmE3eWdibjk1ZUIzbm1ySjhXV2dTTXpWQlBkRmpnY1pOTFlBaWQ?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "El crucero que enfrenta un brote mortal de hantavirus zarp\u00f3 de Argentina. El virus en ese pa\u00eds tiene un cap\u00edtulo traum\u00e1tico - CNN en Espa\u00f1ol",
+      "t": "2026-05-04T17:02:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUmpOemFSbjFHb0F2bkVEMmRlZzdFdlFCYXpXb1pib1dra0lOa2gyNVB4bmdRUVdFM2VqZTRQZi1ZTXUwR3lwRnVUNUZ2d25DMGdYeDFvN3QwU2dVeUtZbjBuam9XX0c1Z0NManZLMjBzSmZzUnZDVjFBVXFUblNXZDRseTZ3SUNNSlVfNmlobVdZdlFyUGpxS0lyZw?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Qu\u00e9 se sabe del brote de hantavirus en un crucero que zarp\u00f3 de la Argentina y dej\u00f3 al menos tres muertos - La Naci\u00f3n",
+      "t": "2026-05-04T10:13:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPbmxqRXdOaUZVV05DVTlaRGp2WU9McVpVOEI1azZYM2t4UnB6a3JCSXlMNUFuZmx3am9YVzVJWlRFam9LTW5fbDZFVFBOVll5azhFV1JFZDN0a1pZZmlwRkRaal9zeVBFX3pkWkIxVjFoak1pMlZhRUpJS0xKa3kwQmZkXzZzWDh0WjdoM0ZtME9qYXZ5V0VYTS0tYWpxNFhnanJ3RU43cnhJZ3NlRklOOGczRTVHVmF4Y2REXzBvWmc4akQtUWpfeXVrbzdnQnA4elBjaEZQdEJPdEhVS1NF?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "3 muertos en un posible brote de hantavirus dentro de un crucero que zarp\u00f3 de Argentina - BBC",
+      "t": "2026-05-04T05:49:19Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44WDRQOENFQ3F3ZVBtOVdlU0NKZHpXSDdFZnFDSHFla2p3YkhReVpRNjlKcVhTemE3RnhBdVktcy1Mc0xRa1JCVHlzQ2FZTERCWW81Z25MTFVtQWvSAWBBVV95cUxNVHRQS1h1bDFjVTBHaXBxdFZYTF80Zzg0dWpUb2hYRHBYM3VLZkNNd0owd0pDaDBUR0MwazdzT1FLSTNxYnUtUGpQN1VNOFh1cGtORUd6NzJTWmxaSk5UaGE?oc=5"
+    }
+  ]
 }
