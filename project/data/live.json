@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T01:47:10.723489Z",
-  "next_update": "2026-05-10T01:50:00Z",
+  "generated": "2026-05-10T01:50:16.785061Z",
+  "next_update": "2026-05-10T01:55:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -78,7 +78,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "USA": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "GRC": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 8,
-    "kalshi": 25,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,8 +4020,7 @@
   "signal_summary": {
     "USA": 3,
     "ARG": 17,
-    "GBR": 1,
-    "MEX": 1,
+    "GBR": 2,
     "FRA": 3,
     "CHL": 1,
     "URY": 1
@@ -4091,6 +4090,13 @@
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcXBkYjdNdFI5elBnaE9pd2hheHlFX1RPeV9qY2FxdWZMN3B2NHFlMmxRdUhFeE0zUlo2amhNNXNnOThuMkExWC12OHBDT2NGREY3WmhCQUp3dGJTb19PZl92MXYxV0hVM25GUVRkWGVwYUJibTB2Mk56Q2dFMFJVRmhJbEN5bVdvUHVRUV9iaUVKNmRfcnl6d29HUmpjZjJlR0tsVWY5WVY4OGNUSHZXQVRpdGdhTmkxeHpQX1JTeGFaS19hVHFXWGF4em03cUE?oc=5"
     },
     {
+      "iso": "GBR",
+      "title": "UK nationals on hantavirus-hit cruise ship to isolate in hospital on return - Reuters",
+      "t": "2026-05-09T16:56:44Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSDBQTHpOdk5hVkRkR3g4Yk9WUmh6THoyRnlJVlhRTHBPTDZqVDl5X0Q4dDNrZzVteUtDZ1I1aVVhdzh5anlYVERhR2YzeHJkaHM0VnphTmN2OUJXWTNQS1VvLWZ4Uk51em5hcTY5YUcwVGdzY2sxSGQwT2tEREJpLVVVTHJLNzN6bTd1bXNyOGloa1hwV2JfdEpCZ3J5ZHZXandrM0toenQ?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "Hantavirus: Argentina enviar\u00e1 insumos y asistencia a pa\u00edses afectados por el brote - Diario La Capital de Mar del Plata",
       "t": "2026-05-09T14:29:55Z",
@@ -4110,13 +4116,6 @@
       "t": "2026-05-08T13:12:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNTA4a2JUem5XRW5Xc05ENXpQalZwV0pyQlAtZDljVTBoNnJYYTMyMV9qVEN3Wmd0RG1mcnh1N0ViQkNpdTJoVzQ4STFNMm43MDN5RlRMaURxZ2tQMXdxYktJNkVKa2NXdzlLS3cteGlEMGszcFBQN2NJNVBFM0hyektrejVuOWp4RUt2VFhUMFduaVE?oc=5"
-    },
-    {
-      "iso": "MEX",
-      "title": "Hantavirus outbreak linked to cruise ship raises questions about strain in New Mexico - KOAT",
-      "t": "2026-05-08T00:20:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWE5ETS1NX1NIOUMxZUluM2VTQ28xZ09PMmNreTVxU3Ztc0lPdV91WFdzeXI2YkdDRWhaNGFJUWY3NThCTGlVc05kOEVoRi00Zk0tZGJ5RnR1cVBGWGIxZTZXaDBXQ2c1OHc2U3JhSlk3UWdkUS1ybGowR3JoLXhhN1hVSFdCUnZC?oc=5"
     },
     {
       "iso": "ARG",
@@ -4233,7 +4232,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T01:47:10Z",
+      "last_update": "2026-05-10T01:50:16Z",
       "signals": 15,
       "recent": [
         {
