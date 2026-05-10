@@ -556,40 +556,60 @@ def build_snapshot(now: dt.datetime, cache: dict[str, Any],
 
 
 # ── Fetch real de Polymarket y Kalshi ────────────────────────────────────
-POLYMARKET_API = 'https://gamma-api.polymarket.com/events?slug=hantavirus-pandemic-in-2026'
-KALSHI_API     = 'https://trading.kalshi.com/trade-api/v2/markets/KXNEWOUTBREAK-P-26'
-_HEADERS       = {'User-Agent': 'HantaTracker/1.0', 'Accept': 'application/json'}
+POLYMARKET_API  = 'https://gamma-api.polymarket.com/events?slug=hantavirus-pandemic-in-2026'
+# Kalshi cambia de hostname según región — probamos varios en orden
+KALSHI_TICKERS  = [
+    'https://api.kalshi.com/trade-api/v2/markets/KXNEWOUTBREAK-P-26',
+    'https://trading.kalshi.com/trade-api/v2/markets/KXNEWOUTBREAK-P-26',
+    'https://api.elections.kalshi.com/trade-api/v2/markets/KXNEWOUTBREAK-P-26',
+]
+_HEADERS = {'User-Agent': 'HantaTracker/1.0', 'Accept': 'application/json'}
 
 
 def _fetch_polymarket() -> float | None:
+    import ast
     try:
-        r = requests.get(POLYMARKET_API, headers=_HEADERS, timeout=10)
+        r = requests.get(POLYMARKET_API, headers=_HEADERS, timeout=12)
         if not r.ok:
             return None
         events = r.json()
         for event in (events if isinstance(events, list) else [events]):
             for market in event.get('markets', []):
-                prices = market.get('outcomePrices') or []
-                if prices:
-                    return round(float(prices[0]) * 100, 1)   # YES price → %
+                raw = market.get('outcomePrices') or []
+                # outcomePrices puede llegar como string "['0.34','0.66']" o como lista real
+                if isinstance(raw, str):
+                    try:
+                        raw = ast.literal_eval(raw)
+                    except Exception:
+                        continue
+                if raw and isinstance(raw, list):
+                    yes_pct = round(float(raw[0]) * 100, 1)
+                    if 0 < yes_pct < 100:
+                        return yes_pct
     except Exception as e:
         log.warning(f'Polymarket fetch failed: {e}')
     return None
 
 
 def _fetch_kalshi() -> float | None:
-    try:
-        r = requests.get(KALSHI_API, headers=_HEADERS, timeout=10)
-        if not r.ok:
-            return None
-        data = r.json()
-        market = data.get('market', data)  # some endpoints wrap, some don't
-        # yes_ask / last_price are in cents (0–100)
-        price = market.get('yes_ask') or market.get('last_price') or market.get('yes_bid')
-        if price is not None:
-            return float(price)
-    except Exception as e:
-        log.warning(f'Kalshi fetch failed: {e}')
+    for url in KALSHI_TICKERS:
+        try:
+            r = requests.get(url, headers=_HEADERS, timeout=10)
+            if not r.ok:
+                continue
+            data   = r.json()
+            market = data.get('market', data)
+            # yes_ask / last_price / yes_bid en centavos (0–100)
+            price  = (market.get('yes_ask')
+                   or market.get('last_price')
+                   or market.get('yes_bid'))
+            if price is not None:
+                val = float(price)
+                if 0 < val <= 100:
+                    return val
+        except Exception:
+            continue
+    log.warning('Kalshi fetch failed: all endpoints unreachable')
     return None
 
 
