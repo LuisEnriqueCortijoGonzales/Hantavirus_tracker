@@ -198,7 +198,7 @@ function App() {
     return () => clearInterval(tick);
   }, []);
 
-  // Live data: fetch on mount, then every hour
+  // Live data: fetch on mount, then every minute
   const fetchLive = useCallback(() => {
     fetch('./data/live.json?t=' + Date.now())
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
@@ -243,7 +243,7 @@ function App() {
 
   useEffect(() => {
     fetchLive();
-    const interval = setInterval(fetchLive, 3600000);
+    const interval = setInterval(fetchLive, 60000);
     return () => clearInterval(interval);
   }, [fetchLive]);
 
@@ -1160,6 +1160,18 @@ function NewsPanel({ iso, lang }) {
 // Events
 // ============================================================================
 function EventsPanel({ ds, onPick }) {
+  // Use live RSS events from Pi when available; fall back to static dataset events
+  const liveEvents = window.LIVE_DATA?.events;
+  const items = liveEvents && liveEvents.length > 0
+    ? liveEvents.map(e => ({
+        t:       e.t,
+        country: e.iso,
+        text:    e.title,
+        url:     e.url,
+        source:  e.source,
+      }))
+    : ds.events.map(e => ({ ...e, url: '', source: '' }));
+
   return (
     <section className="panel">
       <div className="panel-head">
@@ -1167,12 +1179,16 @@ function EventsPanel({ ds, onPick }) {
         <span className="panel-sub live"><span className="live-dot"/> {window.t('panel.events.live')}</span>
       </div>
       <ul className="events-list">
-        {ds.events.map((e, i) => (
+        {items.map((e, i) => (
           <li key={i} className="ev-row" onClick={() => onPick(e.country)}>
             <div className="ev-time">{e.t.slice(11,16)}<br/>{e.t.slice(5,10)}</div>
             <div className="ev-body">
               <span className="ev-iso">{e.country}</span>
-              <span className="ev-text">{e.text}</span>
+              {e.url
+                ? <a href={e.url} target="_blank" rel="noopener noreferrer" className="ev-text ev-link" onClick={ev => ev.stopPropagation()}>{e.text}</a>
+                : <span className="ev-text">{e.text}</span>
+              }
+              {e.source && <span className="ev-source">{e.source}</span>}
             </div>
           </li>
         ))}

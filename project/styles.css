@@ -770,6 +770,20 @@ button, input { font-family: inherit; color: inherit; }
   color: var(--ink);
   line-height: 1.5;
 }
+.ev-link {
+  text-decoration: none;
+  color: var(--accent);
+}
+.ev-link:hover { text-decoration: underline; }
+.ev-source {
+  display: block;
+  font-family: var(--mono);
+  font-size: 9px;
+  color: var(--ink-dim);
+  margin-top: 2px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
 .live { display: inline-flex; align-items: center; gap: 6px; }
 .live-dot {
   width: 6px; height: 6px; border-radius: 50%;

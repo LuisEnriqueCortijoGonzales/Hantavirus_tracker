@@ -271,7 +271,14 @@ def fetch_rss(url: str, source: str, timeout: int = 15) -> list[dict[str, str]]:
                 pub_dt = dt.datetime(*pub[:6], tzinfo=dt.timezone.utc)
                 if pub_dt < cutoff:
                     continue
-            out.append({'source': source, 'title': title, 'summary': summary})
+            pub_str = pub_dt.strftime('%Y-%m-%dT%H:%M:%SZ') if pub else dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+            out.append({
+                'source':  source,
+                'title':   title,
+                'summary': summary,
+                't':       pub_str,
+                'url':     entry.get('link', ''),
+            })
         log.info(f'[{source}] {len(out)} relevant entries')
         return out
     except Exception as e:
@@ -409,9 +416,30 @@ def build_snapshot(now: dt.datetime, cache: dict[str, Any],
 
     pandemic = calculate_pandemic_probability(countries)
 
+    # Flat sorted events list for Activity Log (most recent first, max 40)
+    all_events = []
+    for iso, sigs in signals.items():
+        for sig in sigs:
+            all_events.append({
+                'iso':    iso,
+                'title':  sig['title'],
+                't':      sig.get('t', now.strftime('%Y-%m-%dT%H:%M:%SZ')),
+                'source': sig['source'],
+                'url':    sig.get('url', ''),
+            })
+    all_events.sort(key=lambda x: x['t'], reverse=True)
+
+    # next update: 10 minutes from now (rounded to next :00 or :10 or... boundary)
+    next_min = (now.minute // 10 + 1) * 10
+    next_upd = now.replace(second=0, microsecond=0)
+    if next_min >= 60:
+        next_upd = (next_upd + dt.timedelta(hours=1)).replace(minute=0)
+    else:
+        next_upd = next_upd.replace(minute=next_min)
+
     return {
         'generated':       now.strftime('%Y-%m-%dT%H:%M:%S.%fZ'),
-        'next_update':     (now + dt.timedelta(hours=1)).replace(minute=0, second=0, microsecond=0).strftime('%Y-%m-%dT%H:%M:%SZ'),
+        'next_update':     next_upd.strftime('%Y-%m-%dT%H:%M:%SZ'),
         'days_active':     round(days_from_base),
         'source':          'raspberry-pi-backend',
         'countries':       countries,
@@ -421,6 +449,7 @@ def build_snapshot(now: dt.datetime, cache: dict[str, Any],
         'hourly_history':  hourly_history,
         'pandemic':        pandemic,
         'signal_summary':  {iso: len(s) for iso, s in signals.items()},
+        'events':          all_events[:40],
     }
 
 
