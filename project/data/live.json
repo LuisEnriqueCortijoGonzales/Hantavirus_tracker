@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T13:30:16.817361Z",
-  "next_update": "2026-05-10T13:35:00Z",
+  "generated": "2026-05-10T13:35:16.823324Z",
+  "next_update": "2026-05-10T13:40:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 19,
+      "signals": 18,
       "gov_alert": false
     },
     "CHL": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "ARG": 19,
+    "ARG": 18,
     "USA": 4,
     "FRA": 3,
     "CHL": 1,
@@ -4213,13 +4213,6 @@
       "t": "2026-05-05T12:58:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPd1lpMDl4SG5VRHFzNUwyOHp0VGRlWjEwdFZkRVJfTjVncmlENFcxRkFTX2U3Nm14VnRtZ2VSYTNOdUxOVEc1UHZxMG52S3VEM1AzekdoOHBnelRjakQ2WndvUjhwaGl5NmoyYVVZd2s1b1o0NXF1NTZmbUc5TklpTlFMSFJHX2dMX0ZiUThSY2x3VlVnQjBJNXZKZG4zajRRNldGMUg0emJlbUphRldJS3JvVDdPZGRHeHEtaEZJUThodE9tYkliZG5UNFNSV3FZaUpSNVlEYjF2R0pYYUNUb013?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "El crucero que enfrenta un brote mortal de hantavirus zarp\u00f3 de Argentina. El virus en ese pa\u00eds tiene un cap\u00edtulo traum\u00e1tico - CNN en Espa\u00f1ol",
-      "t": "2026-05-04T17:02:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUmpOemFSbjFHb0F2bkVEMmRlZzdFdlFCYXpXb1pib1dra0lOa2gyNVB4bmdRUVdFM2VqZTRQZi1ZTXUwR3lwRnVUNUZ2d25DMGdYeDFvN3QwU2dVeUtZbjBuam9XX0c1Z0NManZLMjBzSmZzUnZDVjFBVXFUblNXZDRseTZ3SUNNSlVfNmlobVdZdlFyUGpxS0lyZw?oc=5"
     }
   ],
   "maritime_events": [
@@ -4238,8 +4231,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T13:30:16Z",
-      "signals": 14,
+      "last_update": "2026-05-10T13:35:16Z",
+      "signals": 13,
       "recent": [
         {
           "title": "Hantavirus is on the rise in Argentina, where a stricken cruise ship began its journey - AP News",
