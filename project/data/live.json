@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T22:00:16.795946Z",
-  "next_update": "2026-05-10T22:05:00Z",
+  "generated": "2026-05-10T22:05:16.785837Z",
+  "next_update": "2026-05-10T22:10:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 17,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4023,6 +4023,13 @@
     "FRA": 5
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Hantavirus en Argentina: qu\u00e9 roedores transmiten la enfermedad y en qu\u00e9 zonas viven - Canal26",
+      "t": "2026-05-10T21:47:59Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaGtPQ2tVWGViN21Kd25aT0RaRFRTZENGVy10Z3YtZzVvNmF5MmNMWXVMX1lNbkhBSkp4ZDRjSG5SaFRvTFZ1U0NoRmVvdnNSejR0Q3hvdjFwOWFYLWdVUmV6Ykh3N2ptZUduZXZuYUd3OXpwaTVDVjlOR1pCR2pJWTRucjBEOV93UDFPbEkwMzlsWDJrMkVLZzRTUkltM25udjVMN2R1dnJrSFZRY2cwSmRURm4yQi1fdzNEN3U5cWhjMEdx?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "Francia confirma que uno de los repatriados del 'MV Hondius' presenta \"s\u00edntomas\" de hantavirus - Infosalus",
@@ -4057,13 +4064,6 @@
       "t": "2026-05-10T17:36:03Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus en Argentina: qu\u00e9 roedores transmiten la enfermedad y en qu\u00e9 zonas viven - Canal26",
-      "t": "2026-05-10T16:00:49Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaGtPQ2tVWGViN21Kd25aT0RaRFRTZENGVy10Z3YtZzVvNmF5MmNMWXVMX1lNbkhBSkp4ZDRjSG5SaFRvTFZ1U0NoRmVvdnNSejR0Q3hvdjFwOWFYLWdVUmV6Ykh3N2ptZUduZXZuYUd3OXpwaTVDVjlOR1pCR2pJWTRucjBEOV93UDFPbEkwMzlsWDJrMkVLZzRTUkltM25udjVMN2R1dnJrSFZRY2cwSmRURm4yQi1fdzNEN3U5cWhjMEdx?oc=5"
     },
     {
       "iso": "USA",
@@ -4166,7 +4166,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T22:00:16Z",
+      "last_update": "2026-05-10T22:05:16Z",
       "signals": 9,
       "recent": [
         {
