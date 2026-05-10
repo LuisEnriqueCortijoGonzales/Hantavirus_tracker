@@ -220,9 +220,10 @@ function App() {
             };
           }
           if (upd.casos.values[iso]) {
-            // Indices 9-13 of the 14-day array (index 13 = today)
-            const hist5 = (history[iso] && dates && dates.length >= 14)
-              ? [9,10,11,12,13].map(j => ({ t: dates[j], v: history[iso][j] ?? c.ytd }))
+            // Indices 9-12: 4 historical days (yesterday through 4 days ago)
+            // Index 13 = today is handled separately by the clock in Timeline
+            const hist5 = (history[iso] && dates && dates.length >= 13)
+              ? [9,10,11,12].map(j => ({ t: dates[j], v: history[iso][j] ?? c.ytd }))
               : upd.casos.values[iso].history;
             upd.casos.values[iso] = { ...upd.casos.values[iso], current: c.ytd, history: hist5 };
           }
@@ -1297,13 +1298,21 @@ function BottomBar({ ds, step, setStep, filterSet, setFilterSet }) {
 function Timeline({ step, setStep, ds }) {
   const sampleIso = Object.keys(ds.values)[0];
   const hist = (sampleIso && ds.values[sampleIso]?.history) || [];
-  const labels = hist.length >= 5
-    ? hist.slice(0, 5).map(h => dateLabel(h.t))
-    : ['01/05','02/05','03/05','06/05','07/05'];
 
-  const stepLabel = step >= labels.length
-    ? `${labels[labels.length - 1]} (${window.t('tl.today')})`
-    : labels[step];
+  // 4 historical labels (oldest → yesterday). Fall back to static dates until live.json loads.
+  const histLabels = hist.length >= 4
+    ? hist.slice(0, 4).map(h => dateLabel(h.t))
+    : ['05/05','06/05','07/05','08/05'];
+
+  // Today is always computed from the real clock — never relies on loaded data
+  const now = new Date();
+  const todayStr = String(now.getDate()).padStart(2,'0') + '/'
+                 + String(now.getMonth() + 1).padStart(2,'0');
+
+  const isToday = step >= 5;
+  const stepLabel = isToday
+    ? `${todayStr} (${window.t('tl.today')})`
+    : (histLabels[step] ?? todayStr);
 
   return (
     <div className="timeline">
@@ -1312,13 +1321,20 @@ function Timeline({ step, setStep, ds }) {
         <span className="tl-label-now">{stepLabel}</span>
       </div>
       <div className="tl-track">
-        {labels.map((l, i) => (
-          <button key={i} className={`tl-step ${i===step?'is-active':''} ${i<step?'is-past':''}`}
-                  onClick={() => setStep(i)}>
+        {histLabels.map((l, i) => (
+          <button key={i}
+            className={`tl-step ${i===step?'is-active':''} ${(i<step||isToday)?'is-past':''}`}
+            onClick={() => setStep(i)}>
             <span className="tl-dot"/>
             <span className="tl-text">{l}</span>
           </button>
         ))}
+        {/* Today — always rightmost, always real clock date, highlighted when step≥5 */}
+        <button className={`tl-step tl-step-today ${isToday?'is-active':''}`}
+                onClick={() => setStep(5)}>
+          <span className="tl-dot"/>
+          <span className="tl-text">{todayStr}</span>
+        </button>
       </div>
     </div>
   );

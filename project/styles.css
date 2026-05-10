@@ -833,7 +833,7 @@ button, input { font-family: inherit; color: inherit; }
 .tl-track {
   flex: 1;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   position: relative;
   align-items: center;
 }
@@ -876,6 +876,17 @@ button, input { font-family: inherit; color: inherit; }
   text-transform: uppercase;
 }
 .tl-step.is-active .tl-text { color: var(--accent); font-weight: 500; }
+/* Today button — always rightmost, slightly distinct */
+.tl-step-today .tl-dot {
+  border-color: var(--accent);
+  background: color-mix(in oklab, var(--accent-bg), transparent 40%);
+}
+.tl-step-today.is-active .tl-dot {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.tl-step-today .tl-text { color: var(--accent); opacity: 0.7; }
+.tl-step-today.is-active .tl-text { opacity: 1; font-weight: 600; }
 
 /* =============================================================================
    Legend bar (replaces timeline at bottom — both render together below map)
