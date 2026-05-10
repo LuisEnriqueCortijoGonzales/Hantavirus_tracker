@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T16:00:14.947826Z",
-  "next_update": "2026-05-10T16:05:00Z",
+  "generated": "2026-05-10T16:05:15.177132Z",
+  "next_update": "2026-05-10T16:10:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 12,
+      "signals": 13,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 20,
+    "kalshi": 17,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,13 +4018,20 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "ARG": 12,
+    "ARG": 13,
     "FRA": 2,
     "USA": 2,
     "CHL": 1,
     "URY": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Hantavirus en Argentina: qu\u00e9 roedores transmiten la enfermedad y en qu\u00e9 zonas viven - Canal26",
+      "t": "2026-05-10T15:59:31Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaGtPQ2tVWGViN21Kd25aT0RaRFRTZENGVy10Z3YtZzVvNmF5MmNMWXVMX1lNbkhBSkp4ZDRjSG5SaFRvTFZ1U0NoRmVvdnNSejR0Q3hvdjFwOWFYLWdVUmV6Ykh3N2ptZUduZXZuYUd3OXpwaTVDVjlOR1pCR2pJWTRucjBEOV93UDFPbEkwMzlsWDJrMkVLZzRTUkltM25udjVMN2R1dnJrSFZRY2cwSmRURm4yQi1fdzNEN3U5cWhjMEdx?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina in spotlight over hantavirus as authorities retrace footsteps of ship\u2019s passengers - The Guardian",
@@ -4168,7 +4175,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T16:00:14Z",
+      "last_update": "2026-05-10T16:05:15Z",
       "signals": 10,
       "recent": [
         {
