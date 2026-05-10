@@ -1,14 +1,14 @@
 [Unit]
-Description=Run HantaTracker fetch every 10 minutes
+Description=Run HantaTracker fetch every 5 minutes
 Requires=hantatracker.service
 
 [Timer]
-# Cada 10 minutos (:00, :10, :20, :30, :40, :50)
-OnCalendar=*-*-* *:00/10:00
+# Cada 5 minutos (:00, :05, :10, :15, :20, :25, :30, :35, :40, :45, :50, :55)
+OnCalendar=*-*-* *:00/5:00
 # Si la Pi estaba apagada cuando tocaba, dispara al arrancar
 Persistent=true
-# Aleatoriza ±30s para no martillear servidores en el segundo exacto
-RandomizedDelaySec=30
+# Aleatoriza ±15s para no martillear servidores en el segundo exacto
+RandomizedDelaySec=15
 Unit=hantatracker.service
 
 [Install]

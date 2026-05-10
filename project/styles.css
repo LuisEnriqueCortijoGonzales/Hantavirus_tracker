@@ -775,6 +775,11 @@ button, input { font-family: inherit; color: inherit; }
   color: var(--accent);
 }
 .ev-link:hover { text-decoration: underline; }
+
+/* Maritime markers (cruise ships / vessels under monitoring) */
+.maritime-marker { transition: transform 200ms; }
+.maritime-marker:hover { transform: scale(1.1); transform-origin: center; }
+.maritime-marker text { user-select: none; }
 .ev-source {
   display: block;
   font-family: var(--mono);

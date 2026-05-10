@@ -627,6 +627,54 @@ function MapView({ ds, topo, theme, step, filterSet, hovered, setHovered,
                 </g>
               );
             })}
+
+            {/* ── Eventos marítimos (cruceros en seguimiento) ─────────── */}
+            {(window.LIVE_DATA?.maritime_events || []).map(ev => {
+              const pt = projection([ev.lng, ev.lat]);
+              if (!pt || isNaN(pt[0])) return null;
+              const [x, y] = pt;
+              const STATUS_COLOR = {
+                quarantine:  '#cc2222',
+                approaching: '#d49a28',
+                diverted:    '#e05a1a',
+                docked:      '#3a9a56',
+                cleared:     '#3a9a56',
+              };
+              const color = STATUS_COLOR[ev.status] || '#888';
+              return (
+                <g key={ev.id} className="maritime-marker" style={{ cursor: 'pointer' }}
+                   onMouseMove={e => {
+                     const wrap = wrapperRef.current.getBoundingClientRect();
+                     setHovered({
+                       iso: ev.id, name: `${ev.name} — ${ev.cases} ${window.t('maritime.cases')}`,
+                       maritime: ev,
+                       x: e.clientX - wrap.left, y: e.clientY - wrap.top,
+                     });
+                   }}
+                   onMouseLeave={() => setHovered(null)}>
+                  {/* Pulso animado */}
+                  <circle cx={x} cy={y} r={6} fill={color} opacity={0.35}>
+                    <animate attributeName="r" values="6;14;6" dur="2.4s" repeatCount="indefinite"/>
+                    <animate attributeName="opacity" values="0.5;0;0.5" dur="2.4s" repeatCount="indefinite"/>
+                  </circle>
+                  {/* Punto central */}
+                  <circle cx={x} cy={y} r={4.5} fill={color}
+                    stroke="var(--paper)" strokeWidth="1.5"/>
+                  {/* Icono barco */}
+                  <text x={x} y={y + 2.5} textAnchor="middle" fontSize="6"
+                    fill="var(--paper)" fontWeight="900" pointerEvents="none">⚓</text>
+                  {/* Etiqueta */}
+                  <line x1={x} y1={y - 7} x2={x} y2={y - 22}
+                    stroke={color} strokeWidth="1" strokeDasharray="2 2" pointerEvents="none"/>
+                  <text x={x} y={y - 26} textAnchor="middle" fontSize="9"
+                    fill={color} fontWeight="bold" pointerEvents="none">{ev.name}</text>
+                  <text x={x} y={y - 16} textAnchor="middle" fontSize="8"
+                    fill="var(--ink-dim)" pointerEvents="none">
+                    {ev.cases} {window.t('maritime.cases.short')} · {ev.dest}
+                  </text>
+                </g>
+              );
+            })}
           </g>
         )}
       </svg>
@@ -645,6 +693,37 @@ function MapView({ ds, topo, theme, step, filterSet, hovered, setHovered,
 // ============================================================================
 function Tooltip({ ds, hovered, step }) {
   if (!hovered) return null;
+
+  // Maritime event tooltip (cruise / vessel)
+  if (hovered.maritime) {
+    const ev = hovered.maritime;
+    const lang = (window.getLang && window.getLang()) || 'es';
+    const note = lang === 'en' ? (ev.note_en || ev.note_es) : (ev.note_es || ev.note_en);
+    const STATUS_COLOR = {
+      quarantine: '#cc2222', approaching: '#d49a28', diverted: '#e05a1a',
+      docked: '#3a9a56', cleared: '#3a9a56',
+    };
+    const color = STATUS_COLOR[ev.status] || '#888';
+    return (
+      <div className="tooltip" style={{ left: hovered.x + 18, top: hovered.y + 18 }}>
+        <div className="tt-row">
+          <span className="tt-swatch" style={{ color }}/>
+          <span className="tt-name">{ev.name}</span>
+          <span className="tt-iso">⚓</span>
+        </div>
+        <div className="tt-val" style={{ color }}>
+          {window.t(`maritime.status.${ev.status}`) || ev.status}
+        </div>
+        <div className="tt-extra">{ev.cases} {window.t('maritime.cases')} · CFR 0%</div>
+        <div className="tt-extra">{window.t('maritime.origin')}: {ev.origin}</div>
+        <div className="tt-extra">{window.t('maritime.dest')}: {ev.dest}</div>
+        {ev.pax && <div className="tt-extra">{window.t('maritime.pax')}: {ev.pax.toLocaleString()}</div>}
+        {note && <div className="tt-extra" style={{ marginTop: 4, fontStyle: 'italic' }}>{note}</div>}
+        <div className="tt-hint">{window.t('maritime.tracking')}</div>
+      </div>
+    );
+  }
+
   const rec   = ds.values[hovered.iso];
   const v     = rec ? valueAt(ds, hovered.iso, step) : null;
   const swatch = resolveColor(ds, v);

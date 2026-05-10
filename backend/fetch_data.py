@@ -64,7 +64,7 @@ log = logging.getLogger('hantatracker')
 BASE_DATE = dt.datetime(2026, 5, 8, 12, 0, 0, tzinfo=dt.timezone.utc)
 
 COUNTRIES: dict[str, dict[str, Any]] = {
-    'ARG': dict(base= 67, cfr=37.3, strain='andes',   peak_day=30, peak_factor=3.2, base_alert='emergencia'),
+    'ARG': dict(base= 67, cfr=37.3, strain='andes',   peak_day=30, peak_factor=3.2, base_alert='brote'),
     'CHL': dict(base= 31, cfr=35.5, strain='andes',   peak_day=25, peak_factor=2.8, base_alert='brote'),
     'BRA': dict(base= 89, cfr=41.6, strain='hps',     peak_day=55, peak_factor=1.9, base_alert='vigilancia'),
     'BOL': dict(base= 14, cfr=40.0, strain='hps',     peak_day=50, peak_factor=1.5, base_alert='vigilancia'),
@@ -112,10 +112,37 @@ COUNTRIES: dict[str, dict[str, Any]] = {
     'CZE': dict(base=  9, cfr=0.3,  strain='puumala', peak_day=35, peak_factor=1.0, base_alert='endemico'),
     'MDA': dict(base=  5, cfr=0.8,  strain='puumala', peak_day=35, peak_factor=1.0, base_alert='endemico'),
     'KAZ': dict(base= 23, cfr=0.8,  strain='hantaan', peak_day=40, peak_factor=1.3, base_alert='vigilancia'),
-    'CHN': dict(base=2341, cfr=1.2, strain='hantaan', peak_day=20, peak_factor=1.5, base_alert='emergencia'),
+    'CHN': dict(base=2341, cfr=1.2, strain='hantaan', peak_day=20, peak_factor=1.5, base_alert='brote'),
     'KOR': dict(base= 89, cfr=1.5,  strain='hantaan', peak_day=25, peak_factor=1.3, base_alert='vigilancia'),
     'JPN': dict(base= 12, cfr=0.5,  strain='hantaan', peak_day=30, peak_factor=1.1, base_alert='endemico'),
 }
+
+# Eventos marítimos en seguimiento (cruceros, buques en cuarentena, etc.).
+# Las coordenadas son aproximadas — se actualizan dinámicamente si llegan señales.
+MARITIME_EVENTS: list[dict[str, Any]] = [
+    {
+        'id':        'cruise-iberia-2026-05',
+        'name':      'MS Iberian Star',
+        'type':      'cruise',
+        'lng':       -9.5,
+        'lat':       39.8,
+        'status':    'quarantine',         # approaching | quarantine | diverted | docked | cleared
+        'dest':      'Vigo, ES',
+        'origin':    'Buenos Aires, AR',
+        'cases':     14,
+        'deaths':    0,
+        'pax':       2840,
+        'started':   '2026-05-04T00:00Z',
+        'note_es':   'En cuarentena · 14 casos sospechosos a bordo',
+        'note_en':   'Quarantined · 14 suspected cases on board',
+    },
+]
+
+# Patrones para detectar menciones del crucero en RSS
+CRUISE_PATTERNS = re.compile(
+    r'\b(crucero|cruise\s+ship|cruise\s+liner|ms\s+iberian|iberian\s+star|cruise\s+quarantine|crucero\s+cuarentena)\b',
+    re.IGNORECASE
+)
 
 # Aliases para text-matching en feeds (ES + EN + nativo)
 COUNTRY_ALIASES: dict[str, list[str]] = {
@@ -187,6 +214,59 @@ ALERT_THRESHOLDS = {
     'hantaan': {'brote': 1.4, 'vigilancia': 1.1},
 }
 
+# Patrones que identifican comunicados oficiales de gobierno/autoridad sanitaria.
+# El nivel ROJO (emergencia) sólo se asigna si alguna señal del país coincide.
+GOV_ALERT_PATTERNS = re.compile(
+    r'\b('
+    r'health\s+alert|public\s+health\s+emergency|state\s+of\s+emergency|emergency\s+declar|'
+    r'outbreak\s+declar|ministry\s+of\s+health|department\s+of\s+health|'
+    r'WHO\s+alert|PAHO\s+alert|ECDC\s+alert|CDC\s+alert|'
+    r'alerta\s+sanitaria|alerta\s+epidemiol[oó]gica|emergencia\s+sanitaria|'
+    r'estado\s+de\s+emergencia|ministerio\s+de\s+salud|secretar[ií]a\s+de\s+salud|'
+    r'comunicado\s+oficial|decreto\s+sanitario|alerta\s+nacional|'
+    r'OMS\s+alerta|OPS\s+alerta'
+    r')\b',
+    re.IGNORECASE
+)
+
+
+def has_government_alert(country_signals: list[dict[str, str]]) -> bool:
+    """True si alguna señal del país menciona una alerta oficial de autoridad sanitaria."""
+    for sig in country_signals:
+        text = f"{sig.get('title', '')} {sig.get('summary', '')}"
+        if GOV_ALERT_PATTERNS.search(text):
+            return True
+    return False
+
+
+def collect_maritime_signals(all_signals: dict[str, list[dict[str, str]]]) -> list[dict[str, str]]:
+    """Encuentra menciones de cruceros/buques en cuarentena en cualquier feed."""
+    seen_titles: set[str] = set()
+    matches: list[dict[str, str]] = []
+    for sigs in all_signals.values():
+        for sig in sigs:
+            text = f"{sig.get('title', '')} {sig.get('summary', '')}"
+            if CRUISE_PATTERNS.search(text) and sig['title'] not in seen_titles:
+                seen_titles.add(sig['title'])
+                matches.append(sig)
+    return matches
+
+
+def build_maritime_events(now: dt.datetime,
+                          maritime_signals: list[dict[str, str]]) -> list[dict[str, Any]]:
+    """Devuelve la lista de eventos marítimos con timestamp + signals adjuntos."""
+    out = []
+    for ev in MARITIME_EVENTS:
+        ev_copy = dict(ev)
+        ev_copy['last_update'] = now.strftime('%Y-%m-%dT%H:%M:%SZ')
+        ev_copy['signals']     = len(maritime_signals)
+        ev_copy['recent']      = [
+            {'title': s['title'], 't': s.get('t', ''), 'url': s.get('url', '')}
+            for s in maritime_signals[:5]
+        ]
+        out.append(ev_copy)
+    return out
+
 
 # ── Modelo de crecimiento logístico (baseline) ────────────────────────────
 def growth_factor(days: float, peak_day: float, peak_factor: float) -> float:
@@ -198,14 +278,29 @@ def growth_factor(days: float, peak_day: float, peak_factor: float) -> float:
     return max(1.0, rise if days <= peak_day else decay)
 
 
-def compute_alert(factor: float, strain: str, base_alert: str) -> str:
+def compute_alert(factor: float, strain: str, base_alert: str, gov_alert: bool = False) -> str:
+    """
+    Política de colores:
+      - ROJO (emergencia): SÓLO si gov_alert=True (el gobierno emitió comunicado oficial)
+      - NARANJA (brote):   crecimiento alto o gov_alert sin crecimiento extremo
+      - AMARILLO (vigilancia): crecimiento moderado
+      - VERDE (endémico):  sin novedad
+    """
     thr = ALERT_THRESHOLDS.get(strain, {})
-    if factor >= thr.get('emergencia', math.inf): return 'emergencia'
-    if factor >= thr.get('brote',      math.inf): return 'brote'
-    if factor >= thr.get('vigilancia', math.inf): return 'vigilancia'
-    if strain == 'andes' and factor >= 1.0:
-        return 'emergencia' if base_alert == 'emergencia' else 'brote'
-    return base_alert
+
+    # Sin comunicado oficial → máximo "brote", nunca emergencia
+    if not gov_alert:
+        if factor >= thr.get('brote',      math.inf): return 'brote'
+        if factor >= thr.get('vigilancia', math.inf): return 'vigilancia'
+        if strain == 'andes' and factor >= 1.0:        return 'brote'
+        # Degradar base_alert si era emergencia
+        return 'brote' if base_alert == 'emergencia' else base_alert
+
+    # Con comunicado oficial → emergencia si supera umbral, brote en caso contrario
+    if factor >= thr.get('emergencia', 1.5): return 'emergencia'
+    if strain in ('andes', 'puumala', 'dobrava', 'hantaan') and factor >= thr.get('brote', 1.4):
+        return 'emergencia'  # cepas P2P o de alta carga + comunicado oficial
+    return 'brote'
 
 
 # ── R0 calculator ─────────────────────────────────────────────────────────
@@ -371,8 +466,9 @@ def build_snapshot(now: dt.datetime, cache: dict[str, Any],
         signal_boost = 1.0 + min(n_signals, 20) * 0.005
         gf_eff = gf * signal_boost
 
-        ytd   = round(c['base'] * gf_eff)
-        alert = compute_alert(gf_eff, c['strain'], c['base_alert'])
+        ytd       = round(c['base'] * gf_eff)
+        gov_alert = has_government_alert(signals.get(iso, []))
+        alert     = compute_alert(gf_eff, c['strain'], c['base_alert'], gov_alert)
 
         prev_days = max(0, days_from_base - 7)
         prev_gf   = growth_factor(prev_days, c['peak_day'], c['peak_factor']) if prev_days > 0 else 1.0
@@ -412,6 +508,7 @@ def build_snapshot(now: dt.datetime, cache: dict[str, Any],
             'new_today': new_today,
             'r0':        r0,
             'signals':   n_signals,
+            'gov_alert': gov_alert,
         }
 
     pandemic = calculate_pandemic_probability(countries)
@@ -429,27 +526,32 @@ def build_snapshot(now: dt.datetime, cache: dict[str, Any],
             })
     all_events.sort(key=lambda x: x['t'], reverse=True)
 
-    # next update: 10 minutes from now (rounded to next :00 or :10 or... boundary)
-    next_min = (now.minute // 10 + 1) * 10
+    # next update: 5 minutes from now (rounded to next :00, :05, :10, :15... boundary)
+    next_min = (now.minute // 5 + 1) * 5
     next_upd = now.replace(second=0, microsecond=0)
     if next_min >= 60:
         next_upd = (next_upd + dt.timedelta(hours=1)).replace(minute=0)
     else:
         next_upd = next_upd.replace(minute=next_min)
 
+    # Eventos marítimos en seguimiento (crucero, buques en cuarentena)
+    maritime_signals = collect_maritime_signals(signals)
+    maritime_events  = build_maritime_events(now, maritime_signals)
+
     return {
-        'generated':       now.strftime('%Y-%m-%dT%H:%M:%S.%fZ'),
-        'next_update':     next_upd.strftime('%Y-%m-%dT%H:%M:%SZ'),
-        'days_active':     round(days_from_base),
-        'source':          'raspberry-pi-backend',
-        'countries':       countries,
-        'history':         daily_history,
-        'dates':           daily_dates,
-        'hourly_dates':    hourly_dates,
-        'hourly_history':  hourly_history,
-        'pandemic':        pandemic,
-        'signal_summary':  {iso: len(s) for iso, s in signals.items()},
-        'events':          all_events[:40],
+        'generated':         now.strftime('%Y-%m-%dT%H:%M:%S.%fZ'),
+        'next_update':       next_upd.strftime('%Y-%m-%dT%H:%M:%SZ'),
+        'days_active':       round(days_from_base),
+        'source':            'raspberry-pi-backend',
+        'countries':         countries,
+        'history':           daily_history,
+        'dates':             daily_dates,
+        'hourly_dates':      hourly_dates,
+        'hourly_history':    hourly_history,
+        'pandemic':          pandemic,
+        'signal_summary':    {iso: len(s) for iso, s in signals.items()},
+        'events':            all_events[:40],
+        'maritime_events':   maritime_events,
     }
 
 

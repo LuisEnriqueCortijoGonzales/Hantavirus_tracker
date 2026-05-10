@@ -100,6 +100,18 @@ window.I18N = {
     // Tooltip
     'tt.hint':              'Clic para detalle y noticias',
     'tt.nodata':            'Sin casos · clic para fuentes OMS',
+    // Maritime events (cruceros / buques en seguimiento)
+    'maritime.cases':       'casos a bordo',
+    'maritime.cases.short': 'casos',
+    'maritime.status.quarantine':  'En cuarentena',
+    'maritime.status.approaching': 'Aproximándose',
+    'maritime.status.diverted':    'Desviado',
+    'maritime.status.docked':      'Atracado',
+    'maritime.status.cleared':     'Liberado',
+    'maritime.dest':        'Destino',
+    'maritime.origin':      'Origen',
+    'maritime.pax':         'Pasajeros',
+    'maritime.tracking':    'Buque en seguimiento',
     // Donate modal
     'donate.title':         'Apoya HantaTracker',
     'donate.sub':           'Donación voluntaria en cripto · sin intermediarios',
@@ -209,6 +221,18 @@ window.I18N = {
     // Tooltip
     'tt.hint':              'Click for detail & news',
     'tt.nodata':            'No cases · click for WHO sources',
+    // Maritime events (cruise ships / vessels under monitoring)
+    'maritime.cases':       'cases on board',
+    'maritime.cases.short': 'cases',
+    'maritime.status.quarantine':  'Quarantined',
+    'maritime.status.approaching': 'Approaching',
+    'maritime.status.diverted':    'Diverted',
+    'maritime.status.docked':      'Docked',
+    'maritime.status.cleared':     'Cleared',
+    'maritime.dest':        'Destination',
+    'maritime.origin':      'Origin',
+    'maritime.pax':         'Passengers',
+    'maritime.tracking':    'Vessel under monitoring',
     // Donate modal
     'donate.title':         'Support HantaTracker',
     'donate.sub':           'Voluntary crypto donation · no intermediaries',
