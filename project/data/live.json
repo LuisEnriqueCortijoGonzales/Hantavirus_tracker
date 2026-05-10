@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T15:25:16.754008Z",
-  "next_update": "2026-05-10T15:30:00Z",
+  "generated": "2026-05-10T15:30:16.811132Z",
+  "next_update": "2026-05-10T15:35:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 20,
+    "kalshi": 16,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "ARG": 10,
     "FRA": 2,
-    "USA": 3,
+    "USA": 2,
     "CHL": 1,
     "URY": 1
   },
@@ -4059,13 +4059,6 @@
       "t": "2026-05-09T23:52:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOa3JKdFdFSTlER2dhZUNybVprZ3ZEUXJJUFVacENIdHBCZzA0NVdUcWE1eXFGbG1BR3JYeUFmU3RVRzF2eklVcHh2WVdZeUNrWHNnQzUwcGs3U2p4dEFHamNmUElwaVE5NjN5T2RfaU5FNmVPWmJvWVpDajBPMG80NzhIN2ROUEpBX0JzM3VadndmSFhJTlAtdFROTVZtUExXVXJvbVYzS2lXenMxWlhYLTl1R2FmVDlUTEJZNjJVNXRYcVpTQU16Z2RMRG80MTB3?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Cruise ship with deadly hantavirus to evacuate passengers near Spain - USA Today",
-      "t": "2026-05-09T22:24:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNGd4RnUyREQ0dmw5bUhGQ0tzRVQ1ckNXZFYzNElDdXBFSlV1U3hKb3RKRFNnUDVQVU40N2prVVhRaXk0MFJvTUo0bVlEZ1NEeUI4cERxdmt3SmRZemJONnhuNmpKU1IydUlWSkMtR0FwNC13MGZ0b1dhUHV3TjYtYU5RVUtkcFJUVjhLYkh4TjlrOUNvTDFz?oc=5"
     },
     {
       "iso": "USA",
@@ -4161,8 +4154,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T15:25:16Z",
-      "signals": 10,
+      "last_update": "2026-05-10T15:30:16Z",
+      "signals": 9,
       "recent": [
         {
           "title": "Hantavirus is on the rise in Argentina, where a stricken cruise ship began its journey - AP News",
@@ -4175,11 +4168,6 @@
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRDg4RHFzZWZ5S1VVYnhMcVB6MEdhSXdFXzVOdnF2R1ppUzlJUU9QWWdza3R1cG5pWlFUQzJsZE5CeHFJWXMtV0ZLZEdfUy1tQ0VCYlU5WTlqY3RwWEF5M1JfaUU4aXNLaERkTVp2N2xoUTlEd3FMbURhUzRfOHN6WF9Pa0RFV29MMEpMTnRkVHVTTnk1RzJVU0hueVY2ejFIdXlqdzJMdUZMdzJlaXdXbG5ZOU15QdIBuwFBVV95cUxQWFpyZlk3b3R4MGZoRDdBVEE3QkVraFh5Z2hjLTk3bEdDcUc1Szg1UGdESzVSS2Y5cTN2dzJHYVVWc2ZnanpMNUJoRC03Zi1ydmVwOTg3VlVHNTNxZG8yS1FOV01PLXVQM004NG8yZjFseUQtSU9hbGxZc3ZFQkxfYk9jSDhidEZaME52WWxNWGFRQ0lvSi1mNldwbVBYeFZGT3lYZkJJdUxsMG5Bc3diQ01tdXRha3ZpVGJV?oc=5"
         },
         {
-          "title": "Argentina investiga si el brote de hantavirus en el crucero MV Hondius se origin\u00f3 en la Patagonia - Perfil",
-          "t": "2026-05-09T18:19:00Z",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMHdscFdoMUZwQUFBUlNfZW9SQ1NQclNQMVZ0dkJHVVM2N01EdGVuNTZkeEVCcVJFRUZySE9XdjA0SEtVYjVRQ1NnOUlUTnprVXJtRzF5bE5LU3RiR1llQ0VtZlJFRERqVDdsV0tRSjgzNUROVTJlbUM2a0pyaHEyd3pMWGhBTjRsZ1g0MWlTUkhPZTY3NzdQZFJURXE3akJXUkVFdWdyMUhXR2hkem1RYVdpZklwai0xbFJQVktnZkprU1J6dGcyNm44V3ZFZ3BXX0t6Q19BLTjSAd4BQVVfeXFMUFFYX1pOdGViaUNuLTlNQkdfOHJZQ1FRS25aUEVvTlJNdklfaWhjTEpvdG13S0ZQcjMtdnJlMDhaNV9rbUltUkRqcnByUzRvRWZpcDFrNGRVOUlaZk15SmpvLXNtbkQ4cGZWcGVIbGI1WEVMS0RpSGhZQ0FGLVdMWURqdHVTZEVfLVc3cWl1aDNPbFlBYXRXVDFobVBCQUpzNVZMQ0F5RGVYaTJpNzl5RGtDM2NRS1F0dTI2WFk4eGNHUldJVXpiTzlUOFNJU0ZfVUNlWXpwQXNja1hZVVdR?oc=5"
-        },
-        {
           "title": "Qu\u00e9 se sabe del viaje por Argentina, Chile y Uruguay de los turistas que presentaron los primeros s\u00edntomas de hantavirus en el crucero y luego murieron - BBC",
           "t": "2026-05-07T23:22:53Z",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvQk85TUotMXBBY2dsU2hHVGxNUEk3OENZdFRHR0dYLVVoWGIwaG5IVS04LXVNU1R5NXhWZU5zX2E2aXBlcXBEYXhDcllqRmRPb3hqVDY2RFRkdVXSAWBBVV95cUxNdE5pdDNZbU1qZjFPSFRBeWZWaHJGX2p0V3FBbjllTWFQNG9VekxNc0FVcVV4cEd0em5UYUxTd2JpMG9pMzREMFMzWHFUX3BZai1SeXdLZ01TR2pEenk5OHQ?oc=5"
@@ -4188,6 +4176,11 @@
           "title": "Crucero con brote de hantavirus desembarca en Tenerife para evacuaci\u00f3n - Cadena 3 Argentina",
           "t": "2026-05-10T06:38:56Z",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM0JielJWZEpBeUcyN0VsWjY0cFNDLWxHTVhxelh3M0p6aFdTQVU3YnFVZWdhMmZNUXZXb0dydUdIMC1qenc2N3A5YzZpLUhXN3U0U0U4ZjA4eGtxS3RhS2E4TlZWQnR2anp0S0N4SUtxazJwMU8tMGpDdUpQdjRvMktia0xXMkg3N3dBcmEySnFsN1ZrejVhOTRCXy1HSHBMRzRoOURmNU1RdDVVMjlZWVc1RnE1Z9IBuwFBVV95cUxPTVdMQzBiR0pJQVpLWnByMTBTVEtOZlJBdkVtYnBYc3VDWWluWEFjRjFvQkwteGh6S3FJR0JoNUVVWEtScnNVT19GenRzcHhxMjEzZlMxTVQ2c2NWaVRINXRNaHlpdXdsemJJTTJ3cUQxUEhMOWxDMGExa0J2cGszaHdPM2JIMDFJcVFWSkdWZnFWU0xCRVZxRUtVaDBGeUxmLWcwRWZCblh4cnIybng1dGZXbnFkYnE1SWlV?oc=5"
+        },
+        {
+          "title": "Argentina reconstruye el periplo del \u2018caso \u00edndice\u2019 de hantavirus antes de subir al crucero - Sinc",
+          "t": "2026-05-07T06:16:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
         }
       ]
     }
