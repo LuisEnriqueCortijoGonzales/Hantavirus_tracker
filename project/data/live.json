@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T04:55:16.755946Z",
-  "next_update": "2026-05-10T05:00:00Z",
+  "generated": "2026-05-10T05:00:14.918238Z",
+  "next_update": "2026-05-10T05:05:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -78,7 +78,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "USA": {
@@ -1401,7 +1401,6 @@
     "2026-05-10T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-08T05:00:00Z",
     "2026-05-08T06:00:00Z",
     "2026-05-08T07:00:00Z",
     "2026-05-08T08:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-10T01:00:00Z",
     "2026-05-10T02:00:00Z",
     "2026-05-10T03:00:00Z",
-    "2026-05-10T04:00:00Z"
+    "2026-05-10T04:00:00Z",
+    "2026-05-10T05:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
-    "polymarket": 8,
-    "kalshi": 21,
+    "polymarket": 7,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4022,6 +4022,7 @@
     "GBR": 1,
     "ARG": 16,
     "CHN": 1,
+    "MEX": 1,
     "FRA": 3,
     "CHL": 1,
     "URY": 1
@@ -4110,6 +4111,13 @@
       "t": "2026-05-08T13:12:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNTA4a2JUem5XRW5Xc05ENXpQalZwV0pyQlAtZDljVTBoNnJYYTMyMV9qVEN3Wmd0RG1mcnh1N0ViQkNpdTJoVzQ4STFNMm43MDN5RlRMaURxZ2tQMXdxYktJNkVKa2NXdzlLS3cteGlEMGszcFBQN2NJNVBFM0hyektrejVuOWp4RUt2VFhUMFduaVE?oc=5"
+    },
+    {
+      "iso": "MEX",
+      "title": "Hantavirus outbreak linked to cruise ship raises questions about strain in New Mexico - KOAT",
+      "t": "2026-05-08T00:20:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWE5ETS1NX1NIOUMxZUluM2VTQ28xZ09PMmNreTVxU3Ztc0lPdV91WFdzeXI2YkdDRWhaNGFJUWY3NThCTGlVc05kOEVoRi00Zk0tZGJ5RnR1cVBGWGIxZTZXaDBXQ2c1OHc2U3JhSlk3UWdkUS1ybGowR3JoLXhhN1hVSFdCUnZC?oc=5"
     },
     {
       "iso": "ARG",
@@ -4226,8 +4234,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T04:55:16Z",
-      "signals": 16,
+      "last_update": "2026-05-10T05:00:14Z",
+      "signals": 17,
       "recent": [
         {
           "title": "When will passengers leave hantavirus cruise ship? WHO details its plan - USA Today",
