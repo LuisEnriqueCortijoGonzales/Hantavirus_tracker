@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T20:10:14.743644Z",
-  "next_update": "2026-05-10T20:15:00Z",
+  "generated": "2026-05-10T20:15:14.922944Z",
+  "next_update": "2026-05-10T20:20:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 19,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,9 +4020,16 @@
   "signal_summary": {
     "ARG": 15,
     "USA": 1,
-    "FRA": 2
+    "FRA": 3
   },
   "events": [
+    {
+      "iso": "FRA",
+      "title": "Francia confirma que uno de los repatriados del 'MV Hondius' presenta \"s\u00edntomas\" de hantavirus - Infosalus",
+      "t": "2026-05-10T19:52:06Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOVnJkXzhHU096a3NvTFBBTEVuOEZERlNwOWJwd3dZZ051QUx5eGx2TEN2TGYzcndVYm9XbnIxT09WNDlYWkN4ZHNtS1BFWDFTTHZ0czg1ZWhDNi1nc3k3X2xTNloxZW40NW05TU9zSng2dFhBbjY1WHJzRGFIY1pHdHN1NkdfOHpFZnlTLWlWM3d2YVp0YVJMWWJIbEVCVXlHQ09OWU90cFFfSHQ2T3hCZGl6MGRZWURHbHEyUEZ2Z1VleEJacXY5d1p1clJmVUQ4UUc1MmNlbmRWdw?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Infect\u00f3logo alerta sobre riesgos del hantavirus y su detecci\u00f3n temprana - Cadena 3 Argentina",
@@ -4166,7 +4173,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T20:10:14Z",
+      "last_update": "2026-05-10T20:15:14Z",
       "signals": 12,
       "recent": [
         {
@@ -4185,14 +4192,14 @@
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNWZ5QVZNZ1BHSGhjTHMyWmsxQ0N0Y1J0V2Y5UkRCNi1pNmVDTHVobjRRUkdqZzZTZ01hR3VqbmtoZS0xZ00zSG96S2lIX190UzhnbXJ0Z0NmSFg2Qk1lNkIxX19VZDBnM1g1S2N0dzBTbkxOeGpiMG9wRVY5VG5XTnNCOUxXVmxuLUpDdlVHcjNfa19tME9WTnFMek5VRVdtaENhVmFwckZOeTlZZVRDYjF3Wm4?oc=5"
         },
         {
-          "title": "Brote de hantavirus en un crucero que zarp\u00f3 desde Argentina: qu\u00e9 se sabe sobre la enfermedad y c\u00f3mo prevenirla - Chequeado",
-          "t": "2026-05-06T04:21:57Z",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdDd6MHQ1c25HX0lPOEk0QjNtNzFoY0pNUE8xZG1JZnZETGNTd01zN29qSHFVdS1vLThZYnBKN1VMZGFCdTFfSDR6eXNWRkFlSnhPWG1JTU9NdmxBQ1JOeXRuQ0VCZ2J4cHVmS1ZnWXVsbTVqRGtKOFBMZUxoOURVMENpT0hFel9NU2RRTGpSbl9oNGRKNHh6OXNuOTlXNFJyRVZYc1JUekJiNFByLWxob3NTNUdfLWJpQ1FVSmpNQmhrNEU3bWZXUzRYbV9Idzl2OXBFaGJBcVYyTnREODZB?oc=5"
-        },
-        {
           "title": "Argentina reconstruye el periplo del \u2018caso \u00edndice\u2019 de hantavirus antes de subir al crucero - Sinc",
           "t": "2026-05-07T06:16:00Z",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
+        },
+        {
+          "title": "Brote de hantavirus en un crucero que zarp\u00f3 desde Argentina: qu\u00e9 se sabe sobre la enfermedad y c\u00f3mo prevenirla - Chequeado",
+          "t": "2026-05-06T04:21:57Z",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdDd6MHQ1c25HX0lPOEk0QjNtNzFoY0pNUE8xZG1JZnZETGNTd01zN29qSHFVdS1vLThZYnBKN1VMZGFCdTFfSDR6eXNWRkFlSnhPWG1JTU9NdmxBQ1JOeXRuQ0VCZ2J4cHVmS1ZnWXVsbTVqRGtKOFBMZUxoOURVMENpT0hFel9NU2RRTGpSbl9oNGRKNHh6OXNuOTlXNFJyRVZYc1JUekJiNFByLWxob3NTNUdfLWJpQ1FVSmpNQmhrNEU3bWZXUzRYbV9Idzl2OXBFaGJBcVYyTnREODZB?oc=5"
         }
       ]
     }
