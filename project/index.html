@@ -3,11 +3,120 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>HantaTracker — Monitor Global de Hantavirus</title>
-  <meta name="description" content="Monitor epidemiológico global de hantavirus en tiempo real. Casos confirmados, tasas de letalidad y alertas por país. Datos actualizados."/>
-  <meta property="og:title" content="HantaTracker — Monitor Global de Hantavirus"/>
-  <meta property="og:description" content="Seguimiento en tiempo real del brote de hantavirus 2026. Mapa mundial, casos, CFR y variación semanal por país."/>
-  <meta property="og:type" content="website"/>
+
+  <!-- ═══ Primary SEO ═══ -->
+  <title>HantaTracker — Monitor Global de Hantavirus 2026 | Mapa en Tiempo Real</title>
+  <meta name="description" content="Monitor epidemiológico global de hantavirus en tiempo real. Casos confirmados, tasa de letalidad (CFR), alertas de emergencia y variación semanal por país. Datos OPS/OMS · CDC · ECDC actualizados cada 5 minutos."/>
+  <meta name="keywords" content="hantavirus, hantavirus 2026, brote hantavirus, hantavirus tracker, hantavirus map, hantavirus cases, HPS, HFRS, hantavirus pulmonary syndrome, epidemiology, outbreak monitor, OPS OMS CDC, hantavirus Argentina, hantavirus Chile, hantavirus Peru, hantavirus Americas"/>
+  <meta name="author" content="Luis Enrique Cortijo Gonzales"/>
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large"/>
+  <link rel="canonical" href="https://luisenriquecortijogonzales.github.io/Hantavirus_tracker/"/>
+
+  <!-- ═══ Language alternates ═══ -->
+  <link rel="alternate" hreflang="es" href="https://luisenriquecortijogonzales.github.io/Hantavirus_tracker/"/>
+  <link rel="alternate" hreflang="en" href="https://luisenriquecortijogonzales.github.io/Hantavirus_tracker/?lang=en"/>
+  <link rel="alternate" hreflang="x-default" href="https://luisenriquecortijogonzales.github.io/Hantavirus_tracker/"/>
+
+  <!-- ═══ Open Graph (Facebook, WhatsApp, LinkedIn) ═══ -->
+  <meta property="og:type"        content="website"/>
+  <meta property="og:site_name"   content="HantaTracker"/>
+  <meta property="og:url"         content="https://luisenriquecortijogonzales.github.io/Hantavirus_tracker/"/>
+  <meta property="og:title"       content="HantaTracker — Monitor Global de Hantavirus 2026"/>
+  <meta property="og:description" content="Seguimiento en tiempo real del brote de hantavirus 2026. Mapa mundial interactivo con casos, CFR y alertas por país. Fuentes: OPS/OMS · CDC · ECDC."/>
+  <meta property="og:locale"      content="es_ES"/>
+  <meta property="og:locale:alternate" content="en_US"/>
+  <meta property="og:image"       content="https://luisenriquecortijogonzales.github.io/Hantavirus_tracker/preview.png"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:image:alt"   content="HantaTracker — mapa mundial de hantavirus 2026 con casos por país"/>
+
+  <!-- ═══ Twitter / X Card ═══ -->
+  <meta name="twitter:card"        content="summary_large_image"/>
+  <meta name="twitter:title"       content="HantaTracker — Monitor Global de Hantavirus 2026"/>
+  <meta name="twitter:description" content="Mapa epidemiológico en tiempo real: casos, letalidad y alertas de hantavirus por país. Datos actualizados cada 5 min."/>
+  <meta name="twitter:image"       content="https://luisenriquecortijogonzales.github.io/Hantavirus_tracker/preview.png"/>
+  <meta name="twitter:image:alt"   content="Mapa mundial de hantavirus 2026"/>
+
+  <!-- ═══ Structured Data — JSON-LD ═══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "@id": "https://luisenriquecortijogonzales.github.io/Hantavirus_tracker/#app",
+        "name": "HantaTracker",
+        "url": "https://luisenriquecortijogonzales.github.io/Hantavirus_tracker/",
+        "description": "Monitor epidemiológico global de hantavirus en tiempo real. Casos confirmados, tasa de letalidad (CFR) y alertas de emergencia por país.",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "inLanguage": ["es", "en"],
+        "isAccessibleForFree": true,
+        "author": {
+          "@type": "Person",
+          "name": "Luis Enrique Cortijo Gonzales"
+        },
+        "dateModified": "2026-05-10",
+        "keywords": "hantavirus, brote hantavirus 2026, epidemiology, HPS, HFRS, outbreak tracker",
+        "about": {
+          "@type": "MedicalCondition",
+          "name": "Hantavirus",
+          "alternateName": ["Hantavirus Pulmonary Syndrome", "HPS", "HFRS", "Hantavirus Hemorrhagic Fever with Renal Syndrome"],
+          "code": {
+            "@type": "MedicalCode",
+            "code": "A98.5",
+            "codingSystem": "ICD-10"
+          },
+          "relevantSpecialty": "Infectious Disease",
+          "epidemiology": "Brote activo 2026 — múltiples países en las Américas, Europa y Asia",
+          "possibleTreatment": "Cuidados de soporte intensivo"
+        }
+      },
+      {
+        "@type": "Dataset",
+        "@id": "https://luisenriquecortijogonzales.github.io/Hantavirus_tracker/#dataset",
+        "name": "HantaTracker — Datos globales de hantavirus 2026",
+        "description": "Dataset epidemiológico actualizado cada 5 minutos con casos confirmados, CFR, alertas de emergencia y variación semanal de hantavirus por país.",
+        "url": "https://luisenriquecortijogonzales.github.io/Hantavirus_tracker/",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "isAccessibleForFree": true,
+        "creator": {
+          "@type": "Person",
+          "name": "Luis Enrique Cortijo Gonzales"
+        },
+        "temporalCoverage": "2026/..",
+        "spatialCoverage": "Global",
+        "variableMeasured": [
+          "Confirmed hantavirus cases",
+          "Case Fatality Rate (CFR)",
+          "Alert status",
+          "Weekly variation"
+        ],
+        "measurementTechnique": "Epidemiological surveillance — PAHO/WHO, CDC, ECDC, RKI, THL",
+        "dateModified": "2026-05-10"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://luisenriquecortijogonzales.github.io/Hantavirus_tracker/#webpage",
+        "url": "https://luisenriquecortijogonzales.github.io/Hantavirus_tracker/",
+        "name": "HantaTracker — Monitor Global de Hantavirus 2026",
+        "description": "Monitor epidemiológico global de hantavirus en tiempo real.",
+        "inLanguage": "es",
+        "isPartOf": { "@id": "https://luisenriquecortijogonzales.github.io/Hantavirus_tracker/#app" },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "HantaTracker",
+            "item": "https://luisenriquecortijogonzales.github.io/Hantavirus_tracker/"
+          }]
+        }
+      }
+    ]
+  }
+  </script>
 
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦠</text></svg>"/>
 
