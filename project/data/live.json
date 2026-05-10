@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T20:55:09.753622Z",
-  "next_update": "2026-05-10T21:00:00Z",
+  "generated": "2026-05-10T21:00:16.779693Z",
+  "next_update": "2026-05-10T21:05:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -1401,7 +1401,6 @@
     "2026-05-10T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-08T21:00:00Z",
     "2026-05-08T22:00:00Z",
     "2026-05-08T23:00:00Z",
     "2026-05-09T00:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-10T17:00:00Z",
     "2026-05-10T18:00:00Z",
     "2026-05-10T19:00:00Z",
-    "2026-05-10T20:00:00Z"
+    "2026-05-10T20:00:00Z",
+    "2026-05-10T21:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "USA": 2,
+    "USA": 1,
     "ARG": 14,
     "FRA": 3
   },
@@ -4085,13 +4085,6 @@
       "t": "2026-05-10T12:18:14Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWFpyZlk3b3R4MGZoRDdBVEE3QkVraFh5Z2hjLTk3bEdDcUc1Szg1UGdESzVSS2Y5cTN2dzJHYVVWc2ZnanpMNUJoRC03Zi1ydmVwOTg3VlVHNTNxZG8yS1FOV01PLXVQM004NG8yZjFseUQtSU9hbGxZc3ZFQkxfYk9jSDhidEZaME52WWxNWGFRQ0lvSi1mNldwbVBYeFZGT3lYZkJJdUxsMG5Bc3diQ01tdXRha3ZpVGJV0gG7AUFVX3lxTFBYWnJmWTdvdHgwZmhEN0FUQTdCRWtoWHlnaGMtOTdsR0NxRzVLODVQZ0RLNVJLZjlxM3Z3MkdhVVZzZmdqekw1QmhELTdmLXJ2ZXA5ODdWVUc1M3FkbzJLUU5XTU8tdVAzTTg0bzJmMWx5RC1JT2FsbFlzdkVCTF9iT2NIOGJ0RlowTnZZbE1YYVFDSW9KLWY2V3BtUFh4VkZPeVhmQkl1TGwwbkFzd2JDTW11dGFrdmlUYlU?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "When will passengers leave hantavirus cruise ship? WHO details its plan - USA Today",
-      "t": "2026-05-09T23:52:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOa3JKdFdFSTlER2dhZUNybVprZ3ZEUXJJUFVacENIdHBCZzA0NVdUcWE1eXFGbG1BR3JYeUFmU3RVRzF2eklVcHh2WVdZeUNrWHNnQzUwcGs3U2p4dEFHamNmUElwaVE5NjN5T2RfaU5FNmVPWmJvWVpDajBPMG80NzhIN2ROUEpBX0JzM3VadndmSFhJTlAtdFROTVZtUExXVXJvbVYzS2lXenMxWlhYLTl1R2FmVDlUTEJZNjJVNXRYcVpTQU16Z2RMRG80MTB3?oc=5"
     },
     {
       "iso": "ARG",
@@ -4173,18 +4166,13 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T20:55:09Z",
-      "signals": 13,
+      "last_update": "2026-05-10T21:00:16Z",
+      "signals": 12,
       "recent": [
         {
           "title": "Cruise ship with deadly hantavirus to evacuate passengers near Spain - USA Today",
           "t": "2026-05-10T14:59:00Z",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNGd4RnUyREQ0dmw5bUhGQ0tzRVQ1ckNXZFYzNElDdXBFSlV1U3hKb3RKRFNnUDVQVU40N2prVVhRaXk0MFJvTUo0bVlEZ1NEeUI4cERxdmt3SmRZemJONnhuNmpKU1IydUlWSkMtR0FwNC13MGZ0b1dhUHV3TjYtYU5RVUtkcFJUVjhLYkh4TjlrOUNvTDFz?oc=5"
-        },
-        {
-          "title": "When will passengers leave hantavirus cruise ship? WHO details its plan - USA Today",
-          "t": "2026-05-09T23:52:00Z",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOa3JKdFdFSTlER2dhZUNybVprZ3ZEUXJJUFVacENIdHBCZzA0NVdUcWE1eXFGbG1BR3JYeUFmU3RVRzF2eklVcHh2WVdZeUNrWHNnQzUwcGs3U2p4dEFHamNmUElwaVE5NjN5T2RfaU5FNmVPWmJvWVpDajBPMG80NzhIN2ROUEpBX0JzM3VadndmSFhJTlAtdFROTVZtUExXVXJvbVYzS2lXenMxWlhYLTl1R2FmVDlUTEJZNjJVNXRYcVpTQU16Z2RMRG80MTB3?oc=5"
         },
         {
           "title": "Hantavirus is on the rise in Argentina, where a stricken cruise ship began its journey - AP News",
@@ -4200,6 +4188,11 @@
           "title": "Argentina, un pasajero qued\u00f3 aislado por el brote de hantavirus en un crucero - andigital.com.ar",
           "t": "2026-05-10T18:42:04Z",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNWZ5QVZNZ1BHSGhjTHMyWmsxQ0N0Y1J0V2Y5UkRCNi1pNmVDTHVobjRRUkdqZzZTZ01hR3VqbmtoZS0xZ00zSG96S2lIX190UzhnbXJ0Z0NmSFg2Qk1lNkIxX19VZDBnM1g1S2N0dzBTbkxOeGpiMG9wRVY5VG5XTnNCOUxXVmxuLUpDdlVHcjNfa19tME9WTnFMek5VRVdtaENhVmFwckZOeTlZZVRDYjF3Wm4?oc=5"
+        },
+        {
+          "title": "Argentina reconstruye el periplo del \u2018caso \u00edndice\u2019 de hantavirus antes de subir al crucero - Sinc",
+          "t": "2026-05-07T06:16:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
         }
       ]
     }
