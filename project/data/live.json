@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-10T12:40:16.795472Z",
-  "next_update": "2026-05-10T12:45:00Z",
+  "generated": "2026-05-10T12:45:14.935956Z",
+  "next_update": "2026-05-10T12:50:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 21,
+      "signals": 20,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 4,
-    "ARG": 21,
+    "ARG": 20,
     "FRA": 3,
     "CHL": 1,
     "URY": 1
@@ -4108,13 +4108,6 @@
       "t": "2026-05-09T18:19:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMHdscFdoMUZwQUFBUlNfZW9SQ1NQclNQMVZ0dkJHVVM2N01EdGVuNTZkeEVCcVJFRUZySE9XdjA0SEtVYjVRQ1NnOUlUTnprVXJtRzF5bE5LU3RiR1llQ0VtZlJFRERqVDdsV0tRSjgzNUROVTJlbUM2a0pyaHEyd3pMWGhBTjRsZ1g0MWlTUkhPZTY3NzdQZFJURXE3akJXUkVFdWdyMUhXR2hkem1RYVdpZklwai0xbFJQVktnZkprU1J6dGcyNm44V3ZFZ3BXX0t6Q19BLTjSAd4BQVVfeXFMUFFYX1pOdGViaUNuLTlNQkdfOHJZQ1FRS25aUEVvTlJNdklfaWhjTEpvdG13S0ZQcjMtdnJlMDhaNV9rbUltUkRqcnByUzRvRWZpcDFrNGRVOUlaZk15SmpvLXNtbkQ4cGZWcGVIbGI1WEVMS0RpSGhZQ0FGLVdMWURqdHVTZEVfLVc3cWl1aDNPbFlBYXRXVDFobVBCQUpzNVZMQ0F5RGVYaTJpNzl5RGtDM2NRS1F0dTI2WFk4eGNHUldJVXpiTzlUOFNJU0ZfVUNlWXpwQXNja1hZVVdR?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina refuerza el monitoreo por hantavirus tras el brote en un crucero - vetmarketportal.com.ar",
-      "t": "2026-05-08T21:21:43Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcjJRazhRNGFzdGRCMVR2WVV6dFMwbHJxeVJkX1BTOTVMbkUyejlEdVFyOVR2MEhpUTVoMmhYSnBuN240aHFNMl9ST1hKS1JicEljSVpHcVktTy1KbGVRT01ldnFxTXIzU1JGeUlGNC1hVzk4ejdZcDNybGl5TERSc0l4dHFjVC10Tm1iNjRiaG1QdVdReDczRnNMX21LelJpWjVBZndobVF0NHlHbGMxTUdfTFVGMEE?oc=5"
     },
     {
       "iso": "ARG",
@@ -4252,8 +4245,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T12:40:16Z",
-      "signals": 15,
+      "last_update": "2026-05-10T12:45:14Z",
+      "signals": 14,
       "recent": [
         {
           "title": "When will passengers leave hantavirus cruise ship? WHO details its plan - USA Today",
