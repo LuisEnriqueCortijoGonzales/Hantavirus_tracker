@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-10T12:15:14.847937Z",
-  "next_update": "2026-05-10T12:20:00Z",
+  "generated": "2026-05-10T12:20:14.845786Z",
+  "next_update": "2026-05-10T12:25:00Z",
   "days_active": 2,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 73,
-      "alert": "brote",
+      "ytd": 74,
+      "alert": "vigilancia",
       "cfr": 37.3,
-      "var_pct": 9,
+      "var_pct": 10,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 19,
+      "signals": 20,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74
     ],
     "CHL": [
       31,
@@ -1452,54 +1452,54 @@
   ],
   "hourly_history": {
     "ARG": [
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74
     ],
     "CHL": [
       31,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
-    "epidemio": 16,
+    "composite": 14,
+    "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 20,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4015,10 +4015,10 @@
       "Europe"
     ],
     "emergency_count": 0,
-    "outbreak_count": 7
+    "outbreak_count": 6
   },
   "signal_summary": {
-    "ARG": 19,
+    "ARG": 20,
     "FRA": 3,
     "USA": 3,
     "GBR": 1,
@@ -4026,6 +4026,13 @@
     "URY": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Desembarco del crucero MV Hondius en Tenerife tras brote de hantavirus - Cadena 3 Argentina",
+      "t": "2026-05-10T12:17:39Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRDg4RHFzZWZ5S1VVYnhMcVB6MEdhSXdFXzVOdnF2R1ppUzlJUU9QWWdza3R1cG5pWlFUQzJsZE5CeHFJWXMtV0ZLZEdfUy1tQ0VCYlU5WTlqY3RwWEF5M1JfaUU4aXNLaERkTVp2N2xoUTlEd3FMbURhUzRfOHN6WF9Pa0RFV29MMEpMTnRkVHVTTnk1RzJVU0hueVY2ejFIdXlqdzJMdUZMdzJlaXdXbG5ZOU15QdIBuwFBVV95cUxQWFpyZlk3b3R4MGZoRDdBVEE3QkVraFh5Z2hjLTk3bEdDcUc1Szg1UGdESzVSS2Y5cTN2dzJHYVVWc2ZnanpMNUJoRC03Zi1ydmVwOTg3VlVHNTNxZG8yS1FOV01PLXVQM004NG8yZjFseUQtSU9hbGxZc3ZFQkxfYk9jSDhidEZaME52WWxNWGFRQ0lvSi1mNldwbVBYeFZGT3lYZkJJdUxsMG5Bc3diQ01tdXRha3ZpVGJV?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina in spotlight over hantavirus as authorities retrace footsteps of ship\u2019s passengers - The Guardian",
@@ -4239,13 +4246,18 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-10T12:15:14Z",
-      "signals": 15,
+      "last_update": "2026-05-10T12:20:14Z",
+      "signals": 16,
       "recent": [
         {
           "title": "Hantavirus is on the rise in Argentina, where a stricken cruise ship began its journey - AP News",
           "t": "2026-05-07T05:43:00Z",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb0FiM2x4NmY4VF9leUdBZXBMSFh2TnJaUW5vSHNRWU9HcS14WEJEaEFKNzhYTHFGVzRkbzliRW0xb1NCUHB1QUhLMDlTRU5mZzFqbHo2WkJWaTk5aW9oaENXWEVHR21wXzViUnE0Tjc1d1VjQWlFSFMwclhWSGIxOE5YV2hKeTc1N0RaMnVGWm01akY1VTJR?oc=5"
+        },
+        {
+          "title": "Desembarco del crucero MV Hondius en Tenerife tras brote de hantavirus - Cadena 3 Argentina",
+          "t": "2026-05-10T12:17:39Z",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRDg4RHFzZWZ5S1VVYnhMcVB6MEdhSXdFXzVOdnF2R1ppUzlJUU9QWWdza3R1cG5pWlFUQzJsZE5CeHFJWXMtV0ZLZEdfUy1tQ0VCYlU5WTlqY3RwWEF5M1JfaUU4aXNLaERkTVp2N2xoUTlEd3FMbURhUzRfOHN6WF9Pa0RFV29MMEpMTnRkVHVTTnk1RzJVU0hueVY2ejFIdXlqdzJMdUZMdzJlaXdXbG5ZOU15QdIBuwFBVV95cUxQWFpyZlk3b3R4MGZoRDdBVEE3QkVraFh5Z2hjLTk3bEdDcUc1Szg1UGdESzVSS2Y5cTN2dzJHYVVWc2ZnanpMNUJoRC03Zi1ydmVwOTg3VlVHNTNxZG8yS1FOV01PLXVQM004NG8yZjFseUQtSU9hbGxZc3ZFQkxfYk9jSDhidEZaME52WWxNWGFRQ0lvSi1mNldwbVBYeFZGT3lYZkJJdUxsMG5Bc3diQ01tdXRha3ZpVGJV?oc=5"
         },
         {
           "title": "Argentina investiga si el brote de hantavirus en el crucero MV Hondius se origin\u00f3 en la Patagonia - Perfil",
@@ -4261,11 +4273,6 @@
           "title": "Crucero con brote de hantavirus desembarca en Tenerife para evacuaci\u00f3n - Cadena 3 Argentina",
           "t": "2026-05-10T06:38:56Z",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM0JielJWZEpBeUcyN0VsWjY0cFNDLWxHTVhxelh3M0p6aFdTQVU3YnFVZWdhMmZNUXZXb0dydUdIMC1qenc2N3A5YzZpLUhXN3U0U0U4ZjA4eGtxS3RhS2E4TlZWQnR2anp0S0N4SUtxazJwMU8tMGpDdUpQdjRvMktia0xXMkg3N3dBcmEySnFsN1ZrejVhOTRCXy1HSHBMRzRoOURmNU1RdDVVMjlZWVc1RnE1Z9IBuwFBVV95cUxPTVdMQzBiR0pJQVpLWnByMTBTVEtOZlJBdkVtYnBYc3VDWWluWEFjRjFvQkwteGh6S3FJR0JoNUVVWEtScnNVT19GenRzcHhxMjEzZlMxTVQ2c2NWaVRINXRNaHlpdXdsemJJTTJ3cUQxUEhMOWxDMGExa0J2cGszaHdPM2JIMDFJcVFWSkdWZnFWU0xCRVZxRUtVaDBGeUxmLWcwRWZCblh4cnIybng1dGZXbnFkYnE1SWlV?oc=5"
-        },
-        {
-          "title": "Qu\u00e9 se sabe del viaje por Argentina, Chile y Uruguay de los turistas que presentaron los primeros s\u00edntomas de hantavirus en el crucero y luego murieron - BBC",
-          "t": "2026-05-07T23:22:53Z",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvQk85TUotMXBBY2dsU2hHVGxNUEk3OENZdFRHR0dYLVVoWGIwaG5IVS04LXVNU1R5NXhWZU5zX2E2aXBlcXBEYXhDcllqRmRPb3hqVDY2RFRkdVXSAWBBVV95cUxNdE5pdDNZbU1qZjFPSFRBeWZWaHJGX2p0V3FBbjllTWFQNG9VekxNc0FVcVV4cEd0em5UYUxTd2JpMG9pMzREMFMzWHFUX3BZai1SeXdLZ01TR2pEenk5OHQ?oc=5"
         }
       ]
     }
