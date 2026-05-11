@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T08:30:16.815504Z",
-  "next_update": "2026-05-11T08:35:00Z",
+  "generated": "2026-05-11T08:35:16.781382Z",
+  "next_update": "2026-05-11T08:40:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 4,
+      "var_pct": 3,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 8,
+      "signals": 7,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "FRA": 8,
+    "FRA": 7,
     "ARG": 14,
     "USA": 4
   },
@@ -4029,13 +4029,6 @@
       "t": "2026-05-11T08:03:08Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSzR4UWdtUlh1NnZJQ1ppdnQyN1FaLS1Nai1pTW9EVHp4M0VhalhmNGdEazRqZ181a0tlS0o4Nm5LS3lIYVk5MjhQRUQ0b2plY3UybFprUE54Rk9BbXFrejNiZUZWaFUyNkluclRFS0JROVJPWlBsZTZmR2RRVzBIbVNrMmFtQmY2TS1CMdIBjAFBVV95cUxPRC13V1Y2a0Y5X25RcUFQZnFoU1U1RGQ1X0I3US01YUpvWDhUcDlOQjF3NjVuR3E2WjlvYUV5Z0tCSVh6QmRId1R5TjdZdi1Oc2wxaDBCazlrX2hsY0ZxVEtQaGZmUXROaF9OZ0VLcU9GcFE3ZERaTDVzSU1TMEhEZndBb2VzLWw2YlUzWQ?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "France confirms 1st hantavirus case linked to MV Hondius outbreak - Anadolu Ajans\u0131",
-      "t": "2026-05-11T07:27:15Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZWpHbWZOVWcxNGo4cERwNlJ3LXpUbVRTLTFUYllkajVFQkhuZWpBZ1ExSEtyR2cyczd5VHJHVXJnYTdfMnlEaklGLUdUMVV6RWpLWWtOanFUZEdsU1Z2R1JMNmNGWVJnZ0xWVVpxN01FZW9ZSm91QVlBVDZpUkZhd1dVNVFZR1RhQzBjaWx2WFBsY1k0LXR6VHRnaUFmdi1PTm5Hc1pDN3Q?oc=5"
     },
     {
       "iso": "FRA",
@@ -4222,7 +4215,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T08:30:16Z",
+      "last_update": "2026-05-11T08:35:16Z",
       "signals": 13,
       "recent": [
         {
