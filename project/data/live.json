@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T14:35:16.819359Z",
-  "next_update": "2026-05-11T14:40:00Z",
+  "generated": "2026-05-11T14:40:16.809416Z",
+  "next_update": "2026-05-11T14:45:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 17,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4026,13 +4026,6 @@
   },
   "events": [
     {
-      "iso": "USA",
-      "title": "Hantavirus cruise patients are in America. How contagious? Symptoms - The Palm Beach Post",
-      "t": "2026-05-11T14:33:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYjdLLTgxT1VydzZsaVJGbnhTZUw1MnIzcWpibDk1ZXpEc3R2b2tXYUpuZjBlNUNLX0g2Tmt2NDB4d0h3OUJUY2Y5ZWZYU2QwZnVvZjM5cDExUmp0ODFUSkJYMldpdXJJc3ozdzVTbnpwa2Ruc1lWcUFhSnByblRJdDlGN3V4VVpVTmNJZm14UF9iOFdNcXVsdlAtVDFZaXYtblVoR3FkTGZURFlzVEc2RzhGYWJQS0tsZG15YzhnTzZzam5YOVdsQjkwLTNnTmE4eUE?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Cinco franceses repatriados por brote de hantavirus en crucero permanecen en observaci\u00f3n en Bichat - France 24",
       "t": "2026-05-11T14:31:52Z",
@@ -4041,7 +4034,7 @@
     },
     {
       "iso": "FRA",
-      "title": "Dos nuevos casos de hantavirus en Francia y EE. UU. elevan a siete el n\u00famero de contagios - France 24",
+      "title": "Dos nuevos casos de hantavirus de una francesa y un estadounidense elevan a siete el n\u00famero de contagios - France 24",
       "t": "2026-05-11T14:18:17Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRWFIVHUtYVVyXzVpYXhadHFZM1UxZHFBbm1YRUt6T2VzOEZVUkdSc19VNzJDbUJabXNsSWRUall2aWdyX21vTHRMSlFvZWxGWEZVQVpjdkZFMUNNS2JuUU9vZlQzM19Hcl8yOG9JY3VuSGdscXFUcGpuVEpuRFFLWGVoeWZUb0l2UjNjZFJVYnVRTUluX2ZzcUY0TXdZRVhqT2hxTlI5eXR5UXlsbGJ2dXUzV2F1YWlTRW1tLWdzTlZ2QTd1aWtyLW1OZHpYLVU4?oc=5"
@@ -4051,7 +4044,7 @@
       "title": "Alerta extrema en Europa: Francia confirm\u00f3 un caso de hantavirus y pasajeros del crucero aislados - MDZ Online",
       "t": "2026-05-11T13:40:00Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMm1FNE02OWg2ajJHRGdYUzVNZnVwWXB1bWNHT0hxZkprVEtnU0Z0VmdzTi15M3l5dS1mTVBPMnN1Q3ZxNkMxQTZTWkFWS2IzckdqZ0YwM0pfZFoySWFkY3dpU1Rhdkt3V2U2SlZDZkw1bHpoQVRhZjhLR0Q0RzlpNmJCSGxLbm9XNWYzVnJITDZQZWx0MEc0UnhJemwwNzFDdThXRkpkZ0ZvQmdJMkNRNVgwVGlrRmlpYlF4S3M1TkhrcVVCdnBDREFR0gHPAUFVX3lxTE5RNWhnSnNBbjRuZjAwUm5FWnpUWEFJdmZKZHhfM0NCbVluRWtabzRYLW5UNElVV0x0dXUzZm1hSkpXdW8wS05yMVM0aEc4b2hfcVI1VXMxVmJVeHh6M0xOVjVOTnF2QkhPdGZZaG1PMFljMGllZ3FRNEc5QXZzbktBWHFJV1ItY3pOSjlOV2pTWVBqQ3hXcVI5c3c3QmU3OE93SzNRMnB0ODhIeXdDVTF1eV9nU2Z4ejNCSl9pRzdIS0k4UUxVazlVNkM5Tkhfaw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSHktcXlodTdleDExT1E1QkxwaEdUcEpoOTk4Q2FHczNid2IwWnBMN01lcGhEMkJYb1AwMHJuX0dZcGNMai1DcWFRSHRnSkFFRVA0MnBBRnpWWlhjd2ZPUEg3Y05ONjRHckU0Z29MckdYc2ltd2tLMEtXYllUd2NnNUUxLXZ1UndBaEd2NnU3ZHJQZ241SGt1b0cwN2pYY2dxdHBidEJxYzJMOVpxbEpVdGNYZXdWdkxsUHUxY25jZkhScjN2RXfSAcsBQVVfeXFMTjFrdjVPTkVBYVl0djY2N3ZsNXkwcmRHdU13dlBka2tXTmp5MGhMLVJKOEhhWjlidVItTTFJUGJYUVdrNFNIOW1qcEE3LWpxY00zLXhZQ0RmV3UzSWlzcnBHUTR6aVRRUHprNHBWUG8tVkNpVUcyMVJfd0I3ZTdDNVczSk91aVNBX25ycF9rRm1xbzF2SW80eEpKaERRMjc4VnRTRmp6dnFUc3lkVGd4OXgwSU02UFdjUXo4eXgwTVBKa1RXU21ZTHQ4MFk?oc=5"
     },
     {
       "iso": "USA",
@@ -4129,6 +4122,13 @@
       "t": "2026-05-11T06:45:27Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdkpQemowaUFLdEUtRmwzc1JHbWlsbm02b1ZSMXg3V2RMV1BwS3FJcGt4aks0c2VVUDZxd3J6YzN3eDRjdG9xcFhXR2ZEM0MwdlZFVlNsUlEtQmdZMl9jajRjYjFMRTJkZUtkN01qMTQ0eGNDcmNtblduRWR5TmZnSzlkbnU1VXBNcWp3VVM0aWVhdXVxTDFnM0FOV191dUZLQTNPTGFmSm1LNXZDUzNJQkhPa0tHZTNJNWhF?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Un pasajero de Estados Unidos evacuado del crucero afectado por hantavirus dio positivo - TN",
+      "t": "2026-05-11T05:28:23Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd3pYQ0tGR2RiTzNYTFp1a0k1TXNRYkN6alhQTWFLODBldFAxZF81TC01T01GMmZBMDBET0Q3cm1HTzZkSURZcjFYTFRNWjBKal9oaG5kZFhOV1dPM3Q3WnB6bU5XQlNDM3d0T0tVeWxxc1Jfai1VR0dtYlNPVXZqZGRaQ2NaOW9sSVdCXy1IOXNHSll5NFZzNFdWc09HSmhCR0tpSjJKV1NEN0NYQjRpSkRqOGNhWnprRFFKZG41ZHMxSjN5dVpkLWtPc9IB3wFBVV95cUxNVlp1UV9nb3BNdnhaMWEzRFl0eUlLdEpSeUZ1Z2U3QlpvRm9wQ2VNMElRZVdWMmpxWFN6cEgwdUFoVU5HQng0bWsxY29tcEYydEVuTE9xZ201a3FhLS1tMUJBM3daZGIybEFtQXp5RlFkY0xyTG4ydDJMZy1oMk9reDVBUkFnZGZwbWFVV2M4ZXdoRkVGMTVHOS1MeVYwY2xUaDhIVlplaXh2TFV2R2RxTWpnTkNVUFgwdmRnSkxUbmY4OUFxMTNqR2JBVWR3XzA5TURFSkI3ZDg1NDNpSmtV?oc=5"
     },
     {
       "iso": "ARG",
@@ -4210,9 +4210,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T14:35:16Z",
-      "signals": 10,
+      "last_update": "2026-05-11T14:40:16Z",
+      "signals": 11,
       "recent": [
+        {
+          "title": "Un pasajero de Estados Unidos evacuado del crucero afectado por hantavirus dio positivo - TN",
+          "t": "2026-05-11T05:28:23Z",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd3pYQ0tGR2RiTzNYTFp1a0k1TXNRYkN6alhQTWFLODBldFAxZF81TC01T01GMmZBMDBET0Q3cm1HTzZkSURZcjFYTFRNWjBKal9oaG5kZFhOV1dPM3Q3WnB6bU5XQlNDM3d0T0tVeWxxc1Jfai1VR0dtYlNPVXZqZGRaQ2NaOW9sSVdCXy1IOXNHSll5NFZzNFdWc09HSmhCR0tpSjJKV1NEN0NYQjRpSkRqOGNhWnprRFFKZG41ZHMxSjN5dVpkLWtPc9IB3wFBVV95cUxNVlp1UV9nb3BNdnhaMWEzRFl0eUlLdEpSeUZ1Z2U3QlpvRm9wQ2VNMElRZVdWMmpxWFN6cEgwdUFoVU5HQng0bWsxY29tcEYydEVuTE9xZ201a3FhLS1tMUJBM3daZGIybEFtQXp5RlFkY0xyTG4ydDJMZy1oMk9reDVBUkFnZGZwbWFVV2M4ZXdoRkVGMTVHOS1MeVYwY2xUaDhIVlplaXh2TFV2R2RxTWpnTkNVUFgwdmRnSkxUbmY4OUFxMTNqR2JBVWR3XzA5TURFSkI3ZDg1NDNpSmtV?oc=5"
+        },
         {
           "title": "Hantavirus cruise ship passengers enter isolation facility after evacuation to UK - The Guardian",
           "t": "2026-05-11T08:57:00Z",
@@ -4231,12 +4236,7 @@
         {
           "title": "Alerta extrema en Europa: Francia confirm\u00f3 un caso de hantavirus y pasajeros del crucero aislados - MDZ Online",
           "t": "2026-05-11T13:40:00Z",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMm1FNE02OWg2ajJHRGdYUzVNZnVwWXB1bWNHT0hxZkprVEtnU0Z0VmdzTi15M3l5dS1mTVBPMnN1Q3ZxNkMxQTZTWkFWS2IzckdqZ0YwM0pfZFoySWFkY3dpU1Rhdkt3V2U2SlZDZkw1bHpoQVRhZjhLR0Q0RzlpNmJCSGxLbm9XNWYzVnJITDZQZWx0MEc0UnhJemwwNzFDdThXRkpkZ0ZvQmdJMkNRNVgwVGlrRmlpYlF4S3M1TkhrcVVCdnBDREFR0gHPAUFVX3lxTE5RNWhnSnNBbjRuZjAwUm5FWnpUWEFJdmZKZHhfM0NCbVluRWtabzRYLW5UNElVV0x0dXUzZm1hSkpXdW8wS05yMVM0aEc4b2hfcVI1VXMxVmJVeHh6M0xOVjVOTnF2QkhPdGZZaG1PMFljMGllZ3FRNEc5QXZzbktBWHFJV1ItY3pOSjlOV2pTWVBqQ3hXcVI5c3c3QmU3OE93SzNRMnB0ODhIeXdDVTF1eV9nU2Z4ejNCSl9pRzdIS0k4UUxVazlVNkM5Tkhfaw?oc=5"
-        },
-        {
-          "title": "\"No es justo que esto afecte a Tierra del Fuego\": c\u00f3mo vive la provincia argentina desde donde zarp\u00f3 el crucero la crisis por el hantavirus que alerta a Europa - BBC",
-          "t": "2026-05-10T17:36:03Z",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSHktcXlodTdleDExT1E1QkxwaEdUcEpoOTk4Q2FHczNid2IwWnBMN01lcGhEMkJYb1AwMHJuX0dZcGNMai1DcWFRSHRnSkFFRVA0MnBBRnpWWlhjd2ZPUEg3Y05ONjRHckU0Z29MckdYc2ltd2tLMEtXYllUd2NnNUUxLXZ1UndBaEd2NnU3ZHJQZ241SGt1b0cwN2pYY2dxdHBidEJxYzJMOVpxbEpVdGNYZXdWdkxsUHUxY25jZkhScjN2RXfSAcsBQVVfeXFMTjFrdjVPTkVBYVl0djY2N3ZsNXkwcmRHdU13dlBka2tXTmp5MGhMLVJKOEhhWjlidVItTTFJUGJYUVdrNFNIOW1qcEE3LWpxY00zLXhZQ0RmV3UzSWlzcnBHUTR6aVRRUHprNHBWUG8tVkNpVUcyMVJfd0I3ZTdDNVczSk91aVNBX25ycF9rRm1xbzF2SW80eEpKaERRMjc4VnRTRmp6dnFUc3lkVGd4OXgwSU02UFdjUXo4eXgwTVBKa1RXU21ZTHQ4MFk?oc=5"
         }
       ]
     }
