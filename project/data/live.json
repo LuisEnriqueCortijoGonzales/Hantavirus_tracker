@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T23:20:15.078018Z",
-  "next_update": "2026-05-11T23:25:00Z",
+  "generated": "2026-05-11T23:25:08.715456Z",
+  "next_update": "2026-05-11T23:30:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 69,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 3,
+      "var_pct": 2,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 7,
+      "signals": 5,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 20,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 7,
     "CAN": 1,
-    "ARG": 7,
+    "ARG": 5,
     "FRA": 6,
     "MEX": 1,
     "GBR": 1
@@ -4161,24 +4161,10 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus en Argentina: el brote vuelve a poner el foco en una enfermedad olvidada - CNN en Espa\u00f1ol",
-      "t": "2026-05-07T23:24:18Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPczJSUXlha0NhSUVORUdEWlE1bEcyMkhVb2JzNExwM1Bqb3RCZklHMkhQQy0tZkFLTFdLX3BBQ2VvVlk1U0NOTmxMdUFVdS1IeGdsUDVrekhQcmJjRG9QNlAwZVNtT1ViTWc1V0c0N1ZGRGY5SzM1dWFCVTR6b2hBWGV6cUtTakE5VXREQm92RDVJOE41OVJEeVU3Rjh5MUh3TGZyVjN0RGx4ZkVrNWM5b21uQkhvTjFoUnRqQTJwN19aTnRwMjJBdUdNczZMM1ZkQ2c?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Argentina reconstruye el periplo del \u2018caso \u00edndice\u2019 de hantavirus antes de subir al crucero - Sinc",
       "t": "2026-05-07T06:16:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
-      "t": "2026-05-06T15:29:33Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
     },
     {
       "iso": "ARG",
@@ -4204,8 +4190,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T23:20:15Z",
-      "signals": 11,
+      "last_update": "2026-05-11T23:25:08Z",
+      "signals": 10,
       "recent": [
         {
           "title": "How did hantavirus cruise ship outbreak start? What we know - USA Today",
