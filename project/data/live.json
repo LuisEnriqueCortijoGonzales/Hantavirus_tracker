@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T07:50:14.853276Z",
-  "next_update": "2026-05-11T07:55:00Z",
+  "generated": "2026-05-11T07:55:08.423464Z",
+  "next_update": "2026-05-11T08:00:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 20,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4060,13 +4060,6 @@
     },
     {
       "iso": "ARG",
-      "title": "La investigaci\u00f3n del hantavirus en Argentina aleja el origen del brote de Ushuaia y lo sit\u00faa a 2.000 km al norte - ABC",
-      "t": "2026-05-11T04:32:35Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdkFHUG55VEZMZ0RtRGhaSU4zek1HSUFrYnVId0ZoX2RoWnI0c0gyN3Fab2NSd1BUcDFWbl9sUnNYa2c4Y1U3cFAzdzdNbTRRbHV0aVBGT0UzTGoyVVpwRUFCZlhXSUkzem5DOFhweTk3SmxfbmtYdGx3bFMzN2JqOUpCSWw5c3hYbUFlYnplMVRBWXowRjFkZUVPX3UtcGpURmlYMXRrY9IBrAFBVV95cUxPYWxuYllzbERTd0s0dUlwdmxtX3g4YmMtZFplbDlQTDdlTGNkdFBXUmt2MUQ2ZkEzTTBuT092Wmp3QXFhMTlJUFhTeS10eFZYVTBNdHRXX09ET2poR25vX0NZTlpJZ3RVMWwybFFKX3c3VTBLOVNHX0FNaUI3bUJ6dk4ySERrRk1vYjVKQ1NZOXN4LXAtbHBYei1rXzVlZVlQaEZRWGZOanhpejdy?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Argentina in spotlight over hantavirus as authorities retrace footsteps of ship\u2019s passengers - The Guardian",
       "t": "2026-05-11T01:30:00Z",
       "source": "GoogleNews-EN",
@@ -4078,6 +4071,13 @@
       "t": "2026-05-11T01:18:49Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPVFhGY1NzSDBwTm9xSjVWbW9UOVpXSHBNT1RIUEk5OVZoMkZrenplWkJKTnRBMHUwSGpwaXFGUk9MbzJZbFdlNFc0eEg5SkF3MWl4aW04YXk4LXRHS253UUtRNEhCaHdHd2huTnJISWRZanQ5MEF3NWZrdlZub19xNjJEaENwUkRiNzNPdEtxVkpwTFNsc0prMHZVU0VHQUVzWHJuZ0VCNjhDUGRaTjA3RXRNNWUwVkFaS203UDdXQUc2bnZGeDVRUFVKWEptaW1NUkJVRkVSYTkxWVZEWkI5Y3V1Z1htSFdhY3o4?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "La investigaci\u00f3n del hantavirus en Argentina aleja el origen del brote de Ushuaia y lo sit\u00faa a 2.000 km al norte - ABC",
+      "t": "2026-05-11T00:38:42Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdkFHUG55VEZMZ0RtRGhaSU4zek1HSUFrYnVId0ZoX2RoWnI0c0gyN3Fab2NSd1BUcDFWbl9sUnNYa2c4Y1U3cFAzdzdNbTRRbHV0aVBGT0UzTGoyVVpwRUFCZlhXSUkzem5DOFhweTk3SmxfbmtYdGx3bFMzN2JqOUpCSWw5c3hYbUFlYnplMVRBWXowRjFkZUVPX3UtcGpURmlYMXRrY9IBrAFBVV95cUxPYWxuYllzbERTd0s0dUlwdmxtX3g4YmMtZFplbDlQTDdlTGNkdFBXUmt2MUQ2ZkEzTTBuT092Wmp3QXFhMTlJUFhTeS10eFZYVTBNdHRXX09ET2poR25vX0NZTlpJZ3RVMWwybFFKX3c3VTBLOVNHX0FNaUI3bUJ6dk4ySERrRk1vYjVKQ1NZOXN4LXAtbHBYei1rXzVlZVlQaEZRWGZOanhpejdy?oc=5"
     },
     {
       "iso": "FRA",
@@ -4208,7 +4208,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T07:50:14Z",
+      "last_update": "2026-05-11T07:55:08Z",
       "signals": 13,
       "recent": [
         {
