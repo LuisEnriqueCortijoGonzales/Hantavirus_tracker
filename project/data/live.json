@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T14:25:16.747375Z",
-  "next_update": "2026-05-11T14:30:00Z",
+  "generated": "2026-05-11T14:30:16.820006Z",
+  "next_update": "2026-05-11T14:35:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 2,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 5,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 9,
+      "signals": 8,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 17,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,9 +4018,9 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "USA": 5,
+    "USA": 3,
     "GBR": 2,
-    "FRA": 9,
+    "FRA": 8,
     "ARG": 9,
     "MEX": 1
   },
@@ -4031,13 +4031,6 @@
       "t": "2026-05-11T14:18:17Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRWFIVHUtYVVyXzVpYXhadHFZM1UxZHFBbm1YRUt6T2VzOEZVUkdSc19VNzJDbUJabXNsSWRUall2aWdyX21vTHRMSlFvZWxGWEZVQVpjdkZFMUNNS2JuUU9vZlQzM19Hcl8yOG9JY3VuSGdscXFUcGpuVEpuRFFLWGVoeWZUb0l2UjNjZFJVYnVRTUluX2ZzcUY0TXdZRVhqT2hxTlI5eXR5UXlsbGJ2dXUzV2F1YWlTRW1tLWdzTlZ2QTd1aWtyLW1OZHpYLVU4?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Estados Unidos confirma un positivo por hantavirus entre los 17 estadounidenses repatriados desde el crucero MV Hondius - Infobae",
-      "t": "2026-05-11T13:49:55Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNOW9SVUZ5VUpia1Q1bUpMVExhSVlZX3dsSWNrU1VMYlgzWm9XX1NiUXRzZk96VWxGWlR3UTF2a0w1bVBVVVI5dTZmM3ktWlJ0RElpNHlzNnZxbWQ2TW1YY2NmUFpfM1pLVm1WZm50NFd2MjUyLUdvX3ZfOTBkSlpLaXh2bWFHZ2M3SnRjQ3E4bmxfZGx5NHF1UkhUYXZRamlnLWtZTHl4QnVmVWVhUnJwQ2ozOVhIQnFqOGhuY3FGczZoUm1XRkJrQno0TW92Q3lLZ0VYZXBBRWFabEJSX3NwMDRTbktWV0tPYTVCSDBwaDI1ZFI1cjNFblR6WkVncXc?oc=5"
     },
     {
       "iso": "FRA",
@@ -4054,25 +4047,11 @@
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVWNqam04bjRYeFlOZmJyWnB5SG1Sc1gwSzUyeHdsM1V3OFU4c0RBM0ppMW4wUFVxbkp3djR5RXhUY01ybWhtMm9zWWt1U0JKSXY5Mk45M1dFc1VVcXYxS0JPWTBHNHZiWjNqcjN1NVJEUjV0WHh4UmRaczRvVi1xTHI3Rk4zdmlpYldsaDc2dkU0UDNka3BWalpCZ0I3SVFPbVlleXBfMnlWNzVoRGZkdnNuT09mSklZTE5iUUNWV01oTF9FZnlsQw?oc=5"
     },
     {
-      "iso": "FRA",
-      "title": "US, France Say Cruise Passengers Test Positive for Hantavirus - Bloomberg",
-      "t": "2026-05-11T13:23:09Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQ3JPbUdQWnpXMkdFU0xoX1R1MFlOcEwyNk9CNl9QRjJsUmNjT2dBbUM2UktPNG5heDgwWmdxTkdHbG5zemN4Ym5oLU1nOFBxSmFuTEZDak9aM3pNSTdva2pYczR3N0ZWaGNHdHNUSERlTnJYS2UydXdFeENYTVN5dk90eURfS2F3UV91bHd2NDFmQnRMSF9nRkM1eURZZEpBNGhGVUtKNXAtSE9nR3k2ODhzY3o?oc=5"
-    },
-    {
       "iso": "MEX",
       "title": "M\u00e9xico en alerta: el listado de pa\u00edses con casos confirmados de hantavirus tras brote en crucero de lujo - Ambito",
       "t": "2026-05-11T12:58:21Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaTJ0bkFEYkJRLXF3Y2IzcjRFZW9tNVZFOVY1SG5zQ1hhVzVBTm82dEVQNmN0enpyTVpQeUM3SlQ5OWk5Tm9RZkNraHFjTUJYRWNhaHpFakZSYmxFcEExT1hJUFBFYXNmQzMxNmFCbklMMS1vRV9jcFJUUlRYbjNYcF84TVhodEw3TGg2d2dSS1ptNDhJbXNZaHR4ZzdzSjVNV2lHTzRMbkNaREhEaUNaeWdSR25qWFhvX1hQc21rbXdNdDRIT0dnOUtKSGJJMkdyQzh2M9IB2gFBVV95cUxPUENHeEhYU3psRXphX2VWV0p0c3p2Ylo3cnp6TUVsQ0EzV210eUZNMzg1WEU3YjN6SlZjb3VveEJ2R09BcUhKb01LYmI0QmltVlZsczRWTlVIR0pYXzZhTzQ1VXlMSEItYjdJZVRZZ3B1ZWdxNGFVMzB6Y3l0Mk1MZF95VGNzazBJM1BOZnRiNWJvamVvNFVfMXgxakdKdGtjVE1tWkJvcjNnLWpKbUJEZS1fQ2hDYUlXSjFGWGhUcUdTTEFTWWZ3SlhZczJOWnRqOUthSXpvSWNndw?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Daily Briefing: American positive for hantavirus - USA Today",
-      "t": "2026-05-11T12:49:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQkxqZWpuUXdsQVZZamZRTUFHa2g5WDRfTlVxUUxreDc0VnFrT2pQdzNtQUhITDltS3d3anlldjNlUmZUTWR1LUkwbUtobHFsNHhiclpiUG5XTVd4djRUTjhxMXMyOHVzZHRWc1p4SXFmcFhEMkY4dDlyNFljaThBckM3dmRKMmZUTDBuN3plLTBULWc?oc=5"
     },
     {
       "iso": "USA",
@@ -4224,14 +4203,9 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T14:25:16Z",
-      "signals": 12,
+      "last_update": "2026-05-11T14:30:16Z",
+      "signals": 11,
       "recent": [
-        {
-          "title": "Estados Unidos confirma un positivo por hantavirus entre los 17 estadounidenses repatriados desde el crucero MV Hondius - Infobae",
-          "t": "2026-05-11T13:49:55Z",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNOW9SVUZ5VUpia1Q1bUpMVExhSVlZX3dsSWNrU1VMYlgzWm9XX1NiUXRzZk96VWxGWlR3UTF2a0w1bVBVVVI5dTZmM3ktWlJ0RElpNHlzNnZxbWQ2TW1YY2NmUFpfM1pLVm1WZm50NFd2MjUyLUdvX3ZfOTBkSlpLaXh2bWFHZ2M3SnRjQ3E4bmxfZGx5NHF1UkhUYXZRamlnLWtZTHl4QnVmVWVhUnJwQ2ozOVhIQnFqOGhuY3FGczZoUm1XRkJrQno0TW92Q3lLZ0VYZXBBRWFabEJSX3NwMDRTbktWV0tPYTVCSDBwaDI1ZFI1cjNFblR6WkVncXc?oc=5"
-        },
         {
           "title": "Un pasajero de Estados Unidos evacuado del crucero afectado por hantavirus dio positivo - TN",
           "t": "2026-05-11T05:28:23Z",
@@ -4251,6 +4225,11 @@
           "title": "Francia confirma un positivo de hantavirus entre los repatriados del crucero - Infobae",
           "t": "2026-05-11T08:08:00Z",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ01oeXNpS0pjaE5GSUlTNXNyQjQ1a1NiZ25UNVdVaVV3UFp0d2FkOU1KS3FNbmt5TExlVzJiY1ZMWmlYejBTYndieEJGZklDNGlOUkIxMHhvdERBX25NdTFVZkJQWGZoczZfNlZlaElydXRsSklKYjB4QUU4VkxBX1M3TEpVNHI2TzRCT1FLNW5qTV9jYzl0X3B1c3lHclpQXy1JVmpsYllrZjlFMlpOakdTRVhSNkw5RHY00gHWAUFVX3lxTE0yUlczbjUxUWJsaTRqQ3FINlRoUFZhS0ZHLTduRmQ4T1o2Mk9VMTJ5MnNLZGpYT0RBUzBHa1RDVmJ0aFA4SlRheHJlNTJhT1V4OVpZMlBpRzJXZ3hhbE1GTjVoZGpxUnR5dTd2RDVfSUplT2FnVmh0ejNKaEFyLVNTbFEwTWNfT3F2SVdwTl9Yd0E5UENXTldxc0dKM3p4RnM2T0dNU1F1ZTk2cE8ydTlFX2o2azB2WHJ4Z3pQNXdGVDJXTkppZUJDNkhUYTVSNEE5QThCMEE?oc=5"
+        },
+        {
+          "title": "Alerta extrema en Europa: Francia confirm\u00f3 un caso de hantavirus y pasajeros del crucero aislados - MDZ Online",
+          "t": "2026-05-11T13:40:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMm1FNE02OWg2ajJHRGdYUzVNZnVwWXB1bWNHT0hxZkprVEtnU0Z0VmdzTi15M3l5dS1mTVBPMnN1Q3ZxNkMxQTZTWkFWS2IzckdqZ0YwM0pfZFoySWFkY3dpU1Rhdkt3V2U2SlZDZkw1bHpoQVRhZjhLR0Q0RzlpNmJCSGxLbm9XNWYzVnJITDZQZWx0MEc0UnhJemwwNzFDdThXRkpkZ0ZvQmdJMkNRNVgwVGlrRmlpYlF4S3M1TkhrcVVCdnBDREFR0gHPAUFVX3lxTE5RNWhnSnNBbjRuZjAwUm5FWnpUWEFJdmZKZHhfM0NCbVluRWtabzRYLW5UNElVV0x0dXUzZm1hSkpXdW8wS05yMVM0aEc4b2hfcVI1VXMxVmJVeHh6M0xOVjVOTnF2QkhPdGZZaG1PMFljMGllZ3FRNEc5QXZzbktBWHFJV1ItY3pOSjlOV2pTWVBqQ3hXcVI5c3c3QmU3OE93SzNRMnB0ODhIeXdDVTF1eV9nU2Z4ejNCSl9pRzdIS0k4UUxVazlVNkM5Tkhfaw?oc=5"
         }
       ]
     }
