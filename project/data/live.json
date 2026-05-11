@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T19:25:08.421442Z",
-  "next_update": "2026-05-11T19:30:00Z",
+  "generated": "2026-05-11T19:30:16.810013Z",
+  "next_update": "2026-05-11T19:35:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 7,
+      "signals": 6,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 22,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,13 +4021,20 @@
     "CAN": 1,
     "USA": 4,
     "FRA": 11,
-    "ARG": 7,
+    "ARG": 6,
     "GBR": 2,
     "MEX": 1,
     "CHL": 1,
     "URY": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Argentina descarta que Ushuaia, ciudad de Tierra de Fuego de la que parti\u00f3 el crucero, sea el origen del brote de hantavirus - Informaci\u00f3n",
+      "t": "2026-05-11T17:15:40Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPeFFrNmx6TWU5czBRMDZuTC1hQkFUUkxJRVQwdnRGalRfSHp5T3hhaXhESHo5d0oxQ0UyNWc1MndTMjRfVENZUFZRZ1gzdmJwdDRzeVlfZkVJWHZGSjFjUlYyWnFBeW5XR1NBc3FacGpFNWZqNnRqMGQ3VV92czZTS2hKWHFuOTBrOHpJbnMwMEZCVUFhandPb1VPc3ctOVgtWVNXak9Oa2tRWmxwNjV3cGdzdm9DYmxOLU1HSU9sQmdXRW5kSDlDVlF6V2E5SDJvNFFNTlJTMNIB3AFBVV95cUxQUENUbVdJXzBKc21mYUI4Nm1IeFRuVWNiMWFLRzYtZU0wTkx1NDd6UncwdlVucFV3OG5nU0VLTmFtV0pieUtVMHZwOHlYNGozQ3hnYWUzbFRFdmw1OFNWTmgyUG84UFEyVTZVV1RPVzNPcUhBVjlvQ1V2aDRkckRjdURyRElSQXlkMFM1Z3h2TXlBenJ0cHdEdnN2V0QtRzhtTkh4TllmbjVBVUk1ekt5TVAxTmRMRFppSWlEUDhCdTNBNUlyeHh5VlZIUUxUc19QdEpnV1pGYXlHWUdT?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "Francia confirm\u00f3 un nuevo caso de hantavirus tras la infecci\u00f3n de pasajera en crucero MV Hondius - diariolapluma.com.ar",
@@ -4048,13 +4055,6 @@
       "t": "2026-05-11T16:02:10Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaVN5WG41SC0yYXBGNF9MbGNQT3plOGtkY0VEeE1KdGlkUV9OOVZGMmFCYmFtV3hqTlB3R1JLR04xWFFDTXJFSmxXd2ZfeUhvVjV1NUcyR0RSdm9XeTBqclBDLTdVUXVlN3c1WW9FMTkxdHhWOHhlaVUyNS03aDA0OEJBVnA2c3JjVllvUV9MdU1yaWJQTnpuSHpYSUczYm5lS2VjVmpVOUVkSmhzU0hLVTZ4OGN0VTVyVUZqa0hHU0Y3eEk4RVJiNkxzUGt3MmhWLVlvV0VNYnE?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina descarta que Ushuaia, ciudad de Tierra de Fuego de la que parti\u00f3 el crucero, sea el origen del brote de hantavirus - El Peri\u00f3dico",
-      "t": "2026-05-11T15:59:57Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWHBMQkx5Wk1ac0pJNkdFX3BqUzBreU9TaGNrMmprNmVxc3ZDbVV2TEw3YmdUd2pqZ0lMVTltZFBIaGxnUkhrUjZjQkMxaHhrTVEtLVYtaDlXMEhqQUFxRmIyR3FOeXRFbENEbkJyVXdXOXpPZFczMk5wU2JYT1MxWDNFSDB4RjFFc0I1ZmpzNXhXVHd1cFJpSkVKSEtTWXl1TlNCdEhsNzNjUXp1MW4wcVlwYklpY3dva2lpcFpueUZTamcxNGdZNk43cDhHcnJJOW530gHTAUFVX3lxTE1SaVN2bWNaaE9RNkw4VE1ZaGp2Q3l6YVFHNElNeEZ4dzZwZk5USDU3cHFpcXprdGFEMlJ6cUxzZkRFdUtOUlZzMVp6cjJDVU5kYnlmY2RrYWROY2tiZVNBMGY4ZnRGN2NXUFdONXFsQ1kxdUNoY2xnMGx3N3J3dllIb3ZtSEx5UndQb0h2YVpYVW1Va3lpcGQ5MUtwMmg2ZUVoRnVyOFhxQU41VElxcW9kR1d0ZHpMS1hmR1kxQWtDN2o0ckZXVWoxbDc0bWxubzhBeDQ?oc=5"
     },
     {
       "iso": "FRA",
@@ -4162,13 +4162,6 @@
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQcEFhdDVzUlUtb1VGOTBCVUdJOExQLUQ1eHhnSXpfb0RSY1pqd0ZkRVdaMEljaXNMM0pFcEFRTkFsNU5hSWdEWFNHb0tOakdVbnhNNFk3aUlINnRIY0hjNUxveDZRNTFaOGw5Z3JlTTNiVmwwNzN0RXUtS0JWc1M5TGlKekk5Vl85VWQ0NEJPY2hiWW1vd044TE5wb1RkZHBEQzZqNU5rWk1KeE9tdVlpeHQwOXRoblB6QVVIeVlwc244VnNZZGxDTnRzenZ4aFA4WTNMalBoYV9SWnJIel9JREFJUUdXcHNvSmdDZWp2dksyX3IzX1M1TWFmcHdDTFnSAYQCQVVfeXFMUGR4WW9XYlVYUEppTGRBeEtUZUxjX3Zab3QtS1J6dzJGX0ZrR0dpZ2c0cHI1bnNKQVNZZ290V0ZQSnNIZ2R1ZzZ3em9MVUs5OGJIejYwbDRySXNMN191RFJpQ1htWEl3dHZWNGxLbnUta211b0ZmVml1NE5sVjgycEc2b0pBMEJmNkpKVmt6ZXctVWhaZUt4SlJGeTExNUJqSVZkVzZGOGwwWU4zUF9tSEQwVnhaWXIwUVhzUDEzUFpQU0FwLXRmNDRMcHRVTkp6RC1TVzlHRFMtSDJ3RjFpUGRkeUQ0MkpuNmZTLTFBQ3ZuMGFKbFpSYjY2RmxwLWdjaXZZN3o?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "Crucero con hantavirus: Argentina colabora con pruebas - Perfil",
-      "t": "2026-05-11T12:00:12Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVzZkc2UzYXdQMFZrdWx4ZnhSdE1WemNNNEUyRTNCSXdCNlR3Tm5ic1E2Mk9iQlVoZzJhMUhocDBleEtLMVNfZFJodzAxWXBpOFZ0aHNBamJESDBiaFNQemtXYl9GbFJvZkE1bDdwcVUzVkphc2xieTVPTjNOOGllZjdoNDdIaXB0b0lMQ29kbmxVX2V1M09QX2FOYjhzRWU3anJqWNIBqgFBVV95cUxPX1JWUWcxRXVLMTBROTZSekptNDhQZzBkSWtFYzlENDZFMnFUakRxZTladXJQS1FGbExFem5TZVhURl85dlNFSDhnU1dORkE0SlN5T25LWXhScGZFWVJka3hjU0lyMXJQRTRTVHYtdDRuSk9PNF92QjZsNU93aG01WmU5LVdTSDZfUGJqaHdMbVRCYWstcVprdVVDWENGcXgwUFRUbUltQW14QQ?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Hantavirus: Francia confirma un positivo entre sus repatriados y EE.UU. traslada a dos pasajeros bajo medidas especiales - Gaceta M\u00e9dica",
       "t": "2026-05-11T08:42:28Z",
@@ -4241,8 +4234,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T19:25:08Z",
-      "signals": 12,
+      "last_update": "2026-05-11T19:30:16Z",
+      "signals": 11,
       "recent": [
         {
           "title": "What comes next for US and Canada passengers evacuated from hantavirus-hit cruise ship - BBC",
