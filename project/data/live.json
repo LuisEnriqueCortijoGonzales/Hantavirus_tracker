@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T10:10:14.829330Z",
-  "next_update": "2026-05-11T10:15:00Z",
+  "generated": "2026-05-11T10:15:15.038670Z",
+  "next_update": "2026-05-11T10:20:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 12,
+      "signals": 13,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 8,
-    "kalshi": 21,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,11 +4018,11 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "FRA": 12,
+    "FRA": 13,
     "ARG": 11,
     "GBR": 1,
-    "CHN": 1,
-    "USA": 4
+    "USA": 4,
+    "CHN": 1
   },
   "events": [
     {
@@ -4066,6 +4066,13 @@
       "t": "2026-05-11T08:42:28Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRElFQUpTTjhwRHNIeWd3VTVDWUFJdlZhdVpkUHZlR1hNRkRrTW5GNW9qUU9BQ0FqaW15VUkxZkxzT1EwZUV3Zlg5WFc0R3FZTGNNOWJFUUpPUDZRUl9BRHNraGVWR2w4QUhUc3hXX3I2bmljcFhfaWFXSExvamcxYV8tbnpGZTFoWWUxb1ZyYjBJT3ExTFFNQkxOUkx0Q3BRYnc3eERuTHFpa0RF?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Brote de hantavirus, Francia confirma un nuevo caso - Euronews",
+      "t": "2026-05-11T08:15:02Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYWF6RENzUXNkQTZsTVpkSHg5WE5GNmhJWEVDbEVDWC1tSWc3RHdKcHFjT0pDSFZiTmI1NWZRXy12OTRlRkJ4aUg1OHNpa3NPajVPd1ljb1BCSkRsaUJUWXNyaUh6a3MtVjd1QmNvN3hEX0s2emplNXdzSnN2QmI0blQyanJBc2s3Tm1iRzNtTjQtd3g5bFY2WjRMdmptV3ZCMG1pYldEUll5UmhUVVpvWHdNUDFXZW1i?oc=5"
     },
     {
       "iso": "FRA",
@@ -4245,7 +4252,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T10:10:14Z",
+      "last_update": "2026-05-11T10:15:15Z",
       "signals": 14,
       "recent": [
         {
