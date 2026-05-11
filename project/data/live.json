@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T21:20:15.182318Z",
-  "next_update": "2026-05-11T21:25:00Z",
+  "generated": "2026-05-11T21:25:08.508017Z",
+  "next_update": "2026-05-11T21:30:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 19,
+    "kalshi": 17,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,8 +4018,8 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "CAN": 1,
     "USA": 4,
+    "CAN": 1,
     "FRA": 10,
     "ARG": 4,
     "GBR": 1,
@@ -4206,14 +4206,9 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T21:20:15Z",
+      "last_update": "2026-05-11T21:25:08Z",
       "signals": 10,
       "recent": [
-        {
-          "title": "What comes next for US and Canada passengers evacuated from hantavirus-hit cruise ship - BBC",
-          "t": "2026-05-11T15:07:17Z",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lWDIzcjV5WHlZZzFES0ZWSkY1ajVlUlFwaUxJZHdGb1RGcnhmcG5UWF9WbTJ1amYxTks3aHk1eDZBd2E2ZEpIQW8zbWl4aS1PM1Rvb2xSbFh1dw?oc=5"
-        },
         {
           "title": "How did hantavirus cruise ship outbreak start? What we know - USA Today",
           "t": "2026-05-11T17:09:00Z",
@@ -4223,6 +4218,11 @@
           "title": "Brote de hantavirus en el crucero: Francia y Estados Unidos detectaron casos positivos en pacientes repatriado - Cr\u00f3nica",
           "t": "2026-05-11T20:32:28Z",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbnZaWXdxaFVfZ05MaFlmTmI0RlpIYTF5dVM5M1lTNlhCal9oczFIbHlZajhYQUVZZDMzc3JJdzBmQ3lmMEpvdXJXRXFjUEM0di1VX3hSUlJNMG9lUG5YcTV5U1plVnhudy1fLVRZVVBPbkJ3eDFHZmx5aXNnbnpKQkprTFo4R1ZvMVJnb1ZXWEIxT2x6emtMeTVtaHVMUkNVX0JzY2dBNkh5WmhIU0tldWFIb09HOS02d1IwaDlKczdHMmtVU3N1LUdMbVdXdENqbi05dzAwVGZBWkky0gHiAUFVX3lxTFBDbU9yXzF5dzdjUXJoTkhrcTJzRGh2WVlxSDk4SlJxZ2R6R3VhbFlIWTNJQTJ2TTJLUFZRSmJjUnppQUlpa1pKN051RDFhYjZYTGJGNWdZMV9ZOEEtQW82aldXWTJQcm53dnNycUVqTXU2Q2RndGZ6QUhwdHdkVW9SbG9pMWFPc05DdUxFcnR0cjF6d0FlSFEtX0FzcjVKZUE1N0ljLTVZeU44cmZLWFJqcEdDM0s2bFpyTzNPeFoyR0tmQTY2NUFzWDRrdEN4aWtrVEQzdzNTVE9aYUxOY1FORHc?oc=5"
+        },
+        {
+          "title": "What comes next for US and Canada passengers evacuated from hantavirus-hit cruise ship - BBC",
+          "t": "2026-05-11T15:07:17Z",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lWDIzcjV5WHlZZzFES0ZWSkY1ajVlUlFwaUxJZHdGb1RGcnhmcG5UWF9WbTJ1amYxTks3aHk1eDZBd2E2ZEpIQW8zbWl4aS1PM1Rvb2xSbFh1dw?oc=5"
         },
         {
           "title": "Cinco franceses repatriados por brote de hantavirus en crucero permanecen en observaci\u00f3n en Bichat - France 24",
