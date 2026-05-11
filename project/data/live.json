@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T15:00:14.930444Z",
-  "next_update": "2026-05-11T15:05:00Z",
+  "generated": "2026-05-11T15:05:16.805197Z",
+  "next_update": "2026-05-11T15:10:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 70,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 5,
+      "var_pct": 4,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 10,
+      "signals": 9,
       "gov_alert": false
     },
     "CHL": {
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 19,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "USA": 3,
     "GBR": 2,
     "FRA": 9,
-    "ARG": 10,
+    "ARG": 9,
     "MEX": 1
   },
   "events": [
@@ -4139,13 +4139,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina in spotlight over hantavirus as authorities retrace footsteps of ship\u2019s passengers - The Guardian",
-      "t": "2026-05-11T01:30:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaFdPZ0xHdmsxZ2hNYTBSZlRzWTZkN1AtOHJyYzdBUHAwQmFMeUZjWFJPbFhFOS1KT251cExsNUZHVFZPUEpDeVhNdmJfQ0lva29UNTlNNjRSbGI0eVdxSmN6RWFFY1NSRVl4S0hVVlA0LWRIaEpRUUlQQ2YwWV9fNno5Tk5YNjlUVkg1QW5xTFl4czhsWmpuUzFPdnh1eXdZNmM0M3RGdV94RjRSV2hDM0ZzcjFLMUFHdmM4?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "La investigaci\u00f3n del hantavirus en Argentina aleja el origen del brote de Ushuaia y lo sit\u00faa a 2.000 km al norte - ABC",
       "t": "2026-05-11T00:38:42Z",
       "source": "GoogleNews-ES",
@@ -4217,7 +4210,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T15:00:14Z",
+      "last_update": "2026-05-11T15:05:16Z",
       "signals": 10,
       "recent": [
         {
