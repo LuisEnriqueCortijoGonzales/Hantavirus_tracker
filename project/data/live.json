@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T08:00:16.826701Z",
-  "next_update": "2026-05-11T08:05:00Z",
+  "generated": "2026-05-11T08:05:14.819749Z",
+  "next_update": "2026-05-11T08:10:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 6,
+      "signals": 7,
       "gov_alert": false
     },
     "CHE": {
@@ -4018,11 +4018,18 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "FRA": 6,
+    "FRA": 7,
     "ARG": 14,
     "USA": 4
   },
   "events": [
+    {
+      "iso": "FRA",
+      "title": "Francia confirma primer caso positivo de hantavirus - DW.com",
+      "t": "2026-05-11T08:03:08Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSzR4UWdtUlh1NnZJQ1ppdnQyN1FaLS1Nai1pTW9EVHp4M0VhalhmNGdEazRqZ181a0tlS0o4Nm5LS3lIYVk5MjhQRUQ0b2plY3UybFprUE54Rk9BbXFrejNiZUZWaFUyNkluclRFS0JROVJPWlBsZTZmR2RRVzBIbVNrMmFtQmY2TS1CMdIBjAFBVV95cUxPRC13V1Y2a0Y5X25RcUFQZnFoU1U1RGQ1X0I3US01YUpvWDhUcDlOQjF3NjVuR3E2WjlvYUV5Z0tCSVh6QmRId1R5TjdZdi1Oc2wxaDBCazlrX2hsY0ZxVEtQaGZmUXROaF9OZ0VLcU9GcFE3ZERaTDVzSU1TMEhEZndBb2VzLWw2YlUzWQ?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "Francia confirma un positivo de hantavirus entre los repatriados del crucero - Infobae",
@@ -4208,7 +4215,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T08:00:16Z",
+      "last_update": "2026-05-11T08:05:14Z",
       "signals": 13,
       "recent": [
         {
