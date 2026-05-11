@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T03:15:15.039889Z",
-  "next_update": "2026-05-11T03:20:00Z",
+  "generated": "2026-05-11T03:20:16.806020Z",
+  "next_update": "2026-05-11T03:25:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -100,7 +100,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "URY": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 20,
+    "kalshi": 17,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,8 +4020,7 @@
   "signal_summary": {
     "ARG": 11,
     "USA": 1,
-    "FRA": 2,
-    "PRY": 1
+    "FRA": 2
   },
   "events": [
     {
@@ -4030,13 +4029,6 @@
       "t": "2026-05-11T00:38:42Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdkFHUG55VEZMZ0RtRGhaSU4zek1HSUFrYnVId0ZoX2RoWnI0c0gyN3Fab2NSd1BUcDFWbl9sUnNYa2c4Y1U3cFAzdzdNbTRRbHV0aVBGT0UzTGoyVVpwRUFCZlhXSUkzem5DOFhweTk3SmxfbmtYdGx3bFMzN2JqOUpCSWw5c3hYbUFlYnplMVRBWXowRjFkZUVPX3UtcGpURmlYMXRrY9IBrAFBVV95cUxPYWxuYllzbERTd0s0dUlwdmxtX3g4YmMtZFplbDlQTDdlTGNkdFBXUmt2MUQ2ZkEzTTBuT092Wmp3QXFhMTlJUFhTeS10eFZYVTBNdHRXX09ET2poR25vX0NZTlpJZ3RVMWwybFFKX3c3VTBLOVNHX0FNaUI3bUJ6dk4ySERrRk1vYjVKQ1NZOXN4LXAtbHBYei1rXzVlZVlQaEZRWGZOanhpejdy?oc=5"
-    },
-    {
-      "iso": "PRY",
-      "title": "Hantavirus in Paraguay: The current situation - Outbreak News Today",
-      "t": "2026-05-10T22:37:01Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOEM2NGNlcE5UNmQyY214NGVDMGdnMkZaeHRXVUpZNnVyNjVWblpfaHZZNXJYZFYwdUdNdGpmX1AtVVh2WlFuZVBWQVd3QjFDQWJrdXQ3Uk5UMWo5NEFXVEYtb1hBb0pIWkNWODU3V0tjVnptMnV1ZWwwb3VpLVVjbw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4146,7 +4138,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T03:15:15Z",
+      "last_update": "2026-05-11T03:20:16Z",
       "signals": 7,
       "recent": [
         {
