@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T09:05:16.819530Z",
-  "next_update": "2026-05-11T09:10:00Z",
+  "generated": "2026-05-11T09:10:14.779787Z",
+  "next_update": "2026-05-11T09:15:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 1,
+      "var_pct": 2,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 4,
       "gov_alert": false
     },
     "PRY": {
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 20,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,9 +4020,16 @@
   "signal_summary": {
     "FRA": 7,
     "ARG": 14,
-    "USA": 3
+    "USA": 4
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "Video: Americans Exposed to Hantavirus on Cruise Ship Arrive in United States - The New York Times",
+      "t": "2026-05-11T09:07:32Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVkx5bEltVllGVHB4ZVljbWZ1QXdWY256ZHdOX0o0bmhKQWlQY1d5elhEVnVMX1pRcDlXZjREOGozV29jdTZRS2lKNmdLZi16a2V5b2E3OEVXUzVsdXNrc2hSdGx5MHczem1xbjJOM0ZleC1XUFRwaUptTjBTLVVqY09DRl9kOUxaUXJKLTRlQ2k2VUtwcTE4Qk0wYnlBa1ZM?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "Francia confirma un positivo de hantavirus entre los repatriados del crucero - Infobae",
@@ -4208,8 +4215,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T09:05:16Z",
-      "signals": 12,
+      "last_update": "2026-05-11T09:10:14Z",
+      "signals": 13,
       "recent": [
         {
           "title": "Francia confirma un positivo de hantavirus entre los repatriados del crucero - Infobae",
