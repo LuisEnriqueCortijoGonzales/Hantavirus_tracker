@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T15:50:16.787530Z",
-  "next_update": "2026-05-11T15:55:00Z",
+  "generated": "2026-05-11T15:55:08.411425Z",
+  "next_update": "2026-05-11T16:00:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 2,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "GRC": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 23,
+    "kalshi": 17,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,8 +4021,8 @@
     "USA": 3,
     "FRA": 10,
     "ARG": 11,
-    "GBR": 4,
-    "MEX": 1
+    "MEX": 1,
+    "GBR": 3
   },
   "events": [
     {
@@ -4138,13 +4138,6 @@
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOVo5dGNodmt1MTlrTVpwQ25SX1lWX2FxSjAzUDk2VDhfOXgxYURFcmljNk9TQWNhV2hGdk9Qbk85ZEh1MzVKUThHRVMtV0ZiTzczOXRoSkFwUFRVUHQ3TDlNdVdLNEtZQjNMclFyemhvc2NrbkFTdTJPc0pDUnJDaGx6ZGMxN2toSzZDRmJhbTZyUjVSOWFHSjFsRVJFaVBSelNQRTByZDY2N2dJbm9IaElsMldQU29OaVlPbEEtdUhXNjZUQi1zaNIBuAFBVV95cUxNRTNLSDZkbXVMU09vb1lraVFMQktWdGdqdTktdDU3TDM1UmFwM3BpX3hSUUo0SUdONEdGaHpNTGFPYW1RZW5CRTZRXzl2S0duZ2tSOVZ1WjA2VTRyd1YwcHp0RTR5T0NfVDRLOWh2V1ZJb1A0bGdfTDhmbVR1bHVIOEszM2ZZUUY3NXJXaTFwby1hWFZ5OVJzLVpvUEx2MWJ2MDZVNTl6a2hRb29IelFtczFublJma0JH?oc=5"
     },
     {
-      "iso": "GBR",
-      "title": "Hantavirus cruise ship passengers enter isolation facility after evacuation to UK - The Guardian",
-      "t": "2026-05-11T08:57:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUDgxa1JJOWVlc0ZROGpGOEJ6cWRxLWwwbnlTeko5WXMxVC1pX3dxU0V0ZldRd09ZMFcyVjNaOHdtQ0dDNUg5LVJ3c0lFdWRBZnBRTlpqUGVNQlRsVDdxZExtc29CdU1kODZzQ0d0Y0RIaXByUElaei1HLUpHV19YRFo1Tm9za1RUMGY4SUVVeDM5QVYybWFoU0hObE5PYXEwS1BVbFJsLW1KWDRKMVBoQVVrNmpSQ3lvN3ZIVFBVbnNVaVhtRnVqV0Z3?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Hantavirus: Francia confirma un positivo entre sus repatriados y EE.UU. traslada a dos pasajeros bajo medidas especiales - Gaceta M\u00e9dica",
       "t": "2026-05-11T08:42:28Z",
@@ -4245,8 +4238,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T15:50:16Z",
-      "signals": 10,
+      "last_update": "2026-05-11T15:55:08Z",
+      "signals": 9,
       "recent": [
         {
           "title": "Cinco franceses repatriados por brote de hantavirus en crucero permanecen en observaci\u00f3n en Bichat - France 24",
