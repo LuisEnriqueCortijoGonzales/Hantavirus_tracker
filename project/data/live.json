@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T14:00:14.879296Z",
-  "next_update": "2026-05-11T14:05:00Z",
+  "generated": "2026-05-11T14:05:15.060840Z",
+  "next_update": "2026-05-11T14:10:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 70,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 5,
+      "var_pct": 4,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 10,
+      "signals": 9,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 19,
+    "kalshi": 17,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "USA": 4,
     "GBR": 2,
     "FRA": 9,
-    "ARG": 10,
+    "ARG": 9,
     "JPN": 1
   },
   "events": [
@@ -4167,13 +4167,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina investiga si el brote de hantavirus en el crucero MV Hondius se origin\u00f3 en la Patagonia - Perfil",
-      "t": "2026-05-09T18:19:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMHdscFdoMUZwQUFBUlNfZW9SQ1NQclNQMVZ0dkJHVVM2N01EdGVuNTZkeEVCcVJFRUZySE9XdjA0SEtVYjVRQ1NnOUlUTnprVXJtRzF5bE5LU3RiR1llQ0VtZlJFRERqVDdsV0tRSjgzNUROVTJlbUM2a0pyaHEyd3pMWGhBTjRsZ1g0MWlTUkhPZTY3NzdQZFJURXE3akJXUkVFdWdyMUhXR2hkem1RYVdpZklwai0xbFJQVktnZkprU1J6dGcyNm44V3ZFZ3BXX0t6Q19BLTjSAd4BQVVfeXFMUFFYX1pOdGViaUNuLTlNQkdfOHJZQ1FRS25aUEVvTlJNdklfaWhjTEpvdG13S0ZQcjMtdnJlMDhaNV9rbUltUkRqcnByUzRvRWZpcDFrNGRVOUlaZk15SmpvLXNtbkQ4cGZWcGVIbGI1WEVMS0RpSGhZQ0FGLVdMWURqdHVTZEVfLVc3cWl1aDNPbFlBYXRXVDFobVBCQUpzNVZMQ0F5RGVYaTJpNzl5RGtDM2NRS1F0dTI2WFk4eGNHUldJVXpiTzlUOFNJU0ZfVUNlWXpwQXNja1hZVVdR?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Hantavirus en Argentina: el brote vuelve a poner el foco en una enfermedad olvidada - CNN en Espa\u00f1ol",
       "t": "2026-05-07T23:24:18Z",
       "source": "GoogleNews-ES",
@@ -4224,8 +4217,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T14:00:14Z",
-      "signals": 12,
+      "last_update": "2026-05-11T14:05:15Z",
+      "signals": 11,
       "recent": [
         {
           "title": "Estados Unidos confirma un positivo por hantavirus entre los 17 estadounidenses repatriados desde el crucero MV Hondius - Infobae",
