@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T14:30:16.820006Z",
-  "next_update": "2026-05-11T14:35:00Z",
+  "generated": "2026-05-11T14:35:16.819359Z",
+  "next_update": "2026-05-11T14:40:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 8,
+      "signals": 9,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 21,
+    "kalshi": 17,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,11 +4020,25 @@
   "signal_summary": {
     "USA": 3,
     "GBR": 2,
-    "FRA": 8,
+    "FRA": 9,
     "ARG": 9,
     "MEX": 1
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "Hantavirus cruise patients are in America. How contagious? Symptoms - The Palm Beach Post",
+      "t": "2026-05-11T14:33:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYjdLLTgxT1VydzZsaVJGbnhTZUw1MnIzcWpibDk1ZXpEc3R2b2tXYUpuZjBlNUNLX0g2Tmt2NDB4d0h3OUJUY2Y5ZWZYU2QwZnVvZjM5cDExUmp0ODFUSkJYMldpdXJJc3ozdzVTbnpwa2Ruc1lWcUFhSnByblRJdDlGN3V4VVpVTmNJZm14UF9iOFdNcXVsdlAtVDFZaXYtblVoR3FkTGZURFlzVEc2RzhGYWJQS0tsZG15YzhnTzZzam5YOVdsQjkwLTNnTmE4eUE?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Cinco franceses repatriados por brote de hantavirus en crucero permanecen en observaci\u00f3n en Bichat - France 24",
+      "t": "2026-05-11T14:31:52Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcTBCajE4c1RGMGZaTEl5bFo0VTVjaThrLXF6OUV3Wk8yYnc2R2VjZ05KdEJJSTZyeFoxa2phblNSNnRxZ0xwTThKUy13aDV6ekJBaE9QeWY2a2F6UGV3a20xWTZFUk9YRVUwZi1ZYnF0dTZRejltZjZEVWd0bVhoWTN0cG81dkZGTXZVNVJabVZ1LW9uQVltU2xEcW5ranRzaHBYeGNkLWJxTFpPMDBNMFhYM0tmQ2d6TWU2ZlJIN2pHLVVrR1lRMEE3ejlWWjhSaTV6cFhhUzAwQjhhbi13?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "Dos nuevos casos de hantavirus en Francia y EE. UU. elevan a siete el n\u00famero de contagios - France 24",
@@ -4052,6 +4066,13 @@
       "t": "2026-05-11T12:58:21Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaTJ0bkFEYkJRLXF3Y2IzcjRFZW9tNVZFOVY1SG5zQ1hhVzVBTm82dEVQNmN0enpyTVpQeUM3SlQ5OWk5Tm9RZkNraHFjTUJYRWNhaHpFakZSYmxFcEExT1hJUFBFYXNmQzMxNmFCbklMMS1vRV9jcFJUUlRYbjNYcF84TVhodEw3TGg2d2dSS1ptNDhJbXNZaHR4ZzdzSjVNV2lHTzRMbkNaREhEaUNaeWdSR25qWFhvX1hQc21rbXdNdDRIT0dnOUtKSGJJMkdyQzh2M9IB2gFBVV95cUxPUENHeEhYU3psRXphX2VWV0p0c3p2Ylo3cnp6TUVsQ0EzV210eUZNMzg1WEU3YjN6SlZjb3VveEJ2R09BcUhKb01LYmI0QmltVlZsczRWTlVIR0pYXzZhTzQ1VXlMSEItYjdJZVRZZ3B1ZWdxNGFVMzB6Y3l0Mk1MZF95VGNzazBJM1BOZnRiNWJvamVvNFVfMXgxakdKdGtjVE1tWkJvcjNnLWpKbUJEZS1fQ2hDYUlXSjFGWGhUcUdTTEFTWWZ3SlhZczJOWnRqOUthSXpvSWNndw?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "EE.UU. y Francia confirman caso de contagio de hantavirus: van m\u00e1s de 10 pa\u00edses con infectados o sospechosos - Yahoo",
+      "t": "2026-05-11T12:51:45Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUVV5d1EyNnl1U3p5dkdjSkYybXY1LUFkSHNpbEVGV2g1UWNreDVINkUtUUhOR2ZFaDhJRW1zbFkwMmdkWTNSc0ZxVnI0dGM0dGNSTmhydmxmeXB0cDdmdDE2MW9vMmg2aXRPaXZTYU1lWWhVWjh2aS1xdlZQMUIzX053?oc=5"
     },
     {
       "iso": "USA",
@@ -4097,13 +4118,6 @@
     },
     {
       "iso": "FRA",
-      "title": "Francia confirma un positivo de hantavirus entre los repatriados del crucero - Infobae",
-      "t": "2026-05-11T08:08:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ01oeXNpS0pjaE5GSUlTNXNyQjQ1a1NiZ25UNVdVaVV3UFp0d2FkOU1KS3FNbmt5TExlVzJiY1ZMWmlYejBTYndieEJGZklDNGlOUkIxMHhvdERBX25NdTFVZkJQWGZoczZfNlZlaElydXRsSklKYjB4QUU4VkxBX1M3TEpVNHI2TzRCT1FLNW5qTV9jYzl0X3B1c3lHclpQXy1JVmpsYllrZjlFMlpOakdTRVhSNkw5RHY00gHWAUFVX3lxTE0yUlczbjUxUWJsaTRqQ3FINlRoUFZhS0ZHLTduRmQ4T1o2Mk9VMTJ5MnNLZGpYT0RBUzBHa1RDVmJ0aFA4SlRheHJlNTJhT1V4OVpZMlBpRzJXZ3hhbE1GTjVoZGpxUnR5dTd2RDVfSUplT2FnVmh0ejNKaEFyLVNTbFEwTWNfT3F2SVdwTl9Yd0E5UENXTldxc0dKM3p4RnM2T0dNU1F1ZTk2cE8ydTlFX2o2azB2WHJ4Z3pQNXdGVDJXTkppZUJDNkhUYTVSNEE5QThCMEE?oc=5"
-    },
-    {
-      "iso": "FRA",
       "title": "Francia y EE. UU. confirman casos positivos de hantavirus - DW.com",
       "t": "2026-05-11T08:03:08Z",
       "source": "GoogleNews-ES",
@@ -4115,13 +4129,6 @@
       "t": "2026-05-11T06:45:27Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdkpQemowaUFLdEUtRmwzc1JHbWlsbm02b1ZSMXg3V2RMV1BwS3FJcGt4aks0c2VVUDZxd3J6YzN3eDRjdG9xcFhXR2ZEM0MwdlZFVlNsUlEtQmdZMl9jajRjYjFMRTJkZUtkN01qMTQ0eGNDcmNtblduRWR5TmZnSzlkbnU1VXBNcWp3VVM0aWVhdXVxTDFnM0FOV191dUZLQTNPTGFmSm1LNXZDUzNJQkhPa0tHZTNJNWhF?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Un pasajero de Estados Unidos evacuado del crucero afectado por hantavirus dio positivo - TN",
-      "t": "2026-05-11T05:28:23Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd3pYQ0tGR2RiTzNYTFp1a0k1TXNRYkN6alhQTWFLODBldFAxZF81TC01T01GMmZBMDBET0Q3cm1HTzZkSURZcjFYTFRNWjBKal9oaG5kZFhOV1dPM3Q3WnB6bU5XQlNDM3d0T0tVeWxxc1Jfai1VR0dtYlNPVXZqZGRaQ2NaOW9sSVdCXy1IOXNHSll5NFZzNFdWc09HSmhCR0tpSjJKV1NEN0NYQjRpSkRqOGNhWnprRFFKZG41ZHMxSjN5dVpkLWtPc9IB3wFBVV95cUxNVlp1UV9nb3BNdnhaMWEzRFl0eUlLdEpSeUZ1Z2U3QlpvRm9wQ2VNMElRZVdWMmpxWFN6cEgwdUFoVU5HQng0bWsxY29tcEYydEVuTE9xZ201a3FhLS1tMUJBM3daZGIybEFtQXp5RlFkY0xyTG4ydDJMZy1oMk9reDVBUkFnZGZwbWFVV2M4ZXdoRkVGMTVHOS1MeVYwY2xUaDhIVlplaXh2TFV2R2RxTWpnTkNVUFgwdmRnSkxUbmY4OUFxMTNqR2JBVWR3XzA5TURFSkI3ZDg1NDNpSmtV?oc=5"
     },
     {
       "iso": "ARG",
@@ -4203,14 +4210,9 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T14:30:16Z",
-      "signals": 11,
+      "last_update": "2026-05-11T14:35:16Z",
+      "signals": 10,
       "recent": [
-        {
-          "title": "Un pasajero de Estados Unidos evacuado del crucero afectado por hantavirus dio positivo - TN",
-          "t": "2026-05-11T05:28:23Z",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd3pYQ0tGR2RiTzNYTFp1a0k1TXNRYkN6alhQTWFLODBldFAxZF81TC01T01GMmZBMDBET0Q3cm1HTzZkSURZcjFYTFRNWjBKal9oaG5kZFhOV1dPM3Q3WnB6bU5XQlNDM3d0T0tVeWxxc1Jfai1VR0dtYlNPVXZqZGRaQ2NaOW9sSVdCXy1IOXNHSll5NFZzNFdWc09HSmhCR0tpSjJKV1NEN0NYQjRpSkRqOGNhWnprRFFKZG41ZHMxSjN5dVpkLWtPc9IB3wFBVV95cUxNVlp1UV9nb3BNdnhaMWEzRFl0eUlLdEpSeUZ1Z2U3QlpvRm9wQ2VNMElRZVdWMmpxWFN6cEgwdUFoVU5HQng0bWsxY29tcEYydEVuTE9xZ201a3FhLS1tMUJBM3daZGIybEFtQXp5RlFkY0xyTG4ydDJMZy1oMk9reDVBUkFnZGZwbWFVV2M4ZXdoRkVGMTVHOS1MeVYwY2xUaDhIVlplaXh2TFV2R2RxTWpnTkNVUFgwdmRnSkxUbmY4OUFxMTNqR2JBVWR3XzA5TURFSkI3ZDg1NDNpSmtV?oc=5"
-        },
         {
           "title": "Hantavirus cruise ship passengers enter isolation facility after evacuation to UK - The Guardian",
           "t": "2026-05-11T08:57:00Z",
@@ -4222,14 +4224,19 @@
           "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQcEFhdDVzUlUtb1VGOTBCVUdJOExQLUQ1eHhnSXpfb0RSY1pqd0ZkRVdaMEljaXNMM0pFcEFRTkFsNU5hSWdEWFNHb0tOakdVbnhNNFk3aUlINnRIY0hjNUxveDZRNTFaOGw5Z3JlTTNiVmwwNzN0RXUtS0JWc1M5TGlKekk5Vl85VWQ0NEJPY2hiWW1vd044TE5wb1RkZHBEQzZqNU5rWk1KeE9tdVlpeHQwOXRoblB6QVVIeVlwc244VnNZZGxDTnRzenZ4aFA4WTNMalBoYV9SWnJIel9JREFJUUdXcHNvSmdDZWp2dksyX3IzX1M1TWFmcHdDTFnSAYQCQVVfeXFMUGR4WW9XYlVYUEppTGRBeEtUZUxjX3Zab3QtS1J6dzJGX0ZrR0dpZ2c0cHI1bnNKQVNZZ290V0ZQSnNIZ2R1ZzZ3em9MVUs5OGJIejYwbDRySXNMN191RFJpQ1htWEl3dHZWNGxLbnUta211b0ZmVml1NE5sVjgycEc2b0pBMEJmNkpKVmt6ZXctVWhaZUt4SlJGeTExNUJqSVZkVzZGOGwwWU4zUF9tSEQwVnhaWXIwUVhzUDEzUFpQU0FwLXRmNDRMcHRVTkp6RC1TVzlHRFMtSDJ3RjFpUGRkeUQ0MkpuNmZTLTFBQ3ZuMGFKbFpSYjY2RmxwLWdjaXZZN3o?oc=5"
         },
         {
-          "title": "Francia confirma un positivo de hantavirus entre los repatriados del crucero - Infobae",
-          "t": "2026-05-11T08:08:00Z",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ01oeXNpS0pjaE5GSUlTNXNyQjQ1a1NiZ25UNVdVaVV3UFp0d2FkOU1KS3FNbmt5TExlVzJiY1ZMWmlYejBTYndieEJGZklDNGlOUkIxMHhvdERBX25NdTFVZkJQWGZoczZfNlZlaElydXRsSklKYjB4QUU4VkxBX1M3TEpVNHI2TzRCT1FLNW5qTV9jYzl0X3B1c3lHclpQXy1JVmpsYllrZjlFMlpOakdTRVhSNkw5RHY00gHWAUFVX3lxTE0yUlczbjUxUWJsaTRqQ3FINlRoUFZhS0ZHLTduRmQ4T1o2Mk9VMTJ5MnNLZGpYT0RBUzBHa1RDVmJ0aFA4SlRheHJlNTJhT1V4OVpZMlBpRzJXZ3hhbE1GTjVoZGpxUnR5dTd2RDVfSUplT2FnVmh0ejNKaEFyLVNTbFEwTWNfT3F2SVdwTl9Yd0E5UENXTldxc0dKM3p4RnM2T0dNU1F1ZTk2cE8ydTlFX2o2azB2WHJ4Z3pQNXdGVDJXTkppZUJDNkhUYTVSNEE5QThCMEE?oc=5"
+          "title": "Cinco franceses repatriados por brote de hantavirus en crucero permanecen en observaci\u00f3n en Bichat - France 24",
+          "t": "2026-05-11T14:31:52Z",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcTBCajE4c1RGMGZaTEl5bFo0VTVjaThrLXF6OUV3Wk8yYnc2R2VjZ05KdEJJSTZyeFoxa2phblNSNnRxZ0xwTThKUy13aDV6ekJBaE9QeWY2a2F6UGV3a20xWTZFUk9YRVUwZi1ZYnF0dTZRejltZjZEVWd0bVhoWTN0cG81dkZGTXZVNVJabVZ1LW9uQVltU2xEcW5ranRzaHBYeGNkLWJxTFpPMDBNMFhYM0tmQ2d6TWU2ZlJIN2pHLVVrR1lRMEE3ejlWWjhSaTV6cFhhUzAwQjhhbi13?oc=5"
         },
         {
           "title": "Alerta extrema en Europa: Francia confirm\u00f3 un caso de hantavirus y pasajeros del crucero aislados - MDZ Online",
           "t": "2026-05-11T13:40:00Z",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMm1FNE02OWg2ajJHRGdYUzVNZnVwWXB1bWNHT0hxZkprVEtnU0Z0VmdzTi15M3l5dS1mTVBPMnN1Q3ZxNkMxQTZTWkFWS2IzckdqZ0YwM0pfZFoySWFkY3dpU1Rhdkt3V2U2SlZDZkw1bHpoQVRhZjhLR0Q0RzlpNmJCSGxLbm9XNWYzVnJITDZQZWx0MEc0UnhJemwwNzFDdThXRkpkZ0ZvQmdJMkNRNVgwVGlrRmlpYlF4S3M1TkhrcVVCdnBDREFR0gHPAUFVX3lxTE5RNWhnSnNBbjRuZjAwUm5FWnpUWEFJdmZKZHhfM0NCbVluRWtabzRYLW5UNElVV0x0dXUzZm1hSkpXdW8wS05yMVM0aEc4b2hfcVI1VXMxVmJVeHh6M0xOVjVOTnF2QkhPdGZZaG1PMFljMGllZ3FRNEc5QXZzbktBWHFJV1ItY3pOSjlOV2pTWVBqQ3hXcVI5c3c3QmU3OE93SzNRMnB0ODhIeXdDVTF1eV9nU2Z4ejNCSl9pRzdIS0k4UUxVazlVNkM5Tkhfaw?oc=5"
+        },
+        {
+          "title": "\"No es justo que esto afecte a Tierra del Fuego\": c\u00f3mo vive la provincia argentina desde donde zarp\u00f3 el crucero la crisis por el hantavirus que alerta a Europa - BBC",
+          "t": "2026-05-10T17:36:03Z",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
         }
       ]
     }
