@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T16:15:15.842371Z",
-  "next_update": "2026-05-11T16:20:00Z",
+  "generated": "2026-05-11T16:20:16.827282Z",
+  "next_update": "2026-05-11T16:25:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 71,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 5,
+      "var_pct": 6,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 11,
+      "signals": 12,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 18,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 3,
     "CAN": 1,
-    "ARG": 11,
+    "ARG": 12,
     "FRA": 10,
     "GBR": 4,
     "MEX": 1
@@ -4189,6 +4189,13 @@
     },
     {
       "iso": "ARG",
+      "title": "La investigaci\u00f3n del hantavirus en Argentina aleja el origen del brote de Ushuaia y lo sit\u00faa a 2.000 km al norte - ABC",
+      "t": "2026-05-11T00:38:42Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdkFHUG55VEZMZ0RtRGhaSU4zek1HSUFrYnVId0ZoX2RoWnI0c0gyN3Fab2NSd1BUcDFWbl9sUnNYa2c4Y1U3cFAzdzdNbTRRbHV0aVBGT0UzTGoyVVpwRUFCZlhXSUkzem5DOFhweTk3SmxfbmtYdGx3bFMzN2JqOUpCSWw5c3hYbUFlYnplMVRBWXowRjFkZUVPX3UtcGpURmlYMXRrY9IBrAFBVV95cUxPYWxuYllzbERTd0s0dUlwdmxtX3g4YmMtZFplbDlQTDdlTGNkdFBXUmt2MUQ2ZkEzTTBuT092Wmp3QXFhMTlJUFhTeS10eFZYVTBNdHRXX09ET2poR25vX0NZTlpJZ3RVMWwybFFKX3c3VTBLOVNHX0FNaUI3bUJ6dk4ySERrRk1vYjVKQ1NZOXN4LXAtbHBYei1rXzVlZVlQaEZRWGZOanhpejdy?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "\"No es justo que esto afecte a Tierra del Fuego\": c\u00f3mo vive la provincia argentina desde donde zarp\u00f3 el crucero la crisis por el hantavirus que alerta a Europa - BBC",
       "t": "2026-05-10T17:36:03Z",
       "source": "GoogleNews-ES",
@@ -4253,7 +4260,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T16:15:15Z",
+      "last_update": "2026-05-11T16:20:16Z",
       "signals": 12,
       "recent": [
         {
