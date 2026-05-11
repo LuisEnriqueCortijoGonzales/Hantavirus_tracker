@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T04:00:14.866254Z",
-  "next_update": "2026-05-11T04:05:00Z",
+  "generated": "2026-05-11T04:05:15.056952Z",
+  "next_update": "2026-05-11T04:10:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 20,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4023,13 +4023,6 @@
     "FRA": 2
   },
   "events": [
-    {
-      "iso": "ARG",
-      "title": "Argentina in spotlight over hantavirus as authorities retrace footsteps of ship\u2019s passengers - The Guardian",
-      "t": "2026-05-11T01:30:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaFdPZ0xHdmsxZ2hNYTBSZlRzWTZkN1AtOHJyYzdBUHAwQmFMeUZjWFJPbFhFOS1KT251cExsNUZHVFZPUEpDeVhNdmJfQ0lva29UNTlNNjRSbGI0eVdxSmN6RWFFY1NSRVl4S0hVVlA0LWRIaEpRUUlQQ2YwWV9fNno5Tk5YNjlUVkg1QW5xTFl4czhsWmpuUzFPdnh1eXdZNmM0M3RGdV94RjRSV2hDM0ZzcjFLMUFHdmM4?oc=5"
-    },
     {
       "iso": "ARG",
       "title": "La investigaci\u00f3n del hantavirus en Argentina aleja el origen del brote de Ushuaia y lo sit\u00faa a 2.000 km al norte - ABC",
@@ -4050,6 +4043,13 @@
       "t": "2026-05-10T21:47:59Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaGtPQ2tVWGViN21Kd25aT0RaRFRTZENGVy10Z3YtZzVvNmF5MmNMWXVMX1lNbkhBSkp4ZDRjSG5SaFRvTFZ1U0NoRmVvdnNSejR0Q3hvdjFwOWFYLWdVUmV6Ykh3N2ptZUduZXZuYUd3OXpwaTVDVjlOR1pCR2pJWTRucjBEOV93UDFPbEkwMzlsWDJrMkVLZzRTUkltM25udjVMN2R1dnJrSFZRY2cwSmRURm4yQi1fdzNEN3U5cWhjMEdx?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina in spotlight over hantavirus as authorities retrace footsteps of ship\u2019s passengers - The Guardian",
+      "t": "2026-05-10T20:13:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaFdPZ0xHdmsxZ2hNYTBSZlRzWTZkN1AtOHJyYzdBUHAwQmFMeUZjWFJPbFhFOS1KT251cExsNUZHVFZPUEpDeVhNdmJfQ0lva29UNTlNNjRSbGI0eVdxSmN6RWFFY1NSRVl4S0hVVlA0LWRIaEpRUUlQQ2YwWV9fNno5Tk5YNjlUVkg1QW5xTFl4czhsWmpuUzFPdnh1eXdZNmM0M3RGdV94RjRSV2hDM0ZzcjFLMUFHdmM4?oc=5"
     },
     {
       "iso": "ARG",
@@ -4138,7 +4138,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T04:00:14Z",
+      "last_update": "2026-05-11T04:05:15Z",
       "signals": 7,
       "recent": [
         {
