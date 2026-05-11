@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T07:30:14.877943Z",
-  "next_update": "2026-05-11T07:35:00Z",
+  "generated": "2026-05-11T07:35:15.096129Z",
+  "next_update": "2026-05-11T07:40:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 72,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 8,
+      "var_pct": 7,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 16,
+      "signals": 15,
       "gov_alert": false
     },
     "CHL": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 7,
+      "signals": 6,
       "gov_alert": false
     },
     "CHE": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 25,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,8 +4018,8 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "FRA": 7,
-    "ARG": 16,
+    "FRA": 6,
+    "ARG": 15,
     "USA": 4
   },
   "events": [
@@ -4095,13 +4095,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus en Argentina: qu\u00e9 roedores transmiten la enfermedad y en qu\u00e9 zonas viven - Canal26",
-      "t": "2026-05-10T21:47:59Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaGtPQ2tVWGViN21Kd25aT0RaRFRTZENGVy10Z3YtZzVvNmF5MmNMWXVMX1lNbkhBSkp4ZDRjSG5SaFRvTFZ1U0NoRmVvdnNSejR0Q3hvdjFwOWFYLWdVUmV6Ykh3N2ptZUduZXZuYUd3OXpwaTVDVjlOR1pCR2pJWTRucjBEOV93UDFPbEkwMzlsWDJrMkVLZzRTUkltM25udjVMN2R1dnJrSFZRY2cwSmRURm4yQi1fdzNEN3U5cWhjMEdx?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Infect\u00f3logo alerta sobre riesgos del hantavirus y su detecci\u00f3n temprana - Cadena 3 Argentina",
       "t": "2026-05-10T19:29:24Z",
       "source": "GoogleNews-ES",
@@ -4134,13 +4127,6 @@
       "t": "2026-05-10T14:59:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNGd4RnUyREQ0dmw5bUhGQ0tzRVQ1ckNXZFYzNElDdXBFSlV1U3hKb3RKRFNnUDVQVU40N2prVVhRaXk0MFJvTUo0bVlEZ1NEeUI4cERxdmt3SmRZemJONnhuNmpKU1IydUlWSkMtR0FwNC13MGZ0b1dhUHV3TjYtYU5RVUtkcFJUVjhLYkh4TjlrOUNvTDFz?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "French evacuee from hantavirus-hit ship showing 'symptoms' - France 24",
-      "t": "2026-05-10T09:47:46Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcnBnQWMzZ2FrVV90a21oTE9uLTFXR25wZW5VLVdNX3hPOW1zZEQwVi1MbmJkOWZPVWtmT21sd3lNTjVRWE9uM0RHM3d1bDVXUVBwQ2Uwal9XS2I4SVVvOUVRcXZ1LVNuR3pJY3pWc3NWMUwteXlSNWl3Rk0zeFRxV0k0OGtndEZwRkctTlVSei15VUpqeGF5bk5PNzB2TzUxbUdXTkRzTXhkbG8?oc=5"
     },
     {
       "iso": "ARG",
@@ -4229,7 +4215,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T07:30:14Z",
+      "last_update": "2026-05-11T07:35:15Z",
       "signals": 13,
       "recent": [
         {
