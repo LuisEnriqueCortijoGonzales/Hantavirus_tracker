@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T11:20:16.785986Z",
-  "next_update": "2026-05-11T11:25:00Z",
+  "generated": "2026-05-11T11:25:16.786019Z",
+  "next_update": "2026-05-11T11:30:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 5,
+      "signals": 4,
       "gov_alert": false
     },
     "PRY": {
@@ -533,14 +533,14 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2353,
+      "ytd": 2341,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 0,
       "strain": "hantaan",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "KOR": {
@@ -1336,20 +1336,20 @@
       23
     ],
     "CHN": [
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341
     ],
     "KOR": [
       89,
@@ -3852,54 +3852,54 @@
       23
     ],
     "CHN": [
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353,
-      2353
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341,
+      2341
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 8,
-    "kalshi": 24,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,11 +4018,10 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "USA": 5,
+    "USA": 4,
     "FRA": 11,
     "GBR": 1,
-    "ARG": 11,
-    "CHN": 1
+    "ARG": 11
   },
   "events": [
     {
@@ -4062,24 +4061,17 @@
     },
     {
       "iso": "FRA",
-      "title": "Hantavirus outbreak renews painful memories for Patagonian village - France 24",
-      "t": "2026-05-11T08:48:27Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOXzlESGx3S2lFU0J5WVdqQlp3X2p4ZE5MVWJJT083bUluRWVYR2NPcEJfd0dFcEtPRkp1SzM1SEV1SV9mUkszcWtBTGpydjV6TU5WSGg2Yk5IOXlTMk5jOXRURGpKOE96YlVycUI3ekVXUjJ4RmExajRZY0dTXzFVODJfNmJBWk5DMmRQdUkyYXRXandld0tsNHlUaVBOdnY3VkFUSXZ4TXdhMGlXQ0E?oc=5"
-    },
-    {
-      "iso": "CHN",
-      "title": "More passengers from hantavirus-hit cruise ship test positive - South China Morning Post",
-      "t": "2026-05-11T08:47:20Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZTZSWVRXRFM0b3JhR0N2ellnYjZKY0JIWGUtc01xMnhmWTc4UG5ia25fZ0QwZEVMSWpIT2VIZmo3QlhwcGlrRlpOZHpsbjN1cmVjbUZ2dFJ3UGc5czN3Rl9RZ0JYUnlSOTRzSmt5ZElkZzdFOWxaS0VnZUxreXIteE8tM3NkaVQ2bGJMVExUNzdVLXFTVG1nRV9RZmdPZUg3aUlJYWREMVgwV1pRaG93adIBsAFBVV95cUxOQm1fQ1NVb1RrRVh3UGxKT2VVTld1dmlMWTJWaGJqRlNzaURjNUFLSG15SERUVkVuTW9sZnZMb2tLTlhCR1ctMm1RYng0Mzl0SXdwdWdTTF80NEE5aDBaSDZMS2UybkxuMjJLLVF3bTFiQ1Fyenpkc21uUWJyUlVDY2FWSW82Wk9Wc2RHMkF2SElSMHFXVm14S21jSlJmMVJmSk1LckNHbUxfSnZCNlZGNQ?oc=5"
-    },
-    {
-      "iso": "FRA",
       "title": "Hantavirus: Francia confirma un positivo entre sus repatriados y EE.UU. traslada a dos pasajeros bajo medidas especiales - Gaceta M\u00e9dica",
       "t": "2026-05-11T08:42:28Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRElFQUpTTjhwRHNIeWd3VTVDWUFJdlZhdVpkUHZlR1hNRkRrTW5GNW9qUU9BQ0FqaW15VUkxZkxzT1EwZUV3Zlg5WFc0R3FZTGNNOWJFUUpPUDZRUl9BRHNraGVWR2w4QUhUc3hXX3I2bmljcFhfaWFXSExvamcxYV8tbnpGZTFoWWUxb1ZyYjBJT3ExTFFNQkxOUkx0Q3BRYnc3eERuTHFpa0RF?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Hantavirus outbreak latest: France confirms new case in a woman evacuated from the ship - Euronews.com",
+      "t": "2026-05-11T08:15:02Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWm1iSVpfS1Qxb2lrZ3Q1Tm1PRnppVGREdWtOdzFudlNscldYbEl5ZkhfT1RVTm5NTGRzcVktQXF2QlFQVXF5VTk3Ti1jbTBCOW1KZXNxVTZpcGRwMDB3NGhqSUdMdmMzUmsyaG1rOVFEWjNNalRkLWhVTEd5aW04XzNMSzh6czdrUVRodDhBRDhGTFV1UHBGY2t2bktzOWwwbmNCZk5raGlzSGx0M3M0elJibDVxdFhzY05VV1Znd3lWZ1N5N3pIYQ?oc=5"
     },
     {
       "iso": "FRA",
@@ -4108,13 +4100,6 @@
       "t": "2026-05-11T06:45:27Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdkpQemowaUFLdEUtRmwzc1JHbWlsbm02b1ZSMXg3V2RMV1BwS3FJcGt4aks0c2VVUDZxd3J6YzN3eDRjdG9xcFhXR2ZEM0MwdlZFVlNsUlEtQmdZMl9jajRjYjFMRTJkZUtkN01qMTQ0eGNDcmNtblduRWR5TmZnSzlkbnU1VXBNcWp3VVM0aWVhdXVxTDFnM0FOV191dUZLQTNPTGFmSm1LNXZDUzNJQkhPa0tHZTNJNWhF?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Hantavirus, \u00faltima hora | Estados Unidos confirma un \"positivo leve\" y un caso con s\u00edntomas entre sus repatriados del MV Hondius - Gaceta de salud",
-      "t": "2026-05-11T06:22:13Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQRG1JWjNPaUktS3JQbTVENVVOR0pCNm4wSzRYY3B3MjQycVhRdzBYMUlKTTgtX3k3bkEtTURQLXhUVDVWSk41b1ROb1VFbUVPMDZnZjdRS1ZaSm5fZVJZQ0s3LUd6TXh3aUtKdUxmSkZNY2dxWE9nb2c2UDFBRDlLRkRBenJxNGVMSVJKU2RqTDlJeDZIdkxpcmxta2IzZG9MdWRIWlZlUVRna2RmbE12MmYyUUxzc0ZrMzdSRnZkS0ZDOTFBcHdiN3V6VUl5RFU4SlRnd3BWV0dwSW5SY2E4N0E1ZnMxYXhEZDVPZl9sVF9iMkRXTmlnMTRlcUVfUjgwNnlKbDFwSkFlc2VlLVFqYzFvSVB2RTBBTzhrWWl0NTAyUQ?oc=5"
     },
     {
       "iso": "USA",
@@ -4245,8 +4230,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T11:20:16Z",
-      "signals": 14,
+      "last_update": "2026-05-11T11:25:16Z",
+      "signals": 13,
       "recent": [
         {
           "title": "Video: Americans Exposed to Hantavirus on Cruise Ship Arrive in United States - The New York Times",
