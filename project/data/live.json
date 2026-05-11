@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T07:40:16.791717Z",
-  "next_update": "2026-05-11T07:45:00Z",
+  "generated": "2026-05-11T07:45:16.781243Z",
+  "next_update": "2026-05-11T07:50:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 15,
+      "signals": 14,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 20,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "FRA": 6,
-    "ARG": 15,
+    "ARG": 14,
     "USA": 4
   },
   "events": [
@@ -4092,13 +4092,6 @@
       "t": "2026-05-10T22:14:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQkNpQzNOVjZMLXRqNVRpT3lSbEtzVmE4aDVwU3pBV1RPckc4enB1RThnd0ZwODdNdGtiSWU1aXJkSVY5TDJOeG1fRmdsaE55QkV4YUx2V3oxakhFMU5mSnpWVHdfam54V2xjaWV2UVFSTzZkN0ZFOFY2dm5icERBTW1kVC1uOTdQMDU1LWJSTGx0Y1BCdEpzN2lPdWQtd2Ixdl8wVWxhd0dJRGNDTndxYVBwX2FYWDEzRUkyQUJOMnpVa3Nqbk5OLXp1QmJNS0F6M0FPZzFwdVpnRlhaclcwbHBZa0phNVdDWUE?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Infect\u00f3logo alerta sobre riesgos del hantavirus y su detecci\u00f3n temprana - Cadena 3 Argentina",
-      "t": "2026-05-10T19:29:24Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOLUh6ZS02VC1VNXhXbzh2U2wtd2NlaHNXbW9zSlpnWjRhYnhoVC0yX0VJWFptME1pMV9Ebmh2cWRoZ1R3M2xPY3pqaXRReDRQWTFPVlk0RDBkNk40Yy1XN0xwemJ2cnpFZDFSRFRKaFZFNUZ5djJuTGtLTjY2bUphb19QMHNtdlZId2NaVHZrUTdqdlNzZ0ZZQWlPb1d5ZV9BTFlLdlNkMTZaUzE0MHY5eG1vVHM5X2o1bl9n0gHAAUFVX3lxTFBPOG95ZzV2c2YwTTcyZGlFVDlybHhJUm5teEFEQUJxOXBadnV3VkNOelNKX0tLUzVBVngzNjZXSW5BMzU2ZDJDS3FKR1hsVWduaWRkY0oxM1UwcWRZel9FOFcyWkNyQVduU05aenZwZFpmTkxhd0NDaVBNX214MTlmcWJMS3p5aTN5SkxxNW90NW5jaDdVMldMMTJEcjZ6R0VnaVJtX1hMSVhTeEdDbWVNWTJTNlVDb0g5VlYxNGlvOQ?oc=5"
     },
     {
       "iso": "FRA",
@@ -4215,7 +4208,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T07:40:16Z",
+      "last_update": "2026-05-11T07:45:16Z",
       "signals": 13,
       "recent": [
         {
