@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T18:25:08.400924Z",
-  "next_update": "2026-05-11T18:30:00Z",
+  "generated": "2026-05-11T18:30:16.793050Z",
+  "next_update": "2026-05-11T18:35:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 21,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4029,13 +4029,6 @@
   },
   "events": [
     {
-      "iso": "ARG",
-      "title": "Argentina descarta que Ushuaia, ciudad de Tierra de Fuego de la que parti\u00f3 el crucero, sea el origen del brote de hantavirus - El Peri\u00f3dico Extremadura",
-      "t": "2026-05-11T17:15:40Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdFItamVSSmdrWjByVEF6bFFOX2IxQU9nUkpVQUxJWUZfZE9mSFMwVmp6X3lwWnVuLVhyclI0UG5ha1JMaFl0WGZpbGdfY01vUHBrTzkxdXJJMjQyaC1OaDlGUXplVzhDVWE4NVNLZjFBY3Vrb21kSGxrVnJNS1VScWFVM0NWZG5NRVBvRTBQQ1I3NDBvSFZpRXRrX3JXZC0zcmFwdEotRWVxZ0s3VUxWZDhBdkRoT0JBSmVCU0xadVMwWHJCdExiUGRoTkNuRWFBaVM5VmV1NHFveERjZG9lbXBrVVZHV0HSAewBQVVfeXFMT2F6bkhjbFhNZmZDeWkyZFZkenJxRGVFSFNZTHBZRTh0RFMtNFRHam5ldGlUQi1mUnJPMlVUb01Jakl6LXVpMnN5Z1VOcjRDOXZManRBVXdKMS1XTnYxbElPWW1vdzFCaDZpTnZ6d3hDN0U3ZmVTaUE1RUU4Wk5YaEZlVlJld1luU2ZuX0FOZGxQMEdaZ01uQkt6amdkc2lPTnE3WU5jeTNZT2VuZDg1NlJHeGtKQ2JQV3dJS190X1J4NXM0MHVMVlM5ZGpuTHZIeEpEX1pIdzlFdDlpcVlOMVMwN2d4ZVpUSjJVODM?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Francia confirm\u00f3 un nuevo caso de hantavirus tras la infecci\u00f3n de pasajera en crucero MV Hondius - diariolapluma.com.ar",
       "t": "2026-05-11T17:13:32Z",
@@ -4048,6 +4041,13 @@
       "t": "2026-05-11T17:09:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOd25tZ1VidURWLVVZd2c4Zk0zSUZUUkdpWlVMQ2lteUtIX3JlanJGamZMb3ZuV3YzWV9mbFI4SHh2aW1UcjluNmNldDFFM2pSOVpCR1AySnZSS3M2dkNkbmRwSzhNanVhRmg3d0JicmtXY2M2RGI0cy1UNzdyQXNlekVWaWMtU2pPb0p5Y0ExRE9TVmZxSDJWRmNrLWxlcmlwcDNmMGgwZVo4WXpqaWFVdEhYbnVIa2JmY2FKQjJGaUFPYnl1?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina descarta que Ushuaia, ciudad de Tierra de Fuego de la que parti\u00f3 el crucero, sea el origen del brote de hantavirus - El Peri\u00f3dico",
+      "t": "2026-05-11T15:59:57Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWHBMQkx5Wk1ac0pJNkdFX3BqUzBreU9TaGNrMmprNmVxc3ZDbVV2TEw3YmdUd2pqZ0lMVTltZFBIaGxnUkhrUjZjQkMxaHhrTVEtLVYtaDlXMEhqQUFxRmIyR3FOeXRFbENEbkJyVXdXOXpPZFczMk5wU2JYT1MxWDNFSDB4RjFFc0I1ZmpzNXhXVHd1cFJpSkVKSEtTWXl1TlNCdEhsNzNjUXp1MW4wcVlwYklpY3dva2lpcFpueUZTamcxNGdZNk43cDhHcnJJOW530gHTAUFVX3lxTE1SaVN2bWNaaE9RNkw4VE1ZaGp2Q3l6YVFHNElNeEZ4dzZwZk5USDU3cHFpcXprdGFEMlJ6cUxzZkRFdUtOUlZzMVp6cjJDVU5kYnlmY2RrYWROY2tiZVNBMGY4ZnRGN2NXUFdONXFsQ1kxdUNoY2xnMGx3N3J3dllIb3ZtSEx5UndQb0h2YVpYVW1Va3lpcGQ5MUtwMmg2ZUVoRnVyOFhxQU41VElxcW9kR1d0ZHpMS1hmR1kxQWtDN2o0ckZXVWoxbDc0bWxubzhBeDQ?oc=5"
     },
     {
       "iso": "FRA",
@@ -4227,7 +4227,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T18:25:08Z",
+      "last_update": "2026-05-11T18:30:16Z",
       "signals": 11,
       "recent": [
         {
