@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-11T09:35:16.810933Z",
-  "next_update": "2026-05-11T09:40:00Z",
+  "generated": "2026-05-11T09:40:14.831465Z",
+  "next_update": "2026-05-11T09:45:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 72,
+      "ytd": 71,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 7,
+      "var_pct": 6,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 14,
+      "signals": 13,
       "gov_alert": false
     },
     "CHL": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71
     ],
     "CHL": [
       31,
@@ -1452,54 +1452,54 @@
   ],
   "hourly_history": {
     "ARG": [
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71
     ],
     "CHL": [
       31,
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 16,
     "polymarket": 8,
-    "kalshi": 19,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,8 +4019,9 @@
   },
   "signal_summary": {
     "FRA": 9,
-    "ARG": 14,
-    "USA": 4
+    "GBR": 1,
+    "USA": 4,
+    "ARG": 13
   },
   "events": [
     {
@@ -4029,6 +4030,13 @@
       "t": "2026-05-11T09:07:32Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVkx5bEltVllGVHB4ZVljbWZ1QXdWY256ZHdOX0o0bmhKQWlQY1d5elhEVnVMX1pRcDlXZjREOGozV29jdTZRS2lKNmdLZi16a2V5b2E3OEVXUzVsdXNrc2hSdGx5MHczem1xbjJOM0ZleC1XUFRwaUptTjBTLVVqY09DRl9kOUxaUXJKLTRlQ2k2VUtwcTE4Qk0wYnlBa1ZM?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "Hantavirus cruise ship passengers enter isolation facility after evacuation to UK - The Guardian",
+      "t": "2026-05-11T08:57:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUDgxa1JJOWVlc0ZROGpGOEJ6cWRxLWwwbnlTeko5WXMxVC1pX3dxU0V0ZldRd09ZMFcyVjNaOHdtQ0dDNUg5LVJ3c0lFdWRBZnBRTlpqUGVNQlRsVDdxZExtc29CdU1kODZzQ0d0Y0RIaXByUElaei1HLUpHV19YRFo1Tm9za1RUMGY4SUVVeDM5QVYybWFoU0hObE5PYXEwS1BVbFJsLW1KWDRKMVBoQVVrNmpSQ3lvN3ZIVFBVbnNVaVhtRnVqV0Z3?oc=5"
     },
     {
       "iso": "FRA",
@@ -4085,13 +4093,6 @@
       "t": "2026-05-11T05:28:23Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOd3pYQ0tGR2RiTzNYTFp1a0k1TXNRYkN6alhQTWFLODBldFAxZF81TC01T01GMmZBMDBET0Q3cm1HTzZkSURZcjFYTFRNWjBKal9oaG5kZFhOV1dPM3Q3WnB6bU5XQlNDM3d0T0tVeWxxc1Jfai1VR0dtYlNPVXZqZGRaQ2NaOW9sSVdCXy1IOXNHSll5NFZzNFdWc09HSmhCR0tpSjJKV1NEN0NYQjRpSkRqOGNhWnprRFFKZG41ZHMxSjN5dVpkLWtPc9IB3wFBVV95cUxNVlp1UV9nb3BNdnhaMWEzRFl0eUlLdEpSeUZ1Z2U3QlpvRm9wQ2VNMElRZVdWMmpxWFN6cEgwdUFoVU5HQng0bWsxY29tcEYydEVuTE9xZ201a3FhLS1tMUJBM3daZGIybEFtQXp5RlFkY0xyTG4ydDJMZy1oMk9reDVBUkFnZGZwbWFVV2M4ZXdoRkVGMTVHOS1MeVYwY2xUaDhIVlplaXh2TFV2R2RxTWpnTkNVUFgwdmRnSkxUbmY4OUFxMTNqR2JBVWR3XzA5TURFSkI3ZDg1NDNpSmtV?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina in spotlight over hantavirus as authorities retrace footsteps of ship\u2019s passengers - The Guardian",
-      "t": "2026-05-11T01:30:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaFdPZ0xHdmsxZ2hNYTBSZlRzWTZkN1AtOHJyYzdBUHAwQmFMeUZjWFJPbFhFOS1KT251cExsNUZHVFZPUEpDeVhNdmJfQ0lva29UNTlNNjRSbGI0eVdxSmN6RWFFY1NSRVl4S0hVVlA0LWRIaEpRUUlQQ2YwWV9fNno5Tk5YNjlUVkg1QW5xTFl4czhsWmpuUzFPdnh1eXdZNmM0M3RGdV94RjRSV2hDM0ZzcjFLMUFHdmM4?oc=5"
     },
     {
       "iso": "FRA",
@@ -4229,8 +4230,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T09:35:16Z",
-      "signals": 14,
+      "last_update": "2026-05-11T09:40:14Z",
+      "signals": 15,
       "recent": [
         {
           "title": "Francia confirma un positivo de hantavirus entre los repatriados del crucero - Infobae",
@@ -4253,9 +4254,9 @@
           "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQajVudGxSVGZLV1phWWo3NTFZUFZ0TjIxVFJjUGk3YktMYWdXZjZ4dkt6eUFQNGw3ZzN6bXNXLTlqa3BNV0tKem5oMFRqd0VSS1ZDSGhwNEVFdUpkLTlteERXRll6Vy1wMDJTTDRlNnZVcmFuem00dzZPbUR0NUUtVl9WSlQ5ZDVqdlNINW01bXJtcWc2bXdXNzJGYVR2cGhlMkF0cUFObFRFV1FSc1EwZDBIYmpIa0hvZzFneW8yanZyYTI3V3VuR0dIQ0pJYUMweF83MFhzTGI4SThJYnfSAd4BQVVfeXFMUGo1bnRsUlRmS1daYVlqNzUxWVBWdE4yMVRSY1BpN2JLTGFnV2Y2eHZLenlBUDRsN2czem1zVy05amtwTVdLSnpuaDBUandFUktWQ0hocDRFRXVKZC05bXhEV0ZZelctcDAyU0w0ZTZ2VXJhbnptNHc2T21EdDVFLVZfVkpUOWQ1anZTSDVtNW1ybXFnNm13VzcyRmFUdnBoZTJBdHFBTmxURVdRUnNRMGQwSGJqSGtIb2cxZ3lvMmp2cmEyN1d1bkdHSENKSWFDMHhfNzBYc0xiOEk4SWJ3?oc=5"
         },
         {
-          "title": "\"No es justo que esto afecte a Tierra del Fuego\": c\u00f3mo vive la provincia argentina desde donde zarp\u00f3 el crucero la crisis por el hantavirus que alerta a Europa - BBC",
-          "t": "2026-05-10T17:36:03Z",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
+          "title": "Hantavirus cruise ship passengers enter isolation facility after evacuation to UK - The Guardian",
+          "t": "2026-05-11T08:57:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUDgxa1JJOWVlc0ZROGpGOEJ6cWRxLWwwbnlTeko5WXMxVC1pX3dxU0V0ZldRd09ZMFcyVjNaOHdtQ0dDNUg5LVJ3c0lFdWRBZnBRTlpqUGVNQlRsVDdxZExtc29CdU1kODZzQ0d0Y0RIaXByUElaei1HLUpHV19YRFo1Tm9za1RUMGY4SUVVeDM5QVYybWFoU0hObE5PYXEwS1BVbFJsLW1KWDRKMVBoQVVrNmpSQ3lvN3ZIVFBVbnNVaVhtRnVqV0Z3?oc=5"
         }
       ]
     }
