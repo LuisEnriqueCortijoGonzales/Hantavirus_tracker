@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T17:40:16.820747Z",
-  "next_update": "2026-05-11T17:45:00Z",
+  "generated": "2026-05-11T17:45:14.877996Z",
+  "next_update": "2026-05-11T17:50:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 1,
+      "var_pct": 2,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 4,
       "gov_alert": false
     },
     "PRY": {
@@ -269,14 +269,14 @@
       "gov_alert": false
     },
     "FRA": {
-      "ytd": 25,
+      "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 7,
+      "var_pct": 6,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 14,
+      "signals": 12,
       "gov_alert": false
     },
     "CHE": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "GRC": {
@@ -952,20 +952,20 @@
       67
     ],
     "FRA": [
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24
     ],
     "CHE": [
       8,
@@ -2652,54 +2652,54 @@
       67
     ],
     "FRA": [
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24
     ],
     "CHE": [
       8,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 19,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,11 +4018,11 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "USA": 3,
+    "USA": 4,
     "CAN": 1,
-    "FRA": 14,
+    "FRA": 12,
     "ARG": 8,
-    "GBR": 3,
+    "GBR": 2,
     "MEX": 1
   },
   "events": [
@@ -4039,6 +4039,13 @@
       "t": "2026-05-11T17:13:32Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRjBsU0VESHdlZy14bUVHM0J6bUp5VldmZzdUNzA2OXdIUnhUVlpOSGJzdy1pYmZMVm9ZbDhIR0VTclFHQnpWenJfMzN3cEtxSkJTd245WDVwcmluYm1INUFhbTlPX1J2R2U4NWY3bGZnSTNiNTZyaGQtZnJSYWpZTUZ5Z2JMT0VDQnZEVXF5VDNIV1NwMVAydU1zdk05X1hqMnc5UktfMkpkZGtZaFBXbnFqTXdZQnpSNHo1c2ktR3poZ1Zo?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "How did hantavirus cruise ship outbreak start? What we know - USA Today",
+      "t": "2026-05-11T17:09:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOd25tZ1VidURWLVVZd2c4Zk0zSUZUUkdpWlVMQ2lteUtIX3JlanJGamZMb3ZuV3YzWV9mbFI4SHh2aW1UcjluNmNldDFFM2pSOVpCR1AySnZSS3M2dkNkbmRwSzhNanVhRmg3d0JicmtXY2M2RGI0cy1UNzdyQXNlekVWaWMtU2pPb0p5Y0ExRE9TVmZxSDJWRmNrLWxlcmlwcDNmMGgwZVo4WXpqaWFVdEhYbnVIa2JmY2FKQjJGaUFPYnl1?oc=5"
     },
     {
       "iso": "FRA",
@@ -4161,20 +4168,6 @@
     },
     {
       "iso": "FRA",
-      "title": "Tras nuevos casos de hantavirus: Francia, Australia y Reino Unido activaron aislamientos - Elonce.com",
-      "t": "2026-05-11T11:49:48Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOVo5dGNodmt1MTlrTVpwQ25SX1lWX2FxSjAzUDk2VDhfOXgxYURFcmljNk9TQWNhV2hGdk9Qbk85ZEh1MzVKUThHRVMtV0ZiTzczOXRoSkFwUFRVUHQ3TDlNdVdLNEtZQjNMclFyemhvc2NrbkFTdTJPc0pDUnJDaGx6ZGMxN2toSzZDRmJhbTZyUjVSOWFHSjFsRVJFaVBSelNQRTByZDY2N2dJbm9IaElsMldQU29OaVlPbEEtdUhXNjZUQi1zaNIBuAFBVV95cUxNRTNLSDZkbXVMU09vb1lraVFMQktWdGdqdTktdDU3TDM1UmFwM3BpX3hSUUo0SUdONEdGaHpNTGFPYW1RZW5CRTZRXzl2S0duZ2tSOVZ1WjA2VTRyd1YwcHp0RTR5T0NfVDRLOWh2V1ZJb1A0bGdfTDhmbVR1bHVIOEszM2ZZUUY3NXJXaTFwby1hWFZ5OVJzLVpvUEx2MWJ2MDZVNTl6a2hRb29IelFtczFublJma0JH?oc=5"
-    },
-    {
-      "iso": "GBR",
-      "title": "Tras nuevos casos de hantavirus: Francia, Australia y Reino Unido activaron aislamientos - Elonce.com",
-      "t": "2026-05-11T11:49:48Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOVo5dGNodmt1MTlrTVpwQ25SX1lWX2FxSjAzUDk2VDhfOXgxYURFcmljNk9TQWNhV2hGdk9Qbk85ZEh1MzVKUThHRVMtV0ZiTzczOXRoSkFwUFRVUHQ3TDlNdVdLNEtZQjNMclFyemhvc2NrbkFTdTJPc0pDUnJDaGx6ZGMxN2toSzZDRmJhbTZyUjVSOWFHSjFsRVJFaVBSelNQRTByZDY2N2dJbm9IaElsMldQU29OaVlPbEEtdUhXNjZUQi1zaNIBuAFBVV95cUxNRTNLSDZkbXVMU09vb1lraVFMQktWdGdqdTktdDU3TDM1UmFwM3BpX3hSUUo0SUdONEdGaHpNTGFPYW1RZW5CRTZRXzl2S0duZ2tSOVZ1WjA2VTRyd1YwcHp0RTR5T0NfVDRLOWh2V1ZJb1A0bGdfTDhmbVR1bHVIOEszM2ZZUUY3NXJXaTFwby1hWFZ5OVJzLVpvUEx2MWJ2MDZVNTl6a2hRb29IelFtczFublJma0JH?oc=5"
-    },
-    {
-      "iso": "FRA",
       "title": "Hantavirus: Francia confirma un positivo entre sus repatriados y EE.UU. traslada a dos pasajeros bajo medidas especiales - Gaceta M\u00e9dica",
       "t": "2026-05-11T08:42:28Z",
       "source": "GoogleNews-ES",
@@ -4186,13 +4179,6 @@
       "t": "2026-05-11T08:08:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ01oeXNpS0pjaE5GSUlTNXNyQjQ1a1NiZ25UNVdVaVV3UFp0d2FkOU1KS3FNbmt5TExlVzJiY1ZMWmlYejBTYndieEJGZklDNGlOUkIxMHhvdERBX25NdTFVZkJQWGZoczZfNlZlaElydXRsSklKYjB4QUU4VkxBX1M3TEpVNHI2TzRCT1FLNW5qTV9jYzl0X3B1c3lHclpQXy1JVmpsYllrZjlFMlpOakdTRVhSNkw5RHY00gHWAUFVX3lxTE0yUlczbjUxUWJsaTRqQ3FINlRoUFZhS0ZHLTduRmQ4T1o2Mk9VMTJ5MnNLZGpYT0RBUzBHa1RDVmJ0aFA4SlRheHJlNTJhT1V4OVpZMlBpRzJXZ3hhbE1GTjVoZGpxUnR5dTd2RDVfSUplT2FnVmh0ejNKaEFyLVNTbFEwTWNfT3F2SVdwTl9Yd0E5UENXTldxc0dKM3p4RnM2T0dNU1F1ZTk2cE8ydTlFX2o2azB2WHJ4Z3pQNXdGVDJXTkppZUJDNkhUYTVSNEE5QThCMEE?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Francia y EE. UU. confirman casos positivos de hantavirus - DW.com",
-      "t": "2026-05-11T08:03:08Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSzR4UWdtUlh1NnZJQ1ppdnQyN1FaLS1Nai1pTW9EVHp4M0VhalhmNGdEazRqZ181a0tlS0o4Nm5LS3lIYVk5MjhQRUQ0b2plY3UybFprUE54Rk9BbXFrejNiZUZWaFUyNkluclRFS0JROVJPWlBsZTZmR2RRVzBIbVNrMmFtQmY2TS1CMdIBjAFBVV95cUxPRC13V1Y2a0Y5X25RcUFQZnFoU1U1RGQ1X0I3US01YUpvWDhUcDlOQjF3NjVuR3E2WjlvYUV5Z0tCSVh6QmRId1R5TjdZdi1Oc2wxaDBCazlrX2hsY0ZxVEtQaGZmUXROaF9OZ0VLcU9GcFE3ZERaTDVzSU1TMEhEZndBb2VzLWw2YlUzWQ?oc=5"
     },
     {
       "iso": "FRA",
@@ -4253,9 +4239,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T17:40:16Z",
-      "signals": 11,
+      "last_update": "2026-05-11T17:45:14Z",
+      "signals": 12,
       "recent": [
+        {
+          "title": "How did hantavirus cruise ship outbreak start? What we know - USA Today",
+          "t": "2026-05-11T17:09:00Z",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOd25tZ1VidURWLVVZd2c4Zk0zSUZUUkdpWlVMQ2lteUtIX3JlanJGamZMb3ZuV3YzWV9mbFI4SHh2aW1UcjluNmNldDFFM2pSOVpCR1AySnZSS3M2dkNkbmRwSzhNanVhRmg3d0JicmtXY2M2RGI0cy1UNzdyQXNlekVWaWMtU2pPb0p5Y0ExRE9TVmZxSDJWRmNrLWxlcmlwcDNmMGgwZVo4WXpqaWFVdEhYbnVIa2JmY2FKQjJGaUFPYnl1?oc=5"
+        },
         {
           "title": "What comes next for US and Canada passengers evacuated from hantavirus-hit cruise ship - BBC",
           "t": "2026-05-11T15:07:17Z",
@@ -4275,11 +4266,6 @@
           "title": "Alerta extrema en Europa: Francia confirm\u00f3 un caso de hantavirus y pasajeros del crucero aislados - MDZ Online",
           "t": "2026-05-11T13:40:00Z",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSHktcXlodTdleDExT1E1QkxwaEdUcEpoOTk4Q2FHczNid2IwWnBMN01lcGhEMkJYb1AwMHJuX0dZcGNMai1DcWFRSHRnSkFFRVA0MnBBRnpWWlhjd2ZPUEg3Y05ONjRHckU0Z29MckdYc2ltd2tLMEtXYllUd2NnNUUxLXZ1UndBaEd2NnU3ZHJQZ241SGt1b0cwN2pYY2dxdHBidEJxYzJMOVpxbEpVdGNYZXdWdkxsUHUxY25jZkhScjN2RXfSAcsBQVVfeXFMTjFrdjVPTkVBYVl0djY2N3ZsNXkwcmRHdU13dlBka2tXTmp5MGhMLVJKOEhhWjlidVItTTFJUGJYUVdrNFNIOW1qcEE3LWpxY00zLXhZQ0RmV3UzSWlzcnBHUTR6aVRRUHprNHBWUG8tVkNpVUcyMVJfd0I3ZTdDNVczSk91aVNBX25ycF9rRm1xbzF2SW80eEpKaERRMjc4VnRTRmp6dnFUc3lkVGd4OXgwSU02UFdjUXo4eXgwTVBKa1RXU21ZTHQ4MFk?oc=5"
-        },
-        {
-          "title": "El brote de hantavirus del crucero MV Hondius se expande: casos confirmados en Francia, Australia y Reino Unido - 11Noticias",
-          "t": "2026-05-11T12:05:57Z",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQcEFhdDVzUlUtb1VGOTBCVUdJOExQLUQ1eHhnSXpfb0RSY1pqd0ZkRVdaMEljaXNMM0pFcEFRTkFsNU5hSWdEWFNHb0tOakdVbnhNNFk3aUlINnRIY0hjNUxveDZRNTFaOGw5Z3JlTTNiVmwwNzN0RXUtS0JWc1M5TGlKekk5Vl85VWQ0NEJPY2hiWW1vd044TE5wb1RkZHBEQzZqNU5rWk1KeE9tdVlpeHQwOXRoblB6QVVIeVlwc244VnNZZGxDTnRzenZ4aFA4WTNMalBoYV9SWnJIel9JREFJUUdXcHNvSmdDZWp2dksyX3IzX1M1TWFmcHdDTFnSAYQCQVVfeXFMUGR4WW9XYlVYUEppTGRBeEtUZUxjX3Zab3QtS1J6dzJGX0ZrR0dpZ2c0cHI1bnNKQVNZZ290V0ZQSnNIZ2R1ZzZ3em9MVUs5OGJIejYwbDRySXNMN191RFJpQ1htWEl3dHZWNGxLbnUta211b0ZmVml1NE5sVjgycEc2b0pBMEJmNkpKVmt6ZXctVWhaZUt4SlJGeTExNUJqSVZkVzZGOGwwWU4zUF9tSEQwVnhaWXIwUVhzUDEzUFpQU0FwLXRmNDRMcHRVTkp6RC1TVzlHRFMtSDJ3RjFpUGRkeUQ0MkpuNmZTLTFBQ3ZuMGFKbFpSYjY2RmxwLWdjaXZZN3o?oc=5"
         }
       ]
     }
