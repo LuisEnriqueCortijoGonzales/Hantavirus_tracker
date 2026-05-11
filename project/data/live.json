@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T08:55:16.818325Z",
-  "next_update": "2026-05-11T09:00:00Z",
+  "generated": "2026-05-11T09:00:16.810549Z",
+  "next_update": "2026-05-11T09:05:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -533,14 +533,14 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2341,
+      "ytd": 2353,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 0,
       "strain": "hantaan",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "KOR": {
@@ -1336,20 +1336,20 @@
       23
     ],
     "CHN": [
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353
     ],
     "KOR": [
       89,
@@ -1401,7 +1401,6 @@
     "2026-05-11T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-09T09:00:00Z",
     "2026-05-09T10:00:00Z",
     "2026-05-09T11:00:00Z",
     "2026-05-09T12:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-11T05:00:00Z",
     "2026-05-11T06:00:00Z",
     "2026-05-11T07:00:00Z",
-    "2026-05-11T08:00:00Z"
+    "2026-05-11T08:00:00Z",
+    "2026-05-11T09:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -3852,54 +3852,54 @@
       23
     ],
     "CHN": [
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341,
-      2341
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353,
+      2353
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 22,
+    "kalshi": 25,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,22 +4020,30 @@
   "signal_summary": {
     "FRA": 7,
     "ARG": 14,
-    "USA": 4
+    "USA": 4,
+    "CHN": 1
   },
   "events": [
+    {
+      "iso": "CHN",
+      "title": "More passengers from Hantavirus-hit cruise ship test positive - South China Morning Post",
+      "t": "2026-05-11T08:47:20Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZTZSWVRXRFM0b3JhR0N2ellnYjZKY0JIWGUtc01xMnhmWTc4UG5ia25fZ0QwZEVMSWpIT2VIZmo3QlhwcGlrRlpOZHpsbjN1cmVjbUZ2dFJ3UGc5czN3Rl9RZ0JYUnlSOTRzSmt5ZElkZzdFOWxaS0VnZUxreXIteE8tM3NkaVQ2bGJMVExUNzdVLXFTVG1nRV9RZmdPZUg3aUlJYWREMVgwV1pRaG93adIBsAFBVV95cUxOQm1fQ1NVb1RrRVh3UGxKT2VVTld1dmlMWTJWaGJqRlNzaURjNUFLSG15SERUVkVuTW9sZnZMb2tLTlhCR1ctMm1RYng0Mzl0SXdwdWdTTF80NEE5aDBaSDZMS2UybkxuMjJLLVF3bTFiQ1Fyenpkc21uUWJyUlVDY2FWSW82Wk9Wc2RHMkF2SElSMHFXVm14S21jSlJmMVJmSk1LckNHbUxfSnZCNlZGNQ?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Francia confirma un positivo de hantavirus entre los repatriados del crucero - Infobae",
+      "t": "2026-05-11T08:08:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ01oeXNpS0pjaE5GSUlTNXNyQjQ1a1NiZ25UNVdVaVV3UFp0d2FkOU1KS3FNbmt5TExlVzJiY1ZMWmlYejBTYndieEJGZklDNGlOUkIxMHhvdERBX25NdTFVZkJQWGZoczZfNlZlaElydXRsSklKYjB4QUU4VkxBX1M3TEpVNHI2TzRCT1FLNW5qTV9jYzl0X3B1c3lHclpQXy1JVmpsYllrZjlFMlpOakdTRVhSNkw5RHY00gHWAUFVX3lxTE0yUlczbjUxUWJsaTRqQ3FINlRoUFZhS0ZHLTduRmQ4T1o2Mk9VMTJ5MnNLZGpYT0RBUzBHa1RDVmJ0aFA4SlRheHJlNTJhT1V4OVpZMlBpRzJXZ3hhbE1GTjVoZGpxUnR5dTd2RDVfSUplT2FnVmh0ejNKaEFyLVNTbFEwTWNfT3F2SVdwTl9Yd0E5UENXTldxc0dKM3p4RnM2T0dNU1F1ZTk2cE8ydTlFX2o2azB2WHJ4Z3pQNXdGVDJXTkppZUJDNkhUYTVSNEE5QThCMEE?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "Francia confirma primer caso positivo de hantavirus - DW.com",
       "t": "2026-05-11T08:03:08Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSzR4UWdtUlh1NnZJQ1ppdnQyN1FaLS1Nai1pTW9EVHp4M0VhalhmNGdEazRqZ181a0tlS0o4Nm5LS3lIYVk5MjhQRUQ0b2plY3UybFprUE54Rk9BbXFrejNiZUZWaFUyNkluclRFS0JROVJPWlBsZTZmR2RRVzBIbVNrMmFtQmY2TS1CMdIBjAFBVV95cUxPRC13V1Y2a0Y5X25RcUFQZnFoU1U1RGQ1X0I3US01YUpvWDhUcDlOQjF3NjVuR3E2WjlvYUV5Z0tCSVh6QmRId1R5TjdZdi1Oc2wxaDBCazlrX2hsY0ZxVEtQaGZmUXROaF9OZ0VLcU9GcFE3ZERaTDVzSU1TMEhEZndBb2VzLWw2YlUzWQ?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Francia confirma un positivo de hantavirus entre los repatriados del crucero - Infobae",
-      "t": "2026-05-11T07:19:10Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ01oeXNpS0pjaE5GSUlTNXNyQjQ1a1NiZ25UNVdVaVV3UFp0d2FkOU1KS3FNbmt5TExlVzJiY1ZMWmlYejBTYndieEJGZklDNGlOUkIxMHhvdERBX25NdTFVZkJQWGZoczZfNlZlaElydXRsSklKYjB4QUU4VkxBX1M3TEpVNHI2TzRCT1FLNW5qTV9jYzl0X3B1c3lHclpQXy1JVmpsYllrZjlFMlpOakdTRVhSNkw5RHY00gHWAUFVX3lxTE0yUlczbjUxUWJsaTRqQ3FINlRoUFZhS0ZHLTduRmQ4T1o2Mk9VMTJ5MnNLZGpYT0RBUzBHa1RDVmJ0aFA4SlRheHJlNTJhT1V4OVpZMlBpRzJXZ3hhbE1GTjVoZGpxUnR5dTd2RDVfSUplT2FnVmh0ejNKaEFyLVNTbFEwTWNfT3F2SVdwTl9Yd0E5UENXTldxc0dKM3p4RnM2T0dNU1F1ZTk2cE8ydTlFX2o2azB2WHJ4Z3pQNXdGVDJXTkppZUJDNkhUYTVSNEE5QThCMEE?oc=5"
     },
     {
       "iso": "USA",
@@ -4215,12 +4223,12 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T08:55:16Z",
-      "signals": 13,
+      "last_update": "2026-05-11T09:00:16Z",
+      "signals": 14,
       "recent": [
         {
           "title": "Francia confirma un positivo de hantavirus entre los repatriados del crucero - Infobae",
-          "t": "2026-05-11T07:19:10Z",
+          "t": "2026-05-11T08:08:00Z",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ01oeXNpS0pjaE5GSUlTNXNyQjQ1a1NiZ25UNVdVaVV3UFp0d2FkOU1KS3FNbmt5TExlVzJiY1ZMWmlYejBTYndieEJGZklDNGlOUkIxMHhvdERBX25NdTFVZkJQWGZoczZfNlZlaElydXRsSklKYjB4QUU4VkxBX1M3TEpVNHI2TzRCT1FLNW5qTV9jYzl0X3B1c3lHclpQXy1JVmpsYllrZjlFMlpOakdTRVhSNkw5RHY00gHWAUFVX3lxTE0yUlczbjUxUWJsaTRqQ3FINlRoUFZhS0ZHLTduRmQ4T1o2Mk9VMTJ5MnNLZGpYT0RBUzBHa1RDVmJ0aFA4SlRheHJlNTJhT1V4OVpZMlBpRzJXZ3hhbE1GTjVoZGpxUnR5dTd2RDVfSUplT2FnVmh0ejNKaEFyLVNTbFEwTWNfT3F2SVdwTl9Yd0E5UENXTldxc0dKM3p4RnM2T0dNU1F1ZTk2cE8ydTlFX2o2azB2WHJ4Z3pQNXdGVDJXTkppZUJDNkhUYTVSNEE5QThCMEE?oc=5"
         },
         {
