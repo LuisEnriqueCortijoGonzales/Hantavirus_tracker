@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T06:25:16.815733Z",
-  "next_update": "2026-05-11T06:30:00Z",
+  "generated": "2026-05-11T06:30:16.803382Z",
+  "next_update": "2026-05-11T06:35:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,10 +4019,17 @@
   },
   "signal_summary": {
     "ARG": 16,
-    "USA": 2,
+    "USA": 3,
     "FRA": 5
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "Hantavirus, \u00faltima hora | Estados Unidos confirma un \"positivo leve\" y un caso con s\u00edntomas entre sus repatriados del MV Hondius - Gaceta de salud",
+      "t": "2026-05-11T06:22:13Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxQRG1JWjNPaUktS3JQbTVENVVOR0pCNm4wSzRYY3B3MjQycVhRdzBYMUlKTTgtX3k3bkEtTURQLXhUVDVWSk41b1ROb1VFbUVPMDZnZjdRS1ZaSm5fZVJZQ0s3LUd6TXh3aUtKdUxmSkZNY2dxWE9nb2c2UDFBRDlLRkRBenJxNGVMSVJKU2RqTDlJeDZIdkxpcmxta2IzZG9MdWRIWlZlUVRna2RmbE12MmYyUUxzc0ZrMzdSRnZkS0ZDOTFBcHdiN3V6VUl5RFU4SlRnd3BWV0dwSW5SY2E4N0E1ZnMxYXhEZDVPZl9sVF9iMkRXTmlnMTRlcUVfUjgwNnlKbDFwSkFlc2VlLVFqYzFvSVB2RTBBTzhrWWl0NTAyUQ?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Un pasajero de Estados Unidos evacuado del crucero afectado por hantavirus dio positivo - TN",
@@ -4201,7 +4208,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T06:25:16Z",
+      "last_update": "2026-05-11T06:30:16Z",
       "signals": 12,
       "recent": [
         {
