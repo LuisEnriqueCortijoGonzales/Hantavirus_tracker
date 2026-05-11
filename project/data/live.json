@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T19:45:15.077175Z",
-  "next_update": "2026-05-11T19:50:00Z",
+  "generated": "2026-05-11T19:50:16.803434Z",
+  "next_update": "2026-05-11T19:55:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 69,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 3,
+      "var_pct": 2,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 6,
+      "signals": 5,
       "gov_alert": false
     },
     "CHL": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 1,
+      "var_pct": 2,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 4,
       "gov_alert": false
     },
     "PRY": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 21,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,9 +4019,9 @@
   },
   "signal_summary": {
     "CAN": 1,
-    "USA": 3,
+    "USA": 4,
     "FRA": 10,
-    "ARG": 6,
+    "ARG": 5,
     "GBR": 2,
     "MEX": 1,
     "CHL": 1,
@@ -4064,13 +4064,6 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaVN5WG41SC0yYXBGNF9MbGNQT3plOGtkY0VEeE1KdGlkUV9OOVZGMmFCYmFtV3hqTlB3R1JLR04xWFFDTXJFSmxXd2ZfeUhvVjV1NUcyR0RSdm9XeTBqclBDLTdVUXVlN3c1WW9FMTkxdHhWOHhlaVUyNS03aDA0OEJBVnA2c3JjVllvUV9MdU1yaWJQTnpuSHpYSUczYm5lS2VjVmpVOUVkSmhzU0hLVTZ4OGN0VTVyVUZqa0hHU0Y3eEk4RVJiNkxzUGt3MmhWLVlvV0VNYnE?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "Argentina descarta que Ushuaia, ciudad de Tierra de Fuego de la que parti\u00f3 el crucero, sea el origen del brote de hantavirus - El Peri\u00f3dico",
-      "t": "2026-05-11T15:59:57Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWHBMQkx5Wk1ac0pJNkdFX3BqUzBreU9TaGNrMmprNmVxc3ZDbVV2TEw3YmdUd2pqZ0lMVTltZFBIaGxnUkhrUjZjQkMxaHhrTVEtLVYtaDlXMEhqQUFxRmIyR3FOeXRFbENEbkJyVXdXOXpPZFczMk5wU2JYT1MxWDNFSDB4RjFFc0I1ZmpzNXhXVHd1cFJpSkVKSEtTWXl1TlNCdEhsNzNjUXp1MW4wcVlwYklpY3dva2lpcFpueUZTamcxNGdZNk43cDhHcnJJOW530gHTAUFVX3lxTE1SaVN2bWNaaE9RNkw4VE1ZaGp2Q3l6YVFHNElNeEZ4dzZwZk5USDU3cHFpcXprdGFEMlJ6cUxzZkRFdUtOUlZzMVp6cjJDVU5kYnlmY2RrYWROY2tiZVNBMGY4ZnRGN2NXUFdONXFsQ1kxdUNoY2xnMGx3N3J3dllIb3ZtSEx5UndQb0h2YVpYVW1Va3lpcGQ5MUtwMmg2ZUVoRnVyOFhxQU41VElxcW9kR1d0ZHpMS1hmR1kxQWtDN2o0ckZXVWoxbDc0bWxubzhBeDQ?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Europa en alerta tras un caso confirmado de hantavirus en Francia - Diario Huarpe",
       "t": "2026-05-11T15:42:09Z",
@@ -4097,6 +4090,13 @@
       "t": "2026-05-11T14:54:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS3R3bXdhdDhKcThHMTl0cUNSaEp4YkhsQVNzMlRneXlZdm40TzZaQ291aml6al9YeGpPV2htTUx0bkN3QWZXUHJHblktaEIyVXY5aE9seFZCd3dBa3dQYWRGN0p6bndGenJGLUotWmlnNkdZRS1adFhSekZKemlzQ1NfeXN4b2pWcDdnMmIwTnNocnM2VmV5U0xFY1lxa2d4NlBxSkFQUEI2MWQzNlY4a2ZpZTRNYkhCaWxSaXoyQy0tbGdWSGdNYklrRV9tMUXSAdQBQVVfeXFMTUF2Sjc5SkFMWXVCdXlIZGlIamNTS09qa29ueTgta1JBbE5Oc2VtOEpLdXpNdDJJUG5MbGhZVXAyRllaX1RVTGVyR2xacDFDQnZOY3BaTXBXWlozV1hUd2JzMjdWU3l2bklBbXhvcl9UWVpYOTZXM25LWXdYeURFZG9mZ0J4djI1WXdkMWNSOWwtdVI0bVdfRVA0b1VYS1FPNGNPdHZiU090dnRNZHhlRndKcDZFUldpUGJnY0NYWlZVUEMzcmpIeHBva0pWOWo1R2UzV3k?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Hantavirus cruise patients are in America. How contagious? Symptoms - Florida Today",
+      "t": "2026-05-11T14:33:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbHpIeFZEc0hwTEJ2eTZoNUtiYlNLdlhEU05sMDhfZkNCdk1zdm9qN0FFS2FWNTUtMDBadk9XQlAyV3NhTzE4MFBLZHA3RkkyUWZ6TDkyNGx5V2YyU0M1YVVFTE5GNXFBaDl1UC02bzZmY0NJLTc1MW5kSVE0T0ZUYV9fSUpZelV1VWdFaVlFMHF4eFhFYUFjc055ckNIT083TVhFOEpJQWdGMktOcE96Q2dUWUF2NEYydTFNZ2hfWVN1b1k4bkFTd05JNmIta0th?oc=5"
     },
     {
       "iso": "FRA",
@@ -4220,8 +4220,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T19:45:15Z",
-      "signals": 11,
+      "last_update": "2026-05-11T19:50:16Z",
+      "signals": 10,
       "recent": [
         {
           "title": "What comes next for US and Canada passengers evacuated from hantavirus-hit cruise ship - BBC",
