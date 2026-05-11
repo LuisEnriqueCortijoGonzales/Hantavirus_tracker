@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T16:40:14.806521Z",
-  "next_update": "2026-05-11T16:45:00Z",
+  "generated": "2026-05-11T16:45:15.040947Z",
+  "next_update": "2026-05-11T16:50:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 5,
+      "var_pct": 6,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 11,
+      "signals": 12,
       "gov_alert": false
     },
     "CHE": {
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 19,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 3,
     "CAN": 1,
-    "FRA": 11,
+    "FRA": 12,
     "ARG": 9,
     "GBR": 3,
     "MEX": 1
@@ -4036,7 +4036,7 @@
     {
       "iso": "FRA",
       "title": "Europa en alerta tras un caso confirmado de hantavirus en Francia - Diario Huarpe",
-      "t": "2026-05-11T15:36:56Z",
+      "t": "2026-05-11T15:42:09Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLTNPT3VtanpNX09EVDBET1U0eHJJT1dOS0U0WkVMMEtlN0o3QjJUS3dLdTIzREFvSnVheUJxdndBbHZZQWtZZm92Z1JNQWw4ZF9IWVUzVlo3T3BBRDNNRm1DZkRhUVdxdW5YeldhVzJMZFhqeE5NRndYNFlta3MxYVZ3dDdSanVrNFlvck1RZldLQ1RTUEhhb0FJYV9wdndNRjlGMkVR?oc=5"
     },
@@ -4168,6 +4168,13 @@
     },
     {
       "iso": "FRA",
+      "title": "Francia confirma un positivo de hantavirus entre los repatriados del crucero - Infobae",
+      "t": "2026-05-11T08:08:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ01oeXNpS0pjaE5GSUlTNXNyQjQ1a1NiZ25UNVdVaVV3UFp0d2FkOU1KS3FNbmt5TExlVzJiY1ZMWmlYejBTYndieEJGZklDNGlOUkIxMHhvdERBX25NdTFVZkJQWGZoczZfNlZlaElydXRsSklKYjB4QUU4VkxBX1M3TEpVNHI2TzRCT1FLNW5qTV9jYzl0X3B1c3lHclpQXy1JVmpsYllrZjlFMlpOakdTRVhSNkw5RHY00gHWAUFVX3lxTE0yUlczbjUxUWJsaTRqQ3FINlRoUFZhS0ZHLTduRmQ4T1o2Mk9VMTJ5MnNLZGpYT0RBUzBHa1RDVmJ0aFA4SlRheHJlNTJhT1V4OVpZMlBpRzJXZ3hhbE1GTjVoZGpxUnR5dTd2RDVfSUplT2FnVmh0ejNKaEFyLVNTbFEwTWNfT3F2SVdwTl9Yd0E5UENXTldxc0dKM3p4RnM2T0dNU1F1ZTk2cE8ydTlFX2o2azB2WHJ4Z3pQNXdGVDJXTkppZUJDNkhUYTVSNEE5QThCMEE?oc=5"
+    },
+    {
+      "iso": "FRA",
       "title": "Francia y EE. UU. confirman casos positivos de hantavirus - DW.com",
       "t": "2026-05-11T08:03:08Z",
       "source": "GoogleNews-ES",
@@ -4239,8 +4246,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T16:40:14Z",
-      "signals": 10,
+      "last_update": "2026-05-11T16:45:15Z",
+      "signals": 11,
       "recent": [
         {
           "title": "What comes next for US and Canada passengers evacuated from hantavirus-hit cruise ship - BBC",
@@ -4253,6 +4260,11 @@
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcTBCajE4c1RGMGZaTEl5bFo0VTVjaThrLXF6OUV3Wk8yYnc2R2VjZ05KdEJJSTZyeFoxa2phblNSNnRxZ0xwTThKUy13aDV6ekJBaE9QeWY2a2F6UGV3a20xWTZFUk9YRVUwZi1ZYnF0dTZRejltZjZEVWd0bVhoWTN0cG81dkZGTXZVNVJabVZ1LW9uQVltU2xEcW5ranRzaHBYeGNkLWJxTFpPMDBNMFhYM0tmQ2d6TWU2ZlJIN2pHLVVrR1lRMEE3ejlWWjhSaTV6cFhhUzAwQjhhbi13?oc=5"
         },
         {
+          "title": "Francia confirma un positivo de hantavirus entre los repatriados del crucero - Infobae",
+          "t": "2026-05-11T08:08:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ01oeXNpS0pjaE5GSUlTNXNyQjQ1a1NiZ25UNVdVaVV3UFp0d2FkOU1KS3FNbmt5TExlVzJiY1ZMWmlYejBTYndieEJGZklDNGlOUkIxMHhvdERBX25NdTFVZkJQWGZoczZfNlZlaElydXRsSklKYjB4QUU4VkxBX1M3TEpVNHI2TzRCT1FLNW5qTV9jYzl0X3B1c3lHclpQXy1JVmpsYllrZjlFMlpOakdTRVhSNkw5RHY00gHWAUFVX3lxTE0yUlczbjUxUWJsaTRqQ3FINlRoUFZhS0ZHLTduRmQ4T1o2Mk9VMTJ5MnNLZGpYT0RBUzBHa1RDVmJ0aFA4SlRheHJlNTJhT1V4OVpZMlBpRzJXZ3hhbE1GTjVoZGpxUnR5dTd2RDVfSUplT2FnVmh0ejNKaEFyLVNTbFEwTWNfT3F2SVdwTl9Yd0E5UENXTldxc0dKM3p4RnM2T0dNU1F1ZTk2cE8ydTlFX2o2azB2WHJ4Z3pQNXdGVDJXTkppZUJDNkhUYTVSNEE5QThCMEE?oc=5"
+        },
+        {
           "title": "Alerta extrema en Europa: Francia confirm\u00f3 un caso de hantavirus y pasajeros del crucero aislados - MDZ Online",
           "t": "2026-05-11T13:40:00Z",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSHktcXlodTdleDExT1E1QkxwaEdUcEpoOTk4Q2FHczNid2IwWnBMN01lcGhEMkJYb1AwMHJuX0dZcGNMai1DcWFRSHRnSkFFRVA0MnBBRnpWWlhjd2ZPUEg3Y05ONjRHckU0Z29MckdYc2ltd2tLMEtXYllUd2NnNUUxLXZ1UndBaEd2NnU3ZHJQZ241SGt1b0cwN2pYY2dxdHBidEJxYzJMOVpxbEpVdGNYZXdWdkxsUHUxY25jZkhScjN2RXfSAcsBQVVfeXFMTjFrdjVPTkVBYVl0djY2N3ZsNXkwcmRHdU13dlBka2tXTmp5MGhMLVJKOEhhWjlidVItTTFJUGJYUVdrNFNIOW1qcEE3LWpxY00zLXhZQ0RmV3UzSWlzcnBHUTR6aVRRUHprNHBWUG8tVkNpVUcyMVJfd0I3ZTdDNVczSk91aVNBX25ycF9rRm1xbzF2SW80eEpKaERRMjc4VnRTRmp6dnFUc3lkVGd4OXgwSU02UFdjUXo4eXgwTVBKa1RXU21ZTHQ4MFk?oc=5"
@@ -4261,11 +4273,6 @@
           "title": "El brote de hantavirus del crucero MV Hondius se expande: casos confirmados en Francia, Australia y Reino Unido - 11Noticias",
           "t": "2026-05-11T12:05:57Z",
           "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQcEFhdDVzUlUtb1VGOTBCVUdJOExQLUQ1eHhnSXpfb0RSY1pqd0ZkRVdaMEljaXNMM0pFcEFRTkFsNU5hSWdEWFNHb0tOakdVbnhNNFk3aUlINnRIY0hjNUxveDZRNTFaOGw5Z3JlTTNiVmwwNzN0RXUtS0JWc1M5TGlKekk5Vl85VWQ0NEJPY2hiWW1vd044TE5wb1RkZHBEQzZqNU5rWk1KeE9tdVlpeHQwOXRoblB6QVVIeVlwc244VnNZZGxDTnRzenZ4aFA4WTNMalBoYV9SWnJIel9JREFJUUdXcHNvSmdDZWp2dksyX3IzX1M1TWFmcHdDTFnSAYQCQVVfeXFMUGR4WW9XYlVYUEppTGRBeEtUZUxjX3Zab3QtS1J6dzJGX0ZrR0dpZ2c0cHI1bnNKQVNZZ290V0ZQSnNIZ2R1ZzZ3em9MVUs5OGJIejYwbDRySXNMN191RFJpQ1htWEl3dHZWNGxLbnUta211b0ZmVml1NE5sVjgycEc2b0pBMEJmNkpKVmt6ZXctVWhaZUt4SlJGeTExNUJqSVZkVzZGOGwwWU4zUF9tSEQwVnhaWXIwUVhzUDEzUFpQU0FwLXRmNDRMcHRVTkp6RC1TVzlHRFMtSDJ3RjFpUGRkeUQ0MkpuNmZTLTFBQ3ZuMGFKbFpSYjY2RmxwLWdjaXZZN3o?oc=5"
-        },
-        {
-          "title": "\"No es justo que esto afecte a Tierra del Fuego\": c\u00f3mo vive la provincia argentina desde donde zarp\u00f3 el crucero la crisis por el hantavirus que alerta a Europa - BBC",
-          "t": "2026-05-10T17:36:03Z",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
         }
       ]
     }
