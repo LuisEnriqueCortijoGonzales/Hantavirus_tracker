@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T19:40:14.839644Z",
-  "next_update": "2026-05-11T19:45:00Z",
+  "generated": "2026-05-11T19:45:15.077175Z",
+  "next_update": "2026-05-11T19:50:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 23,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "CAN": 1,
-    "USA": 2,
+    "USA": 3,
     "FRA": 10,
     "ARG": 6,
     "GBR": 2,
@@ -4034,6 +4034,13 @@
       "t": "2026-05-11T19:36:38Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOODFYbDl2WG9LWGF1cExRakk3d1d5Z3VIa3JJeVJLQjM0Y0lMSEVFTzNjNTVIRjgyZFg1U0dzdTZlbUFMQVI5ODRUSlhsMTdaSjFwUGN4dkRSUzJvSXhWbmVQcVBPWE8xdVFpR2xreXJUZXNjRjBjU180WmZ6b05tcjBKa24xNUtqVDBfaDNjVThzY1p6Rkg3SWRIVFpxWUZMWVFDbURCOFVHVnpiQkJhRUhaSnV6ekd1X2N3c2tHVEhMQkZ5VFYyYXpFbVgtdWVuMHNBWg?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "How many states are monitoring hantavirus exposures? See map - USA Today",
+      "t": "2026-05-11T19:22:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQclBIUHZVcXJVVXhJdXdmTkF1MU9yYVNQMmI5QmUzQzNWTDlUc2c3ekRzQmpsYVhMLXF0Y1hrRUZaZlM4RGpVWEFEN2VEcnNfdVNsNUNlYThrbktwWjd2OFc2MlZTbVBFRlU2czY2N1hicTdCbFJldnFQYmc5MFVPNEQtYzN0US1hOGhzSHo4dVBZUFpSeDVlaWRzSDUtM2JVNGc?oc=5"
     },
     {
       "iso": "FRA",
@@ -4213,7 +4220,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T19:40:14Z",
+      "last_update": "2026-05-11T19:45:15Z",
       "signals": 11,
       "recent": [
         {
