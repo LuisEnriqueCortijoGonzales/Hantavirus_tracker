@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T07:00:16.823323Z",
-  "next_update": "2026-05-11T07:05:00Z",
+  "generated": "2026-05-11T07:05:16.799063Z",
+  "next_update": "2026-05-11T07:10:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 2,
+      "var_pct": 3,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 5,
+      "signals": 6,
       "gov_alert": false
     },
     "CHE": {
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 19,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,9 +4020,16 @@
   "signal_summary": {
     "ARG": 16,
     "USA": 3,
-    "FRA": 5
+    "FRA": 6
   },
   "events": [
+    {
+      "iso": "FRA",
+      "title": "French evacuee from hantavirus-hit ship tests positive, health minister says - France 24",
+      "t": "2026-05-11T06:45:27Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdkpQemowaUFLdEUtRmwzc1JHbWlsbm02b1ZSMXg3V2RMV1BwS3FJcGt4aks0c2VVUDZxd3J6YzN3eDRjdG9xcFhXR2ZEM0MwdlZFVlNsUlEtQmdZMl9jajRjYjFMRTJkZUtkN01qMTQ0eGNDcmNtblduRWR5TmZnSzlkbnU1VXBNcWp3VVM0aWVhdXVxTDFnM0FOV191dUZLQTNPTGFmSm1LNXZDUzNJQkhPa0tHZTNJNWhF?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Hantavirus, \u00faltima hora | Estados Unidos confirma un \"positivo leve\" y un caso con s\u00edntomas entre sus repatriados del MV Hondius - Gaceta de salud",
@@ -4208,7 +4215,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T07:00:16Z",
+      "last_update": "2026-05-11T07:05:16Z",
       "signals": 12,
       "recent": [
         {
