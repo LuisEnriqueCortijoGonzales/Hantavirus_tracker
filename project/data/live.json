@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-11T13:55:08.409525Z",
-  "next_update": "2026-05-11T14:00:00Z",
+  "generated": "2026-05-11T14:00:14.879296Z",
+  "next_update": "2026-05-11T14:05:00Z",
   "days_active": 3,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -1401,7 +1401,6 @@
     "2026-05-11T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-09T14:00:00Z",
     "2026-05-09T15:00:00Z",
     "2026-05-09T16:00:00Z",
     "2026-05-09T17:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-11T10:00:00Z",
     "2026-05-11T11:00:00Z",
     "2026-05-11T12:00:00Z",
-    "2026-05-11T13:00:00Z"
+    "2026-05-11T13:00:00Z",
+    "2026-05-11T14:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 24,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4030,7 +4030,7 @@
       "title": "Estados Unidos confirma un positivo por hantavirus entre los 17 estadounidenses repatriados desde el crucero MV Hondius - Infobae",
       "t": "2026-05-11T13:49:55Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNOW9SVUZ5VUpia1Q1bUpMVExhSVlZX3dsSWNrU1VMYlgzWm9XX1NiUXRzZk96VWxGWlR3UTF2a0w1bVBVVVI5dTZmM3ktWlJ0RElpNHlzNnZxbWQ2TW1YY2NmUFpfM1pLVm1WZm50NFd2MjUyLUdvX3ZfOTBkSlpLaXh2bWFHZ2M3SnRjQ3E4bmxfZGx5NHF1UkhUYXZRamlnLWtZTHl4QnVmVWVhUnJwQ2ozOVhIQnFqOGhuY3FGczZoUm1XRkJrQno0TW92Q3lLZ0VYZXBBRWFabEJSX3NwMDRTbktWV0tPYTVCSDBwaDI1ZFI1cjNFblR6WkVncXfSAZoCQVVfeXFMTTZpbzVHQUdlWTYyWWhwNWRmSXJvdkE5TEdfVzBQa0Z6NTl5TjJSNjFDWU1INk40dDlwOEdYNXVIakx2bEhjTkhQNGktbExmSE1DWHE2a282cVFvRzBKOTNOcGwxMnFHckJlTWhya1E3UHRXQmNWcXZYN3FOd0pQR1RCQ1RSMWNPaDYxc2hyMVBXRWZreXNsRk9oMDBWYWdhZzhSYlZheXVrSDdraGwzcW5DSTI2Mmp3THRvQ25pOWtPZW1PVHlxQVdicmlETmZ0dm9oOGRQdFNSV2NTUlNHOUlsbU00ZmpQM1BWV3VlMnplQlo4YnpfYWd3T2hDaFgxY1JubHV1cmNNZ2F3c21ySUN6RHRsU1VtTnVR?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNOW9SVUZ5VUpia1Q1bUpMVExhSVlZX3dsSWNrU1VMYlgzWm9XX1NiUXRzZk96VWxGWlR3UTF2a0w1bVBVVVI5dTZmM3ktWlJ0RElpNHlzNnZxbWQ2TW1YY2NmUFpfM1pLVm1WZm50NFd2MjUyLUdvX3ZfOTBkSlpLaXh2bWFHZ2M3SnRjQ3E4bmxfZGx5NHF1UkhUYXZRamlnLWtZTHl4QnVmVWVhUnJwQ2ozOVhIQnFqOGhuY3FGczZoUm1XRkJrQno0TW92Q3lLZ0VYZXBBRWFabEJSX3NwMDRTbktWV0tPYTVCSDBwaDI1ZFI1cjNFblR6WkVncXc?oc=5"
     },
     {
       "iso": "FRA",
@@ -4224,13 +4224,13 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-11T13:55:08Z",
+      "last_update": "2026-05-11T14:00:14Z",
       "signals": 12,
       "recent": [
         {
           "title": "Estados Unidos confirma un positivo por hantavirus entre los 17 estadounidenses repatriados desde el crucero MV Hondius - Infobae",
           "t": "2026-05-11T13:49:55Z",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNOW9SVUZ5VUpia1Q1bUpMVExhSVlZX3dsSWNrU1VMYlgzWm9XX1NiUXRzZk96VWxGWlR3UTF2a0w1bVBVVVI5dTZmM3ktWlJ0RElpNHlzNnZxbWQ2TW1YY2NmUFpfM1pLVm1WZm50NFd2MjUyLUdvX3ZfOTBkSlpLaXh2bWFHZ2M3SnRjQ3E4bmxfZGx5NHF1UkhUYXZRamlnLWtZTHl4QnVmVWVhUnJwQ2ozOVhIQnFqOGhuY3FGczZoUm1XRkJrQno0TW92Q3lLZ0VYZXBBRWFabEJSX3NwMDRTbktWV0tPYTVCSDBwaDI1ZFI1cjNFblR6WkVncXfSAZoCQVVfeXFMTTZpbzVHQUdlWTYyWWhwNWRmSXJvdkE5TEdfVzBQa0Z6NTl5TjJSNjFDWU1INk40dDlwOEdYNXVIakx2bEhjTkhQNGktbExmSE1DWHE2a282cVFvRzBKOTNOcGwxMnFHckJlTWhya1E3UHRXQmNWcXZYN3FOd0pQR1RCQ1RSMWNPaDYxc2hyMVBXRWZreXNsRk9oMDBWYWdhZzhSYlZheXVrSDdraGwzcW5DSTI2Mmp3THRvQ25pOWtPZW1PVHlxQVdicmlETmZ0dm9oOGRQdFNSV2NTUlNHOUlsbU00ZmpQM1BWV3VlMnplQlo4YnpfYWd3T2hDaFgxY1JubHV1cmNNZ2F3c21ySUN6RHRsU1VtTnVR?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNOW9SVUZ5VUpia1Q1bUpMVExhSVlZX3dsSWNrU1VMYlgzWm9XX1NiUXRzZk96VWxGWlR3UTF2a0w1bVBVVVI5dTZmM3ktWlJ0RElpNHlzNnZxbWQ2TW1YY2NmUFpfM1pLVm1WZm50NFd2MjUyLUdvX3ZfOTBkSlpLaXh2bWFHZ2M3SnRjQ3E4bmxfZGx5NHF1UkhUYXZRamlnLWtZTHl4QnVmVWVhUnJwQ2ozOVhIQnFqOGhuY3FGczZoUm1XRkJrQno0TW92Q3lLZ0VYZXBBRWFabEJSX3NwMDRTbktWV0tPYTVCSDBwaDI1ZFI1cjNFblR6WkVncXc?oc=5"
         },
         {
           "title": "Un pasajero de Estados Unidos evacuado del crucero afectado por hantavirus dio positivo - TN",
