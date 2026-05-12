@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T16:10:16.807984Z",
-  "next_update": "2026-05-12T16:15:00Z",
+  "generated": "2026-05-12T16:15:14.906018Z",
+  "next_update": "2026-05-12T16:20:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 5,
+      "signals": 4,
       "gov_alert": false
     },
     "PRY": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 16,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "USA": 5,
+    "USA": 4,
     "CAN": 1,
     "FRA": 1,
     "ARG": 5
@@ -4081,13 +4081,6 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lWDIzcjV5WHlZZzFES0ZWSkY1ajVlUlFwaUxJZHdGb1RGcnhmcG5UWF9WbTJ1amYxTks3aHk1eDZBd2E2ZEpIQW8zbWl4aS1PM1Rvb2xSbFh1dw?oc=5"
     },
     {
-      "iso": "USA",
-      "title": "Inside America\u2019s Only Federal Quarantine Unit for Hantavirus Cruise Passengers - Time Magazine",
-      "t": "2026-05-11T20:52:45Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMVp0cjQ1aWJ6OVg0OXAzMlcxSFZXbHlocFdLcXdsZUNMRXhoQ25ZTjBtMno1YWltLVRHUHlCTUVBanQ0aDgtc0N5bkg4Sk5jdDg3WkthS0hmS1hkZkJ5Q0lDbWZIamRabFBGRE9LNkVyeERjZWNvblJ0XzRvekJrZGtlbTNkNDhKWTZWSXkwbDVaeDdhNGlTSmhvTHA?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "Brote de hantavirus en Argentina: tres muertes y vigilancia internacional en cruceros - Perfil",
       "t": "2026-05-11T14:54:00Z",
@@ -4125,7 +4118,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T16:10:16Z",
+      "last_update": "2026-05-12T16:15:14Z",
       "signals": 5,
       "recent": [
         {
