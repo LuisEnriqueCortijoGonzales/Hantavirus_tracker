@@ -650,47 +650,148 @@ function MapView({ ds, topo, theme, step, filterSet, hovered, setHovered,
               );
             })}
 
-            {/* ── Eventos marítimos (cruceros en seguimiento) ─────────── */}
+            {/* ── Focos de brote — círculos proporcionales ────────────── */}
+            {(() => {
+              const clusters   = window.OUTBREAK_CLUSTERS || [];
+              const casosVals  = window.DATASETS.casos.values;
+              const alertaVals = window.DATASETS.alerta.values;
+              const lang       = (window.getLang && window.getLang()) || 'es';
+              const COLORS     = { emergencia:'#cc2222', brote:'#e05a1a', vigilancia:'#d49a28', endemico:'#3a9a56' };
+              const maxCases   = Math.max(1, ...clusters.map(c =>
+                Math.round((casosVals[c.iso]?.current ?? 0) * c.pct)));
+              return clusters.map(cl => {
+                const pt     = projection([cl.lng, cl.lat]);
+                if (!pt || isNaN(pt[0])) return null;
+                const [x, y] = pt;
+                const total  = casosVals[cl.iso]?.current ?? 0;
+                const cases  = Math.round(total * cl.pct);
+                if (cases === 0) return null;
+                const status  = alertaVals[cl.iso]?.current ?? 'endemico';
+                const color   = COLORS[status] || '#3a9a56';
+                const isPulse = status === 'emergencia' || status === 'brote';
+                const r       = Math.max(4, Math.min(26, Math.sqrt(cases / maxCases) * 26));
+                const pulseR  = r + 10;
+                const label   = lang === 'en' ? cl.label_en : cl.label_es;
+                return (
+                  <g key={cl.id} style={{ cursor: 'pointer' }}
+                     onMouseMove={e => {
+                       const wrap = wrapperRef.current.getBoundingClientRect();
+                       setHovered({ iso: cl.iso, name: nameOf(cl.iso),
+                         cluster: { label, cases, status, strain: cl.strain },
+                         x: e.clientX - wrap.left, y: e.clientY - wrap.top });
+                     }}
+                     onMouseLeave={() => setHovered(null)}
+                     onClick={() => handleClick(cl.iso)}>
+                    {isPulse && (
+                      <circle cx={x} cy={y} r={r} fill={color} opacity={0}>
+                        <animate attributeName="r" values={`${r};${pulseR};${r}`} dur="2.6s" repeatCount="indefinite"/>
+                        <animate attributeName="opacity" values="0.55;0;0.55" dur="2.6s" repeatCount="indefinite"/>
+                      </circle>
+                    )}
+                    <circle cx={x} cy={y} r={r}
+                      fill={color} fillOpacity={isPulse ? 0.62 : 0.42}
+                      stroke={color} strokeOpacity={0.9} strokeWidth={isPulse ? 1.6 : 1}/>
+                    {r >= 11 && (
+                      <text x={x} y={y + 3.5} textAnchor="middle"
+                        fontSize={r >= 18 ? 9 : 7}
+                        fill="white" fontWeight="700" pointerEvents="none">
+                        {cases >= 1000 ? `${(cases/1000).toFixed(1)}k` : cases}
+                      </text>
+                    )}
+                  </g>
+                );
+              });
+            })()}
+
+            {/* ── Ruta del crucero (línea de trayectoria) ──────────────── */}
+            {(window.LIVE_DATA?.maritime_events || []).map(ev => {
+              const MC = { quarantine:'#7c3aed', approaching:'#2563eb', diverted:'#9333ea', docked:'#0369a1', cleared:'#0891b2' };
+              const color = MC[ev.status] || '#7c3aed';
+              const wps = ev.waypoints || [];
+              if (wps.length < 2) return null;
+              const now = Date.now();
+              const pts = wps.map(wp => ({ t: new Date(wp.t).getTime(), pt: projection([wp.lng, wp.lat]) }))
+                            .filter(w => w.pt && !isNaN(w.pt[0]));
+              if (pts.length < 2) return null;
+              const fullD = pts.map((w, i) => `${i===0?'M':'L'}${w.pt[0].toFixed(1)},${w.pt[1].toFixed(1)}`).join('');
+              const traveled = pts.filter(w => w.t <= now);
+              const curPt = projection([ev.lng, ev.lat]);
+              const travelD = traveled.length > 0
+                ? traveled.map((w, i) => `${i===0?'M':'L'}${w.pt[0].toFixed(1)},${w.pt[1].toFixed(1)}`).join('')
+                  + (curPt && !isNaN(curPt[0]) ? ` L${curPt[0].toFixed(1)},${curPt[1].toFixed(1)}` : '')
+                : null;
+              return (
+                <g key={`route-${ev.id}`} pointerEvents="none">
+                  <path d={fullD} fill="none" stroke={color} strokeWidth="1" strokeOpacity="0.2" strokeDasharray="4 5"/>
+                  {travelD && <path d={travelD} fill="none" stroke={color} strokeWidth="2" strokeOpacity="0.65"/>}
+                  <circle cx={pts[0].pt[0]} cy={pts[0].pt[1]} r={3} fill={color} fillOpacity={0.7}/>
+                </g>
+              );
+            })}
+
+            {/* ── Casos geolocalizados del crucero — puntos azules ─────── */}
+            {(window.LIVE_DATA?.maritime_events || []).flatMap(ev => {
+              const locs = ev.case_locations || [];
+              const lang = (window.getLang && window.getLang()) || 'es';
+              return locs.map((loc, i) => {
+                const pt = projection([loc.lng, loc.lat]);
+                if (!pt || isNaN(pt[0])) return null;
+                const [x, y] = pt;
+                const r = Math.max(5, Math.min(18, Math.sqrt(loc.cases) * 3.5));
+                const label = lang === 'en' ? (loc.label_en || loc.label) : (loc.label_es || loc.label);
+                return (
+                  <g key={`caseloc-${ev.id}-${i}`} style={{ cursor: 'pointer' }}
+                     onMouseMove={e => {
+                       const wrap = wrapperRef.current.getBoundingClientRect();
+                       setHovered({ iso: ev.id, name: ev.name,
+                         maritime: { ...ev, _caseLocLabel: label, _caseLocCount: loc.cases },
+                         x: e.clientX - wrap.left, y: e.clientY - wrap.top });
+                     }}
+                     onMouseLeave={() => setHovered(null)}>
+                    <circle cx={x} cy={y} r={r} fill="#2563eb" opacity={0}>
+                      <animate attributeName="r" values={`${r};${r+8};${r}`} dur="2.8s" repeatCount="indefinite"/>
+                      <animate attributeName="opacity" values="0.45;0;0.45" dur="2.8s" repeatCount="indefinite"/>
+                    </circle>
+                    <circle cx={x} cy={y} r={r} fill="#2563eb" fillOpacity="0.72" stroke="#93c5fd" strokeWidth="1.2"/>
+                    <text x={x} y={y + 3.5} textAnchor="middle" fontSize={r >= 12 ? 8 : 7}
+                      fill="white" fontWeight="700" pointerEvents="none">{loc.cases}</text>
+                    <text x={x} y={y - r - 4} textAnchor="middle" fontSize="7.5"
+                      fill="#93c5fd" fontWeight="600" pointerEvents="none">{label}</text>
+                  </g>
+                );
+              });
+            })}
+
+            {/* ── Marcador del barco ───────────────────────────────────── */}
             {(window.LIVE_DATA?.maritime_events || []).map(ev => {
               const pt = projection([ev.lng, ev.lat]);
               if (!pt || isNaN(pt[0])) return null;
               const [x, y] = pt;
               const STATUS_COLOR = {
-                quarantine:  '#cc2222',
-                approaching: '#d49a28',
-                diverted:    '#e05a1a',
-                docked:      '#3a9a56',
-                cleared:     '#3a9a56',
+                quarantine:'#7c3aed', approaching:'#2563eb', diverted:'#9333ea',
+                docked:'#0369a1', cleared:'#0891b2',
               };
-              const color = STATUS_COLOR[ev.status] || '#888';
+              const color = STATUS_COLOR[ev.status] || '#7c3aed';
               return (
                 <g key={ev.id} className="maritime-marker" style={{ cursor: 'pointer' }}
                    onMouseMove={e => {
                      const wrap = wrapperRef.current.getBoundingClientRect();
-                     setHovered({
-                       iso: ev.id, name: `${ev.name} — ${ev.cases} ${window.t('maritime.cases')}`,
-                       maritime: ev,
-                       x: e.clientX - wrap.left, y: e.clientY - wrap.top,
-                     });
+                     setHovered({ iso: ev.id, name: `${ev.name} — ${ev.cases} ${window.t('maritime.cases')}`,
+                       maritime: ev, x: e.clientX - wrap.left, y: e.clientY - wrap.top });
                    }}
                    onMouseLeave={() => setHovered(null)}>
-                  {/* Pulso animado */}
-                  <circle cx={x} cy={y} r={6} fill={color} opacity={0.35}>
-                    <animate attributeName="r" values="6;14;6" dur="2.4s" repeatCount="indefinite"/>
-                    <animate attributeName="opacity" values="0.5;0;0.5" dur="2.4s" repeatCount="indefinite"/>
+                  <circle cx={x} cy={y} r={7} fill={color} opacity={0}>
+                    <animate attributeName="r" values="7;18;7" dur="2.4s" repeatCount="indefinite"/>
+                    <animate attributeName="opacity" values="0.55;0;0.55" dur="2.4s" repeatCount="indefinite"/>
                   </circle>
-                  {/* Punto central */}
-                  <circle cx={x} cy={y} r={4.5} fill={color}
-                    stroke="var(--paper)" strokeWidth="1.5"/>
-                  {/* Icono barco */}
-                  <text x={x} y={y + 2.5} textAnchor="middle" fontSize="6"
+                  <circle cx={x} cy={y} r={6} fill={color} stroke="var(--paper)" strokeWidth="1.5"/>
+                  <text x={x} y={y + 3} textAnchor="middle" fontSize="7"
                     fill="var(--paper)" fontWeight="900" pointerEvents="none">⚓</text>
-                  {/* Etiqueta */}
-                  <line x1={x} y1={y - 7} x2={x} y2={y - 22}
+                  <line x1={x} y1={y - 9} x2={x} y2={y - 24}
                     stroke={color} strokeWidth="1" strokeDasharray="2 2" pointerEvents="none"/>
-                  <text x={x} y={y - 26} textAnchor="middle" fontSize="9"
+                  <text x={x} y={y - 27} textAnchor="middle" fontSize="9"
                     fill={color} fontWeight="bold" pointerEvents="none">{ev.name}</text>
-                  <text x={x} y={y - 16} textAnchor="middle" fontSize="8"
+                  <text x={x} y={y - 17} textAnchor="middle" fontSize="8"
                     fill="var(--ink-dim)" pointerEvents="none">
                     {ev.cases} {window.t('maritime.cases.short')} · {ev.dest}
                   </text>
@@ -715,6 +816,29 @@ function MapView({ ds, topo, theme, step, filterSet, hovered, setHovered,
 // ============================================================================
 function Tooltip({ ds, hovered, step }) {
   if (!hovered) return null;
+
+  // Outbreak cluster tooltip
+  if (hovered.cluster) {
+    const cl   = hovered.cluster;
+    const lang = (window.getLang && window.getLang()) || 'es';
+    const COLORS = { emergencia:'#cc2222', brote:'#e05a1a', vigilancia:'#d49a28', endemico:'#3a9a56' };
+    const color  = COLORS[cl.status] || '#888';
+    const si     = cl.strain && window.STRAIN_INFO?.[cl.strain];
+    return (
+      <div className="tooltip" style={{ left: hovered.x + 18, top: hovered.y + 18 }}>
+        <div className="tt-row">
+          <span className="tt-swatch" style={{ color }}/>
+          <span className="tt-name">{hovered.name}</span>
+          <span className="tt-iso">{hovered.iso}</span>
+        </div>
+        <div className="tt-val" style={{ fontSize: 13, marginBottom: 2 }}>{cl.label}</div>
+        <div className="tt-extra" style={{ color }}>{window.t('cat.' + cl.status)}</div>
+        <div className="tt-extra">{cl.cases} {lang === 'en' ? 'cases' : 'casos'}</div>
+        {si && <div className="tt-strain" style={{ color: si.color }}>{si.badge} {window.strainL(si,'label')}</div>}
+        <div className="tt-hint">{window.t('tt.hint')}</div>
+      </div>
+    );
+  }
 
   // Maritime event tooltip (cruise / vessel)
   if (hovered.maritime) {

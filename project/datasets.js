@@ -206,6 +206,14 @@ const HANTA_COUNTRIES = {
   CHN: ['emergencia', 2341,  1.2,  +32, 96, 'hantaan'],
   KOR: ['vigilancia',    89,  1.5,  +18, 48, 'hantaan'],
   JPN: ['endemico',      12,  0.5,   +5, 22, 'hantaan'],
+  IND: ['vigilancia',    12,  3.0,  +18, 14, 'seoul'],
+  THA: ['endemico',       4,  2.0,   +5,  8, 'seoul'],
+  VNM: ['endemico',       6,  2.0,   +8, 10, 'hantaan'],
+  IDN: ['endemico',       3,  2.5,   +5,  7, 'seoul'],
+  // ── África — Seoul (distribución global por comercio portuario) ───────────
+  ZAF: ['vigilancia',     7,  5.0,  +25, 15, 'seoul'],
+  NGA: ['endemico',       2,  4.0,   +5,  6, 'seoul'],
+  TZA: ['endemico',       1,  5.0,   +2,  4, 'seoul'],
 };
 
 // Historia diaria específica para los principales focos de brote
@@ -475,10 +483,17 @@ window.STRAIN_INFO = {
   },
   hantaan: {
     badge: 'HFRS', color: '#b07820',
-    label_es: 'Hantaan/Seoul (HFRS)',
-    label_en: 'Hantaan/Seoul (HFRS)',
-    note_es:  'Fiebre hemorrágica con síndrome renal grave. CFR 1–5 %. NO pandémica.',
-    note_en:  'Severe hemorrhagic fever with renal syndrome. CFR 1–5 %. NOT pandemic.',
+    label_es: 'Hantaan (HFRS)',
+    label_en: 'Hantaan (HFRS)',
+    note_es:  'Fiebre hemorrágica con síndrome renal grave. Asia oriental. CFR 1–5 %. NO pandémica.',
+    note_en:  'Severe hemorrhagic fever with renal syndrome. East Asia. CFR 1–5 %. NOT pandemic.',
+  },
+  seoul: {
+    badge: 'HFRS-U', color: '#7c6a28',
+    label_es: 'Seoul (HFRS urbano)',
+    label_en: 'Seoul Virus (Urban HFRS)',
+    note_es:  'HFRS urbana asociada a ratas (Rattus norvegicus). CFR 1–3 %. Distribución global via comercio y puertos. NO pandémica.',
+    note_en:  'Urban HFRS linked to rats (Rattus norvegicus). CFR 1–3 %. Global spread via trade routes and ports. NOT pandemic.',
   },
 };
 
@@ -487,6 +502,62 @@ window.strainL = (si, field) => {
   const lang = (window.getLang && window.getLang()) || 'es';
   return si[`${field}_${lang}`] || si[`${field}_es`] || '';
 };
+
+// =============================================================================
+// Focos de brote geolocalizados (ArcGIS-style dots)
+// pct: fracción del total del país que representa este foco
+// =============================================================================
+window.OUTBREAK_CLUSTERS = [
+  // ── América del Sur ────────────────────────────────────────────────────────
+  { id:'arg-patagonia',  iso:'ARG', lng:-71.2, lat:-45.8, pct:0.45, strain:'andes',
+    label_es:'Patagonia',          label_en:'Patagonia' },
+  { id:'arg-bsas',       iso:'ARG', lng:-58.4, lat:-34.6, pct:0.30, strain:'andes',
+    label_es:'Buenos Aires',       label_en:'Buenos Aires' },
+  { id:'arg-neuquen',    iso:'ARG', lng:-68.1, lat:-38.9, pct:0.25, strain:'andes',
+    label_es:'Neuquén',            label_en:'Neuquén' },
+  { id:'chl-aysen',      iso:'CHL', lng:-72.0, lat:-45.6, pct:0.55, strain:'andes',
+    label_es:'Aysén',              label_en:'Aysén' },
+  { id:'chl-losrios',    iso:'CHL', lng:-72.8, lat:-39.8, pct:0.45, strain:'andes',
+    label_es:'Los Ríos',           label_en:'Los Ríos' },
+  { id:'bra-paranasul',  iso:'BRA', lng:-51.5, lat:-25.4, pct:0.40, strain:'hps',
+    label_es:'Paraná Sur',         label_en:'South Paraná' },
+  { id:'bra-santacata',  iso:'BRA', lng:-49.0, lat:-27.5, pct:0.35, strain:'hps',
+    label_es:'Santa Catarina',     label_en:'Santa Catarina' },
+  { id:'usa-southwest',  iso:'USA', lng:-108.5, lat:36.5, pct:0.60, strain:'hps',
+    label_es:'Suroeste EEUU',      label_en:'US Southwest' },
+  // ── Europa ─────────────────────────────────────────────────────────────────
+  { id:'fin-central',    iso:'FIN', lng:25.5,  lat:62.0,  pct:0.65, strain:'puumala',
+    label_es:'Finlandia Central',  label_en:'Central Finland' },
+  { id:'deu-bawue',      iso:'DEU', lng:9.1,   lat:48.4,  pct:0.50, strain:'puumala',
+    label_es:'Baden-Württemberg',  label_en:'Baden-Württemberg' },
+  { id:'deu-nrw',        iso:'DEU', lng:7.2,   lat:51.2,  pct:0.30, strain:'puumala',
+    label_es:'NRW Alemania',       label_en:'NRW Germany' },
+  { id:'swe-norrland',   iso:'SWE', lng:17.5,  lat:63.8,  pct:0.60, strain:'puumala',
+    label_es:'Norrland',           label_en:'Norrland' },
+  { id:'rou-dobruja',    iso:'ROU', lng:28.2,  lat:44.5,  pct:0.55, strain:'dobrava',
+    label_es:'Dobrogea',           label_en:'Dobruja' },
+  // ── Europa oriental / Rusia ────────────────────────────────────────────────
+  { id:'rus-volga',      iso:'RUS', lng:49.5,  lat:55.8,  pct:0.35, strain:'puumala',
+    label_es:'Región del Volga',   label_en:'Volga Region' },
+  { id:'rus-siberia',    iso:'RUS', lng:82.9,  lat:55.0,  pct:0.25, strain:'puumala',
+    label_es:'Siberia Occidental', label_en:'W. Siberia' },
+  { id:'rus-ural',       iso:'RUS', lng:59.0,  lat:56.8,  pct:0.22, strain:'puumala',
+    label_es:'Urales',             label_en:'Urals' },
+  // ── Asia ───────────────────────────────────────────────────────────────────
+  { id:'chn-heilong',    iso:'CHN', lng:127.5, lat:47.8,  pct:0.40, strain:'hantaan',
+    label_es:'Heilongjiang',       label_en:'Heilongjiang' },
+  { id:'chn-jilin',      iso:'CHN', lng:125.3, lat:43.8,  pct:0.25, strain:'hantaan',
+    label_es:'Jilin',              label_en:'Jilin' },
+  { id:'chn-shaanxi',    iso:'CHN', lng:108.9, lat:34.3,  pct:0.20, strain:'hantaan',
+    label_es:'Shaanxi',            label_en:'Shaanxi' },
+  { id:'kor-seoul',      iso:'KOR', lng:126.9, lat:37.5,  pct:0.55, strain:'hantaan',
+    label_es:'Seúl / Gyeonggi',    label_en:'Seoul / Gyeonggi' },
+  // ── África / Sudáfrica ─────────────────────────────────────────────────────
+  { id:'zaf-joburg',     iso:'ZAF', lng:28.0,  lat:-26.2, pct:0.65, strain:'seoul',
+    label_es:'Johannesburgo',      label_en:'Johannesburg' },
+  { id:'zaf-durban',     iso:'ZAF', lng:31.0,  lat:-29.9, pct:0.35, strain:'seoul',
+    label_es:'Durban',             label_en:'Durban' },
+];
 
 // =============================================================================
 // Nombres de países (español)
