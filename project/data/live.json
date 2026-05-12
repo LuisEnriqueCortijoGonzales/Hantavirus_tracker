@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T23:30:16.773572Z",
-  "next_update": "2026-05-12T23:35:00Z",
+  "generated": "2026-05-12T23:35:16.807763Z",
+  "next_update": "2026-05-12T23:40:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 19,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4025,6 +4025,13 @@
     "BRA": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Ushuaia, la ciudad argentina que busca quitarse la etiqueta de \u201corigen\u201d del brote de hantavirus - laradiodelmercosur.com.ar",
+      "t": "2026-05-12T23:25:02Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNExDSlpMUjV3NVlGc0VuU1d6bXA2VHBsVUdzbi0yeFFENWE3c3hSSHBHV2FqVjFvdFQ2ZmpOMm1Fc3M3UkFnMXgtR1gzZUttZ2xsaTlpZXlqb1cwdGpWYVRqMnplQlFQelJkMWdtMjFrbFdLRnk3aFMwTnA2QnBTajkyTGZuZTg3NnNMWTdjTGtoUnVuTXAzQ2M1cG1QR21LN3JCVmxnVjE0QkhxTDg2VFItRjhvcXpNWko4b1FnNjhOUmRCQUhrN00zbkFGOW54RE9UOQ?oc=5"
+    },
     {
       "iso": "BRA",
       "title": "Alerta por hantavirus en el sur de Brasil: confirman una muerte y crece la preocupaci\u00f3n en zonas rurales cercanas a la frontera - Enfoque Misiones",
@@ -4118,13 +4125,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Nuevo caso de hantavirus en Espa\u00f1a: brote en crucero asciende a 11 afectados - Cadena 3 Argentina",
-      "t": "2026-05-12T10:58:03Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM2ZzNnNzMTE3WUtBTC1zMGJCRS1LdF9EeFBwWVdhVnhZMzlHNjhkUlBsSncwdklxYVcxWThHR3F6TWh1Q1pMeE9Ed1hTQjBTbkhCUDFKQXhDMUdMRV9WMDlDdnhpclZlVlgxMVl4dkxHM1ROMnhDM211cjFXRkNseDM1ODJLU3J0WkQ4algyOERXWEZCVGxLYzc1ZmlaZ0V4UmtDX25qWGNteGpGNWhoSjk2RngtVXo1TGUyedIBwgFBVV95cUxOZjZwOE9jeFdzeDEtVUVhZHZjZFIzZmRVZjd4YW9QUEVhY0dUSWRNc18wSk56ajdBTWFQbG41bFdTWjJ4NFpROXAxT3dpY3BDaGpKTjRBX1VzWEpxb0FoaU1Ma1lFeWRtUE5vdXBNcEVTcFp2TVlKVXZmR0FIRk1GS0RPUzZjbHFVZ1hyWnpjckRPMlpSa1Mtd2xQc2NWdDBIanFiSUtSeDhiQ2FxVkxfYThoX0pfZmhMRklrZDBLZTN1dw?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Brote de hantavirus en Argentina: tres muertes y vigilancia internacional en cruceros - Perfil",
       "t": "2026-05-11T14:54:00Z",
       "source": "GoogleNews-ES",
@@ -4154,8 +4154,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T23:30:16Z",
-      "signals": 6,
+      "last_update": "2026-05-12T23:35:16Z",
+      "signals": 5,
       "recent": [
         {
           "title": "Mapping the hantavirus outbreak as cruise ship passengers return to US - USA Today",
