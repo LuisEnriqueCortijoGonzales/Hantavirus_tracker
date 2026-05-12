@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T13:30:14.835822Z",
-  "next_update": "2026-05-12T13:35:00Z",
+  "generated": "2026-05-12T13:35:15.058008Z",
+  "next_update": "2026-05-12T13:40:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 9,
+      "signals": 8,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 19,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,11 +4020,18 @@
   "signal_summary": {
     "USA": 6,
     "CAN": 1,
-    "ARG": 9,
+    "ARG": 8,
     "CHN": 1,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "Hantavirus can have a long incubation period. Here's what that means - USA Today",
+      "t": "2026-05-12T13:13:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRjlqUjZxNFRmNWZSOHNTV3lwWE4yWDBEbDdodU5FalQ5NU5rN3NjUXN1dUtVYV9oYWxRRmJXcW1RM2kyQ0NtbDg2WFRpQks5ZDlqVVo5N2NHbXAyRHlNY3JMWG1tZzJoRkZ1RmRMeEJxX1V3bm1ldUJPTGx2bEJ6OGF2ZHFVcFFmd25LQVpxY3RKMzMyd0RrbVE0SEtyaEw4N3FCaFVEdHlndmU5Xzg2QUtWRlNOUQ?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Mapping the hantavirus outbreak as cruise ship passengers return to US - USA Today",
@@ -4089,13 +4096,6 @@
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbFhqSE5Kbld6UTN1MTVFUG00TVVlcmFrOXlWTm95ejdFc0JLb1U0WUtOLWNPeFZTM2ZCUTlIMXVCWVpud0FvQnl1UFFtYTVCel9aY0RRcXhOS3ByNm8xT1lKVnZBZnBBMy11QnRFekplSjBBTk1pci1xX0J3TFJ4aW5QRXlfb0hwWG1jWmVYTk0wd1RpRHE0LVhtZUZnQUwtNHJGdTBpNXdCR2diZ2k5WTd2Tlg4bkxfMDI2LUI3YXZ3cGg2ZFhHc0NLUGQwRm9xSUtqYVowc19XTnVJdWlSZUVFeHNScm5PNXFZ?oc=5"
     },
     {
-      "iso": "USA",
-      "title": "How long is hantavirus contagious? What to know about quarantine - USA Today",
-      "t": "2026-05-11T22:03:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRjlqUjZxNFRmNWZSOHNTV3lwWE4yWDBEbDdodU5FalQ5NU5rN3NjUXN1dUtVYV9oYWxRRmJXcW1RM2kyQ0NtbDg2WFRpQks5ZDlqVVo5N2NHbXAyRHlNY3JMWG1tZzJoRkZ1RmRMeEJxX1V3bm1ldUJPTGx2bEJ6OGF2ZHFVcFFmd25LQVpxY3RKMzMyd0RrbVE0SEtyaEw4N3FCaFVEdHlndmU5Xzg2QUtWRlNOUQ?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Directo a... Washington y el caso del estadounidense contagiado de hantavirus - France 24",
       "t": "2026-05-11T20:17:06Z",
@@ -4115,13 +4115,6 @@
       "t": "2026-05-10T17:36:03Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina investiga si el brote de hantavirus en el crucero MV Hondius se origin\u00f3 en la Patagonia - Perfil",
-      "t": "2026-05-09T18:19:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMHdscFdoMUZwQUFBUlNfZW9SQ1NQclNQMVZ0dkJHVVM2N01EdGVuNTZkeEVCcVJFRUZySE9XdjA0SEtVYjVRQ1NnOUlUTnprVXJtRzF5bE5LU3RiR1llQ0VtZlJFRERqVDdsV0tRSjgzNUROVTJlbUM2a0pyaHEyd3pMWGhBTjRsZ1g0MWlTUkhPZTY3NzdQZFJURXE3akJXUkVFdWdyMUhXR2hkem1RYVdpZklwai0xbFJQVktnZkprU1J6dGcyNm44V3ZFZ3BXX0t6Q19BLTjSAd4BQVVfeXFMUFFYX1pOdGViaUNuLTlNQkdfOHJZQ1FRS25aUEVvTlJNdklfaWhjTEpvdG13S0ZQcjMtdnJlMDhaNV9rbUltUkRqcnByUzRvRWZpcDFrNGRVOUlaZk15SmpvLXNtbkQ4cGZWcGVIbGI1WEVMS0RpSGhZQ0FGLVdMWURqdHVTZEVfLVc3cWl1aDNPbFlBYXRXVDFobVBCQUpzNVZMQ0F5RGVYaTJpNzl5RGtDM2NRS1F0dTI2WFk4eGNHUldJVXpiTzlUOFNJU0ZfVUNlWXpwQXNja1hZVVdR?oc=5"
     },
     {
       "iso": "ARG",
@@ -4168,8 +4161,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T13:30:14Z",
-      "signals": 8,
+      "last_update": "2026-05-12T13:35:15Z",
+      "signals": 7,
       "recent": [
         {
           "title": "Mapping the hantavirus outbreak as cruise ship passengers return to US - USA Today",
