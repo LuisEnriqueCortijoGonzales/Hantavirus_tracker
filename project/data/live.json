@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T05:20:16.786009Z",
-  "next_update": "2026-05-12T05:25:00Z",
+  "generated": "2026-05-12T05:25:16.814059Z",
+  "next_update": "2026-05-12T05:30:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 69,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 3,
+      "var_pct": 2,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 6,
+      "signals": 5,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 20,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "CAN": 1,
     "USA": 8,
-    "ARG": 6,
+    "ARG": 5,
     "FRA": 6,
     "MEX": 1,
     "GBR": 1
@@ -4154,7 +4154,7 @@
     },
     {
       "iso": "FRA",
-      "title": "EE.UU. y Francia confirman caso de contagio de hantavirus: van m\u00e1s de 10 pa\u00edses con infectados o sospechosos - es-us.noticias.yahoo.com",
+      "title": "EE.UU. y Francia confirman caso de contagio de hantavirus: van m\u00e1s de 10 pa\u00edses con infectados o sospechosos - Yahoo",
       "t": "2026-05-11T12:51:45Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUVV5d1EyNnl1U3p5dkdjSkYybXY1LUFkSHNpbEVGV2g1UWNreDVINkUtUUhOR2ZFaDhJRW1zbFkwMmdkWTNSc0ZxVnI0dGM0dGNSTmhydmxmeXB0cDdmdDE2MW9vMmg2aXRPaXZTYU1lWWhVWjh2aS1xdlZQMUIzX053?oc=5"
@@ -4172,13 +4172,6 @@
       "t": "2026-05-07T06:16:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
-      "t": "2026-05-06T15:29:33Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
     },
     {
       "iso": "ARG",
@@ -4204,8 +4197,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T05:20:16Z",
-      "signals": 10,
+      "last_update": "2026-05-12T05:25:16Z",
+      "signals": 9,
       "recent": [
         {
           "title": "What comes next for US and Canada passengers evacuated from hantavirus-hit cruise ship - BBC",
