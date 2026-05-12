@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T20:55:08.492018Z",
-  "next_update": "2026-05-12T21:00:00Z",
+  "generated": "2026-05-12T21:00:16.774013Z",
+  "next_update": "2026-05-12T21:05:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -1401,7 +1401,6 @@
     "2026-05-12T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-10T21:00:00Z",
     "2026-05-10T22:00:00Z",
     "2026-05-10T23:00:00Z",
     "2026-05-11T00:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-12T17:00:00Z",
     "2026-05-12T18:00:00Z",
     "2026-05-12T19:00:00Z",
-    "2026-05-12T20:00:00Z"
+    "2026-05-12T20:00:00Z",
+    "2026-05-12T21:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 21,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,8 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "USA": 2,
+    "GBR": 1,
+    "USA": 3,
     "FRA": 3,
     "ARG": 6
   },
@@ -4073,11 +4074,25 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSUlnMDNQRHFRZHAwYTUwbktFbXAzY2Q4eUp1eW8yMGlLUzBndFZ2Z2pnMUNYSnNDMmJFaHZLSUxQYS1yR3RwYzVNMkcyUklJcHp1d1AwVE5IZl9mQWdoMVNEUXlFN1BGRVBHeHhFYW9vd1NFd0paRUdzb3h0MjdRLXEyUGNpeHI1Z2d1RlFfUU9kb2JRY2FSV0d0dVppTmQ2VXJFajFJUXluZGVDQVktNjM5eTd5aUJjeFlrTw?oc=5"
     },
     {
+      "iso": "USA",
+      "title": "Is hantavirus spreading? We may know in 'next few days,' experts say - USA Today",
+      "t": "2026-05-12T13:27:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRjlqUjZxNFRmNWZSOHNTV3lwWE4yWDBEbDdodU5FalQ5NU5rN3NjUXN1dUtVYV9oYWxRRmJXcW1RM2kyQ0NtbDg2WFRpQks5ZDlqVVo5N2NHbXAyRHlNY3JMWG1tZzJoRkZ1RmRMeEJxX1V3bm1ldUJPTGx2bEJ6OGF2ZHFVcFFmd25LQVpxY3RKMzMyd0RrbVE0SEtyaEw4N3FCaFVEdHlndmU5Xzg2QUtWRlNOUQ?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "How a Small Argentina Town Handled Hantavirus Outbreak in 2018 - TODAY.com",
       "t": "2026-05-12T11:58:59Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUFhkVjJ3ZmhCeUFacmRzWlJQblE5U0NWTGZsaEh1U2hrNWJiTnJyaWlQZGFScG5zV0RVSmN3aXVrNXh3ckdOMklZX25oUkQwUG5qQkpIbzFyNlFQTVdoeWdFeFlDb28xdEMwRjVaN0lKb0F1NXozcVRqWTU5MzZURTlTRk1uRk9kZ2NGb2o4amdodl9mVUVQU2hwWXVQN18zQjBN?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "Hantavirus testing of UK passengers well under way, health officials say - BBC",
+      "t": "2026-05-12T11:06:27Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lOElMTl9EU0VYNFNNYnRiTlNQWjB1Ujdxc0VCNVUtNXFpUzNmVTJLaE01WnpUWFNOTEVPSlRMdk05ZVN0UHFFWXQ2c2xKal9JcmRFT3FWSVZLUQ?oc=5"
     },
     {
       "iso": "ARG",
@@ -4117,7 +4132,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T20:55:08Z",
+      "last_update": "2026-05-12T21:00:16Z",
       "signals": 5,
       "recent": [
         {
