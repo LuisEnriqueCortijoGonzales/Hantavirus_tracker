@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T16:40:10.429136Z",
-  "next_update": "2026-05-12T16:45:00Z",
+  "generated": "2026-05-12T16:45:10.591597Z",
+  "next_update": "2026-05-12T16:50:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 4,
+      "signals": 5,
       "gov_alert": false
     },
     "PRY": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GRC": {
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 17,
+    "kalshi": 15,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,8 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "GBR": 1,
-    "USA": 4,
+    "USA": 5,
     "CAN": 1,
     "FRA": 3,
     "ARG": 5
@@ -4075,13 +4074,6 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQclBIUHZVcXJVVXhJdXdmTkF1MU9yYVNQMmI5QmUzQzNWTDlUc2c3ekRzQmpsYVhMLXF0Y1hrRUZaZlM4RGpVWEFEN2VEcnNfdVNsNUNlYThrbktwWjd2OFc2MlZTbVBFRlU2czY2N1hicTdCbFJldnFQYmc5MFVPNEQtYzN0US1hOGhzSHo4dVBZUFpSeDVlaWRzSDUtM2JVNGc?oc=5"
     },
     {
-      "iso": "GBR",
-      "title": "Hantavirus testing of UK passengers well under way, health officials say - BBC",
-      "t": "2026-05-12T11:06:27Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lOElMTl9EU0VYNFNNYnRiTlNQWjB1Ujdxc0VCNVUtNXFpUzNmVTJLaE01WnpUWFNOTEVPSlRMdk05ZVN0UHFFWXQ2c2xKal9JcmRFT3FWSVZLUQ?oc=5"
-    },
-    {
       "iso": "USA",
       "title": "Daily Briefing: She narrowly survived hantavirus - USA Today",
       "t": "2026-05-12T11:03:00Z",
@@ -4108,6 +4100,13 @@
       "t": "2026-05-12T01:39:11Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lWDIzcjV5WHlZZzFES0ZWSkY1ajVlUlFwaUxJZHdGb1RGcnhmcG5UWF9WbTJ1amYxTks3aHk1eDZBd2E2ZEpIQW8zbWl4aS1PM1Rvb2xSbFh1dw?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Inside America\u2019s Only Federal Quarantine Unit for Hantavirus Cruise Passengers - Time Magazine",
+      "t": "2026-05-11T20:52:45Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMVp0cjQ1aWJ6OVg0OXAzMlcxSFZXbHlocFdLcXdsZUNMRXhoQ25ZTjBtMno1YWltLVRHUHlCTUVBanQ0aDgtc0N5bkg4Sk5jdDg3WkthS0hmS1hkZkJ5Q0lDbWZIamRabFBGRE9LNkVyeERjZWNvblJ0XzRvekJrZGtlbTNkNDhKWTZWSXkwbDVaeDdhNGlTSmhvTHA?oc=5"
     },
     {
       "iso": "ARG",
@@ -4140,7 +4139,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T16:40:10Z",
+      "last_update": "2026-05-12T16:45:10Z",
       "signals": 6,
       "recent": [
         {
