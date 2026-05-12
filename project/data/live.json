@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T19:40:16.797424Z",
-  "next_update": "2026-05-12T19:45:00Z",
+  "generated": "2026-05-12T19:45:14.895432Z",
+  "next_update": "2026-05-12T19:50:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 6,
+      "signals": 7,
       "gov_alert": false
     },
     "CHL": {
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 18,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "GBR": 1,
     "FRA": 3,
     "USA": 3,
-    "ARG": 6
+    "ARG": 7
   },
   "events": [
     {
@@ -4081,6 +4081,13 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQclBIUHZVcXJVVXhJdXdmTkF1MU9yYVNQMmI5QmUzQzNWTDlUc2c3ekRzQmpsYVhMLXF0Y1hrRUZaZlM4RGpVWEFEN2VEcnNfdVNsNUNlYThrbktwWjd2OFc2MlZTbVBFRlU2czY2N1hicTdCbFJldnFQYmc5MFVPNEQtYzN0US1hOGhzSHo4dVBZUFpSeDVlaWRzSDUtM2JVNGc?oc=5"
     },
     {
+      "iso": "ARG",
+      "title": "How a Small Argentina Town Handled Hantavirus Outbreak in 2018 - TODAY.com",
+      "t": "2026-05-12T11:58:59Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUFhkVjJ3ZmhCeUFacmRzWlJQblE5U0NWTGZsaEh1U2hrNWJiTnJyaWlQZGFScG5zV0RVSmN3aXVrNXh3ckdOMklZX25oUkQwUG5qQkpIbzFyNlFQTVdoeWdFeFlDb28xdEMwRjVaN0lKb0F1NXozcVRqWTU5MzZURTlTRk1uRk9kZ2NGb2o4amdodl9mVUVQU2hwWXVQN18zQjBN?oc=5"
+    },
+    {
       "iso": "GBR",
       "title": "Hantavirus testing of UK passengers well under way, health officials say - BBC",
       "t": "2026-05-12T11:06:27Z",
@@ -4132,7 +4139,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T19:40:16Z",
+      "last_update": "2026-05-12T19:45:14Z",
       "signals": 5,
       "recent": [
         {
