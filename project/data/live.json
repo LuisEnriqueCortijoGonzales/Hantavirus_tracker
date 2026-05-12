@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T11:25:16.837327Z",
-  "next_update": "2026-05-12T11:30:00Z",
+  "generated": "2026-05-12T11:30:14.965611Z",
+  "next_update": "2026-05-12T11:35:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 8,
+      "signals": 9,
       "gov_alert": false
     },
     "PRY": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 20,
+    "kalshi": 17,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,12 +4019,19 @@
   },
   "signal_summary": {
     "CAN": 1,
-    "USA": 8,
+    "USA": 9,
     "ARG": 8,
     "FRA": 3,
     "MEX": 1
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "She narrowly survived hantavirus - USA Today",
+      "t": "2026-05-12T11:00:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZUExN3U0azQtUHUxUklFWjkyN3B5VXJMWlE0RkQtNS1NQWxVWUFGWDZYNjVOY0VxV1hEYXEwcUlWTFNOZlRoLVZncEl3c2g0NG41c0JmaGhYRnJzZXRYemJveUd4b1luQ1FpcDN1R2lpaUYyYUEyQ2l6X25ibWM0dGNZcU9UMmVMWmRlaFNsYzFKdw?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Nuevo caso de hantavirus en Espa\u00f1a: brote en crucero asciende a 11 afectados - Cadena 3 Argentina",
@@ -4189,7 +4196,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T11:25:16Z",
+      "last_update": "2026-05-12T11:30:14Z",
       "signals": 10,
       "recent": [
         {
