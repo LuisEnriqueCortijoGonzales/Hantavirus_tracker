@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T19:45:14.895432Z",
-  "next_update": "2026-05-12T19:50:00Z",
+  "generated": "2026-05-12T19:50:16.811784Z",
+  "next_update": "2026-05-12T19:55:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 20,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4037,6 +4037,13 @@
       "t": "2026-05-12T18:02:35Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY2N5N2M3dWVhbDBhNWJTenlJdmdIbHB3M1NMdlBwbjJIRlBuaEFNSmlrYU9pQ2c1bHBFZVhIZ3dBc0FwRUZJYzQ2bmI4MmhLQlNXOENFT3RHcHF6UFJfSGU1OVNWYlQ5S3huV1FrMU53Tkx0S2U5dDZDeUN6UmcwQzB6ZV9MNTRIVVdicDBpSWdYemJtNHdfOHQzSURVS2lfTXZyTEgyWU90N09pTWFWU0lpa011S1phMHJDQlZPa3c?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Map shows which states are monitoring for hantavirus cases in the US - USA Today",
+      "t": "2026-05-12T16:48:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQclBIUHZVcXJVVXhJdXdmTkF1MU9yYVNQMmI5QmUzQzNWTDlUc2c3ekRzQmpsYVhMLXF0Y1hrRUZaZlM4RGpVWEFEN2VEcnNfdVNsNUNlYThrbktwWjd2OFc2MlZTbVBFRlU2czY2N1hicTdCbFJldnFQYmc5MFVPNEQtYzN0US1hOGhzSHo4dVBZUFpSeDVlaWRzSDUtM2JVNGc?oc=5"
     },
     {
       "iso": "ARG",
@@ -4072,13 +4079,6 @@
       "t": "2026-05-12T13:27:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRjlqUjZxNFRmNWZSOHNTV3lwWE4yWDBEbDdodU5FalQ5NU5rN3NjUXN1dUtVYV9oYWxRRmJXcW1RM2kyQ0NtbDg2WFRpQks5ZDlqVVo5N2NHbXAyRHlNY3JMWG1tZzJoRkZ1RmRMeEJxX1V3bm1ldUJPTGx2bEJ6OGF2ZHFVcFFmd25LQVpxY3RKMzMyd0RrbVE0SEtyaEw4N3FCaFVEdHlndmU5Xzg2QUtWRlNOUQ?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Map shows which states are monitoring for hantavirus cases in the US - USA Today",
-      "t": "2026-05-12T12:35:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQclBIUHZVcXJVVXhJdXdmTkF1MU9yYVNQMmI5QmUzQzNWTDlUc2c3ekRzQmpsYVhMLXF0Y1hrRUZaZlM4RGpVWEFEN2VEcnNfdVNsNUNlYThrbktwWjd2OFc2MlZTbVBFRlU2czY2N1hicTdCbFJldnFQYmc5MFVPNEQtYzN0US1hOGhzSHo4dVBZUFpSeDVlaWRzSDUtM2JVNGc?oc=5"
     },
     {
       "iso": "ARG",
@@ -4139,7 +4139,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T19:45:14Z",
+      "last_update": "2026-05-12T19:50:16Z",
       "signals": 5,
       "recent": [
         {
