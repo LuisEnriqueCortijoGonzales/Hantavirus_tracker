@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T05:25:16.814059Z",
-  "next_update": "2026-05-12T05:30:00Z",
+  "generated": "2026-05-12T05:30:16.763053Z",
+  "next_update": "2026-05-12T05:35:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 69,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 2,
+      "var_pct": 3,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 5,
+      "signals": 6,
       "gov_alert": false
     },
     "CHL": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 23,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "CAN": 1,
     "USA": 8,
-    "ARG": 5,
+    "ARG": 6,
     "FRA": 6,
     "MEX": 1,
     "GBR": 1
@@ -4175,6 +4175,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
+      "t": "2026-05-06T15:29:33Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Brote de hantavirus en un crucero que zarp\u00f3 desde Argentina: qu\u00e9 se sabe sobre la enfermedad y c\u00f3mo prevenirla - Chequeado",
       "t": "2026-05-06T04:21:57Z",
       "source": "GoogleNews-ES",
@@ -4197,8 +4204,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T05:25:16Z",
-      "signals": 9,
+      "last_update": "2026-05-12T05:30:16Z",
+      "signals": 10,
       "recent": [
         {
           "title": "What comes next for US and Canada passengers evacuated from hantavirus-hit cruise ship - BBC",
