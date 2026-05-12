@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T12:00:16.786456Z",
-  "next_update": "2026-05-12T12:05:00Z",
+  "generated": "2026-05-12T12:05:16.816096Z",
+  "next_update": "2026-05-12T12:10:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 19,
+    "kalshi": 16,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "CAN": 1,
     "USA": 9,
     "ARG": 8,
-    "FRA": 3,
+    "FRA": 2,
     "MEX": 1
   },
   "events": [
@@ -4041,13 +4041,6 @@
     },
     {
       "iso": "USA",
-      "title": "Americans monitored after return from hantavirus-stricken ship: Updates - USA Today",
-      "t": "2026-05-12T10:51:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaUs1S3ZnSURvOTVMak9Sbl9XZEszRVpabGRKWHAzbllTVUVRZXN6OVhRMzZ0NVFQazU3dnpWR3dqZFN5SHpnVFE0OGNwSUF3NFlRdEI4RnFRaEhYaF9raTdXTVI1cnVKWGRtOGxZZEtTWGk4bVZFMTlqNU1kVTM0ZmFyT21pZmR0RnZoZ3lPc2poNG4xUklSeXowMndpTi1XdEY4UlVn?oc=5"
-    },
-    {
-      "iso": "USA",
       "title": "Map shows which states are monitoring for hantavirus cases in the US - USA Today",
       "t": "2026-05-12T10:27:00Z",
       "source": "GoogleNews-EN",
@@ -4059,6 +4052,13 @@
       "t": "2026-05-12T01:39:11Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lWDIzcjV5WHlZZzFES0ZWSkY1ajVlUlFwaUxJZHdGb1RGcnhmcG5UWF9WbTJ1amYxTks3aHk1eDZBd2E2ZEpIQW8zbWl4aS1PM1Rvb2xSbFh1dw?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Daily Briefing: American positive for hantavirus - USA Today",
+      "t": "2026-05-12T00:51:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQkxqZWpuUXdsQVZZamZRTUFHa2g5WDRfTlVxUUxreDc0VnFrT2pQdzNtQUhITDltS3d3anlldjNlUmZUTWR1LUkwbUtobHFsNHhiclpiUG5XTVd4djRUTjhxMXMyOHVzZHRWc1p4SXFmcFhEMkY4dDlyNFljaThBckM3dmRKMmZUTDBuN3plLTBULWc?oc=5"
     },
     {
       "iso": "USA",
@@ -4108,13 +4108,6 @@
       "t": "2026-05-11T20:17:06Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUHhjdkpNSWN6d05lX2Q3TjFNZmQ4WUJpaERQRk1LaFQyZG5ZVUt4OFZPZmFSN2hSTXAtZW9xcTNuTzJDX1YxaXZpaW5JZHRZYzNqNUkxVkN1QjlWb043bUlIVUxkbnhEdXVwdE1UMlRkaEkxVmgweTh4a19uU3ZRT21vSVF0QWV3WU9keDFnSldURldyWFZRTURrS2JyTjRReVNUVHktMlE0XzRsVHEtR2M3SUMwTFRv?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Hantavirus en Epuy\u00e9n: brote de 2018 vuelve a poner en la mira la gesti\u00f3n y el aislamiento - France 24",
-      "t": "2026-05-11T16:02:10Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaVN5WG41SC0yYXBGNF9MbGNQT3plOGtkY0VEeE1KdGlkUV9OOVZGMmFCYmFtV3hqTlB3R1JLR04xWFFDTXJFSmxXd2ZfeUhvVjV1NUcyR0RSdm9XeTBqclBDLTdVUXVlN3c1WW9FMTkxdHhWOHhlaVUyNS03aDA0OEJBVnA2c3JjVllvUV9MdU1yaWJQTnpuSHpYSUczYm5lS2VjVmpVOUVkSmhzU0hLVTZ4OGN0VTVyVUZqa0hHU0Y3eEk4RVJiNkxzUGt3MmhWLVlvV0VNYnE?oc=5"
     },
     {
       "iso": "ARG",
@@ -4196,7 +4189,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T12:00:16Z",
+      "last_update": "2026-05-12T12:05:16Z",
       "signals": 10,
       "recent": [
         {
