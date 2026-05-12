@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T17:00:14.937569Z",
-  "next_update": "2026-05-12T17:05:00Z",
+  "generated": "2026-05-12T17:05:15.146927Z",
+  "next_update": "2026-05-12T17:10:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 20,
+    "kalshi": 17,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4024,6 +4024,13 @@
     "ARG": 4
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "Hantavirus patients being monitored at 2 facilities in United States - CBS News",
+      "t": "2026-05-12T16:22:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaWFoejFTbVFRTGZkNDFDY1llZm9raVY1WVVURHdDZ1RmVlNuazBWeFh2Z2RpWF9OVU55dGJnX3RrbTlBOEVDVmdBeXdsNGdjZ3BJTnR1NmtXd1VrdkF1Q0V2VDhPQl9JdkJaY1p5ejFQMWZxT05jWU1WRlJUQ2hHSXZfNEJBaWNtUVJUcnlJcm5GYzNlMVRJbDItYWhDS0tCR0xxQUYzNk9RUQ?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "Francia intensifica medidas tras caso de hantavirus vinculado al crucero MV Hondius - France 24",
@@ -4044,13 +4051,6 @@
       "t": "2026-05-12T14:11:54Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSUlnMDNQRHFRZHAwYTUwbktFbXAzY2Q4eUp1eW8yMGlLUzBndFZ2Z2pnMUNYSnNDMmJFaHZLSUxQYS1yR3RwYzVNMkcyUklJcHp1d1AwVE5IZl9mQWdoMVNEUXlFN1BGRVBHeHhFYW9vd1NFd0paRUdzb3h0MjdRLXEyUGNpeHI1Z2d1RlFfUU9kb2JRY2FSV0d0dVppTmQ2VXJFajFJUXluZGVDQVktNjM5eTd5aUJjeFlrTw?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Is hantavirus spreading? We may know in 'next few days,' experts say - USA Today",
-      "t": "2026-05-12T13:27:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRjlqUjZxNFRmNWZSOHNTV3lwWE4yWDBEbDdodU5FalQ5NU5rN3NjUXN1dUtVYV9oYWxRRmJXcW1RM2kyQ0NtbDg2WFRpQks5ZDlqVVo5N2NHbXAyRHlNY3JMWG1tZzJoRkZ1RmRMeEJxX1V3bm1ldUJPTGx2bEJ6OGF2ZHFVcFFmd25LQVpxY3RKMzMyd0RrbVE0SEtyaEw4N3FCaFVEdHlndmU5Xzg2QUtWRlNOUQ?oc=5"
     },
     {
       "iso": "FRA",
@@ -4132,7 +4132,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T17:00:14Z",
+      "last_update": "2026-05-12T17:05:15Z",
       "signals": 5,
       "recent": [
         {
