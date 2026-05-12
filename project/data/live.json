@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T21:45:14.989092Z",
-  "next_update": "2026-05-12T21:50:00Z",
+  "generated": "2026-05-12T21:50:15.187649Z",
+  "next_update": "2026-05-12T21:55:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 18,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,12 +4018,19 @@
     "outbreak_count": 7
   },
   "signal_summary": {
+    "USA": 3,
     "GBR": 1,
     "FRA": 4,
-    "USA": 3,
     "ARG": 7
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "Mapping the hantavirus outbreak as cruise ship passengers return to US - USA Today",
+      "t": "2026-05-12T21:23:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUTZJejhVcEFhWGtHamIyMzhhNnBGWVRXNzN0cUxoclVCc0VxbUhDbDZxa29pTU9pNTdBUEMxYlRoTVpOVWxmcWpwVHo5R0Rwa3hyYjRBY2NTN3FQT19qMGZjVF9FUFVkNnI3WTJBeS1mSlNGendfS3RvbDVNeTZJNUJtTUhfNHowN0tTdFlfT2pITXdVUkRrOG5KMGtIREhPcl9ETzZtdTY?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "La fiesta de 15 que desat\u00f3 EL PEOR BROTE DE HANTAVIRUS en Argentina: 34 casos y una tragedia que hoy vuelve a inquietar - El Destape",
@@ -4072,13 +4079,6 @@
       "t": "2026-05-12T14:50:12Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYWQ2RDlTTjg3OFhGVEgzN1B1RG5wLWdBTGpZT0R1emJ0MkFTV1kxTjRaYkF4YUZjUi1VZkM1SVcwQzZrV3d2N01IaEVJckNRNnFHMFNhWkF3TG1TUHlfREVCOHdrX0doSkZscXV6U1hPaXloa3ltZXNHbGE1TlY5bkRQLTBRdWVNcnl0TnJLMjNxTWRYNFBGRnNDOXA0RUdjZ1psNTBsMWdUVTY0NFE4ZDlWcXpfWUh1cTh4dUQydFVKT2k0?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Mapping the hantavirus outbreak as cruise ship passengers return to US - USA Today",
-      "t": "2026-05-12T14:21:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUTZJejhVcEFhWGtHamIyMzhhNnBGWVRXNzN0cUxoclVCc0VxbUhDbDZxa29pTU9pNTdBUEMxYlRoTVpOVWxmcWpwVHo5R0Rwa3hyYjRBY2NTN3FQT19qMGZjVF9FUFVkNnI3WTJBeS1mSlNGendfS3RvbDVNeTZJNUJtTUhfNHowN0tTdFlfT2pITXdVUkRrOG5KMGtIREhPcl9ETzZtdTY?oc=5"
     },
     {
       "iso": "FRA",
@@ -4146,18 +4146,18 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T21:45:14Z",
+      "last_update": "2026-05-12T21:50:15Z",
       "signals": 5,
       "recent": [
+        {
+          "title": "Mapping the hantavirus outbreak as cruise ship passengers return to US - USA Today",
+          "t": "2026-05-12T21:23:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUTZJejhVcEFhWGtHamIyMzhhNnBGWVRXNzN0cUxoclVCc0VxbUhDbDZxa29pTU9pNTdBUEMxYlRoTVpOVWxmcWpwVHo5R0Rwa3hyYjRBY2NTN3FQT19qMGZjVF9FUFVkNnI3WTJBeS1mSlNGendfS3RvbDVNeTZJNUJtTUhfNHowN0tTdFlfT2pITXdVUkRrOG5KMGtIREhPcl9ETzZtdTY?oc=5"
+        },
         {
           "title": "Francia intensifica medidas tras caso de hantavirus vinculado al crucero MV Hondius - France 24",
           "t": "2026-05-12T14:50:12Z",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYWQ2RDlTTjg3OFhGVEgzN1B1RG5wLWdBTGpZT0R1emJ0MkFTV1kxTjRaYkF4YUZjUi1VZkM1SVcwQzZrV3d2N01IaEVJckNRNnFHMFNhWkF3TG1TUHlfREVCOHdrX0doSkZscXV6U1hPaXloa3ltZXNHbGE1TlY5bkRQLTBRdWVNcnl0TnJLMjNxTWRYNFBGRnNDOXA0RUdjZ1psNTBsMWdUVTY0NFE4ZDlWcXpfWUh1cTh4dUQydFVKT2k0?oc=5"
-        },
-        {
-          "title": "Mapping the hantavirus outbreak as cruise ship passengers return to US - USA Today",
-          "t": "2026-05-12T14:21:00Z",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUTZJejhVcEFhWGtHamIyMzhhNnBGWVRXNzN0cUxoclVCc0VxbUhDbDZxa29pTU9pNTdBUEMxYlRoTVpOVWxmcWpwVHo5R0Rwa3hyYjRBY2NTN3FQT19qMGZjVF9FUFVkNnI3WTJBeS1mSlNGendfS3RvbDVNeTZJNUJtTUhfNHowN0tTdFlfT2pITXdVUkRrOG5KMGtIREhPcl9ETzZtdTY?oc=5"
         },
         {
           "title": "El director de la OMS no descarta m\u00e1s casos de hantavirus por el brote en el crucero que sali\u00f3 de Argentina - Diario El D\u00eda de La Plata",
