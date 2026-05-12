@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T01:30:16.801838Z",
-  "next_update": "2026-05-12T01:35:00Z",
+  "generated": "2026-05-12T01:35:16.806889Z",
+  "next_update": "2026-05-12T01:40:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 6,
+      "signals": 7,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 17,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 8,
     "CAN": 1,
-    "ARG": 6,
+    "ARG": 7,
     "FRA": 6,
     "MEX": 1,
     "GBR": 1
@@ -4104,6 +4104,13 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaVN5WG41SC0yYXBGNF9MbGNQT3plOGtkY0VEeE1KdGlkUV9OOVZGMmFCYmFtV3hqTlB3R1JLR04xWFFDTXJFSmxXd2ZfeUhvVjV1NUcyR0RSdm9XeTBqclBDLTdVUXVlN3c1WW9FMTkxdHhWOHhlaVUyNS03aDA0OEJBVnA2c3JjVllvUV9MdU1yaWJQTnpuSHpYSUczYm5lS2VjVmpVOUVkSmhzU0hLVTZ4OGN0VTVyVUZqa0hHU0Y3eEk4RVJiNkxzUGt3MmhWLVlvV0VNYnE?oc=5"
     },
     {
+      "iso": "FRA",
+      "title": "Europa en alerta tras un caso confirmado de hantavirus en Francia - Diario Huarpe",
+      "t": "2026-05-11T15:36:56Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLTNPT3VtanpNX09EVDBET1U0eHJJT1dOS0U0WkVMMEtlN0o3QjJUS3dLdTIzREFvSnVheUJxdndBbHZZQWtZZm92Z1JNQWw4ZF9IWVUzVlo3T3BBRDNNRm1DZkRhUVdxdW5YeldhVzJMZFhqeE5NRndYNFlta3MxYVZ3dDdSanVrNFlvck1RZldLQ1RTUEhhb0FJYV9wdndNRjlGMkVR?oc=5"
+    },
+    {
       "iso": "GBR",
       "title": "Reino Unido lanza paracaidistas ante nuevo caso de Hantavirus en isla del Atl\u00e1ntico - Urgente24",
       "t": "2026-05-11T15:30:00Z",
@@ -4139,13 +4146,6 @@
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcTBCajE4c1RGMGZaTEl5bFo0VTVjaThrLXF6OUV3Wk8yYnc2R2VjZ05KdEJJSTZyeFoxa2phblNSNnRxZ0xwTThKUy13aDV6ekJBaE9QeWY2a2F6UGV3a20xWTZFUk9YRVUwZi1ZYnF0dTZRejltZjZEVWd0bVhoWTN0cG81dkZGTXZVNVJabVZ1LW9uQVltU2xEcW5ranRzaHBYeGNkLWJxTFpPMDBNMFhYM0tmQ2d6TWU2ZlJIN2pHLVVrR1lRMEE3ejlWWjhSaTV6cFhhUzAwQjhhbi13?oc=5"
     },
     {
-      "iso": "FRA",
-      "title": "Alerta extrema en Europa: Francia confirm\u00f3 un caso de hantavirus y pasajeros del crucero aislados - MDZ Online",
-      "t": "2026-05-11T13:40:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSHktcXlodTdleDExT1E1QkxwaEdUcEpoOTk4Q2FHczNid2IwWnBMN01lcGhEMkJYb1AwMHJuX0dZcGNMai1DcWFRSHRnSkFFRVA0MnBBRnpWWlhjd2ZPUEg3Y05ONjRHckU0Z29MckdYc2ltd2tLMEtXYllUd2NnNUUxLXZ1UndBaEd2NnU3ZHJQZ241SGt1b0cwN2pYY2dxdHBidEJxYzJMOVpxbEpVdGNYZXdWdkxsUHUxY25jZkhScjN2RXfSAcsBQVVfeXFMTjFrdjVPTkVBYVl0djY2N3ZsNXkwcmRHdU13dlBka2tXTmp5MGhMLVJKOEhhWjlidVItTTFJUGJYUVdrNFNIOW1qcEE3LWpxY00zLXhZQ0RmV3UzSWlzcnBHUTR6aVRRUHprNHBWUG8tVkNpVUcyMVJfd0I3ZTdDNVczSk91aVNBX25ycF9rRm1xbzF2SW80eEpKaERRMjc4VnRTRmp6dnFUc3lkVGd4OXgwSU02UFdjUXo4eXgwTVBKa1RXU21ZTHQ4MFk?oc=5"
-    },
-    {
       "iso": "MEX",
       "title": "M\u00e9xico en alerta: el listado de pa\u00edses con casos confirmados de hantavirus tras brote en crucero de lujo - Ambito",
       "t": "2026-05-11T12:58:21Z",
@@ -4165,6 +4165,13 @@
       "t": "2026-05-10T17:36:03Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus en Argentina: el brote vuelve a poner el foco en una enfermedad olvidada - CNN en Espa\u00f1ol",
+      "t": "2026-05-07T23:24:18Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPczJSUXlha0NhSUVORUdEWlE1bEcyMkhVb2JzNExwM1Bqb3RCZklHMkhQQy0tZkFLTFdLX3BBQ2VvVlk1U0NOTmxMdUFVdS1IeGdsUDVrekhQcmJjRG9QNlAwZVNtT1ViTWc1V0c0N1ZGRGY5SzM1dWFCVTR6b2hBWGV6cUtTakE5VXREQm92RDVJOE41OVJEeVU3Rjh5MUh3TGZyVjN0RGx4ZkVrNWM5b21uQkhvTjFoUnRqQTJwN19aTnRwMjJBdUdNczZMM1ZkQ2c?oc=5"
     },
     {
       "iso": "ARG",
@@ -4204,8 +4211,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T01:30:16Z",
-      "signals": 11,
+      "last_update": "2026-05-12T01:35:16Z",
+      "signals": 10,
       "recent": [
         {
           "title": "Mapping the hantavirus outbreak as cruise ship passengers return to US - USA Today",
@@ -4228,9 +4235,9 @@
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
         },
         {
-          "title": "Europa en alerta por el brote de hantavirus en un crucero: investigan un posible contagio en Argentina - Telediario Digital",
-          "t": "2026-05-11T19:36:38Z",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOODFYbDl2WG9LWGF1cExRakk3d1d5Z3VIa3JJeVJLQjM0Y0lMSEVFTzNjNTVIRjgyZFg1U0dzdTZlbUFMQVI5ODRUSlhsMTdaSjFwUGN4dkRSUzJvSXhWbmVQcVBPWE8xdVFpR2xreXJUZXNjRjBjU180WmZ6b05tcjBKa24xNUtqVDBfaDNjVThzY1p6Rkg3SWRIVFpxWUZMWVFDbURCOFVHVnpiQkJhRUhaSnV6ekd1X2N3c2tHVEhMQkZ5VFYyYXpFbVgtdWVuMHNBWg?oc=5"
+          "title": "Brote de hantavirus en un crucero que zarp\u00f3 desde Argentina: qu\u00e9 se sabe sobre la enfermedad y c\u00f3mo prevenirla - Chequeado",
+          "t": "2026-05-06T04:21:57Z",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdDd6MHQ1c25HX0lPOEk0QjNtNzFoY0pNUE8xZG1JZnZETGNTd01zN29qSHFVdS1vLThZYnBKN1VMZGFCdTFfSDR6eXNWRkFlSnhPWG1JTU9NdmxBQ1JOeXRuQ0VCZ2J4cHVmS1ZnWXVsbTVqRGtKOFBMZUxoOURVMENpT0hFel9NU2RRTGpSbl9oNGRKNHh6OXNuOTlXNFJyRVZYc1JUekJiNFByLWxob3NTNUdfLWJpQ1FVSmpNQmhrNEU3bWZXUzRYbV9Idzl2OXBFaGJBcVYyTnREODZB?oc=5"
         }
       ]
     }
