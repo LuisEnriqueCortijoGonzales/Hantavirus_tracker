@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T15:55:16.793326Z",
-  "next_update": "2026-05-12T16:00:00Z",
+  "generated": "2026-05-12T16:00:14.815110Z",
+  "next_update": "2026-05-12T16:05:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 69,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 3,
+      "var_pct": 2,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 6,
+      "signals": 5,
       "gov_alert": false
     },
     "CHL": {
@@ -1401,7 +1401,6 @@
     "2026-05-12T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-10T16:00:00Z",
     "2026-05-10T17:00:00Z",
     "2026-05-10T18:00:00Z",
     "2026-05-10T19:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-12T12:00:00Z",
     "2026-05-12T13:00:00Z",
     "2026-05-12T14:00:00Z",
-    "2026-05-12T15:00:00Z"
+    "2026-05-12T15:00:00Z",
+    "2026-05-12T16:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 19,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "USA": 5,
     "CAN": 1,
     "FRA": 1,
-    "ARG": 6
+    "ARG": 5
   },
   "events": [
     {
@@ -4107,13 +4107,6 @@
       "t": "2026-05-07T06:16:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
-      "t": "2026-05-06T15:29:33Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
     }
   ],
   "maritime_events": [
@@ -4132,8 +4125,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T15:55:16Z",
-      "signals": 6,
+      "last_update": "2026-05-12T16:00:14Z",
+      "signals": 5,
       "recent": [
         {
           "title": "Mapping the hantavirus outbreak as cruise ship passengers return to US - USA Today",
