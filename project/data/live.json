@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T13:45:14.792081Z",
-  "next_update": "2026-05-12T13:50:00Z",
+  "generated": "2026-05-12T13:50:14.771993Z",
+  "next_update": "2026-05-12T13:55:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -82,14 +82,14 @@
       "gov_alert": false
     },
     "USA": {
-      "ytd": 19,
+      "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 3,
+      "var_pct": 2,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 6,
+      "signals": 5,
       "gov_alert": false
     },
     "PRY": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "CHE": {
@@ -680,20 +680,20 @@
       8
     ],
     "USA": [
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18
     ],
     "PRY": [
       8,
@@ -1802,54 +1802,54 @@
       8
     ],
     "USA": [
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19,
-      19
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18
     ],
     "PRY": [
       8,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 17,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,18 +4018,32 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "USA": 6,
+    "USA": 5,
     "CAN": 1,
     "ARG": 8,
-    "FRA": 1
+    "FRA": 2
   },
   "events": [
+    {
+      "iso": "FRA",
+      "title": "WHO cautiously optimistic over hantavirus as more cases still possible - France 24",
+      "t": "2026-05-12T13:16:56Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRnRPd0pUM3o0ZjlJMlN2ZGtnd0xCaVlzcUtSMTRybl8zbzd2VWplaUdyOVRmUVBhV3lCRDc2a0hrWEFPTkFZTmk1c0hoZXNwNzNmc1RiaXdDRUJLa01TZG5LOW9Ib3RVQ01hOW9SQ2RlQ1lYeGFHNGdrMEFwRFBTa0lHNlhtZzUtYUpkdWs1QlJGdk9GY3N6UjZ2TC1Tek0?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Hantavirus can have a long incubation period. Here's what that means - USA Today",
       "t": "2026-05-12T13:13:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRjlqUjZxNFRmNWZSOHNTV3lwWE4yWDBEbDdodU5FalQ5NU5rN3NjUXN1dUtVYV9oYWxRRmJXcW1RM2kyQ0NtbDg2WFRpQks5ZDlqVVo5N2NHbXAyRHlNY3JMWG1tZzJoRkZ1RmRMeEJxX1V3bm1ldUJPTGx2bEJ6OGF2ZHFVcFFmd25LQVpxY3RKMzMyd0RrbVE0SEtyaEw4N3FCaFVEdHlndmU5Xzg2QUtWRlNOUQ?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Map shows which states are monitoring for hantavirus cases in the US - USA Today",
+      "t": "2026-05-12T12:35:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQclBIUHZVcXJVVXhJdXdmTkF1MU9yYVNQMmI5QmUzQzNWTDlUc2c3ekRzQmpsYVhMLXF0Y1hrRUZaZlM4RGpVWEFEN2VEcnNfdVNsNUNlYThrbktwWjd2OFc2MlZTbVBFRlU2czY2N1hicTdCbFJldnFQYmc5MFVPNEQtYzN0US1hOGhzSHo4dVBZUFpSeDVlaWRzSDUtM2JVNGc?oc=5"
     },
     {
       "iso": "USA",
@@ -4053,13 +4067,6 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM2ZzNnNzMTE3WUtBTC1zMGJCRS1LdF9EeFBwWVdhVnhZMzlHNjhkUlBsSncwdklxYVcxWThHR3F6TWh1Q1pMeE9Ed1hTQjBTbkhCUDFKQXhDMUdMRV9WMDlDdnhpclZlVlgxMVl4dkxHM1ROMnhDM211cjFXRkNseDM1ODJLU3J0WkQ4algyOERXWEZCVGxLYzc1ZmlaZ0V4UmtDX25qWGNteGpGNWhoSjk2RngtVXo1TGUyedIBwgFBVV95cUxOZjZwOE9jeFdzeDEtVUVhZHZjZFIzZmRVZjd4YW9QUEVhY0dUSWRNc18wSk56ajdBTWFQbG41bFdTWjJ4NFpROXAxT3dpY3BDaGpKTjRBX1VzWEpxb0FoaU1Ma1lFeWRtUE5vdXBNcEVTcFp2TVlKVXZmR0FIRk1GS0RPUzZjbHFVZ1hyWnpjckRPMlpSa1Mtd2xQc2NWdDBIanFiSUtSeDhiQ2FxVkxfYThoX0pfZmhMRklrZDBLZTN1dw?oc=5"
     },
     {
-      "iso": "USA",
-      "title": "Map shows which states are monitoring for hantavirus cases in the US - USA Today",
-      "t": "2026-05-12T10:27:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQclBIUHZVcXJVVXhJdXdmTkF1MU9yYVNQMmI5QmUzQzNWTDlUc2c3ekRzQmpsYVhMLXF0Y1hrRUZaZlM4RGpVWEFEN2VEcnNfdVNsNUNlYThrbktwWjd2OFc2MlZTbVBFRlU2czY2N1hicTdCbFJldnFQYmc5MFVPNEQtYzN0US1hOGhzSHo4dVBZUFpSeDVlaWRzSDUtM2JVNGc?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "The last hantavirus outbreak devastated an entire village \u2014 here\u2019s how Argentina finally stopped it - New York Post",
       "t": "2026-05-12T10:00:00Z",
@@ -4072,13 +4079,6 @@
       "t": "2026-05-12T01:39:11Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lWDIzcjV5WHlZZzFES0ZWSkY1ajVlUlFwaUxJZHdGb1RGcnhmcG5UWF9WbTJ1amYxTks3aHk1eDZBd2E2ZEpIQW8zbWl4aS1PM1Rvb2xSbFh1dw?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Daily Briefing: American positive for hantavirus - USA Today",
-      "t": "2026-05-12T00:51:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQkxqZWpuUXdsQVZZamZRTUFHa2g5WDRfTlVxUUxreDc0VnFrT2pQdzNtQUhITDltS3d3anlldjNlUmZUTWR1LUkwbUtobHFsNHhiclpiUG5XTVd4djRUTjhxMXMyOHVzZHRWc1p4SXFmcFhEMkY4dDlyNFljaThBckM3dmRKMmZUTDBuN3plLTBULWc?oc=5"
     },
     {
       "iso": "USA",
@@ -4153,7 +4153,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T13:45:14Z",
+      "last_update": "2026-05-12T13:50:14Z",
       "signals": 7,
       "recent": [
         {
