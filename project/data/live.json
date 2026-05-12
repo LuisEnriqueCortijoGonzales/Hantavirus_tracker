@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T00:25:16.816912Z",
-  "next_update": "2026-05-12T00:30:00Z",
+  "generated": "2026-05-12T00:30:14.898233Z",
+  "next_update": "2026-05-12T00:35:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 3,
+      "var_pct": 2,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 6,
+      "signals": 5,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 19,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "USA": 9,
     "CAN": 1,
     "ARG": 7,
-    "FRA": 6,
+    "FRA": 5,
     "MEX": 1,
     "GBR": 1
   },
@@ -4146,13 +4146,6 @@
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcTBCajE4c1RGMGZaTEl5bFo0VTVjaThrLXF6OUV3Wk8yYnc2R2VjZ05KdEJJSTZyeFoxa2phblNSNnRxZ0xwTThKUy13aDV6ekJBaE9QeWY2a2F6UGV3a20xWTZFUk9YRVUwZi1ZYnF0dTZRejltZjZEVWd0bVhoWTN0cG81dkZGTXZVNVJabVZ1LW9uQVltU2xEcW5ranRzaHBYeGNkLWJxTFpPMDBNMFhYM0tmQ2d6TWU2ZlJIN2pHLVVrR1lRMEE3ejlWWjhSaTV6cFhhUzAwQjhhbi13?oc=5"
     },
     {
-      "iso": "FRA",
-      "title": "Alerta extrema en Europa: Francia confirm\u00f3 un caso de hantavirus y pasajeros del crucero aislados - MDZ Online",
-      "t": "2026-05-11T13:40:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSHktcXlodTdleDExT1E1QkxwaEdUcEpoOTk4Q2FHczNid2IwWnBMN01lcGhEMkJYb1AwMHJuX0dZcGNMai1DcWFRSHRnSkFFRVA0MnBBRnpWWlhjd2ZPUEg3Y05ONjRHckU0Z29MckdYc2ltd2tLMEtXYllUd2NnNUUxLXZ1UndBaEd2NnU3ZHJQZ241SGt1b0cwN2pYY2dxdHBidEJxYzJMOVpxbEpVdGNYZXdWdkxsUHUxY25jZkhScjN2RXfSAcsBQVVfeXFMTjFrdjVPTkVBYVl0djY2N3ZsNXkwcmRHdU13dlBka2tXTmp5MGhMLVJKOEhhWjlidVItTTFJUGJYUVdrNFNIOW1qcEE3LWpxY00zLXhZQ0RmV3UzSWlzcnBHUTR6aVRRUHprNHBWUG8tVkNpVUcyMVJfd0I3ZTdDNVczSk91aVNBX25ycF9rRm1xbzF2SW80eEpKaERRMjc4VnRTRmp6dnFUc3lkVGd4OXgwSU02UFdjUXo4eXgwTVBKa1RXU21ZTHQ4MFk?oc=5"
-    },
-    {
       "iso": "MEX",
       "title": "M\u00e9xico en alerta: el listado de pa\u00edses con casos confirmados de hantavirus tras brote en crucero de lujo - Ambito",
       "t": "2026-05-11T12:58:21Z",
@@ -4218,8 +4211,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T00:25:16Z",
-      "signals": 12,
+      "last_update": "2026-05-12T00:30:14Z",
+      "signals": 11,
       "recent": [
         {
           "title": "Mapping the hantavirus outbreak as cruise ship passengers return to US - USA Today",
