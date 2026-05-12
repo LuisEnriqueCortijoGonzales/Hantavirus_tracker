@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T12:55:08.391319Z",
-  "next_update": "2026-05-12T13:00:00Z",
+  "generated": "2026-05-12T13:00:14.851650Z",
+  "next_update": "2026-05-12T13:05:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 8,
+      "signals": 9,
       "gov_alert": false
     },
     "CHL": {
@@ -1401,7 +1401,6 @@
     "2026-05-12T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-10T13:00:00Z",
     "2026-05-10T14:00:00Z",
     "2026-05-10T15:00:00Z",
     "2026-05-10T16:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-12T09:00:00Z",
     "2026-05-12T10:00:00Z",
     "2026-05-12T11:00:00Z",
-    "2026-05-12T12:00:00Z"
+    "2026-05-12T12:00:00Z",
+    "2026-05-12T13:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -4020,8 +4020,8 @@
   "signal_summary": {
     "USA": 6,
     "CAN": 1,
+    "ARG": 9,
     "CHN": 1,
-    "ARG": 8,
     "FRA": 1
   },
   "events": [
@@ -4059,6 +4059,13 @@
       "t": "2026-05-12T10:27:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQclBIUHZVcXJVVXhJdXdmTkF1MU9yYVNQMmI5QmUzQzNWTDlUc2c3ekRzQmpsYVhMLXF0Y1hrRUZaZlM4RGpVWEFEN2VEcnNfdVNsNUNlYThrbktwWjd2OFc2MlZTbVBFRlU2czY2N1hicTdCbFJldnFQYmc5MFVPNEQtYzN0US1hOGhzSHo4dVBZUFpSeDVlaWRzSDUtM2JVNGc?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "The last hantavirus outbreak devastated an entire village \u2014 here\u2019s how Argentina finally stopped it - New York Post",
+      "t": "2026-05-12T10:00:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWXRuZnBTWkR5RVhCNkV6YTRPMzN3UzBGcGdVVDlybEs5VVNnbUtjVWUyYXRjQ3QtdTl0cHlZV3B1ZFNIQXVoekpwaEtlbU9EWVFNSXVjcmVHTkVTb0JkLTFKMTI3VW1oRF94Z010YlRKZS1DakZfQU4wYUJjRWNUZzAwOHpXYmJGVzNtUVpTbkhsanZWc2NZ?oc=5"
     },
     {
       "iso": "CAN",
@@ -4161,7 +4168,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T12:55:08Z",
+      "last_update": "2026-05-12T13:00:14Z",
       "signals": 8,
       "recent": [
         {
