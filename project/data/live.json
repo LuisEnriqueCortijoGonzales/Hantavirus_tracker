@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-12T19:05:15.088191Z",
-  "next_update": "2026-05-12T19:10:00Z",
+  "generated": "2026-05-12T19:10:16.807949Z",
+  "next_update": "2026-05-12T19:15:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 70,
+      "ytd": 69,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 4,
+      "var_pct": 3,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 8,
+      "signals": 6,
       "gov_alert": false
     },
     "CHL": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69
     ],
     "CHL": [
       31,
@@ -1452,54 +1452,54 @@
   ],
   "hourly_history": {
     "ARG": [
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69,
+      69
     ],
     "CHL": [
       31,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 18,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,10 +4018,11 @@
     "outbreak_count": 7
   },
   "signal_summary": {
+    "GBR": 1,
     "FRA": 3,
     "USA": 4,
-    "CAN": 1,
-    "ARG": 8
+    "ARG": 6,
+    "CAN": 1
   },
   "events": [
     {
@@ -4044,13 +4045,6 @@
       "t": "2026-05-12T17:10:28Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQX19aVG1HaDYzU2Fmci1BckMxTkRfU1ZWR3JSYjc0NEdOVVhqZkdaUlczbGN0U1VXc3lmQ0xjSlc4cWc5VTZBckFsZzkxRWpzandSXzJZcTFfaElJOXV4M2M4dUdSd0VFM3EydnhQSUxqMFhoWEhpZzVPTEotbWxndGl4R2hBVG1TRVE2VGl3YnRWUzVOQ0x6emVzb21zTXdEOEpLY0owd3o5MEJfa0RHWktQVi0?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Hantavirus patients being monitored at 2 facilities in United States - CBS News",
-      "t": "2026-05-12T16:22:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaWFoejFTbVFRTGZkNDFDY1llZm9raVY1WVVURHdDZ1RmVlNuazBWeFh2Z2RpWF9OVU55dGJnX3RrbTlBOEVDVmdBeXdsNGdjZ3BJTnR1NmtXd1VrdkF1Q0V2VDhPQl9JdkJaY1p5ejFQMWZxT05jWU1WRlJUQ2hHSXZfNEJBaWNtUVJUcnlJcm5GYzNlMVRJbDItYWhDS0tCR0xxQUYzNk9RUQ?oc=5"
     },
     {
       "iso": "ARG",
@@ -4082,10 +4076,24 @@
     },
     {
       "iso": "USA",
+      "title": "Is hantavirus spreading? We may know in 'next few days,' experts say - USA Today",
+      "t": "2026-05-12T13:27:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRjlqUjZxNFRmNWZSOHNTV3lwWE4yWDBEbDdodU5FalQ5NU5rN3NjUXN1dUtVYV9oYWxRRmJXcW1RM2kyQ0NtbDg2WFRpQks5ZDlqVVo5N2NHbXAyRHlNY3JMWG1tZzJoRkZ1RmRMeEJxX1V3bm1ldUJPTGx2bEJ6OGF2ZHFVcFFmd25LQVpxY3RKMzMyd0RrbVE0SEtyaEw4N3FCaFVEdHlndmU5Xzg2QUtWRlNOUQ?oc=5"
+    },
+    {
+      "iso": "USA",
       "title": "Map shows which states are monitoring for hantavirus cases in the US - USA Today",
       "t": "2026-05-12T12:35:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQclBIUHZVcXJVVXhJdXdmTkF1MU9yYVNQMmI5QmUzQzNWTDlUc2c3ekRzQmpsYVhMLXF0Y1hrRUZaZlM4RGpVWEFEN2VEcnNfdVNsNUNlYThrbktwWjd2OFc2MlZTbVBFRlU2czY2N1hicTdCbFJldnFQYmc5MFVPNEQtYzN0US1hOGhzSHo4dVBZUFpSeDVlaWRzSDUtM2JVNGc?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "Hantavirus testing of UK passengers well under way, health officials say - BBC",
+      "t": "2026-05-12T11:06:27Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lOElMTl9EU0VYNFNNYnRiTlNQWjB1Ujdxc0VCNVUtNXFpUzNmVTJLaE01WnpUWFNOTEVPSlRMdk05ZVN0UHFFWXQ2c2xKal9JcmRFT3FWSVZLUQ?oc=5"
     },
     {
       "iso": "ARG",
@@ -4121,20 +4129,6 @@
       "t": "2026-05-10T17:36:03Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina reconstruye el periplo del \u2018caso \u00edndice\u2019 de hantavirus antes de subir al crucero - Sinc",
-      "t": "2026-05-07T06:16:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
-      "t": "2026-05-06T15:29:33Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
     }
   ],
   "maritime_events": [
@@ -4153,8 +4147,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T19:05:15Z",
-      "signals": 8,
+      "last_update": "2026-05-12T19:10:16Z",
+      "signals": 6,
       "recent": [
         {
           "title": "Francia intensifica medidas tras caso de hantavirus vinculado al crucero MV Hondius - France 24",
@@ -4167,11 +4161,6 @@
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUTZJejhVcEFhWGtHamIyMzhhNnBGWVRXNzN0cUxoclVCc0VxbUhDbDZxa29pTU9pNTdBUEMxYlRoTVpOVWxmcWpwVHo5R0Rwa3hyYjRBY2NTN3FQT19qMGZjVF9FUFVkNnI3WTJBeS1mSlNGendfS3RvbDVNeTZJNUJtTUhfNHowN0tTdFlfT2pITXdVUkRrOG5KMGtIREhPcl9ETzZtdTY?oc=5"
         },
         {
-          "title": "What comes next for US and Canada passengers evacuated from hantavirus-hit cruise ship - BBC",
-          "t": "2026-05-12T01:39:11Z",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lWDIzcjV5WHlZZzFES0ZWSkY1ajVlUlFwaUxJZHdGb1RGcnhmcG5UWF9WbTJ1amYxTks3aHk1eDZBd2E2ZEpIQW8zbWl4aS1PM1Rvb2xSbFh1dw?oc=5"
-        },
-        {
           "title": "El director de la OMS no descarta m\u00e1s casos de hantavirus por el brote en el crucero que sali\u00f3 de Argentina - Diario El D\u00eda de La Plata",
           "t": "2026-05-12T15:45:00Z",
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWlRuYWxuTDZFVWpESzh2TDlxVG5WWUkzMDVBTWJTUk5uN1ZwM0NSLTJ3UTlNaHZzcjNiUV9jeHFFSHFDVWZqVTlBS3gxQVpNUEVPR1NpaUpldmZoTEs1aXd2V3dPRGJsUXp5ZGpTZkVyOFFSYTdySG1WVjk0azhfTzdON1JYa0ZXOWxURHpDR29YVnAwZUxTSXJiM2ZqWGVOakNFdXZjZ2wtR0tuakhXWHdDamk4QWVGMnJlb0ZUTkZ2bWxWRGdyMmZjMVlCS3FYQjRMSXpvYUJMQVpCM3BIeVJ2SG9uN0tUejkxddIB8gFBVV95cUxOeGtHOGJtUkxmckptb3dIRTh5YU5MeTVVaFhvWVgzVC1ZTV9XelJmRjFNekpiRnhTUDd3V1p2ekl5bGhhMzJaR0dFcVhtZFZyc01hYVRteDNINk1WVnZEZHNzSVlFc3lXNlpKSzdPU2tuN09Gd3BNU1AwM01DWE9ZYzVvOHdKeU43X2w5UTBaRVhwZlk0bnJMSEQ4dlJDTmcyY2h2SUZYLUtkeDdDM2toeEZmejB4blNhYWdGRFJ6dWNZTmI2N3M5aDgyTnpRc1FkWkNpM3JxcmVEZk9udl91WXBKdFJJT2lKZHhqRUZCbU5Edw?oc=5"
@@ -4180,6 +4169,11 @@
           "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
           "t": "2026-05-10T17:36:03Z",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
+        },
+        {
+          "title": "Nuevo caso de hantavirus en Espa\u00f1a: brote en crucero asciende a 11 afectados - Cadena 3 Argentina",
+          "t": "2026-05-12T10:58:03Z",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM2ZzNnNzMTE3WUtBTC1zMGJCRS1LdF9EeFBwWVdhVnhZMzlHNjhkUlBsSncwdklxYVcxWThHR3F6TWh1Q1pMeE9Ed1hTQjBTbkhCUDFKQXhDMUdMRV9WMDlDdnhpclZlVlgxMVl4dkxHM1ROMnhDM211cjFXRkNseDM1ODJLU3J0WkQ4algyOERXWEZCVGxLYzc1ZmlaZ0V4UmtDX25qWGNteGpGNWhoSjk2RngtVXo1TGUyedIBwgFBVV95cUxOZjZwOE9jeFdzeDEtVUVhZHZjZFIzZmRVZjd4YW9QUEVhY0dUSWRNc18wSk56ajdBTWFQbG41bFdTWjJ4NFpROXAxT3dpY3BDaGpKTjRBX1VzWEpxb0FoaU1Ma1lFeWRtUE5vdXBNcEVTcFp2TVlKVXZmR0FIRk1GS0RPUzZjbHFVZ1hyWnpjckRPMlpSa1Mtd2xQc2NWdDBIanFiSUtSeDhiQ2FxVkxfYThoX0pfZmhMRklrZDBLZTN1dw?oc=5"
         }
       ]
     }
