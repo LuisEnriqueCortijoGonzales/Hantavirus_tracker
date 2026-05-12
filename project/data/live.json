@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T04:30:14.963232Z",
-  "next_update": "2026-05-12T04:35:00Z",
+  "generated": "2026-05-12T04:35:15.126481Z",
+  "next_update": "2026-05-12T04:40:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 19,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 4,
+      "var_pct": 3,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 8,
+      "signals": 7,
       "gov_alert": false
     },
     "PRY": {
@@ -562,7 +562,7 @@
       "strain": "hantaan",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     }
   },
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 18,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,8 +4019,7 @@
   },
   "signal_summary": {
     "CAN": 1,
-    "USA": 8,
-    "JPN": 1,
+    "USA": 7,
     "ARG": 5,
     "FRA": 6,
     "MEX": 1,
@@ -4033,13 +4032,6 @@
       "t": "2026-05-12T01:39:11Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lWDIzcjV5WHlZZzFES0ZWSkY1ajVlUlFwaUxJZHdGb1RGcnhmcG5UWF9WbTJ1amYxTks3aHk1eDZBd2E2ZEpIQW8zbWl4aS1PM1Rvb2xSbFh1dw?oc=5"
-    },
-    {
-      "iso": "JPN",
-      "title": "Experts explain why hantavirus outbreak won't spark a pandemic like COVID - The Japan Times",
-      "t": "2026-05-12T01:31:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONVd3TkZIWWtKVnR4eUlybjJ5RDFPQVMwNHdJYk5la2l0XzdvTDhkRWl6NnBMWUdZVzdPY3pPTEk4NFItUm9EWDQxNVNiZ3hLUGdsRmY5M0RmdzB0bmdRVjdWendMMmJ5ZFN0TVcydmYybnFlSVZOTTdtUENzWnNKMlljVGFNam11T25LUm5YSFBJZllsb1U2TVZXbHc?oc=5"
     },
     {
       "iso": "USA",
@@ -4147,13 +4139,6 @@
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNcTBCajE4c1RGMGZaTEl5bFo0VTVjaThrLXF6OUV3Wk8yYnc2R2VjZ05KdEJJSTZyeFoxa2phblNSNnRxZ0xwTThKUy13aDV6ekJBaE9QeWY2a2F6UGV3a20xWTZFUk9YRVUwZi1ZYnF0dTZRejltZjZEVWd0bVhoWTN0cG81dkZGTXZVNVJabVZ1LW9uQVltU2xEcW5ranRzaHBYeGNkLWJxTFpPMDBNMFhYM0tmQ2d6TWU2ZlJIN2pHLVVrR1lRMEE3ejlWWjhSaTV6cFhhUzAwQjhhbi13?oc=5"
     },
     {
-      "iso": "USA",
-      "title": "The hantavirus is in the United States. Here\u2019s what we know - fox10tv.com",
-      "t": "2026-05-11T14:17:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZzBxS2UybmdQSEZfVWdfOEh2cFkwSDVKUzB6UmxoaE5zSjZORGJyNUV4d3FQMGNTNER1dy1GUVZCQXA1NmhleHZoNm5MTXV4ZlNFUE5jZTFNdjd3QjhOS0RvbWJyNFpyY3Ffd3JBa2h5N3k0amVCQ0lZUkhyeU1kU18zelZPTWNSelHSAZ4BQVVfeXFMUEdRQjdZanRqT3lDV2YtSjVpMmJVdmpOaHlrUzBEVkdHZjhOQnQwVkxYVTRTN3FwRU9BSWRxSEpQM05SYncwaGxpS2pLa3JpS1hkM0M4QjVncFJGVkgtU1EycVdOblIzZ1NPeC1ZTUV6TFRLTC11TUN2OERoZjRaOTJ2cTJEdWtXVC1ISzFRenBwLUxqbXl2SF9fOEp3Wnc?oc=5"
-    },
-    {
       "iso": "MEX",
       "title": "M\u00e9xico en alerta: el listado de pa\u00edses con casos confirmados de hantavirus tras brote en crucero de lujo - Ambito",
       "t": "2026-05-11T12:58:21Z",
@@ -4205,7 +4190,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T04:30:14Z",
+      "last_update": "2026-05-12T04:35:15Z",
       "signals": 9,
       "recent": [
         {
