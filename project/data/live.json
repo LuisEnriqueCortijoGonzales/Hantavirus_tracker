@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T13:05:15.107576Z",
-  "next_update": "2026-05-12T13:10:00Z",
+  "generated": "2026-05-12T13:10:16.782790Z",
+  "next_update": "2026-05-12T13:15:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 70,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 4,
+      "var_pct": 5,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 9,
+      "signals": 10,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 23,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 6,
     "CAN": 1,
-    "ARG": 9,
+    "ARG": 10,
     "CHN": 1,
     "FRA": 1
   },
@@ -4104,6 +4104,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Ushuaia ha sido durante a\u00f1os un oasis tur\u00edstico dentro de Argentina. El hantavirus amenaza con destruir su reputaci\u00f3n - Xataka",
+      "t": "2026-05-11T15:15:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaUhrMlBhVHE5dFIyODZ2Q21oYnJKWHA3Z3h5bnNkZXFodi0tWk1vdmJ2aEdTT0xXQy10NG5oaWlQY18tMTd5UThPOWVLOEozcV9ZNUFYanBudmNmXzdWVGZTU2dza3hjQjUyZDVvS2JYUDFUSmhLbUVCbUN1ZHYweDFfM2hQSExTNDl1TkhySnFCNDZWOFlNaExuMmFLY0xidW1ZYTRvRF9FY0VrODNzS1pxVVdsOGdIbDBmRGJ2VFRaLVNmV0owdVpjWHRlSUlUMkRJ0gHYAUFVX3lxTE5tX1dRVnJoZ2FKUlpmUmFrUE9JSW1Od2tsNlNTdjBiVGNVMGw1eHNaN2tQcnhmNklFUUtWZ29QeGFGOE9DUlA3VDlYMGRhdTE5RE9rNHd3ZHZPSmhKSlgyelRJQ2xXc1FBMXlER3hlYUFkNXBKNGNXX09SLTRxVTNFWjlXMHhISWZGYTh2VjZXcmlpWjNtRnF6NW1FaExDc3U2MkdDMmdCYmx0UGZ0bFRhVUx6NWJ1YTFGeDNCUUdEekZsMU9GMWxZMWFjdktZTUNkQlV0SFBOWg?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Brote de hantavirus en Argentina: tres muertes y vigilancia internacional en cruceros - Perfil",
       "t": "2026-05-11T14:54:00Z",
       "source": "GoogleNews-ES",
@@ -4168,7 +4175,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T13:05:15Z",
+      "last_update": "2026-05-12T13:10:16Z",
       "signals": 8,
       "recent": [
         {
