@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T00:05:15.046172Z",
-  "next_update": "2026-05-12T00:10:00Z",
+  "generated": "2026-05-12T00:10:11.187427Z",
+  "next_update": "2026-05-12T00:15:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 7,
+      "signals": 6,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 19,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "USA": 9,
     "CAN": 1,
     "ARG": 7,
-    "FRA": 7,
+    "FRA": 6,
     "MEX": 1,
     "GBR": 1
   },
@@ -4109,13 +4109,6 @@
       "t": "2026-05-11T16:02:10Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOaVN5WG41SC0yYXBGNF9MbGNQT3plOGtkY0VEeE1KdGlkUV9OOVZGMmFCYmFtV3hqTlB3R1JLR04xWFFDTXJFSmxXd2ZfeUhvVjV1NUcyR0RSdm9XeTBqclBDLTdVUXVlN3c1WW9FMTkxdHhWOHhlaVUyNS03aDA0OEJBVnA2c3JjVllvUV9MdU1yaWJQTnpuSHpYSUczYm5lS2VjVmpVOUVkSmhzU0hLVTZ4OGN0VTVyVUZqa0hHU0Y3eEk4RVJiNkxzUGt3MmhWLVlvV0VNYnE?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Europa en alerta tras un caso confirmado de hantavirus en Francia - Diario Huarpe",
-      "t": "2026-05-11T15:36:56Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLTNPT3VtanpNX09EVDBET1U0eHJJT1dOS0U0WkVMMEtlN0o3QjJUS3dLdTIzREFvSnVheUJxdndBbHZZQWtZZm92Z1JNQWw4ZF9IWVUzVlo3T3BBRDNNRm1DZkRhUVdxdW5YeldhVzJMZFhqeE5NRndYNFlta3MxYVZ3dDdSanVrNFlvck1RZldLQ1RTUEhhb0FJYV9wdndNRjlGMkVR?oc=5"
     },
     {
       "iso": "GBR",
@@ -4225,7 +4218,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T00:05:15Z",
+      "last_update": "2026-05-12T00:10:11Z",
       "signals": 12,
       "recent": [
         {
