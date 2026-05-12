@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T03:10:16.817612Z",
-  "next_update": "2026-05-12T03:15:00Z",
+  "generated": "2026-05-12T03:15:14.878021Z",
+  "next_update": "2026-05-12T03:20:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 9,
+      "signals": 8,
       "gov_alert": false
     },
     "PRY": {
@@ -272,11 +272,11 @@
       "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 3,
+      "var_pct": 2,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 6,
+      "signals": 5,
       "gov_alert": false
     },
     "CHE": {
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 20,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,10 +4018,10 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "USA": 9,
+    "USA": 8,
     "CAN": 1,
     "ARG": 5,
-    "FRA": 6,
+    "FRA": 5,
     "MEX": 1,
     "GBR": 1
   },
@@ -4090,13 +4090,6 @@
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOODFYbDl2WG9LWGF1cExRakk3d1d5Z3VIa3JJeVJLQjM0Y0lMSEVFTzNjNTVIRjgyZFg1U0dzdTZlbUFMQVI5ODRUSlhsMTdaSjFwUGN4dkRSUzJvSXhWbmVQcVBPWE8xdVFpR2xreXJUZXNjRjBjU180WmZ6b05tcjBKa24xNUtqVDBfaDNjVThzY1p6Rkg3SWRIVFpxWUZMWVFDbURCOFVHVnpiQkJhRUhaSnV6ekd1X2N3c2tHVEhMQkZ5VFYyYXpFbVgtdWVuMHNBWg?oc=5"
     },
     {
-      "iso": "USA",
-      "title": "Map shows which states are monitoring for hantavirus cases in the US - USA Today",
-      "t": "2026-05-11T19:33:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQclBIUHZVcXJVVXhJdXdmTkF1MU9yYVNQMmI5QmUzQzNWTDlUc2c3ekRzQmpsYVhMLXF0Y1hrRUZaZlM4RGpVWEFEN2VEcnNfdVNsNUNlYThrbktwWjd2OFc2MlZTbVBFRlU2czY2N1hicTdCbFJldnFQYmc5MFVPNEQtYzN0US1hOGhzSHo4dVBZUFpSeDVlaWRzSDUtM2JVNGc?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Hantavirus en Epuy\u00e9n: brote de 2018 vuelve a poner en la mira la gesti\u00f3n y el aislamiento - France 24",
       "t": "2026-05-11T16:02:10Z",
@@ -4160,13 +4153,6 @@
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaTJ0bkFEYkJRLXF3Y2IzcjRFZW9tNVZFOVY1SG5zQ1hhVzVBTm82dEVQNmN0enpyTVpQeUM3SlQ5OWk5Tm9RZkNraHFjTUJYRWNhaHpFakZSYmxFcEExT1hJUFBFYXNmQzMxNmFCbklMMS1vRV9jcFJUUlRYbjNYcF84TVhodEw3TGg2d2dSS1ptNDhJbXNZaHR4ZzdzSjVNV2lHTzRMbkNaREhEaUNaeWdSR25qWFhvX1hQc21rbXdNdDRIT0dnOUtKSGJJMkdyQzh2M9IB2gFBVV95cUxPUENHeEhYU3psRXphX2VWV0p0c3p2Ylo3cnp6TUVsQ0EzV210eUZNMzg1WEU3YjN6SlZjb3VveEJ2R09BcUhKb01LYmI0QmltVlZsczRWTlVIR0pYXzZhTzQ1VXlMSEItYjdJZVRZZ3B1ZWdxNGFVMzB6Y3l0Mk1MZF95VGNzazBJM1BOZnRiNWJvamVvNFVfMXgxakdKdGtjVE1tWkJvcjNnLWpKbUJEZS1fQ2hDYUlXSjFGWGhUcUdTTEFTWWZ3SlhZczJOWnRqOUthSXpvSWNndw?oc=5"
     },
     {
-      "iso": "FRA",
-      "title": "EE.UU. y Francia confirman caso de contagio de hantavirus: van m\u00e1s de 10 pa\u00edses con infectados o sospechosos - Yahoo",
-      "t": "2026-05-11T12:51:45Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUVV5d1EyNnl1U3p5dkdjSkYybXY1LUFkSHNpbEVGV2g1UWNreDVINkUtUUhOR2ZFaDhJRW1zbFkwMmdkWTNSc0ZxVnI0dGM0dGNSTmhydmxmeXB0cDdmdDE2MW9vMmg2aXRPaXZTYU1lWWhVWjh2aS1xdlZQMUIzX053?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
       "t": "2026-05-10T17:36:03Z",
@@ -4204,7 +4190,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T03:10:16Z",
+      "last_update": "2026-05-12T03:15:14Z",
       "signals": 9,
       "recent": [
         {
