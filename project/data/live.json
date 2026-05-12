@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T09:20:16.782753Z",
-  "next_update": "2026-05-12T09:25:00Z",
+  "generated": "2026-05-12T09:25:08.621165Z",
+  "next_update": "2026-05-12T09:30:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GRC": {
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 19,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4023,8 +4023,7 @@
     "JPN": 1,
     "ARG": 8,
     "FRA": 5,
-    "MEX": 1,
-    "GBR": 1
+    "MEX": 1
   },
   "events": [
     {
@@ -4117,13 +4116,6 @@
       "t": "2026-05-11T15:36:56Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLTNPT3VtanpNX09EVDBET1U0eHJJT1dOS0U0WkVMMEtlN0o3QjJUS3dLdTIzREFvSnVheUJxdndBbHZZQWtZZm92Z1JNQWw4ZF9IWVUzVlo3T3BBRDNNRm1DZkRhUVdxdW5YeldhVzJMZFhqeE5NRndYNFlta3MxYVZ3dDdSanVrNFlvck1RZldLQ1RTUEhhb0FJYV9wdndNRjlGMkVR?oc=5"
-    },
-    {
-      "iso": "GBR",
-      "title": "Reino Unido lanza paracaidistas ante nuevo caso de Hantavirus en isla del Atl\u00e1ntico - Urgente24",
-      "t": "2026-05-11T15:30:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMnYybDNQdXRETHVzRXlNSVhYUmhNQnA3X0owTHl0aXJ6SFNFRjNoQ1Z6U2QwdEw2cmlyREIzTFpuVXk2S3Z4N1lkWFZwNVNuMHUxc1VHMXdsWGpBdFFBLW5tUXYxOU1xUmY0WEdtZkZyYVNKYUxUS1I1ZWgweG1FQTRMRXdGVG1GSUVxelJ1N1hPd3FYaEdFZGhubFBsQldKVmVBcWRaeFlwVk9XTEpwc1BR0gG3AUFVX3lxTE1WcjZBNjJxRGRKR1duYW1xSU9JbkRxWjI5S245bDFmRlMwaFotTjJBZ1ZyaDMzUExHdGhUTjdaN05maDdTSFpKS3RLNE1EeXJsVjF1TDMwZF8zX0ctM0hsOXh5R055cUNxNW5rNU91bWxHTlcweHdndWs0R3FkbkV3SE1TOTNRc3VQR21xQzZsbG45WGlrWlZxV2htWGt6SG1NSmJOZmk3dDBLb1A3TllTYjZUNWxicw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4219,7 +4211,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T09:20:16Z",
+      "last_update": "2026-05-12T09:25:08Z",
       "signals": 11,
       "recent": [
         {
