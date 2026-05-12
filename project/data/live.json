@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-12T05:10:16.815939Z",
-  "next_update": "2026-05-12T05:15:00Z",
+  "generated": "2026-05-12T05:15:14.891841Z",
+  "next_update": "2026-05-12T05:20:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 69,
+      "ytd": 68,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 2,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 5,
+      "signals": 4,
       "gov_alert": false
     },
     "CHL": {
@@ -23,7 +23,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "BRA": {
@@ -111,7 +111,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "PAN": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68
     ],
     "CHL": [
       31,
@@ -1452,54 +1452,54 @@
   ],
   "hourly_history": {
     "ARG": [
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69,
-      69
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68,
+      68
     ],
     "CHL": [
       31,
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 21,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,10 +4021,12 @@
     "CAN": 1,
     "USA": 8,
     "JPN": 1,
-    "ARG": 5,
+    "ARG": 4,
     "FRA": 5,
     "MEX": 1,
-    "GBR": 1
+    "GBR": 1,
+    "CHL": 1,
+    "URY": 1
   },
   "events": [
     {
@@ -4169,17 +4171,24 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina reconstruye el periplo del \u2018caso \u00edndice\u2019 de hantavirus antes de subir al crucero - Sinc",
-      "t": "2026-05-07T06:16:00Z",
+      "title": "Qu\u00e9 se sabe del viaje por Argentina, Chile y Uruguay de los turistas que presentaron los primeros s\u00edntomas de hantavirus en el crucero y luego murieron - BBC",
+      "t": "2026-05-07T23:22:53Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvQk85TUotMXBBY2dsU2hHVGxNUEk3OENZdFRHR0dYLVVoWGIwaG5IVS04LXVNU1R5NXhWZU5zX2E2aXBlcXBEYXhDcllqRmRPb3hqVDY2RFRkdVXSAWBBVV95cUxNdE5pdDNZbU1qZjFPSFRBeWZWaHJGX2p0V3FBbjllTWFQNG9VekxNc0FVcVV4cEd0em5UYUxTd2JpMG9pMzREMFMzWHFUX3BZai1SeXdLZ01TR2pEenk5OHQ?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "Brote de hantavirus en un crucero que zarp\u00f3 desde Argentina: qu\u00e9 se sabe sobre la enfermedad y c\u00f3mo prevenirla - Chequeado",
-      "t": "2026-05-06T04:21:57Z",
+      "iso": "CHL",
+      "title": "Qu\u00e9 se sabe del viaje por Argentina, Chile y Uruguay de los turistas que presentaron los primeros s\u00edntomas de hantavirus en el crucero y luego murieron - BBC",
+      "t": "2026-05-07T23:22:53Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdDd6MHQ1c25HX0lPOEk0QjNtNzFoY0pNUE8xZG1JZnZETGNTd01zN29qSHFVdS1vLThZYnBKN1VMZGFCdTFfSDR6eXNWRkFlSnhPWG1JTU9NdmxBQ1JOeXRuQ0VCZ2J4cHVmS1ZnWXVsbTVqRGtKOFBMZUxoOURVMENpT0hFel9NU2RRTGpSbl9oNGRKNHh6OXNuOTlXNFJyRVZYc1JUekJiNFByLWxob3NTNUdfLWJpQ1FVSmpNQmhrNEU3bWZXUzRYbV9Idzl2OXBFaGJBcVYyTnREODZB?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvQk85TUotMXBBY2dsU2hHVGxNUEk3OENZdFRHR0dYLVVoWGIwaG5IVS04LXVNU1R5NXhWZU5zX2E2aXBlcXBEYXhDcllqRmRPb3hqVDY2RFRkdVXSAWBBVV95cUxNdE5pdDNZbU1qZjFPSFRBeWZWaHJGX2p0V3FBbjllTWFQNG9VekxNc0FVcVV4cEd0em5UYUxTd2JpMG9pMzREMFMzWHFUX3BZai1SeXdLZ01TR2pEenk5OHQ?oc=5"
+    },
+    {
+      "iso": "URY",
+      "title": "Qu\u00e9 se sabe del viaje por Argentina, Chile y Uruguay de los turistas que presentaron los primeros s\u00edntomas de hantavirus en el crucero y luego murieron - BBC",
+      "t": "2026-05-07T23:22:53Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvQk85TUotMXBBY2dsU2hHVGxNUEk3OENZdFRHR0dYLVVoWGIwaG5IVS04LXVNU1R5NXhWZU5zX2E2aXBlcXBEYXhDcllqRmRPb3hqVDY2RFRkdVXSAWBBVV95cUxNdE5pdDNZbU1qZjFPSFRBeWZWaHJGX2p0V3FBbjllTWFQNG9VekxNc0FVcVV4cEd0em5UYUxTd2JpMG9pMzREMFMzWHFUX3BZai1SeXdLZ01TR2pEenk5OHQ?oc=5"
     }
   ],
   "maritime_events": [
@@ -4198,8 +4207,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T05:10:16Z",
-      "signals": 9,
+      "last_update": "2026-05-12T05:15:14Z",
+      "signals": 8,
       "recent": [
         {
           "title": "What comes next for US and Canada passengers evacuated from hantavirus-hit cruise ship - BBC",
@@ -4222,9 +4231,9 @@
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
         },
         {
-          "title": "Brote de hantavirus en un crucero que zarp\u00f3 desde Argentina: qu\u00e9 se sabe sobre la enfermedad y c\u00f3mo prevenirla - Chequeado",
-          "t": "2026-05-06T04:21:57Z",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdDd6MHQ1c25HX0lPOEk0QjNtNzFoY0pNUE8xZG1JZnZETGNTd01zN29qSHFVdS1vLThZYnBKN1VMZGFCdTFfSDR6eXNWRkFlSnhPWG1JTU9NdmxBQ1JOeXRuQ0VCZ2J4cHVmS1ZnWXVsbTVqRGtKOFBMZUxoOURVMENpT0hFel9NU2RRTGpSbl9oNGRKNHh6OXNuOTlXNFJyRVZYc1JUekJiNFByLWxob3NTNUdfLWJpQ1FVSmpNQmhrNEU3bWZXUzRYbV9Idzl2OXBFaGJBcVYyTnREODZB?oc=5"
+          "title": "Qu\u00e9 se sabe del viaje por Argentina, Chile y Uruguay de los turistas que presentaron los primeros s\u00edntomas de hantavirus en el crucero y luego murieron - BBC",
+          "t": "2026-05-07T23:22:53Z",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvQk85TUotMXBBY2dsU2hHVGxNUEk3OENZdFRHR0dYLVVoWGIwaG5IVS04LXVNU1R5NXhWZU5zX2E2aXBlcXBEYXhDcllqRmRPb3hqVDY2RFRkdVXSAWBBVV95cUxNdE5pdDNZbU1qZjFPSFRBeWZWaHJGX2p0V3FBbjllTWFQNG9VekxNc0FVcVV4cEd0em5UYUxTd2JpMG9pMzREMFMzWHFUX3BZai1SeXdLZ01TR2pEenk5OHQ?oc=5"
         }
       ]
     }
