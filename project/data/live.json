@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T22:00:14.836148Z",
-  "next_update": "2026-05-12T22:05:00Z",
+  "generated": "2026-05-12T22:05:16.789485Z",
+  "next_update": "2026-05-12T22:10:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 19,
+    "kalshi": 17,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "USA": 2,
+    "USA": 3,
     "GBR": 1,
     "FRA": 4,
     "ARG": 7
@@ -4088,6 +4088,13 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSUlnMDNQRHFRZHAwYTUwbktFbXAzY2Q4eUp1eW8yMGlLUzBndFZ2Z2pnMUNYSnNDMmJFaHZLSUxQYS1yR3RwYzVNMkcyUklJcHp1d1AwVE5IZl9mQWdoMVNEUXlFN1BGRVBHeHhFYW9vd1NFd0paRUdzb3h0MjdRLXEyUGNpeHI1Z2d1RlFfUU9kb2JRY2FSV0d0dVppTmQ2VXJFajFJUXluZGVDQVktNjM5eTd5aUJjeFlrTw?oc=5"
     },
     {
+      "iso": "USA",
+      "title": "Is hantavirus spreading? We may know in 'next few days,' experts say - USA Today",
+      "t": "2026-05-12T13:27:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRjlqUjZxNFRmNWZSOHNTV3lwWE4yWDBEbDdodU5FalQ5NU5rN3NjUXN1dUtVYV9oYWxRRmJXcW1RM2kyQ0NtbDg2WFRpQks5ZDlqVVo5N2NHbXAyRHlNY3JMWG1tZzJoRkZ1RmRMeEJxX1V3bm1ldUJPTGx2bEJ6OGF2ZHFVcFFmd25LQVpxY3RKMzMyd0RrbVE0SEtyaEw4N3FCaFVEdHlndmU5Xzg2QUtWRlNOUQ?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "How a Small Argentina Town Handled Hantavirus Outbreak in 2018 - TODAY.com",
       "t": "2026-05-12T11:58:59Z",
@@ -4139,7 +4146,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T22:00:14Z",
+      "last_update": "2026-05-12T22:05:16Z",
       "signals": 5,
       "recent": [
         {
