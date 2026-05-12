@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T08:20:16.802022Z",
-  "next_update": "2026-05-12T08:25:00Z",
+  "generated": "2026-05-12T08:25:08.390943Z",
+  "next_update": "2026-05-12T08:30:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 9,
+      "signals": 8,
       "gov_alert": false
     },
     "PRY": {
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "CAN": 1,
-    "USA": 9,
+    "USA": 8,
     "JPN": 1,
     "ARG": 8,
     "FRA": 5,
@@ -4103,13 +4103,6 @@
       "t": "2026-05-11T19:38:40Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOODFYbDl2WG9LWGF1cExRakk3d1d5Z3VIa3JJeVJLQjM0Y0lMSEVFTzNjNTVIRjgyZFg1U0dzdTZlbUFMQVI5ODRUSlhsMTdaSjFwUGN4dkRSUzJvSXhWbmVQcVBPWE8xdVFpR2xreXJUZXNjRjBjU180WmZ6b05tcjBKa24xNUtqVDBfaDNjVThzY1p6Rkg3SWRIVFpxWUZMWVFDbURCOFVHVnpiQkJhRUhaSnV6ekd1X2N3c2tHVEhMQkZ5VFYyYXpFbVgtdWVuMHNBWg?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Map shows which states are monitoring for hantavirus cases in the US - USA Today",
-      "t": "2026-05-11T19:33:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQclBIUHZVcXJVVXhJdXdmTkF1MU9yYVNQMmI5QmUzQzNWTDlUc2c3ekRzQmpsYVhMLXF0Y1hrRUZaZlM4RGpVWEFEN2VEcnNfdVNsNUNlYThrbktwWjd2OFc2MlZTbVBFRlU2czY2N1hicTdCbFJldnFQYmc5MFVPNEQtYzN0US1hOGhzSHo4dVBZUFpSeDVlaWRzSDUtM2JVNGc?oc=5"
     },
     {
       "iso": "FRA",
@@ -4226,7 +4219,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T08:20:16Z",
+      "last_update": "2026-05-12T08:25:08Z",
       "signals": 11,
       "recent": [
         {
