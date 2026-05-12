@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T04:50:16.789185Z",
-  "next_update": "2026-05-12T04:55:00Z",
+  "generated": "2026-05-12T04:55:16.786849Z",
+  "next_update": "2026-05-12T05:00:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 2,
+      "var_pct": 3,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 5,
+      "signals": 6,
       "gov_alert": false
     },
     "CHE": {
@@ -562,7 +562,7 @@
       "strain": "hantaan",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     }
   },
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 16,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,8 +4020,9 @@
   "signal_summary": {
     "CAN": 1,
     "USA": 8,
+    "JPN": 1,
     "ARG": 5,
-    "FRA": 5,
+    "FRA": 6,
     "MEX": 1,
     "GBR": 1
   },
@@ -4032,6 +4033,13 @@
       "t": "2026-05-12T01:39:11Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lWDIzcjV5WHlZZzFES0ZWSkY1ajVlUlFwaUxJZHdGb1RGcnhmcG5UWF9WbTJ1amYxTks3aHk1eDZBd2E2ZEpIQW8zbWl4aS1PM1Rvb2xSbFh1dw?oc=5"
+    },
+    {
+      "iso": "JPN",
+      "title": "Experts explain why hantavirus outbreak won't spark a pandemic like COVID - The Japan Times",
+      "t": "2026-05-12T01:31:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONVd3TkZIWWtKVnR4eUlybjJ5RDFPQVMwNHdJYk5la2l0XzdvTDhkRWl6NnBMWUdZVzdPY3pPTEk4NFItUm9EWDQxNVNiZ3hLUGdsRmY5M0RmdzB0bmdRVjdWendMMmJ5ZFN0TVcydmYybnFlSVZOTTdtUENzWnNKMlljVGFNam11T25LUm5YSFBJZllsb1U2TVZXbHc?oc=5"
     },
     {
       "iso": "USA",
@@ -4153,6 +4161,13 @@
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaTJ0bkFEYkJRLXF3Y2IzcjRFZW9tNVZFOVY1SG5zQ1hhVzVBTm82dEVQNmN0enpyTVpQeUM3SlQ5OWk5Tm9RZkNraHFjTUJYRWNhaHpFakZSYmxFcEExT1hJUFBFYXNmQzMxNmFCbklMMS1vRV9jcFJUUlRYbjNYcF84TVhodEw3TGg2d2dSS1ptNDhJbXNZaHR4ZzdzSjVNV2lHTzRMbkNaREhEaUNaeWdSR25qWFhvX1hQc21rbXdNdDRIT0dnOUtKSGJJMkdyQzh2M9IB2gFBVV95cUxPUENHeEhYU3psRXphX2VWV0p0c3p2Ylo3cnp6TUVsQ0EzV210eUZNMzg1WEU3YjN6SlZjb3VveEJ2R09BcUhKb01LYmI0QmltVlZsczRWTlVIR0pYXzZhTzQ1VXlMSEItYjdJZVRZZ3B1ZWdxNGFVMzB6Y3l0Mk1MZF95VGNzazBJM1BOZnRiNWJvamVvNFVfMXgxakdKdGtjVE1tWkJvcjNnLWpKbUJEZS1fQ2hDYUlXSjFGWGhUcUdTTEFTWWZ3SlhZczJOWnRqOUthSXpvSWNndw?oc=5"
     },
     {
+      "iso": "FRA",
+      "title": "EE.UU. y Francia confirman caso de contagio de hantavirus: van m\u00e1s de 10 pa\u00edses con infectados o sospechosos - es-us.noticias.yahoo.com",
+      "t": "2026-05-11T12:51:45Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUVV5d1EyNnl1U3p5dkdjSkYybXY1LUFkSHNpbEVGV2g1UWNreDVINkUtUUhOR2ZFaDhJRW1zbFkwMmdkWTNSc0ZxVnI0dGM0dGNSTmhydmxmeXB0cDdmdDE2MW9vMmg2aXRPaXZTYU1lWWhVWjh2aS1xdlZQMUIzX053?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
       "t": "2026-05-10T17:36:03Z",
@@ -4190,7 +4205,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T04:50:16Z",
+      "last_update": "2026-05-12T04:55:16Z",
       "signals": 9,
       "recent": [
         {
