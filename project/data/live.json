@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T20:00:14.874540Z",
-  "next_update": "2026-05-12T20:05:00Z",
+  "generated": "2026-05-12T20:05:15.082337Z",
+  "next_update": "2026-05-12T20:10:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 69,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 3,
+      "var_pct": 2,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 7,
+      "signals": 5,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 16,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "GBR": 1,
     "USA": 3,
     "FRA": 3,
-    "ARG": 7
+    "ARG": 5
   },
   "events": [
     {
@@ -4044,13 +4044,6 @@
       "t": "2026-05-12T16:48:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQclBIUHZVcXJVVXhJdXdmTkF1MU9yYVNQMmI5QmUzQzNWTDlUc2c3ekRzQmpsYVhMLXF0Y1hrRUZaZlM4RGpVWEFEN2VEcnNfdVNsNUNlYThrbktwWjd2OFc2MlZTbVBFRlU2czY2N1hicTdCbFJldnFQYmc5MFVPNEQtYzN0US1hOGhzSHo4dVBZUFpSeDVlaWRzSDUtM2JVNGc?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "El director de la OMS no descarta m\u00e1s casos de hantavirus por el brote en el crucero que sali\u00f3 de Argentina - Diario El D\u00eda de La Plata",
-      "t": "2026-05-12T15:45:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWlRuYWxuTDZFVWpESzh2TDlxVG5WWUkzMDVBTWJTUk5uN1ZwM0NSLTJ3UTlNaHZzcjNiUV9jeHFFSHFDVWZqVTlBS3gxQVpNUEVPR1NpaUpldmZoTEs1aXd2V3dPRGJsUXp5ZGpTZkVyOFFSYTdySG1WVjk0azhfTzdON1JYa0ZXOWxURHpDR29YVnAwZUxTSXJiM2ZqWGVOakNFdXZjZ2wtR0tuakhXWHdDamk4QWVGMnJlb0ZUTkZ2bWxWRGdyMmZjMVlCS3FYQjRMSXpvYUJMQVpCM3BIeVJ2SG9uN0tUejkxddIB8gFBVV95cUxOeGtHOGJtUkxmckptb3dIRTh5YU5MeTVVaFhvWVgzVC1ZTV9XelJmRjFNekpiRnhTUDd3V1p2ekl5bGhhMzJaR0dFcVhtZFZyc01hYVRteDNINk1WVnZEZHNzSVlFc3lXNlpKSzdPU2tuN09Gd3BNU1AwM01DWE9ZYzVvOHdKeU43X2w5UTBaRVhwZlk0bnJMSEQ4dlJDTmcyY2h2SUZYLUtkeDdDM2toeEZmejB4blNhYWdGRFJ6dWNZTmI2N3M5aDgyTnpRc1FkWkNpM3JxcmVEZk9udl91WXBKdFJJT2lKZHhqRUZCbU5Edw?oc=5"
     },
     {
       "iso": "FRA",
@@ -4103,13 +4096,6 @@
     },
     {
       "iso": "ARG",
-      "title": "The last hantavirus outbreak devastated an entire village \u2014 here\u2019s how Argentina finally stopped it - New York Post",
-      "t": "2026-05-12T10:00:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWXRuZnBTWkR5RVhCNkV6YTRPMzN3UzBGcGdVVDlybEs5VVNnbUtjVWUyYXRjQ3QtdTl0cHlZV3B1ZFNIQXVoekpwaEtlbU9EWVFNSXVjcmVHTkVTb0JkLTFKMTI3VW1oRF94Z010YlRKZS1DakZfQU4wYUJjRWNUZzAwOHpXYmJGVzNtUVpTbkhsanZWc2NZ?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Brote de hantavirus en Argentina: tres muertes y vigilancia internacional en cruceros - Perfil",
       "t": "2026-05-11T14:54:00Z",
       "source": "GoogleNews-ES",
@@ -4139,8 +4125,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T20:00:14Z",
-      "signals": 5,
+      "last_update": "2026-05-12T20:05:15Z",
+      "signals": 4,
       "recent": [
         {
           "title": "Mapping the hantavirus outbreak as cruise ship passengers return to US - USA Today",
@@ -4151,11 +4137,6 @@
           "title": "Francia intensifica medidas tras caso de hantavirus vinculado al crucero MV Hondius - France 24",
           "t": "2026-05-12T14:50:12Z",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYWQ2RDlTTjg3OFhGVEgzN1B1RG5wLWdBTGpZT0R1emJ0MkFTV1kxTjRaYkF4YUZjUi1VZkM1SVcwQzZrV3d2N01IaEVJckNRNnFHMFNhWkF3TG1TUHlfREVCOHdrX0doSkZscXV6U1hPaXloa3ltZXNHbGE1TlY5bkRQLTBRdWVNcnl0TnJLMjNxTWRYNFBGRnNDOXA0RUdjZ1psNTBsMWdUVTY0NFE4ZDlWcXpfWUh1cTh4dUQydFVKT2k0?oc=5"
-        },
-        {
-          "title": "El director de la OMS no descarta m\u00e1s casos de hantavirus por el brote en el crucero que sali\u00f3 de Argentina - Diario El D\u00eda de La Plata",
-          "t": "2026-05-12T15:45:00Z",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWlRuYWxuTDZFVWpESzh2TDlxVG5WWUkzMDVBTWJTUk5uN1ZwM0NSLTJ3UTlNaHZzcjNiUV9jeHFFSHFDVWZqVTlBS3gxQVpNUEVPR1NpaUpldmZoTEs1aXd2V3dPRGJsUXp5ZGpTZkVyOFFSYTdySG1WVjk0azhfTzdON1JYa0ZXOWxURHpDR29YVnAwZUxTSXJiM2ZqWGVOakNFdXZjZ2wtR0tuakhXWHdDamk4QWVGMnJlb0ZUTkZ2bWxWRGdyMmZjMVlCS3FYQjRMSXpvYUJMQVpCM3BIeVJ2SG9uN0tUejkxddIB8gFBVV95cUxOeGtHOGJtUkxmckptb3dIRTh5YU5MeTVVaFhvWVgzVC1ZTV9XelJmRjFNekpiRnhTUDd3V1p2ekl5bGhhMzJaR0dFcVhtZFZyc01hYVRteDNINk1WVnZEZHNzSVlFc3lXNlpKSzdPU2tuN09Gd3BNU1AwM01DWE9ZYzVvOHdKeU43X2w5UTBaRVhwZlk0bnJMSEQ4dlJDTmcyY2h2SUZYLUtkeDdDM2toeEZmejB4blNhYWdGRFJ6dWNZTmI2N3M5aDgyTnpRc1FkWkNpM3JxcmVEZk9udl91WXBKdFJJT2lKZHhqRUZCbU5Edw?oc=5"
         },
         {
           "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
