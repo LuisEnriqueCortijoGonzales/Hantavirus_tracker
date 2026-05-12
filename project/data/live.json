@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-12T18:45:15.021179Z",
-  "next_update": "2026-05-12T18:50:00Z",
+  "generated": "2026-05-12T18:50:16.795921Z",
+  "next_update": "2026-05-12T18:55:00Z",
   "days_active": 4,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 69,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 2,
+      "var_pct": 3,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 5,
+      "signals": 6,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 17,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,9 +4021,16 @@
     "FRA": 3,
     "USA": 3,
     "CAN": 1,
-    "ARG": 5
+    "ARG": 6
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "La fiesta de 15 menos pensada. As\u00ed fue el mayor brote de hantavirus de la Argentina: 34 casos y una respuesta sanitaria que aporta claves para el caso del MV Hondius - La Naci\u00f3n",
+      "t": "2026-05-12T18:44:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOWM3bDdqMmNKTUszLXRQWEF4ZmRsc19VWUdvSFJKU20ycjBxVjAyV3JzZmxSWVZHbllwYlpBQ01ROWw5eklmcTdWb1ZIZ2FsRFphZWc3bHF6SzRRelN3dWM4Sm9MMldtZDYtOEVEdjZWQkx0RHJmOTlCbk5ZU0M3enVKOFRjS0o2WXB1NlFIRG13QmUzandSSW1vYjJKWmRaMEJhZTJxWkNIMmstaF9qWlRSamUxZHl2NzY4cl9CUkhnN3RaeXZWQzNYZGVuN244ZmZHSmZocnJSMXdBbDZmSw?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "'No evidence' of widespread hantavirus circulation in France, health minister says - France 24",
@@ -4125,7 +4132,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-12T18:45:15Z",
+      "last_update": "2026-05-12T18:50:16Z",
       "signals": 6,
       "recent": [
         {
