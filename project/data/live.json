@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T01:20:04.414760Z",
-  "next_update": "2026-05-13T01:25:00Z",
+  "generated": "2026-05-13T01:25:08.410305Z",
+  "next_update": "2026-05-13T01:30:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 17,
     "polymarket": 9,
-    "kalshi": 17,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,8 +4018,8 @@
     "outbreak_count": 8
   },
   "signal_summary": {
-    "GBR": 1,
     "USA": 2,
+    "GBR": 1,
     "FRA": 4,
     "ARG": 8,
     "MEX": 1,
@@ -4067,13 +4067,6 @@
       "t": "2026-05-12T21:12:10Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPOUg0UURyQ182S1lDaUpFSGVaeFFqSFFEdVNPSHd5NmJtaTQwdzVCUGhfcFBwNDBiRHhCRmZKWWpWNEotRUZURWJNanVfQng2QzRwaEsxWWFVUE0zRG1xaTByR1dtMmdkSUFnQmtpQmNrYXU3eGN2NGgzVlJYbjJoelpCMjE4b2VZNXlGT0VkWjdabWRLZ080Y21Kbkg0RjZTWGcxTC1ZUXYxNGV4LWo5dzFOTGpGbVJwS1praW45LWdNeXVyM3UtcUxJY2NYZWlnNDBEOFl2WTlOOGtmTGduNTBXZE1XQkV3dzh6TjB5QXRYbXF6czdOMUdWV2VrUdIB_gFBVV95cUxPOUg0UURyQ182S1lDaUpFSGVaeFFqSFFEdVNPSHd5NmJtaTQwdzVCUGhfcFBwNDBiRHhCRmZKWWpWNEotRUZURWJNanVfQng2QzRwaEsxWWFVUE0zRG1xaTByR1dtMmdkSUFnQmtpQmNrYXU3eGN2NGgzVlJYbjJoelpCMjE4b2VZNXlGT0VkWjdabWRLZ080Y21Kbkg0RjZTWGcxTC1ZUXYxNGV4LWo5dzFOTGpGbVJwS1praW45LWdNeXVyM3UtcUxJY2NYZWlnNDBEOFl2WTlOOGtmTGduNTBXZE1XQkV3dzh6TjB5QXRYbXF6czdOMUdWV2VrUQ?oc=5"
-    },
-    {
-      "iso": "GBR",
-      "title": "Ten more people to be flown to UK for hantavirus monitoring after cruise - BBC",
-      "t": "2026-05-12T20:41:38Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lOElMTl9EU0VYNFNNYnRiTlNQWjB1Ujdxc0VCNVUtNXFpUzNmVTJLaE01WnpUWFNOTEVPSlRMdk05ZVN0UHFFWXQ2c2xKal9JcmRFT3FWSVZLUQ?oc=5"
     },
     {
       "iso": "ARG",
@@ -4132,6 +4125,13 @@
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUFhkVjJ3ZmhCeUFacmRzWlJQblE5U0NWTGZsaEh1U2hrNWJiTnJyaWlQZGFScG5zV0RVSmN3aXVrNXh3ckdOMklZX25oUkQwUG5qQkpIbzFyNlFQTVdoeWdFeFlDb28xdEMwRjVaN0lKb0F1NXozcVRqWTU5MzZURTlTRk1uRk9kZ2NGb2o4amdodl9mVUVQU2hwWXVQN18zQjBN?oc=5"
     },
     {
+      "iso": "GBR",
+      "title": "Ten more people to be flown to UK for hantavirus monitoring after cruise - BBC",
+      "t": "2026-05-12T11:06:27Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lOElMTl9EU0VYNFNNYnRiTlNQWjB1Ujdxc0VCNVUtNXFpUzNmVTJLaE01WnpUWFNOTEVPSlRMdk05ZVN0UHFFWXQ2c2xKal9JcmRFT3FWSVZLUQ?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "Brote de hantavirus en Argentina: tres muertes y vigilancia internacional en cruceros - Perfil",
       "t": "2026-05-11T14:54:00Z",
@@ -4162,7 +4162,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T01:20:04Z",
+      "last_update": "2026-05-13T01:25:08Z",
       "signals": 5,
       "recent": [
         {
