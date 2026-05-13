@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T17:55:08.427106Z",
-  "next_update": "2026-05-13T18:00:00Z",
+  "generated": "2026-05-13T18:00:14.822071Z",
+  "next_update": "2026-05-13T18:05:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -1401,7 +1401,6 @@
     "2026-05-13T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-11T18:00:00Z",
     "2026-05-11T19:00:00Z",
     "2026-05-11T20:00:00Z",
     "2026-05-11T21:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-13T14:00:00Z",
     "2026-05-13T15:00:00Z",
     "2026-05-13T16:00:00Z",
-    "2026-05-13T17:00:00Z"
+    "2026-05-13T17:00:00Z",
+    "2026-05-13T18:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -4019,9 +4019,9 @@
   },
   "signal_summary": {
     "ARG": 20,
-    "USA": 2,
+    "USA": 3,
     "FRA": 6,
-    "GBR": 2
+    "GBR": 1
   },
   "events": [
     {
@@ -4037,6 +4037,13 @@
       "t": "2026-05-13T17:15:37Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMHJJRUVKelNLY0pGQkRFZ3g2OXFfUUFCOUZzcGRfSDNpMEdKRll2V2lKSXkxR0lUVDlXZlY4d1gxeUNQMzZRQld0VlpHM2FDb2l4RWZrcGctUm5nV05zUlpMTmQ5MDlXcHhOZWd2NkQxemVGOEphUUpHU0tRV0VZWnFIOUhLQ040M3BXRFA3VlhkOUthTDNhdGg0cnVWUXNYeVlTQmFqbkg?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "What parents should know about talking to kids about hantavirus - Good Morning America",
+      "t": "2026-05-13T16:57:03Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYkpLemdSbE9RakFaWTc2VkJOZkV0WVBHbXo3TldXd2hBeEpkNFNzdUcxclJNa0tZc1NiVVBnUVF1M3NqM1BXVXJCalktS2NXN1ZyMV85MElxZUNraGFIVUFpODZFUHRjLUYwazVWMEZPVmo4UnprOExZMDROb2tHRlJKYjZxNUJZTUJYREVTRTdHa0FsZHfSAZsBQVVfeXFMTVhPRkZlVHJZaXprd3RxNGhpMU1SRXRVVnZmdzhUNjN2LUFJU0RBeFJtNjJjMkEzWFlXRnNWaW1KRGVVLURvM2FlNGluQjZjT2JOeUxaRGFuMlA0X0xlNWY4d0FTM2ZjYTg2M2JHRzlneUVhWkEtUW03ejR6QnFjQzZZci1hRFU4eHpEcnM3TThRc0FidGJoaVZNNms?oc=5"
     },
     {
       "iso": "ARG",
@@ -4207,13 +4214,6 @@
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPOUg0UURyQ182S1lDaUpFSGVaeFFqSFFEdVNPSHd5NmJtaTQwdzVCUGhfcFBwNDBiRHhCRmZKWWpWNEotRUZURWJNanVfQng2QzRwaEsxWWFVUE0zRG1xaTByR1dtMmdkSUFnQmtpQmNrYXU3eGN2NGgzVlJYbjJoelpCMjE4b2VZNXlGT0VkWjdabWRLZ080Y21Kbkg0RjZTWGcxTC1ZUXYxNGV4LWo5dzFOTGpGbVJwS1praW45LWdNeXVyM3UtcUxJY2NYZWlnNDBEOFl2WTlOOGtmTGduNTBXZE1XQkV3dzh6TjB5QXRYbXF6czdOMUdWV2VrUdIB_gFBVV95cUxPOUg0UURyQ182S1lDaUpFSGVaeFFqSFFEdVNPSHd5NmJtaTQwdzVCUGhfcFBwNDBiRHhCRmZKWWpWNEotRUZURWJNanVfQng2QzRwaEsxWWFVUE0zRG1xaTByR1dtMmdkSUFnQmtpQmNrYXU3eGN2NGgzVlJYbjJoelpCMjE4b2VZNXlGT0VkWjdabWRLZ080Y21Kbkg0RjZTWGcxTC1ZUXYxNGV4LWo5dzFOTGpGbVJwS1praW45LWdNeXVyM3UtcUxJY2NYZWlnNDBEOFl2WTlOOGtmTGduNTBXZE1XQkV3dzh6TjB5QXRYbXF6czdOMUdWV2VrUQ?oc=5"
     },
     {
-      "iso": "GBR",
-      "title": "Ten more people to be flown to UK for hantavirus monitoring after cruise - BBC",
-      "t": "2026-05-12T20:41:38Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lOElMTl9EU0VYNFNNYnRiTlNQWjB1Ujdxc0VCNVUtNXFpUzNmVTJLaE01WnpUWFNOTEVPSlRMdk05ZVN0UHFFWXQ2c2xKal9JcmRFT3FWSVZLUQ?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "Brote de hantavirus en Argentina: tres muertes y vigilancia internacional en cruceros - Perfil",
       "t": "2026-05-11T14:54:00Z",
@@ -4251,7 +4251,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T17:55:08Z",
+      "last_update": "2026-05-13T18:00:14Z",
       "signals": 7,
       "recent": [
         {
