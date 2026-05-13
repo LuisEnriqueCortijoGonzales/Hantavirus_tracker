@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T20:50:15.023764Z",
-  "next_update": "2026-05-13T20:55:00Z",
+  "generated": "2026-05-13T20:55:08.409753Z",
+  "next_update": "2026-05-13T21:00:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 72,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 7,
+      "var_pct": 8,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 15,
+      "signals": 16,
       "gov_alert": false
     },
     "CHL": {
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 20,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 4,
-    "ARG": 15,
+    "ARG": 16,
     "MEX": 2,
     "FRA": 4,
     "SLV": 1
@@ -4101,6 +4101,13 @@
       "t": "2026-05-13T14:56:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNm1TNE9wV0xFVHVxSmRoZ0dLczB4R1FXY0hzU041alB5ZkItdl9rNVJ2X0RHOFVOOVg0SVVZNXh0dVVnNnMxanhnS1hBRTJjYVZFMW1wX2ZWLWE4b1hhck9VS2ZPSEZnSzF4aHMxMHZUbUZkRndSVWhvV3pFVHFXS0RZdkdVRHJjaUZjODBuSEFNSEJfTTVFSmFneGEyUTBjQkR2dkJRQzlYOTRDRkVRUkxjeE1IMDZNRDNlTVhIaEtNTkHSAcgBQVVfeXFMTjMxbkw0LVJxUzJzaEZFRUF1YWZ4YmlCeXRpckVha1U4b1lkblNWVG5rcFFPNHRWV3l1QWh1WFUyMDZ0RWtfUFJrQkNvTlRfZ3RiX2lKek5RQWkzN0dMZ3FmNjhndkZYb1M1UFQ5THd2dGZDZGFnZUs1RjRvU2FFc191QUpkQTVMdnBWQVAwT1dhZmVSWndMZ1hfWVhfY19zSGxfeExiZHI5SHNyWEVVUlZObmNwQ2x2X0lrOUJGaHRZRVdXaVRQQzI?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus: los casos en Argentina ascendieron a 102 - Nota al Pie",
+      "t": "2026-05-13T14:30:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9URzIxTkRnY3dnSFBscUNJZVctYkpmdTk2c3AwMFhucjBNa0pHWmU5bzhMR2hla2RkZkc4U2FqU01EZF9Pbml2SUdDWnRNOVBndzFJTWJ1YllURmJmaGlPdzRpSlgxTVlRTHV6eERiOWQ3VU1TLWN3T3NjTQ?oc=5"
     },
     {
       "iso": "ARG",
@@ -4224,7 +4231,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T20:50:15Z",
+      "last_update": "2026-05-13T20:55:08Z",
       "signals": 5,
       "recent": [
         {
