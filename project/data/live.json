@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T19:55:08.426515Z",
-  "next_update": "2026-05-13T20:00:00Z",
+  "generated": "2026-05-13T20:00:16.821205Z",
+  "next_update": "2026-05-13T20:05:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 72,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 8,
+      "var_pct": 7,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 16,
+      "signals": 15,
       "gov_alert": false
     },
     "CHL": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -1401,7 +1401,6 @@
     "2026-05-13T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-11T20:00:00Z",
     "2026-05-11T21:00:00Z",
     "2026-05-11T22:00:00Z",
     "2026-05-11T23:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-13T16:00:00Z",
     "2026-05-13T17:00:00Z",
     "2026-05-13T18:00:00Z",
-    "2026-05-13T19:00:00Z"
+    "2026-05-13T19:00:00Z",
+    "2026-05-13T20:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 16,
     "polymarket": 8,
-    "kalshi": 21,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,8 +4018,8 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "ARG": 16,
-    "USA": 2,
+    "ARG": 15,
+    "USA": 3,
     "FRA": 4,
     "SLV": 1
   },
@@ -4037,6 +4037,13 @@
       "t": "2026-05-13T17:45:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMHJJRUVKelNLY0pGQkRFZ3g2OXFfUUFCOUZzcGRfSDNpMEdKRll2V2lKSXkxR0lUVDlXZlY4d1gxeUNQMzZRQld0VlpHM2FDb2l4RWZrcGctUm5nV05zUlpMTmQ5MDlXcHhOZWd2NkQxemVGOEphUUpHU0tRV0VZWnFIOUhLQ040M3BXRFA3VlhkOUthTDNhdGg0cnVWUXNYeVlTQmFqbkg?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "What parents should know about talking to kids about hantavirus - Good Morning America",
+      "t": "2026-05-13T16:57:03Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYkpLemdSbE9RakFaWTc2VkJOZkV0WVBHbXo3TldXd2hBeEpkNFNzdUcxclJNa0tZc1NiVVBnUVF1M3NqM1BXVXJCalktS2NXN1ZyMV85MElxZUNraGFIVUFpODZFUHRjLUYwazVWMEZPVmo4UnprOExZMDROb2tHRlJKYjZxNUJZTUJYREVTRTdHa0FsZHfSAZsBQVVfeXFMTVhPRkZlVHJZaXprd3RxNGhpMU1SRXRVVnZmdzhUNjN2LUFJU0RBeFJtNjJjMkEzWFlXRnNWaW1KRGVVLURvM2FlNGluQjZjT2JOeUxaRGFuMlA0X0xlNWY4d0FTM2ZjYTg2M2JHRzlneUVhWkEtUW03ejR6QnFjQzZZci1hRFU4eHpEcnM3TThRc0FidGJoaVZNNms?oc=5"
     },
     {
       "iso": "USA",
@@ -4107,13 +4114,6 @@
       "t": "2026-05-13T12:14:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWl9ETHFFRWRuWl93OGd4T3dPZXAyMDR4RjNuMV9OTVROY21rMHRTdWpuTlNkOEYyaU1Wa2JTUnczQ1I1bGlmRTdXRWJLTE9jUUk3WEhjdGlsRW5TNTZsWFVYU1JWM1ZEQVVvbVJZdk5VMnM1dV92WlFRV2N6eU9QWnBLVDlvdUJQQ0NuWm5xYkdZZU9wRmkyVWVMaErSAZwBQVVfeXFMTVpfRExxRUVkblpfdzhneE93T2VwMjA0eEYzbjFfTk1UTmNtazB0U3Vqbk5TZDhGMmlNVmtiU1J3M0NSNWxpZkU3V0ViS0xPY1FJN1hIY3RpbEVuUzU2bFhVWFNSVjNWREFVb21SWXZOVTJzNXVfdlpRUVdjenlPUFpwS1Q5b3VCUENDblpucWJHWWVPcEZpMlVlTGhK?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus en Argentina: ya se confirmaron 102 casos en la temporada - C5N",
-      "t": "2026-05-13T12:07:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV1dnbTNVTzdwa1FzQUJZRFFRVVJoRE1zdE5FVEp4dWtvWUFwM2hfcHZhRGlJQjJNWmVXZUQ4YWFIRFh6TDNKbnVXd0RjbFlkemticVQ2cFd0bUpCVi1aczJHMmxjU3hHaHQtaW5aU0lNTWw5R21wdG9yeWtjc3ZTY19pRENDamlvZ01SSEh2OVdaVzZQ0gGaAUFVX3lxTFBTNlNWeWlJYkc3Z2p3V2pUR00yS1VkSEMxX21ib0xtYmE1emRGQTVNT0NvN3hKZmFHTUVZRTZQTzY3RC0xRVZHbG82ZG44UW5rZTZNQkpITFY1cUk1MDkxZXlmTktibFljMkhKN2R5cDhaRWpZY1Jnd1hOVHlwaXJwVEJSQUhiaHBfVTZLN2VfTEFaaGlNazhNWGc?oc=5"
     },
     {
       "iso": "ARG",
@@ -4202,7 +4202,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T19:55:08Z",
+      "last_update": "2026-05-13T20:00:16Z",
       "signals": 6,
       "recent": [
         {
