@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T09:50:14.757420Z",
-  "next_update": "2026-05-13T09:55:00Z",
+  "generated": "2026-05-13T09:55:16.776015Z",
+  "next_update": "2026-05-13T10:00:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -23,7 +23,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "BRA": {
@@ -111,7 +111,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "PAN": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 17,
     "epidemio": 17,
     "polymarket": 9,
-    "kalshi": 23,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4023,7 +4023,9 @@
     "USA": 2,
     "ARG": 13,
     "MEX": 2,
-    "BRA": 1
+    "BRA": 1,
+    "CHL": 1,
+    "URY": 1
   },
   "events": [
     {
@@ -4181,6 +4183,20 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
     },
     {
+      "iso": "CHL",
+      "title": "El crucero del hantavirus: la pareja que habr\u00eda arrancado la cadena de contagios viaj\u00f3 por todo el pa\u00eds, Chile y Uruguay antes de abordar el MV Hondius - Clarin.com",
+      "t": "2026-05-06T20:08:56Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOHVSMlE0QXpFVHlhWi1Jek4tcVYwMFBYU3ZKLV9zZjBEYVlRcTQ1M2pYMUl6OGlKdmhMNm12VEJ2RTRGcGRWd2JaeFpVdjNhS212bHhtaGgwSGFvZWx3bU9DV2F2bUhGZHdXTUhKdUlVZWxCLU0wOTd6QmVfdjJsUG8taUtOQVdjSmZJZHEzdDgzdlVzV3VnVWpLNWZqSFI3Q294emhZcWE5OXJnYUc2QmVLcjl2WEdleF8wX0RUd013d0I5WVFjU2R4eHI5a1ZiYTEyVW5VNkZfdjBfYkRn?oc=5"
+    },
+    {
+      "iso": "URY",
+      "title": "El crucero del hantavirus: la pareja que habr\u00eda arrancado la cadena de contagios viaj\u00f3 por todo el pa\u00eds, Chile y Uruguay antes de abordar el MV Hondius - Clarin.com",
+      "t": "2026-05-06T20:08:56Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOHVSMlE0QXpFVHlhWi1Jek4tcVYwMFBYU3ZKLV9zZjBEYVlRcTQ1M2pYMUl6OGlKdmhMNm12VEJ2RTRGcGRWd2JaeFpVdjNhS212bHhtaGgwSGFvZWx3bU9DV2F2bUhGZHdXTUhKdUlVZWxCLU0wOTd6QmVfdjJsUG8taUtOQVdjSmZJZHEzdDgzdlVzV3VnVWpLNWZqSFI3Q294emhZcWE5OXJnYUc2QmVLcjl2WEdleF8wX0RUd013d0I5WVFjU2R4eHI5a1ZiYTEyVW5VNkZfdjBfYkRn?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "Argentina asiste a pa\u00edses europeos con insumos de diagn\u00f3stico para hantavirus - Argentina.gob.ar",
       "t": "2026-05-06T19:21:48Z",
@@ -4225,8 +4241,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T09:50:14Z",
-      "signals": 9,
+      "last_update": "2026-05-13T09:55:16Z",
+      "signals": 10,
       "recent": [
         {
           "title": "Francia intensifica medidas tras caso de hantavirus vinculado al crucero MV Hondius - France 24",
@@ -4249,9 +4265,9 @@
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
         },
         {
-          "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
-          "t": "2026-05-06T15:29:33Z",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
+          "title": "Argentina reconstruye el periplo del \u2018caso \u00edndice\u2019 de hantavirus antes de subir al crucero - Sinc",
+          "t": "2026-05-07T06:16:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
         }
       ]
     }
