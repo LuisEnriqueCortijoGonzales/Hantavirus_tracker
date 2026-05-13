@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T20:15:14.978380Z",
-  "next_update": "2026-05-13T20:20:00Z",
+  "generated": "2026-05-13T20:20:14.759226Z",
+  "next_update": "2026-05-13T20:25:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 15,
+      "signals": 14,
       "gov_alert": false
     },
     "CHL": {
@@ -78,7 +78,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "USA": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 8,
-    "kalshi": 24,
+    "kalshi": 17,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,10 +4018,11 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "ARG": 15,
+    "ARG": 14,
     "USA": 3,
     "FRA": 4,
-    "SLV": 1
+    "SLV": 1,
+    "MEX": 1
   },
   "events": [
     {
@@ -4072,6 +4073,13 @@
       "t": "2026-05-13T15:11:33Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNEFmeFdoN3JWRUdlS2dzVmI3aEprR2ozeDRYWFVoYW90M1RUTlhUOFhPeWFWV0pJOXAtMEdYMkRhdnBURk94RTNvMnVlWDRSYzl6RDQ5YWY2MWhXbFdYeUdVRmJDN295ajJlV1lSUEZfRWJXbHpCcGFVWEdYc0RnMXA0a3pkRTdGQzQ5SFkxVnBnSFdjdl9kSXZwUVBaam9Sb0xSUWI2ZFZzS3ZnTms3aWFYRDZ0LUI5Sm5ub21fbHhCVHR6UnAw?oc=5"
+    },
+    {
+      "iso": "MEX",
+      "title": "Hantavirus de los Andes en M\u00e9xico: cu\u00e1ntos casos hay y qu\u00e9 hacer ante s\u00edntomas - Ambito",
+      "t": "2026-05-13T14:56:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNm1TNE9wV0xFVHVxSmRoZ0dLczB4R1FXY0hzU041alB5ZkItdl9rNVJ2X0RHOFVOOVg0SVVZNXh0dVVnNnMxanhnS1hBRTJjYVZFMW1wX2ZWLWE4b1hhck9VS2ZPSEZnSzF4aHMxMHZUbUZkRndSVWhvV3pFVHFXS0RZdkdVRHJjaUZjODBuSEFNSEJfTTVFSmFneGEyUTBjQkR2dkJRQzlYOTRDRkVRUkxjeE1IMDZNRDNlTVhIaEtNTkHSAcgBQVVfeXFMTjMxbkw0LVJxUzJzaEZFRUF1YWZ4YmlCeXRpckVha1U4b1lkblNWVG5rcFFPNHRWV3l1QWh1WFUyMDZ0RWtfUFJrQkNvTlRfZ3RiX2lKek5RQWkzN0dMZ3FmNjhndkZYb1M1UFQ5THd2dGZDZGFnZUs1RjRvU2FFc191QUpkQTVMdnBWQVAwT1dhZmVSWndMZ1hfWVhfY19zSGxfeExiZHI5SHNyWEVVUlZObmNwQ2x2X0lrOUJGaHRZRVdXaVRQQzI?oc=5"
     },
     {
       "iso": "ARG",
@@ -4177,13 +4185,6 @@
       "t": "2026-05-10T17:36:03Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "C\u00f3mo la destrucci\u00f3n de h\u00e1bitats y el cambio clim\u00e1tico contribuyeron al aumento de casos de hantavirus en Argentina - CNN en Espa\u00f1ol",
-      "t": "2026-05-08T13:12:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNTA4a2JUem5XRW5Xc05ENXpQalZwV0pyQlAtZDljVTBoNnJYYTMyMV9qVEN3Wmd0RG1mcnh1N0ViQkNpdTJoVzQ4STFNMm43MDN5RlRMaURxZ2tQMXdxYktJNkVKa2NXdzlLS3cteGlEMGszcFBQN2NJNVBFM0hyektrejVuOWp4RUt2VFhUMFduaVE?oc=5"
     }
   ],
   "maritime_events": [
@@ -4202,7 +4203,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T20:15:14Z",
+      "last_update": "2026-05-13T20:20:14Z",
       "signals": 6,
       "recent": [
         {
