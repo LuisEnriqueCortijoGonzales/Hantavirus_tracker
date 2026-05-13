@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T18:40:16.787784Z",
-  "next_update": "2026-05-13T18:45:00Z",
+  "generated": "2026-05-13T18:45:14.853043Z",
+  "next_update": "2026-05-13T18:50:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 16,
     "polymarket": 8,
-    "kalshi": 25,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,8 +4021,8 @@
     "ARG": 17,
     "USA": 2,
     "FRA": 6,
-    "GBR": 2,
-    "SLV": 1
+    "SLV": 1,
+    "GBR": 1
   },
   "events": [
     {
@@ -4125,6 +4125,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Hantavirus en Argentina: ya se confirmaron 102 casos en la temporada - C5N",
+      "t": "2026-05-13T12:07:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV1dnbTNVTzdwa1FzQUJZRFFRVVJoRE1zdE5FVEp4dWtvWUFwM2hfcHZhRGlJQjJNWmVXZUQ4YWFIRFh6TDNKbnVXd0RjbFlkemticVQ2cFd0bUpCVi1aczJHMmxjU3hHaHQtaW5aU0lNTWw5R21wdG9yeWtjc3ZTY19pRENDamlvZ01SSEh2OVdaVzZQ0gGaAUFVX3lxTFBTNlNWeWlJYkc3Z2p3V2pUR00yS1VkSEMxX21ib0xtYmE1emRGQTVNT0NvN3hKZmFHTUVZRTZQTzY3RC0xRVZHbG82ZG44UW5rZTZNQkpITFY1cUk1MDkxZXlmTktibFljMkhKN2R5cDhaRWpZY1Jnd1hOVHlwaXJwVEJSQUhiaHBfVTZLN2VfTEFaaGlNazhNWGc?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Hantavirus en Argentina: confirman 102 casos en la temporada y analizan el brote en un crucero - El Eco",
       "t": "2026-05-13T11:59:53Z",
       "source": "GoogleNews-ES",
@@ -4194,13 +4201,6 @@
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPOUg0UURyQ182S1lDaUpFSGVaeFFqSFFEdVNPSHd5NmJtaTQwdzVCUGhfcFBwNDBiRHhCRmZKWWpWNEotRUZURWJNanVfQng2QzRwaEsxWWFVUE0zRG1xaTByR1dtMmdkSUFnQmtpQmNrYXU3eGN2NGgzVlJYbjJoelpCMjE4b2VZNXlGT0VkWjdabWRLZ080Y21Kbkg0RjZTWGcxTC1ZUXYxNGV4LWo5dzFOTGpGbVJwS1praW45LWdNeXVyM3UtcUxJY2NYZWlnNDBEOFl2WTlOOGtmTGduNTBXZE1XQkV3dzh6TjB5QXRYbXF6czdOMUdWV2VrUdIB_gFBVV95cUxPOUg0UURyQ182S1lDaUpFSGVaeFFqSFFEdVNPSHd5NmJtaTQwdzVCUGhfcFBwNDBiRHhCRmZKWWpWNEotRUZURWJNanVfQng2QzRwaEsxWWFVUE0zRG1xaTByR1dtMmdkSUFnQmtpQmNrYXU3eGN2NGgzVlJYbjJoelpCMjE4b2VZNXlGT0VkWjdabWRLZ080Y21Kbkg0RjZTWGcxTC1ZUXYxNGV4LWo5dzFOTGpGbVJwS1praW45LWdNeXVyM3UtcUxJY2NYZWlnNDBEOFl2WTlOOGtmTGduNTBXZE1XQkV3dzh6TjB5QXRYbXF6czdOMUdWV2VrUQ?oc=5"
     },
     {
-      "iso": "GBR",
-      "title": "Ten more people to be flown to UK for hantavirus monitoring after cruise - BBC",
-      "t": "2026-05-12T20:41:38Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lOElMTl9EU0VYNFNNYnRiTlNQWjB1Ujdxc0VCNVUtNXFpUzNmVTJLaE01WnpUWFNOTEVPSlRMdk05ZVN0UHFFWXQ2c2xKal9JcmRFT3FWSVZLUQ?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "Brote de hantavirus en Argentina: tres muertes y vigilancia internacional en cruceros - Perfil",
       "t": "2026-05-11T14:54:00Z",
@@ -4213,13 +4213,6 @@
       "t": "2026-05-10T17:36:03Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "C\u00f3mo la destrucci\u00f3n de h\u00e1bitats y el cambio clim\u00e1tico contribuyeron al aumento de casos de hantavirus en Argentina - CNN en Espa\u00f1ol",
-      "t": "2026-05-08T13:12:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNTA4a2JUem5XRW5Xc05ENXpQalZwV0pyQlAtZDljVTBoNnJYYTMyMV9qVEN3Wmd0RG1mcnh1N0ViQkNpdTJoVzQ4STFNMm43MDN5RlRMaURxZ2tQMXdxYktJNkVKa2NXdzlLS3cteGlEMGszcFBQN2NJNVBFM0hyektrejVuOWp4RUt2VFhUMFduaVE?oc=5"
     }
   ],
   "maritime_events": [
@@ -4238,7 +4231,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T18:40:16Z",
+      "last_update": "2026-05-13T18:45:14Z",
       "signals": 6,
       "recent": [
         {
