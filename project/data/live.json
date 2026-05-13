@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T11:00:14.819595Z",
-  "next_update": "2026-05-13T11:05:00Z",
+  "generated": "2026-05-13T11:05:15.073529Z",
+  "next_update": "2026-05-13T11:10:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 2,
+      "var_pct": 3,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 5,
+      "signals": 6,
       "gov_alert": false
     },
     "CHE": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 17,
     "polymarket": 9,
-    "kalshi": 20,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,8 +4018,8 @@
     "outbreak_count": 8
   },
   "signal_summary": {
-    "FRA": 5,
     "GBR": 1,
+    "FRA": 6,
     "USA": 2,
     "ARG": 14,
     "MEX": 2,
@@ -4032,6 +4032,13 @@
       "t": "2026-05-13T10:38:43Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWTFuQ3l0V1ROWmJTM1N6dGt1MFllX0U3M2JiVkdqTmxMR3IwbGliVjRoTW04dUZfVzliTkd3NkFFRmh1bDgtNzRJSXRvOVJUby1CeDBBUjRBR1JxS1FJMDd3Nm11cm9EODFjOG5IU1Z3NUpsVjVXMFVqcjFfR1dvZ3BUWGpVakR5eVEyTFc3SWkyd2FQcURPWjJZWkRVZnV3N1dDcWNPX3d2VndKS3hnM01YaENDNGVJ?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Efforts to control hantavirus outbreak reach global scale while cases in Spain and France fuel uncertainty - EL PA\u00cdS English",
+      "t": "2026-05-13T09:57:02Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNcGVjcHVlc2c4dTRRcW5KVndSWjZ6VzVsaXd0MHRXTVVZZGhOZHJuYzRwdC1PcFFyRVZudmNxQmxSaFVNSjc4Tm80Y21qbTd5aURYUzZPZ0ZZb0FLQ0pEajRPU3AzdFdNczVTblduWEt4TFZlLTZFdl80Q3hha24tVlFDR1huTHJ1dXJVT3pxbEJhTW9ILURudFFONkwxQl9WczE2aGM0ci1NVnlxeEtRb2pEcHQydzRqdDd5aWFWd2x0WHVoOTA5aHpsUDFNbHphbWRPelNpdkJQdWllQXR3T2pkSzMtZ2xwTE95WdIBgAJBVV95cUxOS3M2bEJDeHBCdjRrZElyTHEyLXVIdlFYQjJEZ2laaW1sVHFIZU9ZUmF4Si1xcFB0RkdjeHlQT1V4cWZoWkxBLUdwYTFOOE1pSjdIeHlZT29qWG1TUXE0UHl2aVBadEIzM3p6bDFFWk1vWUFQNmozTG5TMUFhM3hCckVmbEp0akdvcEYzdUV0QW5uV19XR1RhaThsN3dOeE5RT3pUSjJXWVpzb1NBQW5BdllLbjA1R2hKbkhzTGZFWnUyS2hKbVY4UU45UkxEVkt2eHJsVVZfbGVBRWVQLUlpYTdZOGZRU0N1bXlHOHhwdjhwSldObjlZVnhyZ3J5UEZz?oc=5"
     },
     {
       "iso": "FRA",
@@ -4218,7 +4225,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T11:00:14Z",
+      "last_update": "2026-05-13T11:05:15Z",
       "signals": 9,
       "recent": [
         {
