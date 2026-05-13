@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T23:00:14.937516Z",
-  "next_update": "2026-05-13T23:05:00Z",
+  "generated": "2026-05-13T23:05:15.223651Z",
+  "next_update": "2026-05-13T23:10:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 72,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 7,
+      "var_pct": 8,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 15,
+      "signals": 16,
       "gov_alert": false
     },
     "CHL": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 2,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 17,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,12 +4019,19 @@
   },
   "signal_summary": {
     "MEX": 3,
-    "ARG": 15,
+    "ARG": 16,
     "USA": 2,
-    "FRA": 4,
+    "FRA": 3,
     "SLV": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "M\u00e9dico en aislamiento tras atender brote de hantavirus en crucero - Cadena 3 Argentina",
+      "t": "2026-05-13T22:59:56Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRUF2VkVDMElucllSN1lua1RyVHhEVE9TQkoxNVlKdWt2RGhzZHZsU0pCTzlZcEo1ckNDOUJNUnBXcEdHNS1mbVR5NXJvSGkxMG00aUF5QU9nUllQTUU0V1VOOXNVZ21pZW9JTzVkRjRrLVBrNy1SUE9QXzVGZ1hHZ1JJVzdFRjdhc01nSERSblhmc0tLY2RqWkhYLVRKb2RMeVNZelotN2d1a2pWemsw0gG0AUFVX3lxTE1kQ1ozNmZKUmJlaGxHOUc5WXlOSmNHd0ZTTFgxdjBYcDFzLXZfZFNaNkdUNzY4c3BvTnJ2OEtnZmlwejBBYjI1dW9QcXg4VnZLZzM5X3BUX3hsQUVwVGR0cFd1VTNqUk5MNVl4bk1VY3B6Vlc1eDg3cFdjVUNGLWJURE5rcEN6NDNkd050SXdwcElZVmhkX3hja3RyUjdSR3dwYmNSejZmWlRzQ0twLTE0ZGJ0ag?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Alerta por hantavirus en Argentina: suben los casos y crece la preocupaci\u00f3n por el brote del crucero - El Diario de la Pampa",
@@ -4160,13 +4167,6 @@
     },
     {
       "iso": "FRA",
-      "title": "Francia pone en cuarentena en Par\u00eds a ocho personas identificadas como contactos de un caso de hantavirus - Anadolu Ajans\u0131",
-      "t": "2026-05-13T08:14:55Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbTF6RTl2VFZXdUZORUdkWF9CaEtrSWhYSW5sODNYT1hrYnQ5dnNmVThzaF9FeW1lVjNjWGNTdzhfRU84X000YlhOMkN3TUllN0tsQmVwWGoxb09qT0xUQ0hDRUlHVjBwMW1nREo5dURNVG04am0xek5lbVpaaS12YkVzYmlQbThLbDZEcW5NWWlKMnF6ajAyaGNWd3MtQ0ZkQ3B1eGlGdHdVNkpwdGw3OXBlVXRxdEFHZUh0UlJiNDZlc2hlUW0xcEd5cGJnWjNjWXZrWnF4N09NUko1Y3luczJJMA?oc=5"
-    },
-    {
-      "iso": "FRA",
       "title": "Esfuerzo global para controlar el brote de hantavirus, mientras los casos en Espa\u00f1a y Francia disparan la incertidumbre - EL PA\u00cdS",
       "t": "2026-05-13T03:30:01Z",
       "source": "GoogleNews-ES",
@@ -4217,13 +4217,18 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T23:00:14Z",
-      "signals": 4,
+      "last_update": "2026-05-13T23:05:15Z",
+      "signals": 5,
       "recent": [
         {
           "title": "New Mexico's hantavirus strain is different from cruise ship outbreak and does not spread between people - UNM HSC Newsroom",
           "t": "2026-05-13T21:12:54Z",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVpsMXJOSnRETzVJRUNiajlyMHpQWkVhVFpKZ1kwQ240bHlEMDd2anV4XzBRclI5Ti1yVXVCRWZ6V0JMdXNNZ0xrUGw1OVdtM1pINk80QVg3UmxQN0h4V2xWZ2l2NzlvUE5aZE4wemtUQTBzUk9RMzRoZnQtcWlXTlNJNGtEX08tYXlENWZtQS1OQWNhRWxlSkpNWm1yZ0ZDZDRWejZZSlBfaExJX00zYzBtX1ZkY2c3S0FMc1V1amdueWpEaE9lejZZVkFhZw?oc=5"
+        },
+        {
+          "title": "M\u00e9dico en aislamiento tras atender brote de hantavirus en crucero - Cadena 3 Argentina",
+          "t": "2026-05-13T22:59:56Z",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRUF2VkVDMElucllSN1lua1RyVHhEVE9TQkoxNVlKdWt2RGhzZHZsU0pCTzlZcEo1ckNDOUJNUnBXcEdHNS1mbVR5NXJvSGkxMG00aUF5QU9nUllQTUU0V1VOOXNVZ21pZW9JTzVkRjRrLVBrNy1SUE9QXzVGZ1hHZ1JJVzdFRjdhc01nSERSblhmc0tLY2RqWkhYLVRKb2RMeVNZelotN2d1a2pWemsw0gG0AUFVX3lxTE1kQ1ozNmZKUmJlaGxHOUc5WXlOSmNHd0ZTTFgxdjBYcDFzLXZfZFNaNkdUNzY4c3BvTnJ2OEtnZmlwejBBYjI1dW9QcXg4VnZLZzM5X3BUX3hsQUVwVGR0cFd1VTNqUk5MNVl4bk1VY3B6Vlc1eDg3cFdjVUNGLWJURE5rcEN6NDNkd050SXdwcElZVmhkX3hja3RyUjdSR3dwYmNSejZmWlRzQ0twLTE0ZGJ0ag?oc=5"
         },
         {
           "title": "Alerta por hantavirus en Argentina: suben los casos y crece la preocupaci\u00f3n por el brote del crucero - El Diario de la Pampa",
