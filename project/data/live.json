@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T14:50:14.761446Z",
-  "next_update": "2026-05-13T14:55:00Z",
+  "generated": "2026-05-13T14:55:08.409675Z",
+  "next_update": "2026-05-13T15:00:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 72,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 7,
+      "var_pct": 8,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 14,
+      "signals": 16,
       "gov_alert": false
     },
     "CHL": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 17,
     "polymarket": 8,
-    "kalshi": 20,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,10 +4021,17 @@
     "USA": 3,
     "GBR": 2,
     "FRA": 5,
-    "ARG": 14,
+    "ARG": 16,
     "MEX": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Alerta por hantavirus: Argentina ya suma 102 casos confirmados y sigue la investigaci\u00f3n por el brote en un crucero - Argentar Noticias",
+      "t": "2026-05-13T14:10:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOcFpWdmtCRXh1MjMxaEV3X3NMbHZZVFZWaVJDQmNGQnRtR05QbTVOOUZkYmt4cEtSRlZOQmNrUlNCaFo2eExtODQwQVhJM0NiRVV0QjB1dEpIZi0yTEx3NjRSVEhnVzlvWE0tMW5KdjBSTkdlVFM4WGFhVDVWVHZ5Ny1RblJnLVo4aHhlbWwzeUNwVzlIWlVzRXlSSXAwYnJ1Wnl6amFDOTdXckxQLUk1NXFncFN1S1YwcUwwWmpPYTV2M1hsZXFMYmdHLW9DZTZmbEF0T2tkY29USVBqdms4?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "\u00bfPor qu\u00e9 la OMS descarta una epidemia tras el brote de hantavirus? - France 24",
@@ -4052,6 +4059,13 @@
       "t": "2026-05-13T13:12:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR2FzS1VGcVYwR3R1QmszSjBrNTVXVFZwMUpGaTBTbnN2YjNfTzRGSWlHZ2d2SHM5TlVySG5rcHg2RVB1MFRiWDl2NEJiTDFmTUxzV2JzTmQxRWdRRFl5eS1lNzhFaG5sRElZWjRYU2RIT09ZamFJUWF6M0tBekNoNDVMOE5ucl9xc3ZlRTl2akQ0WWFZV3ZiSzhmNUNLVXZxOFpCQVJqYUVoRjFKdFHSAa4BQVVfeXFMUEdhc0tVRnFWMEd0dUJrM0owazU1V1RWcDFKRmkwU25zdmIzX080RklpR2dndkhzOU5Vckhua3B4NkVQdTBUYlg5djRCYkwxZk1Mc1dic05kMUVnUURZeXktZTc4RWhubERJWVo0WFNkSE9PWWphSVFhejNLQXpDaDQ1TDhObnJfcXN2ZUU5dmpENFlhWVd2Yks4ZjVDS1V2cThaQkFSamFFaEYxSnRR?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus en Argentina: ya se confirmaron 102 casos - Noticiasd",
+      "t": "2026-05-13T13:04:54Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbUZVaVloaUFfY3RJLXl5RHcxdWZlcDhjU1F0OVlzWUxMYWVHSzRDbHBONXBFU3l1alBBV1ZXUEhSTUplQ2FJejhHcElReVR0YUdqelZ4SndSTTU1WGpJWXFYZ0h6WFMwdlBCVjVYYXB5WmJyM1R4eGRrZEQ3b2NCUVJfMlN5d0VUTWVGT2RXa0xtdw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4217,8 +4231,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T14:50:14Z",
-      "signals": 6,
+      "last_update": "2026-05-13T14:55:08Z",
+      "signals": 7,
       "recent": [
         {
           "title": "Mapping the hantavirus outbreak as cruise ship passengers return to US - USA Today",
