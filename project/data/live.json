@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T22:10:16.732491Z",
-  "next_update": "2026-05-13T22:15:00Z",
+  "generated": "2026-05-13T22:15:16.818344Z",
+  "next_update": "2026-05-13T22:20:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -78,7 +78,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "USA": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 1,
+      "var_pct": 2,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 4,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,10 +4018,10 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "MEX": 3,
+    "MEX": 2,
     "USA": 3,
     "ARG": 15,
-    "FRA": 3,
+    "FRA": 4,
     "SLV": 1
   },
   "events": [
@@ -4066,13 +4066,6 @@
       "t": "2026-05-13T21:01:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUTZJejhVcEFhWGtHamIyMzhhNnBGWVRXNzN0cUxoclVCc0VxbUhDbDZxa29pTU9pNTdBUEMxYlRoTVpOVWxmcWpwVHo5R0Rwa3hyYjRBY2NTN3FQT19qMGZjVF9FUFVkNnI3WTJBeS1mSlNGendfS3RvbDVNeTZJNUJtTUhfNHowN0tTdFlfT2pITXdVUkRrOG5KMGtIREhPcl9ETzZtdTY?oc=5"
-    },
-    {
-      "iso": "MEX",
-      "title": "Mexico, though free of documented cases, issues hantavirus alert - Mexico News Daily",
-      "t": "2026-05-13T20:43:36Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TOHZqSnIzOWhteWh1bmQwVTVpaFk4a2laWWtlM0NRVlhqZVNaOG1FUjUwU1QtUnF3a2hsVW5LT082dHozOGFkUXJscG1PSGNpdXlZTm5Ja2xLemRQNnN1Q2pCczQ5S1JtZzBrdGFmWkNWQQ?oc=5"
     },
     {
       "iso": "SLV",
@@ -4167,6 +4160,13 @@
     },
     {
       "iso": "FRA",
+      "title": "Francia pone en cuarentena en Par\u00eds a ocho personas identificadas como contactos de un caso de hantavirus - Anadolu Ajans\u0131",
+      "t": "2026-05-13T08:14:55Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbTF6RTl2VFZXdUZORUdkWF9CaEtrSWhYSW5sODNYT1hrYnQ5dnNmVThzaF9FeW1lVjNjWGNTdzhfRU84X000YlhOMkN3TUllN0tsQmVwWGoxb09qT0xUQ0hDRUlHVjBwMW1nREo5dURNVG04am0xek5lbVpaaS12YkVzYmlQbThLbDZEcW5NWWlKMnF6ajAyaGNWd3MtQ0ZkQ3B1eGlGdHdVNkpwdGw3OXBlVXRxdEFHZUh0UlJiNDZlc2hlUW0xcEd5cGJnWjNjWXZrWnF4N09NUko1Y3luczJJMA?oc=5"
+    },
+    {
+      "iso": "FRA",
       "title": "Esfuerzo global para controlar el brote de hantavirus, mientras los casos en Espa\u00f1a y Francia disparan la incertidumbre - EL PA\u00cdS",
       "t": "2026-05-13T03:30:01Z",
       "source": "GoogleNews-ES",
@@ -4217,7 +4217,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T22:10:16Z",
+      "last_update": "2026-05-13T22:15:16Z",
       "signals": 5,
       "recent": [
         {
