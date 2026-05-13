@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T10:40:14.610173Z",
-  "next_update": "2026-05-13T10:45:00Z",
+  "generated": "2026-05-13T10:45:14.856924Z",
+  "next_update": "2026-05-13T10:50:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 17,
     "polymarket": 9,
-    "kalshi": 23,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4028,10 +4028,10 @@
   "events": [
     {
       "iso": "ARG",
-      "title": "La operadora del crucero afectado por hantavirus espera decisiones clave - Cadena 3 Argentina",
+      "title": "La operadora del crucero afectado por hantavirus espera decisiones clave - Noticias - 20 - Cadena 3 Argentina",
       "t": "2026-05-13T10:38:43Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWTFuQ3l0V1ROWmJTM1N6dGt1MFllX0U3M2JiVkdqTmxMR3IwbGliVjRoTW04dUZfVzliTkd3NkFFRmh1bDgtNzRJSXRvOVJUby1CeDBBUjRBR1JxS1FJMDd3Nm11cm9EODFjOG5IU1Z3NUpsVjVXMFVqcjFfR1dvZ3BUWGpVakR5eVEyTFc3SWkyd2FQcURPWjJZWkRVZnV3N1dDcWNPX3d2VndKS3hnM01YaENDNGVJ0gG-AUFVX3lxTE9PNUlsNUcwOHUtNVUzNUZmODNubzJDZVVMRU9RSGFtNndIRURVQkJtVWp3cDcwQ1lUekpmOEM5MG9VWGUzVDdrX0Y2RVlLZVlxaC1sdDNuVF9jVEdpZklyb1RDR3hUdHBVakRLWmRlZndpYXpENnNWZWZLRzlPOU8wYThwcDJyOWxUbFE2LWhoRUJxVmd6RUhVZXB6OWtTLThfRWlGYWY2bURNMFBRSkZxNmxZdnJEMmRxcnZORWc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWTFuQ3l0V1ROWmJTM1N6dGt1MFllX0U3M2JiVkdqTmxMR3IwbGliVjRoTW04dUZfVzliTkd3NkFFRmh1bDgtNzRJSXRvOVJUby1CeDBBUjRBR1JxS1FJMDd3Nm11cm9EODFjOG5IU1Z3NUpsVjVXMFVqcjFfR1dvZ3BUWGpVakR5eVEyTFc3SWkyd2FQcURPWjJZWkRVZnV3N1dDcWNPX3d2VndKS3hnM01YaENDNGVJ?oc=5"
     },
     {
       "iso": "FRA",
@@ -4218,7 +4218,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T10:40:14Z",
+      "last_update": "2026-05-13T10:45:14Z",
       "signals": 9,
       "recent": [
         {
@@ -4227,14 +4227,14 @@
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUTZJejhVcEFhWGtHamIyMzhhNnBGWVRXNzN0cUxoclVCc0VxbUhDbDZxa29pTU9pNTdBUEMxYlRoTVpOVWxmcWpwVHo5R0Rwa3hyYjRBY2NTN3FQT19qMGZjVF9FUFVkNnI3WTJBeS1mSlNGendfS3RvbDVNeTZJNUJtTUhfNHowN0tTdFlfT2pITXdVUkRrOG5KMGtIREhPcl9ETzZtdTY?oc=5"
         },
         {
+          "title": "La operadora del crucero afectado por hantavirus espera decisiones clave - Noticias - 20 - Cadena 3 Argentina",
+          "t": "2026-05-13T10:38:43Z",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWTFuQ3l0V1ROWmJTM1N6dGt1MFllX0U3M2JiVkdqTmxMR3IwbGliVjRoTW04dUZfVzliTkd3NkFFRmh1bDgtNzRJSXRvOVJUby1CeDBBUjRBR1JxS1FJMDd3Nm11cm9EODFjOG5IU1Z3NUpsVjVXMFVqcjFfR1dvZ3BUWGpVakR5eVEyTFc3SWkyd2FQcURPWjJZWkRVZnV3N1dDcWNPX3d2VndKS3hnM01YaENDNGVJ?oc=5"
+        },
+        {
           "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
           "t": "2026-05-10T17:36:03Z",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
-        },
-        {
-          "title": "La operadora del crucero afectado por hantavirus espera decisiones clave - Cadena 3 Argentina",
-          "t": "2026-05-13T10:38:43Z",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWTFuQ3l0V1ROWmJTM1N6dGt1MFllX0U3M2JiVkdqTmxMR3IwbGliVjRoTW04dUZfVzliTkd3NkFFRmh1bDgtNzRJSXRvOVJUby1CeDBBUjRBR1JxS1FJMDd3Nm11cm9EODFjOG5IU1Z3NUpsVjVXMFVqcjFfR1dvZ3BUWGpVakR5eVEyTFc3SWkyd2FQcURPWjJZWkRVZnV3N1dDcWNPX3d2VndKS3hnM01YaENDNGVJ0gG-AUFVX3lxTE9PNUlsNUcwOHUtNVUzNUZmODNubzJDZVVMRU9RSGFtNndIRURVQkJtVWp3cDcwQ1lUekpmOEM5MG9VWGUzVDdrX0Y2RVlLZVlxaC1sdDNuVF9jVEdpZklyb1RDR3hUdHBVakRLWmRlZndpYXpENnNWZWZLRzlPOU8wYThwcDJyOWxUbFE2LWhoRUJxVmd6RUhVZXB6OWtTLThfRWlGYWY2bURNMFBRSkZxNmxZdnJEMmRxcnZORWc?oc=5"
         },
         {
           "title": "Argentina reconstruye el periplo del \u2018caso \u00edndice\u2019 de hantavirus antes de subir al crucero - Sinc",
