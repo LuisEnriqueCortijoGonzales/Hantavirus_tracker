@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T14:25:08.447565Z",
-  "next_update": "2026-05-13T14:30:00Z",
+  "generated": "2026-05-13T14:30:14.798876Z",
+  "next_update": "2026-05-13T14:35:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 17,
     "epidemio": 17,
     "polymarket": 8,
-    "kalshi": 19,
+    "kalshi": 25,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,13 +4018,20 @@
     "outbreak_count": 8
   },
   "signal_summary": {
-    "USA": 2,
+    "USA": 3,
     "GBR": 2,
     "FRA": 4,
     "ARG": 16,
     "MEX": 2
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "Hantavirus updates \u2013 quarantined American tests negative; possible Illinois case - USA Today",
+      "t": "2026-05-13T13:58:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNM2MtaDMtX1MtWGVRckhnZkVvRVk4ME9vczZqOTA5VmpFaW1UZXB1NE9DT01zT3k3N0w4ZnB6bGo4YVZjeFFWLUZjMGtMT3VEWHVBX1VYT2Z2LXhRdWVfR0JOczlFMGdPb0ZvOTZQMzBMZF9qVlhuNF9xMjFhcDBJcHdocGZUYXZBSVV2eEIzd3hUSHZOUVE0VlVzdk5lM1YwenlBNnFPZnZHb0l5R3c?oc=5"
+    },
     {
       "iso": "USA",
       "title": "He was on the hantavirus cruise. What he wants every American to know. - USA Today",
@@ -4224,7 +4231,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T14:25:08Z",
+      "last_update": "2026-05-13T14:30:14Z",
       "signals": 6,
       "recent": [
         {
