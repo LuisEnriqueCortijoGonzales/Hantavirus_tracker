@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T13:20:14.774253Z",
-  "next_update": "2026-05-13T13:25:00Z",
+  "generated": "2026-05-13T13:25:16.801120Z",
+  "next_update": "2026-05-13T13:30:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 22,
+      "signals": 23,
       "gov_alert": false
     },
     "CHL": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 2,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 25,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,9 +4020,9 @@
   "signal_summary": {
     "USA": 2,
     "GBR": 3,
-    "FRA": 4,
-    "ARG": 22,
-    "MEX": 2
+    "ARG": 23,
+    "MEX": 2,
+    "FRA": 3
   },
   "events": [
     {
@@ -4031,6 +4031,13 @@
       "t": "2026-05-13T13:12:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR2FzS1VGcVYwR3R1QmszSjBrNTVXVFZwMUpGaTBTbnN2YjNfTzRGSWlHZ2d2SHM5TlVySG5rcHg2RVB1MFRiWDl2NEJiTDFmTUxzV2JzTmQxRWdRRFl5eS1lNzhFaG5sRElZWjRYU2RIT09ZamFJUWF6M0tBekNoNDVMOE5ucl9xc3ZlRTl2akQ0WWFZV3ZiSzhmNUNLVXZxOFpCQVJqYUVoRjFKdFHSAa4BQVVfeXFMUEdhc0tVRnFWMEd0dUJrM0owazU1V1RWcDFKRmkwU25zdmIzX080RklpR2dndkhzOU5Vckhua3B4NkVQdTBUYlg5djRCYkwxZk1Mc1dic05kMUVnUURZeXktZTc4RWhubERJWVo0WFNkSE9PWWphSVFhejNLQXpDaDQ1TDhObnJfcXN2ZUU5dmpENFlhWVd2Yks4ZjVDS1V2cThaQkFSamFFaEYxSnRR?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus en Argentina: ya se confirmaron 102 casos - Noticiasd",
+      "t": "2026-05-13T13:04:54Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbUZVaVloaUFfY3RJLXl5RHcxdWZlcDhjU1F0OVlzWUxMYWVHSzRDbHBONXBFU3l1alBBV1ZXUEhSTUplQ2FJejhHcElReVR0YUdqelZ4SndSTTU1WGpJWXFYZ0h6WFMwdlBCVjVYYXB5WmJyM1R4eGRrZEQ3b2NCUVJfMlN5d0VUTWVGT2RXa0xtdw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4125,13 +4132,6 @@
     },
     {
       "iso": "FRA",
-      "title": "Efforts to control hantavirus outbreak reach global scale while cases in Spain and France fuel uncertainty - EL PA\u00cdS English",
-      "t": "2026-05-13T09:57:02Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNcGVjcHVlc2c4dTRRcW5KVndSWjZ6VzVsaXd0MHRXTVVZZGhOZHJuYzRwdC1PcFFyRVZudmNxQmxSaFVNSjc4Tm80Y21qbTd5aURYUzZPZ0ZZb0FLQ0pEajRPU3AzdFdNczVTblduWEt4TFZlLTZFdl80Q3hha24tVlFDR1huTHJ1dXJVT3pxbEJhTW9ILURudFFONkwxQl9WczE2aGM0ci1NVnlxeEtRb2pEcHQydzRqdDd5aWFWd2x0WHVoOTA5aHpsUDFNbHphbWRPelNpdkJQdWllQXR3T2pkSzMtZ2xwTE95WdIBgAJBVV95cUxOS3M2bEJDeHBCdjRrZElyTHEyLXVIdlFYQjJEZ2laaW1sVHFIZU9ZUmF4Si1xcFB0RkdjeHlQT1V4cWZoWkxBLUdwYTFOOE1pSjdIeHlZT29qWG1TUXE0UHl2aVBadEIzM3p6bDFFWk1vWUFQNmozTG5TMUFhM3hCckVmbEp0akdvcEYzdUV0QW5uV19XR1RhaThsN3dOeE5RT3pUSjJXWVpzb1NBQW5BdllLbjA1R2hKbkhzTGZFWnUyS2hKbVY4UU45UkxEVkt2eHJsVVZfbGVBRWVQLUlpYTdZOGZRU0N1bXlHOHhwdjhwSldObjlZVnhyZ3J5UEZz?oc=5"
-    },
-    {
-      "iso": "FRA",
       "title": "Esfuerzo global para controlar el brote de hantavirus, mientras los casos en Espa\u00f1a y Francia disparan la incertidumbre - EL PA\u00cdS",
       "t": "2026-05-13T03:30:01Z",
       "source": "GoogleNews-ES",
@@ -4208,14 +4208,14 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPczJSUXlha0NhSUVORUdEWlE1bEcyMkhVb2JzNExwM1Bqb3RCZklHMkhQQy0tZkFLTFdLX3BBQ2VvVlk1U0NOTmxMdUFVdS1IeGdsUDVrekhQcmJjRG9QNlAwZVNtT1ViTWc1V0c0N1ZGRGY5SzM1dWFCVTR6b2hBWGV6cUtTakE5VXREQm92RDVJOE41OVJEeVU3Rjh5MUh3TGZyVjN0RGx4ZkVrNWM5b21uQkhvTjFoUnRqQTJwN19aTnRwMjJBdUdNczZMM1ZkQ2c?oc=5"
     },
     {
-      "iso": "FRA",
+      "iso": "ARG",
       "title": "Argentina registra un aumento de casos de hantavirus, pero sin brote, dice un experto - France 24",
       "t": "2026-05-07T09:51:20Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNLTFxOHZhTWlVVlNad3M3TmRjVVNvM0gyMG1FUEpWNXZoUnp0b1ZaUEtTSkl1VkpXTHFmdHFZOTdBOFF2azUtY05XWGE0bVl2UFR3NUFLaDYzY0J2aDV4MkhUZUhMZlRNVTlsUTlHZ3o2eHBqMnlIbmt3MW5XRTBJM1drNThXd2RPQVJwTkJGQmNObE5INjRqRXVLRHZoOVY1aFBlSlR2RGhfZnlLWmU3WkwyUUItUWlyU2prWXFzM0NYVE1KRmpQOUFaQUZSaE5hNnc?oc=5"
     },
     {
-      "iso": "ARG",
+      "iso": "FRA",
       "title": "Argentina registra un aumento de casos de hantavirus, pero sin brote, dice un experto - France 24",
       "t": "2026-05-07T09:51:20Z",
       "source": "GoogleNews-ES",
@@ -4273,7 +4273,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T13:20:14Z",
+      "last_update": "2026-05-13T13:25:16Z",
       "signals": 10,
       "recent": [
         {
@@ -4297,9 +4297,9 @@
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
         },
         {
-          "title": "Argentina reconstruye el periplo del \u2018caso \u00edndice\u2019 de hantavirus antes de subir al crucero - Sinc",
-          "t": "2026-05-07T06:16:00Z",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
+          "title": "Hantavirus: ya se confirmaron 102 casos en Argentina y preocupa el brote detectado en un crucero - El Marplatense",
+          "t": "2026-05-13T12:56:02Z",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaTdNbW9tMnFXU0NxeDFsMmJsUHZGTWFQaGpDYWpVeEZzNkhiVVh0Zzd5Vk0wdzVHTXFKbE9BUTJjdHh0d2wtd0hNWGozS184R2VzemFCb2pabFZ6MTFXVzFKOGlqX2t0V3ZaRWZJdldYZGdQUGY1U2tRLVBqdFNPdko4LS01TjhZSWhLN3VReUIwQzN3QXdxSWRVN0dWdVZ2WmltOEVnYVEzcW11T3pYR0x3MDdZSUlNNnNYSUd1cUZnZUU?oc=5"
         }
       ]
     }
