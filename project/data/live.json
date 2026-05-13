@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T17:20:16.785962Z",
-  "next_update": "2026-05-13T17:25:00Z",
+  "generated": "2026-05-13T17:25:08.406817Z",
+  "next_update": "2026-05-13T17:30:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 73,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 8,
+      "var_pct": 9,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 17,
+      "signals": 18,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 8,
-    "kalshi": 18,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,10 +4020,17 @@
   "signal_summary": {
     "USA": 3,
     "FRA": 5,
-    "ARG": 17,
+    "ARG": 18,
     "GBR": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Una fiesta de 15 tr\u00e1gica, 12 muertos y 34 infectados: as\u00ed fue el mayor brote de hantavirus en Argentina - Infobae",
+      "t": "2026-05-13T17:23:12Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRFNFdi1IWnFQWVdob3dtV2lXY0V4WXR6VV9NRTNQakljSGt6SUJsemtGck43dW1sOXl0MnkwQngzS1ZLNWRJUGZjMndQTVI4d3pISDlnX3BjTWJtMGZYVThXdVdUSS1kb0JDWklELVh2NmVDdF9Sd2ZXYUluSnZtNlZKRWszZFFIUVc2OGRaQjViVDBLTlhfeVVlQnJYRXN4U0xzRmhjM1Q0Tmh0dHlTQW1XZHR6bGlhT2tQNEJaWkVHamN0cms2VWEtaG1qWXBoamF2SmdhdGhRMi1ya3ZmU1Jqc3EzUdIBgAJBVV95cUxOZGFleElHVFRzZjA3Q1ItMjFuSVFraTByeVozOXRrUG9wckg4d0ZEX0dfaXJMY3J5N2p0MXRRSnNpZ1VoQi1LcE9CMWdpbXFyYVc3RGxPbzFvYlMwdzBVbDJaN0x6WEZrcldDY0xMc0VVOFBFQlJEMl9yOUwzTmdodEFqZTkyb240QmxSOHJxUEl4MFVGRW5paGtZd3J0Y1ZGZVkxalplY1RlcThYcjVkcVFpY3pIaFJDMkVEZ1Q3Ui1FYjAyLTZacGZSY0YyYTZWTUoyMjdGdUxRVGRjVk1xeVNOSDlXbnlHSG43T1lpV2k0aWFfQldGQ01LdWp1ZHVJ?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Fiesta de 15 a\u00f1os y hantavirus: el brote que dej\u00f3 12 muertos en Argentina y hoy gu\u00eda la investigaci\u00f3n del MV Hondius - nacion.com",
@@ -4083,7 +4090,7 @@
     {
       "iso": "ARG",
       "title": "Hantavirus: ya se confirmaron 102 casos en Argentina y preocupa el brote detectado en un crucero - El Marplatense",
-      "t": "2026-05-13T12:56:02Z",
+      "t": "2026-05-13T12:52:07Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaTdNbW9tMnFXU0NxeDFsMmJsUHZGTWFQaGpDYWpVeEZzNkhiVVh0Zzd5Vk0wdzVHTXFKbE9BUTJjdHh0d2wtd0hNWGozS184R2VzemFCb2pabFZ6MTFXVzFKOGlqX2t0V3ZaRWZJdldYZGdQUGY1U2tRLVBqdFNPdko4LS01TjhZSWhLN3VReUIwQzN3QXdxSWRVN0dWdVZ2WmltOEVnYVEzcW11T3pYR0x3MDdZSUlNNnNYSUd1cUZnZUU?oc=5"
     },
@@ -4223,7 +4230,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T17:20:16Z",
+      "last_update": "2026-05-13T17:25:08Z",
       "signals": 8,
       "recent": [
         {
