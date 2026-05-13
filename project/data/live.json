@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T12:55:08.410365Z",
-  "next_update": "2026-05-13T13:00:00Z",
+  "generated": "2026-05-13T13:00:14.920021Z",
+  "next_update": "2026-05-13T13:05:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 20,
+      "signals": 21,
       "gov_alert": false
     },
     "CHL": {
@@ -1401,7 +1401,6 @@
     "2026-05-13T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-11T13:00:00Z",
     "2026-05-11T14:00:00Z",
     "2026-05-11T15:00:00Z",
     "2026-05-11T16:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-13T09:00:00Z",
     "2026-05-13T10:00:00Z",
     "2026-05-13T11:00:00Z",
-    "2026-05-13T12:00:00Z"
+    "2026-05-13T12:00:00Z",
+    "2026-05-13T13:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -4021,10 +4021,17 @@
     "FRA": 4,
     "GBR": 3,
     "USA": 1,
-    "ARG": 20,
+    "ARG": 21,
     "MEX": 2
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Hantavirus: ya se confirmaron 102 casos en Argentina y preocupa el brote detectado en un crucero - El Marplatense",
+      "t": "2026-05-13T12:56:02Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaTdNbW9tMnFXU0NxeDFsMmJsUHZGTWFQaGpDYWpVeEZzNkhiVVh0Zzd5Vk0wdzVHTXFKbE9BUTJjdHh0d2wtd0hNWGozS184R2VzemFCb2pabFZ6MTFXVzFKOGlqX2t0V3ZaRWZJdldYZGdQUGY1U2tRLVBqdFNPdko4LS01TjhZSWhLN3VReUIwQzN3QXdxSWRVN0dWdVZ2WmltOEVnYVEzcW11T3pYR0x3MDdZSUlNNnNYSUd1cUZnZUU?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Hantavirus: ya se registran 102 casos confirmados en Argentina - El Chubut",
@@ -4252,8 +4259,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T12:55:08Z",
-      "signals": 10,
+      "last_update": "2026-05-13T13:00:14Z",
+      "signals": 11,
       "recent": [
         {
           "title": "Mapping the hantavirus outbreak as cruise ship passengers return to US - USA Today",
