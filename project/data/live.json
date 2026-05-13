@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T14:45:14.817420Z",
-  "next_update": "2026-05-13T14:50:00Z",
+  "generated": "2026-05-13T14:50:14.761446Z",
+  "next_update": "2026-05-13T14:55:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 72,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 8,
+      "var_pct": 7,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 16,
+      "signals": 14,
       "gov_alert": false
     },
     "CHL": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 17,
     "polymarket": 8,
-    "kalshi": 22,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "USA": 3,
     "GBR": 2,
     "FRA": 5,
-    "ARG": 16,
+    "ARG": 14,
     "MEX": 1
   },
   "events": [
@@ -4052,13 +4052,6 @@
       "t": "2026-05-13T13:12:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR2FzS1VGcVYwR3R1QmszSjBrNTVXVFZwMUpGaTBTbnN2YjNfTzRGSWlHZ2d2SHM5TlVySG5rcHg2RVB1MFRiWDl2NEJiTDFmTUxzV2JzTmQxRWdRRFl5eS1lNzhFaG5sRElZWjRYU2RIT09ZamFJUWF6M0tBekNoNDVMOE5ucl9xc3ZlRTl2akQ0WWFZV3ZiSzhmNUNLVXZxOFpCQVJqYUVoRjFKdFHSAa4BQVVfeXFMUEdhc0tVRnFWMEd0dUJrM0owazU1V1RWcDFKRmkwU25zdmIzX080RklpR2dndkhzOU5Vckhua3B4NkVQdTBUYlg5djRCYkwxZk1Mc1dic05kMUVnUURZeXktZTc4RWhubERJWVo0WFNkSE9PWWphSVFhejNLQXpDaDQ1TDhObnJfcXN2ZUU5dmpENFlhWVd2Yks4ZjVDS1V2cThaQkFSamFFaEYxSnRR?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus en Argentina: ya se confirmaron 102 casos - Noticiasd",
-      "t": "2026-05-13T13:04:54Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbUZVaVloaUFfY3RJLXl5RHcxdWZlcDhjU1F0OVlzWUxMYWVHSzRDbHBONXBFU3l1alBBV1ZXUEhSTUplQ2FJejhHcElReVR0YUdqelZ4SndSTTU1WGpJWXFYZ0h6WFMwdlBCVjVYYXB5WmJyM1R4eGRrZEQ3b2NCUVJfMlN5d0VUTWVGT2RXa0xtdw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4122,13 +4115,6 @@
       "t": "2026-05-13T11:46:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQjhLalEzM3RaTU5ubXE0aEk3NXFCT0JpdTVCbFFUT0JuSVNUVm9PZU5PbWNCLXdaNkE4LVNhbkd0bTlkMFRiZDkzd0dKS3lDbGxDY1dseEdlRzdmZVU5eDdrRzRhN2stSGlMa3VydkpsTXJTRTd6NEgyNWhiT0p3NkdkdHdsdTJidVVCZnFQUEc4cFlJMmg0S2NqV2lOeWFiOVZRTmdnMDVuamxlazAxSm92N3fSAboBQVVfeXFMTUdteEFiZzEwZ2dNTUEzdlBkN0dUNGZyMWhZVy05aHJwXzR3cS1hS0tsNFdNcHY2WXBURU1mVTFKM0RqSGh2V25lYWJhT2dWaHNxbmFHcFREaktnb0VzZHVVYlRBMXJhYzlIM0VrUTF2dlVjUmRteTlLeXFOb2UzWUY0dmFIUGVGajFzY08xVDhpZzNnTU84cWNwbEdDUEpSOTVnX2pKMWh0eTNGcmtna21qWFdkUXFPLV9R?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus: el total de casos en Argentina asciende a 102 - Agencia Noticias Argentinas",
-      "t": "2026-05-13T11:16:12Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMTJXMWJRM0JhWjdocUpWMG5zeExBZnEtWlNVRU13eUNPaTRSUVhjZ0RCTUwwMzRJVUFsWjJVS0xsck81ZXFNTkFDY1VmX1JhMGlEY3lzU3o5ZHBlYm1qS1RmbDNlY1o2SFRYa0JJdlIzR0thWFhXU3ZtWDF5U0tEZzVKTHpzSzFJMlA3Nm53SEIwR0U2UVhmZG5GckZiWlhjdE54UkpaOG1IMjJybE1xS3hvYWtNc0VQWDF0V0VOd1rSAc8BQVVfeXFMTTRISFVzN1NRbGVHRXJGQWJPTXZ2ZGt5SEkzWmU3aTlmM0s0SzBrTm5iUlVuTm1sM3ZJbXdGZzNhMXQ1aWt2YmpERFZDZVNXWkJGb3VwakRQOWlZQUQ3Q1A5SnFyMGtDVlk1ZlRzaW0ySUszbmtHV2lBOWNtbk1wb093RkxyVk9nSi1FVFRnc3lfVzJuMUc2ejRPZ2J2bWl2cm50OVBLZU5famxqZzh5ckdCRExTNS1oN0VVYTZ4QUdVNXZXMzV6VkQxakhwZ3dB?oc=5"
     },
     {
       "iso": "ARG",
@@ -4231,7 +4217,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T14:45:14Z",
+      "last_update": "2026-05-13T14:50:14Z",
       "signals": 6,
       "recent": [
         {
