@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T10:30:16.827559Z",
-  "next_update": "2026-05-13T10:35:00Z",
+  "generated": "2026-05-13T10:35:04.733502Z",
+  "next_update": "2026-05-13T10:40:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 3,
+      "var_pct": 2,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 6,
+      "signals": 5,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 17,
+    "composite": 16,
     "epidemio": 17,
     "polymarket": 9,
-    "kalshi": 24,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "GBR": 1,
-    "FRA": 6,
+    "FRA": 5,
     "USA": 2,
     "ARG": 13,
     "MEX": 2,
@@ -4109,13 +4109,6 @@
       "t": "2026-05-12T16:48:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQclBIUHZVcXJVVXhJdXdmTkF1MU9yYVNQMmI5QmUzQzNWTDlUc2c3ekRzQmpsYVhMLXF0Y1hrRUZaZlM4RGpVWEFEN2VEcnNfdVNsNUNlYThrbktwWjd2OFc2MlZTbVBFRlU2czY2N1hicTdCbFJldnFQYmc5MFVPNEQtYzN0US1hOGhzSHo4dVBZUFpSeDVlaWRzSDUtM2JVNGc?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Francia intensifica medidas tras caso de hantavirus vinculado al crucero MV Hondius - France 24",
-      "t": "2026-05-12T14:50:12Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYWQ2RDlTTjg3OFhGVEgzN1B1RG5wLWdBTGpZT0R1emJ0MkFTV1kxTjRaYkF4YUZjUi1VZkM1SVcwQzZrV3d2N01IaEVJckNRNnFHMFNhWkF3TG1TUHlfREVCOHdrX0doSkZscXV6U1hPaXloa3ltZXNHbGE1TlY5bkRQLTBRdWVNcnl0TnJLMjNxTWRYNFBGRnNDOXA0RUdjZ1psNTBsMWdUVTY0NFE4ZDlWcXpfWUh1cTh4dUQydFVKT2k0?oc=5"
     },
     {
       "iso": "FRA",
@@ -4218,14 +4211,9 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T10:30:16Z",
-      "signals": 9,
+      "last_update": "2026-05-13T10:35:04Z",
+      "signals": 8,
       "recent": [
-        {
-          "title": "Francia intensifica medidas tras caso de hantavirus vinculado al crucero MV Hondius - France 24",
-          "t": "2026-05-12T14:50:12Z",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYWQ2RDlTTjg3OFhGVEgzN1B1RG5wLWdBTGpZT0R1emJ0MkFTV1kxTjRaYkF4YUZjUi1VZkM1SVcwQzZrV3d2N01IaEVJckNRNnFHMFNhWkF3TG1TUHlfREVCOHdrX0doSkZscXV6U1hPaXloa3ltZXNHbGE1TlY5bkRQLTBRdWVNcnl0TnJLMjNxTWRYNFBGRnNDOXA0RUdjZ1psNTBsMWdUVTY0NFE4ZDlWcXpfWUh1cTh4dUQydFVKT2k0?oc=5"
-        },
         {
           "title": "Mapping the hantavirus outbreak as cruise ship passengers return to US - USA Today",
           "t": "2026-05-12T21:23:00Z",
@@ -4245,6 +4233,11 @@
           "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
           "t": "2026-05-06T15:29:33Z",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
+        },
+        {
+          "title": "Brote de hantavirus en un crucero que zarp\u00f3 desde Argentina: qu\u00e9 se sabe sobre la enfermedad y c\u00f3mo prevenirla - Chequeado",
+          "t": "2026-05-06T04:21:57Z",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdDd6MHQ1c25HX0lPOEk0QjNtNzFoY0pNUE8xZG1JZnZETGNTd01zN29qSHFVdS1vLThZYnBKN1VMZGFCdTFfSDR6eXNWRkFlSnhPWG1JTU9NdmxBQ1JOeXRuQ0VCZ2J4cHVmS1ZnWXVsbTVqRGtKOFBMZUxoOURVMENpT0hFel9NU2RRTGpSbl9oNGRKNHh6OXNuOTlXNFJyRVZYc1JUekJiNFByLWxob3NTNUdfLWJpQ1FVSmpNQmhrNEU3bWZXUzRYbV9Idzl2OXBFaGJBcVYyTnREODZB?oc=5"
         }
       ]
     }
