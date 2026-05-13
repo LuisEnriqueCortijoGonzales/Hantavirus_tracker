@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T10:15:14.937278Z",
-  "next_update": "2026-05-13T10:20:00Z",
+  "generated": "2026-05-13T10:20:16.762009Z",
+  "next_update": "2026-05-13T10:25:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 4,
+      "var_pct": 3,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 8,
+      "signals": 7,
       "gov_alert": false
     },
     "CHE": {
@@ -4018,7 +4018,7 @@
     "outbreak_count": 8
   },
   "signal_summary": {
-    "FRA": 8,
+    "FRA": 7,
     "GBR": 1,
     "USA": 2,
     "ARG": 13,
@@ -4109,13 +4109,6 @@
       "t": "2026-05-12T19:14:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOWM3bDdqMmNKTUszLXRQWEF4ZmRsc19VWUdvSFJKU20ycjBxVjAyV3JzZmxSWVZHbllwYlpBQ01ROWw5eklmcTdWb1ZIZ2FsRFphZWc3bHF6SzRRelN3dWM4Sm9MMldtZDYtOEVEdjZWQkx0RHJmOTlCbk5ZU0M3enVKOFRjS0o2WXB1NlFIRG13QmUzandSSW1vYjJKWmRaMEJhZTJxWkNIMmstaF9qWlRSamUxZHl2NzY4cl9CUkhnN3RaeXZWQzNYZGVuN244ZmZHSmZocnJSMXdBbDZmSw?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "'No evidence' of widespread hantavirus circulation in France, health minister says - France 24",
-      "t": "2026-05-12T18:02:35Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY2N5N2M3dWVhbDBhNWJTenlJdmdIbHB3M1NMdlBwbjJIRlBuaEFNSmlrYU9pQ2c1bHBFZVhIZ3dBc0FwRUZJYzQ2bmI4MmhLQlNXOENFT3RHcHF6UFJfSGU1OVNWYlQ5S3huV1FrMU53Tkx0S2U5dDZDeUN6UmcwQzB6ZV9MNTRIVVdicDBpSWdYemJtNHdfOHQzSURVS2lfTXZyTEgyWU90N09pTWFWU0lpa011S1phMHJDQlZPa3c?oc=5"
     },
     {
       "iso": "USA",
@@ -4232,7 +4225,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T10:15:14Z",
+      "last_update": "2026-05-13T10:20:16Z",
       "signals": 9,
       "recent": [
         {
