@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T21:15:14.848959Z",
-  "next_update": "2026-05-13T21:20:00Z",
+  "generated": "2026-05-13T21:20:15.019042Z",
+  "next_update": "2026-05-13T21:25:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 72,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 7,
+      "var_pct": 8,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 15,
+      "signals": 16,
       "gov_alert": false
     },
     "CHL": {
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 18,
+    "kalshi": 17,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,12 +4019,19 @@
   },
   "signal_summary": {
     "USA": 4,
-    "ARG": 15,
+    "ARG": 16,
     "MEX": 3,
     "FRA": 4,
     "SLV": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Argentina env\u00eda a pa\u00edses de \u00c1frica y Europa insumos para diagnosticar hantavirus - Infobae",
+      "t": "2026-05-13T21:14:39Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWW53V3RQODR0dVNESHc1VmJqdHd5VmRKeTI0QS1STEJXbFpKeGxPRmE5QWlhVUVzalVxTEVhTklHblVhYThGRmowYU1DZ1lLb3RWb0ZzZ2NQUFhaek9laUJZeUNPeWlUb09Rd1pGTVozV1NkUHliTy1BYWlkZVA1QkFrUGM1LW1QakxTcVFBRlVtVUlnc3c1cHUwQWR4Ml9iLWkxaERZTHVqM0d0eVVnWDB3eUNReHVORDNpSW9sd0FfOTlNOFc5TC0tQzBoQdIB6AFBVV95cUxOWmZ2QWRnSHdWc2Q5bG1MY0tVaUMxNFU4Qnl0X0xkNXQ1NjdZXzJNbVB3X1ozTVpjTmxPeGRMOEdac2FIdUs1eXhZWGNIbE9hSWdEQXFndE1CVHA3WjR5aVZ4RGpObE9kaVgtRjN3cU04RWpSSi1tRGJqb05rSnZuOWxoNXVVdk9UdkNxTndIZ1FrTFVBb0RnYzFmLUZDcGlmOW1aR0gzNWZOVFNielBtbUwwM1p4Qkh4engtd0lfVi1fZjlOajY4U2pWcnNMalBDcjJ6Y09HdUlyUHZDZW9uLU9PYWxvMDJi?oc=5"
+    },
     {
       "iso": "MEX",
       "title": "New Mexico's hantavirus strain is different from cruise ship outbreak and does not spread between people - UNM HSC Newsroom",
@@ -4231,7 +4238,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T21:15:14Z",
+      "last_update": "2026-05-13T21:20:15Z",
       "signals": 6,
       "recent": [
         {
