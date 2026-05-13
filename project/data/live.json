@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T18:35:15.020476Z",
-  "next_update": "2026-05-13T18:40:00Z",
+  "generated": "2026-05-13T18:40:16.787784Z",
+  "next_update": "2026-05-13T18:45:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 73,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 9,
+      "var_pct": 8,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 18,
+      "signals": 17,
       "gov_alert": false
     },
     "CHL": {
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "ARG": 18,
+    "ARG": 17,
     "USA": 2,
     "FRA": 6,
     "GBR": 2,
@@ -4080,13 +4080,6 @@
       "t": "2026-05-13T12:57:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQVczcWtsejV0cFpCX3YxNHZSUFdSelFkcnktemdVZ2xqMmFqSG5MeFZPX2RUV0ZrOTJJMHpnZDFldjhHem5pYWdmancxc3RwT3JjYjh3LVJNaTlmamhwSjBSZW9ELXdaZTBBdTVhQ0lLNVZrb1d2SU1qU1RmY3VwRWdpd21yUHZ5MHZzQUwzLUdqbGhzbkFHRtIBngFBVV95cUxNM1lnWWJFWDVYNTZyeUI5LW84N0NySWN4dXpGbElxek1hQ2NValJpdy11WWRYUV81X2dZVEV3eXFaTmx6TVYyZGt1amRjQnoyYXU4ZURoQ1N6YkxBZ2k3NUU5bm9iOWFzdktFejZ0Mk00eXZFakdTOHBLTDhHYkNzRmJrM0tsWVJiWWdnR09mdVY4Ull6dng4S2ZLYTN0UQ?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus: ya se confirmaron 102 casos en Argentina y preocupa el brote detectado en un crucero - El Marplatense",
-      "t": "2026-05-13T12:52:07Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaTdNbW9tMnFXU0NxeDFsMmJsUHZGTWFQaGpDYWpVeEZzNkhiVVh0Zzd5Vk0wdzVHTXFKbE9BUTJjdHh0d2wtd0hNWGozS184R2VzemFCb2pabFZ6MTFXVzFKOGlqX2t0V3ZaRWZJdldYZGdQUGY1U2tRLVBqdFNPdko4LS01TjhZSWhLN3VReUIwQzN3QXdxSWRVN0dWdVZ2WmltOEVnYVEzcW11T3pYR0x3MDdZSUlNNnNYSUd1cUZnZUU?oc=5"
     },
     {
       "iso": "ARG",
@@ -4245,8 +4238,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T18:35:15Z",
-      "signals": 7,
+      "last_update": "2026-05-13T18:40:16Z",
+      "signals": 6,
       "recent": [
         {
           "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
