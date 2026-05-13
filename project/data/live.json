@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T04:50:15.098002Z",
-  "next_update": "2026-05-13T04:55:00Z",
+  "generated": "2026-05-13T04:55:16.783974Z",
+  "next_update": "2026-05-13T05:00:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -23,7 +23,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "BRA": {
@@ -111,7 +111,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "PAN": {
@@ -269,14 +269,14 @@
       "gov_alert": false
     },
     "FRA": {
-      "ytd": 24,
+      "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
       "var_pct": 2,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 5,
+      "signals": 4,
       "gov_alert": false
     },
     "CHE": {
@@ -952,20 +952,20 @@
       67
     ],
     "FRA": [
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23
     ],
     "CHE": [
       8,
@@ -2652,54 +2652,54 @@
       67
     ],
     "FRA": [
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23
     ],
     "CHE": [
       8,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 17,
     "epidemio": 17,
     "polymarket": 9,
-    "kalshi": 19,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,10 +4020,12 @@
   "signal_summary": {
     "GBR": 1,
     "USA": 2,
-    "FRA": 5,
+    "FRA": 4,
     "ARG": 7,
     "MEX": 2,
-    "BRA": 1
+    "BRA": 1,
+    "CHL": 1,
+    "URY": 1
   },
   "events": [
     {
@@ -4139,18 +4141,25 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
     },
     {
-      "iso": "FRA",
-      "title": "Un brote de 2018 en Argentina da pistas sobre c\u00f3mo se propaga el hantavirus - France 24",
-      "t": "2026-05-07T19:25:16Z",
+      "iso": "ARG",
+      "title": "Qu\u00e9 se sabe del viaje por Argentina, Chile y Uruguay de los turistas que presentaron los primeros s\u00edntomas de hantavirus en el crucero y luego murieron - BBC",
+      "t": "2026-05-07T23:22:53Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc1hUT2M2aC10WmZZc01QMURwWU1hZ2tpYmJPbHllSVRiRlVKZ3RBMERpZmJ4Wk56LUFfX1NQZVk2U1BSXzdNdzFpb2U4WFdyay1tM1RyamZBTnF4MFdNLVpTWm5ucmdjSThNSk16eXU4U0Jwb01TMTAxWHVNUXpTSUtsaVNyd2ZubzhXZ0dsQzBOMDVybkFScjVhejhOdnNkZGV6WVppd01uVGI5dFMzZ0YwQk4tdHk2R1ZHXy1BSnVGbFhNWl9WZVVkUlp5UQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvQk85TUotMXBBY2dsU2hHVGxNUEk3OENZdFRHR0dYLVVoWGIwaG5IVS04LXVNU1R5NXhWZU5zX2E2aXBlcXBEYXhDcllqRmRPb3hqVDY2RFRkdVXSAWBBVV95cUxNdE5pdDNZbU1qZjFPSFRBeWZWaHJGX2p0V3FBbjllTWFQNG9VekxNc0FVcVV4cEd0em5UYUxTd2JpMG9pMzREMFMzWHFUX3BZai1SeXdLZ01TR2pEenk5OHQ?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "Un brote de 2018 en Argentina da pistas sobre c\u00f3mo se propaga el hantavirus - France 24",
-      "t": "2026-05-07T19:25:16Z",
+      "iso": "CHL",
+      "title": "Qu\u00e9 se sabe del viaje por Argentina, Chile y Uruguay de los turistas que presentaron los primeros s\u00edntomas de hantavirus en el crucero y luego murieron - BBC",
+      "t": "2026-05-07T23:22:53Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc1hUT2M2aC10WmZZc01QMURwWU1hZ2tpYmJPbHllSVRiRlVKZ3RBMERpZmJ4Wk56LUFfX1NQZVk2U1BSXzdNdzFpb2U4WFdyay1tM1RyamZBTnF4MFdNLVpTWm5ucmdjSThNSk16eXU4U0Jwb01TMTAxWHVNUXpTSUtsaVNyd2ZubzhXZ0dsQzBOMDVybkFScjVhejhOdnNkZGV6WVppd01uVGI5dFMzZ0YwQk4tdHk2R1ZHXy1BSnVGbFhNWl9WZVVkUlp5UQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvQk85TUotMXBBY2dsU2hHVGxNUEk3OENZdFRHR0dYLVVoWGIwaG5IVS04LXVNU1R5NXhWZU5zX2E2aXBlcXBEYXhDcllqRmRPb3hqVDY2RFRkdVXSAWBBVV95cUxNdE5pdDNZbU1qZjFPSFRBeWZWaHJGX2p0V3FBbjllTWFQNG9VekxNc0FVcVV4cEd0em5UYUxTd2JpMG9pMzREMFMzWHFUX3BZai1SeXdLZ01TR2pEenk5OHQ?oc=5"
+    },
+    {
+      "iso": "URY",
+      "title": "Qu\u00e9 se sabe del viaje por Argentina, Chile y Uruguay de los turistas que presentaron los primeros s\u00edntomas de hantavirus en el crucero y luego murieron - BBC",
+      "t": "2026-05-07T23:22:53Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvQk85TUotMXBBY2dsU2hHVGxNUEk3OENZdFRHR0dYLVVoWGIwaG5IVS04LXVNU1R5NXhWZU5zX2E2aXBlcXBEYXhDcllqRmRPb3hqVDY2RFRkdVXSAWBBVV95cUxNdE5pdDNZbU1qZjFPSFRBeWZWaHJGX2p0V3FBbjllTWFQNG9VekxNc0FVcVV4cEd0em5UYUxTd2JpMG9pMzREMFMzWHFUX3BZai1SeXdLZ01TR2pEenk5OHQ?oc=5"
     }
   ],
   "maritime_events": [
@@ -4169,8 +4178,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T04:50:15Z",
-      "signals": 5,
+      "last_update": "2026-05-13T04:55:16Z",
+      "signals": 6,
       "recent": [
         {
           "title": "Mapping the hantavirus outbreak as cruise ship passengers return to US - USA Today",
