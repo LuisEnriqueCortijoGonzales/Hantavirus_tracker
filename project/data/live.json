@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T13:05:07.271949Z",
-  "next_update": "2026-05-13T13:10:00Z",
+  "generated": "2026-05-13T13:10:14.762017Z",
+  "next_update": "2026-05-13T13:15:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 21,
+      "signals": 22,
       "gov_alert": false
     },
     "CHL": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 16,
     "polymarket": 9,
-    "kalshi": 24,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,12 +4019,19 @@
   },
   "signal_summary": {
     "FRA": 4,
+    "USA": 2,
     "GBR": 3,
-    "USA": 1,
-    "ARG": 21,
+    "ARG": 22,
     "MEX": 2
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Hantavirus en Argentina: ya se confirmaron 102 casos - Noticiasd",
+      "t": "2026-05-13T13:04:54Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbUZVaVloaUFfY3RJLXl5RHcxdWZlcDhjU1F0OVlzWUxMYWVHSzRDbHBONXBFU3l1alBBV1ZXUEhSTUplQ2FJejhHcElReVR0YUdqelZ4SndSTTU1WGpJWXFYZ0h6WFMwdlBCVjVYYXB5WmJyM1R4eGRrZEQ3b2NCUVJfMlN5d0VUTWVGT2RXa0xtdw?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Hantavirus: ya se confirmaron 102 casos en Argentina y preocupa el brote detectado en un crucero - El Marplatense",
@@ -4052,6 +4059,13 @@
       "t": "2026-05-13T11:59:53Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMVFHTVNHMUY5Wm1yeFhDMGxpQjlmeUpxcFJHOWVCYjZaNmtGUklGX0hpMFJzTWJoTThEeXY3VzZzZkg1YlpDVDBDdi1BN1dRdzQxeWljeDVSUkpUM1JwZU9uTWVmQVRNbXlEbUxTSHV6QXdtZVBXRWZOZUtGeVhwWHdILVZhZXJLQU1FclRITXhRMThqU3RLcm9JRkliYWx3bEdCT1Myc2hac3Y0dUlHNHYtNmtocFZxV1BaeG1aZTJ5TU9waUdacw?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "He was on the hantavirus cruise. What he wants every American to know. - USA Today",
+      "t": "2026-05-13T11:57:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMWJfQS1lVmtpS1l0bUdOMl9tVzZTVnp5cXgxU3RMcTFuSG9tUG5QSXAwSFFkeWVrVkliNFdoUjAwSGstWldpSGl0UzhpckVMRDhPTlJtRXREamF1UGpaVGhxeFlQdFdHRVkxSzlIUkVMb0ljRVNhTTNSU2JnOHZyRWF5MlkwbHJSblE0QUtHZFQ1eGphSWdNdHp3dmIzZ1Brenotc3Vfb0d3YmsyZkhlSw?oc=5"
     },
     {
       "iso": "FRA",
@@ -4259,7 +4273,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T13:05:07Z",
+      "last_update": "2026-05-13T13:10:14Z",
       "signals": 11,
       "recent": [
         {
