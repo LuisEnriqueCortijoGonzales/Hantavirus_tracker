@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-13T13:55:16.815070Z",
-  "next_update": "2026-05-13T14:00:00Z",
+  "generated": "2026-05-13T14:00:16.803163Z",
+  "next_update": "2026-05-13T14:05:00Z",
   "days_active": 5,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -1401,7 +1401,6 @@
     "2026-05-13T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-11T14:00:00Z",
     "2026-05-11T15:00:00Z",
     "2026-05-11T16:00:00Z",
     "2026-05-11T17:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-13T10:00:00Z",
     "2026-05-13T11:00:00Z",
     "2026-05-13T12:00:00Z",
-    "2026-05-13T13:00:00Z"
+    "2026-05-13T13:00:00Z",
+    "2026-05-13T14:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 17,
     "polymarket": 8,
-    "kalshi": 20,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4025,13 +4025,6 @@
     "FRA": 2
   },
   "events": [
-    {
-      "iso": "ARG",
-      "title": "Opinion | 11 hantavirus deaths in Argentina were a warning - The Washington Post",
-      "t": "2026-05-13T13:46:54Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMHJJRUVKelNLY0pGQkRFZ3g2OXFfUUFCOUZzcGRfSDNpMEdKRll2V2lKSXkxR0lUVDlXZlY4d1gxeUNQMzZRQld0VlpHM2FDb2l4RWZrcGctUm5nV05zUlpMTmQ5MDlXcHhOZWd2NkQxemVGOEphUUpHU0tRV0VZWnFIOUhLQ040M3BXRFA3VlhkOUthTDNhdGg0cnVWUXNYeVlTQmFqbkg?oc=5"
-    },
     {
       "iso": "ARG",
       "title": "Hantavirus en Argentina: ya confirmaron m\u00e1s de 100 casos en todo el pa\u00eds - diariopopular.com.ar",
@@ -4115,6 +4108,13 @@
       "t": "2026-05-13T11:46:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQjhLalEzM3RaTU5ubXE0aEk3NXFCT0JpdTVCbFFUT0JuSVNUVm9PZU5PbWNCLXdaNkE4LVNhbkd0bTlkMFRiZDkzd0dKS3lDbGxDY1dseEdlRzdmZVU5eDdrRzRhN2stSGlMa3VydkpsTXJTRTd6NEgyNWhiT0p3NkdkdHdsdTJidVVCZnFQUEc4cFlJMmg0S2NqV2lOeWFiOVZRTmdnMDVuamxlazAxSm92N3fSAboBQVVfeXFMTUdteEFiZzEwZ2dNTUEzdlBkN0dUNGZyMWhZVy05aHJwXzR3cS1hS0tsNFdNcHY2WXBURU1mVTFKM0RqSGh2V25lYWJhT2dWaHNxbmFHcFREaktnb0VzZHVVYlRBMXJhYzlIM0VrUTF2dlVjUmRteTlLeXFOb2UzWUY0dmFIUGVGajFzY08xVDhpZzNnTU84cWNwbEdDUEpSOTVnX2pKMWh0eTNGcmtna21qWFdkUXFPLV9R?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus: el total de casos en Argentina ascendi\u00f3 a 102 - elpaisdiario.com.ar",
+      "t": "2026-05-13T11:30:12Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPb0VYMHBXMVhLM0hsZFJ3Ym82bVpJaEl3U3NqV3A2alg2WFl3X1N5ZElZZm1URkNTRTlacXZqaXU5aFI1RW82ckdDb1RZdzV3YVZuVmc2Tm9aMVExMFVtUXNJeTBCbXk0d204YUhWQ3JsNWRfUzFPVkV0U3M2RlJpOEg0Vno0VnRSWjhUODdJSGhGdjJrU0tNX0t2QnI?oc=5"
     },
     {
       "iso": "ARG",
@@ -4210,7 +4210,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-13T13:55:16Z",
+      "last_update": "2026-05-13T14:00:16Z",
       "signals": 6,
       "recent": [
         {
