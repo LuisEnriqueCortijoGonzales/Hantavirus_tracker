@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T19:55:16.819799Z",
-  "next_update": "2026-05-14T20:00:00Z",
+  "generated": "2026-05-14T20:00:16.817022Z",
+  "next_update": "2026-05-14T20:05:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -1401,7 +1401,6 @@
     "2026-05-14T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-12T20:00:00Z",
     "2026-05-12T21:00:00Z",
     "2026-05-12T22:00:00Z",
     "2026-05-12T23:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-14T16:00:00Z",
     "2026-05-14T17:00:00Z",
     "2026-05-14T18:00:00Z",
-    "2026-05-14T19:00:00Z"
+    "2026-05-14T19:00:00Z",
+    "2026-05-14T20:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 18,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4026,8 +4026,8 @@
   "events": [
     {
       "iso": "USA",
-      "title": "41 people being monitored for hantavirus exposure. See map. - USA Today",
-      "t": "2026-05-14T18:23:00Z",
+      "title": "41 people being monitored for hantavirus exposure. See map of states. - USA Today",
+      "t": "2026-05-14T18:54:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbW9Sam9ScXlkbVZCVUMyZ3diZ1lnaGIwWVMtS3VqZW9FcVR4cDhYVmVCTHlZanBLUFBUX1hHc0xYLVBqYWJfRWRnRTFTRkRjY1dtUUM4NktOZEMyeVBSYmlsRnZNekZfWnl3clZWT1NPcjJWZUczTDVKdnpjeE8tLUgwTWd5dGdVcDJoS3dadEFvRU5JRldseGpBRQ?oc=5"
     },
@@ -4040,17 +4040,17 @@
     },
     {
       "iso": "MEX",
+      "title": "Hantavirus outbreak abroad prompts reminder about risk in New Mexico - The Taos News",
+      "t": "2026-05-14T16:11:43Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNOFlwQ1lSNkU1bExvaWxFUTZJOUVQM3pOZ3NPWmNiR2tjSnlybTBNTUlaU3lsZFpGOF81VTRtTms1NHRQVldJRUdhVDJuWW5TR29EZzlTSU85c1Qya1pIWlhRTkNSY0dtX1BfQ3ZIOGF3NlVNSUZIQUlFQUMxZHpuOWFmS1VVMjNXclJOTDdzd09tTGRsbE9oU3lFN2Y2UUpremNJRkRGREd0NWZQTXhGa1JPVE9rMkdVYkxxN0VfdGZicDBsaFlPNVEtQnhBV1Z4V05vbnJacGJNbElha2tDVnZB?oc=5"
+    },
+    {
+      "iso": "MEX",
       "title": "\u00bfQu\u00e9 probabilidad hay de que llegue el hantavirus a M\u00e9xico? - Infobae",
       "t": "2026-05-14T16:05:14Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc0J0emd5Vk9tYmU1Q0hyNlBxOFRpOVRfVTg2WXMtVDFQS2NVY3k3dHRRSDlFMnFxWE9lS3lxbDRKMmdvVGhKclVGTWVESGVQQ2dCdTNMR0d5dDk0UTl3MVF1OWJyeEVvc0dSd2ZqX1YzZ240UVh3ckx0czA4eWJ2NFU1MXliR1NiUUxUTGYwZ3dVSWx0bnBGeTVQNnp5d0tmcXfSAbwBQVVfeXFMTURLZ2JDZENjbWxsWDVCdUxjZTNLekE0SXlzYjU4SVU0SVpUTlNNeGRnYXpWUERsbVRlVTltUkl1UUxrZjVzNnNZRFBDUU5ucldPb1o3cHhkVTJnS1YtWlRkLXJIVlRjRUVvaHZtV25yejJQNXB6eEotMV81dTVCLUhyU1JEZFZrQ3c0T1JsdVp2eGRFRWtjY2dsdXRUX0dscEQwcjdkN0wzYnl2UzRfMUJSOW96TDdvank1enY?oc=5"
-    },
-    {
-      "iso": "MEX",
-      "title": "Hantavirus outbreak abroad prompts reminder about risk in New Mexico - The Taos News",
-      "t": "2026-05-14T15:41:47Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNRHdVbU1hRUdEb092MGtPb2RqVU04WFFFREtya0JwekNwYm1SZ1oxNF9IUXplY24xaVZURmNhaGdTa0NNZ3dvajdfQTRJZFZLM3RnVDJMTzN0dFZtVXY3XzAtMVl4Z1VIeUJoSTFsVFR1b1dOeWJELU5oR1NObFp2ZFVLdlBLWWlKQlNSazg4RXY0Z09jWEI2Q3hMSjgxQXl0TElxV3ZLVWpTalBjdW1SYktfWW5TNlh0V1ZtTjFEVlZlOEJObXpORWNrMmhlMkZYdDR4XzN1SDNzYjJxaHF5TmZwNFNFN2phMnpR?oc=5"
     },
     {
       "iso": "ARG",
@@ -4230,7 +4230,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T19:55:16Z",
+      "last_update": "2026-05-14T20:00:16Z",
       "signals": 7,
       "recent": [
         {
