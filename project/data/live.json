@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T11:25:08.410878Z",
-  "next_update": "2026-05-14T11:30:00Z",
+  "generated": "2026-05-14T11:30:14.906001Z",
+  "next_update": "2026-05-14T11:35:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 6,
+      "signals": 7,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 17,
+    "composite": 18,
     "epidemio": 19,
     "polymarket": 7,
-    "kalshi": 24,
+    "kalshi": 26,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,12 +4020,19 @@
   "signal_summary": {
     "ARG": 14,
     "USA": 2,
-    "FRA": 6,
+    "FRA": 7,
     "SLV": 1,
     "BOL": 1,
     "MEX": 2
   },
   "events": [
+    {
+      "iso": "FRA",
+      "title": "El paciente estadounidense con s\u00edntomas de hantavirus da negativo en la prueba - France 24",
+      "t": "2026-05-14T11:13:09Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPU2RXeVRscFZZX0tDVDJxMXdoY0RXTFptZlpRRXVDWnB0Wm5TaFotM21nRnFmUlh0ZXFqSjZna0hGZDlqMHFKcmxLWlVEd2tBeXdlRk5hOTJlX25WVGVnNllIem5jQVJEMGZER2F2cldDTmxKYUlCYzJ2bVhON254Tk5fYXd1WktBOE1YcGZORDJPa1NwbE1ickhjYlJBU3ZFM1A0dkRxZkZXajBSbVZBWlFfQjBSWGFXejFNNzFraWNCSEtrOU13MUdrekVzZ0tSWWc?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "El brote de hantavirus que sacudi\u00f3 Argentina en 2018: as\u00ed fue la fiesta que acab\u00f3 con 11 personas fallecidas - El Debate",
@@ -4225,7 +4232,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T11:25:08Z",
+      "last_update": "2026-05-14T11:30:14Z",
       "signals": 8,
       "recent": [
         {
