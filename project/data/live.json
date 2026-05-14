@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T22:50:14.794494Z",
-  "next_update": "2026-05-14T22:55:00Z",
+  "generated": "2026-05-14T22:55:08.411065Z",
+  "next_update": "2026-05-14T23:00:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -74,11 +74,11 @@
       "ytd": 8,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "USA": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,17 +4020,17 @@
   "signal_summary": {
     "ARG": 11,
     "USA": 3,
+    "MEX": 2,
     "FRA": 9,
-    "CAN": 1,
-    "MEX": 1
+    "CAN": 1
   },
   "events": [
     {
       "iso": "CAN",
-      "title": "Canad\u00e1 vigila a 36 personas por el brote de hantavirus vinculado a un crucero - Infobae",
-      "t": "2026-05-14T21:54:04Z",
+      "title": "Canad\u00e1 vigila a 36 personas por el brote de hantavirus vinculado a un crucero - EFE - Agencia de noticias",
+      "t": "2026-05-14T22:47:06Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQ0RqcERUY0J4eXZvVUc3bFo2TUljZE9abDl3TVVxV0NPa1AwTXlMVmI5b0tGQXg4aGdXWWRtZWVnR0dEOTJzZFJfNVloUG5ERWFRemtTQ040b0JYLVh5YXdhbk45TE5JNzhVMFNtVXZzUWYwZFl5cG1yaC1yS3RQV0xxQlNKODIxNWszTGRxZEhWOFRCbmhadWZpaGRfYXk2NFh1cjBneGozQWpfVzcyQV9UREpySEhoR2JiYnBwM1NjLS0tUzNaTXpB0gHkAUFVX3lxTE1iWm5kWlRnMDRRbHhUTGJfSEJWd0liQWFpMVZ5WXd6di1zWVByOFJGZjRRTW9IX1hpVnVveFZrYXlSbzdxNGNlV2dSY1BxTXJPZklrWHQ3dFRfZlVaS0t0UFgweWFobkVhOUx6c1QxcHVJcF9DVmdTeHQ1M2tLbDE0U1V5YzVQMDhCUC1zUkt1MnY4QmxLa1FJVV9tc0NrdVJyRDBHZzZWUDdnQ00xa29MSXpXNDNRd0o5MU5JTWVDWFJ5X1dKbVpwb2ZiTmdkdWticzZqT3RTaXJzV1ZXS19xbVhYQQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ranFMZnF2SFhFak1uU05ibU5kSzRPenFsQlpBX1JCOUpzSk9uQ1ZEZWlxRkhkdm43Rkh6aE5DWDlWUmJBM1NDeUxNY0ZBaHR0djRSS0JmWEMxMGEwUnBIUk0ya3Rya1BxRjhF?oc=5"
     },
     {
       "iso": "FRA",
@@ -4059,6 +4059,13 @@
       "t": "2026-05-14T16:05:14Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc0J0emd5Vk9tYmU1Q0hyNlBxOFRpOVRfVTg2WXMtVDFQS2NVY3k3dHRRSDlFMnFxWE9lS3lxbDRKMmdvVGhKclVGTWVESGVQQ2dCdTNMR0d5dDk0UTl3MVF1OWJyeEVvc0dSd2ZqX1YzZ240UVh3ckx0czA4eWJ2NFU1MXliR1NiUUxUTGYwZ3dVSWx0bnBGeTVQNnp5d0tmcXfSAbwBQVVfeXFMTURLZ2JDZENjbWxsWDVCdUxjZTNLekE0SXlzYjU4SVU0SVpUTlNNeGRnYXpWUERsbVRlVTltUkl1UUxrZjVzNnNZRFBDUU5ucldPb1o3cHhkVTJnS1YtWlRkLXJIVlRjRUVvaHZtV25yejJQNXB6eEotMV81dTVCLUhyU1JEZFZrQ3c0T1JsdVp2eGRFRWtjY2dsdXRUX0dscEQwcjdkN0wzYnl2UzRfMUJSOW96TDdvank1enY?oc=5"
+    },
+    {
+      "iso": "MEX",
+      "title": "Hantavirus outbreak abroad prompts reminder about risk in New Mexico - The Taos News",
+      "t": "2026-05-14T15:41:47Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNRHdVbU1hRUdEb092MGtPb2RqVU04WFFFREtya0JwekNwYm1SZ1oxNF9IUXplY24xaVZURmNhaGdTa0NNZ3dvajdfQTRJZFZLM3RnVDJMTzN0dFZtVXY3XzAtMVl4Z1VIeUJoSTFsVFR1b1dOeWJELU5oR1NObFp2ZFVLdlBLWWlKQlNSazg4RXY0Z09jWEI2Q3hMSjgxQXl0TElxV3ZLVWpTalBjdW1SYktfWW5TNlh0V1ZtTjFEVlZlOEJObXpORWNrMmhlMkZYdDR4XzN1SDNzYjJxaHF5TmZwNFNFN2phMnpR?oc=5"
     },
     {
       "iso": "ARG",
@@ -4217,7 +4224,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T22:50:14Z",
+      "last_update": "2026-05-14T22:55:08Z",
       "signals": 7,
       "recent": [
         {
