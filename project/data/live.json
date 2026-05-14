@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T00:15:14.796470Z",
-  "next_update": "2026-05-14T00:20:00Z",
+  "generated": "2026-05-14T00:20:15.001463Z",
+  "next_update": "2026-05-14T00:25:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -41,11 +41,11 @@
       "ytd": 14,
       "alert": "brote",
       "cfr": 40.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": true
     },
     "PER": {
@@ -56,7 +56,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "COL": {
@@ -4023,9 +4023,24 @@
     "ARG": 17,
     "FRA": 4,
     "SLV": 1,
-    "BOL": 1
+    "BOL": 2,
+    "PER": 1
   },
   "events": [
+    {
+      "iso": "BOL",
+      "title": "Hantavirus en Bolivia pone en alerta a Sudam\u00e9rica mientras Per\u00fa fortalece vigilancia en aeropuertos y puertos - Infobae",
+      "t": "2026-05-14T00:13:46Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSzhiQlREQWItVV9UY19YeDItUTlvLXZRbGJHczNsVkl5MEhBcjRiUWY5V3JveTFsRWszVF8zYjVmVjRENWJsdW1fZzFpMXUzVWdEMXZFMDhMSHRkR2ZLMHprVExBWm5FZnVQXzc0dlp0QTZWeHRpMkZtSkl2dklIY1BVckhuby00QmhZblNHRklMV3hwREZ5VWx3dDljSGFnZmswb3lxazFGcHdQTVJuam9ZWDVYZThfSWotQUtVc0ZIYUUtR2V1cWs0X3laY1lUdXZDdFgtNDQxNWFGU1R1YzRuQmbSAf8BQVVfeXFMUHEwMEo1ZjFNWkMxMnpKU0lONzhtb3Y1QTgzWV9vT1B5MHVjMGZ2bW1VMldmR3V6dXBDWWQwa0FITElIS3FrMllubDBZUTFsRmFEQmRWNGtTM2M1RTF2djBLTUhwbkw4SGtoMmxabnhtVTE0UVJXVlE3aDk1NURwT3ZUYlBhcWdpVnpZSXhMbklhS242cUxIUFRORllEU2pLMTg5N1RWZHhDcHlXcy1BdUNlSGlhRnVFblRvTmRzblc3VHd2MFRxeTRhMGpSaXFMa1lDYlhJVi1wUHAtZFVQa20xSmY3bzRhTzNtUWpFbkFBYTF2MXRlTmRlVFYtQ0Rn?oc=5"
+    },
+    {
+      "iso": "PER",
+      "title": "Hantavirus en Bolivia pone en alerta a Sudam\u00e9rica mientras Per\u00fa fortalece vigilancia en aeropuertos y puertos - Infobae",
+      "t": "2026-05-14T00:13:46Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSzhiQlREQWItVV9UY19YeDItUTlvLXZRbGJHczNsVkl5MEhBcjRiUWY5V3JveTFsRWszVF8zYjVmVjRENWJsdW1fZzFpMXUzVWdEMXZFMDhMSHRkR2ZLMHprVExBWm5FZnVQXzc0dlp0QTZWeHRpMkZtSkl2dklIY1BVckhuby00QmhZblNHRklMV3hwREZ5VWx3dDljSGFnZmswb3lxazFGcHdQTVJuam9ZWDVYZThfSWotQUtVc0ZIYUUtR2V1cWs0X3laY1lUdXZDdFgtNDQxNWFGU1R1YzRuQmbSAf8BQVVfeXFMUHEwMEo1ZjFNWkMxMnpKU0lONzhtb3Y1QTgzWV9vT1B5MHVjMGZ2bW1VMldmR3V6dXBDWWQwa0FITElIS3FrMllubDBZUTFsRmFEQmRWNGtTM2M1RTF2djBLTUhwbkw4SGtoMmxabnhtVTE0UVJXVlE3aDk1NURwT3ZUYlBhcWdpVnpZSXhMbklhS242cUxIUFRORllEU2pLMTg5N1RWZHhDcHlXcy1BdUNlSGlhRnVFblRvTmRzblc3VHd2MFRxeTRhMGpSaXFMa1lDYlhJVi1wUHAtZFVQa20xSmY3bzRhTzNtUWpFbkFBYTF2MXRlTmRlVFYtQ0Rn?oc=5"
+    },
     {
       "iso": "BOL",
       "title": "Alerta sanitaria en Bolivia por brote de Hantavirus - Infobae",
@@ -4239,7 +4254,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T00:15:14Z",
+      "last_update": "2026-05-14T00:20:15Z",
       "signals": 7,
       "recent": [
         {
