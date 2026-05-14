@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T01:05:16.815979Z",
-  "next_update": "2026-05-14T01:10:00Z",
+  "generated": "2026-05-14T01:10:16.779795Z",
+  "next_update": "2026-05-14T01:15:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 72,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 8,
+      "var_pct": 7,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 16,
+      "signals": 15,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 17,
+    "composite": 16,
     "epidemio": 17,
     "polymarket": 7,
-    "kalshi": 26,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "MEX": 3,
     "USA": 3,
-    "ARG": 16,
+    "ARG": 15,
     "FRA": 4,
     "SLV": 1,
     "BOL": 2,
@@ -4189,13 +4189,6 @@
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMVFHTVNHMUY5Wm1yeFhDMGxpQjlmeUpxcFJHOWVCYjZaNmtGUklGX0hpMFJzTWJoTThEeXY3VzZzZkg1YlpDVDBDdi1BN1dRdzQxeWljeDVSUkpUM1JwZU9uTWVmQVRNbXlEbUxTSHV6QXdtZVBXRWZOZUtGeVhwWHdILVZhZXJLQU1FclRITXhRMThqU3RLcm9JRkliYWx3bEdCT1Myc2hac3Y0dUlHNHYtNmtocFZxV1BaeG1aZTJ5TU9waUdacw?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "Brote de hantavirus en Argentina: la totalidad de casos confirmados se eleva a m\u00e1s de 100 - MDZ Online",
-      "t": "2026-05-13T11:46:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQjhLalEzM3RaTU5ubXE0aEk3NXFCT0JpdTVCbFFUT0JuSVNUVm9PZU5PbWNCLXdaNkE4LVNhbkd0bTlkMFRiZDkzd0dKS3lDbGxDY1dseEdlRzdmZVU5eDdrRzRhN2stSGlMa3VydkpsTXJTRTd6NEgyNWhiT0p3NkdkdHdsdTJidVVCZnFQUEc4cFlJMmg0S2NqV2lOeWFiOVZRTmdnMDVuamxlazAxSm92N3fSAboBQVVfeXFMTUdteEFiZzEwZ2dNTUEzdlBkN0dUNGZyMWhZVy05aHJwXzR3cS1hS0tsNFdNcHY2WXBURU1mVTFKM0RqSGh2V25lYWJhT2dWaHNxbmFHcFREaktnb0VzZHVVYlRBMXJhYzlIM0VrUTF2dlVjUmRteTlLeXFOb2UzWUY0dmFIUGVGajFzY08xVDhpZzNnTU84cWNwbEdDUEpSOTVnX2pKMWh0eTNGcmtna21qWFdkUXFPLV9R?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Francia pone en cuarentena en Par\u00eds a ocho personas identificadas como contactos de un caso de hantavirus - Anadolu Ajans\u0131",
       "t": "2026-05-13T08:14:55Z",
@@ -4254,7 +4247,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T01:05:16Z",
+      "last_update": "2026-05-14T01:10:16Z",
       "signals": 7,
       "recent": [
         {
