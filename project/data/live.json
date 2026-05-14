@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T15:40:14.957623Z",
-  "next_update": "2026-05-14T15:45:00Z",
+  "generated": "2026-05-14T15:45:16.794018Z",
+  "next_update": "2026-05-14T15:50:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -78,7 +78,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "USA": {
@@ -4006,7 +4006,7 @@
     "composite": 17,
     "epidemio": 18,
     "polymarket": 7,
-    "kalshi": 26,
+    "kalshi": 25,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,6 +4020,7 @@
   "signal_summary": {
     "ARG": 18,
     "USA": 3,
+    "MEX": 1,
     "FRA": 11,
     "CHN": 1,
     "BOL": 1,
@@ -4027,6 +4028,13 @@
     "URY": 1
   },
   "events": [
+    {
+      "iso": "MEX",
+      "title": "Hantavirus outbreak abroad prompts reminder about risk in New Mexico - The Taos News",
+      "t": "2026-05-14T15:41:47Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNRHdVbU1hRUdEb092MGtPb2RqVU04WFFFREtya0JwekNwYm1SZ1oxNF9IUXplY24xaVZURmNhaGdTa0NNZ3dvajdfQTRJZFZLM3RnVDJMTzN0dFZtVXY3XzAtMVl4Z1VIeUJoSTFsVFR1b1dOeWJELU5oR1NObFp2ZFVLdlBLWWlKQlNSazg4RXY0Z09jWEI2Q3hMSjgxQXl0TElxV3ZLVWpTalBjdW1SYktfWW5TNlh0V1ZtTjFEVlZlOEJObXpORWNrMmhlMkZYdDR4XzN1SDNzYjJxaHF5TmZwNFNFN2phMnpR?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina est\u00e1 en una carrera por hallar el origen del brote de hantavirus - The New York Times",
@@ -4296,7 +4304,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T15:40:14Z",
+      "last_update": "2026-05-14T15:45:16Z",
       "signals": 10,
       "recent": [
         {
