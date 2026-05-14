@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T08:05:15.116991Z",
-  "next_update": "2026-05-14T08:10:00Z",
+  "generated": "2026-05-14T08:10:16.805650Z",
+  "next_update": "2026-05-14T08:15:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 13,
+      "signals": 12,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 17,
+    "composite": 16,
     "epidemio": 19,
     "polymarket": 7,
-    "kalshi": 22,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 3,
-    "ARG": 13,
+    "ARG": 12,
     "FRA": 4,
     "SLV": 1,
     "BOL": 1,
@@ -4153,13 +4153,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNm1TNE9wV0xFVHVxSmRoZ0dLczB4R1FXY0hzU041alB5ZkItdl9rNVJ2X0RHOFVOOVg0SVVZNXh0dVVnNnMxanhnS1hBRTJjYVZFMW1wX2ZWLWE4b1hhck9VS2ZPSEZnSzF4aHMxMHZUbUZkRndSVWhvV3pFVHFXS0RZdkdVRHJjaUZjODBuSEFNSEJfTTVFSmFneGEyUTBjQkR2dkJRQzlYOTRDRkVRUkxjeE1IMDZNRDNlTVhIaEtNTkHSAcgBQVVfeXFMTjMxbkw0LVJxUzJzaEZFRUF1YWZ4YmlCeXRpckVha1U4b1lkblNWVG5rcFFPNHRWV3l1QWh1WFUyMDZ0RWtfUFJrQkNvTlRfZ3RiX2lKek5RQWkzN0dMZ3FmNjhndkZYb1M1UFQ5THd2dGZDZGFnZUs1RjRvU2FFc191QUpkQTVMdnBWQVAwT1dhZmVSWndMZ1hfWVhfY19zSGxfeExiZHI5SHNyWEVVUlZObmNwQ2x2X0lrOUJGaHRZRVdXaVRQQzI?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "Hantavirus: el total de casos en Argentina asciende a 102 - puntal.com.ar",
-      "t": "2026-05-13T12:57:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQVczcWtsejV0cFpCX3YxNHZSUFdSelFkcnktemdVZ2xqMmFqSG5MeFZPX2RUV0ZrOTJJMHpnZDFldjhHem5pYWdmancxc3RwT3JjYjh3LVJNaTlmamhwSjBSZW9ELXdaZTBBdTVhQ0lLNVZrb1d2SU1qU1RmY3VwRWdpd21yUHZ5MHZzQUwzLUdqbGhzbkFHRtIBngFBVV95cUxNM1lnWWJFWDVYNTZyeUI5LW84N0NySWN4dXpGbElxek1hQ2NValJpdy11WWRYUV81X2dZVEV3eXFaTmx6TVYyZGt1amRjQnoyYXU4ZURoQ1N6YkxBZ2k3NUU5bm9iOWFzdktFejZ0Mk00eXZFakdTOHBLTDhHYkNzRmJrM0tsWVJiWWdnR09mdVY4Ull6dng4S2ZLYTN0UQ?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Esfuerzo global para controlar el brote de hantavirus, mientras los casos en Espa\u00f1a y Francia disparan la incertidumbre - EL PA\u00cdS",
       "t": "2026-05-13T03:30:01Z",
@@ -4211,7 +4204,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T08:05:15Z",
+      "last_update": "2026-05-14T08:10:16Z",
       "signals": 7,
       "recent": [
         {
