@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T10:10:12.583516Z",
-  "next_update": "2026-05-14T10:15:00Z",
+  "generated": "2026-05-14T10:15:12.808975Z",
+  "next_update": "2026-05-14T10:20:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4006,7 +4006,7 @@
     "composite": 18,
     "epidemio": 19,
     "polymarket": 7,
-    "kalshi": 26,
+    "kalshi": 25,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4046,6 +4046,13 @@
       "t": "2026-05-14T08:09:13Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWEtSZ2RUa3dhNkhQMWpJOXBBS2k3LXljTlp6LTNMdTNrWllGb2EzYUF6Wl85UUxscEFzX3BtM1VHRWNLTzl6dzMzWFd3dkZVbGV5RHhBYnFoT1hDNHA3dF9PYkU0emJsd0M4TF9YZmdTcEtVTHdQa3dBYWY3cmdBSUk5YTdwTS1zS24zOUZCTmdxV0YxU3pZRmtuS2RWdzlYR3dNN01nUklLdkRUZG9leEFYcTk4azZyNm9WaEl0QXE3eDZvUTBhRkdJRGdPSEhqNFF6UlFhcGpEdjZfNzM0OGJoOG5TZHR5LTZpRQ?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina env\u00eda a pa\u00edses de \u00c1frica y Europa insumos para diagnosticar hantavirus - elineanoticias.com",
+      "t": "2026-05-14T04:34:22Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeVFJcG1EeFQ2aE5ZaWdpVTBRQ25zTjFBRVZPUWF3ekstUVc5NlRtN1BWNm44MzBMLWszb0wwOFk2VWRiWUJvRS1UM25zU1BkUUVNdGQzdGM5U2loeW1IUk9BeXZDUUdOYnFSb2swTWt5N3FqQVI4cFBtZVlmNXZBeTVTSXVCamM?oc=5"
     },
     {
       "iso": "FRA",
@@ -4095,13 +4102,6 @@
       "t": "2026-05-13T21:30:22Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM1NkQU5zX1RKcjQ0Q3RmZTRiSExOSVlyaDJEU0NRd0tyNklZQXZCcG1KTk5yT1h4RE9tMXpLdjJTVU1HM2YteG95cUFiTVBzQUFKUzE5c0tNUm1FY3JUV3F0bTZrZnNpa0poQ0pjUWpvZ21qanBERk41QWtNaHdaV2tVd3B2eFlDbkxlbjJ5VnVzTllHLVJGcWNoZWNiNGdOQ3ZhdjRjdF9jQQ?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina env\u00eda a pa\u00edses de \u00c1frica y Europa insumos para diagnosticar hantavirus - Infobae",
-      "t": "2026-05-13T21:14:39Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWW53V3RQODR0dVNESHc1VmJqdHd5VmRKeTI0QS1STEJXbFpKeGxPRmE5QWlhVUVzalVxTEVhTklHblVhYThGRmowYU1DZ1lLb3RWb0ZzZ2NQUFhaek9laUJZeUNPeWlUb09Rd1pGTVozV1NkUHliTy1BYWlkZVA1QkFrUGM1LW1QakxTcVFBRlVtVUlnc3c1cHUwQWR4Ml9iLWkxaERZTHVqM0d0eVVnWDB3eUNReHVORDNpSW9sd0FfOTlNOFc5TC0tQzBoQdIB6AFBVV95cUxOWmZ2QWRnSHdWc2Q5bG1MY0tVaUMxNFU4Qnl0X0xkNXQ1NjdZXzJNbVB3X1ozTVpjTmxPeGRMOEdac2FIdUs1eXhZWGNIbE9hSWdEQXFndE1CVHA3WjR5aVZ4RGpObE9kaVgtRjN3cU04RWpSSi1tRGJqb05rSnZuOWxoNXVVdk9UdkNxTndIZ1FrTFVBb0RnYzFmLUZDcGlmOW1aR0gzNWZOVFNielBtbUwwM1p4Qkh4engtd0lfVi1fZjlOajY4U2pWcnNMalBDcjJ6Y09HdUlyUHZDZW9uLU9PYWxvMDJi?oc=5"
     },
     {
       "iso": "USA",
@@ -4225,7 +4225,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T10:10:12Z",
+      "last_update": "2026-05-14T10:15:12Z",
       "signals": 9,
       "recent": [
         {
