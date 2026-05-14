@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T17:05:16.780627Z",
-  "next_update": "2026-05-14T17:10:00Z",
+  "generated": "2026-05-14T17:10:16.819452Z",
+  "next_update": "2026-05-14T17:15:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 72,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 7,
+      "var_pct": 8,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 15,
+      "signals": 16,
       "gov_alert": true
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 25,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "ARG": 15,
+    "ARG": 16,
     "CHN": 1,
     "USA": 3,
     "MEX": 2,
@@ -4045,6 +4045,13 @@
       "t": "2026-05-14T15:48:50Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdXV2d2E5cnpZdEk4SnNDN0ZfOTRtd1lpZDV0c2xSc2xRVGthOG51QTk5OGdSV1BQVTZheGYyOHZYTVJmczZGVkZqbVRDd2Y5VkZ5SDhXYXZKbnFRTWlBVUQ1S2t5elJjRENVR2xCV09DdDVfT3BEUVduTTFYVld0eHQwMElBU2llanRJYzZTRlhQUWZjZ3JacWtIWDVHQVZ4czJLT1k3dTh3TzloejNpYmZHQ3dwbUlLaUlSR1Rrdi02czFka1V5RjNYa2xvbGtGaDRF0gHuAUFVX3lxTE1DblpoX0JJS203SXFFTE5PbnRwektzWXBkNW1NR3BNdnA1cWxPeUdBNWFnVFo5YkFWbDBkd1JXRFl4U2Mwd0NvNGhoUGVPYnZkVG9Rd29NSDJZOXRCTmVoR3FXWEozUEo2bHk5dVlTV2l2QzFkNzdSd2xVNExaMXI1MzFqaGw4SGd3aWwxa3NPQUVvWXQxUV9LMTRXN1pFeFpNeGwzYkc0TGRVZFNoSWdoZmtnakd1N1ctUDByRzM5Wm4yWHpaSm9wYXlqUGZjT1F3MWNwTDJBdEp0R3ozdEozY2FNYU9LNk9tbWhnRGc?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Alerta por hantavirus en Argentina: advierten que el cambio clim\u00e1tico y el contacto humano disparan los co... - Econom\u00eda Sustentable",
+      "t": "2026-05-14T15:36:01Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQNnpaTzVlQ3NCckhzYndKeTVqNDdFY2dmS0p0QmExUTV6MlYwQmhFM3ZOdXQ2MTRVZllBN0ViQWJVU0RvN0ZrX3otUTJFdkVxRUZvMm9UbXIwbHBWNEhxTU9JMGx2ZjVpWjNpY180cFVtOVpMSjI4VGpPUmNndnVpRXdxcmJLZ2dLLUgwRThPMXpHZ04yOFRkTTBoSEF5NHQzeEZfUjJnYUxuRUFKUVdGOUI0UE1EcjFKWmlVT1lZcDlvZC1HeXNUcFhmRjRHbmtTd1JuS2NRUVBfSTBPeVZfMi1pVlFjR3RzTlHSAe8BQVVfeXFMUDdsdHc2WVdHVnlwU0daVkdHNmI5WFBZWEFJTUswc0lNNDQ1Ujh2c0o0aF8wMXo4NWNxYWt6Z2FGT1JmRjVtSkxEQWkzTmRlN2kyNXhCUUNPSHh5R1c3QmhUUHZ5UWJIWVRIREkzTEdRWTFEeWZhcHowcXdIZTlrX1YtRGpTTFNHUXpTOUpjRjd6TmJoUWJHaTFKSXZrWVkzWkE5U0V0N2xuNjh1eHlPTlpOUkpYb3M1OEUzUmFxZG5rU0VUSW1iN1ZMUzZIVkRVa2tkY0RYWnFGVjNiZEhWRWE5OHZMSGQ0Mi0xMC16SmM?oc=5"
     },
     {
       "iso": "CHN",
@@ -4259,7 +4266,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T17:05:16Z",
+      "last_update": "2026-05-14T17:10:16Z",
       "signals": 8,
       "recent": [
         {
