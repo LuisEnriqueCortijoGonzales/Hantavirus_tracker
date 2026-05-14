@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T18:50:15.106018Z",
-  "next_update": "2026-05-14T18:55:00Z",
+  "generated": "2026-05-14T18:55:16.823393Z",
+  "next_update": "2026-05-14T19:00:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 24,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4066,13 +4066,6 @@
       "t": "2026-05-14T15:35:55Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX0tKb09FcWM4cmU4ckFpLTVnaDdpVnhjM3BFUEk5OGhmbVJkZjMtbW44YU9wR3ZaUFdScEZiTGlwQ3hPbnJrVW5jRGh4eExTYXItSVNzelgyQ0c3Uk5LajZ4VTZtLV9FRGNZRUo3VmEzZXpwdlVOcmZmcG5RMkFOZkU2bmU0MW4weFRoNmlMbmRFYzJvMDBXQldZSQ?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina Races To Find Origin of Hantavirus Outbreak - The New York Times",
-      "t": "2026-05-14T15:09:36Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdGxZU29EZEFGSHR3MDM0UWVpdkctNklXZTlzQUdBRkc3Nkpvc2djaW1oY01qdlB2UGJ1Wm5CdU1tLVBfN2JkM0x4MFU2RDV3RXFxZm1CeE5XeEh3WHRuM1FSM3ZDeVlhSnRrM2pENy11el8zY0ZVNlNvdDFHRzFIQkI3RTkyZDN3eHdwTmRMWGw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4143,6 +4136,13 @@
       "t": "2026-05-14T09:31:13Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOaFg0YU1WaG5McUZjam4zdWpMRzBlZUNlN3h1YjVDNFhRSGhpSllfRE1sVDc4OUFRc2xOa2pWakREaXhBTmNpdF9MejV0MlRtNmZzbmFoZWcwZFdwZDlTRFpuLVR6cEFXVDBqTlF3ZXlKY3VUM05pSTdNT1RZMmZ6U1ZKYkN1U2NVQ0kxQjNQTWkyb3JDaDJSdWQ2UGxyNWVBRElEdkVTbUt3NWVsWFp0clNLTjdqU2hFMmNGbHVtakoyVW9QWEo4ejZxcW9hOW9qc0ZkbTN6S09RREtDZ2ZF?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina Races to Find Origin of Hantavirus Contagion - The New York Times",
+      "t": "2026-05-14T09:04:59Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdGxZU29EZEFGSHR3MDM0UWVpdkctNklXZTlzQUdBRkc3Nkpvc2djaW1oY01qdlB2UGJ1Wm5CdU1tLVBfN2JkM0x4MFU2RDV3RXFxZm1CeE5XeEh3WHRuM1FSM3ZDeVlhSnRrM2pENy11el8zY0ZVNlNvdDFHRzFIQkI3RTkyZDN3eHdwTmRMWGw?oc=5"
     },
     {
       "iso": "FRA",
@@ -4231,7 +4231,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T18:50:15Z",
+      "last_update": "2026-05-14T18:55:16Z",
       "signals": 8,
       "recent": [
         {
