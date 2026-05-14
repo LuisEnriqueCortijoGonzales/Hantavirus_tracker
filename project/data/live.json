@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T09:05:04.774919Z",
-  "next_update": "2026-05-14T09:10:00Z",
+  "generated": "2026-05-14T09:10:14.731425Z",
+  "next_update": "2026-05-14T09:15:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 12,
+      "signals": 13,
       "gov_alert": false
     },
     "CHL": {
@@ -4019,13 +4019,20 @@
   },
   "signal_summary": {
     "USA": 3,
-    "ARG": 12,
+    "ARG": 13,
     "FRA": 4,
     "SLV": 1,
     "BOL": 1,
     "MEX": 2
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Argentina Races to Find Origin of Hantavirus Contagion - The New York Times",
+      "t": "2026-05-14T09:04:59Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdGxZU29EZEFGSHR3MDM0UWVpdkctNklXZTlzQUdBRkc3Nkpvc2djaW1oY01qdlB2UGJ1Wm5CdU1tLVBfN2JkM0x4MFU2RDV3RXFxZm1CeE5XeEh3WHRuM1FSM3ZDeVlhSnRrM2pENy11el8zY0ZVNlNvdDFHRzFIQkI3RTkyZDN3eHdwTmRMWGw?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "Los brit\u00e1nicos evacuados del crucero afectado por hantavirus ser\u00e1n aislados en sus domicilios - France 24",
@@ -4204,7 +4211,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T09:05:04Z",
+      "last_update": "2026-05-14T09:10:14Z",
       "signals": 8,
       "recent": [
         {
