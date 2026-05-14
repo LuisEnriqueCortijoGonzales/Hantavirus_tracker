@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T11:35:15.160806Z",
-  "next_update": "2026-05-14T11:40:00Z",
+  "generated": "2026-05-14T11:40:16.801700Z",
+  "next_update": "2026-05-14T11:45:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -188,7 +188,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "ECU": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 18,
+    "composite": 17,
     "epidemio": 19,
     "polymarket": 7,
-    "kalshi": 26,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,13 +4019,19 @@
   },
   "signal_summary": {
     "ARG": 14,
-    "USA": 2,
+    "USA": 3,
     "FRA": 7,
-    "SLV": 1,
     "BOL": 1,
     "MEX": 2
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "Refuerzan controles sanitarios en Estados Unidos tras detectar dos nuevas exposiciones al hantavirus - Infobae",
+      "t": "2026-05-14T11:35:31Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOX2l5Zmo1bVdvQnN5UW82SzFiNW9COUl2cFpsQkV0Z3dSOW1OLXZJekFBNU9VVlhpMG9ERXQ3NkFfME10cGRJcjBtQWktUVZ6OHZneHZWd1pmUlg3eGItdXFjM2JvLWZSQnVaaW82NlJuMlZVZW5Xcy1xMjd5bzJseHBGc09BakdBMlJfLXVQWHZQRHlVNXVtcE55VjNla1NEX29KTGJuWkhSYThYMkhZbmlTckJOeDc5X1pDLVhjQmZ6d3VqbTNOZDNramNoNUd6X1dnSXFlY0NCVnVzcEhPQUl3S2hQQdIBgAJBVV95cUxPOENNTEQyQTFuVmhRUkhKSVF6S3JvWENsbGV2d3ZsM3hVbHBMSlotekhSaXhVeFBRVjZTTnJ5TEx0NjdjLWl3NzE1VHJUUlNSUDh1NDV3ZEhvTlFzY1RYNmhGa3NzeHhOWW9MSnlPekpraGI5YlhUNkp0cHRnY3A1RUE1R2I0TkVXRDVMU1VySU9BVnhORW5yT0doV2U3V01QeUJIZUFOVnhEeHljLTZzQ094M1p5MWEzMGQzY0NBVU9DQWVfZmVHV2p6dTdfSlFQNUg4cXgyZVhfUm5vZDVXQUN3c3o5ZXpUVF8xVWdUbXNrYWFzUlVCM2xVYWJwaHFw?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "El paciente estadounidense con s\u00edntomas de hantavirus da negativo en la prueba - France 24",
@@ -4132,13 +4138,6 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUTZJejhVcEFhWGtHamIyMzhhNnBGWVRXNzN0cUxoclVCc0VxbUhDbDZxa29pTU9pNTdBUEMxYlRoTVpOVWxmcWpwVHo5R0Rwa3hyYjRBY2NTN3FQT19qMGZjVF9FUFVkNnI3WTJBeS1mSlNGendfS3RvbDVNeTZJNUJtTUhfNHowN0tTdFlfT2pITXdVUkRrOG5KMGtIREhPcl9ETzZtdTY?oc=5"
     },
     {
-      "iso": "SLV",
-      "title": "Especialistas afirman que el hantavirus no representa riesgo de contagio en El Salvador y llaman a la poblaci\u00f3n a mantener la calma - Infobae",
-      "t": "2026-05-13T19:15:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPSVMwQ1FseGg1d0lOdDRtZkJ2OGw1alZCRUZDS0UzclFjb09udGRISW9lSG81ZlN4c2I5cDBteUhiTW13NnUyeWtzNDlKTmlpOExvaUtFclJDRUp2ZXg0TGQwNzlQT01wUmFjMVo5TzRUOHlaRXllWTI1bjN1Z1NCZ0N0QjU2OWpYbDJnWU5WcGxyeHkyc0tzWkQzbFFQUmdOY0llM0FLTGJjT0FoRHp3Tmp0TTA3ZDMwMmhfZFVDeG1jX0ZWNVh5QmdFTkNHMFEyRWVNR200YXpwQi1VaEhRRjh5NVU5eFpSaThWcEk4SVZiTExLTzRXbXdINFFnLUozTGswNjJUbjFGZWfSAaYCQVVfeXFMT01NQk5Td25QY1lQQ1J0VHNVcEZMVlZ2RTJ2eUduZ0dZZHdqUXJlTkI0c1lCNENhRVVtWjZwcHg2d2MwWlgwTW1fbjJ5UjM4Z1lETHpVcjAwUzJQOHM2MXZwZ0d4LXZJTXlGbjhRTk9CQWE0ME9NRnZidVFkdGVONFliQ0VDaVo4UzBWTUhTTXdkT2VLOVZHd0NqUTJwVDhESjBRNXdmak9tZTVPWWpZXzJpQXdNNjI1cHdNeURtOVhuZzVibzZjaDFjRk5CalFmelBqaFRNeG91Uy1OVHpsY0djeWV5TGszb1FLMF9NQXBsS2N5ektyYmtmRUZZVkdPVnVreTU2aDlEdFBBLWNQNEwxYm94NzB2S1JZOHJfVEtUTEdNaVFn?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "Opinion | 11 hantavirus deaths in Argentina were a warning - The Washington Post",
       "t": "2026-05-13T17:45:00Z",
@@ -4232,7 +4231,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T11:35:15Z",
+      "last_update": "2026-05-14T11:40:16Z",
       "signals": 8,
       "recent": [
         {
