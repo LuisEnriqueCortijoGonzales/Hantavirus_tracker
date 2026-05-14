@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T17:35:16.791424Z",
-  "next_update": "2026-05-14T17:40:00Z",
+  "generated": "2026-05-14T17:40:04.766938Z",
+  "next_update": "2026-05-14T17:45:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 9,
+      "signals": 8,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 22,
+    "kalshi": 25,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4022,7 +4022,7 @@
     "CHN": 1,
     "USA": 3,
     "MEX": 2,
-    "FRA": 9
+    "FRA": 8
   },
   "events": [
     {
@@ -4187,13 +4187,6 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUTZJejhVcEFhWGtHamIyMzhhNnBGWVRXNzN0cUxoclVCc0VxbUhDbDZxa29pTU9pNTdBUEMxYlRoTVpOVWxmcWpwVHo5R0Rwa3hyYjRBY2NTN3FQT19qMGZjVF9FUFVkNnI3WTJBeS1mSlNGendfS3RvbDVNeTZJNUJtTUhfNHowN0tTdFlfT2pITXdVUkRrOG5KMGtIREhPcl9ETzZtdTY?oc=5"
     },
     {
-      "iso": "FRA",
-      "title": "Invitad@ del d\u00eda - \u00bfPor qu\u00e9 la OMS descarta una epidemia tras el brote de hantavirus? - France 24",
-      "t": "2026-05-13T15:43:24Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd19FNVFNV3VUZ29UdThadGRzeV9nYVVPNUFuMnNLVUhWY3J6OFM5Vnc1ODJ4NWNVc2dhQkh3V2ZNVUdTWUUzb3M3SzZxWVFrcEhBZE9VT09jUnVXVVNDTmNWak5HazlfbGNnc3lUbl8xWDQyRE9QVjhYdE5pVFhJcWk0azVHdTVhb1dKN2I4N2xXQUd3ZEdkMDI2S3RCc0lkRXV4TWpnRVhUSVZXNmQtaWZtcU5PbGMwOEVGV09MUUxlejFZUlBncnd5cnp2VWpXQk13?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "Hantavirus: el total de casos en Argentina asciende a 102 - Agencia Noticias Argentinas",
       "t": "2026-05-13T11:16:12Z",
@@ -4259,7 +4252,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T17:35:16Z",
+      "last_update": "2026-05-14T17:40:04Z",
       "signals": 8,
       "recent": [
         {
