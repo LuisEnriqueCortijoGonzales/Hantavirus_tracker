@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T12:15:14.926385Z",
-  "next_update": "2026-05-14T12:20:00Z",
+  "generated": "2026-05-14T12:20:16.815851Z",
+  "next_update": "2026-05-14T12:25:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 6,
+      "signals": 7,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 17,
     "epidemio": 19,
     "polymarket": 7,
-    "kalshi": 19,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,11 +4020,18 @@
   "signal_summary": {
     "ARG": 12,
     "USA": 3,
-    "FRA": 6,
+    "FRA": 7,
     "BOL": 1,
     "MEX": 2
   },
   "events": [
+    {
+      "iso": "FRA",
+      "title": "Francia: todos los casos de contacto del hantavirus dan negativo - RFI",
+      "t": "2026-05-14T12:13:01Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN2tCMS14dE1nT0s4TkVnMS14c0hlOFpJZ21NSElQa3NaT1V0amJVY2MyZGdSOTBIU1FIQm1ZUjlydzdOUzB4NEZGNlZTQWVvdWpPNkVnYTQ3Y2NaMWYtMUtRaldubUFVMnlOZlRPa1JiUkUtSkswUjY0NEg1emQyNkhkN0lkRWluMUktU20xTHhCSzd0ZXZRby1zX1FTZ25rWHlTOA?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Refuerzan controles sanitarios en Estados Unidos tras detectar dos nuevas exposiciones al hantavirus - Infobae",
@@ -4210,7 +4217,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T12:15:14Z",
+      "last_update": "2026-05-14T12:20:16Z",
       "signals": 8,
       "recent": [
         {
