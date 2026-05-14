@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T00:05:16.807901Z",
-  "next_update": "2026-05-14T00:10:00Z",
+  "generated": "2026-05-14T00:10:16.818489Z",
+  "next_update": "2026-05-14T00:15:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -39,14 +39,14 @@
     },
     "BOL": {
       "ytd": 14,
-      "alert": "vigilancia",
+      "alert": "brote",
       "cfr": 40.0,
       "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
-      "gov_alert": false
+      "signals": 1,
+      "gov_alert": true
     },
     "PER": {
       "ytd": 11,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
-    "epidemio": 16,
+    "composite": 16,
+    "epidemio": 17,
     "polymarket": 7,
-    "kalshi": 19,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4015,16 +4015,24 @@
       "Europe"
     ],
     "emergency_count": 0,
-    "outbreak_count": 7
+    "outbreak_count": 8
   },
   "signal_summary": {
     "MEX": 2,
     "USA": 3,
     "ARG": 17,
     "FRA": 4,
-    "SLV": 1
+    "SLV": 1,
+    "BOL": 1
   },
   "events": [
+    {
+      "iso": "BOL",
+      "title": "Alerta sanitaria en Bolivia por brote de Hantavirus - Infobae",
+      "t": "2026-05-13T23:57:56Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMDdSQTdGX09iUkZmMTJCMDh3NGM5X3NXb0VzNm5uWGhCeVVlVzlnZnFma2FzWkRXdTU0SlBSU29YZXdZaWZidWhQbGgxTUhxVWdRN0FWa1RKbzI3RUZEbFZ6cGQ5MktfYm15eE1ERm53QnlOajdyU3ItM3psdzQyNnU2VWhtdno2Y0g2bjJ1Z2hINy1ROTgxY2ZseEFybExJVXhBag?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Un m\u00e9dico est\u00e1 en aislamiento tras atender brote de hantavirus en el crucero - Cadena 3 Argentina",
@@ -4231,7 +4239,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T00:05:16Z",
+      "last_update": "2026-05-14T00:10:16Z",
       "signals": 7,
       "recent": [
         {
@@ -4250,14 +4258,14 @@
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT21rQlNaWEIycVNMbWFodFNNU1ZlTFNkemx5S2xXZmJBOEUzQlFvT2xkb2dzMVA3THU5VWdZSkZXQzV6ZHExM1lCUXBPdG93X0VaUFMza21aUzZDbTBkTF90ME5yaUZnVXVqLXQ2QUd0SFBNQmNBYTVGaDBoazlDRDlPTzVLYXNWaXNrUFpYRkk3QkplWGNHUXVyckhzWXFVRERfWDBiSWdOeVBEU3hSNk9EaGk3b3VacVl1ekhR0gHDAUFVX3lxTE9BUW42aFFGaXBFakRXZWVKb1VJUDFSVGpIeE1OWld0Z3VlQkhLUkh0Y28wWHBBb0JTNXR6TXNlQ3hWOUVVQ3o4aEkwZVBhOGF2NEdaUkhwM3otNHV6SVlSOVJoMEZ0TU5DUkU2Sl82TjBwbkR2RzI5Ty04b2hKLWlOblh1eWRiSWMyckljQWlmZWJodHFkdmdUaDQzUEgtTEdpWmRqRnBlbC1lYkJpNFoySU93MzRQRHl5Smw0dHYwMWZZQQ?oc=5"
         },
         {
-          "title": "Hantavirus en Argentina: confirmaron 102 casos en la temporada y analizan el brote en un crucero - El Eco",
-          "t": "2026-05-13T11:59:53Z",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMVFHTVNHMUY5Wm1yeFhDMGxpQjlmeUpxcFJHOWVCYjZaNmtGUklGX0hpMFJzTWJoTThEeXY3VzZzZkg1YlpDVDBDdi1BN1dRdzQxeWljeDVSUkpUM1JwZU9uTWVmQVRNbXlEbUxTSHV6QXdtZVBXRWZOZUtGeVhwWHdILVZhZXJLQU1FclRITXhRMThqU3RLcm9JRkliYWx3bEdCT1Myc2hac3Y0dUlHNHYtNmtocFZxV1BaeG1aZTJ5TU9waUdacw?oc=5"
-        },
-        {
           "title": "Alerta por hantavirus en Argentina: suben los casos y crece la preocupaci\u00f3n por el brote del crucero - El Diario de la Pampa",
           "t": "2026-05-13T21:36:00Z",
           "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPN2wxb0VBOU1FYWtsTUJ6OThQdmJSMkwtbVQya2pzWXNTODJmdE1oVWU0R012Q0lhbTQ1bkU5ZzJ5NVB2bXRSODJYd05kYWFSR3VSSVBrTE5sd2p0T2xkRWUzVnRnRWRCN29VMXF4blNpWUFOeGlmdmNxQWhnaFJDTUlaTzdwZ0tBYk16djNkVF9lOTRtaEVpbkZ2WkIzN1QtOFAxaFYzU1RQY1YyczRZVlp0NzRubmVJMWhhTTVRQjRPMFpKMkw4TWEyUV8tWnRDZF9XbXNQMlp0SkQ2ZHJOdFhyVHdRYmtlMjJBbmVERnV3RTRSMXZjcQ?oc=5"
+        },
+        {
+          "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
+          "t": "2026-05-12T22:12:02Z",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeUtmR2dNaUYwdEFTMTc1dUlmZVR4c1MzTXQ5VDZQclYzbW1xdzRfUGF3aWFIc1lSaWpRcXhfbW5OdFVYbW0tekVySTBDYy1Va050T1cwTWVNZHk3a2pmYUNkNDQ2MndoS1N2cUJPaFpfOU9scFlyb1hZZTNwamg3YnJzTnFjbVRUVEFLdFhkQmlXNUlDWUpuQ0hGblpYVkpIcTlKX1kwMjRURTV0UVdkSVMwZDhvZVpMc2RTcFYwdkdTZHZ5SEFwNXBlNld1V2d6eHBmUHVCWVE5UDFsbGYtRDl30gH8AUFVX3lxTFBoQ1JGSnZhTHg2SmpiUlltY3Vzd3p0d3ZLVXR0VEFNQkQzNVlOb19PcVBabUlfdDc5RHR6aGdvOEhiUnNmcE43cGNoZG1KVTZWSmlnOHZxZHJPOWdRWXJkbUVIXzI1SzdjTC1MX3NNaFhodnJwODVRakN1OVZxMkFrNHlEMXlVN3ZFWW1kdUFId21ISkRPRVF6bnJlTlBjZHVOd1NaY2FKbUJfYktwQm5meE1LNVNMQmZyekV2MUQzM1AwcVRtQnhsd3N3Vl83aldDQ2ZxeDB0RlpERE9ENEZ3ekhodXhhLUlGelU0U3VVYVFjeE1OSUpTUXdqTQ?oc=5"
         }
       ]
     }
