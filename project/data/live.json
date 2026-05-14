@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T02:15:16.827783Z",
-  "next_update": "2026-05-14T02:20:00Z",
+  "generated": "2026-05-14T02:20:14.760019Z",
+  "next_update": "2026-05-14T02:25:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -72,14 +72,14 @@
     },
     "MEX": {
       "ytd": 8,
-      "alert": "vigilancia",
+      "alert": "brote",
       "cfr": 30.0,
       "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
-      "gov_alert": false
+      "signals": 3,
+      "gov_alert": true
     },
     "USA": {
       "ytd": 18,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
-    "epidemio": 17,
+    "composite": 18,
+    "epidemio": 19,
     "polymarket": 7,
-    "kalshi": 20,
+    "kalshi": 26,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4015,10 +4015,10 @@
       "Europe"
     ],
     "emergency_count": 0,
-    "outbreak_count": 8
+    "outbreak_count": 9
   },
   "signal_summary": {
-    "MEX": 2,
+    "MEX": 3,
     "USA": 3,
     "ARG": 14,
     "FRA": 3,
@@ -4033,6 +4033,13 @@
       "t": "2026-05-14T01:33:24Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbHBEekJUT3VxNEVsa3NzbUpWTWVXcmREZWdsYUFiZnlkQ2dzT2M2STdzMk1mTDNYcUFMczNpUjhKWmhkZmMzMHJaR3h5aDQzRkR4eF9XTnVnOXdFM1dHQkhoWGZETkhIMllRVDBYRlliTHRYc2VxS01EN0lCODFITlVBZ2ZtT2kzQU1pTUVWZkxDTC00N1FEaVY2SHNrcE9PRTJMTE9uN1g0ckNPSEpxRlpqTjhpamEtaHV4eENvRjhCWGZQWGdPNXp1V2phOW1XVlJ5Z0RNQllGZkE?oc=5"
+    },
+    {
+      "iso": "MEX",
+      "title": "M\u00e9xico emite alerta epidemiologica por brote de Hantavirus en el crucero Mv Hondius - Telemundo San Diego",
+      "t": "2026-05-14T01:25:20Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ2F4c1dZLWtSaHVBMzg2cTlna29BRVVGR1BTUEFNZ28zcHBkcHdyWjMwVDJjTkhnMjAwdGVmNnViTWMyUmFPQmVadW11RHJ2VUVYbDlzT3NiUjBUVjJxVm4zckd2UEdaX2tyRTJVZ1JsQ1M2WGVZbU81MGpJZEtOUW1ubkliY0dnbnVkZjBtNnRQeXd4MmFlQ3EwMVoycG_SAacBQVVfeXFMUDVudXROUUpueGtFMm9hcXFjYXlFamd5NXVGeGlJd0ZPVmVCT0gxUUdnNmwzZ1Z4MlhWM0ZfdThQTThNSGYteEEwb1A5RE04WUluWXo3bV9MTnNMZlUwVXZzOW5FYTZoYWpxSDNRR0tXS1drb0VUSmF3RUVkZ3RwNXdWLXhpQ1VsTS1hTFg4S1pidkQ1NVZOdEhNY19IOGxNcjItRWtDZjg?oc=5"
     },
     {
       "iso": "BOL",
@@ -4226,13 +4233,18 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T02:15:16Z",
-      "signals": 5,
+      "last_update": "2026-05-14T02:20:14Z",
+      "signals": 6,
       "recent": [
         {
           "title": "New Mexico's Hantavirus Strain is Different From Cruise Ship Outbreak and Does Not Spread Between People - UNM HSC Newsroom",
           "t": "2026-05-13T21:12:54Z",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVpsMXJOSnRETzVJRUNiajlyMHpQWkVhVFpKZ1kwQ240bHlEMDd2anV4XzBRclI5Ti1yVXVCRWZ6V0JMdXNNZ0xrUGw1OVdtM1pINk80QVg3UmxQN0h4V2xWZ2l2NzlvUE5aZE4wemtUQTBzUk9RMzRoZnQtcWlXTlNJNGtEX08tYXlENWZtQS1OQWNhRWxlSkpNWm1yZ0ZDZDRWejZZSlBfaExJX00zYzBtX1ZkY2c3S0FMc1V1amdueWpEaE9lejZZVkFhZw?oc=5"
+        },
+        {
+          "title": "M\u00e9xico emite alerta epidemiologica por brote de Hantavirus en el crucero Mv Hondius - Telemundo San Diego",
+          "t": "2026-05-14T01:25:20Z",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ2F4c1dZLWtSaHVBMzg2cTlna29BRVVGR1BTUEFNZ28zcHBkcHdyWjMwVDJjTkhnMjAwdGVmNnViTWMyUmFPQmVadW11RHJ2VUVYbDlzT3NiUjBUVjJxVm4zckd2UEdaX2tyRTJVZ1JsQ1M2WGVZbU81MGpJZEtOUW1ubkliY0dnbnVkZjBtNnRQeXd4MmFlQ3EwMVoycG_SAacBQVVfeXFMUDVudXROUUpueGtFMm9hcXFjYXlFamd5NXVGeGlJd0ZPVmVCT0gxUUdnNmwzZ1Z4MlhWM0ZfdThQTThNSGYteEEwb1A5RE04WUluWXo3bV9MTnNMZlUwVXZzOW5FYTZoYWpxSDNRR0tXS1drb0VUSmF3RUVkZ3RwNXdWLXhpQ1VsTS1hTFg4S1pidkQ1NVZOdEhNY19IOGxNcjItRWtDZjg?oc=5"
         },
         {
           "title": "Mapping the hantavirus outbreak as cruise ship passengers return to US - USA Today",
@@ -4248,11 +4260,6 @@
           "title": "Alerta por hantavirus en Argentina: suben los casos y crece la preocupaci\u00f3n por el brote del crucero - El Diario de la Pampa",
           "t": "2026-05-13T21:36:00Z",
           "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPN2wxb0VBOU1FYWtsTUJ6OThQdmJSMkwtbVQya2pzWXNTODJmdE1oVWU0R012Q0lhbTQ1bkU5ZzJ5NVB2bXRSODJYd05kYWFSR3VSSVBrTE5sd2p0T2xkRWUzVnRnRWRCN29VMXF4blNpWUFOeGlmdmNxQWhnaFJDTUlaTzdwZ0tBYk16djNkVF9lOTRtaEVpbkZ2WkIzN1QtOFAxaFYzU1RQY1YyczRZVlp0NzRubmVJMWhhTTVRQjRPMFpKMkw4TWEyUV8tWnRDZF9XbXNQMlp0SkQ2ZHJOdFhyVHdRYmtlMjJBbmVERnV3RTRSMXZjcQ?oc=5"
-        },
-        {
-          "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
-          "t": "2026-05-10T17:36:03Z",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
         }
       ]
     }
