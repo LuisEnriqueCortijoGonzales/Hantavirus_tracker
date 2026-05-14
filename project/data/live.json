@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T01:40:16.782008Z",
-  "next_update": "2026-05-14T01:45:00Z",
+  "generated": "2026-05-14T01:45:14.956862Z",
+  "next_update": "2026-05-14T01:50:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 2,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 17,
     "polymarket": 7,
-    "kalshi": 25,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "MEX": 3,
     "USA": 3,
     "ARG": 15,
-    "FRA": 4,
+    "FRA": 3,
     "SLV": 1,
     "BOL": 2,
     "PER": 1
@@ -4196,13 +4196,6 @@
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbTF6RTl2VFZXdUZORUdkWF9CaEtrSWhYSW5sODNYT1hrYnQ5dnNmVThzaF9FeW1lVjNjWGNTdzhfRU84X000YlhOMkN3TUllN0tsQmVwWGoxb09qT0xUQ0hDRUlHVjBwMW1nREo5dURNVG04am0xek5lbVpaaS12YkVzYmlQbThLbDZEcW5NWWlKMnF6ajAyaGNWd3MtQ0ZkQ3B1eGlGdHdVNkpwdGw3OXBlVXRxdEFHZUh0UlJiNDZlc2hlUW0xcEd5cGJnWjNjWXZrWnF4N09NUko1Y3luczJJMA?oc=5"
     },
     {
-      "iso": "FRA",
-      "title": "Esfuerzo global para controlar el brote de hantavirus, mientras los casos en Espa\u00f1a y Francia disparan la incertidumbre - EL PA\u00cdS",
-      "t": "2026-05-13T03:30:01Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOZlRCV003eVhvR2ZMcVAyR3VMTXByWVQ2d3o0Q0tOazBHRHdUcXlTcHZGYUs3UW1fVUg0aHBzT0JIckxKNTNtRzBOX3VuZ2lfbDE4LW4tZmtvR2RPUC1jS0RvTHFDMDNjbWdxVFk3TU9vaFJrRlJPNGxSRzE4TDV3RndRN2ZSQUZYakJNZmJ6S09GajlLR25FbzJZblZ3Q2xCdEN0MzdONy1rV2ZIU1hiS3RpRnpvakUtZzRFQjk5cjB5TC1BQVd4dDViRmFBMnhBWkwtOHdZcmQ4TFVmRWdwaDdWMmRSN19NT3hzRS1tY21TQzZ00gGIAkFVX3lxTE9hdnZDSzlBa0NMWmp0d2pCMzRUR3RPWFNXUWppc0hTOGlXMFpqRWRkQWcxa2FMeGlFNy02bnladkpNZW1KUEctZmJJSnh3ODMyNkNfVjBBc3FlTjVUaTlYZGNpZXNsaXVCRGljZFgzSGVVc1UySzlyNXgxUGdHWEs2QWxuellLZ3Zwc2l2dERQNkkyNEFmbkpXbE1WRVlOdTE5cTh1dkZkb3RzS0VpVVFCTDFNQi1IWS1TNFBoNVlZWFEzOFU5NkEwQ0kwLUtCeklQOExLVS1EcmRDdlJQUlBkQXhHR3pneDRtNXFFcnhfNlZEYWt3amdyZnVfdFd0WURIcEdiR2NXZA?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
       "t": "2026-05-12T22:12:02Z",
@@ -4247,7 +4240,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T01:40:16Z",
+      "last_update": "2026-05-14T01:45:14Z",
       "signals": 6,
       "recent": [
         {
