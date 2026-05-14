@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T08:00:14.883591Z",
-  "next_update": "2026-05-14T08:05:00Z",
+  "generated": "2026-05-14T08:05:15.116991Z",
+  "next_update": "2026-05-14T08:10:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -41,11 +41,11 @@
       "ytd": 14,
       "alert": "brote",
       "cfr": 40.0,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": true
     },
     "PER": {
@@ -56,7 +56,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "COL": {
@@ -4006,7 +4006,7 @@
     "composite": 17,
     "epidemio": 19,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4022,9 +4022,8 @@
     "ARG": 13,
     "FRA": 4,
     "SLV": 1,
-    "BOL": 2,
-    "MEX": 2,
-    "PER": 1
+    "BOL": 1,
+    "MEX": 2
   },
   "events": [
     {
@@ -4047,20 +4046,6 @@
       "t": "2026-05-14T01:25:20Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ2F4c1dZLWtSaHVBMzg2cTlna29BRVVGR1BTUEFNZ28zcHBkcHdyWjMwVDJjTkhnMjAwdGVmNnViTWMyUmFPQmVadW11RHJ2VUVYbDlzT3NiUjBUVjJxVm4zckd2UEdaX2tyRTJVZ1JsQ1M2WGVZbU81MGpJZEtOUW1ubkliY0dnbnVkZjBtNnRQeXd4MmFlQ3EwMVoycG_SAacBQVVfeXFMUDVudXROUUpueGtFMm9hcXFjYXlFamd5NXVGeGlJd0ZPVmVCT0gxUUdnNmwzZ1Z4MlhWM0ZfdThQTThNSGYteEEwb1A5RE04WUluWXo3bV9MTnNMZlUwVXZzOW5FYTZoYWpxSDNRR0tXS1drb0VUSmF3RUVkZ3RwNXdWLXhpQ1VsTS1hTFg4S1pidkQ1NVZOdEhNY19IOGxNcjItRWtDZjg?oc=5"
-    },
-    {
-      "iso": "BOL",
-      "title": "Hantavirus en Bolivia pone en alerta a Sudam\u00e9rica mientras Per\u00fa fortalece vigilancia en aeropuertos y puertos - Infobae",
-      "t": "2026-05-14T00:13:46Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSzhiQlREQWItVV9UY19YeDItUTlvLXZRbGJHczNsVkl5MEhBcjRiUWY5V3JveTFsRWszVF8zYjVmVjRENWJsdW1fZzFpMXUzVWdEMXZFMDhMSHRkR2ZLMHprVExBWm5FZnVQXzc0dlp0QTZWeHRpMkZtSkl2dklIY1BVckhuby00QmhZblNHRklMV3hwREZ5VWx3dDljSGFnZmswb3lxazFGcHdQTVJuam9ZWDVYZThfSWotQUtVc0ZIYUUtR2V1cWs0X3laY1lUdXZDdFgtNDQxNWFGU1R1YzRuQmbSAf8BQVVfeXFMUHEwMEo1ZjFNWkMxMnpKU0lONzhtb3Y1QTgzWV9vT1B5MHVjMGZ2bW1VMldmR3V6dXBDWWQwa0FITElIS3FrMllubDBZUTFsRmFEQmRWNGtTM2M1RTF2djBLTUhwbkw4SGtoMmxabnhtVTE0UVJXVlE3aDk1NURwT3ZUYlBhcWdpVnpZSXhMbklhS242cUxIUFRORllEU2pLMTg5N1RWZHhDcHlXcy1BdUNlSGlhRnVFblRvTmRzblc3VHd2MFRxeTRhMGpSaXFMa1lDYlhJVi1wUHAtZFVQa20xSmY3bzRhTzNtUWpFbkFBYTF2MXRlTmRlVFYtQ0Rn?oc=5"
-    },
-    {
-      "iso": "PER",
-      "title": "Hantavirus en Bolivia pone en alerta a Sudam\u00e9rica mientras Per\u00fa fortalece vigilancia en aeropuertos y puertos - Infobae",
-      "t": "2026-05-14T00:13:46Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSzhiQlREQWItVV9UY19YeDItUTlvLXZRbGJHczNsVkl5MEhBcjRiUWY5V3JveTFsRWszVF8zYjVmVjRENWJsdW1fZzFpMXUzVWdEMXZFMDhMSHRkR2ZLMHprVExBWm5FZnVQXzc0dlp0QTZWeHRpMkZtSkl2dklIY1BVckhuby00QmhZblNHRklMV3hwREZ5VWx3dDljSGFnZmswb3lxazFGcHdQTVJuam9ZWDVYZThfSWotQUtVc0ZIYUUtR2V1cWs0X3laY1lUdXZDdFgtNDQxNWFGU1R1YzRuQmbSAf8BQVVfeXFMUHEwMEo1ZjFNWkMxMnpKU0lONzhtb3Y1QTgzWV9vT1B5MHVjMGZ2bW1VMldmR3V6dXBDWWQwa0FITElIS3FrMllubDBZUTFsRmFEQmRWNGtTM2M1RTF2djBLTUhwbkw4SGtoMmxabnhtVTE0UVJXVlE3aDk1NURwT3ZUYlBhcWdpVnpZSXhMbklhS242cUxIUFRORllEU2pLMTg5N1RWZHhDcHlXcy1BdUNlSGlhRnVFblRvTmRzblc3VHd2MFRxeTRhMGpSaXFMa1lDYlhJVi1wUHAtZFVQa20xSmY3bzRhTzNtUWpFbkFBYTF2MXRlTmRlVFYtQ0Rn?oc=5"
     },
     {
       "iso": "BOL",
@@ -4226,7 +4211,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T08:00:14Z",
+      "last_update": "2026-05-14T08:05:15Z",
       "signals": 7,
       "recent": [
         {
