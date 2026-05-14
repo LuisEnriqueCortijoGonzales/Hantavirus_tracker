@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T10:25:08.477436Z",
-  "next_update": "2026-05-14T10:30:00Z",
+  "generated": "2026-05-14T10:30:14.843531Z",
+  "next_update": "2026-05-14T10:35:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 17,
     "epidemio": 19,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4055,13 +4055,6 @@
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWEtSZ2RUa3dhNkhQMWpJOXBBS2k3LXljTlp6LTNMdTNrWllGb2EzYUF6Wl85UUxscEFzX3BtM1VHRWNLTzl6dzMzWFd3dkZVbGV5RHhBYnFoT1hDNHA3dF9PYkU0emJsd0M4TF9YZmdTcEtVTHdQa3dBYWY3cmdBSUk5YTdwTS1zS24zOUZCTmdxV0YxU3pZRmtuS2RWdzlYR3dNN01nUklLdkRUZG9leEFYcTk4azZyNm9WaEl0QXE3eDZvUTBhRkdJRGdPSEhqNFF6UlFhcGpEdjZfNzM0OGJoOG5TZHR5LTZpRQ?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "Argentina env\u00eda a pa\u00edses de \u00c1frica y Europa insumos para diagnosticar hantavirus - elineanoticias.com",
-      "t": "2026-05-14T04:34:22Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeVFJcG1EeFQ2aE5ZaWdpVTBRQ25zTjFBRVZPUWF3ekstUVc5NlRtN1BWNm44MzBMLWszb0wwOFk2VWRiWUJvRS1UM25zU1BkUUVNdGQzdGM5U2loeW1IUk9BeXZDUUdOYnFSb2swTWt5N3FqQVI4cFBtZVlmNXZBeTVTSXVCamM?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Hantavirus... gastroenteritis: \u00bfqu\u00e9 riesgos hay al abordar un crucero? - France 24",
       "t": "2026-05-14T02:35:37Z",
@@ -4081,6 +4074,13 @@
       "t": "2026-05-14T01:25:20Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ2F4c1dZLWtSaHVBMzg2cTlna29BRVVGR1BTUEFNZ28zcHBkcHdyWjMwVDJjTkhnMjAwdGVmNnViTWMyUmFPQmVadW11RHJ2VUVYbDlzT3NiUjBUVjJxVm4zckd2UEdaX2tyRTJVZ1JsQ1M2WGVZbU81MGpJZEtOUW1ubkliY0dnbnVkZjBtNnRQeXd4MmFlQ3EwMVoycG_SAacBQVVfeXFMUDVudXROUUpueGtFMm9hcXFjYXlFamd5NXVGeGlJd0ZPVmVCT0gxUUdnNmwzZ1Z4MlhWM0ZfdThQTThNSGYteEEwb1A5RE04WUluWXo3bV9MTnNMZlUwVXZzOW5FYTZoYWpxSDNRR0tXS1drb0VUSmF3RUVkZ3RwNXdWLXhpQ1VsTS1hTFg4S1pidkQ1NVZOdEhNY19IOGxNcjItRWtDZjg?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina env\u00eda a pa\u00edses de \u00c1frica y Europa insumos para diagnosticar hantavirus - HolaNews",
+      "t": "2026-05-14T01:09:59Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObk9xQVFQQnA3TFVaSm1ONGVfUkgxOVUtckdSQjZwX0ZpNUhHV2c2S3RpeHhkbi1hMDRyTkt2WFc1RVJUdENvTGdYb0RMZnBGc05NdzFWLVRwUzBDMGkxelJhMDhsS1QwOVBNY3lfazVVZkNVM1gyOWpYcEVSOTNfZGVrY2t0Z1hoclptVU9aaGN5c2F0NEo1YkZSS3Z6RklHcUdiRQ?oc=5"
     },
     {
       "iso": "BOL",
@@ -4225,7 +4225,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T10:25:08Z",
+      "last_update": "2026-05-14T10:30:14Z",
       "signals": 9,
       "recent": [
         {
@@ -4239,14 +4239,14 @@
           "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPN2wxb0VBOU1FYWtsTUJ6OThQdmJSMkwtbVQya2pzWXNTODJmdE1oVWU0R012Q0lhbTQ1bkU5ZzJ5NVB2bXRSODJYd05kYWFSR3VSSVBrTE5sd2p0T2xkRWUzVnRnRWRCN29VMXF4blNpWUFOeGlmdmNxQWhnaFJDTUlaTzdwZ0tBYk16djNkVF9lOTRtaEVpbkZ2WkIzN1QtOFAxaFYzU1RQY1YyczRZVlp0NzRubmVJMWhhTTVRQjRPMFpKMkw4TWEyUV8tWnRDZF9XbXNQMlp0SkQ2ZHJOdFhyVHdRYmtlMjJBbmVERnV3RTRSMXZjcQ?oc=5"
         },
         {
-          "title": "Un m\u00e9dico est\u00e1 en aislamiento tras atender brote de hantavirus en el crucero - Cadena 3 Argentina",
-          "t": "2026-05-13T23:06:30Z",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT21rQlNaWEIycVNMbWFodFNNU1ZlTFNkemx5S2xXZmJBOEUzQlFvT2xkb2dzMVA3THU5VWdZSkZXQzV6ZHExM1lCUXBPdG93X0VaUFMza21aUzZDbTBkTF90ME5yaUZnVXVqLXQ2QUd0SFBNQmNBYTVGaDBoazlDRDlPTzVLYXNWaXNrUFpYRkk3QkplWGNHUXVyckhzWXFVRERfWDBiSWdOeVBEU3hSNk9EaGk3b3VacVl1ekhR0gHDAUFVX3lxTE9BUW42aFFGaXBFakRXZWVKb1VJUDFSVGpIeE1OWld0Z3VlQkhLUkh0Y28wWHBBb0JTNXR6TXNlQ3hWOUVVQ3o4aEkwZVBhOGF2NEdaUkhwM3otNHV6SVlSOVJoMEZ0TU5DUkU2Sl82TjBwbkR2RzI5Ty04b2hKLWlOblh1eWRiSWMyckljQWlmZWJodHFkdmdUaDQzUEgtTEdpWmRqRnBlbC1lYkJpNFoySU93MzRQRHl5Smw0dHYwMWZZQQ?oc=5"
-        },
-        {
           "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
           "t": "2026-05-10T17:36:03Z",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
+        },
+        {
+          "title": "Un m\u00e9dico est\u00e1 en aislamiento tras atender brote de hantavirus en el crucero - Cadena 3 Argentina",
+          "t": "2026-05-13T23:06:30Z",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT21rQlNaWEIycVNMbWFodFNNU1ZlTFNkemx5S2xXZmJBOEUzQlFvT2xkb2dzMVA3THU5VWdZSkZXQzV6ZHExM1lCUXBPdG93X0VaUFMza21aUzZDbTBkTF90ME5yaUZnVXVqLXQ2QUd0SFBNQmNBYTVGaDBoazlDRDlPTzVLYXNWaXNrUFpYRkk3QkplWGNHUXVyckhzWXFVRERfWDBiSWdOeVBEU3hSNk9EaGk3b3VacVl1ekhR0gHDAUFVX3lxTE9BUW42aFFGaXBFakRXZWVKb1VJUDFSVGpIeE1OWld0Z3VlQkhLUkh0Y28wWHBBb0JTNXR6TXNlQ3hWOUVVQ3o4aEkwZVBhOGF2NEdaUkhwM3otNHV6SVlSOVJoMEZ0TU5DUkU2Sl82TjBwbkR2RzI5Ty04b2hKLWlOblh1eWRiSWMyckljQWlmZWJodHFkdmdUaDQzUEgtTEdpWmRqRnBlbC1lYkJpNFoySU93MzRQRHl5Smw0dHYwMWZZQQ?oc=5"
         },
         {
           "title": "Hantavirus en Argentina: confirmaron 102 casos en la temporada y analizan el brote en un crucero - El Eco",
