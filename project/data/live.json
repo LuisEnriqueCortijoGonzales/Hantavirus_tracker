@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T16:05:14.758930Z",
-  "next_update": "2026-05-14T16:10:00Z",
+  "generated": "2026-05-14T16:10:15.005490Z",
+  "next_update": "2026-05-14T16:15:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 73,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 9,
+      "var_pct": 8,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 18,
+      "signals": 17,
       "gov_alert": true
     },
     "CHL": {
@@ -23,7 +23,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "BRA": {
@@ -74,11 +74,11 @@
       "ytd": 8,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "USA": {
@@ -111,7 +111,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "PAN": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 17,
-    "epidemio": 18,
+    "composite": 15,
+    "epidemio": 17,
     "polymarket": 7,
-    "kalshi": 24,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,16 +4018,21 @@
     "outbreak_count": 8
   },
   "signal_summary": {
-    "ARG": 18,
+    "ARG": 17,
     "USA": 3,
-    "MEX": 1,
+    "MEX": 2,
     "FRA": 10,
     "CHN": 1,
-    "BOL": 1,
-    "CHL": 1,
-    "URY": 1
+    "BOL": 1
   },
   "events": [
+    {
+      "iso": "MEX",
+      "title": "\u00bfQu\u00e9 probabilidad hay de que llegue el hantavirus a M\u00e9xico? - Infobae",
+      "t": "2026-05-14T16:05:14Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc0J0emd5Vk9tYmU1Q0hyNlBxOFRpOVRfVTg2WXMtVDFQS2NVY3k3dHRRSDlFMnFxWE9lS3lxbDRKMmdvVGhKclVGTWVESGVQQ2dCdTNMR0d5dDk0UTl3MVF1OWJyeEVvc0dSd2ZqX1YzZ240UVh3ckx0czA4eWJ2NFU1MXliR1NiUUxUTGYwZ3dVSWx0bnBGeTVQNnp5d0tmcXfSAbwBQVVfeXFMTURLZ2JDZENjbWxsWDVCdUxjZTNLekE0SXlzYjU4SVU0SVpUTlNNeGRnYXpWUERsbVRlVTltUkl1UUxrZjVzNnNZRFBDUU5ucldPb1o3cHhkVTJnS1YtWlRkLXJIVlRjRUVvaHZtV25yejJQNXB6eEotMV81dTVCLUhyU1JEZFZrQ3c0T1JsdVp2eGRFRWtjY2dsdXRUX0dscEQwcjdkN0wzYnl2UzRfMUJSOW96TDdvank1enY?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina est\u00e1 en una carrera por hallar el origen del brote de hantavirus - Infobae",
@@ -4240,27 +4245,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Qu\u00e9 se sabe del viaje por Argentina, Chile y Uruguay de los turistas que presentaron los primeros s\u00edntomas de hantavirus en el crucero y luego murieron - BBC",
-      "t": "2026-05-07T23:22:53Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvQk85TUotMXBBY2dsU2hHVGxNUEk3OENZdFRHR0dYLVVoWGIwaG5IVS04LXVNU1R5NXhWZU5zX2E2aXBlcXBEYXhDcllqRmRPb3hqVDY2RFRkdVXSAWBBVV95cUxNdE5pdDNZbU1qZjFPSFRBeWZWaHJGX2p0V3FBbjllTWFQNG9VekxNc0FVcVV4cEd0em5UYUxTd2JpMG9pMzREMFMzWHFUX3BZai1SeXdLZ01TR2pEenk5OHQ?oc=5"
-    },
-    {
-      "iso": "CHL",
-      "title": "Qu\u00e9 se sabe del viaje por Argentina, Chile y Uruguay de los turistas que presentaron los primeros s\u00edntomas de hantavirus en el crucero y luego murieron - BBC",
-      "t": "2026-05-07T23:22:53Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvQk85TUotMXBBY2dsU2hHVGxNUEk3OENZdFRHR0dYLVVoWGIwaG5IVS04LXVNU1R5NXhWZU5zX2E2aXBlcXBEYXhDcllqRmRPb3hqVDY2RFRkdVXSAWBBVV95cUxNdE5pdDNZbU1qZjFPSFRBeWZWaHJGX2p0V3FBbjllTWFQNG9VekxNc0FVcVV4cEd0em5UYUxTd2JpMG9pMzREMFMzWHFUX3BZai1SeXdLZ01TR2pEenk5OHQ?oc=5"
-    },
-    {
-      "iso": "URY",
-      "title": "Qu\u00e9 se sabe del viaje por Argentina, Chile y Uruguay de los turistas que presentaron los primeros s\u00edntomas de hantavirus en el crucero y luego murieron - BBC",
-      "t": "2026-05-07T23:22:53Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvQk85TUotMXBBY2dsU2hHVGxNUEk3OENZdFRHR0dYLVVoWGIwaG5IVS04LXVNU1R5NXhWZU5zX2E2aXBlcXBEYXhDcllqRmRPb3hqVDY2RFRkdVXSAWBBVV95cUxNdE5pdDNZbU1qZjFPSFRBeWZWaHJGX2p0V3FBbjllTWFQNG9VekxNc0FVcVV4cEd0em5UYUxTd2JpMG9pMzREMFMzWHFUX3BZai1SeXdLZ01TR2pEenk5OHQ?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
       "t": "2026-05-06T15:29:33Z",
       "source": "GoogleNews-ES",
@@ -4297,8 +4281,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T16:05:14Z",
-      "signals": 10,
+      "last_update": "2026-05-14T16:10:15Z",
+      "signals": 9,
       "recent": [
         {
           "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
