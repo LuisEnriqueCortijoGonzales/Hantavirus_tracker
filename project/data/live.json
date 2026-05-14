@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T18:25:08.420318Z",
-  "next_update": "2026-05-14T18:30:00Z",
+  "generated": "2026-05-14T18:30:16.819817Z",
+  "next_update": "2026-05-14T18:35:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4027,17 +4027,17 @@
   "events": [
     {
       "iso": "USA",
+      "title": "41 people being monitored for hantavirus exposure. See map. - USA Today",
+      "t": "2026-05-14T18:23:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbW9Sam9ScXlkbVZCVUMyZ3diZ1lnaGIwWVMtS3VqZW9FcVR4cDhYVmVCTHlZanBLUFBUX1hHc0xYLVBqYWJfRWRnRTFTRkRjY1dtUUM4NktOZEMyeVBSYmlsRnZNekZfWnl3clZWT1NPcjJWZUczTDVKdnpjeE8tLUgwTWd5dGdVcDJoS3dadEFvRU5JRldseGpBRQ?oc=5"
+    },
+    {
+      "iso": "USA",
       "title": "Does the cruise ship hantavirus pose a threat to the United States? - Texas Public Radio | TPR",
       "t": "2026-05-14T17:57:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLUR5dEI2SE5leHRPWnM2cHh1YjEyLUlFMzV0Y3RGQkxlX1NOYzd3ZzJZLTQ0NjRhazdCcG1OOGp0Q05qLWx4YWJWaVN3bFF3TkVHbFBOanVkVFptTlAzQnVJNUFwNVBiQzFMYXJlSEJLellPUGVfdDBFR3ZKTGN4aWR2enNwZE1wbWQyY3ZiWWU5VGtmdjFYOG1weXllaC1YM1lmY2VUYm9jNHN4V0JYU3dSRmRSYzRw?oc=5"
-    },
-    {
-      "iso": "MEX",
-      "title": "Hantavirus outbreak abroad prompts reminder about risk in New Mexico - The Taos News",
-      "t": "2026-05-14T16:11:43Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNOFlwQ1lSNkU1bExvaWxFUTZJOUVQM3pOZ3NPWmNiR2tjSnlybTBNTUlaU3lsZFpGOF81VTRtTms1NHRQVldJRUdhVDJuWW5TR29EZzlTSU85c1Qya1pIWlhRTkNSY0dtX1BfQ3ZIOGF3NlVNSUZIQUlFQUMxZHpuOWFmS1VVMjNXclJOTDdzd09tTGRsbE9oU3lFN2Y2UUpremNJRkRGREd0NWZQTXhGa1JPVE9rMkdVYkxxN0VfdGZicDBsaFlPNVEtQnhBV1Z4V05vbnJacGJNbElha2tDVnZB?oc=5"
     },
     {
       "iso": "MEX",
@@ -4047,11 +4047,11 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc0J0emd5Vk9tYmU1Q0hyNlBxOFRpOVRfVTg2WXMtVDFQS2NVY3k3dHRRSDlFMnFxWE9lS3lxbDRKMmdvVGhKclVGTWVESGVQQ2dCdTNMR0d5dDk0UTl3MVF1OWJyeEVvc0dSd2ZqX1YzZ240UVh3ckx0czA4eWJ2NFU1MXliR1NiUUxUTGYwZ3dVSWx0bnBGeTVQNnp5d0tmcXfSAbwBQVVfeXFMTURLZ2JDZENjbWxsWDVCdUxjZTNLekE0SXlzYjU4SVU0SVpUTlNNeGRnYXpWUERsbVRlVTltUkl1UUxrZjVzNnNZRFBDUU5ucldPb1o3cHhkVTJnS1YtWlRkLXJIVlRjRUVvaHZtV25yejJQNXB6eEotMV81dTVCLUhyU1JEZFZrQ3c0T1JsdVp2eGRFRWtjY2dsdXRUX0dscEQwcjdkN0wzYnl2UzRfMUJSOW96TDdvank1enY?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "Argentina est\u00e1 en una carrera por hallar el origen del brote de hantavirus - Infobae",
-      "t": "2026-05-14T15:48:50Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdXV2d2E5cnpZdEk4SnNDN0ZfOTRtd1lpZDV0c2xSc2xRVGthOG51QTk5OGdSV1BQVTZheGYyOHZYTVJmczZGVkZqbVRDd2Y5VkZ5SDhXYXZKbnFRTWlBVUQ1S2t5elJjRENVR2xCV09DdDVfT3BEUVduTTFYVld0eHQwMElBU2llanRJYzZTRlhQUWZjZ3JacWtIWDVHQVZ4czJLT1k3dTh3TzloejNpYmZHQ3dwbUlLaUlSR1Rrdi02czFka1V5RjNYa2xvbGtGaDRF0gHuAUFVX3lxTE1DblpoX0JJS203SXFFTE5PbnRwektzWXBkNW1NR3BNdnA1cWxPeUdBNWFnVFo5YkFWbDBkd1JXRFl4U2Mwd0NvNGhoUGVPYnZkVG9Rd29NSDJZOXRCTmVoR3FXWEozUEo2bHk5dVlTV2l2QzFkNzdSd2xVNExaMXI1MzFqaGw4SGd3aWwxa3NPQUVvWXQxUV9LMTRXN1pFeFpNeGwzYkc0TGRVZFNoSWdoZmtnakd1N1ctUDByRzM5Wm4yWHpaSm9wYXlqUGZjT1F3MWNwTDJBdEp0R3ozdEozY2FNYU9LNk9tbWhnRGc?oc=5"
+      "iso": "MEX",
+      "title": "Hantavirus outbreak abroad prompts reminder about risk in New Mexico - The Taos News",
+      "t": "2026-05-14T15:41:47Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNRHdVbU1hRUdEb092MGtPb2RqVU04WFFFREtya0JwekNwYm1SZ1oxNF9IUXplY24xaVZURmNhaGdTa0NNZ3dvajdfQTRJZFZLM3RnVDJMTzN0dFZtVXY3XzAtMVl4Z1VIeUJoSTFsVFR1b1dOeWJELU5oR1NObFp2ZFVLdlBLWWlKQlNSazg4RXY0Z09jWEI2Q3hMSjgxQXl0TElxV3ZLVWpTalBjdW1SYktfWW5TNlh0V1ZtTjFEVlZlOEJObXpORWNrMmhlMkZYdDR4XzN1SDNzYjJxaHF5TmZwNFNFN2phMnpR?oc=5"
     },
     {
       "iso": "ARG",
@@ -4066,6 +4066,13 @@
       "t": "2026-05-14T15:35:55Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX0tKb09FcWM4cmU4ckFpLTVnaDdpVnhjM3BFUEk5OGhmbVJkZjMtbW44YU9wR3ZaUFdScEZiTGlwQ3hPbnJrVW5jRGh4eExTYXItSVNzelgyQ0c3Uk5LajZ4VTZtLV9FRGNZRUo3VmEzZXpwdlVOcmZmcG5RMkFOZkU2bmU0MW4weFRoNmlMbmRFYzJvMDBXQldZSQ?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina est\u00e1 en una carrera por hallar el origen del brote de hantavirus - The New York Times",
+      "t": "2026-05-14T14:48:04Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaUVBWVhjVVJoX0VNXzR6WnlubmhZWS1saTN3OGVqcm1Va0tOcnVBaXcweEk4WFY0VWtCZDVNMmZTSXV3aEdLaHItYWh4ZENCYmFvaS1ZRGc5RFRfVmF4RjZrN2NHQ2tqRjI3aHltS19jSWtHNG5QU0FRRHVreGVRa3JFRjUtSXBfakt5Rk9JOA?oc=5"
     },
     {
       "iso": "ARG",
@@ -4167,13 +4174,6 @@
     },
     {
       "iso": "USA",
-      "title": "Cruise passengers are quarantining, but for how long? Latest on hantavirus - USA Today",
-      "t": "2026-05-13T21:10:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNM2MtaDMtX1MtWGVRckhnZkVvRVk4ME9vczZqOTA5VmpFaW1UZXB1NE9DT01zT3k3N0w4ZnB6bGo4YVZjeFFWLUZjMGtMT3VEWHVBX1VYT2Z2LXhRdWVfR0JOczlFMGdPb0ZvOTZQMzBMZF9qVlhuNF9xMjFhcDBJcHdocGZUYXZBSVV2eEIzd3hUSHZOUVE0VlVzdk5lM1YwenlBNnFPZnZHb0l5R3c?oc=5"
-    },
-    {
-      "iso": "USA",
       "title": "Mapping the hantavirus outbreak as cruise ship passengers return to US - USA Today",
       "t": "2026-05-13T21:01:00Z",
       "source": "GoogleNews-EN",
@@ -4238,7 +4238,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T18:25:08Z",
+      "last_update": "2026-05-14T18:30:16Z",
       "signals": 8,
       "recent": [
         {
