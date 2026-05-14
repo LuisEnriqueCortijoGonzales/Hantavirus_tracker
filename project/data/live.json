@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T09:10:14.731425Z",
-  "next_update": "2026-05-14T09:15:00Z",
+  "generated": "2026-05-14T09:15:15.011319Z",
+  "next_update": "2026-05-14T09:20:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -4006,7 +4006,7 @@
     "composite": 17,
     "epidemio": 19,
     "polymarket": 7,
-    "kalshi": 22,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 9
   },
   "signal_summary": {
-    "USA": 3,
+    "USA": 2,
     "ARG": 13,
     "FRA": 4,
     "SLV": 1,
@@ -4139,13 +4139,6 @@
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPRFNFdi1IWnFQWVdob3dtV2lXY0V4WXR6VV9NRTNQakljSGt6SUJsemtGck43dW1sOXl0MnkwQngzS1ZLNWRJUGZjMndQTVI4d3pISDlnX3BjTWJtMGZYVThXdVdUSS1kb0JDWklELVh2NmVDdF9Sd2ZXYUluSnZtNlZKRWszZFFIUVc2OGRaQjViVDBLTlhfeVVlQnJYRXN4U0xzRmhjM1Q0Tmh0dHlTQW1XZHR6bGlhT2tQNEJaWkVHamN0cms2VWEtaG1qWXBoamF2SmdhdGhRMi1ya3ZmU1Jqc3EzUdIBgAJBVV95cUxOZGFleElHVFRzZjA3Q1ItMjFuSVFraTByeVozOXRrUG9wckg4d0ZEX0dfaXJMY3J5N2p0MXRRSnNpZ1VoQi1LcE9CMWdpbXFyYVc3RGxPbzFvYlMwdzBVbDJaN0x6WEZrcldDY0xMc0VVOFBFQlJEMl9yOUwzTmdodEFqZTkyb240QmxSOHJxUEl4MFVGRW5paGtZd3J0Y1ZGZVkxalplY1RlcThYcjVkcVFpY3pIaFJDMkVEZ1Q3Ui1FYjAyLTZacGZSY0YyYTZWTUoyMjdGdUxRVGRjVk1xeVNOSDlXbnlHSG43T1lpV2k0aWFfQldGQ01LdWp1ZHVJ?oc=5"
     },
     {
-      "iso": "USA",
-      "title": "He was on the hantavirus cruise. What he wants every American to know. - USA Today",
-      "t": "2026-05-13T16:15:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMWJfQS1lVmtpS1l0bUdOMl9tVzZTVnp5cXgxU3RMcTFuSG9tUG5QSXAwSFFkeWVrVkliNFdoUjAwSGstWldpSGl0UzhpckVMRDhPTlJtRXREamF1UGpaVGhxeFlQdFdHRVkxSzlIUkVMb0ljRVNhTTNSU2JnOHZyRWF5MlkwbHJSblE0QUtHZFQ1eGphSWdNdHp3dmIzZ1Brenotc3Vfb0d3YmsyZkhlSw?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Invitad@ del d\u00eda - \u00bfPor qu\u00e9 la OMS descarta una epidemia tras el brote de hantavirus? - France 24",
       "t": "2026-05-13T15:43:24Z",
@@ -4211,7 +4204,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T09:10:14Z",
+      "last_update": "2026-05-14T09:15:15Z",
       "signals": 8,
       "recent": [
         {
