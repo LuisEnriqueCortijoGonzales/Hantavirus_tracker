@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T02:35:16.814574Z",
-  "next_update": "2026-05-14T02:40:00Z",
+  "generated": "2026-05-14T02:40:16.768993Z",
+  "next_update": "2026-05-14T02:45:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 1,
+      "var_pct": 2,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 4,
       "gov_alert": false
     },
     "CHE": {
@@ -4006,7 +4006,7 @@
     "composite": 17,
     "epidemio": 19,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,12 +4021,19 @@
     "MEX": 3,
     "USA": 3,
     "ARG": 13,
-    "FRA": 3,
+    "FRA": 4,
     "SLV": 1,
     "BOL": 2,
     "PER": 1
   },
   "events": [
+    {
+      "iso": "FRA",
+      "title": "Hantavirus... gastroenteritis: \u00bfqu\u00e9 riesgos hay al abordar un crucero? - France 24",
+      "t": "2026-05-14T02:35:37Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOEI3QXZPM3Etc2JFMTR4Y0x1TmktbEZKMC0tZVZXZkdGWU1aZUpGTWxpUmgzXzlRd0MyNTN1MFVtRXhqSkVaRTNqdGRnX3dvQmNJRmdqWkFxZThmSHFmM2hGeTRBcG1ZY184LTVZVEVqNFdSX1RxY0U3YkJUSEsxNTRhWTBJX1VPcmhIS2dCU3N4ZFJpN0tYUzAtbHlsbGpMeG96TFZoaWxoYjV1elB5TThR?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Una fiesta de 15 tr\u00e1gica, 12 muertos y 34 infectados: as\u00ed fue el mayor brote de hantavirus en Argentina - Diario de Cuyo",
@@ -4226,8 +4233,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T02:35:16Z",
-      "signals": 6,
+      "last_update": "2026-05-14T02:40:16Z",
+      "signals": 7,
       "recent": [
         {
           "title": "New Mexico's Hantavirus Strain is Different From Cruise Ship Outbreak and Does Not Spread Between People - UNM HSC Newsroom",
