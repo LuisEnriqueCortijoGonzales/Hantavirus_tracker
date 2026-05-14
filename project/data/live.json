@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T01:20:16.781228Z",
-  "next_update": "2026-05-14T01:25:00Z",
+  "generated": "2026-05-14T01:25:16.772304Z",
+  "next_update": "2026-05-14T01:30:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -78,7 +78,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "USA": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 17,
     "polymarket": 7,
-    "kalshi": 19,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 8
   },
   "signal_summary": {
-    "MEX": 3,
+    "MEX": 2,
     "USA": 3,
     "ARG": 15,
     "FRA": 4,
@@ -4091,13 +4091,6 @@
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNM2MtaDMtX1MtWGVRckhnZkVvRVk4ME9vczZqOTA5VmpFaW1UZXB1NE9DT01zT3k3N0w4ZnB6bGo4YVZjeFFWLUZjMGtMT3VEWHVBX1VYT2Z2LXhRdWVfR0JOczlFMGdPb0ZvOTZQMzBMZF9qVlhuNF9xMjFhcDBJcHdocGZUYXZBSVV2eEIzd3hUSHZOUVE0VlVzdk5lM1YwenlBNnFPZnZHb0l5R3c?oc=5"
     },
     {
-      "iso": "MEX",
-      "title": "Mexico, though free of documented cases, issues hantavirus alert - Mexico News Daily",
-      "t": "2026-05-13T20:43:36Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TOHZqSnIzOWhteWh1bmQwVTVpaFk4a2laWWtlM0NRVlhqZVNaOG1FUjUwU1QtUnF3a2hsVW5LT082dHozOGFkUXJscG1PSGNpdXlZTm5Ja2xLemRQNnN1Q2pCczQ5S1JtZzBrdGFmWkNWQQ?oc=5"
-    },
-    {
       "iso": "USA",
       "title": "Mapping the hantavirus outbreak as cruise ship passengers return to US - USA Today",
       "t": "2026-05-13T20:42:00Z",
@@ -4117,6 +4110,13 @@
       "t": "2026-05-13T17:45:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMHJJRUVKelNLY0pGQkRFZ3g2OXFfUUFCOUZzcGRfSDNpMEdKRll2V2lKSXkxR0lUVDlXZlY4d1gxeUNQMzZRQld0VlpHM2FDb2l4RWZrcGctUm5nV05zUlpMTmQ5MDlXcHhOZWd2NkQxemVGOEphUUpHU0tRV0VZWnFIOUhLQ040M3BXRFA3VlhkOUthTDNhdGg0cnVWUXNYeVlTQmFqbkg?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Fiesta de 15, 34 infectados y 12 muertos: el mayor brote de hantavirus de la Argentina aporta claves para el caso del MV Hondius - La Naci\u00f3n",
+      "t": "2026-05-13T17:32:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOWM3bDdqMmNKTUszLXRQWEF4ZmRsc19VWUdvSFJKU20ycjBxVjAyV3JzZmxSWVZHbllwYlpBQ01ROWw5eklmcTdWb1ZIZ2FsRFphZWc3bHF6SzRRelN3dWM4Sm9MMldtZDYtOEVEdjZWQkx0RHJmOTlCbk5ZU0M3enVKOFRjS0o2WXB1NlFIRG13QmUzandSSW1vYjJKWmRaMEJhZTJxWkNIMmstaF9qWlRSamUxZHl2NzY4cl9CUkhnN3RaeXZWQzNYZGVuN244ZmZHSmZocnJSMXdBbDZmSw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4222,13 +4222,6 @@
       "t": "2026-05-10T17:36:03Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "C\u00f3mo la destrucci\u00f3n de h\u00e1bitats y el cambio clim\u00e1tico contribuyeron al aumento de casos de hantavirus en Argentina - CNN en Espa\u00f1ol",
-      "t": "2026-05-08T13:12:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNTA4a2JUem5XRW5Xc05ENXpQalZwV0pyQlAtZDljVTBoNnJYYTMyMV9qVEN3Wmd0RG1mcnh1N0ViQkNpdTJoVzQ4STFNMm43MDN5RlRMaURxZ2tQMXdxYktJNkVKa2NXdzlLS3cteGlEMGszcFBQN2NJNVBFM0hyektrejVuOWp4RUt2VFhUMFduaVE?oc=5"
     }
   ],
   "maritime_events": [
@@ -4247,7 +4240,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T01:20:16Z",
+      "last_update": "2026-05-14T01:25:16Z",
       "signals": 6,
       "recent": [
         {
