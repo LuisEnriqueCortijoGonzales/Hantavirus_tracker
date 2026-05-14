@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T18:35:16.781098Z",
-  "next_update": "2026-05-14T18:40:00Z",
+  "generated": "2026-05-14T18:40:14.907643Z",
+  "next_update": "2026-05-14T18:45:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 6,
+      "signals": 7,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4022,7 +4022,7 @@
     "CHN": 1,
     "USA": 4,
     "MEX": 2,
-    "FRA": 6
+    "FRA": 7
   },
   "events": [
     {
@@ -4180,6 +4180,13 @@
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUTZJejhVcEFhWGtHamIyMzhhNnBGWVRXNzN0cUxoclVCc0VxbUhDbDZxa29pTU9pNTdBUEMxYlRoTVpOVWxmcWpwVHo5R0Rwa3hyYjRBY2NTN3FQT19qMGZjVF9FUFVkNnI3WTJBeS1mSlNGendfS3RvbDVNeTZJNUJtTUhfNHowN0tTdFlfT2pITXdVUkRrOG5KMGtIREhPcl9ETzZtdTY?oc=5"
     },
     {
+      "iso": "FRA",
+      "title": "Esfuerzo global para controlar el brote de hantavirus, mientras los casos en Espa\u00f1a y Francia disparan la incertidumbre - EL PA\u00cdS",
+      "t": "2026-05-13T03:30:01Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOZlRCV003eVhvR2ZMcVAyR3VMTXByWVQ2d3o0Q0tOazBHRHdUcXlTcHZGYUs3UW1fVUg0aHBzT0JIckxKNTNtRzBOX3VuZ2lfbDE4LW4tZmtvR2RPUC1jS0RvTHFDMDNjbWdxVFk3TU9vaFJrRlJPNGxSRzE4TDV3RndRN2ZSQUZYakJNZmJ6S09GajlLR25FbzJZblZ3Q2xCdEN0MzdONy1rV2ZIU1hiS3RpRnpvakUtZzRFQjk5cjB5TC1BQVd4dDViRmFBMnhBWkwtOHdZcmQ4TFVmRWdwaDdWMmRSN19NT3hzRS1tY21TQzZ00gGIAkFVX3lxTE9hdnZDSzlBa0NMWmp0d2pCMzRUR3RPWFNXUWppc0hTOGlXMFpqRWRkQWcxa2FMeGlFNy02bnladkpNZW1KUEctZmJJSnh3ODMyNkNfVjBBc3FlTjVUaTlYZGNpZXNsaXVCRGljZFgzSGVVc1UySzlyNXgxUGdHWEs2QWxuellLZ3Zwc2l2dERQNkkyNEFmbkpXbE1WRVlOdTE5cTh1dkZkb3RzS0VpVVFCTDFNQi1IWS1TNFBoNVlZWFEzOFU5NkEwQ0kwLUtCeklQOExLVS1EcmRDdlJQUlBkQXhHR3pneDRtNXFFcnhfNlZEYWt3amdyZnVfdFd0WURIcEdiR2NXZA?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "La fiesta de 15 que desat\u00f3 EL PEOR BROTE DE HANTAVIRUS en Argentina: 34 casos y una tragedia que hoy vuelve a inquietar - El Destape",
       "t": "2026-05-12T21:12:10Z",
@@ -4231,7 +4238,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T18:35:16Z",
+      "last_update": "2026-05-14T18:40:14Z",
       "signals": 8,
       "recent": [
         {
