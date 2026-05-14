@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T21:40:13.158612Z",
-  "next_update": "2026-05-14T21:45:00Z",
+  "generated": "2026-05-14T21:45:16.798740Z",
+  "next_update": "2026-05-14T21:50:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -74,11 +74,11 @@
       "ytd": 8,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "USA": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 9,
+      "signals": 8,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 19,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,9 +4020,9 @@
   "signal_summary": {
     "ARG": 13,
     "USA": 3,
+    "MEX": 2,
     "CHN": 1,
-    "FRA": 9,
-    "MEX": 1
+    "FRA": 8
   },
   "events": [
     {
@@ -4052,6 +4052,13 @@
       "t": "2026-05-14T16:05:14Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc0J0emd5Vk9tYmU1Q0hyNlBxOFRpOVRfVTg2WXMtVDFQS2NVY3k3dHRRSDlFMnFxWE9lS3lxbDRKMmdvVGhKclVGTWVESGVQQ2dCdTNMR0d5dDk0UTl3MVF1OWJyeEVvc0dSd2ZqX1YzZ240UVh3ckx0czA4eWJ2NFU1MXliR1NiUUxUTGYwZ3dVSWx0bnBGeTVQNnp5d0tmcXfSAbwBQVVfeXFMTURLZ2JDZENjbWxsWDVCdUxjZTNLekE0SXlzYjU4SVU0SVpUTlNNeGRnYXpWUERsbVRlVTltUkl1UUxrZjVzNnNZRFBDUU5ucldPb1o3cHhkVTJnS1YtWlRkLXJIVlRjRUVvaHZtV25yejJQNXB6eEotMV81dTVCLUhyU1JEZFZrQ3c0T1JsdVp2eGRFRWtjY2dsdXRUX0dscEQwcjdkN0wzYnl2UzRfMUJSOW96TDdvank1enY?oc=5"
+    },
+    {
+      "iso": "MEX",
+      "title": "Hantavirus outbreak abroad prompts reminder about risk in New Mexico - The Taos News",
+      "t": "2026-05-14T15:41:47Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNRHdVbU1hRUdEb092MGtPb2RqVU04WFFFREtya0JwekNwYm1SZ1oxNF9IUXplY24xaVZURmNhaGdTa0NNZ3dvajdfQTRJZFZLM3RnVDJMTzN0dFZtVXY3XzAtMVl4Z1VIeUJoSTFsVFR1b1dOeWJELU5oR1NObFp2ZFVLdlBLWWlKQlNSazg4RXY0Z09jWEI2Q3hMSjgxQXl0TElxV3ZLVWpTalBjdW1SYktfWW5TNlh0V1ZtTjFEVlZlOEJObXpORWNrMmhlMkZYdDR4XzN1SDNzYjJxaHF5TmZwNFNFN2phMnpR?oc=5"
     },
     {
       "iso": "ARG",
@@ -4101,13 +4108,6 @@
       "t": "2026-05-14T13:20:14Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQTy1WT0RHZVBsX0Z6TnhBMUk0a0x4S1A2dlhMdFM5REJWX0pwaHo2OFRPXzNVelRlWnY5R0ZmSGNVWGo1QmZCWHRPaXVJQWU4cmo2VDlBUG9FNHFwUFRxX1pRVzY1RlhCTUJkMlhCTUZnYlAxWl9vYzdVVFl5eDFYYVJNNmt1cUJxbkQ0SnNqZU1KQ2tfMGVyMkRYeDRQcWtJZnk4NElTRUk5U19ZMXhVOHRJdVB4dlZ2RmhtVllDT2lVc0NLMjhXMEJncm5Jc2RIY2FZX2FPdXNpLUZkdlBRWmViQW8xaF9VaXhja2dOdkc0al9icUNUYVdtTnl6RWZXSE15enZWcjNnWXZaekw3dVZzWTZVUQ?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Francia: todos los casos de contacto del hantavirus dan negativo - RFI",
-      "t": "2026-05-14T12:13:01Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN2tCMS14dE1nT0s4TkVnMS14c0hlOFpJZ21NSElQa3NaT1V0amJVY2MyZGdSOTBIU1FIQm1ZUjlydzdOUzB4NEZGNlZTQWVvdWpPNkVnYTQ3Y2NaMWYtMUtRaldubUFVMnlOZlRPa1JiUkUtSkswUjY0NEg1emQyNkhkN0lkRWluMUktU20xTHhCSzd0ZXZRby1zX1FTZ25rWHlTOA?oc=5"
     },
     {
       "iso": "USA",
@@ -4231,7 +4231,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T21:40:13Z",
+      "last_update": "2026-05-14T21:45:16Z",
       "signals": 7,
       "recent": [
         {
