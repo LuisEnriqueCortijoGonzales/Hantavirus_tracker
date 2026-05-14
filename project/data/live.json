@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T02:40:16.768993Z",
-  "next_update": "2026-05-14T02:45:00Z",
+  "generated": "2026-05-14T02:45:14.899799Z",
+  "next_update": "2026-05-14T02:50:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 2,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "CHE": {
@@ -4006,7 +4006,7 @@
     "composite": 17,
     "epidemio": 19,
     "polymarket": 7,
-    "kalshi": 24,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "MEX": 3,
     "USA": 3,
     "ARG": 13,
-    "FRA": 4,
+    "FRA": 3,
     "SLV": 1,
     "BOL": 2,
     "PER": 1
@@ -4189,13 +4189,6 @@
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQjhLalEzM3RaTU5ubXE0aEk3NXFCT0JpdTVCbFFUT0JuSVNUVm9PZU5PbWNCLXdaNkE4LVNhbkd0bTlkMFRiZDkzd0dKS3lDbGxDY1dseEdlRzdmZVU5eDdrRzRhN2stSGlMa3VydkpsTXJTRTd6NEgyNWhiT0p3NkdkdHdsdTJidVVCZnFQUEc4cFlJMmg0S2NqV2lOeWFiOVZRTmdnMDVuamxlazAxSm92N3fSAboBQVVfeXFMTUdteEFiZzEwZ2dNTUEzdlBkN0dUNGZyMWhZVy05aHJwXzR3cS1hS0tsNFdNcHY2WXBURU1mVTFKM0RqSGh2V25lYWJhT2dWaHNxbmFHcFREaktnb0VzZHVVYlRBMXJhYzlIM0VrUTF2dlVjUmRteTlLeXFOb2UzWUY0dmFIUGVGajFzY08xVDhpZzNnTU84cWNwbEdDUEpSOTVnX2pKMWh0eTNGcmtna21qWFdkUXFPLV9R?oc=5"
     },
     {
-      "iso": "FRA",
-      "title": "Francia pone en cuarentena en Par\u00eds a ocho personas identificadas como contactos de un caso de hantavirus - Anadolu Ajans\u0131",
-      "t": "2026-05-13T08:14:55Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbTF6RTl2VFZXdUZORUdkWF9CaEtrSWhYSW5sODNYT1hrYnQ5dnNmVThzaF9FeW1lVjNjWGNTdzhfRU84X000YlhOMkN3TUllN0tsQmVwWGoxb09qT0xUQ0hDRUlHVjBwMW1nREo5dURNVG04am0xek5lbVpaaS12YkVzYmlQbThLbDZEcW5NWWlKMnF6ajAyaGNWd3MtQ0ZkQ3B1eGlGdHdVNkpwdGw3OXBlVXRxdEFHZUh0UlJiNDZlc2hlUW0xcEd5cGJnWjNjWXZrWnF4N09NUko1Y3luczJJMA?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "La fiesta de 15 que desat\u00f3 EL PEOR BROTE DE HANTAVIRUS en Argentina: 34 casos y una tragedia que hoy vuelve a inquietar - El Destape",
       "t": "2026-05-12T21:12:10Z",
@@ -4233,7 +4226,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T02:40:16Z",
+      "last_update": "2026-05-14T02:45:14Z",
       "signals": 7,
       "recent": [
         {
