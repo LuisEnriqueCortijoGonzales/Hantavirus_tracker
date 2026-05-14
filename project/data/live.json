@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T14:40:16.795806Z",
-  "next_update": "2026-05-14T14:45:00Z",
+  "generated": "2026-05-14T14:45:16.809464Z",
+  "next_update": "2026-05-14T14:50:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 72,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 7,
+      "var_pct": 8,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 15,
+      "signals": 16,
       "gov_alert": true
     },
     "CHL": {
@@ -107,11 +107,11 @@
       "ytd": 5,
       "alert": "endemico",
       "cfr": 36.0,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "PAN": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 10,
+      "signals": 11,
       "gov_alert": false
     },
     "CHE": {
@@ -4018,13 +4018,13 @@
     "outbreak_count": 8
   },
   "signal_summary": {
-    "ARG": 15,
+    "ARG": 16,
     "USA": 3,
-    "FRA": 10,
+    "FRA": 11,
     "CHN": 1,
     "BOL": 1,
     "CHL": 1,
-    "URY": 2,
+    "URY": 1,
     "MEX": 1
   },
   "events": [
@@ -4069,6 +4069,13 @@
       "t": "2026-05-14T12:27:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTEJsYXZ1Z0RNWXdPT3U4YUoxR1YzSmJ6WWJiMDRGd0MwU2tDMXdpd2RnOTYtZllGMk9ZMlp3bUNvLVFiZm1FWUd5bnVQbEU3OEN6VHpJWjRMeGdLUTZUcEhZVlRLWmU2blFKSlhEdmlyZ0RqRzhWd192Wm1lVDZBV0twWXJGRFVMaWMzNUNMOFZUbm9Hd3ZVYzhkdndDdlE3V0pLY2ltNFY4Q3hBbHFobHdlbTRydw?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Francia: todos los casos de contacto del hantavirus dan negativo - RFI",
+      "t": "2026-05-14T12:13:01Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN2tCMS14dE1nT0s4TkVnMS14c0hlOFpJZ21NSElQa3NaT1V0amJVY2MyZGdSOTBIU1FIQm1ZUjlydzdOUzB4NEZGNlZTQWVvdWpPNkVnYTQ3Y2NaMWYtMUtRaldubUFVMnlOZlRPa1JiUkUtSkswUjY0NEg1emQyNkhkN0lkRWluMUktU20xTHhCSzd0ZXZRby1zX1FTZ25rWHlTOA?oc=5"
     },
     {
       "iso": "USA",
@@ -4118,13 +4125,6 @@
       "t": "2026-05-14T02:35:37Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOEI3QXZPM3Etc2JFMTR4Y0x1TmktbEZKMC0tZVZXZkdGWU1aZUpGTWxpUmgzXzlRd0MyNTN1MFVtRXhqSkVaRTNqdGRnX3dvQmNJRmdqWkFxZThmSHFmM2hGeTRBcG1ZY184LTVZVEVqNFdSX1RxY0U3YkJUSEsxNTRhWTBJX1VPcmhIS2dCU3N4ZFJpN0tYUzAtbHlsbGpMeG96TFZoaWxoYjV1elB5TThR?oc=5"
-    },
-    {
-      "iso": "URY",
-      "title": "Advirtieron que el hantavirus \u201cno es extra\u00f1o\u201d para la regi\u00f3n y recordaron que ya hubo casos en el Masvernat - Diario R\u00edo Uruguay",
-      "t": "2026-05-14T01:50:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQ0pOYl83ZTMyZ2I2Q3VSMmVfamdPZUs0ZjgxRDZXTFNVR3lqX2prM1dDaWIyb2t5c29RUFdXYkhoSjBMSGVUQ2Y5OEtFNkRpZDRQSl9IZmUzbVJhZ2VFT2lXWjlyZjhFdHpBNlVacjduaXl5N0c2N1ZsNElGTW9XYXFvc2tXN1RaVE9yQk9CbDRCelBMb0QtREExRHotWTdWMzJLSDVsdUfSAZgBQVVfeXFMTWF0VjVMcHVtUGlYZzU4RmVZaWVUV1d1dzJzOW9IeEppN216MmhzbEl2dUQ3bU1fWmIwZzh6TzNTTUgtSVI2MTJvd2JxMk9TOFFnZG9hZHoybUdCMVNOOXBoaVZLZm16by1FMFp2ZVpiZzlselBJM0lPWGY5bmdIeC10d2RMellGRnJvV09MdkZzOHhKZkNEenc?oc=5"
     },
     {
       "iso": "ARG",
@@ -4188,6 +4188,13 @@
       "t": "2026-05-13T15:11:33Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNEFmeFdoN3JWRUdlS2dzVmI3aEprR2ozeDRYWFVoYW90M1RUTlhUOFhPeWFWV0pJOXAtMEdYMkRhdnBURk94RTNvMnVlWDRSYzl6RDQ5YWY2MWhXbFdYeUdVRmJDN295ajJlV1lSUEZfRWJXbHpCcGFVWEdYc0RnMXA0a3pkRTdGQzQ5SFkxVnBnSFdjdl9kSXZwUVBaam9Sb0xSUWI2ZFZzS3ZnTms3aWFYRDZ0LUI5Sm5ub21fbHhCVHR6UnAw?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus: el total de casos en Argentina asciende a 102 - Agencia Noticias Argentinas",
+      "t": "2026-05-13T11:16:12Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMTJXMWJRM0JhWjdocUpWMG5zeExBZnEtWlNVRU13eUNPaTRSUVhjZ0RCTUwwMzRJVUFsWjJVS0xsck81ZXFNTkFDY1VmX1JhMGlEY3lzU3o5ZHBlYm1qS1RmbDNlY1o2SFRYa0JJdlIzR0thWFhXU3ZtWDF5U0tEZzVKTHpzSzFJMlA3Nm53SEIwR0U2UVhmZG5GckZiWlhjdE54UkpaOG1IMjJybE1xS3hvYWtNc0VQWDF0V0VOd1rSAc8BQVVfeXFMTTRISFVzN1NRbGVHRXJGQWJPTXZ2ZGt5SEkzWmU3aTlmM0s0SzBrTm5iUlVuTm1sM3ZJbXdGZzNhMXQ1aWt2YmpERFZDZVNXWkJGb3VwakRQOWlZQUQ3Q1A5SnFyMGtDVlk1ZlRzaW0ySUszbmtHV2lBOWNtbk1wb093RkxyVk9nSi1FVFRnc3lfVzJuMUc2ejRPZ2J2bWl2cm50OVBLZU5famxqZzh5ckdCRExTNS1oN0VVYTZ4QUdVNXZXMzV6VkQxakhwZ3dB?oc=5"
     },
     {
       "iso": "FRA",
@@ -4283,7 +4290,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T14:40:16Z",
+      "last_update": "2026-05-14T14:45:16Z",
       "signals": 11,
       "recent": [
         {
