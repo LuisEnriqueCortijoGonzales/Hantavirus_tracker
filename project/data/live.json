@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-14T15:45:16.794018Z",
-  "next_update": "2026-05-14T15:50:00Z",
+  "generated": "2026-05-14T15:50:16.811953Z",
+  "next_update": "2026-05-14T15:55:00Z",
   "days_active": 6,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 11,
+      "signals": 10,
       "gov_alert": false
     },
     "CHE": {
@@ -4006,7 +4006,7 @@
     "composite": 17,
     "epidemio": 18,
     "polymarket": 7,
-    "kalshi": 25,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "ARG": 18,
     "USA": 3,
     "MEX": 1,
-    "FRA": 11,
+    "FRA": 10,
     "CHN": 1,
     "BOL": 1,
     "CHL": 1,
@@ -4034,6 +4034,13 @@
       "t": "2026-05-14T15:41:47Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNRHdVbU1hRUdEb092MGtPb2RqVU04WFFFREtya0JwekNwYm1SZ1oxNF9IUXplY24xaVZURmNhaGdTa0NNZ3dvajdfQTRJZFZLM3RnVDJMTzN0dFZtVXY3XzAtMVl4Z1VIeUJoSTFsVFR1b1dOeWJELU5oR1NObFp2ZFVLdlBLWWlKQlNSazg4RXY0Z09jWEI2Q3hMSjgxQXl0TElxV3ZLVWpTalBjdW1SYktfWW5TNlh0V1ZtTjFEVlZlOEJObXpORWNrMmhlMkZYdDR4XzN1SDNzYjJxaHF5TmZwNFNFN2phMnpR?oc=5"
+    },
+    {
+      "iso": "CHN",
+      "title": "Fact Check: China has not banned US citizens over hantavirus - Reuters",
+      "t": "2026-05-14T15:35:55Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX0tKb09FcWM4cmU4ckFpLTVnaDdpVnhjM3BFUEk5OGhmbVJkZjMtbW44YU9wR3ZaUFdScEZiTGlwQ3hPbnJrVW5jRGh4eExTYXItSVNzelgyQ0c3Uk5LajZ4VTZtLV9FRGNZRUo3VmEzZXpwdlVOcmZmcG5RMkFOZkU2bmU0MW4weFRoNmlMbmRFYzJvMDBXQldZSQ?oc=5"
     },
     {
       "iso": "ARG",
@@ -4076,20 +4083,6 @@
       "t": "2026-05-14T13:20:14Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQTy1WT0RHZVBsX0Z6TnhBMUk0a0x4S1A2dlhMdFM5REJWX0pwaHo2OFRPXzNVelRlWnY5R0ZmSGNVWGo1QmZCWHRPaXVJQWU4cmo2VDlBUG9FNHFwUFRxX1pRVzY1RlhCTUJkMlhCTUZnYlAxWl9vYzdVVFl5eDFYYVJNNmt1cUJxbkQ0SnNqZU1KQ2tfMGVyMkRYeDRQcWtJZnk4NElTRUk5U19ZMXhVOHRJdVB4dlZ2RmhtVllDT2lVc0NLMjhXMEJncm5Jc2RIY2FZX2FPdXNpLUZkdlBRWmViQW8xaF9VaXhja2dOdkc0al9icUNUYVdtTnl6RWZXSE15enZWcjNnWXZaekw3dVZzWTZVUQ?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "France, Netherlands say all hantavirus contact cases negative - South China Morning Post",
-      "t": "2026-05-14T12:27:52Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTEJsYXZ1Z0RNWXdPT3U4YUoxR1YzSmJ6WWJiMDRGd0MwU2tDMXdpd2RnOTYtZllGMk9ZMlp3bUNvLVFiZm1FWUd5bnVQbEU3OEN6VHpJWjRMeGdLUTZUcEhZVlRLWmU2blFKSlhEdmlyZ0RqRzhWd192Wm1lVDZBV0twWXJGRFVMaWMzNUNMOFZUbm9Hd3ZVYzhkdndDdlE3V0pLY2ltNFY4Q3hBbHFobHdlbTRydw?oc=5"
-    },
-    {
-      "iso": "CHN",
-      "title": "France, Netherlands say all hantavirus contact cases negative - South China Morning Post",
-      "t": "2026-05-14T12:27:52Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTEJsYXZ1Z0RNWXdPT3U4YUoxR1YzSmJ6WWJiMDRGd0MwU2tDMXdpd2RnOTYtZllGMk9ZMlp3bUNvLVFiZm1FWUd5bnVQbEU3OEN6VHpJWjRMeGdLUTZUcEhZVlRLWmU2blFKSlhEdmlyZ0RqRzhWd192Wm1lVDZBV0twWXJGRFVMaWMzNUNMOFZUbm9Hd3ZVYzhkdndDdlE3V0pLY2ltNFY4Q3hBbHFobHdlbTRydw?oc=5"
     },
     {
       "iso": "FRA",
@@ -4304,7 +4297,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-14T15:45:16Z",
+      "last_update": "2026-05-14T15:50:16Z",
       "signals": 10,
       "recent": [
         {
