@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-15T00:55:16.785697Z",
-  "next_update": "2026-05-15T01:00:00Z",
+  "generated": "2026-05-15T01:00:16.779884Z",
+  "next_update": "2026-05-15T01:05:00Z",
   "days_active": 7,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 71,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 6,
+      "var_pct": 5,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 13,
+      "signals": 11,
       "gov_alert": false
     },
     "CHL": {
@@ -151,11 +151,11 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "GTM": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 8,
+      "signals": 9,
       "gov_alert": false
     },
     "CHE": {
@@ -1401,7 +1401,6 @@
     "2026-05-15T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-13T01:00:00Z",
     "2026-05-13T02:00:00Z",
     "2026-05-13T03:00:00Z",
     "2026-05-13T04:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-14T21:00:00Z",
     "2026-05-14T22:00:00Z",
     "2026-05-14T23:00:00Z",
-    "2026-05-15T00:00:00Z"
+    "2026-05-15T00:00:00Z",
+    "2026-05-15T01:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,13 +4018,20 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "ARG": 13,
+    "ARG": 11,
     "USA": 3,
-    "FRA": 8,
-    "MEX": 2,
-    "CAN": 1
+    "FRA": 9,
+    "CAN": 2,
+    "MEX": 2
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "Canad\u00e1 vigila a 36 personas por brote de hantavirus - El Nacional",
+      "t": "2026-05-14T23:09:21Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMjRQRGRtOG5ydm1IRXhLaXRiTEd0V1NXQThmeENVNjZDYTVUanRKeTBDbUNXSEpETnZIX1JOUUQzSFJiVmFxazRfZHJhZlVXWTk4eWQ5eEp1YjZ4MnJLd3FCc1lhOUZnUmpHLVRJREN3VWwtb3ZMVVNjbG5IdjVMa29VWlNnQ29CNHJGcHFXVEk?oc=5"
+    },
     {
       "iso": "CAN",
       "title": "Canad\u00e1 vigila a 36 personas por el brote de hantavirus vinculado a un crucero - EFE - Agencia de noticias",
@@ -4101,6 +4108,13 @@
       "t": "2026-05-14T13:20:14Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQTy1WT0RHZVBsX0Z6TnhBMUk0a0x4S1A2dlhMdFM5REJWX0pwaHo2OFRPXzNVelRlWnY5R0ZmSGNVWGo1QmZCWHRPaXVJQWU4cmo2VDlBUG9FNHFwUFRxX1pRVzY1RlhCTUJkMlhCTUZnYlAxWl9vYzdVVFl5eDFYYVJNNmt1cUJxbkQ0SnNqZU1KQ2tfMGVyMkRYeDRQcWtJZnk4NElTRUk5U19ZMXhVOHRJdVB4dlZ2RmhtVllDT2lVc0NLMjhXMEJncm5Jc2RIY2FZX2FPdXNpLUZkdlBRWmViQW8xaF9VaXhja2dOdkc0al9icUNUYVdtTnl6RWZXSE15enZWcjNnWXZaekw3dVZzWTZVUQ?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Francia: todos los casos de contacto del hantavirus dan negativo - RFI",
+      "t": "2026-05-14T12:13:01Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN2tCMS14dE1nT0s4TkVnMS14c0hlOFpJZ21NSElQa3NaT1V0amJVY2MyZGdSOTBIU1FIQm1ZUjlydzdOUzB4NEZGNlZTQWVvdWpPNkVnYTQ3Y2NaMWYtMUtRaldubUFVMnlOZlRPa1JiUkUtSkswUjY0NEg1emQyNkhkN0lkRWluMUktU20xTHhCSzd0ZXZRby1zX1FTZ25rWHlTOA?oc=5"
     },
     {
       "iso": "USA",
@@ -4199,20 +4213,6 @@
       "t": "2026-05-06T07:00:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdDd6MHQ1c25HX0lPOEk0QjNtNzFoY0pNUE8xZG1JZnZETGNTd01zN29qSHFVdS1vLThZYnBKN1VMZGFCdTFfSDR6eXNWRkFlSnhPWG1JTU9NdmxBQ1JOeXRuQ0VCZ2J4cHVmS1ZnWXVsbTVqRGtKOFBMZUxoOURVMENpT0hFel9NU2RRTGpSbl9oNGRKNHh6OXNuOTlXNFJyRVZYc1JUekJiNFByLWxob3NTNUdfLWJpQ1FVSmpNQmhrNEU3bWZXUzRYbV9Idzl2OXBFaGJBcVYyTnREODZB?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
-      "t": "2026-05-06T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "El crucero que enfrenta un brote mortal de hantavirus zarp\u00f3 de Argentina. El virus en ese pa\u00eds tiene un cap\u00edtulo traum\u00e1tico - CNN en Espa\u00f1ol",
-      "t": "2026-05-04T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUmpOemFSbjFHb0F2bkVEMmRlZzdFdlFCYXpXb1pib1dra0lOa2gyNVB4bmdRUVdFM2VqZTRQZi1ZTXUwR3lwRnVUNUZ2d25DMGdYeDFvN3QwU2dVeUtZbjBuam9XX0c1Z0NManZLMjBzSmZzUnZDVjFBVXFUblNXZDRseTZ3SUNNSlVfNmlobVdZdlFyUGpxS0lyZw?oc=5"
     }
   ],
   "maritime_events": [
@@ -4231,8 +4231,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-15T00:55:16Z",
-      "signals": 10,
+      "last_update": "2026-05-15T01:00:16Z",
+      "signals": 8,
       "recent": [
         {
           "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
@@ -4245,19 +4245,19 @@
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdDd6MHQ1c25HX0lPOEk0QjNtNzFoY0pNUE8xZG1JZnZETGNTd01zN29qSHFVdS1vLThZYnBKN1VMZGFCdTFfSDR6eXNWRkFlSnhPWG1JTU9NdmxBQ1JOeXRuQ0VCZ2J4cHVmS1ZnWXVsbTVqRGtKOFBMZUxoOURVMENpT0hFel9NU2RRTGpSbl9oNGRKNHh6OXNuOTlXNFJyRVZYc1JUekJiNFByLWxob3NTNUdfLWJpQ1FVSmpNQmhrNEU3bWZXUzRYbV9Idzl2OXBFaGJBcVYyTnREODZB?oc=5"
         },
         {
-          "title": "El crucero que enfrenta un brote mortal de hantavirus zarp\u00f3 de Argentina. El virus en ese pa\u00eds tiene un cap\u00edtulo traum\u00e1tico - CNN en Espa\u00f1ol",
-          "t": "2026-05-04T07:00:00Z",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUmpOemFSbjFHb0F2bkVEMmRlZzdFdlFCYXpXb1pib1dra0lOa2gyNVB4bmdRUVdFM2VqZTRQZi1ZTXUwR3lwRnVUNUZ2d25DMGdYeDFvN3QwU2dVeUtZbjBuam9XX0c1Z0NManZLMjBzSmZzUnZDVjFBVXFUblNXZDRseTZ3SUNNSlVfNmlobVdZdlFyUGpxS0lyZw?oc=5"
-        },
-        {
-          "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
-          "t": "2026-05-06T07:00:00Z",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
-        },
-        {
           "title": "Does the cruise ship hantavirus pose a threat to the United States? - Texas Public Radio | TPR",
           "t": "2026-05-14T17:57:00Z",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLUR5dEI2SE5leHRPWnM2cHh1YjEyLUlFMzV0Y3RGQkxlX1NOYzd3ZzJZLTQ0NjRhazdCcG1OOGp0Q05qLWx4YWJWaVN3bFF3TkVHbFBOanVkVFptTlAzQnVJNUFwNVBiQzFMYXJlSEJLellPUGVfdDBFR3ZKTGN4aWR2enNwZE1wbWQyY3ZiWWU5VGtmdjFYOG1weXllaC1YM1lmY2VUYm9jNHN4V0JYU3dSRmRSYzRw?oc=5"
+        },
+        {
+          "title": "Los brit\u00e1nicos evacuados del crucero afectado por hantavirus ser\u00e1n aislados en sus domicilios - France 24",
+          "t": "2026-05-14T08:09:13Z",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWEtSZ2RUa3dhNkhQMWpJOXBBS2k3LXljTlp6LTNMdTNrWllGb2EzYUF6Wl85UUxscEFzX3BtM1VHRWNLTzl6dzMzWFd3dkZVbGV5RHhBYnFoT1hDNHA3dF9PYkU0emJsd0M4TF9YZmdTcEtVTHdQa3dBYWY3cmdBSUk5YTdwTS1zS24zOUZCTmdxV0YxU3pZRmtuS2RWdzlYR3dNN01nUklLdkRUZG9leEFYcTk4azZyNm9WaEl0QXE3eDZvUTBhRkdJRGdPSEhqNFF6UlFhcGpEdjZfNzM0OGJoOG5TZHR5LTZpRQ?oc=5"
+        },
+        {
+          "title": "Brote de hantavirus en el crucero MV Hondius: Francia y Pa\u00edses Bajos reportan el estado de salud de sus repatriados - Gaceta de salud",
+          "t": "2026-05-14T13:20:14Z",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQTy1WT0RHZVBsX0Z6TnhBMUk0a0x4S1A2dlhMdFM5REJWX0pwaHo2OFRPXzNVelRlWnY5R0ZmSGNVWGo1QmZCWHRPaXVJQWU4cmo2VDlBUG9FNHFwUFRxX1pRVzY1RlhCTUJkMlhCTUZnYlAxWl9vYzdVVFl5eDFYYVJNNmt1cUJxbkQ0SnNqZU1KQ2tfMGVyMkRYeDRQcWtJZnk4NElTRUk5U19ZMXhVOHRJdVB4dlZ2RmhtVllDT2lVc0NLMjhXMEJncm5Jc2RIY2FZX2FPdXNpLUZkdlBRWmViQW8xaF9VaXhja2dOdkc0al9icUNUYVdtTnl6RWZXSE15enZWcjNnWXZaekw3dVZzWTZVUQ?oc=5"
         }
       ]
     }
