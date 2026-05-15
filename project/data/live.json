@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-15T18:45:04.778111Z",
-  "next_update": "2026-05-15T18:50:00Z",
+  "generated": "2026-05-15T18:50:14.765823Z",
+  "next_update": "2026-05-15T18:55:00Z",
   "days_active": 7,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 19,
+      "signals": 18,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 1,
-    "ARG": 19,
+    "ARG": 18,
     "FRA": 6,
     "MEX": 1
   },
@@ -4100,13 +4100,6 @@
       "t": "2026-05-14T14:48:04Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaUVBWVhjVVJoX0VNXzR6WnlubmhZWS1saTN3OGVqcm1Va0tOcnVBaXcweEk4WFY0VWtCZDVNMmZTSXV3aEdLaHItYWh4ZENCYmFvaS1ZRGc5RFRfVmF4RjZrN2NHQ2tqRjI3aHltS19jSWtHNG5QU0FRRHVreGVRa3JFRjUtSXBfakt5Rk9JOA?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina se apura para encontrar el origen del contagio de hantavirus - La Naci\u00f3n",
-      "t": "2026-05-14T13:54:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZllkMjAzdjlkaXVIUkVrZU84cmhCWEhXdzR3dHZwR1lWTlVLMjJsMV9PNUUtekNiVUNzSWZrczVFQ0c1NDh5YWV2eHVraEJXakh2WkdoU1hkX0NwQTFZZVQ1WFNsbzJIcWt5eVVqblJ6cUt0UXVhcmhNWmFDQjlvV2N5bzh3dkI4S285TVZ1d0hQcnhKNG5xRWVBbDRTVDE1OXlPb0lueURmRXBua3lwOTEzN3VzMzgxZUZObQ?oc=5"
     },
     {
       "iso": "ARG",
@@ -4230,7 +4223,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-15T18:45:04Z",
+      "last_update": "2026-05-15T18:50:14Z",
       "signals": 10,
       "recent": [
         {
