@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-15T04:20:14.764776Z",
-  "next_update": "2026-05-15T04:25:00Z",
+  "generated": "2026-05-15T04:25:08.431298Z",
+  "next_update": "2026-05-15T04:30:00Z",
   "days_active": 7,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 18,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "ARG": 13,
-    "USA": 3,
+    "USA": 2,
     "FRA": 7,
     "MEX": 2,
     "CAN": 1
@@ -4031,13 +4031,6 @@
       "t": "2026-05-14T22:47:06Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ranFMZnF2SFhFak1uU05ibU5kSzRPenFsQlpBX1JCOUpzSk9uQ1ZEZWlxRkhkdm43Rkh6aE5DWDlWUmJBM1NDeUxNY0ZBaHR0djRSS0JmWEMxMGEwUnBIUk0ya3Rya1BxRjhF?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Can I get hantavirus from my pet? Here's what pet owners should know - Good Morning America",
-      "t": "2026-05-14T22:25:57Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNlhxU0FhY1FYVmpvVzdGSjJFRXVTbzhidDNvamMyNE9VeWkyR2U1RW9ZVWVBVm1QLUpBYlFQQnA1V1lFeEtSNGN4NFVrR1RKUXY4c0M4ZnJEX2V4b1E1cklNdWlqS051MG84TWhZcXBDcHE0TWJFQkNKQkRaX0hCbnlVMVh1d1BT0gGOAUFVX3lxTE9RNExidzFjNnFxd05SRVgwNDZ2aUtrdGxLSjJqOEstbE9RRjUwcjhhYV9GVFdabFNISGtUR25IUFkxS29hRTV4V25PeHFRbEZLaU1IMHhVTHN3REVhWVNEZ2I2WHQ5TmRsUHJ0dldVam4xY25ZSldvWFVvRFNhX3BGOExSTzdJM2U5eWhSUWc?oc=5"
     },
     {
       "iso": "FRA",
@@ -4224,7 +4217,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-15T04:20:14Z",
+      "last_update": "2026-05-15T04:25:08Z",
       "signals": 8,
       "recent": [
         {
