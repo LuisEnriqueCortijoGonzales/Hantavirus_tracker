@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-15T00:25:16.790013Z",
-  "next_update": "2026-05-15T00:30:00Z",
+  "generated": "2026-05-15T00:30:16.795372Z",
+  "next_update": "2026-05-15T00:35:00Z",
   "days_active": 7,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -151,11 +151,11 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "GTM": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 25,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4022,9 +4022,16 @@
     "USA": 3,
     "MEX": 2,
     "FRA": 9,
-    "CAN": 1
+    "CAN": 2
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "Canad\u00e1 vigila a 36 personas por brote de hantavirus - El Nacional",
+      "t": "2026-05-14T23:09:21Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMjRQRGRtOG5ydm1IRXhLaXRiTEd0V1NXQThmeENVNjZDYTVUanRKeTBDbUNXSEpETnZIX1JOUUQzSFJiVmFxazRfZHJhZlVXWTk4eWQ5eEp1YjZ4MnJLd3FCc1lhOUZnUmpHLVRJREN3VWwtb3ZMVVNjbG5IdjVMa29VWlNnQ29CNHJGcHFXVEk?oc=5"
+    },
     {
       "iso": "CAN",
       "title": "Canad\u00e1 vigila a 36 personas por el brote de hantavirus vinculado a un crucero - EFE - Agencia de noticias",
@@ -4224,7 +4231,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-15T00:25:16Z",
+      "last_update": "2026-05-15T00:30:16Z",
       "signals": 7,
       "recent": [
         {
