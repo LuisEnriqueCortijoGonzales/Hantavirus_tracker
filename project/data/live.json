@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-15T06:35:14.799495Z",
-  "next_update": "2026-05-15T06:40:00Z",
+  "generated": "2026-05-15T06:40:16.815754Z",
+  "next_update": "2026-05-15T06:45:00Z",
   "days_active": 7,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 7,
+      "signals": 6,
       "gov_alert": false
     },
     "CHE": {
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "ARG": 14,
     "USA": 1,
     "MEX": 2,
-    "FRA": 7,
+    "FRA": 6,
     "CAN": 1
   },
   "events": [
@@ -4101,13 +4101,6 @@
       "t": "2026-05-14T13:20:43Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdzBmZm4tWl9RNC1hTEd1aDFQSFNCTk9LYTU3emVWelJPdVRNMXJVN0xFUFhSbGtpUTBwT2Z3TElrYThWN3I4V2I4RkxFVHM0TktNOWtjRXAwR1dKclZtTXpScWE1YjdCN3FpNnhBbUU0VW9VQTIxckZxSXNINGZSYmpPWTIyV2M4VGZ4QmRJc1h2dEY5UkhFOW9ZbUIwMnM5U3FWWE9GMFJtQkEzZDRzM05RUHUyVU1mcnc?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Brote de hantavirus en el crucero MV Hondius: Francia y Pa\u00edses Bajos reportan el estado de salud de sus repatriados - Gaceta de salud",
-      "t": "2026-05-14T13:20:14Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQTy1WT0RHZVBsX0Z6TnhBMUk0a0x4S1A2dlhMdFM5REJWX0pwaHo2OFRPXzNVelRlWnY5R0ZmSGNVWGo1QmZCWHRPaXVJQWU4cmo2VDlBUG9FNHFwUFRxX1pRVzY1RlhCTUJkMlhCTUZnYlAxWl9vYzdVVFl5eDFYYVJNNmt1cUJxbkQ0SnNqZU1KQ2tfMGVyMkRYeDRQcWtJZnk4NElTRUk5U19ZMXhVOHRJdVB4dlZ2RmhtVllDT2lVc0NLMjhXMEJncm5Jc2RIY2FZX2FPdXNpLUZkdlBRWmViQW8xaF9VaXhja2dOdkc0al9icUNUYVdtTnl6RWZXSE15enZWcjNnWXZaekw3dVZzWTZVUQ?oc=5"
     },
     {
       "iso": "ARG",
@@ -4217,8 +4210,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-15T06:35:14Z",
-      "signals": 6,
+      "last_update": "2026-05-15T06:40:16Z",
+      "signals": 5,
       "recent": [
         {
           "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
@@ -4241,9 +4234,9 @@
           "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWEtSZ2RUa3dhNkhQMWpJOXBBS2k3LXljTlp6LTNMdTNrWllGb2EzYUF6Wl85UUxscEFzX3BtM1VHRWNLTzl6dzMzWFd3dkZVbGV5RHhBYnFoT1hDNHA3dF9PYkU0emJsd0M4TF9YZmdTcEtVTHdQa3dBYWY3cmdBSUk5YTdwTS1zS24zOUZCTmdxV0YxU3pZRmtuS2RWdzlYR3dNN01nUklLdkRUZG9leEFYcTk4azZyNm9WaEl0QXE3eDZvUTBhRkdJRGdPSEhqNFF6UlFhcGpEdjZfNzM0OGJoOG5TZHR5LTZpRQ?oc=5"
         },
         {
-          "title": "Brote de hantavirus en el crucero MV Hondius: Francia y Pa\u00edses Bajos reportan el estado de salud de sus repatriados - Gaceta de salud",
-          "t": "2026-05-14T13:20:14Z",
-          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQTy1WT0RHZVBsX0Z6TnhBMUk0a0x4S1A2dlhMdFM5REJWX0pwaHo2OFRPXzNVelRlWnY5R0ZmSGNVWGo1QmZCWHRPaXVJQWU4cmo2VDlBUG9FNHFwUFRxX1pRVzY1RlhCTUJkMlhCTUZnYlAxWl9vYzdVVFl5eDFYYVJNNmt1cUJxbkQ0SnNqZU1KQ2tfMGVyMkRYeDRQcWtJZnk4NElTRUk5U19ZMXhVOHRJdVB4dlZ2RmhtVllDT2lVc0NLMjhXMEJncm5Jc2RIY2FZX2FPdXNpLUZkdlBRWmViQW8xaF9VaXhja2dOdkc0al9icUNUYVdtTnl6RWZXSE15enZWcjNnWXZaekw3dVZzWTZVUQ?oc=5"
+          "title": "Canad\u00e1 vigila a 36 personas por el brote de hantavirus vinculado a un crucero - EFE - Agencia de noticias",
+          "t": "2026-05-14T22:47:06Z",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ranFMZnF2SFhFak1uU05ibU5kSzRPenFsQlpBX1JCOUpzSk9uQ1ZEZWlxRkhkdm43Rkh6aE5DWDlWUmJBM1NDeUxNY0ZBaHR0djRSS0JmWEMxMGEwUnBIUk0ya3Rya1BxRjhF?oc=5"
         }
       ]
     }
