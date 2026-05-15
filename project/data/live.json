@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-15T05:45:16.781159Z",
-  "next_update": "2026-05-15T05:50:00Z",
+  "generated": "2026-05-15T05:50:14.831354Z",
+  "next_update": "2026-05-15T05:55:00Z",
   "days_active": 7,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -74,11 +74,11 @@
       "ytd": 8,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "USA": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 24,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,11 +4020,18 @@
   "signal_summary": {
     "ARG": 14,
     "USA": 1,
+    "MEX": 2,
     "FRA": 8,
-    "MEX": 1,
     "CAN": 1
   },
   "events": [
+    {
+      "iso": "MEX",
+      "title": "New Mexico Wellness Wire: Three questions on hantavirus - Santa Fe New Mexican",
+      "t": "2026-05-15T05:45:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxON1hSOFM4ZFJEN0VESElGdFlkZlBYcGlucEZZQzJOeWhTcHV1NHRQcjd5dXhCU1FEbWJkV0ZVZEI5MGJIcmFYMWhaV2t5aW05UlYyU25YMkF0V1QtOVhyclZNQzlSZ2gtbVZ1eC1lNVJqNlljRTVWVE1fZVpXT2xGV2Izb3BUS3hvUFRPeWlDc09UZzZINTdocFQxRGhGLXduUW5rYTdDZDZ2NUJTMERKdEQycF9qUzQtaVFRY2lQdUZfLWJZRUt1WnFIakhFNHlYV05RWHdkbDdHWkJ0SV8ydlVCYW50dlhIM3c?oc=5"
+    },
     {
       "iso": "CAN",
       "title": "Canad\u00e1 vigila a 36 personas por el brote de hantavirus vinculado a un crucero - EFE - Agencia de noticias",
@@ -4217,7 +4224,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-15T05:45:16Z",
+      "last_update": "2026-05-15T05:50:14Z",
       "signals": 7,
       "recent": [
         {
