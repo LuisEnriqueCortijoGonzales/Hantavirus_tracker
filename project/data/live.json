@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-15T05:25:08.413919Z",
-  "next_update": "2026-05-15T05:30:00Z",
+  "generated": "2026-05-15T05:30:16.818585Z",
+  "next_update": "2026-05-15T05:35:00Z",
   "days_active": 7,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 22,
+    "kalshi": 25,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "ARG": 13,
-    "USA": 1,
+    "USA": 2,
     "FRA": 8,
     "MEX": 1,
     "CAN": 1
@@ -4045,6 +4045,13 @@
       "t": "2026-05-14T18:54:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbW9Sam9ScXlkbVZCVUMyZ3diZ1lnaGIwWVMtS3VqZW9FcVR4cDhYVmVCTHlZanBLUFBUX1hHc0xYLVBqYWJfRWRnRTFTRkRjY1dtUUM4NktOZEMyeVBSYmlsRnZNekZfWnl3clZWT1NPcjJWZUczTDVKdnpjeE8tLUgwTWd5dGdVcDJoS3dadEFvRU5JRldseGpBRQ?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Does the cruise ship hantavirus pose a threat to the United States? - Texas Public Radio | TPR",
+      "t": "2026-05-14T17:57:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLUR5dEI2SE5leHRPWnM2cHh1YjEyLUlFMzV0Y3RGQkxlX1NOYzd3ZzJZLTQ0NjRhazdCcG1OOGp0Q05qLWx4YWJWaVN3bFF3TkVHbFBOanVkVFptTlAzQnVJNUFwNVBiQzFMYXJlSEJLellPUGVfdDBFR3ZKTGN4aWR2enNwZE1wbWQyY3ZiWWU5VGtmdjFYOG1weXllaC1YM1lmY2VUYm9jNHN4V0JYU3dSRmRSYzRw?oc=5"
     },
     {
       "iso": "MEX",
@@ -4210,8 +4217,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-15T05:25:08Z",
-      "signals": 7,
+      "last_update": "2026-05-15T05:30:16Z",
+      "signals": 8,
       "recent": [
         {
           "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
@@ -4229,14 +4236,14 @@
           "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdDd6MHQ1c25HX0lPOEk0QjNtNzFoY0pNUE8xZG1JZnZETGNTd01zN29qSHFVdS1vLThZYnBKN1VMZGFCdTFfSDR6eXNWRkFlSnhPWG1JTU9NdmxBQ1JOeXRuQ0VCZ2J4cHVmS1ZnWXVsbTVqRGtKOFBMZUxoOURVMENpT0hFel9NU2RRTGpSbl9oNGRKNHh6OXNuOTlXNFJyRVZYc1JUekJiNFByLWxob3NTNUdfLWJpQ1FVSmpNQmhrNEU3bWZXUzRYbV9Idzl2OXBFaGJBcVYyTnREODZB?oc=5"
         },
         {
+          "title": "Does the cruise ship hantavirus pose a threat to the United States? - Texas Public Radio | TPR",
+          "t": "2026-05-14T17:57:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLUR5dEI2SE5leHRPWnM2cHh1YjEyLUlFMzV0Y3RGQkxlX1NOYzd3ZzJZLTQ0NjRhazdCcG1OOGp0Q05qLWx4YWJWaVN3bFF3TkVHbFBOanVkVFptTlAzQnVJNUFwNVBiQzFMYXJlSEJLellPUGVfdDBFR3ZKTGN4aWR2enNwZE1wbWQyY3ZiWWU5VGtmdjFYOG1weXllaC1YM1lmY2VUYm9jNHN4V0JYU3dSRmRSYzRw?oc=5"
+        },
+        {
           "title": "Hantavirus... gastroenteritis: \u00bfqu\u00e9 riesgos hay al abordar un crucero? - France 24",
           "t": "2026-05-14T02:35:37Z",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOEI3QXZPM3Etc2JFMTR4Y0x1TmktbEZKMC0tZVZXZkdGWU1aZUpGTWxpUmgzXzlRd0MyNTN1MFVtRXhqSkVaRTNqdGRnX3dvQmNJRmdqWkFxZThmSHFmM2hGeTRBcG1ZY184LTVZVEVqNFdSX1RxY0U3YkJUSEsxNTRhWTBJX1VPcmhIS2dCU3N4ZFJpN0tYUzAtbHlsbGpMeG96TFZoaWxoYjV1elB5TThR?oc=5"
-        },
-        {
-          "title": "Los brit\u00e1nicos evacuados del crucero afectado por hantavirus ser\u00e1n aislados en sus domicilios - France 24",
-          "t": "2026-05-14T08:09:13Z",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWEtSZ2RUa3dhNkhQMWpJOXBBS2k3LXljTlp6LTNMdTNrWllGb2EzYUF6Wl85UUxscEFzX3BtM1VHRWNLTzl6dzMzWFd3dkZVbGV5RHhBYnFoT1hDNHA3dF9PYkU0emJsd0M4TF9YZmdTcEtVTHdQa3dBYWY3cmdBSUk5YTdwTS1zS24zOUZCTmdxV0YxU3pZRmtuS2RWdzlYR3dNN01nUklLdkRUZG9leEFYcTk4azZyNm9WaEl0QXE3eDZvUTBhRkdJRGdPSEhqNFF6UlFhcGpEdjZfNzM0OGJoOG5TZHR5LTZpRQ?oc=5"
         }
       ]
     }
