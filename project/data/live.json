@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-15T03:00:16.801336Z",
-  "next_update": "2026-05-15T03:05:00Z",
+  "generated": "2026-05-15T03:05:14.833072Z",
+  "next_update": "2026-05-15T03:10:00Z",
   "days_active": 7,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 3,
+      "var_pct": 4,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 7,
+      "signals": 8,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 19,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "ARG": 13,
     "USA": 2,
-    "FRA": 7,
+    "FRA": 8,
     "MEX": 1,
     "CAN": 1
   },
@@ -4101,6 +4101,13 @@
       "t": "2026-05-14T13:20:14Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQTy1WT0RHZVBsX0Z6TnhBMUk0a0x4S1A2dlhMdFM5REJWX0pwaHo2OFRPXzNVelRlWnY5R0ZmSGNVWGo1QmZCWHRPaXVJQWU4cmo2VDlBUG9FNHFwUFRxX1pRVzY1RlhCTUJkMlhCTUZnYlAxWl9vYzdVVFl5eDFYYVJNNmt1cUJxbkQ0SnNqZU1KQ2tfMGVyMkRYeDRQcWtJZnk4NElTRUk5U19ZMXhVOHRJdVB4dlZ2RmhtVllDT2lVc0NLMjhXMEJncm5Jc2RIY2FZX2FPdXNpLUZkdlBRWmViQW8xaF9VaXhja2dOdkc0al9icUNUYVdtTnl6RWZXSE15enZWcjNnWXZaekw3dVZzWTZVUQ?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Francia: todos los casos de contacto del hantavirus dan negativo - RFI",
+      "t": "2026-05-14T12:13:01Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN2tCMS14dE1nT0s4TkVnMS14c0hlOFpJZ21NSElQa3NaT1V0amJVY2MyZGdSOTBIU1FIQm1ZUjlydzdOUzB4NEZGNlZTQWVvdWpPNkVnYTQ3Y2NaMWYtMUtRaldubUFVMnlOZlRPa1JiUkUtSkswUjY0NEg1emQyNkhkN0lkRWluMUktU20xTHhCSzd0ZXZRby1zX1FTZ25rWHlTOA?oc=5"
     },
     {
       "iso": "FRA",
@@ -4210,7 +4217,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-15T03:00:16Z",
+      "last_update": "2026-05-15T03:05:14Z",
       "signals": 7,
       "recent": [
         {
