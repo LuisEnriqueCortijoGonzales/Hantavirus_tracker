@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-15T13:30:14.755614Z",
-  "next_update": "2026-05-15T13:35:00Z",
+  "generated": "2026-05-15T13:35:14.995403Z",
+  "next_update": "2026-05-15T13:40:00Z",
   "days_active": 7,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -74,11 +74,11 @@
       "ytd": 8,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "USA": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 18,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,9 +4020,9 @@
   "signal_summary": {
     "ARG": 17,
     "USA": 1,
-    "MEX": 2,
     "FRA": 5,
-    "CAN": 1
+    "CAN": 1,
+    "MEX": 1
   },
   "events": [
     {
@@ -4052,13 +4052,6 @@
       "t": "2026-05-15T10:10:51Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSUFTVlRwcmpHR1NWNFF6V0o1YUFhVXdGaDhIOV9sUjc0cFhLeGFGSzhVdWk1Wm9fejl4bDFvN20xNVVwUU5rSWYtYUpiMnZ5Y19EcFdySXFrNEQzalpFektZbWFybTlKWTg5SWxfV2c2UXctX3BYVmFGU1AxZFktSjRkeXlFOUVFSWdVTHFaSGJGM19fMXZnSlVoWVgtaDM0OHhyZWRYTF9VUjJWSGI1S1pvaUVFbDZxdEdJTk5XQmJXdjRFTWZCcU5DMWs?oc=5"
-    },
-    {
-      "iso": "MEX",
-      "title": "New Mexico Wellness Wire: Three questions on hantavirus - Santa Fe New Mexican",
-      "t": "2026-05-15T05:30:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxON1hSOFM4ZFJEN0VESElGdFlkZlBYcGlucEZZQzJOeWhTcHV1NHRQcjd5dXhCU1FEbWJkV0ZVZEI5MGJIcmFYMWhaV2t5aW05UlYyU25YMkF0V1QtOVhyclZNQzlSZ2gtbVZ1eC1lNVJqNlljRTVWVE1fZVpXT2xGV2Izb3BUS3hvUFRPeWlDc09UZzZINTdocFQxRGhGLXduUW5rYTdDZDZ2NUJTMERKdEQycF9qUzQtaVFRY2lQdUZfLWJZRUt1WnFIakhFNHlYV05RWHdkbDdHWkJ0SV8ydlVCYW50dlhIM3c?oc=5"
     },
     {
       "iso": "ARG",
@@ -4224,7 +4217,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-15T13:30:14Z",
+      "last_update": "2026-05-15T13:35:14Z",
       "signals": 9,
       "recent": [
         {
