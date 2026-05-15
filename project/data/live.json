@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-15T04:25:08.431298Z",
-  "next_update": "2026-05-15T04:30:00Z",
+  "generated": "2026-05-15T04:30:16.802742Z",
+  "next_update": "2026-05-15T04:35:00Z",
   "days_active": 7,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 71,
+      "ytd": 72,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 6,
+      "var_pct": 7,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 13,
+      "signals": 15,
       "gov_alert": false
     },
     "CHL": {
@@ -74,11 +74,11 @@
       "ytd": 8,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "USA": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72
     ],
     "CHL": [
       31,
@@ -1452,54 +1452,54 @@
   ],
   "hourly_history": {
     "ARG": [
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72
     ],
     "CHL": [
       31,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 20,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,11 +4018,11 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "ARG": 13,
-    "USA": 2,
+    "ARG": 15,
+    "USA": 3,
     "FRA": 7,
-    "MEX": 2,
-    "CAN": 1
+    "CAN": 1,
+    "MEX": 1
   },
   "events": [
     {
@@ -4031,6 +4031,13 @@
       "t": "2026-05-14T22:47:06Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ranFMZnF2SFhFak1uU05ibU5kSzRPenFsQlpBX1JCOUpzSk9uQ1ZEZWlxRkhkdm43Rkh6aE5DWDlWUmJBM1NDeUxNY0ZBaHR0djRSS0JmWEMxMGEwUnBIUk0ya3Rya1BxRjhF?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Can I get hantavirus from my pet? Here's what pet owners should know - Good Morning America",
+      "t": "2026-05-14T22:25:57Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNlhxU0FhY1FYVmpvVzdGSjJFRXVTbzhidDNvamMyNE9VeWkyR2U1RW9ZVWVBVm1QLUpBYlFQQnA1V1lFeEtSNGN4NFVrR1RKUXY4c0M4ZnJEX2V4b1E1cklNdWlqS051MG84TWhZcXBDcHE0TWJFQkNKQkRaX0hCbnlVMVh1d1BT0gGOAUFVX3lxTE9RNExidzFjNnFxd05SRVgwNDZ2aUtrdGxLSjJqOEstbE9RRjUwcjhhYV9GVFdabFNISGtUR25IUFkxS29hRTV4V25PeHFRbEZLaU1IMHhVTHN3REVhWVNEZ2I2WHQ5TmRsUHJ0dldVam4xY25ZSldvWFVvRFNhX3BGOExSTzdJM2U5eWhSUWc?oc=5"
     },
     {
       "iso": "FRA",
@@ -4101,6 +4108,13 @@
       "t": "2026-05-14T13:20:14Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQTy1WT0RHZVBsX0Z6TnhBMUk0a0x4S1A2dlhMdFM5REJWX0pwaHo2OFRPXzNVelRlWnY5R0ZmSGNVWGo1QmZCWHRPaXVJQWU4cmo2VDlBUG9FNHFwUFRxX1pRVzY1RlhCTUJkMlhCTUZnYlAxWl9vYzdVVFl5eDFYYVJNNmt1cUJxbkQ0SnNqZU1KQ2tfMGVyMkRYeDRQcWtJZnk4NElTRUk5U19ZMXhVOHRJdVB4dlZ2RmhtVllDT2lVc0NLMjhXMEJncm5Jc2RIY2FZX2FPdXNpLUZkdlBRWmViQW8xaF9VaXhja2dOdkc0al9icUNUYVdtTnl6RWZXSE15enZWcjNnWXZaekw3dVZzWTZVUQ?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Una fiesta de 15 tr\u00e1gica, 12 muertos y 34 infectados: As\u00ed fue el mayor brote de hantavirus en Argentina - Despertar Entrerriano",
+      "t": "2026-05-14T11:36:37Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOVldGSzA4aXgxc2lELXhTYldrMEVENDVlNmM0ZzA3Wk5ETjVwYmpaX1RUNkZpTnVVd0x0T3c4d0Z4NEN3b1RIQUtpQkdaZzBPekpybTRocll5SzFUYlRLNmM5N2tfMmFhYWVYR2dXY1lrV1AwMjJCeUh0NHJxb09oS1lKejVCUjBMSERKWjRZbjBMd3FfNzE4ekM2dDlDQjNNNVRkS1VKS0tqZkxyUVUzaHpiQ3RQcjI0SFEzVXNXVHhnVW1XYjl4QzgyWUdSRFZL?oc=5"
     },
     {
       "iso": "FRA",
@@ -4180,11 +4194,11 @@
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS3R3bXdhdDhKcThHMTl0cUNSaEp4YkhsQVNzMlRneXlZdm40TzZaQ291aml6al9YeGpPV2htTUx0bkN3QWZXUHJHblktaEIyVXY5aE9seFZCd3dBa3dQYWRGN0p6bndGenJGLUotWmlnNkdZRS1adFhSekZKemlzQ1NfeXN4b2pWcDdnMmIwTnNocnM2VmV5U0xFY1lxa2d4NlBxSkFQUEI2MWQzNlY4a2ZpZTRNYkhCaWxSaXoyQy0tbGdWSGdNYklrRV9tMUXSAdQBQVVfeXFMTUF2Sjc5SkFMWXVCdXlIZGlIamNTS09qa29ueTgta1JBbE5Oc2VtOEpLdXpNdDJJUG5MbGhZVXAyRllaX1RVTGVyR2xacDFDQnZOY3BaTXBXWlozV1hUd2JzMjdWU3l2bklBbXhvcl9UWVpYOTZXM25LWXdYeURFZG9mZ0J4djI1WXdkMWNSOWwtdVI0bVdfRVA0b1VYS1FPNGNPdHZiU090dnRNZHhlRndKcDZFUldpUGJnY0NYWlZVUEMzcmpIeHBva0pWOWo1R2UzV3k?oc=5"
     },
     {
-      "iso": "MEX",
-      "title": "M\u00e9xico en alerta: el listado de pa\u00edses con casos confirmados de hantavirus tras brote en crucero de lujo - Ambito",
-      "t": "2026-05-11T12:58:21Z",
+      "iso": "ARG",
+      "title": "La investigaci\u00f3n del hantavirus en Argentina aleja el origen del brote de Ushuaia y lo sit\u00faa a 2.000 km al norte - ABC",
+      "t": "2026-05-11T00:38:42Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaTJ0bkFEYkJRLXF3Y2IzcjRFZW9tNVZFOVY1SG5zQ1hhVzVBTm82dEVQNmN0enpyTVpQeUM3SlQ5OWk5Tm9RZkNraHFjTUJYRWNhaHpFakZSYmxFcEExT1hJUFBFYXNmQzMxNmFCbklMMS1vRV9jcFJUUlRYbjNYcF84TVhodEw3TGg2d2dSS1ptNDhJbXNZaHR4ZzdzSjVNV2lHTzRMbkNaREhEaUNaeWdSR25qWFhvX1hQc21rbXdNdDRIT0dnOUtKSGJJMkdyQzh2M9IB2gFBVV95cUxPUENHeEhYU3psRXphX2VWV0p0c3p2Ylo3cnp6TUVsQ0EzV210eUZNMzg1WEU3YjN6SlZjb3VveEJ2R09BcUhKb01LYmI0QmltVlZsczRWTlVIR0pYXzZhTzQ1VXlMSEItYjdJZVRZZ3B1ZWdxNGFVMzB6Y3l0Mk1MZF95VGNzazBJM1BOZnRiNWJvamVvNFVfMXgxakdKdGtjVE1tWkJvcjNnLWpKbUJEZS1fQ2hDYUlXSjFGWGhUcUdTTEFTWWZ3SlhZczJOWnRqOUthSXpvSWNndw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdkFHUG55VEZMZ0RtRGhaSU4zek1HSUFrYnVId0ZoX2RoWnI0c0gyN3Fab2NSd1BUcDFWbl9sUnNYa2c4Y1U3cFAzdzdNbTRRbHV0aVBGT0UzTGoyVVpwRUFCZlhXSUkzem5DOFhweTk3SmxfbmtYdGx3bFMzN2JqOUpCSWw5c3hYbUFlYnplMVRBWXowRjFkZUVPX3UtcGpURmlYMXRrY9IBrAFBVV95cUxPYWxuYllzbERTd0s0dUlwdmxtX3g4YmMtZFplbDlQTDdlTGNkdFBXUmt2MUQ2ZkEzTTBuT092Wmp3QXFhMTlJUFhTeS10eFZYVTBNdHRXX09ET2poR25vX0NZTlpJZ3RVMWwybFFKX3c3VTBLOVNHX0FNaUI3bUJ6dk4ySERrRk1vYjVKQ1NZOXN4LXAtbHBYei1rXzVlZVlQaEZRWGZOanhpejdy?oc=5"
     },
     {
       "iso": "ARG",
@@ -4217,8 +4231,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-15T04:25:08Z",
-      "signals": 8,
+      "last_update": "2026-05-15T04:30:16Z",
+      "signals": 7,
       "recent": [
         {
           "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
