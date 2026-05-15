@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-15T18:20:16.812836Z",
-  "next_update": "2026-05-15T18:25:00Z",
+  "generated": "2026-05-15T18:25:08.505382Z",
+  "next_update": "2026-05-15T18:30:00Z",
   "days_active": 7,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GTM": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 22,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,8 +4021,7 @@
     "USA": 1,
     "ARG": 18,
     "FRA": 6,
-    "MEX": 1,
-    "CAN": 1
+    "MEX": 1
   },
   "events": [
     {
@@ -4080,13 +4079,6 @@
       "t": "2026-05-15T10:10:51Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSUFTVlRwcmpHR1NWNFF6V0o1YUFhVXdGaDhIOV9sUjc0cFhLeGFGSzhVdWk1Wm9fejl4bDFvN20xNVVwUU5rSWYtYUpiMnZ5Y19EcFdySXFrNEQzalpFektZbWFybTlKWTg5SWxfV2c2UXctX3BYVmFGU1AxZFktSjRkeXlFOUVFSWdVTHFaSGJGM19fMXZnSlVoWVgtaDM0OHhyZWRYTF9VUjJWSGI1S1pvaUVFbDZxdEdJTk5XQmJXdjRFTWZCcU5DMWs?oc=5"
-    },
-    {
-      "iso": "CAN",
-      "title": "Canad\u00e1 vigila a 36 personas por el brote de hantavirus vinculado a un crucero - EFE - Agencia de noticias",
-      "t": "2026-05-14T22:47:06Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ranFMZnF2SFhFak1uU05ibU5kSzRPenFsQlpBX1JCOUpzSk9uQ1ZEZWlxRkhkdm43Rkh6aE5DWDlWUmJBM1NDeUxNY0ZBaHR0djRSS0JmWEMxMGEwUnBIUk0ya3Rya1BxRjhF?oc=5"
     },
     {
       "iso": "FRA",
@@ -4231,8 +4223,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-15T18:20:16Z",
-      "signals": 11,
+      "last_update": "2026-05-15T18:25:08Z",
+      "signals": 10,
       "recent": [
         {
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
