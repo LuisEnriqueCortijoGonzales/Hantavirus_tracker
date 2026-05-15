@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-15T22:55:08.437720Z",
-  "next_update": "2026-05-15T23:00:00Z",
+  "generated": "2026-05-15T23:00:16.815403Z",
+  "next_update": "2026-05-15T23:05:00Z",
   "days_active": 7,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -1401,7 +1401,6 @@
     "2026-05-15T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-13T23:00:00Z",
     "2026-05-14T00:00:00Z",
     "2026-05-14T01:00:00Z",
     "2026-05-14T02:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-15T19:00:00Z",
     "2026-05-15T20:00:00Z",
     "2026-05-15T21:00:00Z",
-    "2026-05-15T22:00:00Z"
+    "2026-05-15T22:00:00Z",
+    "2026-05-15T23:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 18,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4216,7 +4216,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-15T22:55:08Z",
+      "last_update": "2026-05-15T23:00:16Z",
       "signals": 11,
       "recent": [
         {
@@ -4225,14 +4225,14 @@
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
         },
         {
-          "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
-          "t": "2026-05-12T22:12:02Z",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeUtmR2dNaUYwdEFTMTc1dUlmZVR4c1MzTXQ5VDZQclYzbW1xdzRfUGF3aWFIc1lSaWpRcXhfbW5OdFVYbW0tekVySTBDYy1Va050T1cwTWVNZHk3a2pmYUNkNDQ2MndoS1N2cUJPaFpfOU9scFlyb1hZZTNwamg3YnJzTnFjbVRUVEFLdFhkQmlXNUlDWUpuQ0hGblpYVkpIcTlKX1kwMjRURTV0UVdkSVMwZDhvZVpMc2RTcFYwdkdTZHZ5SEFwNXBlNld1V2d6eHBmUHVCWVE5UDFsbGYtRDl30gH8AUFVX3lxTFBoQ1JGSnZhTHg2SmpiUlltY3Vzd3p0d3ZLVXR0VEFNQkQzNVlOb19PcVBabUlfdDc5RHR6aGdvOEhiUnNmcE43cGNoZG1KVTZWSmlnOHZxZHJPOWdRWXJkbUVIXzI1SzdjTC1MX3NNaFhodnJwODVRakN1OVZxMkFrNHlEMXlVN3ZFWW1kdUFId21ISkRPRVF6bnJlTlBjZHVOd1NaY2FKbUJfYktwQm5meE1LNVNMQmZyekV2MUQzM1AwcVRtQnhsd3N3Vl83aldDQ2ZxeDB0RlpERE9ENEZ3ekhodXhhLUlGelU0U3VVYVFjeE1OSUpTUXdqTQ?oc=5"
-        },
-        {
           "title": "Argentina investiga si el origen del brote de hantavirus del crucero MV Hondius se encuentra en Ushuaia - LaSexta",
           "t": "2026-05-15T09:30:45Z",
           "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPN3FHUElIVVJZT2lFVWVYVnBZc1BvbURCLUlYMng4cWpDUEs2QTQxakdGY0xycUZQWGJhUEJJd1pvTGNCNmJTZ2o2VHozYVhEdWJUY0Y4Tnp4aC1yRTRibGdGeXNnRkVobUx2SGxVVVRoVVpyLTY3bk5zc2dXV0J6M0loQ2E0b3Z2VnFUeG5sNGpybTBwckRqa3FJdDYtdC02WEtnUWE5TmNST3ptc0FwOWhHdGhCcjVGc0dFY3BkNmVqOHQtVk9pbzh2VFFPWFhtbG5PODVjbmdjN08zODVCTkpIT09hR2EzdmpEak5weG5OTjZ10gH0AUFVX3lxTE1tM3J2QzZVUjJiMmg5bjJMRWhKTC1YMFI5VlEzQ1FYWEt3c20zVTBSa2g4SXpicjI0Q1pCRUNqR1F5RGNBVXhtNk85SnlyX0QweThjN3dLU0VKSnEta0l2YTBDZmRyYThiYmYtWEtQb3huQWRnQ2xWRDlPVGFaM3hRZUJvOVF3WFhTWTU1SzVZY3BBRG5KcDZ4U0gzdzktZ2RneFBxTVhJR1kyN1hlVzJQVkp1OHdqZVBLZndack1kbzBfQ2U3bkRja1VabVV2OWhhVDR1WWtaeno1TThXRmwzU0JYcnBpZHpmMDdiTFZMb0FDaUM?oc=5"
+        },
+        {
+          "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
+          "t": "2026-05-12T22:12:02Z",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeUtmR2dNaUYwdEFTMTc1dUlmZVR4c1MzTXQ5VDZQclYzbW1xdzRfUGF3aWFIc1lSaWpRcXhfbW5OdFVYbW0tekVySTBDYy1Va050T1cwTWVNZHk3a2pmYUNkNDQ2MndoS1N2cUJPaFpfOU9scFlyb1hZZTNwamg3YnJzTnFjbVRUVEFLdFhkQmlXNUlDWUpuQ0hGblpYVkpIcTlKX1kwMjRURTV0UVdkSVMwZDhvZVpMc2RTcFYwdkdTZHZ5SEFwNXBlNld1V2d6eHBmUHVCWVE5UDFsbGYtRDl30gH8AUFVX3lxTFBoQ1JGSnZhTHg2SmpiUlltY3Vzd3p0d3ZLVXR0VEFNQkQzNVlOb19PcVBabUlfdDc5RHR6aGdvOEhiUnNmcE43cGNoZG1KVTZWSmlnOHZxZHJPOWdRWXJkbUVIXzI1SzdjTC1MX3NNaFhodnJwODVRakN1OVZxMkFrNHlEMXlVN3ZFWW1kdUFId21ISkRPRVF6bnJlTlBjZHVOd1NaY2FKbUJfYktwQm5meE1LNVNMQmZyekV2MUQzM1AwcVRtQnhsd3N3Vl83aldDQ2ZxeDB0RlpERE9ENEZ3ekhodXhhLUlGelU0U3VVYVFjeE1OSUpTUXdqTQ?oc=5"
         },
         {
           "title": "Hantavirus: Australia a\u00edsla en cuarentena estricta a pasajeros del crucero - Cadena 3 Argentina",
