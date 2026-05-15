@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-15T17:20:16.821856Z",
-  "next_update": "2026-05-15T17:25:00Z",
+  "generated": "2026-05-15T17:25:16.814005Z",
+  "next_update": "2026-05-15T17:30:00Z",
   "days_active": 7,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 72,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 8,
+      "var_pct": 7,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 16,
+      "signals": 15,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,11 +4019,18 @@
   },
   "signal_summary": {
     "USA": 2,
-    "ARG": 16,
+    "ARG": 15,
     "FRA": 6,
     "CAN": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Una infect\u00f3loga explic\u00f3 por qu\u00e9 aumentaron los casos de Hantavirus en la Argentina y advirti\u00f3 qu\u00e9 hay que hacer ante un contagio - La Naci\u00f3n",
+      "t": "2026-05-15T16:35:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPOGc0aW56YkQ4MjIyZHdGdEFXd3VoUlVKUHlLTmR6UzV0RElDdkpOeXZDWUM0aFVxMk9JNFZadEdxZ2I2MEt3dnJPa1dDaGZKSW9jUl9BZ2Y4QUJrMVN1dExFS2VnUFFyMGdUTF9ETXFCTS1CSG5naDlscjJVTWpieFo0NVhZUnczOXNPRV9oM0p5VHJNSTFnOFptOXdPZkFwUHBQOXlNMHlHTVktWmxnR1hnVEJfQm5kalhQVWd3aHBOT19PaVByNWpIaHZHSW5nalFXcjBqcHdrSnVNZ1JwYg?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "Lo que saben y no saben los cient\u00edficos argentinos sobre el Hantavirus Andes - France 24",
@@ -4044,13 +4051,6 @@
       "t": "2026-05-15T14:28:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRzZkcUJDTUxuUUQ1RlhNOUFrOVJyVGE1S2FjcDFzdElzVHJpTU5aNG1zLUVjYWVHUUpGVkpXVVQ2d1hyYXhOM09OMmdFcDZUVjMyMXg4cnFVMHVuNzRjSmwwMkZmdE9UUG9KSmlJdjFDM0IwSDVaa25oZUhIRXBGaXZCR0RIRGNNUjVjNkF4ZmZsTkE2ZUhqRGV3?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Una infect\u00f3loga explic\u00f3 por qu\u00e9 aumentaron los casos de Hantavirus en la Argentina y advirti\u00f3 qu\u00e9 hay que hacer ante un contagio - La Naci\u00f3n",
-      "t": "2026-05-15T13:21:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPOGc0aW56YkQ4MjIyZHdGdEFXd3VoUlVKUHlLTmR6UzV0RElDdkpOeXZDWUM0aFVxMk9JNFZadEdxZ2I2MEt3dnJPa1dDaGZKSW9jUl9BZ2Y4QUJrMVN1dExFS2VnUFFyMGdUTF9ETXFCTS1CSG5naDlscjJVTWpieFo0NVhZUnczOXNPRV9oM0p5VHJNSTFnOFptOXdPZkFwUHBQOXlNMHlHTVktWmxnR1hnVEJfQm5kalhQVWd3aHBOT19PaVByNWpIaHZHSW5nalFXcjBqcHdrSnVNZ1JwYg?oc=5"
     },
     {
       "iso": "ARG",
@@ -4121,13 +4121,6 @@
       "t": "2026-05-14T14:48:04Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaUVBWVhjVVJoX0VNXzR6WnlubmhZWS1saTN3OGVqcm1Va0tOcnVBaXcweEk4WFY0VWtCZDVNMmZTSXV3aEdLaHItYWh4ZENCYmFvaS1ZRGc5RFRfVmF4RjZrN2NHQ2tqRjI3aHltS19jSWtHNG5QU0FRRHVreGVRa3JFRjUtSXBfakt5Rk9JOA?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus: claves sobre su diferencia con el Covid-19 y su transmisi\u00f3n - Cadena 3 Argentina",
-      "t": "2026-05-14T13:20:43Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdzBmZm4tWl9RNC1hTEd1aDFQSFNCTk9LYTU3emVWelJPdVRNMXJVN0xFUFhSbGtpUTBwT2Z3TElrYThWN3I4V2I4RkxFVHM0TktNOWtjRXAwR1dKclZtTXpScWE1YjdCN3FpNnhBbUU0VW9VQTIxckZxSXNINGZSYmpPWTIyV2M4VGZ4QmRJc1h2dEY5UkhFOW9ZbUIwMnM5U3FWWE9GMFJtQkEzZDRzM05RUHUyVU1mcnc?oc=5"
     },
     {
       "iso": "FRA",
@@ -4216,7 +4209,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-15T17:20:16Z",
+      "last_update": "2026-05-15T17:25:16Z",
       "signals": 9,
       "recent": [
         {
