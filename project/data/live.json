@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-15T02:05:16.793152Z",
-  "next_update": "2026-05-15T02:10:00Z",
+  "generated": "2026-05-15T02:10:16.825079Z",
+  "next_update": "2026-05-15T02:15:00Z",
   "days_active": 7,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 20,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "ARG": 13,
-    "USA": 3,
+    "USA": 2,
     "FRA": 8,
     "MEX": 1,
     "CAN": 1
@@ -4108,13 +4108,6 @@
       "t": "2026-05-14T12:13:01Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN2tCMS14dE1nT0s4TkVnMS14c0hlOFpJZ21NSElQa3NaT1V0amJVY2MyZGdSOTBIU1FIQm1ZUjlydzdOUzB4NEZGNlZTQWVvdWpPNkVnYTQ3Y2NaMWYtMUtRaldubUFVMnlOZlRPa1JiUkUtSkswUjY0NEg1emQyNkhkN0lkRWluMUktU20xTHhCSzd0ZXZRby1zX1FTZ25rWHlTOA?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Refuerzan controles sanitarios en Estados Unidos tras detectar dos nuevas exposiciones al hantavirus - Infobae",
-      "t": "2026-05-14T11:47:54Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOX2l5Zmo1bVdvQnN5UW82SzFiNW9COUl2cFpsQkV0Z3dSOW1OLXZJekFBNU9VVlhpMG9ERXQ3NkFfME10cGRJcjBtQWktUVZ6OHZneHZWd1pmUlg3eGItdXFjM2JvLWZSQnVaaW82NlJuMlZVZW5Xcy1xMjd5bzJseHBGc09BakdBMlJfLXVQWHZQRHlVNXVtcE55VjNla1NEX29KTGJuWkhSYThYMkhZbmlTckJOeDc5X1pDLVhjQmZ6d3VqbTNOZDNramNoNUd6X1dnSXFlY0NCVnVzcEhPQUl3S2hQQdIBgAJBVV95cUxPOENNTEQyQTFuVmhRUkhKSVF6S3JvWENsbGV2d3ZsM3hVbHBMSlotekhSaXhVeFBRVjZTTnJ5TEx0NjdjLWl3NzE1VHJUUlNSUDh1NDV3ZEhvTlFzY1RYNmhGa3NzeHhOWW9MSnlPekpraGI5YlhUNkp0cHRnY3A1RUE1R2I0TkVXRDVMU1VySU9BVnhORW5yT0doV2U3V01QeUJIZUFOVnhEeHljLTZzQ094M1p5MWEzMGQzY0NBVU9DQWVfZmVHV2p6dTdfSlFQNUg4cXgyZVhfUm5vZDVXQUN3c3o5ZXpUVF8xVWdUbXNrYWFzUlVCM2xVYWJwaHFw?oc=5"
     },
     {
       "iso": "FRA",
@@ -4224,7 +4217,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-15T02:05:16Z",
+      "last_update": "2026-05-15T02:10:16Z",
       "signals": 7,
       "recent": [
         {
