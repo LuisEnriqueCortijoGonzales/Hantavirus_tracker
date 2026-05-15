@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-15T09:40:16.826458Z",
-  "next_update": "2026-05-15T09:45:00Z",
+  "generated": "2026-05-15T09:45:14.817219Z",
+  "next_update": "2026-05-15T09:50:00Z",
   "days_active": 7,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 72,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 7,
+      "var_pct": 8,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 15,
+      "signals": 16,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 20,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 1,
-    "ARG": 15,
+    "ARG": 16,
     "MEX": 2,
     "FRA": 4,
     "CAN": 1
@@ -4066,6 +4066,13 @@
       "t": "2026-05-14T18:54:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbW9Sam9ScXlkbVZCVUMyZ3diZ1lnaGIwWVMtS3VqZW9FcVR4cDhYVmVCTHlZanBLUFBUX1hHc0xYLVBqYWJfRWRnRTFTRkRjY1dtUUM4NktOZEMyeVBSYmlsRnZNekZfWnl3clZWT1NPcjJWZUczTDVKdnpjeE8tLUgwTWd5dGdVcDJoS3dadEFvRU5JRldseGpBRQ?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina investiga el origen del hantavirus en el MV Hondius: \"Es una maniobra para empa\u00f1ar la imagen de Ush - BAE Negocios",
+      "t": "2026-05-14T18:41:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQYzJxMXpzaDNoNE1ULXJsTFF3dFlpeDJJLXlDQ0dPQXVKOFM3c3dPN3MtbFExelM2cVhSeGhfOGc4WGdCTWMzaFdrUE5Eb0QyZDhkZ1E4dTBOREFCVHpkWDl1U2VOWXp0XzVjVkwwNmNTcnlybnVaYXpPZzQwVzZaRFlFMWtxbGlyaFoxZ05femRzdTYtaWw0dGtZRGdSeGxJQ0RQZW9BanFxSzlEUlJDYm5QLTFobUtObUhFaWwtOVJGQkFaMGMzNHAyYzRBWF92YUp4LV82NTBPNnc2QVZyUmNsTdIB3AFBVV95cUxQZW9xRDlzWXJ2RTRBZG9vbGxYeHdpd0trQy1nMnptNUlRd2FTMjZKTnR6WFl6OUlwQ21xVGMyZkpMOGNyUTF5enNRZnI4YjdUb3VMdlJxc3hMODItTjlNcGE0TEI4VkpKa3JxX3c3QTlMSldlWFptQXEzeHRyM0Q5WWlacjBkSUtVS0hWRVhzSU83OWY2VE12aGdENjhISFVYSWMxdWpFQ1pvTGRjSm9TWGNUMnQ4OVJUOGhINTI5VUF2TXdSWTZfYTlTbXpOYnlLdUIzX2FZbFdMY0VU?oc=5"
     },
     {
       "iso": "MEX",
@@ -4203,7 +4210,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-15T09:40:16Z",
+      "last_update": "2026-05-15T09:45:14Z",
       "signals": 6,
       "recent": [
         {
