@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-15T20:20:13.398341Z",
-  "next_update": "2026-05-15T20:25:00Z",
+  "generated": "2026-05-15T20:25:16.788670Z",
+  "next_update": "2026-05-15T20:30:00Z",
   "days_active": 7,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 21,
+      "signals": 20,
       "gov_alert": false
     },
     "CHL": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 7,
+      "signals": 6,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 17,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,8 +4019,8 @@
   },
   "signal_summary": {
     "USA": 1,
-    "ARG": 21,
-    "FRA": 7,
+    "ARG": 20,
+    "FRA": 6,
     "MEX": 1
   },
   "events": [
@@ -4093,20 +4093,6 @@
       "t": "2026-05-14T19:49:10Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNejEySzRRTGZaNy1qazhJV2dXcWotSndCVUE5ZjhEMjQ2S0Y0bzZ5OVJDTW8wYnJuTy1ZUXlWcU9rN3NzVHoxaldYbHZFMFdrMEZIVmVvRVllRFF4THlhcWd1NHVkeVZIWTZsV3lhZEV6UFNLZkE5VmlQbnZxRnY5SE53MlZKVnJsdHN2eFZPMjdvR29DYXgtRGRGTUtlRmV3VWUza1llcW8wOWlMYU9sS1ZhNmc1bDBmbTFNZjBHT3d6U1d1U1N4cExaRE8yemotRDlPZjlfZw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Alerta por el hantavirus en Francia: pol\u00e9mica por el manejo de la informaci\u00f3n que se hizo desde Argentina - Clarin.com",
-      "t": "2026-05-14T16:27:29Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZkhCRTNaTHRFRGpSSEFORUlScGhkc3dPVHV2dnllY0xQeUF0MXVzM3ZCQWRaenU2UktFVWxISmtSZ3RvdmwzOU9IUVRGOUUtNThLdy1DYWtiTkpVWnRzOTNpWU1EUUVOSUE2STBPYndJS0o5RUFtb2tiZmo3OHYxald0M2lteUFkcUdtUEU1aThfTnhYTEd0UlpTSWpmc0w0Q0M5TnFoNHV2emhUampoQk5RbW5ORU9MRFlOQg?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Alerta por el hantavirus en Francia: pol\u00e9mica por el manejo de la informaci\u00f3n que se hizo desde Argentina - Clarin.com",
-      "t": "2026-05-14T16:27:29Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZkhCRTNaTHRFRGpSSEFORUlScGhkc3dPVHV2dnllY0xQeUF0MXVzM3ZCQWRaenU2UktFVWxISmtSZ3RvdmwzOU9IUVRGOUUtNThLdy1DYWtiTkpVWnRzOTNpWU1EUUVOSUE2STBPYndJS0o5RUFtb2tiZmo3OHYxald0M2lteUFkcUdtUEU1aThfTnhYTEd0UlpTSWpmc0w0Q0M5TnFoNHV2emhUampoQk5RbW5ORU9MRFlOQg?oc=5"
     },
     {
       "iso": "ARG",
@@ -4251,7 +4237,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-15T20:20:13Z",
+      "last_update": "2026-05-15T20:25:16Z",
       "signals": 11,
       "recent": [
         {
