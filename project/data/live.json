@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-15T15:25:08.446556Z",
-  "next_update": "2026-05-15T15:30:00Z",
+  "generated": "2026-05-15T15:30:14.785169Z",
+  "next_update": "2026-05-15T15:35:00Z",
   "days_active": 7,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 2,
+      "var_pct": 3,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 5,
+      "signals": 6,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 18,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,10 +4020,17 @@
   "signal_summary": {
     "USA": 2,
     "ARG": 16,
-    "FRA": 5,
+    "FRA": 6,
     "CAN": 1
   },
   "events": [
+    {
+      "iso": "FRA",
+      "title": "Lo que saben y no saben los cient\u00edficos argentinos sobre el Hantavirus Andes - France 24",
+      "t": "2026-05-15T15:11:16Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZ0pJbUwyM1hYQ2NOeTRfa1EyR3ZiQjJ0VFItWlBkV2FKUDdiQmdobnQyNnQ2QXd5eUp5d184TmxYSWY0M0hCOTBkZXV6cG1FZ2xSNXZqODBrVVVLbGwwRnliSmhIcks1NGVQei0tS2YxdU9PNERDOENqOGswamZfTFl4MHNpc3FlNi1uVW5FaDNCVGQ2MzluakpybXVxN2hZZnhCWkZpcGNUMFFjby1PNmRCNjlDQXFseWNkOEFYSE80M2JtLTE2SHBZTTJvZFk?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "Directo Espa\u00f1a y el operativo para repatriar a los pasajeros del crucero con brote de hantavirus - France 24",
@@ -4209,7 +4216,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-15T15:25:08Z",
+      "last_update": "2026-05-15T15:30:14Z",
       "signals": 9,
       "recent": [
         {
