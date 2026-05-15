@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-15T14:45:15.235626Z",
-  "next_update": "2026-05-15T14:50:00Z",
+  "generated": "2026-05-15T14:50:16.803049Z",
+  "next_update": "2026-05-15T14:55:00Z",
   "days_active": 7,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 17,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,13 +4018,20 @@
     "outbreak_count": 7
   },
   "signal_summary": {
+    "USA": 2,
     "ARG": 17,
-    "USA": 1,
     "FRA": 4,
     "CAN": 1,
     "MEX": 1
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "WHO shares update on global hantavirus cases - USA Today",
+      "t": "2026-05-15T14:28:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRzZkcUJDTUxuUUQ1RlhNOUFrOVJyVGE1S2FjcDFzdElzVHJpTU5aNG1zLUVjYWVHUUpGVkpXVVQ2d1hyYXhOM09OMmdFcDZUVjMyMXg4cnFVMHVuNzRjSmwwMkZmdE9UUG9KSmlJdjFDM0IwSDVaa25oZUhIRXBGaXZCR0RIRGNNUjVjNkF4ZmZsTkE2ZUhqRGV3?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Una infect\u00f3loga explic\u00f3 por qu\u00e9 aumentaron los casos de Hantavirus en la Argentina y advirti\u00f3 qu\u00e9 hay que hacer ante un contagio - La Naci\u00f3n",
@@ -4210,7 +4217,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-15T14:45:15Z",
+      "last_update": "2026-05-15T14:50:16Z",
       "signals": 9,
       "recent": [
         {
