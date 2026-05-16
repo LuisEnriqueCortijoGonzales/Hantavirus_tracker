@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-16T20:15:22.052267Z",
-  "next_update": "2026-05-16T20:20:00Z",
+  "generated": "2026-05-16T20:20:32.159909Z",
+  "next_update": "2026-05-16T20:25:00Z",
   "days_active": 8,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,16 +4020,24 @@
   "signal_summary": {
     "FRA": 10,
     "ARG": 13,
+    "USA": 1,
     "CAN": 1,
     "CHL": 1
   },
   "events": [
     {
-      "iso": "CAN",
-      "title": "Canada confirms first hantavirus case in isolation in British Columbia - The Guardian",
-      "t": "2026-05-16T20:12:00Z",
+      "iso": "USA",
+      "title": "Canada confirms first suspected hantavirus case linked to cruise ship - USA Today",
+      "t": "2026-05-16T19:31:00Z",
       "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdDNheS1KQm5zRXhjWk5QSmlYbWd3dU41TmJZUHNvSnhGTFJkZ0prUWh6UlU3elZwZzAxVzdHVExwMDNoRTl0eElsUjNpR3FsOEsxWWR5c0hWU0Z5NFd0NVczczFYTWdUZUJmazlTWV9WeWJFRFdzTUdPbnFNWU1FMHVKcUtNbURfdEZrbnpJekdYZ3lOMkE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRVA1aXhsZlA1NjFjejZ1X2xfWlg4NUs4ZlJZWjRobUpHMzVYbVhYZ29lb3pVdE5LNHM2a2RCVmp4VHRyanZ2eTFmY0FIVGVmR2Z3SFZ2RWNmcjdEWE5LX21ZeDlLaUlHb0N0ZmNIRVF2dnhoSGVLbHowakNwS1kzcEREeHdFWnBCSUdub2dHTFU3OTJuRDBjT0ZiSmQwekxrdE1WRnNGRDNYX2xUZURialFIQ0IxRVZkOG1Ra3FqYk9oV1RBWDEwVXBZSQ?oc=5"
+    },
+    {
+      "iso": "CAN",
+      "title": "Canada confirms first suspected hantavirus case linked to cruise ship - USA Today",
+      "t": "2026-05-16T19:31:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRVA1aXhsZlA1NjFjejZ1X2xfWlg4NUs4ZlJZWjRobUpHMzVYbVhYZ29lb3pVdE5LNHM2a2RCVmp4VHRyanZ2eTFmY0FIVGVmR2Z3SFZ2RWNmcjdEWE5LX21ZeDlLaUlHb0N0ZmNIRVF2dnhoSGVLbHowakNwS1kzcEREeHdFWnBCSUdub2dHTFU3OTJuRDBjT0ZiSmQwekxrdE1WRnNGRDNYX2xUZURialFIQ0IxRVZkOG1Ra3FqYk9oV1RBWDEwVXBZSQ?oc=5"
     },
     {
       "iso": "FRA",
@@ -4216,8 +4224,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-16T20:15:22Z",
-      "signals": 10,
+      "last_update": "2026-05-16T20:20:32Z",
+      "signals": 11,
       "recent": [
         {
           "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
