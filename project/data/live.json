@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-16T17:05:03.703791Z",
-  "next_update": "2026-05-16T17:10:00Z",
+  "generated": "2026-05-16T17:10:03.720262Z",
+  "next_update": "2026-05-16T17:15:00Z",
   "days_active": 8,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "PRY": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 18,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,6 @@
   },
   "signal_summary": {
     "ARG": 13,
-    "USA": 1,
     "CHL": 1,
     "FRA": 7
   },
@@ -4030,13 +4029,6 @@
       "t": "2026-05-16T14:42:45Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYjB6RkQ4YnlNLV9SRFFmZFlJenE0UXZZX0pPbi1yQV9SSmpyRnpsbHRQLVh6TV81cm5iQVR6T0RwelA1TEdWdThsMkhvLUFCbVEwOE5pYWtUdGNjWXRCRHpWRFl3aC1YcVZuRWM0dkVjTzhQb0RHbm9ncWtKUUtnYzE4VWpRZC1XLVFfTWRMTWJhTlRYdVIyREdwVkdJTUhyTkdGNVJVTERoYndSVmswT3lqLVdBcm9CbkZsOWFJcmJUc3FkeUlva1B1WUc5NlRpaEx1Yk05OUgyU19HTlo1aUln?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "WHO shares update on global hantavirus cases - USA Today",
-      "t": "2026-05-15T18:13:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRzZkcUJDTUxuUUQ1RlhNOUFrOVJyVGE1S2FjcDFzdElzVHJpTU5aNG1zLUVjYWVHUUpGVkpXVVQ2d1hyYXhOM09OMmdFcDZUVjMyMXg4cnFVMHVuNzRjSmwwMkZmdE9UUG9KSmlJdjFDM0IwSDVaa25oZUhIRXBGaXZCR0RIRGNNUjVjNkF4ZmZsTkE2ZUhqRGV3?oc=5"
     },
     {
       "iso": "FRA",
@@ -4195,7 +4187,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-16T17:05:03Z",
+      "last_update": "2026-05-16T17:10:03Z",
       "signals": 8,
       "recent": [
         {
