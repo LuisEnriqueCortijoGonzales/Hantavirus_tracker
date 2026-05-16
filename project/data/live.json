@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-16T23:15:32.052101Z",
-  "next_update": "2026-05-16T23:20:00Z",
+  "generated": "2026-05-16T23:20:22.046928Z",
+  "next_update": "2026-05-16T23:25:00Z",
   "days_active": 8,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -151,11 +151,11 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "GTM": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 22,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,8 +4018,8 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "CAN": 1,
-    "USA": 1,
+    "CAN": 2,
+    "USA": 2,
     "FRA": 9,
     "ARG": 14,
     "CHL": 1
@@ -4052,6 +4052,20 @@
       "t": "2026-05-16T20:12:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdDNheS1KQm5zRXhjWk5QSmlYbWd3dU41TmJZUHNvSnhGTFJkZ0prUWh6UlU3elZwZzAxVzdHVExwMDNoRTl0eElsUjNpR3FsOEsxWWR5c0hWU0Z5NFd0NVczczFYTWdUZUJmazlTWV9WeWJFRFdzTUdPbnFNWU1FMHVKcUtNbURfdEZrbnpJekdYZ3lOMkE?oc=5"
+    },
+    {
+      "iso": "CAN",
+      "title": "Canada confirms first suspected hantavirus case linked to cruise ship - USA Today",
+      "t": "2026-05-16T19:31:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRVA1aXhsZlA1NjFjejZ1X2xfWlg4NUs4ZlJZWjRobUpHMzVYbVhYZ29lb3pVdE5LNHM2a2RCVmp4VHRyanZ2eTFmY0FIVGVmR2Z3SFZ2RWNmcjdEWE5LX21ZeDlLaUlHb0N0ZmNIRVF2dnhoSGVLbHowakNwS1kzcEREeHdFWnBCSUdub2dHTFU3OTJuRDBjT0ZiSmQwekxrdE1WRnNGRDNYX2xUZURialFIQ0IxRVZkOG1Ra3FqYk9oV1RBWDEwVXBZSQ?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Canada confirms first suspected hantavirus case linked to cruise ship - USA Today",
+      "t": "2026-05-16T19:31:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRVA1aXhsZlA1NjFjejZ1X2xfWlg4NUs4ZlJZWjRobUpHMzVYbVhYZ29lb3pVdE5LNHM2a2RCVmp4VHRyanZ2eTFmY0FIVGVmR2Z3SFZ2RWNmcjdEWE5LX21ZeDlLaUlHb0N0ZmNIRVF2dnhoSGVLbHowakNwS1kzcEREeHdFWnBCSUdub2dHTFU3OTJuRDBjT0ZiSmQwekxrdE1WRnNGRDNYX2xUZURialFIQ0IxRVZkOG1Ra3FqYk9oV1RBWDEwVXBZSQ?oc=5"
     },
     {
       "iso": "FRA",
@@ -4224,9 +4238,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-16T23:15:32Z",
-      "signals": 12,
+      "last_update": "2026-05-16T23:20:22Z",
+      "signals": 13,
       "recent": [
+        {
+          "title": "Canada confirms first suspected hantavirus case linked to cruise ship - USA Today",
+          "t": "2026-05-16T19:31:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRVA1aXhsZlA1NjFjejZ1X2xfWlg4NUs4ZlJZWjRobUpHMzVYbVhYZ29lb3pVdE5LNHM2a2RCVmp4VHRyanZ2eTFmY0FIVGVmR2Z3SFZ2RWNmcjdEWE5LX21ZeDlLaUlHb0N0ZmNIRVF2dnhoSGVLbHowakNwS1kzcEREeHdFWnBCSUdub2dHTFU3OTJuRDBjT0ZiSmQwekxrdE1WRnNGRDNYX2xUZURialFIQ0IxRVZkOG1Ra3FqYk9oV1RBWDEwVXBZSQ?oc=5"
+        },
         {
           "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
           "t": "2026-05-16T18:07:02Z",
@@ -4246,11 +4265,6 @@
           "title": "Un pasajero estadounidense del crucero afectado por el hantavirus da negativo en una prueba - France 24",
           "t": "2026-05-15T10:47:12Z",
           "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQMW5tVDlCUk5JY2FDdVNlR3FNcHFpWUdPNDFfSURqUGFsQVJFWUJzTFFYamNLN1ZpZE5qQzZMNnlnNEhZdUpjSjlwTU5YZExGSFJNWmVXTDJQNTA3YWVodEd5SjVVaGRPSWVmVTc4eEJleVFYNmVfbFBBNlRVVUQwZVBGTWhkcjR1SG1PaTRrdUN0MjNOMjVfN09mMy1xUUljWG1lU1l3bFV1UlRzU0ZtNkdvZTZHazBBZEFLdDZBQ3huQTVCa05scU5ER0JLRHdjclhKQjlCSjlHbEt1?oc=5"
-        },
-        {
-          "title": "Brote de hantavirus: canadiense que viaj\u00f3 en crucero da positivo en prueba - Cadena 3 Argentina",
-          "t": "2026-05-16T22:18:04Z",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWDhoZHBDMzlST2x0VDVLX3JkRWcwWE5LODFfbVUtUXZqWDluTVI0dnJXVVhfeVVmNWtuRFpqUFhFZC1ZVjB6MDk2UU9wUjJHWlh4djhySjFMa09iV29jZDN6cWFpYzF4aGRyQkR2UDJJVHUzUW1YTWV2QndJRVZkampSRHZRcnFHTi1tRk5RYTBhTTRpbGY2cUpFdVNRdUZfM3VWVDVlaWlmZERxYXF3RGU1VjhtajRXMEHSAb8BQVVfeXFMTjZ2Y2MzM3l3UDdTRWltZlZjdkkwSzVJWUdmNVpoeGVnTl9GODJ3OWhCV1BvV2Z3Ykh6c041ZDkwZGFZVFpqSWJqUlhEd3VoS1VZX2lIVWxOWGtQN2xSbWhSNy1YQWVEdFNhakNUdWc4TnRNaV9JV3FDRVBjM3IxRjZtbmg1SGtURkQ2aTBnS2c5Nm5uYWQ1MUtsU29lY3Y3ajVPRDZpTFMxM2w2N2x6XzFXVDdXZVB0M0ZobnhYdFE?oc=5"
         }
       ]
     }
