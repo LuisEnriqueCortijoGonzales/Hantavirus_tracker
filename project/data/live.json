@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-16T18:05:32.090978Z",
-  "next_update": "2026-05-16T18:10:00Z",
+  "generated": "2026-05-16T18:10:32.092141Z",
+  "next_update": "2026-05-16T18:15:00Z",
   "days_active": 8,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 3,
+      "var_pct": 4,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 7,
+      "signals": 8,
       "gov_alert": false
     },
     "CHE": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,10 +4019,17 @@
   },
   "signal_summary": {
     "ARG": 13,
-    "CHL": 1,
-    "FRA": 7
+    "FRA": 8,
+    "CHL": 1
   },
   "events": [
+    {
+      "iso": "FRA",
+      "title": "France confirms hantavirus in cruise outbreak is not new or more transmissible - KXLH News Helena",
+      "t": "2026-05-16T17:38:27Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVVdHSUdYaVF4LXREb0F3b05BaVBXa2ZBaVQyMGdXUGYwQ1M0ZXNMQ1MwcnNyQTBjY1lsZTJSRHpKTVlnRjB0TF9jMVlYZ0NDOFp6QjQ0cXo4bEI4X1NWc1FuZ1ZhWnp4MGd2UFZOOHJxRUplZVZFTTR2N2JFdWc3aERfdmVFaFdtclpaZ2loQjk1bVM2M1VQQTkzNUc5dXBBVGVxalF2Z1BVUQ?oc=5"
+    },
     {
       "iso": "CHL",
       "title": "Refuerzan controles en la frontera con Chile tras un caso de hantavirus en la Patagonia - ADNSUR",
@@ -4187,7 +4194,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-16T18:05:32Z",
+      "last_update": "2026-05-16T18:10:32Z",
       "signals": 9,
       "recent": [
         {
