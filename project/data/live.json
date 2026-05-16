@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-16T00:40:16.804907Z",
-  "next_update": "2026-05-16T00:45:00Z",
+  "generated": "2026-05-16T00:45:14.837224Z",
+  "next_update": "2026-05-16T00:50:00Z",
   "days_active": 8,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 22,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4109,6 +4109,13 @@
     },
     {
       "iso": "ARG",
+      "title": "El brote de hantavirus que sacudi\u00f3 Argentina en 2018: as\u00ed fue la fiesta que acab\u00f3 con 11 personas fallecidas - El Debate",
+      "t": "2026-05-14T10:18:15Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV3pReHdEMUpkdk9oY2hyd1JHVldnS0xZU0ZPOHpSOUR3NmQtRktMOHlrdmlNUGlJcGMxWEJhd1RNUTlUOUt6TlFacmpxam8tS19rVVFSTW56X1YzMElRWkI5RG9yZHlfN2pPd2dYRkdvalNwZERNcl9OR3JKVkMzN2IxMWJWenBGWEFSUUhGSkJaU05ZUTQwdDFmclNJM1lIMlY3OUlaM0thWGFfSlVKY3hRQmdsM3pJZ0lGSmV6eDFBZGdIUGd6RGJPdjh3VDjSAdQBQVVfeXFMTVh5SGhEX1gzMUFhSERBSXNvQ1NDamphcHctZE56amtNck5ZalJ2S21jcVZQZEhnTHpjN1hWT2FSMTBKMkQ4NjYyVUdqZFN5VDE1ekdZdUhyUk1WM21KenBZYjNFNHN4eUhyN2t0dUN6TURtMjlJVjlzQjd0cFpFWVBaRXk3Ukw0WG1sMldRalhHTWtXVWQxY25RUjNBTWxKa0VBVHBDZHgyak1sT0YzdHRwanNBWU1sdTd3clN0bElUa2N4UjNGWXI1R1ltZUFnRVFXZi0?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Argentina Races To Find Origin of Hantavirus Outbreak - The New York Times",
       "t": "2026-05-14T09:04:59Z",
       "source": "GoogleNews-EN",
@@ -4169,13 +4176,6 @@
       "t": "2026-05-06T07:00:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdDd6MHQ1c25HX0lPOEk0QjNtNzFoY0pNUE8xZG1JZnZETGNTd01zN29qSHFVdS1vLThZYnBKN1VMZGFCdTFfSDR6eXNWRkFlSnhPWG1JTU9NdmxBQ1JOeXRuQ0VCZ2J4cHVmS1ZnWXVsbTVqRGtKOFBMZUxoOURVMENpT0hFel9NU2RRTGpSbl9oNGRKNHh6OXNuOTlXNFJyRVZYc1JUekJiNFByLWxob3NTNUdfLWJpQ1FVSmpNQmhrNEU3bWZXUzRYbV9Idzl2OXBFaGJBcVYyTnREODZB?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
-      "t": "2026-05-06T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
     }
   ],
   "maritime_events": [
@@ -4194,8 +4194,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-16T00:40:16Z",
-      "signals": 9,
+      "last_update": "2026-05-16T00:45:14Z",
+      "signals": 8,
       "recent": [
         {
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
