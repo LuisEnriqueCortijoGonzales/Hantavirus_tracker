@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-16T23:45:12.077820Z",
-  "next_update": "2026-05-16T23:50:00Z",
+  "generated": "2026-05-16T23:50:32.095780Z",
+  "next_update": "2026-05-16T23:55:00Z",
   "days_active": 8,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4025,6 +4025,13 @@
     "CHL": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Un pasajero canadiense da positivo por hantavirus tras un crucero en la Patagonia - Cadena 3 Argentina",
+      "t": "2026-05-16T23:39:34Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQXzRnSjNnTkpNX0xRSl9IYW9Ma2lMSGZkT2ZlQncydEhIZVZqOGsycWNsWWh1b0JVUjNGc3pFaUcwSndJa2JzNzA4SzRXT2N3Q3QzU0x1cnZLUGRxZWNVRzNveEp5QUpYVWF4NEM3SG82UnQtUW45SU04SjJ4cTJpUjVhR2NXT3J5dmtLZlNNYnFUdnhxd3hjRXFrLXExQ01IbGNKWTdadFBkUjBGbWN6Z1NoZjhkYXlac0IybDN6TkJnS3BC0gHKAUFVX3lxTFBHa0FJSERVT1daVGpjTlJsYU9SQmpsU0pOUDhfMEg2aDJ5SWNHSUFEcUNTNU1ZNWpYMGR3WC1pUWNhS2xUellpYlAyN1F4bkpzYmhLMU5qM1NXT1BjY1I0RjFHZkhSWUtiRlZFZGthMXJHejBRM3FlMTBjZDVtTHdfYjFzYXpkeFFTaEdjZVh3ZTdDUXNsd3pwYTBnZkY1LVd0VlhrblN5aU1MeG9Zb0k4enh6M0JUaC1YeGxXZEtKZWZkajBlT2UxSlE?oc=5"
+    },
     {
       "iso": "CAN",
       "title": "Canada cruise passenger 'presumptive positive' for hantavirus - Yahoo",
@@ -4167,13 +4174,6 @@
     },
     {
       "iso": "ARG",
-      "title": "El brote de hantavirus que sacudi\u00f3 Argentina en 2018: as\u00ed fue la fiesta que acab\u00f3 con 11 personas fallecidas - El Debate",
-      "t": "2026-05-14T10:18:15Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV3pReHdEMUpkdk9oY2hyd1JHVldnS0xZU0ZPOHpSOUR3NmQtRktMOHlrdmlNUGlJcGMxWEJhd1RNUTlUOUt6TlFacmpxam8tS19rVVFSTW56X1YzMElRWkI5RG9yZHlfN2pPd2dYRkdvalNwZERNcl9OR3JKVkMzN2IxMWJWenBGWEFSUUhGSkJaU05ZUTQwdDFmclNJM1lIMlY3OUlaM0thWGFfSlVKY3hRQmdsM3pJZ0lGSmV6eDFBZGdIUGd6RGJPdjh3VDjSAdQBQVVfeXFMTVh5SGhEX1gzMUFhSERBSXNvQ1NDamphcHctZE56amtNck5ZalJ2S21jcVZQZEhnTHpjN1hWT2FSMTBKMkQ4NjYyVUdqZFN5VDE1ekdZdUhyUk1WM21KenBZYjNFNHN4eUhyN2t0dUN6TURtMjlJVjlzQjd0cFpFWVBaRXk3Ukw0WG1sMldRalhHTWtXVWQxY25RUjNBTWxKa0VBVHBDZHgyak1sT0YzdHRwanNBWU1sdTd3clN0bElUa2N4UjNGWXI1R1ltZUFnRVFXZi0?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Argentina Races to Find Origin of Hantavirus Contagion - The New York Times",
       "t": "2026-05-14T09:04:59Z",
       "source": "GoogleNews-EN",
@@ -4266,8 +4266,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-16T23:45:12Z",
-      "signals": 13,
+      "last_update": "2026-05-16T23:50:32Z",
+      "signals": 14,
       "recent": [
         {
           "title": "Canada confirms first suspected hantavirus case linked to cruise ship - USA Today",
