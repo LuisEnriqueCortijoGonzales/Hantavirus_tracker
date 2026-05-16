@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-16T18:30:03.712051Z",
-  "next_update": "2026-05-16T18:35:00Z",
+  "generated": "2026-05-16T18:35:32.159484Z",
+  "next_update": "2026-05-16T18:40:00Z",
   "days_active": 8,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 4,
+      "var_pct": 5,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 9,
+      "signals": 10,
       "gov_alert": false
     },
     "CHE": {
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "FRA": 9,
+    "FRA": 10,
     "ARG": 14,
     "CHL": 1
   },
@@ -4032,10 +4032,17 @@
     },
     {
       "iso": "FRA",
-      "title": "France confirms hantavirus in cruise outbreak is not new or more transmissible - News 5 Cleveland WEWS",
+      "title": "France confirms hantavirus in cruise outbreak is not new or more transmissible - KXLH News Helena",
       "t": "2026-05-16T17:38:27Z",
       "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSU5pUW45TmtxZjVkN3RMNnhWT1g3NzR1aE0tUnZWUmNUM1d2a0I5QXlOTzZMazdDY0UycXZodlRqX2dfVVZ3VUJZYkJNVi10M2FfQmJIQ1NIMnNISDhZS3cyTmd3ZEVOcEl6NkFOajBZSDNERWtFaEdqSTBEWDh4N1l5T0ZQajllMmdjWmlUZXRnaWRRMjZ1ZnN3X0RTTFBKcGFiYVhiWVFHSkE1M0xIekZIRUk5clE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVVdHSUdYaVF4LXREb0F3b05BaVBXa2ZBaVQyMGdXUGYwQ1M0ZXNMQ1MwcnNyQTBjY1lsZTJSRHpKTVlnRjB0TF9jMVlYZ0NDOFp6QjQ0cXo4bEI4X1NWc1FuZ1ZhWnp4MGd2UFZOOHJxRUplZVZFTTR2N2JFdWc3aERfdmVFaFdtclpaZ2loQjk1bVM2M1VQQTkzNUc5dXBBVGVxalF2Z1BVUQ?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "A week in France - France monitoring hantavirus contact cases - France 24",
+      "t": "2026-05-16T15:28:26Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeE5XVWMzSW9haHZfT0hSOTJGRGZqT19JZFpNUGlnVWp6LW1wRGU3bHpyRmF2VFBhWnR3QTE1d0UxRFdtQ3pxUHJWb0pwVEE5YTdlcy13TUpGOGdBX2pNdGt3U3lmVDhoX1NNUXVhNG96SzBPUDhrVWU5ZXlXZ1k1b3Q1TU14OGpyN2NPd1lOYkNqR3RqSkNaM0tOUVRvOTdMUlVUbTRkTUo?oc=5"
     },
     {
       "iso": "CHL",
@@ -4208,7 +4215,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-16T18:30:03Z",
+      "last_update": "2026-05-16T18:35:32Z",
       "signals": 10,
       "recent": [
         {
