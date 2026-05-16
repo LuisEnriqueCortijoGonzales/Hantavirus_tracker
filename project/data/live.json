@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-16T23:25:32.083515Z",
-  "next_update": "2026-05-16T23:30:00Z",
+  "generated": "2026-05-16T23:30:32.075764Z",
+  "next_update": "2026-05-16T23:35:00Z",
   "days_active": 8,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "GTM": {
@@ -4018,13 +4018,20 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "CAN": 2,
+    "CAN": 3,
     "USA": 2,
     "FRA": 10,
     "ARG": 15,
     "CHL": 1
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "Canada cruise passenger 'presumptive positive' for hantavirus - Yahoo",
+      "t": "2026-05-16T23:01:58Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYjQxWk4zMUtST2FMTGttZmFDVWR3bVhzNVhuODJfSkpFUUp1SVU4eGIwTnlkM2gteTNMRTdlSzJEMkdlMHcwS2tXMkN2bVdiWlJvVmRqQlotQ0hDcVZsY3ZLdHpoNnRUWmg2ZkZJSTV3YWxZNGRrWGVwX2wyTC1wNXJnQ0RHaDJCWkhTQlA3eUZDTGFkVVBFb1VMMA?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Brote de hantavirus: canadiense que viaj\u00f3 en crucero da positivo en prueba - Cadena 3 Argentina",
@@ -4252,7 +4259,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-16T23:25:32Z",
+      "last_update": "2026-05-16T23:30:32Z",
       "signals": 13,
       "recent": [
         {
