@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-17T15:40:32.133249Z",
-  "next_update": "2026-05-17T15:45:00Z",
+  "generated": "2026-05-17T15:45:12.106066Z",
+  "next_update": "2026-05-17T15:50:00Z",
   "days_active": 9,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -78,7 +78,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "USA": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 24,
+    "kalshi": 17,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4022,10 +4022,18 @@
     "FRA": 4,
     "ARG": 18,
     "USA": 1,
+    "MEX": 1,
     "CHL": 1,
     "COL": 1
   },
   "events": [
+    {
+      "iso": "MEX",
+      "title": "S\u00edntomas del hantavirus y c\u00f3mo se diferencia del COVID-19 en M\u00e9xico - Infobae",
+      "t": "2026-05-17T15:42:52Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdjhnLV9hMmlTTVZEdl9VbWNsWlNuX2kxWExYWUdzbFZ0T1h6N2hvQkowZFgxVzNXUFNtNmtoN2t2Y1V3dTVnV2FVWm9FRzV0d0ZWY1FYQjhCZlZqSk9jWENsdE9GdHJiMUxOLVp2eWZ6a1czSmlnem4zN0JTeHNUbkJScTZ2R1ZIX0VRbGd5M0NqTWoxSlcySXJ4STR0cjZrUzlfaEhwT3FHRm9HVmww0gHKAUFVX3lxTE5yN1J3UTN3VnBiNEJOVDg2anNVVTFoZk5tQV9Ib0dqeU9yMlpqX3BIRlZJakpucTJlRmtpLTFpenFoQzFJeTZWc0pxa1hYUXZiaUpDaExVVnl1Q2ZfS0hTcHoxclI5TldnM29ESTdmM3FUUVBWc3dZZi1uQk8yb1JBanBaMEM5a2VQelVlYWlWWkpaQnQyc3Z5N1p0ckNYV1JzNUliNy00aUk2R2w2TFR3cWtzUHVoVDVRMFU4VEdiMHJTN19mUWlqcmc?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "El brote de Hantavirus en un crucero volvi\u00f3 a encender las alarmas: \u00bfCu\u00e1l es la situaci\u00f3n en Argentina? - La Opinion Online",
@@ -4232,7 +4240,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-17T15:40:32Z",
+      "last_update": "2026-05-17T15:45:12Z",
       "signals": 12,
       "recent": [
         {
@@ -4256,9 +4264,9 @@
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeUtmR2dNaUYwdEFTMTc1dUlmZVR4c1MzTXQ5VDZQclYzbW1xdzRfUGF3aWFIc1lSaWpRcXhfbW5OdFVYbW0tekVySTBDYy1Va050T1cwTWVNZHk3a2pmYUNkNDQ2MndoS1N2cUJPaFpfOU9scFlyb1hZZTNwamg3YnJzTnFjbVRUVEFLdFhkQmlXNUlDWUpuQ0hGblpYVkpIcTlKX1kwMjRURTV0UVdkSVMwZDhvZVpMc2RTcFYwdkdTZHZ5SEFwNXBlNld1V2d6eHBmUHVCWVE5UDFsbGYtRDl30gH8AUFVX3lxTFBoQ1JGSnZhTHg2SmpiUlltY3Vzd3p0d3ZLVXR0VEFNQkQzNVlOb19PcVBabUlfdDc5RHR6aGdvOEhiUnNmcE43cGNoZG1KVTZWSmlnOHZxZHJPOWdRWXJkbUVIXzI1SzdjTC1MX3NNaFhodnJwODVRakN1OVZxMkFrNHlEMXlVN3ZFWW1kdUFId21ISkRPRVF6bnJlTlBjZHVOd1NaY2FKbUJfYktwQm5meE1LNVNMQmZyekV2MUQzM1AwcVRtQnhsd3N3Vl83aldDQ2ZxeDB0RlpERE9ENEZ3ekhodXhhLUlGelU0U3VVYVFjeE1OSUpTUXdqTQ?oc=5"
         },
         {
-          "title": "Brote de hantavirus: canadiense que viaj\u00f3 en crucero da positivo en prueba - Cadena 3 Argentina",
-          "t": "2026-05-16T22:18:04Z",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWDhoZHBDMzlST2x0VDVLX3JkRWcwWE5LODFfbVUtUXZqWDluTVI0dnJXVVhfeVVmNWtuRFpqUFhFZC1ZVjB6MDk2UU9wUjJHWlh4djhySjFMa09iV29jZDN6cWFpYzF4aGRyQkR2UDJJVHUzUW1YTWV2QndJRVZkampSRHZRcnFHTi1tRk5RYTBhTTRpbGY2cUpFdVNRdUZfM3VWVDVlaWlmZERxYXF3RGU1VjhtajRXMEHSAb8BQVVfeXFMTjZ2Y2MzM3l3UDdTRWltZlZjdkkwSzVJWUdmNVpoeGVnTl9GODJ3OWhCV1BvV2Z3Ykh6c041ZDkwZGFZVFpqSWJqUlhEd3VoS1VZX2lIVWxOWGtQN2xSbWhSNy1YQWVEdFNhakNUdWc4TnRNaV9JV3FDRVBjM3IxRjZtbmg1SGtURkQ2aTBnS2c5Nm5uYWQ1MUtsU29lY3Y3ajVPRDZpTFMxM2w2N2x6XzFXVDdXZVB0M0ZobnhYdFE?oc=5"
+          "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
+          "t": "2026-05-15T12:33:58Z",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
         }
       ]
     }
