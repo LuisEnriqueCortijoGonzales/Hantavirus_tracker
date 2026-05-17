@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-17T06:15:03.724621Z",
-  "next_update": "2026-05-17T06:20:00Z",
+  "generated": "2026-05-17T06:20:32.188313Z",
+  "next_update": "2026-05-17T06:25:00Z",
   "days_active": 9,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 23,
+      "signals": 24,
       "gov_alert": false
     },
     "CHL": {
@@ -78,7 +78,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "USA": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 16,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 19,
+    "kalshi": 26,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,22 +4018,14 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "FRA": 8,
     "CAN": 1,
+    "FRA": 8,
     "USA": 1,
-    "ARG": 23,
+    "ARG": 24,
     "CHL": 3,
-    "URY": 1,
-    "MEX": 1
+    "URY": 1
   },
   "events": [
-    {
-      "iso": "FRA",
-      "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
-      "t": "2026-05-17T03:25:12Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ01MSERfY0JHbWVCdy1rSWtHZ3EtNkJCNU5kcU9SQjNwbGY1b1B1NWE1alpYOGVsRnJxZWM5cU90Q2VIZzJiYzdjM0h2blhaUzExWEEtNlYtRkxORE1UR3dWTkhLTEsxTnFXSjczNHlJRmlVc3NpbHNfcGMwVTFRNlFtaGVlTjdlMUHSAY8BQVVfeXFMTUhqV3ctTE9hV3luREJWRnpHbzBnQ2EwZmk2anZfZTlFTGFIU193QVlUUFJpOWpTMGEzNXkwZFREaDFnZTMyc0xHb0tZWVhkN0pGUThSbEVPWHVtUVVhRXpFanBxN0pmYzVHMEtOWjNSNkxPMHJZV1Nlb1Z1bXlDT2NUbDVndlZONjgxb2lxcFk?oc=5"
-    },
     {
       "iso": "FRA",
       "title": "Francia confirma que el hantavirus del brote en crucero no presenta variantes m\u00e1s peligrosas o transmisibles - Noticias Venevisi\u00f3n",
@@ -4082,6 +4074,13 @@
       "t": "2026-05-16T20:53:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcTUxd21KRWtZYWRsb2RtZXViUHplSmxKMWFxRWdSU2ZXYTkzTUl5Nl92SUxDTllaUWpqUEtZMGFHV00wWDBGVGE1cGZ3X1dpRlV6YnU2MW9BUEZSeWlXOEpxbDUyNlBuaE93eHJCejZ4eV82YmFWMmxyTVUwWUtMdXlKRVdla09BeVh1QjFuUHJVZTFfdkl5S19jMnloSzZScEE?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
+      "t": "2026-05-16T18:07:02Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ01MSERfY0JHbWVCdy1rSWtHZ3EtNkJCNU5kcU9SQjNwbGY1b1B1NWE1alpYOGVsRnJxZWM5cU90Q2VIZzJiYzdjM0h2blhaUzExWEEtNlYtRkxORE1UR3dWTkhLTEsxTnFXSjczNHlJRmlVc3NpbHNfcGMwVTFRNlFtaGVlTjdlMUHSAY8BQVVfeXFMTUhqV3ctTE9hV3luREJWRnpHbzBnQ2EwZmk2anZfZTlFTGFIU193QVlUUFJpOWpTMGEzNXkwZFREaDFnZTMyc0xHb0tZWVhkN0pGUThSbEVPWHVtUVVhRXpFanBxN0pmYzVHMEtOWjNSNkxPMHJZV1Nlb1Z1bXlDT2NUbDVndlZONjgxb2lxcFk?oc=5"
     },
     {
       "iso": "CHL",
@@ -4180,13 +4179,6 @@
       "t": "2026-05-11T14:54:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS3R3bXdhdDhKcThHMTl0cUNSaEp4YkhsQVNzMlRneXlZdm40TzZaQ291aml6al9YeGpPV2htTUx0bkN3QWZXUHJHblktaEIyVXY5aE9seFZCd3dBa3dQYWRGN0p6bndGenJGLUotWmlnNkdZRS1adFhSekZKemlzQ1NfeXN4b2pWcDdnMmIwTnNocnM2VmV5U0xFY1lxa2d4NlBxSkFQUEI2MWQzNlY4a2ZpZTRNYkhCaWxSaXoyQy0tbGdWSGdNYklrRV9tMUXSAdQBQVVfeXFMTUF2Sjc5SkFMWXVCdXlIZGlIamNTS09qa29ueTgta1JBbE5Oc2VtOEpLdXpNdDJJUG5MbGhZVXAyRllaX1RVTGVyR2xacDFDQnZOY3BaTXBXWlozV1hUd2JzMjdWU3l2bklBbXhvcl9UWVpYOTZXM25LWXdYeURFZG9mZ0J4djI1WXdkMWNSOWwtdVI0bVdfRVA0b1VYS1FPNGNPdHZiU090dnRNZHhlRndKcDZFUldpUGJnY0NYWlZVUEMzcmpIeHBva0pWOWo1R2UzV3k?oc=5"
-    },
-    {
-      "iso": "MEX",
-      "title": "M\u00e9xico en alerta: el listado de pa\u00edses con casos confirmados de hantavirus tras brote en crucero de lujo - Ambito",
-      "t": "2026-05-11T12:58:21Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQaTJ0bkFEYkJRLXF3Y2IzcjRFZW9tNVZFOVY1SG5zQ1hhVzVBTm82dEVQNmN0enpyTVpQeUM3SlQ5OWk5Tm9RZkNraHFjTUJYRWNhaHpFakZSYmxFcEExT1hJUFBFYXNmQzMxNmFCbklMMS1vRV9jcFJUUlRYbjNYcF84TVhodEw3TGg2d2dSS1ptNDhJbXNZaHR4ZzdzSjVNV2lHTzRMbkNaREhEaUNaeWdSR25qWFhvX1hQc21rbXdNdDRIT0dnOUtKSGJJMkdyQzh2M9IB2gFBVV95cUxPUENHeEhYU3psRXphX2VWV0p0c3p2Ylo3cnp6TUVsQ0EzV210eUZNMzg1WEU3YjN6SlZjb3VveEJ2R09BcUhKb01LYmI0QmltVlZsczRWTlVIR0pYXzZhTzQ1VXlMSEItYjdJZVRZZ3B1ZWdxNGFVMzB6Y3l0Mk1MZF95VGNzazBJM1BOZnRiNWJvamVvNFVfMXgxakdKdGtjVE1tWkJvcjNnLWpKbUJEZS1fQ2hDYUlXSjFGWGhUcUdTTEFTWWZ3SlhZczJOWnRqOUthSXpvSWNndw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4288,6 +4280,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Argentina busca informaci\u00f3n sobre el origen del posible brote de hantavirus en el crucero que iba a las Canarias en Espa\u00f1a - EL PA\u00cdS",
+      "t": "2026-05-04T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPYXdEVEZmS0pZUlNFQzI0ZnpueUFKdW5tQXE2c3BhcXNRc19wcWtRbW9tNXVJc0lsMXZsUDBBNDQ5VUd2N3hncnRGYUFIU3FPUktfZGxCSEloRzRIeERTUkRqNWZJUVdYTmh5UlBCM1NOWXI4NThLTzVjUGtVZFd2OTlTSVlZclNNckh5UEhVODlzUjVLZmIzRDFGOFUyc0wyc2psaWkxT3VDYWo3cDgxMXdzQ3kwTGFaZ0lmNnktYzFiblVhY1dvb0xYdHQtYllrV3ktdWFubW9nWnFhdy1hSEZXYWxsbkRVSER2eFNPdFFoUGoyZTQ2T0NCZ9IBjwJBVV95cUxPLTlBNTVkQWEyMU9WbWM2SWFiUVFaQ01yei1tUW01dUZhbFFpMC1XV1BSUlBEYmxMODFmUUxkcXVsSE4taXlGejlmd3dCOF9YMUxNX3FxaUZGSWtMOHVhdGYyRERLNnZ1VndfZGRsai1ORWNXV0o2SXBERGRuLWIyTHc0SzdlTjk4T3RPS3NOVnl5SDZGem5CWC0tdDEySEFIUTZfTUxOVXRWS3hHRk42cmFqejJkazRndDEyR0ZVcW83UjJ2Zk56SGVnM240Z2N3UFFRdGtzOVhVX3JEOXFtVnRHLV9ydlA3ek9SNTRiQ2ZyODRkNEhnZHZIUkJ3dHBvd3h5NHVqLVg1SVBsbFRN?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "3 muertos en un posible brote de hantavirus dentro de un crucero que zarp\u00f3 de Argentina - BBC",
       "t": "2026-05-03T07:00:00Z",
       "source": "GoogleNews-ES",
@@ -4310,12 +4309,12 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-17T06:15:03Z",
+      "last_update": "2026-05-17T06:20:32Z",
       "signals": 19,
       "recent": [
         {
           "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
-          "t": "2026-05-17T03:25:12Z",
+          "t": "2026-05-16T18:07:02Z",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ01MSERfY0JHbWVCdy1rSWtHZ3EtNkJCNU5kcU9SQjNwbGY1b1B1NWE1alpYOGVsRnJxZWM5cU90Q2VIZzJiYzdjM0h2blhaUzExWEEtNlYtRkxORE1UR3dWTkhLTEsxTnFXSjczNHlJRmlVc3NpbHNfcGMwVTFRNlFtaGVlTjdlMUHSAY8BQVVfeXFMTUhqV3ctTE9hV3luREJWRnpHbzBnQ2EwZmk2anZfZTlFTGFIU193QVlUUFJpOWpTMGEzNXkwZFREaDFnZTMyc0xHb0tZWVhkN0pGUThSbEVPWHVtUVVhRXpFanBxN0pmYzVHMEtOWjNSNkxPMHJZV1Nlb1Z1bXlDT2NUbDVndlZONjgxb2lxcFk?oc=5"
         },
         {
