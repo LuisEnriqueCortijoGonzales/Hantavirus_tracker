@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-17T20:20:32.159280Z",
-  "next_update": "2026-05-17T20:25:00Z",
+  "generated": "2026-05-17T20:25:22.097910Z",
+  "next_update": "2026-05-17T20:30:00Z",
   "days_active": 9,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -16,12 +16,12 @@
       "gov_alert": false
     },
     "CHL": {
-      "ytd": 33,
+      "ytd": 34,
       "alert": "brote",
       "cfr": 35.5,
       "var_pct": 8,
       "strain": "andes",
-      "new_today": 2,
+      "new_today": 3,
       "r0": null,
       "signals": 1,
       "gov_alert": false
@@ -597,7 +597,7 @@
       31,
       31,
       31,
-      33
+      34
     ],
     "BRA": [
       89,
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 17,
     "polymarket": 7,
-    "kalshi": 25,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4154,10 +4154,10 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina est\u00e1 en una carrera por hallar el origen del brote de hantavirus - The New York Times",
-      "t": "2026-05-14T14:48:04Z",
+      "title": "Argentina investiga si el origen del brote de hantavirus del crucero MV Hondius se encuentra en Ushuaia - LaSexta",
+      "t": "2026-05-15T09:30:45Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaUVBWVhjVVJoX0VNXzR6WnlubmhZWS1saTN3OGVqcm1Va0tOcnVBaXcweEk4WFY0VWtCZDVNMmZTSXV3aEdLaHItYWh4ZENCYmFvaS1ZRGc5RFRfVmF4RjZrN2NHQ2tqRjI3aHltS19jSWtHNG5QU0FRRHVreGVRa3JFRjUtSXBfakt5Rk9JOA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPN3FHUElIVVJZT2lFVWVYVnBZc1BvbURCLUlYMng4cWpDUEs2QTQxakdGY0xycUZQWGJhUEJJd1pvTGNCNmJTZ2o2VHozYVhEdWJUY0Y4Tnp4aC1yRTRibGdGeXNnRkVobUx2SGxVVVRoVVpyLTY3bk5zc2dXV0J6M0loQ2E0b3Z2VnFUeG5sNGpybTBwckRqa3FJdDYtdC02WEtnUWE5TmNST3ptc0FwOWhHdGhCcjVGc0dFY3BkNmVqOHQtVk9pbzh2VFFPWFhtbG5PODVjbmdjN08zODVCTkpIT09hR2EzdmpEak5weG5OTjZ10gH0AUFVX3lxTE1tM3J2QzZVUjJiMmg5bjJMRWhKTC1YMFI5VlEzQ1FYWEt3c20zVTBSa2g4SXpicjI0Q1pCRUNqR1F5RGNBVXhtNk85SnlyX0QweThjN3dLU0VKSnEta0l2YTBDZmRyYThiYmYtWEtQb3huQWRnQ2xWRDlPVGFaM3hRZUJvOVF3WFhTWTU1SzVZY3BBRG5KcDZ4U0gzdzktZ2RneFBxTVhJR1kyN1hlVzJQVkp1OHdqZVBLZndack1kbzBfQ2U3bkRja1VabVV2OWhhVDR1WWtaeno1TThXRmwzU0JYcnBpZHpmMDdiTFZMb0FDaUM?oc=5"
     },
     {
       "iso": "ARG",
@@ -4253,8 +4253,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-17T20:20:32Z",
-      "signals": 11,
+      "last_update": "2026-05-17T20:25:22Z",
+      "signals": 12,
       "recent": [
         {
           "title": "Salud. Canad\u00e1 confirma un caso de hantavirus: se trata de un pasajero del crucero MV Hondius - La Voz del Interior",
