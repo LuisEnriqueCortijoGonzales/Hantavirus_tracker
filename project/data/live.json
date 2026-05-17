@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-17T09:00:03.703483Z",
-  "next_update": "2026-05-17T09:05:00Z",
+  "generated": "2026-05-17T09:05:03.709709Z",
+  "next_update": "2026-05-17T09:10:00Z",
   "days_active": 9,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 7,
+      "signals": 6,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "FRA": 7,
+    "FRA": 6,
     "CAN": 1,
     "USA": 1,
     "ARG": 22,
@@ -4089,13 +4089,6 @@
       "t": "2026-05-16T17:28:43Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYjB6RkQ4YnlNLV9SRFFmZFlJenE0UXZZX0pPbi1yQV9SSmpyRnpsbHRQLVh6TV81cm5iQVR6T0RwelA1TEdWdThsMkhvLUFCbVEwOE5pYWtUdGNjWXRCRHpWRFl3aC1YcVZuRWM0dkVjTzhQb0RHbm9ncWtKUUtnYzE4VWpRZC1XLVFfTWRMTWJhTlRYdVIyREdwVkdJTUhyTkdGNVJVTERoYndSVmswT3lqLVdBcm9CbkZsOWFJcmJUc3FkeUlva1B1WUc5NlRpaEx1Yk05OUgyU19HTlo1aUln?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "A week in France - France monitoring hantavirus contact cases - France 24",
-      "t": "2026-05-16T15:28:26Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeE5XVWMzSW9haHZfT0hSOTJGRGZqT19JZFpNUGlnVWp6LW1wRGU3bHpyRmF2VFBhWnR3QTE1d0UxRFdtQ3pxUHJWb0pwVEE5YTdlcy13TUpGOGdBX2pNdGt3U3lmVDhoX1NNUXVhNG96SzBPUDhrVWU5ZXlXZ1k1b3Q1TU14OGpyN2NPd1lOYkNqR3RqSkNaM0tOUVRvOTdMUlVUbTRkTUo?oc=5"
     },
     {
       "iso": "COL",
@@ -4296,7 +4289,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-17T09:00:03Z",
+      "last_update": "2026-05-17T09:05:03Z",
       "signals": 16,
       "recent": [
         {
