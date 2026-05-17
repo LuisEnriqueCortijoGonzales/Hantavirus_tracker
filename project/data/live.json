@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-17T08:35:32.154300Z",
-  "next_update": "2026-05-17T08:40:00Z",
+  "generated": "2026-05-17T08:40:32.081974Z",
+  "next_update": "2026-05-17T08:45:00Z",
   "days_active": 9,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 23,
+      "signals": 22,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 20,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "FRA": 8,
     "CAN": 1,
     "USA": 1,
-    "ARG": 23,
+    "ARG": 22,
     "CHL": 3,
     "URY": 1
   },
@@ -4151,13 +4151,6 @@
       "t": "2026-05-14T09:04:59Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdGxZU29EZEFGSHR3MDM0UWVpdkctNklXZTlzQUdBRkc3Nkpvc2djaW1oY01qdlB2UGJ1Wm5CdU1tLVBfN2JkM0x4MFU2RDV3RXFxZm1CeE5XeEh3WHRuM1FSM3ZDeVlhSnRrM2pENy11el8zY0ZVNlNvdDFHRzFIQkI3RTkyZDN3eHdwTmRMWGw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus en Argentina: confirmaron 102 casos en la temporada y analizan el brote en un crucero - El Eco",
-      "t": "2026-05-13T11:59:53Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMVFHTVNHMUY5Wm1yeFhDMGxpQjlmeUpxcFJHOWVCYjZaNmtGUklGX0hpMFJzTWJoTThEeXY3VzZzZkg1YlpDVDBDdi1BN1dRdzQxeWljeDVSUkpUM1JwZU9uTWVmQVRNbXlEbUxTSHV6QXdtZVBXRWZOZUtGeVhwWHdILVZhZXJLQU1FclRITXhRMThqU3RLcm9JRkliYWx3bEdCT1Myc2hac3Y0dUlHNHYtNmtocFZxV1BaeG1aZTJ5TU9waUdacw?oc=5"
     },
     {
       "iso": "FRA",
@@ -4302,8 +4295,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-17T08:35:32Z",
-      "signals": 18,
+      "last_update": "2026-05-17T08:40:32Z",
+      "signals": 17,
       "recent": [
         {
           "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
