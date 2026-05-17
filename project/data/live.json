@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-17T21:00:32.083775Z",
-  "next_update": "2026-05-17T21:05:00Z",
+  "generated": "2026-05-17T21:05:32.192318Z",
+  "next_update": "2026-05-17T21:10:00Z",
   "days_active": 9,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -78,7 +78,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": true
     },
     "USA": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 17,
     "polymarket": 7,
-    "kalshi": 22,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,9 +4019,9 @@
   },
   "signal_summary": {
     "CAN": 6,
+    "MEX": 3,
     "FRA": 4,
     "ARG": 17,
-    "MEX": 2,
     "COL": 1,
     "CHL": 1
   },
@@ -4167,6 +4167,13 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdGxZU29EZEFGSHR3MDM0UWVpdkctNklXZTlzQUdBRkc3Nkpvc2djaW1oY01qdlB2UGJ1Wm5CdU1tLVBfN2JkM0x4MFU2RDV3RXFxZm1CeE5XeEh3WHRuM1FSM3ZDeVlhSnRrM2pENy11el8zY0ZVNlNvdDFHRzFIQkI3RTkyZDN3eHdwTmRMWGw?oc=5"
     },
     {
+      "iso": "MEX",
+      "title": "New Mexico's Hantavirus Strain is Different From Cruise Ship Outbreak and Does Not Spread Between People - UNM HSC Newsroom",
+      "t": "2026-05-13T21:12:54Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVpsMXJOSnRETzVJRUNiajlyMHpQWkVhVFpKZ1kwQ240bHlEMDd2anV4XzBRclI5Ti1yVXVCRWZ6V0JMdXNNZ0xrUGw1OVdtM1pINk80QVg3UmxQN0h4V2xWZ2l2NzlvUE5aZE4wemtUQTBzUk9RMzRoZnQtcWlXTlNJNGtEX08tYXlENWZtQS1OQWNhRWxlSkpNWm1yZ0ZDZDRWejZZSlBfaExJX00zYzBtX1ZkY2c3S0FMc1V1amdueWpEaE9lejZZVkFhZw?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "Fiesta de 15, 34 infectados y 12 muertos: el mayor brote de hantavirus de la Argentina aporta claves para el caso del MV Hondius - La Naci\u00f3n",
       "t": "2026-05-13T17:32:00Z",
@@ -4260,8 +4267,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-17T21:00:32Z",
-      "signals": 12,
+      "last_update": "2026-05-17T21:05:32Z",
+      "signals": 13,
       "recent": [
         {
           "title": "Salud. Canad\u00e1 confirma un caso de hantavirus: se trata de un pasajero del crucero MV Hondius - La Voz del Interior",
@@ -4274,6 +4281,11 @@
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd01idVpDYVFuSzZlbW9xVWJ0Zi1QVnpEVmlFMHpJdEc2SV9RODVZb05UcEZ0eXJ2bHJYR1pjeTNBU2Q4UVBPTXdoX1J6RWVrMkpRODlGQTY3YUJUbnczZFZaTTB5MUxfdVctSFpOaVljZlJCQ3JDd2dEU0NZanl0UE9ZVzRUenNHbHdXS1NVZ3ZCN3hwNC1UOFJzc0NCMGM4ZnZ4SUItcmFDbmNBaXfSAbMBQVVfeXFMTTluOGJkaG1BOEJVZHVTM3FGUGJQYWl6WGN5RGhLUTJwcFgxY0dWdllxb05vdTBkZ0laanU3Q01vTmF1SURzRVJlTzVlQ2Q1S3c2cXoxVkhkUEdlc3ZGM1VxTjVRZWRNczR6NVFZN19xN1BWWnBHaVZJMTNTTlA0dzFiNHV4aHU2Y3BxaF9ZQ2VzV1d3M0VnNWpNQ2xFMXZWMVRRRGN4TV9JOGRiV0RMcDE4OEk?oc=5"
         },
         {
+          "title": "New Mexico's Hantavirus Strain is Different From Cruise Ship Outbreak and Does Not Spread Between People - UNM HSC Newsroom",
+          "t": "2026-05-13T21:12:54Z",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVpsMXJOSnRETzVJRUNiajlyMHpQWkVhVFpKZ1kwQ240bHlEMDd2anV4XzBRclI5Ti1yVXVCRWZ6V0JMdXNNZ0xrUGw1OVdtM1pINk80QVg3UmxQN0h4V2xWZ2l2NzlvUE5aZE4wemtUQTBzUk9RMzRoZnQtcWlXTlNJNGtEX08tYXlENWZtQS1OQWNhRWxlSkpNWm1yZ0ZDZDRWejZZSlBfaExJX00zYzBtX1ZkY2c3S0FMc1V1amdueWpEaE9lejZZVkFhZw?oc=5"
+        },
+        {
           "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
           "t": "2026-05-16T18:07:02Z",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ01MSERfY0JHbWVCdy1rSWtHZ3EtNkJCNU5kcU9SQjNwbGY1b1B1NWE1alpYOGVsRnJxZWM5cU90Q2VIZzJiYzdjM0h2blhaUzExWEEtNlYtRkxORE1UR3dWTkhLTEsxTnFXSjczNHlJRmlVc3NpbHNfcGMwVTFRNlFtaGVlTjdlMUHSAY8BQVVfeXFMTUhqV3ctTE9hV3luREJWRnpHbzBnQ2EwZmk2anZfZTlFTGFIU193QVlUUFJpOWpTMGEzNXkwZFREaDFnZTMyc0xHb0tZWVhkN0pGUThSbEVPWHVtUVVhRXpFanBxN0pmYzVHMEtOWjNSNkxPMHJZV1Nlb1Z1bXlDT2NUbDVndlZONjgxb2lxcFk?oc=5"
@@ -4282,11 +4294,6 @@
           "title": "El brote de Hantavirus en un crucero volvi\u00f3 a encender las alarmas: \u00bfCu\u00e1l es la situaci\u00f3n en Argentina? - La Opinion Online",
           "t": "2026-05-17T10:01:00Z",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBldU1ta0FXbGI4UHJ0NUlubXN4YnNZeU5FVi1FWFR3R21PS0QyZ3ZyeVVvUE1QV29zSzkxWGoyaGgxQ1BpblpYSVd6VkcxUUJ4TUdkMWVMVUlzb0NGT1dmVEFCVzJkbjE2cU93ZlNESmVHdmhlWEE?oc=5"
-        },
-        {
-          "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
-          "t": "2026-05-12T22:12:02Z",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeUtmR2dNaUYwdEFTMTc1dUlmZVR4c1MzTXQ5VDZQclYzbW1xdzRfUGF3aWFIc1lSaWpRcXhfbW5OdFVYbW0tekVySTBDYy1Va050T1cwTWVNZHk3a2pmYUNkNDQ2MndoS1N2cUJPaFpfOU9scFlyb1hZZTNwamg3YnJzTnFjbVRUVEFLdFhkQmlXNUlDWUpuQ0hGblpYVkpIcTlKX1kwMjRURTV0UVdkSVMwZDhvZVpMc2RTcFYwdkdTZHZ5SEFwNXBlNld1V2d6eHBmUHVCWVE5UDFsbGYtRDl30gH8AUFVX3lxTFBoQ1JGSnZhTHg2SmpiUlltY3Vzd3p0d3ZLVXR0VEFNQkQzNVlOb19PcVBabUlfdDc5RHR6aGdvOEhiUnNmcE43cGNoZG1KVTZWSmlnOHZxZHJPOWdRWXJkbUVIXzI1SzdjTC1MX3NNaFhodnJwODVRakN1OVZxMkFrNHlEMXlVN3ZFWW1kdUFId21ISkRPRVF6bnJlTlBjZHVOd1NaY2FKbUJfYktwQm5meE1LNVNMQmZyekV2MUQzM1AwcVRtQnhsd3N3Vl83aldDQ2ZxeDB0RlpERE9ENEZ3ekhodXhhLUlGelU0U3VVYVFjeE1OSUpTUXdqTQ?oc=5"
         }
       ]
     }
