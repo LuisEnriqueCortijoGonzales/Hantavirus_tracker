@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-17T05:10:22.103882Z",
-  "next_update": "2026-05-17T05:15:00Z",
+  "generated": "2026-05-17T05:15:32.065230Z",
+  "next_update": "2026-05-17T05:20:00Z",
   "days_active": 9,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 18,
+      "signals": 19,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 25,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4022,7 +4022,7 @@
     "CAN": 1,
     "USA": 1,
     "CHN": 1,
-    "ARG": 18,
+    "ARG": 19,
     "CHL": 2,
     "URY": 1
   },
@@ -4063,6 +4063,13 @@
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQXzRnSjNnTkpNX0xRSl9IYW9Ma2lMSGZkT2ZlQncydEhIZVZqOGsycWNsWWh1b0JVUjNGc3pFaUcwSndJa2JzNzA4SzRXT2N3Q3QzU0x1cnZLUGRxZWNVRzNveEp5QUpYVWF4NEM3SG82UnQtUW45SU04SjJ4cTJpUjVhR2NXT3J5dmtLZlNNYnFUdnhxd3hjRXFrLXExQ01IbGNKWTdadFBkUjBGbWN6Z1NoZjhkYXlac0IybDN6TkJnS3BC0gHKAUFVX3lxTFBHa0FJSERVT1daVGpjTlJsYU9SQmpsU0pOUDhfMEg2aDJ5SWNHSUFEcUNTNU1ZNWpYMGR3WC1pUWNhS2xUellpYlAyN1F4bkpzYmhLMU5qM1NXT1BjY1I0RjFHZkhSWUtiRlZFZGthMXJHejBRM3FlMTBjZDVtTHdfYjFzYXpkeFFTaEdjZVh3ZTdDUXNsd3pwYTBnZkY1LVd0VlhrblN5aU1MeG9Zb0k4enh6M0JUaC1YeGxXZEtKZWZkajBlT2UxSlE?oc=5"
     },
     {
+      "iso": "ARG",
+      "title": "La escandalosa salida argentina de la OMS en medio del brote de hantavirus - P\u00e1gina|12",
+      "t": "2026-05-16T23:01:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVExFdVdIX0VWSlVzUXl5SGc2Wk45YVRUWkJRWDNvMnM0ZEhiYTlYdnJlN0Ewd0VLM1Fmd2ExRDVhdG5sdUtQS1l0TnNwNnZESHpFb1I4VGczZlZpS1RvaDRnd2RjNnJEcnpQblE1ZDRHVF8zUTZQV2hkaTR2NzR1WDJ2Yno2Q29nSHJiX1pycGpHQjRuWHNzWVBjRGZ6MmJLR2l4S1E3cWFGTmdWRDlkamd1Zk4?oc=5"
+    },
+    {
       "iso": "CHN",
       "title": "Canadian cruise passenger gets a presumptive positive hantavirus test result - South China Morning Post",
       "t": "2026-05-16T22:22:15Z",
@@ -4075,13 +4082,6 @@
       "t": "2026-05-16T22:18:04Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWDhoZHBDMzlST2x0VDVLX3JkRWcwWE5LODFfbVUtUXZqWDluTVI0dnJXVVhfeVVmNWtuRFpqUFhFZC1ZVjB6MDk2UU9wUjJHWlh4djhySjFMa09iV29jZDN6cWFpYzF4aGRyQkR2UDJJVHUzUW1YTWV2QndJRVZkampSRHZRcnFHTi1tRk5RYTBhTTRpbGY2cUpFdVNRdUZfM3VWVDVlaWlmZERxYXF3RGU1VjhtajRXMEHSAb8BQVVfeXFMTjZ2Y2MzM3l3UDdTRWltZlZjdkkwSzVJWUdmNVpoeGVnTl9GODJ3OWhCV1BvV2Z3Ykh6c041ZDkwZGFZVFpqSWJqUlhEd3VoS1VZX2lIVWxOWGtQN2xSbWhSNy1YQWVEdFNhakNUdWc4TnRNaV9JV3FDRVBjM3IxRjZtbmg1SGtURkQ2aTBnS2c5Nm5uYWQ1MUtsU29lY3Y3ajVPRDZpTFMxM2w2N2x6XzFXVDdXZVB0M0ZobnhYdFE?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "La escandalosa salida argentina de la OMS en medio del brote de hantavirus - P\u00e1gina|12",
-      "t": "2026-05-16T22:09:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVExFdVdIX0VWSlVzUXl5SGc2Wk45YVRUWkJRWDNvMnM0ZEhiYTlYdnJlN0Ewd0VLM1Fmd2ExRDVhdG5sdUtQS1l0TnNwNnZESHpFb1I4VGczZlZpS1RvaDRnd2RjNnJEcnpQblE1ZDRHVF8zUTZQV2hkaTR2NzR1WDJ2Yno2Q29nSHJiX1pycGpHQjRuWHNzWVBjRGZ6MmJLR2l4S1E3cWFGTmdWRDlkamd1Zk4?oc=5"
     },
     {
       "iso": "USA",
@@ -4264,6 +4264,13 @@
       "t": "2026-05-04T07:00:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUmpOemFSbjFHb0F2bkVEMmRlZzdFdlFCYXpXb1pib1dra0lOa2gyNVB4bmdRUVdFM2VqZTRQZi1ZTXUwR3lwRnVUNUZ2d25DMGdYeDFvN3QwU2dVeUtZbjBuam9XX0c1Z0NManZLMjBzSmZzUnZDVjFBVXFUblNXZDRseTZ3SUNNSlVfNmlobVdZdlFyUGpxS0lyZw?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "3 muertos en un posible brote de hantavirus dentro de un crucero que zarp\u00f3 de Argentina - BBC",
+      "t": "2026-05-03T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44WDRQOENFQ3F3ZVBtOVdlU0NKZHpXSDdFZnFDSHFla2p3YkhReVpRNjlKcVhTemE3RnhBdVktcy1Mc0xRa1JCVHlzQ2FZTERCWW81Z25MTFVtQWvSAWBBVV95cUxNVHRQS1h1bDFjVTBHaXBxdFZYTF80Zzg0dWpUb2hYRHBYM3VLZkNNd0owd0pDaDBUR0MwazdzT1FLSTNxYnUtUGpQN1VNOFh1cGtORUd6NzJTWmxaSk5UaGE?oc=5"
     }
   ],
   "maritime_events": [
@@ -4282,8 +4289,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-17T05:10:22Z",
-      "signals": 15,
+      "last_update": "2026-05-17T05:15:32Z",
+      "signals": 16,
       "recent": [
         {
           "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
