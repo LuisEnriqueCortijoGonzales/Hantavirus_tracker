@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-17T15:20:32.096140Z",
-  "next_update": "2026-05-17T15:25:00Z",
+  "generated": "2026-05-17T15:25:12.107044Z",
+  "next_update": "2026-05-17T15:30:00Z",
   "days_active": 9,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,8 +4018,8 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "FRA": 4,
     "CAN": 2,
+    "FRA": 4,
     "ARG": 18,
     "USA": 1,
     "CHL": 1,
@@ -4034,14 +4034,14 @@
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBldU1ta0FXbGI4UHJ0NUlubXN4YnNZeU5FVi1FWFR3R21PS0QyZ3ZyeVVvUE1QV29zSzkxWGoyaGgxQ1BpblpYSVd6VkcxUUJ4TUdkMWVMVUlzb0NGT1dmVEFCVzJkbjE2cU93ZlNESmVHdmhlWEE?oc=5"
     },
     {
-      "iso": "FRA",
+      "iso": "CAN",
       "title": "Una pasajera del Hondius da \"presuntamente positiva\" al hantavirus en Canad\u00e1 - France 24",
       "t": "2026-05-17T09:29:10Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUXZfaWV5NmRZLTZpT0lib0NnaXVWX0Rzd0pVQjBPMTY0V2x2REFiLURZSmhLMC1iLXltVVA0aTF1dldwVDlZMlhsLTA3V1NMekhQdlNWR3E4RXNMNDl5c1p1QTVFZmhzSGV5NHpjdkJ4bU1aSkFSYldDcnBMUnN0clNySXM1VkdmM05YclV4Q0NFOWUwQnVCYUVlQnZUc0I0Z3VBWEpGWUF2M3ZtSHhuTWZKeDVnTHVITTNRYWYwSTNIY0NtOHllcl9lSEE?oc=5"
     },
     {
-      "iso": "CAN",
+      "iso": "FRA",
       "title": "Una pasajera del Hondius da \"presuntamente positiva\" al hantavirus en Canad\u00e1 - France 24",
       "t": "2026-05-17T09:29:10Z",
       "source": "GoogleNews-ES",
@@ -4232,7 +4232,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-17T15:20:32Z",
+      "last_update": "2026-05-17T15:25:12Z",
       "signals": 12,
       "recent": [
         {
