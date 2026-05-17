@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-17T13:20:32.114311Z",
-  "next_update": "2026-05-17T13:25:00Z",
+  "generated": "2026-05-17T13:25:12.113434Z",
+  "next_update": "2026-05-17T13:30:00Z",
   "days_active": 9,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 2,
+      "var_pct": 3,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 5,
+      "signals": 6,
       "gov_alert": false
     },
     "CHE": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 24,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "FRA": 5,
+    "FRA": 6,
     "CAN": 2,
     "USA": 1,
     "ARG": 19,
@@ -4047,6 +4047,13 @@
       "t": "2026-05-17T09:29:10Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUXZfaWV5NmRZLTZpT0lib0NnaXVWX0Rzd0pVQjBPMTY0V2x2REFiLURZSmhLMC1iLXltVVA0aTF1dldwVDlZMlhsLTA3V1NMekhQdlNWR3E4RXNMNDl5c1p1QTVFZmhzSGV5NHpjdkJ4bU1aSkFSYldDcnBMUnN0clNySXM1VkdmM05YclV4Q0NFOWUwQnVCYUVlQnZUc0I0Z3VBWEpGWUF2M3ZtSHhuTWZKeDVnTHVITTNRYWYwSTNIY0NtOHllcl9lSEE?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Francia confirma que el hantavirus del brote en crucero no presenta variantes m\u00e1s peligrosas o transmisibles - Noticias Venevisi\u00f3n",
+      "t": "2026-05-17T02:49:29Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdXh4MVVDa09pS3ZRc0Q4X0hVODlSNk1NczM4R2FGS29tX1E2aWpwTnRiLUFHajYxNXA5RWV0NVd0UXVFLXhjVWtOMXhVVElJU0twWjdFN2pQd3k0RFpSYXp5cnVCQ0tjcGQ5Z2tucHdGdnpnNmhQMlhhNk1MbzBqYkZnUlBXcjc0eE81RmQ4Q0RkRWtVZC1TNFJGQVJXaG5DX0xSRUNWQzRjc0YtN2l5WmdQVFZrNGhwRGZpWnR2b0RKel9nQnhHcmtmR1BxbmNNbExBQmh3VmItcUZqejZXckZPR3QwLVVqX0E?oc=5"
     },
     {
       "iso": "ARG",
@@ -4261,13 +4268,18 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-17T13:20:32Z",
-      "signals": 12,
+      "last_update": "2026-05-17T13:25:12Z",
+      "signals": 13,
       "recent": [
         {
           "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
           "t": "2026-05-16T18:07:02Z",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ01MSERfY0JHbWVCdy1rSWtHZ3EtNkJCNU5kcU9SQjNwbGY1b1B1NWE1alpYOGVsRnJxZWM5cU90Q2VIZzJiYzdjM0h2blhaUzExWEEtNlYtRkxORE1UR3dWTkhLTEsxTnFXSjczNHlJRmlVc3NpbHNfcGMwVTFRNlFtaGVlTjdlMUHSAY8BQVVfeXFMTUhqV3ctTE9hV3luREJWRnpHbzBnQ2EwZmk2anZfZTlFTGFIU193QVlUUFJpOWpTMGEzNXkwZFREaDFnZTMyc0xHb0tZWVhkN0pGUThSbEVPWHVtUVVhRXpFanBxN0pmYzVHMEtOWjNSNkxPMHJZV1Nlb1Z1bXlDT2NUbDVndlZONjgxb2lxcFk?oc=5"
+        },
+        {
+          "title": "Francia confirma que el hantavirus del brote en crucero no presenta variantes m\u00e1s peligrosas o transmisibles - Noticias Venevisi\u00f3n",
+          "t": "2026-05-17T02:49:29Z",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdXh4MVVDa09pS3ZRc0Q4X0hVODlSNk1NczM4R2FGS29tX1E2aWpwTnRiLUFHajYxNXA5RWV0NVd0UXVFLXhjVWtOMXhVVElJU0twWjdFN2pQd3k0RFpSYXp5cnVCQ0tjcGQ5Z2tucHdGdnpnNmhQMlhhNk1MbzBqYkZnUlBXcjc0eE81RmQ4Q0RkRWtVZC1TNFJGQVJXaG5DX0xSRUNWQzRjc0YtN2l5WmdQVFZrNGhwRGZpWnR2b0RKel9nQnhHcmtmR1BxbmNNbExBQmh3VmItcUZqejZXckZPR3QwLVVqX0E?oc=5"
         },
         {
           "title": "El brote de Hantavirus en un crucero volvi\u00f3 a encender las alarmas: \u00bfCu\u00e1l es la situaci\u00f3n en Argentina? - La Opinion Online",
@@ -4283,11 +4295,6 @@
           "title": "Brote de hantavirus: canadiense que viaj\u00f3 en crucero da positivo en prueba - Cadena 3 Argentina",
           "t": "2026-05-16T22:18:04Z",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWDhoZHBDMzlST2x0VDVLX3JkRWcwWE5LODFfbVUtUXZqWDluTVI0dnJXVVhfeVVmNWtuRFpqUFhFZC1ZVjB6MDk2UU9wUjJHWlh4djhySjFMa09iV29jZDN6cWFpYzF4aGRyQkR2UDJJVHUzUW1YTWV2QndJRVZkampSRHZRcnFHTi1tRk5RYTBhTTRpbGY2cUpFdVNRdUZfM3VWVDVlaWlmZERxYXF3RGU1VjhtajRXMEHSAb8BQVVfeXFMTjZ2Y2MzM3l3UDdTRWltZlZjdkkwSzVJWUdmNVpoeGVnTl9GODJ3OWhCV1BvV2Z3Ykh6c041ZDkwZGFZVFpqSWJqUlhEd3VoS1VZX2lIVWxOWGtQN2xSbWhSNy1YQWVEdFNhakNUdWc4TnRNaV9JV3FDRVBjM3IxRjZtbmg1SGtURkQ2aTBnS2c5Nm5uYWQ1MUtsU29lY3Y3ajVPRDZpTFMxM2w2N2x6XzFXVDdXZVB0M0ZobnhYdFE?oc=5"
-        },
-        {
-          "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
-          "t": "2026-05-15T12:33:58Z",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
         }
       ]
     }
