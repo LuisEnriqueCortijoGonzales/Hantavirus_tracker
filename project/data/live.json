@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-17T04:55:12.123788Z",
-  "next_update": "2026-05-17T05:00:00Z",
+  "generated": "2026-05-17T05:00:32.120528Z",
+  "next_update": "2026-05-17T05:05:00Z",
   "days_active": 9,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 18,
+      "signals": 19,
       "gov_alert": false
     },
     "CHL": {
@@ -1401,7 +1401,6 @@
     "2026-05-17T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-15T05:00:00Z",
     "2026-05-15T06:00:00Z",
     "2026-05-15T07:00:00Z",
     "2026-05-15T08:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-17T01:00:00Z",
     "2026-05-17T02:00:00Z",
     "2026-05-17T03:00:00Z",
-    "2026-05-17T04:00:00Z"
+    "2026-05-17T04:00:00Z",
+    "2026-05-17T05:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -1548,7 +1548,7 @@
       31,
       31,
       31,
-      31,
+      32,
       32
     ],
     "BRA": [
@@ -4022,7 +4022,7 @@
     "CAN": 1,
     "USA": 1,
     "CHN": 1,
-    "ARG": 18,
+    "ARG": 19,
     "CHL": 2,
     "URY": 1
   },
@@ -4176,6 +4176,13 @@
     },
     {
       "iso": "ARG",
+      "title": "El brote de hantavirus que sacudi\u00f3 Argentina en 2018: as\u00ed fue la fiesta que acab\u00f3 con 11 personas fallecidas - El Debate",
+      "t": "2026-05-14T10:18:15Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV3pReHdEMUpkdk9oY2hyd1JHVldnS0xZU0ZPOHpSOUR3NmQtRktMOHlrdmlNUGlJcGMxWEJhd1RNUTlUOUt6TlFacmpxam8tS19rVVFSTW56X1YzMElRWkI5RG9yZHlfN2pPd2dYRkdvalNwZERNcl9OR3JKVkMzN2IxMWJWenBGWEFSUUhGSkJaU05ZUTQwdDFmclNJM1lIMlY3OUlaM0thWGFfSlVKY3hRQmdsM3pJZ0lGSmV6eDFBZGdIUGd6RGJPdjh3VDjSAdQBQVVfeXFMTVh5SGhEX1gzMUFhSERBSXNvQ1NDamphcHctZE56amtNck5ZalJ2S21jcVZQZEhnTHpjN1hWT2FSMTBKMkQ4NjYyVUdqZFN5VDE1ekdZdUhyUk1WM21KenBZYjNFNHN4eUhyN2t0dUN6TURtMjlJVjlzQjd0cFpFWVBaRXk3Ukw0WG1sMldRalhHTWtXVWQxY25RUjNBTWxKa0VBVHBDZHgyak1sT0YzdHRwanNBWU1sdTd3clN0bElUa2N4UjNGWXI1R1ltZUFnRVFXZi0?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Argentina Races to Find Origin of Hantavirus Contagion - The New York Times",
       "t": "2026-05-14T09:04:59Z",
       "source": "GoogleNews-EN",
@@ -4282,7 +4289,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-17T04:55:12Z",
+      "last_update": "2026-05-17T05:00:32Z",
       "signals": 15,
       "recent": [
         {
