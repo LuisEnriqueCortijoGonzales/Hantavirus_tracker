@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-17T03:20:02.126619Z",
-  "next_update": "2026-05-17T03:25:00Z",
+  "generated": "2026-05-17T03:25:12.084181Z",
+  "next_update": "2026-05-17T03:30:00Z",
   "days_active": 9,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 73,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 8,
+      "var_pct": 9,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 17,
+      "signals": 18,
       "gov_alert": false
     },
     "CHL": {
@@ -151,11 +151,11 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -272,11 +272,11 @@
       "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 4,
+      "var_pct": 5,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 9,
+      "signals": 10,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,11 +4018,11 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "CAN": 2,
-    "FRA": 9,
+    "CAN": 1,
+    "FRA": 10,
     "USA": 1,
     "CHN": 1,
-    "ARG": 17,
+    "ARG": 18,
     "CHL": 2,
     "URY": 1
   },
@@ -4054,13 +4054,6 @@
       "t": "2026-05-16T23:39:34Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQXzRnSjNnTkpNX0xRSl9IYW9Ma2lMSGZkT2ZlQncydEhIZVZqOGsycWNsWWh1b0JVUjNGc3pFaUcwSndJa2JzNzA4SzRXT2N3Q3QzU0x1cnZLUGRxZWNVRzNveEp5QUpYVWF4NEM3SG82UnQtUW45SU04SjJ4cTJpUjVhR2NXT3J5dmtLZlNNYnFUdnhxd3hjRXFrLXExQ01IbGNKWTdadFBkUjBGbWN6Z1NoZjhkYXlac0IybDN6TkJnS3BC0gHKAUFVX3lxTFBHa0FJSERVT1daVGpjTlJsYU9SQmpsU0pOUDhfMEg2aDJ5SWNHSUFEcUNTNU1ZNWpYMGR3WC1pUWNhS2xUellpYlAyN1F4bkpzYmhLMU5qM1NXT1BjY1I0RjFHZkhSWUtiRlZFZGthMXJHejBRM3FlMTBjZDVtTHdfYjFzYXpkeFFTaEdjZVh3ZTdDUXNsd3pwYTBnZkY1LVd0VlhrblN5aU1MeG9Zb0k4enh6M0JUaC1YeGxXZEtKZWZkajBlT2UxSlE?oc=5"
-    },
-    {
-      "iso": "CAN",
-      "title": "Canada cruise passenger 'presumptive positive' for hantavirus - Yahoo",
-      "t": "2026-05-16T23:01:58Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYjQxWk4zMUtST2FMTGttZmFDVWR3bVhzNVhuODJfSkpFUUp1SVU4eGIwTnlkM2gteTNMRTdlSzJEMkdlMHcwS2tXMkN2bVdiWlJvVmRqQlotQ0hDcVZsY3ZLdHpoNnRUWmg2ZkZJSTV3YWxZNGRrWGVwX2wyTC1wNXJnQ0RHaDJCWkhTQlA3eUZDTGFkVVBFb1VMMA?oc=5"
     },
     {
       "iso": "CHN",
@@ -4217,6 +4210,20 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
     },
     {
+      "iso": "FRA",
+      "title": "Argentina registra un aumento de casos de hantavirus, pero sin brote, dice un experto - France 24",
+      "t": "2026-05-07T09:51:20Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNLTFxOHZhTWlVVlNad3M3TmRjVVNvM0gyMG1FUEpWNXZoUnp0b1ZaUEtTSkl1VkpXTHFmdHFZOTdBOFF2azUtY05XWGE0bVl2UFR3NUFLaDYzY0J2aDV4MkhUZUhMZlRNVTlsUTlHZ3o2eHBqMnlIbmt3MW5XRTBJM1drNThXd2RPQVJwTkJGQmNObE5INjRqRXVLRHZoOVY1aFBlSlR2RGhfZnlLWmU3WkwyUUItUWlyU2prWXFzM0NYVE1KRmpQOUFaQUZSaE5hNnc?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina registra un aumento de casos de hantavirus, pero sin brote, dice un experto - France 24",
+      "t": "2026-05-07T09:51:20Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNLTFxOHZhTWlVVlNad3M3TmRjVVNvM0gyMG1FUEpWNXZoUnp0b1ZaUEtTSkl1VkpXTHFmdHFZOTdBOFF2azUtY05XWGE0bVl2UFR3NUFLaDYzY0J2aDV4MkhUZUhMZlRNVTlsUTlHZ3o2eHBqMnlIbmt3MW5XRTBJM1drNThXd2RPQVJwTkJGQmNObE5INjRqRXVLRHZoOVY1aFBlSlR2RGhfZnlLWmU3WkwyUUItUWlyU2prWXFzM0NYVE1KRmpQOUFaQUZSaE5hNnc?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "Qu\u00e9 se sabe del viaje por Argentina, Chile y Uruguay de los turistas que presentaron los primeros s\u00edntomas de hantavirus en el crucero y luego murieron - BBC",
       "t": "2026-05-07T07:00:00Z",
@@ -4275,7 +4282,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-17T03:20:02Z",
+      "last_update": "2026-05-17T03:25:12Z",
       "signals": 15,
       "recent": [
         {
