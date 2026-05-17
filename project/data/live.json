@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-17T23:40:32.054092Z",
-  "next_update": "2026-05-17T23:45:00Z",
+  "generated": "2026-05-17T23:45:32.060409Z",
+  "next_update": "2026-05-17T23:50:00Z",
   "days_active": 9,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 73,
+      "ytd": 72,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 8,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 17,
+      "signals": 16,
       "gov_alert": false
     },
     "CHL": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -144,18 +144,18 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "CAN": {
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 4,
+      "var_pct": 3,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 8,
+      "signals": 7,
       "gov_alert": false
     },
     "GTM": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72
     ],
     "CHL": [
       31,
@@ -1452,54 +1452,54 @@
   ],
   "hourly_history": {
     "ARG": [
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72
     ],
     "CHL": [
       31,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 17,
     "epidemio": 17,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 26,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,13 +4018,14 @@
     "outbreak_count": 8
   },
   "signal_summary": {
-    "CAN": 8,
+    "CAN": 7,
     "FRA": 3,
-    "ARG": 17,
-    "USA": 1,
+    "ARG": 16,
+    "USA": 2,
     "MEX": 2,
     "COL": 1,
-    "CHL": 1
+    "CHL": 1,
+    "VEN": 1
   },
   "events": [
     {
@@ -4047,6 +4048,13 @@
       "t": "2026-05-17T21:03:33Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ3hjblFkbm9rdFNrY3JMQVJCQzV1LUlHSFpjWGNqaEhndFFETDNZa01KQ29ROHgzRlNtaE1GQ1FxQVZlbjRCdEJ4SUl4LTdlUTZQSDRDYXNiSU1fMUNhZjN0NWVfekV2Q2NXX0NSUUdzbU5UV181MU9CcDJDZzFUSmlrcVE5U081NC0zRG9UWENydG8yTXc?oc=5"
+    },
+    {
+      "iso": "VEN",
+      "title": "Un equipo cient\u00edfico prueba un spray nasal para prevenir el hantavirus: lo que se sabe - El Diario Venezuela",
+      "t": "2026-05-17T19:21:25Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qUGxlYWhLcHFYOU81TGVsNmExQU1fdHJVS1lZdFVUM0VGN0tvWTBxWUE3S3oyRUZEX0RKbVdkbG1ZUEdSRUg1bk1yUHdQSThnWGM5RFZtTE9HbFFkcmJ5N3ZwUVdUdw?oc=5"
     },
     {
       "iso": "CAN",
@@ -4091,13 +4099,6 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdjhnLV9hMmlTTVZEdl9VbWNsWlNuX2kxWExYWUdzbFZ0T1h6N2hvQkowZFgxVzNXUFNtNmtoN2t2Y1V3dTVnV2FVWm9FRzV0d0ZWY1FYQjhCZlZqSk9jWENsdE9GdHJiMUxOLVp2eWZ6a1czSmlnem4zN0JTeHNUbkJScTZ2R1ZIX0VRbGd5M0NqTWoxSlcySXJ4STR0cjZrUzlfaEhwT3FHRm9HVmww0gHKAUFVX3lxTE5yN1J3UTN3VnBiNEJOVDg2anNVVTFoZk5tQV9Ib0dqeU9yMlpqX3BIRlZJakpucTJlRmtpLTFpenFoQzFJeTZWc0pxa1hYUXZiaUpDaExVVnl1Q2ZfS0hTcHoxclI5TldnM29ESTdmM3FUUVBWc3dZZi1uQk8yb1JBanBaMEM5a2VQelVlYWlWWkpaQnQyc3Z5N1p0ckNYV1JzNUliNy00aUk2R2w2TFR3cWtzUHVoVDVRMFU4VEdiMHJTN19mUWlqcmc?oc=5"
     },
     {
-      "iso": "CAN",
-      "title": "Canada cruise passenger 'presumptive positive' for hantavirus - Medical Xpress",
-      "t": "2026-05-17T15:40:03Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQUZSLWROWDlpMjVrVFVocVhEdFlzSEgwRC1INU9PR1ZpOGpKSWtSdHBJUk01d2M5bTFFbWo4MlZwTGJ1RmhjRXN0S3d4ZHVIRjA4YU5Cb0hnbXpQNGtvMTdkUnRUVUNJOFB4bXJ1TEVYWndSUTlLeXRNcDZCWlJobzEwRjQxaUE4aHE3b2EtZ211UQ?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "El brote de Hantavirus en un crucero volvi\u00f3 a encender las alarmas: \u00bfCu\u00e1l es la situaci\u00f3n en Argentina? - La Opinion Online",
       "t": "2026-05-17T10:01:00Z",
@@ -4140,6 +4141,13 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWDhoZHBDMzlST2x0VDVLX3JkRWcwWE5LODFfbVUtUXZqWDluTVI0dnJXVVhfeVVmNWtuRFpqUFhFZC1ZVjB6MDk2UU9wUjJHWlh4djhySjFMa09iV29jZDN6cWFpYzF4aGRyQkR2UDJJVHUzUW1YTWV2QndJRVZkampSRHZRcnFHTi1tRk5RYTBhTTRpbGY2cUpFdVNRdUZfM3VWVDVlaWlmZERxYXF3RGU1VjhtajRXMEHSAb8BQVVfeXFMTjZ2Y2MzM3l3UDdTRWltZlZjdkkwSzVJWUdmNVpoeGVnTl9GODJ3OWhCV1BvV2Z3Ykh6c041ZDkwZGFZVFpqSWJqUlhEd3VoS1VZX2lIVWxOWGtQN2xSbWhSNy1YQWVEdFNhakNUdWc4TnRNaV9JV3FDRVBjM3IxRjZtbmg1SGtURkQ2aTBnS2c5Nm5uYWQ1MUtsU29lY3Y3ajVPRDZpTFMxM2w2N2x6XzFXVDdXZVB0M0ZobnhYdFE?oc=5"
     },
     {
+      "iso": "USA",
+      "title": "This urologist is a top US hantavirus response leader. What to know - USA Today",
+      "t": "2026-05-16T20:53:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcTUxd21KRWtZYWRsb2RtZXViUHplSmxKMWFxRWdSU2ZXYTkzTUl5Nl92SUxDTllaUWpqUEtZMGFHV00wWDBGVGE1cGZ3X1dpRlV6YnU2MW9BUEZSeWlXOEpxbDUyNlBuaE93eHJCejZ4eV82YmFWMmxyTVUwWUtMdXlKRVdla09BeVh1QjFuUHJVZTFfdkl5S19jMnloSzZScEE?oc=5"
+    },
+    {
       "iso": "CAN",
       "title": "Canada confirms first hantavirus case in isolation in British Columbia - The Guardian",
       "t": "2026-05-16T20:12:00Z",
@@ -4173,13 +4181,6 @@
       "t": "2026-05-15T12:33:58Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "El brote de hantavirus que sacudi\u00f3 Argentina en 2018: as\u00ed fue la fiesta que acab\u00f3 con 11 personas fallecidas - El Debate",
-      "t": "2026-05-14T10:18:15Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV3pReHdEMUpkdk9oY2hyd1JHVldnS0xZU0ZPOHpSOUR3NmQtRktMOHlrdmlNUGlJcGMxWEJhd1RNUTlUOUt6TlFacmpxam8tS19rVVFSTW56X1YzMElRWkI5RG9yZHlfN2pPd2dYRkdvalNwZERNcl9OR3JKVkMzN2IxMWJWenBGWEFSUUhGSkJaU05ZUTQwdDFmclNJM1lIMlY3OUlaM0thWGFfSlVKY3hRQmdsM3pJZ0lGSmV6eDFBZGdIUGd6RGJPdjh3VDjSAdQBQVVfeXFMTVh5SGhEX1gzMUFhSERBSXNvQ1NDamphcHctZE56amtNck5ZalJ2S21jcVZQZEhnTHpjN1hWT2FSMTBKMkQ4NjYyVUdqZFN5VDE1ekdZdUhyUk1WM21KenBZYjNFNHN4eUhyN2t0dUN6TURtMjlJVjlzQjd0cFpFWVBaRXk3Ukw0WG1sMldRalhHTWtXVWQxY25RUjNBTWxKa0VBVHBDZHgyak1sT0YzdHRwanNBWU1sdTd3clN0bElUa2N4UjNGWXI1R1ltZUFnRVFXZi0?oc=5"
     },
     {
       "iso": "ARG",
@@ -4275,7 +4276,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-17T23:40:32Z",
+      "last_update": "2026-05-17T23:45:32Z",
       "signals": 12,
       "recent": [
         {
