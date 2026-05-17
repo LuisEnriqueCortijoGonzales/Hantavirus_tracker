@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-17T23:30:32.049486Z",
-  "next_update": "2026-05-17T23:35:00Z",
+  "generated": "2026-05-17T23:35:32.166315Z",
+  "next_update": "2026-05-17T23:40:00Z",
   "days_active": 9,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -144,7 +144,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "CAN": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 17,
     "polymarket": 7,
-    "kalshi": 19,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,10 +4021,11 @@
     "CAN": 8,
     "FRA": 3,
     "ARG": 16,
-    "USA": 2,
+    "USA": 1,
     "MEX": 2,
     "COL": 1,
-    "CHL": 1
+    "CHL": 1,
+    "VEN": 1
   },
   "events": [
     {
@@ -4047,6 +4048,13 @@
       "t": "2026-05-17T21:03:33Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ3hjblFkbm9rdFNrY3JMQVJCQzV1LUlHSFpjWGNqaEhndFFETDNZa01KQ29ROHgzRlNtaE1GQ1FxQVZlbjRCdEJ4SUl4LTdlUTZQSDRDYXNiSU1fMUNhZjN0NWVfekV2Q2NXX0NSUUdzbU5UV181MU9CcDJDZzFUSmlrcVE5U081NC0zRG9UWENydG8yTXc?oc=5"
+    },
+    {
+      "iso": "VEN",
+      "title": "Un equipo cient\u00edfico prueba un spray nasal para prevenir el hantavirus: lo que se sabe - El Diario Venezuela",
+      "t": "2026-05-17T19:21:25Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qUGxlYWhLcHFYOU81TGVsNmExQU1fdHJVS1lZdFVUM0VGN0tvWTBxWUE3S3oyRUZEX0RKbVdkbG1ZUEdSRUg1bk1yUHdQSThnWGM5RFZtTE9HbFFkcmJ5N3ZwUVdUdw?oc=5"
     },
     {
       "iso": "CAN",
@@ -4138,13 +4146,6 @@
       "t": "2026-05-16T22:18:04Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWDhoZHBDMzlST2x0VDVLX3JkRWcwWE5LODFfbVUtUXZqWDluTVI0dnJXVVhfeVVmNWtuRFpqUFhFZC1ZVjB6MDk2UU9wUjJHWlh4djhySjFMa09iV29jZDN6cWFpYzF4aGRyQkR2UDJJVHUzUW1YTWV2QndJRVZkampSRHZRcnFHTi1tRk5RYTBhTTRpbGY2cUpFdVNRdUZfM3VWVDVlaWlmZERxYXF3RGU1VjhtajRXMEHSAb8BQVVfeXFMTjZ2Y2MzM3l3UDdTRWltZlZjdkkwSzVJWUdmNVpoeGVnTl9GODJ3OWhCV1BvV2Z3Ykh6c041ZDkwZGFZVFpqSWJqUlhEd3VoS1VZX2lIVWxOWGtQN2xSbWhSNy1YQWVEdFNhakNUdWc4TnRNaV9JV3FDRVBjM3IxRjZtbmg1SGtURkQ2aTBnS2c5Nm5uYWQ1MUtsU29lY3Y3ajVPRDZpTFMxM2w2N2x6XzFXVDdXZVB0M0ZobnhYdFE?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "This urologist is a top US hantavirus response leader. What to know - USA Today",
-      "t": "2026-05-16T20:53:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcTUxd21KRWtZYWRsb2RtZXViUHplSmxKMWFxRWdSU2ZXYTkzTUl5Nl92SUxDTllaUWpqUEtZMGFHV00wWDBGVGE1cGZ3X1dpRlV6YnU2MW9BUEZSeWlXOEpxbDUyNlBuaE93eHJCejZ4eV82YmFWMmxyTVUwWUtMdXlKRVdla09BeVh1QjFuUHJVZTFfdkl5S19jMnloSzZScEE?oc=5"
     },
     {
       "iso": "CAN",
@@ -4275,7 +4276,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-17T23:30:32Z",
+      "last_update": "2026-05-17T23:35:32Z",
       "signals": 12,
       "recent": [
         {
