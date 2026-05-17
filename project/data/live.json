@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-17T16:20:32.156238Z",
-  "next_update": "2026-05-17T16:25:00Z",
+  "generated": "2026-05-17T16:25:03.735278Z",
+  "next_update": "2026-05-17T16:30:00Z",
   "days_active": 9,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "GTM": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "CAN": 2,
+    "CAN": 3,
     "FRA": 4,
     "ARG": 18,
     "USA": 1,
@@ -4027,6 +4027,13 @@
     "COL": 1
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "C\u00f3mo avanza la vigilancia del hantavirus: Canad\u00e1 identifica un positivo - MUNDIARIO",
+      "t": "2026-05-17T16:19:51Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNR0hVU3gtS20tR3VRWk1JdkxqMGI2bFZDTFdRMFhLdlhPV0lFV0xVM1pYVElVam80YThxeWFZbjJEQjJ2ZWVyNE9RTnBnRVRkaGlKdVNyUUNFWm5WcmpIN2ZVcGVZbllaUXVocm04bzZoMGFLeXNLbGp1ZWZ2emJnOGhpdGhXZTZfbFllSlZSTHAyMllvSjhsdl9Zb19qQlFzVzhRSGt1aGVaOGNaQWVydFNSVlA5bExsajRZejFkTmNjVng0NDNyYkNkWTlQSkh0Mk1fcNIB2gFBVV95cUxQSmcyLW4zWTRtcE1tN093TnFVZGtHbkhNVk5rT1ZkTW5uVzhtN2NLWVFVejFSS0ZJamxiUnBsS3dSc1BzRjBrWWNWY19xdEFSdVFqS1UxMk1CRzFEeXQ0alM3ejF3WUxENnQ5NU54TlFZSFl1WWlIZXU1V2h4MmkwS05tVjFqWXJWMFpXdXhzOEFxR1FBNExraXVxeTVRNHJXNU40Rjc3TG5aemVqNVdIYVFFQU1lcFI3UVVkWmZTZll1MmJWN09oZ1V4eG9hOVNDSW8wNlZ2SmdjUQ?oc=5"
+    },
     {
       "iso": "MEX",
       "title": "S\u00edntomas del hantavirus y c\u00f3mo se diferencia del COVID-19 en M\u00e9xico - Infobae",
@@ -4240,7 +4247,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-17T16:20:32Z",
+      "last_update": "2026-05-17T16:25:03Z",
       "signals": 12,
       "recent": [
         {
