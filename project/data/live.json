@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-17T23:25:12.104115Z",
-  "next_update": "2026-05-17T23:30:00Z",
+  "generated": "2026-05-17T23:30:32.049486Z",
+  "next_update": "2026-05-17T23:35:00Z",
   "days_active": 9,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -144,7 +144,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "CAN": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 17,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4024,8 +4024,7 @@
     "USA": 2,
     "MEX": 2,
     "COL": 1,
-    "CHL": 1,
-    "VEN": 1
+    "CHL": 1
   },
   "events": [
     {
@@ -4048,13 +4047,6 @@
       "t": "2026-05-17T21:03:33Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ3hjblFkbm9rdFNrY3JMQVJCQzV1LUlHSFpjWGNqaEhndFFETDNZa01KQ29ROHgzRlNtaE1GQ1FxQVZlbjRCdEJ4SUl4LTdlUTZQSDRDYXNiSU1fMUNhZjN0NWVfekV2Q2NXX0NSUUdzbU5UV181MU9CcDJDZzFUSmlrcVE5U081NC0zRG9UWENydG8yTXc?oc=5"
-    },
-    {
-      "iso": "VEN",
-      "title": "Un equipo cient\u00edfico prueba un spray nasal para prevenir el hantavirus: lo que se sabe - El Diario Venezuela",
-      "t": "2026-05-17T19:21:25Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qUGxlYWhLcHFYOU81TGVsNmExQU1fdHJVS1lZdFVUM0VGN0tvWTBxWUE3S3oyRUZEX0RKbVdkbG1ZUEdSRUg1bk1yUHdQSThnWGM5RFZtTE9HbFFkcmJ5N3ZwUVdUdw?oc=5"
     },
     {
       "iso": "CAN",
@@ -4283,7 +4275,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-17T23:25:12Z",
+      "last_update": "2026-05-17T23:30:32Z",
       "signals": 12,
       "recent": [
         {
