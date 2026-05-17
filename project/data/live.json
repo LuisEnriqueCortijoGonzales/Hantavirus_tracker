@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-17T23:00:32.074305Z",
-  "next_update": "2026-05-17T23:05:00Z",
+  "generated": "2026-05-17T23:05:32.153496Z",
+  "next_update": "2026-05-17T23:10:00Z",
   "days_active": 9,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -151,11 +151,11 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 3,
+      "var_pct": 4,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 7,
+      "signals": 8,
       "gov_alert": false
     },
     "GTM": {
@@ -4018,7 +4018,7 @@
     "outbreak_count": 8
   },
   "signal_summary": {
-    "CAN": 7,
+    "CAN": 8,
     "FRA": 3,
     "ARG": 16,
     "USA": 1,
@@ -4055,6 +4055,13 @@
       "t": "2026-05-17T19:21:25Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9qUGxlYWhLcHFYOU81TGVsNmExQU1fdHJVS1lZdFVUM0VGN0tvWTBxWUE3S3oyRUZEX0RKbVdkbG1ZUEdSRUg1bk1yUHdQSThnWGM5RFZtTE9HbFFkcmJ5N3ZwUVdUdw?oc=5"
+    },
+    {
+      "iso": "CAN",
+      "title": "Canada hantavirus update: 1 of 4 who went home from cruise ship hit with hantavirus outbreak tests positive, health agency says - ABC7 Chicago",
+      "t": "2026-05-17T18:43:33Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYkkteVAzeUdWdHM0Nlg0VTZYS1NCUUxUMXl5eXZiTFF0eUVMSGxKOU5DZEtlbk8ydlB1MTdjRUlKaUljeTNlTU84NUZub1pQeXAzWTlJaGxWbkJDcVFRYTFCdWE5WnY4ZG5CTzVYVnBWd09ENDVFeFFteHZhSGZEZnBwVjlIOEtQX1RSMVZFOHAxQUk2SnBjeExqb3gwOHo5dnkxblJGTnRFMm9XWVlaWF9GazlGR2lCLUJ2QVdFYy1uZENXV2ZuR0FwS1lILU1UMGfSAdcBQVVfeXFMTzRHR1FYeVU4OHR0a04wMmxuc2xsY2ZtYVFZQ3NaQXRDWi1rWnNvSnpybjdhNXZNeXpMSXhCQnZSaVRNbnozcFJBd3dibU4zTHpZM2hKbWYtWGpvQ1ZIaVBtamRDSmUxampFMlM1OVdxa3A5VjV0N3V1SFpCMUxNZmF6N2RRVlhDaDNIdlVoU01MaVNDRlhhSER0eTFvMEJLOVV6MzVZSmNBUmNYNktoaXZPZll3WTdyTGNSODM4cUhPa3ZhczhYaldJLXFHQzNkeC0xV3FqWVU?oc=5"
     },
     {
       "iso": "CAN",
@@ -4269,9 +4276,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-17T23:00:32Z",
-      "signals": 12,
+      "last_update": "2026-05-17T23:05:32Z",
+      "signals": 13,
       "recent": [
+        {
+          "title": "Canada hantavirus update: 1 of 4 who went home from cruise ship hit with hantavirus outbreak tests positive, health agency says - ABC7 Chicago",
+          "t": "2026-05-17T18:43:33Z",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYkkteVAzeUdWdHM0Nlg0VTZYS1NCUUxUMXl5eXZiTFF0eUVMSGxKOU5DZEtlbk8ydlB1MTdjRUlKaUljeTNlTU84NUZub1pQeXAzWTlJaGxWbkJDcVFRYTFCdWE5WnY4ZG5CTzVYVnBWd09ENDVFeFFteHZhSGZEZnBwVjlIOEtQX1RSMVZFOHAxQUk2SnBjeExqb3gwOHo5dnkxblJGTnRFMm9XWVlaWF9GazlGR2lCLUJ2QVdFYy1uZENXV2ZuR0FwS1lILU1UMGfSAdcBQVVfeXFMTzRHR1FYeVU4OHR0a04wMmxuc2xsY2ZtYVFZQ3NaQXRDWi1rWnNvSnpybjdhNXZNeXpMSXhCQnZSaVRNbnozcFJBd3dibU4zTHpZM2hKbWYtWGpvQ1ZIaVBtamRDSmUxampFMlM1OVdxa3A5VjV0N3V1SFpCMUxNZmF6N2RRVlhDaDNIdlVoU01MaVNDRlhhSER0eTFvMEJLOVV6MzVZSmNBUmNYNktoaXZPZll3WTdyTGNSODM4cUhPa3ZhczhYaldJLXFHQzNkeC0xV3FqWVU?oc=5"
+        },
         {
           "title": "Canad\u00e1 reporta primer caso de hantavirus en pasajeros de crucero - Cadena 3 Argentina",
           "t": "2026-05-17T18:41:46Z",
@@ -4291,11 +4303,6 @@
           "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
           "t": "2026-05-12T22:12:02Z",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeUtmR2dNaUYwdEFTMTc1dUlmZVR4c1MzTXQ5VDZQclYzbW1xdzRfUGF3aWFIc1lSaWpRcXhfbW5OdFVYbW0tekVySTBDYy1Va050T1cwTWVNZHk3a2pmYUNkNDQ2MndoS1N2cUJPaFpfOU9scFlyb1hZZTNwamg3YnJzTnFjbVRUVEFLdFhkQmlXNUlDWUpuQ0hGblpYVkpIcTlKX1kwMjRURTV0UVdkSVMwZDhvZVpMc2RTcFYwdkdTZHZ5SEFwNXBlNld1V2d6eHBmUHVCWVE5UDFsbGYtRDl30gH8AUFVX3lxTFBoQ1JGSnZhTHg2SmpiUlltY3Vzd3p0d3ZLVXR0VEFNQkQzNVlOb19PcVBabUlfdDc5RHR6aGdvOEhiUnNmcE43cGNoZG1KVTZWSmlnOHZxZHJPOWdRWXJkbUVIXzI1SzdjTC1MX3NNaFhodnJwODVRakN1OVZxMkFrNHlEMXlVN3ZFWW1kdUFId21ISkRPRVF6bnJlTlBjZHVOd1NaY2FKbUJfYktwQm5meE1LNVNMQmZyekV2MUQzM1AwcVRtQnhsd3N3Vl83aldDQ2ZxeDB0RlpERE9ENEZ3ekhodXhhLUlGelU0U3VVYVFjeE1OSUpTUXdqTQ?oc=5"
-        },
-        {
-          "title": "El brote de Hantavirus en un crucero volvi\u00f3 a encender las alarmas: \u00bfCu\u00e1l es la situaci\u00f3n en Argentina? - La Opinion Online",
-          "t": "2026-05-17T10:01:00Z",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBldU1ta0FXbGI4UHJ0NUlubXN4YnNZeU5FVi1FWFR3R21PS0QyZ3ZyeVVvUE1QV29zSzkxWGoyaGgxQ1BpblpYSVd6VkcxUUJ4TUdkMWVMVUlzb0NGT1dmVEFCVzJkbjE2cU93ZlNESmVHdmhlWEE?oc=5"
         }
       ]
     }
