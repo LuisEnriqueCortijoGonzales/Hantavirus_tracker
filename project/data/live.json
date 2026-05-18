@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T05:05:32.168098Z",
-  "next_update": "2026-05-18T05:10:00Z",
+  "generated": "2026-05-18T05:10:32.078745Z",
+  "next_update": "2026-05-18T05:15:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 73,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 8,
+      "var_pct": 9,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 17,
+      "signals": 18,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 19,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "CAN": 7,
     "USA": 2,
     "FRA": 5,
-    "ARG": 17,
+    "ARG": 18,
     "JPN": 1,
     "MEX": 2,
     "COL": 1,
@@ -4034,6 +4034,13 @@
       "t": "2026-05-18T04:56:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUjZSeURDRWgwb1R4MUpDNnpuQkZMTHlUM3NvQUt6SXFEejBxTGs0ajE0R1NIN0JBQ3dDRjhfVXhtQ2t5Nm5nSXp3aUNYYVRPY3hGZ2NpYVpRNm5ZU0FOS3c4b19aMUx5UnNHX2JaeWlfaC0zNEU3NWl3aVczdHh6Qmc4bnQ4c0RTMEJvV1l1c3ktSE5rWUhnQjdsTHpfSFZXX0Vpb3lCcHdFREZtamJ3?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina Hantavirus Tourism Fears - GazetteXtra",
+      "t": "2026-05-18T04:00:16Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR2oxRWJoUUhuSEF0engweW5TS2hRQUNWV01PMklqbkpDT19pQ2xYREJkN1NtSUlPV1pWdThfeGJrei1SZF9mY05vUG5UV0dWZmZOWng1R05GWHd0eGI5ZVJQTWZ4RUpSVW9FaUFkcUZVVGJRVFlKVjFYOWhFSmRJSGtXeWZvQTlBS3gxMW44d05XeGZIcnRWbHNlaVFDTWFpZU1KUG5QbUpHeDJ4UE9waGNrZVRRd1lMdk9xT0xhQ3ZiMFFlSlFn?oc=5"
     },
     {
       "iso": "CAN",
@@ -4058,10 +4065,10 @@
     },
     {
       "iso": "CAN",
-      "title": "Canada confirms 1st positive hantavirus case - FOX 13 Tampa Bay",
+      "title": "Canada confirms 1st positive hantavirus case - LiveNOW from FOX",
       "t": "2026-05-17T22:08:56Z",
       "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeFFmaXZPSVl4ZVkwNWZjc2x1enY5SFNCN1ZLcDBUdDlud0dKSk5nR3hLNHdYQ2RZQ1VZZnBrcldQQzZ4Q1I2Z3NoYTdqeTdDaEozOWxaNk5kNXhwc1BHOWwwTnAxaERWU0dtOUpXSVJTVUJ5RUxSek8tejFPXzVVcdIBhgFBVV95cUxOSnpwaGMwTktaMVBmVW1tbDZpNTYyYU5ZUjhEaGJXLWM2bVE4VGtEclFhcGc2ZTA0Ykt1S2haM1NnYkY1WmFadTEzcVI5ZE1Ick1JMGxfWDZWN19GamVhYzBNWG0zVWhGNGVLY1diNEJrbG9EWnNoZXpnejVkR1dFdzZBN25nQQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRVlCZGU5UjNBTmZOaTd1VEhyV0JtVk1pVXFnaDlUeEJPSU1jLWUzM0QzLXJiSU1maDVmX19UNG9yQUpCME1SR2ZnM2JFajFvbEw0V3o1ZGxOdEkwRzNDdlhEaVd2Y19hdkJEMUFhdl9EbmVRaW9WeFBVMjZWRGdCUkp30gGHAUFVX3lxTFBKdjlTWE5YbE5scWZ0RTN2WDJpX3lQdm5MbTB1ZnpyNEFiRXNRa3hjaWtVbGJDTmFUel93REQ1U1kyTWV2X2tDTkRBYWdNalFUWi11RTZReG44b0xzTDJVbXJ6Ti12c01lWjJ1dU1kZXgyN1Y5czl1OHJ3TTBheHpHaXVsMXgyZw?oc=5"
     },
     {
       "iso": "CAN",
@@ -4297,7 +4304,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T05:05:32Z",
+      "last_update": "2026-05-18T05:10:32Z",
       "signals": 16,
       "recent": [
         {
