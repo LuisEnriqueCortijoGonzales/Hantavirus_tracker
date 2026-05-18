@@ -1,7 +1,7 @@
 {
-  "generated": "2026-05-17T23:55:22.060364Z",
-  "next_update": "2026-05-18T00:00:00Z",
-  "days_active": 9,
+  "generated": "2026-05-18T00:00:12.115348Z",
+  "next_update": "2026-05-18T00:05:00Z",
+  "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -1385,7 +1385,6 @@
     ]
   },
   "dates": [
-    "2026-05-04T12:00Z",
     "2026-05-05T12:00Z",
     "2026-05-06T12:00Z",
     "2026-05-07T12:00Z",
@@ -1398,10 +1397,10 @@
     "2026-05-14T12:00Z",
     "2026-05-15T12:00Z",
     "2026-05-16T12:00Z",
-    "2026-05-17T12:00Z"
+    "2026-05-17T12:00Z",
+    "2026-05-18T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-16T00:00:00Z",
     "2026-05-16T01:00:00Z",
     "2026-05-16T02:00:00Z",
     "2026-05-16T03:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-17T20:00:00Z",
     "2026-05-17T21:00:00Z",
     "2026-05-17T22:00:00Z",
-    "2026-05-17T23:00:00Z"
+    "2026-05-17T23:00:00Z",
+    "2026-05-18T00:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -1530,7 +1530,6 @@
       31,
       31,
       31,
-      31,
       32,
       32,
       32,
@@ -1547,6 +1546,7 @@
       33,
       33,
       33,
+      34,
       34,
       34,
       34
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 17,
     "polymarket": 7,
-    "kalshi": 18,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "CAN": 8,
     "FRA": 3,
     "ARG": 16,
-    "USA": 1,
+    "USA": 2,
     "MEX": 2,
     "COL": 1,
     "CHL": 1
@@ -4138,6 +4138,13 @@
       "t": "2026-05-16T22:18:04Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWDhoZHBDMzlST2x0VDVLX3JkRWcwWE5LODFfbVUtUXZqWDluTVI0dnJXVVhfeVVmNWtuRFpqUFhFZC1ZVjB6MDk2UU9wUjJHWlh4djhySjFMa09iV29jZDN6cWFpYzF4aGRyQkR2UDJJVHUzUW1YTWV2QndJRVZkampSRHZRcnFHTi1tRk5RYTBhTTRpbGY2cUpFdVNRdUZfM3VWVDVlaWlmZERxYXF3RGU1VjhtajRXMEHSAb8BQVVfeXFMTjZ2Y2MzM3l3UDdTRWltZlZjdkkwSzVJWUdmNVpoeGVnTl9GODJ3OWhCV1BvV2Z3Ykh6c041ZDkwZGFZVFpqSWJqUlhEd3VoS1VZX2lIVWxOWGtQN2xSbWhSNy1YQWVEdFNhakNUdWc4TnRNaV9JV3FDRVBjM3IxRjZtbmg1SGtURkQ2aTBnS2c5Nm5uYWQ1MUtsU29lY3Y3ajVPRDZpTFMxM2w2N2x6XzFXVDdXZVB0M0ZobnhYdFE?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "This urologist is a top US hantavirus response leader. What to know - USA Today",
+      "t": "2026-05-16T20:53:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcTUxd21KRWtZYWRsb2RtZXViUHplSmxKMWFxRWdSU2ZXYTkzTUl5Nl92SUxDTllaUWpqUEtZMGFHV00wWDBGVGE1cGZ3X1dpRlV6YnU2MW9BUEZSeWlXOEpxbDUyNlBuaE93eHJCejZ4eV82YmFWMmxyTVUwWUtMdXlKRVdla09BeVh1QjFuUHJVZTFfdkl5S19jMnloSzZScEE?oc=5"
     },
     {
       "iso": "CAN",
@@ -4268,7 +4275,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-17T23:55:22Z",
+      "last_update": "2026-05-18T00:00:12Z",
       "signals": 13,
       "recent": [
         {
