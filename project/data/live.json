@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T13:55:03.726307Z",
-  "next_update": "2026-05-18T14:00:00Z",
+  "generated": "2026-05-18T14:00:32.090817Z",
+  "next_update": "2026-05-18T14:05:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -78,7 +78,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": true
     },
     "USA": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -1401,7 +1401,6 @@
     "2026-05-18T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-16T14:00:00Z",
     "2026-05-16T15:00:00Z",
     "2026-05-16T16:00:00Z",
     "2026-05-16T17:00:00Z",
@@ -1448,11 +1447,11 @@
     "2026-05-18T10:00:00Z",
     "2026-05-18T11:00:00Z",
     "2026-05-18T12:00:00Z",
-    "2026-05-18T13:00:00Z"
+    "2026-05-18T13:00:00Z",
+    "2026-05-18T14:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      72,
       72,
       72,
       72,
@@ -1499,6 +1498,7 @@
       73,
       73,
       74,
+      74,
       74
     ],
     "CHL": [
@@ -1516,7 +1516,6 @@
       31,
       31,
       31,
-      31,
       32,
       32,
       32,
@@ -1548,6 +1547,7 @@
       35,
       35,
       35,
+      36,
       36,
       36
     ],
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 18,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,12 +4019,12 @@
   },
   "signal_summary": {
     "CAN": 6,
-    "USA": 2,
+    "USA": 3,
     "FRA": 5,
     "ARG": 14,
-    "MEX": 3,
     "GBR": 1,
     "JPN": 1,
+    "MEX": 2,
     "CHL": 1
   },
   "events": [
@@ -4041,6 +4041,13 @@
       "t": "2026-05-18T11:55:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU1NjTXdBeUdUN2xhVVdITFN0QUpfZGtCWndCTEpfR3dZMlFHNWttcDRpVXZ4M2g1NVg2SUo3dGVpdDd1bndMRXAxNE54aTlWY2EzTVZlNU11SkRyWUhYV1JYQmc3RmItbkstWDc2Wjc2eDlaY00zSW5UbXVaN1JGVzNNME9CX2NZb0dYbFpNYzVzWHdrOTBlVlVXczBwVTQxdmEwUGp5akN1b3lSSExaVF9qV3BsOWtVNGlKSXRB0gHLAUFVX3lxTE1FNkREUlpuczR2WEpFaFdma2ZWLWFQeHBHVW5XN0xzSkswV0pISmlUTFlKZF9sMU9penNaM21EUzRpREFsVEFNYkFxeFAzanJXdXFhX0l2dnF6Q2pmSEl3eGt6UnA2QUZEdXlTdmJQR082YkpmelNKLUdfTlhjUUhfcHZDc1pGckhSZnZvcGZyQ3hkX2pjS3ZIV09FM2pFTkxaNzM0REtkcjNaR19nQ0dfSXFVenQxVWRSa0w4MkdvUmNBQkZOSlVMb1Nv?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "First Case of Hantavirus Confirmed in North America - Parade",
+      "t": "2026-05-18T11:34:06Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9iSkJaRS1XZTd2UkthNWJBa0dmMFEzRUs2emNnaXJmNFpCRXotYmxhNVVqcTN0NzR3UUxHaldmQmtLNHBZM1pTcE5aTnEzX0FtMDNNU1ZyVkZSXzU4dDB3UkFkSFpLTWxrTERLUm03UWE2ampockx2ZA?oc=5"
     },
     {
       "iso": "FRA",
@@ -4218,13 +4225,6 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdGxZU29EZEFGSHR3MDM0UWVpdkctNklXZTlzQUdBRkc3Nkpvc2djaW1oY01qdlB2UGJ1Wm5CdU1tLVBfN2JkM0x4MFU2RDV3RXFxZm1CeE5XeEh3WHRuM1FSM3ZDeVlhSnRrM2pENy11el8zY0ZVNlNvdDFHRzFIQkI3RTkyZDN3eHdwTmRMWGw?oc=5"
     },
     {
-      "iso": "MEX",
-      "title": "New Mexico's Hantavirus Strain is Different From Cruise Ship Outbreak and Does Not Spread Between People - UNM HSC Newsroom",
-      "t": "2026-05-13T21:12:54Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVpsMXJOSnRETzVJRUNiajlyMHpQWkVhVFpKZ1kwQ240bHlEMDd2anV4XzBRclI5Ti1yVXVCRWZ6V0JMdXNNZ0xrUGw1OVdtM1pINk80QVg3UmxQN0h4V2xWZ2l2NzlvUE5aZE4wemtUQTBzUk9RMzRoZnQtcWlXTlNJNGtEX08tYXlENWZtQS1OQWNhRWxlSkpNWm1yZ0ZDZDRWejZZSlBfaExJX00zYzBtX1ZkY2c3S0FMc1V1amdueWpEaE9lejZZVkFhZw?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Esfuerzo global para controlar el brote de hantavirus, mientras los casos en Espa\u00f1a y Francia disparan la incertidumbre - EL PA\u00cdS",
       "t": "2026-05-13T03:30:01Z",
@@ -4276,8 +4276,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T13:55:03Z",
-      "signals": 15,
+      "last_update": "2026-05-18T14:00:32Z",
+      "signals": 14,
       "recent": [
         {
           "title": "Canada confirms hantavirus case linked to cruise ship outbreak that has killed three passengers - Fox News",
