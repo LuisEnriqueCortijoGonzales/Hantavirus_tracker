@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T08:40:32.087227Z",
-  "next_update": "2026-05-18T08:45:00Z",
+  "generated": "2026-05-18T08:45:32.090171Z",
+  "next_update": "2026-05-18T08:50:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 74,
       "alert": "vigilancia",
       "cfr": 37.3,
-      "var_pct": 11,
+      "var_pct": 10,
       "strain": "andes",
       "new_today": 1,
       "r0": null,
-      "signals": 19,
+      "signals": 18,
       "gov_alert": false
     },
     "CHL": {
@@ -151,11 +151,11 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 4,
+      "var_pct": 3,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 9,
+      "signals": 7,
       "gov_alert": false
     },
     "GTM": {
@@ -272,11 +272,11 @@
       "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 2,
+      "var_pct": 3,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 5,
+      "signals": 6,
       "gov_alert": false
     },
     "CHE": {
@@ -1498,7 +1498,7 @@
       73,
       73,
       73,
-      74,
+      73,
       74
     ],
     "CHL": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,12 +4018,12 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "CAN": 9,
+    "CAN": 7,
     "USA": 2,
-    "ARG": 19,
+    "ARG": 18,
+    "FRA": 6,
     "JPN": 2,
     "HUN": 1,
-    "FRA": 5,
     "GBR": 1,
     "MEX": 2,
     "COL": 1,
@@ -4060,10 +4060,10 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina's icy outpost at the end of the world fears the hantavirus will chill tourism - The Killeen Daily Herald",
+      "title": "Argentina's icy outpost at the end of the world fears the hantavirus will chill tourism - reflector.com",
       "t": "2026-05-18T07:01:18Z",
       "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOUEluSE9lTUxOSzBZbEgtS0lCWHFwVWpua3VCWjkzbWpoV01QRkN4cFBsRFVHclNvWnM0WEJYMXBTeGFkWjNjNUdBcm9XZ2JucVJFWEVNLVVjcjh4dkJweS13MGZkNGZmbnFZVkRORjhHOURoaUc2UmxTaFF3bFp2WHVfcFI4R2doVU83NkdWX1VLbFZEVGw5RlJMWDhoWlR5b0h3S3VpZzcxVWE1aXdLYlI4ZGN0SGxYUjJKU29OWUhnM1ZDZ0FkdWx6c2lDV0VRNFhmakhCS2lGYUx3ZFZkNm0xblhoSTB3VHlpRlg2LU5BRGZSV1lVZlNQS2JJRk0?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOTUpUdWluTEd2cV9mUExnTmFmZjBQTmNGRC1MOXBDdlAxMy1WMTVndGk1blZ5SmtyTWZxb0k2QkpvcjZMMVVWa1NUVTZzM3luMy13SjhxMHNiMndqam8xd0FhREZ2ZUtXT1h2Qm9mRjFzeVNwMmlrMGdWaHNRY2pSWUs5Um1WNmMzeHpKS3Z5akh6NGhXN25icFVNMzZ0SWM1TzZwTzYtX1BwUzVpSENUTDhFaENNMDFyTTR2RGVCa2RlcUQ0dE5nWFlNUTFzZnE4Y3lubUxuVUNqZDhsdHBROTZwRDg2Z0R1S0EyQjVET1paWHBnQUpPMS05YnhHbHEyU19iM0N6NA?oc=5"
     },
     {
       "iso": "ARG",
@@ -4075,9 +4075,9 @@
     {
       "iso": "ARG",
       "title": "El crucero afectado por hantavirus llegar\u00e1 a Holanda tras un brote mortal - Cadena 3 Argentina",
-      "t": "2026-05-18T06:56:15Z",
+      "t": "2026-05-18T06:56:54Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSW9mVlBzanVyekwwakNDUThJZmo4bWwxREdVZHgxRDBmVS1BQlJiWlZzRjBfdHFXVjM5RkJZR3I4UjZXZXFhelR4VmVvaXRLbTZFNDdEM0lveDRvVktYRGIxMmdtajJjeDVKVnZEd1V2LUlUQ05pOU5VX1V0ZXF3YnhRN1YxSXRIU3Q3TXZHZkhmbGtRSE9rb1pFaVdzX3dlNmowUHBGaDhacWVNTjNETHU5d01vRnl5RFE?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSW9mVlBzanVyekwwakNDUThJZmo4bWwxREdVZHgxRDBmVS1BQlJiWlZzRjBfdHFXVjM5RkJZR3I4UjZXZXFhelR4VmVvaXRLbTZFNDdEM0lveDRvVktYRGIxMmdtajJjeDVKVnZEd1V2LUlUQ05pOU5VX1V0ZXF3YnhRN1YxSXRIU3Q3TXZHZkhmbGtRSE9rb1pFaVdzX3dlNmowUHBGaDhacWVNTjNETHU5d01vRnl5RFHSAb8BQVVfeXFMT1BjWUcxaHhwQjJZTTkxX0loN0lEaEVJaWwtcG9USDRuV2wzMVRFYVdoTXZxajRzaVN1Sl9aLWthS0RrRkUwalNrQUt5UEFseEloMzVwOU5aVVE4aWtseko4RUlxdzZQNVNjbUtkSWIyODJSS3pXNDVkNmFJZG9Ma0JraGJLSzJDdi1GTlVuZmNpZGZISnJCMmJabFJqQXpHY2QyZ3ZHTW9aT0U0YTB1dm1EbHNTVkR3NjlmSTFrcFU?oc=5"
     },
     {
       "iso": "CAN",
@@ -4085,13 +4085,6 @@
       "t": "2026-05-18T02:17:33Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdjVIdE5rYnItLTBJdGpxV24wSVQzaXJnWGFCenJHQXdBekZhd2YyazBJUlpVLXFwZzloelRYZGY3RWJWTkkzb0RRV2YtSFZjZVlacHE1N2NtMWswY3p5Y3p0NkZ0LUh6VlNYanpIYkpXZEJLQ0M5M0FwUmI0REZheDVVNmtxM1QtdmpYSlNkbWV1SWVxeVZUQ3RnUm8xeXpZTEx3QlRxbHo1SVI0YW15VklXWdIBuAFBVV95cUxOU1FLRlE5QkJmTHZ1UExWQmo1SVcwZlpYRGtTVDZGUUI1aTdQTmd4OGVBZDcyUWI2MVg0YWEzblpLMmFNc0hfX2U3eVFJLUtiVldNTDhYcHJEaWpMcjBYeUlHc1FXRlNYSWhWZHpBR2ttN21Rc2FCUXhzelRmckRrNllUOUZaOVI4dTg1YVY5a2VyQS0zYnRPYlBWdmZwelhoVUhuRHBtNmxscDdmM0laVTRMX3JwVUZq?oc=5"
-    },
-    {
-      "iso": "CAN",
-      "title": "Canad\u00e1 confirma un caso de hantavirus relacionado con el brote en un crucero que ha causado la muerte de tres pasajeros - Yahoo",
-      "t": "2026-05-18T02:17:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNnlqTmlQWk13RW5QQmdhbzRCRkp6U21BdWxlZ1B4TDJtcmRDSXE5cVBnMF9mT3pTWVVyOU1UclpaMmRjNjYtdGJ6U3ZEbEhubnU0SDBRWlFuWkdWMUhGVHJfV1Fyd2x4T0xLUm5jSnR3Vm9fdW51MUNjZ0lJSDNXNG5RcTNZRklJWnpzSEpITGQxakp0N0hUazJmclo?oc=5"
     },
     {
       "iso": "USA",
@@ -4206,13 +4199,6 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWDhoZHBDMzlST2x0VDVLX3JkRWcwWE5LODFfbVUtUXZqWDluTVI0dnJXVVhfeVVmNWtuRFpqUFhFZC1ZVjB6MDk2UU9wUjJHWlh4djhySjFMa09iV29jZDN6cWFpYzF4aGRyQkR2UDJJVHUzUW1YTWV2QndJRVZkampSRHZRcnFHTi1tRk5RYTBhTTRpbGY2cUpFdVNRdUZfM3VWVDVlaWlmZERxYXF3RGU1VjhtajRXMEHSAb8BQVVfeXFMTjZ2Y2MzM3l3UDdTRWltZlZjdkkwSzVJWUdmNVpoeGVnTl9GODJ3OWhCV1BvV2Z3Ykh6c041ZDkwZGFZVFpqSWJqUlhEd3VoS1VZX2lIVWxOWGtQN2xSbWhSNy1YQWVEdFNhakNUdWc4TnRNaV9JV3FDRVBjM3IxRjZtbmg1SGtURkQ2aTBnS2c5Nm5uYWQ1MUtsU29lY3Y3ajVPRDZpTFMxM2w2N2x6XzFXVDdXZVB0M0ZobnhYdFE?oc=5"
     },
     {
-      "iso": "CAN",
-      "title": "Canada confirms first hantavirus case in isolation in British Columbia - The Guardian",
-      "t": "2026-05-16T20:12:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdDNheS1KQm5zRXhjWk5QSmlYbWd3dU41TmJZUHNvSnhGTFJkZ0prUWh6UlU3elZwZzAxVzdHVExwMDNoRTl0eElsUjNpR3FsOEsxWWR5c0hWU0Z5NFd0NVczczFYTWdUZUJmazlTWV9WeWJFRFdzTUdPbnFNWU1FMHVKcUtNbURfdEZrbnpJekdYZ3lOMkE?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
       "t": "2026-05-16T18:07:02Z",
@@ -4242,13 +4228,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus en Argentina: ya hay 102 casos confirmados y el gobierno refuerza el monitoreo del brote - Despertar Entrerriano",
-      "t": "2026-05-15T10:10:51Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSUFTVlRwcmpHR1NWNFF6V0o1YUFhVXdGaDhIOV9sUjc0cFhLeGFGSzhVdWk1Wm9fejl4bDFvN20xNVVwUU5rSWYtYUpiMnZ5Y19EcFdySXFrNEQzalpFektZbWFybTlKWTg5SWxfV2c2UXctX3BYVmFGU1AxZFktSjRkeXlFOUVFSWdVTHFaSGJGM19fMXZnSlVoWVgtaDM0OHhyZWRYTF9VUjJWSGI1S1pvaUVFbDZxdEdJTk5XQmJXdjRFTWZCcU5DMWs?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Argentina est\u00e1 en una carrera por hallar el origen del brote de hantavirus - The New York Times",
       "t": "2026-05-14T14:48:04Z",
       "source": "GoogleNews-ES",
@@ -4267,6 +4246,13 @@
       "t": "2026-05-14T09:04:59Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdGxZU29EZEFGSHR3MDM0UWVpdkctNklXZTlzQUdBRkc3Nkpvc2djaW1oY01qdlB2UGJ1Wm5CdU1tLVBfN2JkM0x4MFU2RDV3RXFxZm1CeE5XeEh3WHRuM1FSM3ZDeVlhSnRrM2pENy11el8zY0ZVNlNvdDFHRzFIQkI3RTkyZDN3eHdwTmRMWGw?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Hantavirus... gastroenteritis: \u00bfqu\u00e9 riesgos hay al abordar un crucero? - France 24",
+      "t": "2026-05-14T02:35:37Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOEI3QXZPM3Etc2JFMTR4Y0x1TmktbEZKMC0tZVZXZkdGWU1aZUpGTWxpUmgzXzlRd0MyNTN1MFVtRXhqSkVaRTNqdGRnX3dvQmNJRmdqWkFxZThmSHFmM2hGeTRBcG1ZY184LTVZVEVqNFdSX1RxY0U3YkJUSEsxNTRhWTBJX1VPcmhIS2dCU3N4ZFJpN0tYUzAtbHlsbGpMeG96TFZoaWxoYjV1elB5TThR?oc=5"
     },
     {
       "iso": "ARG",
@@ -4309,6 +4295,20 @@
       "t": "2026-05-10T17:36:03Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Un brote de 2018 en Argentina da pistas sobre c\u00f3mo se propaga el hantavirus - France 24",
+      "t": "2026-05-07T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc1hUT2M2aC10WmZZc01QMURwWU1hZ2tpYmJPbHllSVRiRlVKZ3RBMERpZmJ4Wk56LUFfX1NQZVk2U1BSXzdNdzFpb2U4WFdyay1tM1RyamZBTnF4MFdNLVpTWm5ucmdjSThNSk16eXU4U0Jwb01TMTAxWHVNUXpTSUtsaVNyd2ZubzhXZ0dsQzBOMDVybkFScjVhejhOdnNkZGV6WVppd01uVGI5dFMzZ0YwQk4tdHk2R1ZHXy1BSnVGbFhNWl9WZVVkUlp5UQ?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Un brote de 2018 en Argentina da pistas sobre c\u00f3mo se propaga el hantavirus - France 24",
+      "t": "2026-05-07T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc1hUT2M2aC10WmZZc01QMURwWU1hZ2tpYmJPbHllSVRiRlVKZ3RBMERpZmJ4Wk56LUFfX1NQZVk2U1BSXzdNdzFpb2U4WFdyay1tM1RyamZBTnF4MFdNLVpTWm5ucmdjSThNSk16eXU4U0Jwb01TMTAxWHVNUXpTSUtsaVNyd2ZubzhXZ0dsQzBOMDVybkFScjVhejhOdnNkZGV6WVppd01uVGI5dFMzZ0YwQk4tdHk2R1ZHXy1BSnVGbFhNWl9WZVVkUlp5UQ?oc=5"
     }
   ],
   "maritime_events": [
@@ -4327,7 +4327,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T08:40:32Z",
+      "last_update": "2026-05-18T08:45:32Z",
       "signals": 15,
       "recent": [
         {
@@ -4341,11 +4341,6 @@
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYkkteVAzeUdWdHM0Nlg0VTZYS1NCUUxUMXl5eXZiTFF0eUVMSGxKOU5DZEtlbk8ydlB1MTdjRUlKaUljeTNlTU84NUZub1pQeXAzWTlJaGxWbkJDcVFRYTFCdWE5WnY4ZG5CTzVYVnBWd09ENDVFeFFteHZhSGZEZnBwVjlIOEtQX1RSMVZFOHAxQUk2SnBjeExqb3gwOHo5dnkxblJGTnRFMm9XWVlaWF9GazlGR2lCLUJ2QVdFYy1uZENXV2ZuR0FwS1lILU1UMGfSAdcBQVVfeXFMTzRHR1FYeVU4OHR0a04wMmxuc2xsY2ZtYVFZQ3NaQXRDWi1rWnNvSnpybjdhNXZNeXpMSXhCQnZSaVRNbnozcFJBd3dibU4zTHpZM2hKbWYtWGpvQ1ZIaVBtamRDSmUxampFMlM1OVdxa3A5VjV0N3V1SFpCMUxNZmF6N2RRVlhDaDNIdlVoU01MaVNDRlhhSER0eTFvMEJLOVV6MzVZSmNBUmNYNktoaXZPZll3WTdyTGNSODM4cUhPa3ZhczhYaldJLXFHQzNkeC0xV3FqWVU?oc=5"
         },
         {
-          "title": "Canad\u00e1 confirma un caso de hantavirus relacionado con el brote en un crucero que ha causado la muerte de tres pasajeros - Yahoo",
-          "t": "2026-05-18T02:17:00Z",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNnlqTmlQWk13RW5QQmdhbzRCRkp6U21BdWxlZ1B4TDJtcmRDSXE5cVBnMF9mT3pTWVVyOU1UclpaMmRjNjYtdGJ6U3ZEbEhubnU0SDBRWlFuWkdWMUhGVHJfV1Fyd2x4T0xLUm5jSnR3Vm9fdW51MUNjZ0lJSDNXNG5RcTNZRklJWnpzSEpITGQxakp0N0hUazJmclo?oc=5"
-        },
-        {
           "title": "Canad\u00e1 reporta primer caso de hantavirus en pasajeros de crucero - Cadena 3 Argentina",
           "t": "2026-05-17T18:41:46Z",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd01idVpDYVFuSzZlbW9xVWJ0Zi1QVnpEVmlFMHpJdEc2SV9RODVZb05UcEZ0eXJ2bHJYR1pjeTNBU2Q4UVBPTXdoX1J6RWVrMkpRODlGQTY3YUJUbnczZFZaTTB5MUxfdVctSFpOaVljZlJCQ3JDd2dEU0NZanl0UE9ZVzRUenNHbHdXS1NVZ3ZCN3hwNC1UOFJzc0NCMGM4ZnZ4SUItcmFDbmNBaXfSAbMBQVVfeXFMTTluOGJkaG1BOEJVZHVTM3FGUGJQYWl6WGN5RGhLUTJwcFgxY0dWdllxb05vdTBkZ0laanU3Q01vTmF1SURzRVJlTzVlQ2Q1S3c2cXoxVkhkUEdlc3ZGM1VxTjVRZWRNczR6NVFZN19xN1BWWnBHaVZJMTNTTlA0dzFiNHV4aHU2Y3BxaF9ZQ2VzV1d3M0VnNWpNQ2xFMXZWMVRRRGN4TV9JOGRiV0RMcDE4OEk?oc=5"
@@ -4354,6 +4349,11 @@
           "title": "Canad\u00e1 confirma caso de hantavirus en ciudadano que viaj\u00f3 en el crucero afectado por un brote - Yahoo",
           "t": "2026-05-17T17:32:52Z",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVkw1MjRFV1FKM1VVLUZUSVV1TjN1X253T2pBOWFfMm14b19TRHNCZHNxZHVvR2VHVG85dWVRVkZ6Mnk1YmRmd05hTVlvSXlva2thRTZjZmJCNXpKckE4TWZZTEx5X0Nib3Z2QmZ1bU0zUkpad0NERUZwVTFEQ0ZGVFYxS2wtWnlOYTg0ajk2amFCU1B3dUFGUDdR?oc=5"
+        },
+        {
+          "title": "Health Officials Confirm First Case of Hantavirus in North America Stemming from Infected Cruise Ship - People.com",
+          "t": "2026-05-18T02:02:18Z",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbXk4T0sxZDBxRnRTNEpmRC1xNnVtcVJfZW9xNDZZa043bVNGTVRMSGxJeWVUV0xsSVc1a3g5dnQyT2NIV3hoWGxpbVBxQ2UzMEFlVGc2NTZMSnZBc1BrelJZWEtsZ1ZVNE1ZOGROU1RPbmFnVEFwQXM4NFdYbDF0TW1kTkVyMHJLRV92bjhsTkM4clJFT1ZRd3N5RE5vZXpLODQxTmhKc01UMGNCYzNWbWp1enhPbnZpemxDemxrLXFRRmlPcE9YRg?oc=5"
         }
       ]
     }
