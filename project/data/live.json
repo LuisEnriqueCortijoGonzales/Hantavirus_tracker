@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T23:30:32.053392Z",
-  "next_update": "2026-05-18T23:35:00Z",
+  "generated": "2026-05-18T23:45:22.058305Z",
+  "next_update": "2026-05-18T23:50:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -10,9 +10,9 @@
       "cfr": 37.3,
       "var_pct": 15,
       "strain": "andes",
-      "new_today": 5,
+      "new_today": 6,
       "r0": null,
-      "signals": 14,
+      "signals": 13,
       "gov_alert": false
     },
     "CHL": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 2,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "CHE": {
@@ -568,19 +568,19 @@
   },
   "history": {
     "ARG": [
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
       77
     ],
     "CHL": [
@@ -1452,36 +1452,37 @@
   ],
   "hourly_history": {
     "ARG": [
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
       72,
       72,
       72,
@@ -1498,7 +1499,6 @@
       76,
       76,
       76,
-      77,
       77
     ],
     "CHL": [
@@ -4022,10 +4022,17 @@
     "CAN": 2,
     "GBR": 2,
     "JPN": 2,
-    "ARG": 14,
-    "FRA": 4
+    "ARG": 13,
+    "FRA": 3
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - MSN",
+      "t": "2026-05-18T23:39:57Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxONlU1dkNEaHJRR1ZNUXBaVXdIRkJPVTRqYzBkc3RDbnUyUDJfVTRLN0lzX2ZGYVBmdUpNTEtNdjBMbHR5UWJ2c3BDeU5qNW9yVHBHMHdycENuNXZqVktoMlFzRlFORHRjRUgyVWhpUnZGcjVDVk5XN3V2MGhkMnFjUmFETV9FUnVNejJibU9RNEZzNlA0U1hXcEs2OG5nbW9raWRVbS1JVndxMDQzYVdfYVJZWkJXMXA3OTNZUGFPX0c5dFBHdmx6QVpRcnktUkdZZEx2RENfaDRHQUNtckJqT2hPVFhMQ05pWDBlci1YZEJJR25fSVdMX2xXaDBrVmc?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina\u2019s icy outpost at the end of the world fears the hantavirus will chill tourism - AP News",
@@ -4039,20 +4046,6 @@
       "t": "2026-05-18T20:04:46Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOWGFubW5kbV9jQXVQekxBS0kxN3p2SVZtOC1ycnl3VXp5OExIUmpDNlUtdVF4S3pCR2pJczVtb09odDBFY3AtaGpzMHlFbGNIdkw4MWR5Y1BYWFR1WXhSOWZ6MGkxZE5Id0RZSXhIWmZDaGRLMWZYc2JXMzRRblplXzdXOFJRZVg5c1BzWFBxSUhfT2hpQ3BZOE51cHNwdzUwSkFpV2dPRUwwSUZZam5YTEtpbThkdkhxc3h0UjRPY1BjUGRZT2xtS0g3RFE3Z0w4QjN4Y0JQR1Y1QkZCcVZiOFd2OA?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - France 24",
-      "t": "2026-05-18T19:40:03Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVlhuUG82VktZUi1sOWRpclRTZU9HUVZmQjRwaS0tVml5bXhuakthM0xHYUhXYzJEbGFMR200NUF0QnlfMnV4SzkyaXRURzRWcnM3bTBJQjdkSnlrMGhSVENkMUxjRzNrNW1JNVJvUlZaV3JCdzdZbmZQLXYwUTVmR2x6bFZVXy1EX3FBTk9uRXFIVHhwOS1ucXRZVGNwSERTdTRqYzFVbHdyTXh5SjJ5bXZVc2NEaGNPczZsbF9saFd0R0VMQU9ac19FbjlNd0VhTjd0cWx1WGJCMW5tLWVUdk1Tbw?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - France 24",
-      "t": "2026-05-18T19:40:03Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVlhuUG82VktZUi1sOWRpclRTZU9HUVZmQjRwaS0tVml5bXhuakthM0xHYUhXYzJEbGFMR200NUF0QnlfMnV4SzkyaXRURzRWcnM3bTBJQjdkSnlrMGhSVENkMUxjRzNrNW1JNVJvUlZaV3JCdzdZbmZQLXYwUTVmR2x6bFZVXy1EX3FBTk9uRXFIVHhwOS1ucXRZVGNwSERTdTRqYzFVbHdyTXh5SjJ5bXZVc2NEaGNPczZsbF9saFd0R0VMQU9ac19FbjlNd0VhTjd0cWx1WGJCMW5tLWVUdk1Tbw?oc=5"
     },
     {
       "iso": "GBR",
@@ -4203,13 +4196,6 @@
     },
     {
       "iso": "ARG",
-      "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
-      "t": "2026-05-10T17:36:03Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
       "t": "2026-05-06T07:00:00Z",
       "source": "GoogleNews-ES",
@@ -4232,8 +4218,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T23:30:32Z",
-      "signals": 10,
+      "last_update": "2026-05-18T23:45:22Z",
+      "signals": 9,
       "recent": [
         {
           "title": "Health Officials Confirm First Case of Hantavirus in North America Stemming from Infected Cruise Ship - People.com",
@@ -4251,14 +4237,14 @@
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVkw1MjRFV1FKM1VVLUZUSVV1TjN1X253T2pBOWFfMm14b19TRHNCZHNxZHVvR2VHVG85dWVRVkZ6Mnk1YmRmd05hTVlvSXlva2thRTZjZmJCNXpKckE4TWZZTEx5X0Nib3Z2QmZ1bU0zUkpad0NERUZwVTFEQ0ZGVFYxS2wtWnlOYTg0ajk2amFCU1B3dUFGUDdR?oc=5"
         },
         {
-          "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - France 24",
-          "t": "2026-05-18T19:40:03Z",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVlhuUG82VktZUi1sOWRpclRTZU9HUVZmQjRwaS0tVml5bXhuakthM0xHYUhXYzJEbGFMR200NUF0QnlfMnV4SzkyaXRURzRWcnM3bTBJQjdkSnlrMGhSVENkMUxjRzNrNW1JNVJvUlZaV3JCdzdZbmZQLXYwUTVmR2x6bFZVXy1EX3FBTk9uRXFIVHhwOS1ucXRZVGNwSERTdTRqYzFVbHdyTXh5SjJ5bXZVc2NEaGNPczZsbF9saFd0R0VMQU9ac19FbjlNd0VhTjd0cWx1WGJCMW5tLWVUdk1Tbw?oc=5"
-        },
-        {
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
           "t": "2026-05-15T12:33:58Z",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
+        },
+        {
+          "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - MSN",
+          "t": "2026-05-18T23:39:57Z",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxONlU1dkNEaHJRR1ZNUXBaVXdIRkJPVTRqYzBkc3RDbnUyUDJfVTRLN0lzX2ZGYVBmdUpNTEtNdjBMbHR5UWJ2c3BDeU5qNW9yVHBHMHdycENuNXZqVktoMlFzRlFORHRjRUgyVWhpUnZGcjVDVk5XN3V2MGhkMnFjUmFETV9FUnVNejJibU9RNEZzNlA0U1hXcEs2OG5nbW9raWRVbS1JVndxMDQzYVdfYVJZWkJXMXA3OTNZUGFPX0c5dFBHdmx6QVpRcnktUkdZZEx2RENfaDRHQUNtckJqT2hPVFhMQ05pWDBlci1YZEJJR25fSVdMX2xXaDBrVmc?oc=5"
         }
       ]
     }
