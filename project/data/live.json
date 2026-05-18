@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-18T07:40:32.055168Z",
-  "next_update": "2026-05-18T07:45:00Z",
+  "generated": "2026-05-18T07:45:32.083592Z",
+  "next_update": "2026-05-18T07:50:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
       "ytd": 74,
-      "alert": "vigilancia",
+      "alert": "brote",
       "cfr": 37.3,
       "var_pct": 10,
       "strain": "andes",
       "new_today": 1,
       "r0": null,
-      "signals": 19,
+      "signals": 18,
       "gov_alert": false
     },
     "CHL": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 8,
+      "signals": 9,
       "gov_alert": false
     },
     "GTM": {
@@ -1499,7 +1499,7 @@
       73,
       73,
       73,
-      74
+      73
     ],
     "CHL": [
       31,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
-    "epidemio": 15,
+    "composite": 16,
+    "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 24,
+    "kalshi": 25,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4015,25 +4015,18 @@
       "Europe"
     ],
     "emergency_count": 0,
-    "outbreak_count": 6
+    "outbreak_count": 7
   },
   "signal_summary": {
-    "CAN": 8,
+    "CAN": 9,
     "USA": 2,
-    "ARG": 19,
+    "ARG": 18,
     "FRA": 7,
     "MEX": 2,
     "COL": 1,
     "CHL": 1
   },
   "events": [
-    {
-      "iso": "ARG",
-      "title": "Argentina's icy outpost at the end of the world fears the hantavirus will chill tourism - The Killeen Daily Herald",
-      "t": "2026-05-18T07:01:18Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNZnNPMTQ2U1JWNk5xaUVLWjBiWWdUbjduZjh2Y1FFUGFzVVkwalUxVjFLMjVIOWxGQTBVeUU5M1ZzX1A4OVVYcnBLd1JlWWhCb0h3MjdHSnZKWDVCSF9OUkxTbUx2YmdOenRQdjZ0X0pIR3Zubm5BRWFRLXd3Tnl1dl9ta29TTFc2cHpBUHNDZlIyMW9PY3RvSXJVQU1Jd2JJLUNXcjBsWUlMNGlYNlhQbVoyMFdJYmVnazJsZ0ZtUEFLSTQ4eFFST0JjV3h3QWVXeWg1MVFEam1nRjFHb25hMmNLYThOc3dlOG9KLVJiMmpPNkJidzJhc1ltWQ?oc=5"
-    },
     {
       "iso": "ARG",
       "title": "Argentina\u2019s icy outpost at the end of the world fears the hantavirus will chill tourism - AP News",
@@ -4058,9 +4051,9 @@
     {
       "iso": "ARG",
       "title": "Argentina Hantavirus Tourism Fears - GazetteXtra",
-      "t": "2026-05-18T04:00:16Z",
+      "t": "2026-05-18T04:00:18Z",
       "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWjJ6OE00R0ZiWGhZeFFrU19lVzlERG1COE5ZVXA2d2JueVhBM3FPQzV1UTh6OGNiYUREcElrd19TemJZUEZvRkhJaUxfZDk0Rk9UNFdNVGQwVF85bjF6b3kyWms4cmlUMFo2RE00dFpGMVQteUoxMTgtUmJVdGRTS0tJT3pKZktxMm04bTdVOUh4ZVI1eFZnc2xtdUw4RWFSaXdrOGs1NXZWdmo2dHpLTVpPcUFnVDEyc29ReDF5cUNrZTFmZEtV?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPamN0ZkdCLXdaaXZpNXR0cGloc0o4N3Vzb1JyMGdkajkzUWV0LXlUcHp5c05DUGdPTU5tLXBTblMxU3l6SDd3bjhoTHNIZFQ3YjJwVUZRbktSMkdGRnctd3RqQXlSbV9TZkxyR1lvX21VdVM1S2ZfR0lzTDhUUXdvNXJxbzBKcktqekMtcjU3N2RwZnREYjZ6bnlqbVNWRXotMzIxakhsakE3bFpMVXhScjdyNkY4Vkl0Qk52dzBjMlNhUmNVR1cw?oc=5"
     },
     {
       "iso": "CAN",
@@ -4075,6 +4068,13 @@
       "t": "2026-05-18T02:02:18Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbXk4T0sxZDBxRnRTNEpmRC1xNnVtcVJfZW9xNDZZa043bVNGTVRMSGxJeWVUV0xsSVc1a3g5dnQyT2NIV3hoWGxpbVBxQ2UzMEFlVGc2NTZMSnZBc1BrelJZWEtsZ1ZVNE1ZOGROU1RPbmFnVEFwQXM4NFdYbDF0TW1kTkVyMHJLRV92bjhsTkM4clJFT1ZRd3N5RE5vZXpLODQxTmhKc01UMGNCYzNWbWp1enhPbnZpemxDemxrLXFRRmlPcE9YRg?oc=5"
+    },
+    {
+      "iso": "CAN",
+      "title": "Canada confirms 1st positive hantavirus case - FOX 13 Tampa Bay",
+      "t": "2026-05-17T22:08:56Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeFFmaXZPSVl4ZVkwNWZjc2x1enY5SFNCN1ZLcDBUdDlud0dKSk5nR3hLNHdYQ2RZQ1VZZnBrcldQQzZ4Q1I2Z3NoYTdqeTdDaEozOWxaNk5kNXhwc1BHOWwwTnAxaERWU0dtOUpXSVJTVUJ5RUxSek8tejFPXzVVcdIBhgFBVV95cUxOSnpwaGMwTktaMVBmVW1tbDZpNTYyYU5ZUjhEaGJXLWM2bVE4VGtEclFhcGc2ZTA0Ykt1S2haM1NnYkY1WmFadTEzcVI5ZE1Ick1JMGxfWDZWN19GamVhYzBNWG0zVWhGNGVLY1diNEJrbG9EWnNoZXpnejVkR1dFdzZBN25nQQ?oc=5"
     },
     {
       "iso": "CAN",
@@ -4324,7 +4324,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T07:40:32Z",
+      "last_update": "2026-05-18T07:45:32Z",
       "signals": 15,
       "recent": [
         {
