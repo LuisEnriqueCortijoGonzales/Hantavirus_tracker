@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T18:15:12.105908Z",
-  "next_update": "2026-05-18T18:20:00Z",
+  "generated": "2026-05-18T18:20:32.152173Z",
+  "next_update": "2026-05-18T18:25:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 7,
+      "signals": 6,
       "gov_alert": false
     },
     "CHE": {
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4022,8 +4022,8 @@
     "CAN": 6,
     "GBR": 2,
     "JPN": 2,
-    "FRA": 7,
-    "ARG": 15
+    "ARG": 15,
+    "FRA": 6
   },
   "events": [
     {
@@ -4049,10 +4049,10 @@
     },
     {
       "iso": "ARG",
-      "title": "Extremo sur de Argentina teme que el hantavirus enfr\u00ede el turismo - Hartford Courant",
-      "t": "2026-05-18T16:00:22Z",
+      "title": "Extremo sur de Argentina teme que el hantavirus enfr\u00ede el turismo - Boston Herald",
+      "t": "2026-05-18T16:00:09Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeXFGRmt6N21KYS1jWGVWeWE3dElZUXRzTmo1UWpxUE1sTjVaV2x6UlR3THJLVEhYQ1ZuV3ZUMUh2MnR5aFlVR1pYUlVGM19XZ1IzUnVrdm9zQzZHVmFUazc0V0tITTkxM1JDZ2hjdGZ5R0NLRUQ2Rmpuc1lFWVVVckNZNk52c3VydlA2WVhrUHJXLWxYN19OVkpsYUNfRDNXeWc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPblV4Nmp6cFBLOVRZcXlPa3Faa2thQXhtaUhKZFNJZ0UwVlZ4Sm5wNFJnVzkyYjFyNTdtQWJGeHZpTzdfWkpTUGpzUGtXdmprOFRFZlBJMlltU2ZFZXMxc3ZMSV9iUEhUOW5PbmVzSlJ0OHQ5T1U2Um9uN1JKTlJyMXFDMjJhSHdsVjd1TndHdEVZWnlUa3dhMHUwS3JObWdLLTViTnh5Rzg?oc=5"
     },
     {
       "iso": "USA",
@@ -4088,13 +4088,6 @@
       "t": "2026-05-18T11:55:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU1NjTXdBeUdUN2xhVVdITFN0QUpfZGtCWndCTEpfR3dZMlFHNWttcDRpVXZ4M2g1NVg2SUo3dGVpdDd1bndMRXAxNE54aTlWY2EzTVZlNU11SkRyWUhYV1JYQmc3RmItbkstWDc2Wjc2eDlaY00zSW5UbXVaN1JGVzNNME9CX2NZb0dYbFpNYzVzWHdrOTBlVlVXczBwVTQxdmEwUGp5akN1b3lSSExaVF9qV3BsOWtVNGlKSXRB0gHLAUFVX3lxTE1FNkREUlpuczR2WEpFaFdma2ZWLWFQeHBHVW5XN0xzSkswV0pISmlUTFlKZF9sMU9penNaM21EUzRpREFsVEFNYkFxeFAzanJXdXFhX0l2dnF6Q2pmSEl3eGt6UnA2QUZEdXlTdmJQR082YkpmelNKLUdfTlhjUUhfcHZDc1pGckhSZnZvcGZyQ3hkX2pjS3ZIV09FM2pFTkxaNzM0REtkcjNaR19nQ0dfSXFVenQxVWRSa0w4MkdvUmNBQkZOSlVMb1Nv?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Hantavirus cruise ship arrives in the Netherlands to be disinfected - France 24",
-      "t": "2026-05-18T10:45:11Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPb000dFpUaWJnVEJCd0hyeFE5R19WZFlXcFBDNzczZGR3cVZqYmdZVXJFQkdhTXRGbVlnbTJFZlRDb0k3eUEwemhEZ1k4OGhwNlg5TWFsamxDU0YtdExfdmszMndQTThPVlRfcy1NMG5mMm9sNy1ieTNJYTl6cHhNeFhxdnNVWURYeC1DNllNRUtpaUxuY2ZvbHE2Yw?oc=5"
     },
     {
       "iso": "GBR",
@@ -4244,14 +4237,14 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
     },
     {
-      "iso": "FRA",
+      "iso": "ARG",
       "title": "Argentina registra un aumento de casos de hantavirus, pero sin brote, dice un experto - France 24",
       "t": "2026-05-07T09:51:20Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNLTFxOHZhTWlVVlNad3M3TmRjVVNvM0gyMG1FUEpWNXZoUnp0b1ZaUEtTSkl1VkpXTHFmdHFZOTdBOFF2azUtY05XWGE0bVl2UFR3NUFLaDYzY0J2aDV4MkhUZUhMZlRNVTlsUTlHZ3o2eHBqMnlIbmt3MW5XRTBJM1drNThXd2RPQVJwTkJGQmNObE5INjRqRXVLRHZoOVY1aFBlSlR2RGhfZnlLWmU3WkwyUUItUWlyU2prWXFzM0NYVE1KRmpQOUFaQUZSaE5hNnc?oc=5"
     },
     {
-      "iso": "ARG",
+      "iso": "FRA",
       "title": "Argentina registra un aumento de casos de hantavirus, pero sin brote, dice un experto - France 24",
       "t": "2026-05-07T09:51:20Z",
       "source": "GoogleNews-ES",
@@ -4288,8 +4281,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T18:15:12Z",
-      "signals": 14,
+      "last_update": "2026-05-18T18:20:32Z",
+      "signals": 13,
       "recent": [
         {
           "title": "Health Officials Confirm First Case of Hantavirus in North America Stemming from Infected Cruise Ship - People.com",
