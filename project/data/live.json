@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T17:50:03.698304Z",
-  "next_update": "2026-05-18T17:55:00Z",
+  "generated": "2026-05-18T17:55:22.096062Z",
+  "next_update": "2026-05-18T18:00:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -74,22 +74,22 @@
       "ytd": 8,
       "alert": "brote",
       "cfr": 30.0,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": true
     },
     "USA": {
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 2,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,13 +4018,13 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "USA": 4,
+    "USA": 3,
     "CAN": 5,
     "GBR": 2,
     "JPN": 2,
     "FRA": 6,
-    "MEX": 2,
-    "ARG": 14
+    "ARG": 14,
+    "MEX": 1
   },
   "events": [
     {
@@ -4047,13 +4047,6 @@
       "t": "2026-05-18T16:22:06Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWUp2ZkdlUnFUVWtMTnphWHZFaHRlcS12UjlFa28xR3kyYTREN2xvdDN5ZHhKUUZYTGdTWlJGdzYyOUJpbElxVE9vUzNlM0FYN1dtekNweGo4T29obVJSMUU5M0tCbVhpcjVUUXRXem1CbzdZdXZRbVNhUWRhTGpRaW1wQmZxNWNkYm1LdnpkZXZWaUNiVEp4enBxdlAxV1BmMlFRZ2sxY0g0Qy1JdGZPZFVZMmxLUVoyOVRGal9JRHdtSERObFlnMWpjekhqTzhiTmxNSXF6N0NfWDBoMl9B?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "First Case of Hantavirus Confirmed in North America - AOL.com",
-      "t": "2026-05-18T16:21:16Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRWotbWphQjk0TzZNZzg4aENJb2x2emhuOGxnajNuQVpobDVabThSQjBFUGxoNW5YMHNwREVHb1Bjc2pLU1FEWm5Od2p4S19RaDRJdW9mOV91Sm1PSlBOVWE4Skh2cy0wb1lVSTFqZmQ1T3U3cUVfV2V6V3ZIdnpUOUpQcGVtZDlM?oc=5"
     },
     {
       "iso": "ARG",
@@ -4162,10 +4155,10 @@
     },
     {
       "iso": "CAN",
-      "title": "Confirma Canad\u00e1 un caso de hantavirus - Reforma",
-      "t": "2026-05-17T21:42:18Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9QMzVtRXdVZWpMMVR4R2V3czZpdDJJb0JjbjdOQVVNV3EzUDJQVjFCM2pWTVRyS0pPQXB0dUU1aTZjcktjZXNEN3JtTmZ6cTFTR3Q5bEhXUG1WOVdYbmVvNXZOamZPbEhtdE9HcUptdVR1WU5NVjNHZDktcw?oc=5"
+      "title": "Canada confirms first hantavirus case in isolation in British Columbia - The Guardian",
+      "t": "2026-05-17T21:45:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdDNheS1KQm5zRXhjWk5QSmlYbWd3dU41TmJZUHNvSnhGTFJkZ0prUWh6UlU3elZwZzAxVzdHVExwMDNoRTl0eElsUjNpR3FsOEsxWWR5c0hWU0Z5NFd0NVczczFYTWdUZUJmazlTWV9WeWJFRFdzTUdPbnFNWU1FMHVKcUtNbURfdEZrbnpJekdYZ3lOMkE?oc=5"
     },
     {
       "iso": "CAN",
@@ -4231,18 +4224,18 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdGxZU29EZEFGSHR3MDM0UWVpdkctNklXZTlzQUdBRkc3Nkpvc2djaW1oY01qdlB2UGJ1Wm5CdU1tLVBfN2JkM0x4MFU2RDV3RXFxZm1CeE5XeEh3WHRuM1FSM3ZDeVlhSnRrM2pENy11el8zY0ZVNlNvdDFHRzFIQkI3RTkyZDN3eHdwTmRMWGw?oc=5"
     },
     {
-      "iso": "MEX",
-      "title": "New Mexico's Hantavirus Strain is Different From Cruise Ship Outbreak and Does Not Spread Between People - UNM HSC Newsroom",
-      "t": "2026-05-13T21:12:54Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVpsMXJOSnRETzVJRUNiajlyMHpQWkVhVFpKZ1kwQ240bHlEMDd2anV4XzBRclI5Ti1yVXVCRWZ6V0JMdXNNZ0xrUGw1OVdtM1pINk80QVg3UmxQN0h4V2xWZ2l2NzlvUE5aZE4wemtUQTBzUk9RMzRoZnQtcWlXTlNJNGtEX08tYXlENWZtQS1OQWNhRWxlSkpNWm1yZ0ZDZDRWejZZSlBfaExJX00zYzBtX1ZkY2c3S0FMc1V1amdueWpEaE9lejZZVkFhZw?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Esfuerzo global para controlar el brote de hantavirus, mientras los casos en Espa\u00f1a y Francia disparan la incertidumbre - EL PA\u00cdS",
       "t": "2026-05-13T03:30:01Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOZlRCV003eVhvR2ZMcVAyR3VMTXByWVQ2d3o0Q0tOazBHRHdUcXlTcHZGYUs3UW1fVUg0aHBzT0JIckxKNTNtRzBOX3VuZ2lfbDE4LW4tZmtvR2RPUC1jS0RvTHFDMDNjbWdxVFk3TU9vaFJrRlJPNGxSRzE4TDV3RndRN2ZSQUZYakJNZmJ6S09GajlLR25FbzJZblZ3Q2xCdEN0MzdONy1rV2ZIU1hiS3RpRnpvakUtZzRFQjk5cjB5TC1BQVd4dDViRmFBMnhBWkwtOHdZcmQ4TFVmRWdwaDdWMmRSN19NT3hzRS1tY21TQzZ00gGIAkFVX3lxTE9hdnZDSzlBa0NMWmp0d2pCMzRUR3RPWFNXUWppc0hTOGlXMFpqRWRkQWcxa2FMeGlFNy02bnladkpNZW1KUEctZmJJSnh3ODMyNkNfVjBBc3FlTjVUaTlYZGNpZXNsaXVCRGljZFgzSGVVc1UySzlyNXgxUGdHWEs2QWxuellLZ3Zwc2l2dERQNkkyNEFmbkpXbE1WRVlOdTE5cTh1dkZkb3RzS0VpVVFCTDFNQi1IWS1TNFBoNVlZWFEzOFU5NkEwQ0kwLUtCeklQOExLVS1EcmRDdlJQUlBkQXhHR3pneDRtNXFFcnhfNlZEYWt3amdyZnVfdFd0WURIcEdiR2NXZA?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
+      "t": "2026-05-12T22:12:02Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeUtmR2dNaUYwdEFTMTc1dUlmZVR4c1MzTXQ5VDZQclYzbW1xdzRfUGF3aWFIc1lSaWpRcXhfbW5OdFVYbW0tekVySTBDYy1Va050T1cwTWVNZHk3a2pmYUNkNDQ2MndoS1N2cUJPaFpfOU9scFlyb1hZZTNwamg3YnJzTnFjbVRUVEFLdFhkQmlXNUlDWUpuQ0hGblpYVkpIcTlKX1kwMjRURTV0UVdkSVMwZDhvZVpMc2RTcFYwdkdTZHZ5SEFwNXBlNld1V2d6eHBmUHVCWVE5UDFsbGYtRDl30gH8AUFVX3lxTFBoQ1JGSnZhTHg2SmpiUlltY3Vzd3p0d3ZLVXR0VEFNQkQzNVlOb19PcVBabUlfdDc5RHR6aGdvOEhiUnNmcE43cGNoZG1KVTZWSmlnOHZxZHJPOWdRWXJkbUVIXzI1SzdjTC1MX3NNaFhodnJwODVRakN1OVZxMkFrNHlEMXlVN3ZFWW1kdUFId21ISkRPRVF6bnJlTlBjZHVOd1NaY2FKbUJfYktwQm5meE1LNVNMQmZyekV2MUQzM1AwcVRtQnhsd3N3Vl83aldDQ2ZxeDB0RlpERE9ENEZ3ekhodXhhLUlGelU0U3VVYVFjeE1OSUpTUXdqTQ?oc=5"
     },
     {
       "iso": "ARG",
@@ -4257,13 +4250,6 @@
       "t": "2026-05-10T17:36:03Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina reconstruye el periplo del \u2018caso \u00edndice\u2019 de hantavirus antes de subir al crucero - Sinc",
-      "t": "2026-05-07T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4289,8 +4275,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T17:50:03Z",
-      "signals": 13,
+      "last_update": "2026-05-18T17:55:22Z",
+      "signals": 12,
       "recent": [
         {
           "title": "Health Officials Confirm First Case of Hantavirus in North America Stemming from Infected Cruise Ship - People.com",
