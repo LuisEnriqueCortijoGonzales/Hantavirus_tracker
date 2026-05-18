@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T09:25:12.081475Z",
-  "next_update": "2026-05-18T09:30:00Z",
+  "generated": "2026-05-18T09:30:32.054493Z",
+  "next_update": "2026-05-18T09:35:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -558,11 +558,11 @@
       "ytd": 12,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hantaan",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     }
   },
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4022,9 +4022,9 @@
     "USA": 2,
     "ARG": 18,
     "HUN": 1,
-    "JPN": 2,
     "FRA": 6,
     "GBR": 1,
+    "JPN": 1,
     "MEX": 2,
     "COL": 1,
     "CHL": 1
@@ -4038,21 +4038,14 @@
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNkJzYkNnMFFCTGRHT09KMDFUVGJ3czFFWFlZU2xocVIwMFRnRjFQb0VFUGxWMWhGSG1xT0VteEdiUGZLZ2Z5bU50VDZCWURYUk84SjdfbTdmeGdlLXFya2tDVGp0LUwwd0l2dENmMVhCWUNBVnJCSG0xcDBEbC1TRXVSY0RWXzBFWHNQQkQwNUI5T3RrM2hhTU9KdF9COUlZY3c?oc=5"
     },
     {
-      "iso": "JPN",
-      "title": "Japan Calls for Calm Response to Hantavirus, Citing Low Risk - nippon.com",
-      "t": "2026-05-18T07:26:01Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1IUXZScmV0ZUZCWklPclpMS1lvSlJsbTNyTWx3MlU5VGZIRklObDVMb3o5M01DV0pzbXVTcGQteERpUDZRMV92QTZ1RmRQYk1hdkZxb2IxQXJMeXJ6?oc=5"
-    },
-    {
-      "iso": "JPN",
+      "iso": "GBR",
       "title": "Jap\u00f3n env\u00eda a Reino Unido su antigripal favipiravir para combatir el hantavirus - Infobae",
       "t": "2026-05-18T07:25:13Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOazFxRkZ0QW5xdGNQTFhLVGR5WFhoaWM0Q1VPSURIUHpEQkFEMzBnZVcwUFZKWW1EejRLdktZZ3hUUmdvbGtaNU1sLW4xVW5GOUIyT1FVQXowMm1WWktXT3lEVlBlbHlSTnBZazZHQUE0ZnNaMHNFTS11M0d4X2dXYWphclEtUnR4UjFSUk9aR0lyenZuZGVvdTdxc1A0LUZLSG9xalNsS0xHQzJrTS1JWGJjTEVGT3VINEhIR1BtQ0JzdXJLdFVSUVl6MmHSAecBQVVfeXFMUGQ5WHhIbk5lVHdGR1Zmb2xOY3JZNnNSNlA5OWJMa2tyODhMLVRwNVE3dTIwQXdXNmdTY2hLTWxwOVh1MFBFUGVuaHRnc01WbWxKMGRTcU5UTTEzaEowVHYyalJEQ1U4TkowNUFFNl9Oa0FBT0ktaEVGTGc5aG5DSkNWamxEbzlCNVdWYkxfd3RpWHhMenlrc1VEYk50c1dCMGRma0E3LThUZ01rQUtfSTBTVlktTjloQm9IOGd1enM4azlHREVSX2NfTDdERXlWVGZvOFcwNm1MV2hBNWVpNERlbUtrQmZn?oc=5"
     },
     {
-      "iso": "GBR",
+      "iso": "JPN",
       "title": "Jap\u00f3n env\u00eda a Reino Unido su antigripal favipiravir para combatir el hantavirus - Infobae",
       "t": "2026-05-18T07:25:13Z",
       "source": "GoogleNews-ES",
@@ -4309,6 +4302,13 @@
       "t": "2026-05-07T07:00:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc1hUT2M2aC10WmZZc01QMURwWU1hZ2tpYmJPbHllSVRiRlVKZ3RBMERpZmJ4Wk56LUFfX1NQZVk2U1BSXzdNdzFpb2U4WFdyay1tM1RyamZBTnF4MFdNLVpTWm5ucmdjSThNSk16eXU4U0Jwb01TMTAxWHVNUXpTSUtsaVNyd2ZubzhXZ0dsQzBOMDVybkFScjVhejhOdnNkZGV6WVppd01uVGI5dFMzZ0YwQk4tdHk2R1ZHXy1BSnVGbFhNWl9WZVVkUlp5UQ?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
+      "t": "2026-05-06T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
     }
   ],
   "maritime_events": [
@@ -4327,7 +4327,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T09:25:12Z",
+      "last_update": "2026-05-18T09:30:32Z",
       "signals": 14,
       "recent": [
         {
