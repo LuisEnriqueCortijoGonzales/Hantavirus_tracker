@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T07:15:32.059323Z",
-  "next_update": "2026-05-18T07:20:00Z",
+  "generated": "2026-05-18T07:20:32.163186Z",
+  "next_update": "2026-05-18T07:25:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 73,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 10,
+      "var_pct": 9,
       "strain": "andes",
       "new_today": 0,
       "r0": null,
-      "signals": 18,
+      "signals": 17,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,19 +4021,12 @@
     "CAN": 9,
     "USA": 2,
     "FRA": 8,
-    "ARG": 18,
+    "ARG": 17,
     "MEX": 2,
     "COL": 1,
     "CHL": 1
   },
   "events": [
-    {
-      "iso": "ARG",
-      "title": "Argentina's icy outpost at the end of the world fears the hantavirus will chill tourism - kens5.com",
-      "t": "2026-05-18T07:01:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQdFlRZTlfbS1DZUFncVZKY1R6MkRzY2xuYmNTTGdGeXpBNE1CeU13NW14SGVndmJKMFlfd1F5dzR0dmQwenEwYlZSZUFPbXhfdV90WWdtYXJib0dYU3dZY2FMMXl0R2NhNUwtM0tuczZaZWJkOHR6NmZfQ2d5U1FzaEs3WVBVbjR1bVJCZlBIald3S2dhUVB3ZHNibk42WW92a0dHcGpoVUtWTWxxcXhQS0lnaWNSVml3MU9Qa0p3TjlyNG1Fd192Z3NEdDNBOW9UbFNBUHlkS0daVkZ0R19FUTU4VXZfWkZmRjc2dE9IZ2lxdWV0Y1BMYnlGZU5PbEFyNGVCam9yRVNOQW9VQ0hSOHpqcw?oc=5"
-    },
     {
       "iso": "ARG",
       "title": "El crucero afectado por hantavirus llegar\u00e1 a Holanda tras un brote mortal - Cadena 3 Argentina",
@@ -4306,6 +4299,13 @@
       "t": "2026-05-07T07:00:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc1hUT2M2aC10WmZZc01QMURwWU1hZ2tpYmJPbHllSVRiRlVKZ3RBMERpZmJ4Wk56LUFfX1NQZVk2U1BSXzdNdzFpb2U4WFdyay1tM1RyamZBTnF4MFdNLVpTWm5ucmdjSThNSk16eXU4U0Jwb01TMTAxWHVNUXpTSUtsaVNyd2ZubzhXZ0dsQzBOMDVybkFScjVhejhOdnNkZGV6WVppd01uVGI5dFMzZ0YwQk4tdHk2R1ZHXy1BSnVGbFhNWl9WZVVkUlp5UQ?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
+      "t": "2026-05-06T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
     }
   ],
   "maritime_events": [
@@ -4324,7 +4324,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T07:15:32Z",
+      "last_update": "2026-05-18T07:20:32Z",
       "signals": 16,
       "recent": [
         {
