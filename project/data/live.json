@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T10:30:32.093657Z",
-  "next_update": "2026-05-18T10:35:00Z",
+  "generated": "2026-05-18T10:35:32.164399Z",
+  "next_update": "2026-05-18T10:40:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 75,
       "alert": "vigilancia",
       "cfr": 37.3,
-      "var_pct": 12,
+      "var_pct": 11,
       "strain": "andes",
       "new_today": 2,
       "r0": null,
-      "signals": 19,
+      "signals": 18,
       "gov_alert": false
     },
     "CHL": {
@@ -1496,10 +1496,10 @@
       73,
       73,
       73,
+      73,
       74,
       74,
-      74,
-      75
+      74
     ],
     "CHL": [
       31,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 24,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "CAN": 8,
     "USA": 2,
-    "ARG": 19,
+    "ARG": 18,
     "FRA": 5,
     "HUN": 1,
     "GBR": 1,
@@ -4192,13 +4192,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Confirmaron el d\u00e9cimo caso de hantavirus vinculado al crucero polar que parti\u00f3 desde la Argentina - MinutoUno",
-      "t": "2026-05-17T02:31:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVVJHNGtnVlYxUkNLa3laSnVPdXZ0bkhDZkFvbWVZSE1uM2tZTDVObEVWLTV4cVR2eERKSE5wNzhVOVprYmVjd282TWEyZ2N2RHVESFV0clhtRWRoNHc5dm5ZWFdYeWRhOG04Z3VvY2lBOUZpUUFaNS1UZmp2MjdIS2tnOUVIZGVrNlZhN01VVDRadHZVc0tpVjJCNFVyNG1xVXU4ZUFrZ1g5bE1mT2s0RkJhb3RRUXNXQW5ScDd3eFZmVkxMTXd5S1U5cVTSAcwBQVVfeXFMTlVSRzRrZ1ZWMVJDS2t5Wkp1T3V2dG5IQ2ZBb21lWUhNbjNrWUw1TmxFVi01eHFUdnhESkhOcDc4VTlaa2JlY3dvNk1hMmdjdkR1REhVdHJYbUVkaDR3OXZuWVhXWHlkYThtOGd1b2NpQTlGaVFBWjUtVGZqdjI3SEtrZzlFSGRlazZWYTdNVVQ0WnR2VXNLaVYyQjRVcjRtcVV1OGVBa2dYOWxNZk9rNEZCYW90UVFzV0FuUnA3d3hWZlZMTE13eUtVOXFU?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Brote de hantavirus: canadiense que viaj\u00f3 en crucero da positivo en prueba - Cadena 3 Argentina",
       "t": "2026-05-16T22:18:04Z",
       "source": "GoogleNews-ES",
@@ -4326,8 +4319,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T10:30:32Z",
-      "signals": 15,
+      "last_update": "2026-05-18T10:35:32Z",
+      "signals": 14,
       "recent": [
         {
           "title": "Canada confirms hantavirus case linked to cruise ship outbreak that has killed three passengers - Fox News",
