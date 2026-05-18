@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-18T19:55:12.107598Z",
-  "next_update": "2026-05-18T20:00:00Z",
+  "generated": "2026-05-18T20:00:03.714560Z",
+  "next_update": "2026-05-18T20:05:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 76,
+      "ytd": 77,
       "alert": "vigilancia",
       "cfr": 37.3,
-      "var_pct": 14,
+      "var_pct": 15,
       "strain": "andes",
-      "new_today": 4,
+      "new_today": 5,
       "r0": null,
-      "signals": 15,
+      "signals": 16,
       "gov_alert": false
     },
     "CHL": {
@@ -581,7 +581,7 @@
       72,
       72,
       72,
-      76
+      77
     ],
     "CHL": [
       31,
@@ -1401,7 +1401,6 @@
     "2026-05-18T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-16T20:00:00Z",
     "2026-05-16T21:00:00Z",
     "2026-05-16T22:00:00Z",
     "2026-05-16T23:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-18T16:00:00Z",
     "2026-05-18T17:00:00Z",
     "2026-05-18T18:00:00Z",
-    "2026-05-18T19:00:00Z"
+    "2026-05-18T19:00:00Z",
+    "2026-05-18T20:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -1486,8 +1486,6 @@
       72,
       72,
       72,
-      72,
-      72,
       73,
       73,
       73,
@@ -1499,7 +1497,9 @@
       75,
       76,
       76,
-      76
+      76,
+      77,
+      77
     ],
     "CHL": [
       31,
@@ -1511,7 +1511,6 @@
       31,
       31,
       31,
-      31,
       32,
       32,
       32,
@@ -1544,6 +1543,7 @@
       35,
       35,
       35,
+      36,
       36,
       36,
       36,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 13,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 16,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4022,10 +4022,24 @@
     "CAN": 3,
     "GBR": 2,
     "JPN": 2,
-    "ARG": 15,
+    "ARG": 16,
     "FRA": 5
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Argentina\u2019s icy outpost at the end of the world fears the hantavirus will chill tourism - The Seattle Times",
+      "t": "2026-05-18T19:48:35Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRmt6VDJPX21ucHdOdFpvSG5TcDBsQlE1QWI1WGxLTFJFLW83d3c1YVExUklBR3pvdi1lbUNKX0xYM1U3dzRkSm5LWFNsWkJ6R3p3WDY2LThMd1VDWVkzMDZSaTZZWjk5ZV9Ba2hEM3RERVNJTjNpcldFbVFRa2pVazRTcGtNMldQOUpPMG5sZVE2dHlxY2FXdHV1YnVHS0lDbWdNUDJEQ2V6VUxkcVphSENlUDl6V2ZJZmxPdkU5Y2VYcGpNUmlWUndyaDJIcGtF?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina\u2019s icy outpost at the end of the world fears the hantavirus will chill tourism - AP News",
+      "t": "2026-05-18T19:35:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3ZsNWRWd2JEZEpWclg4V2RoMlJ0bWRiVFpSN0pZX3ZfX0JtdW15RHZicG5od1FMbl92Tm4zdC1DRHBsQW1XR3VtZnVOQ2JOYXd2QlZCWFpsTzJHVGEtTDFnbmRSTy1EV04wNmhVM2xMVkZTVGg5dURsZktfMFNFZG43S0FpdFA3ZzJ0R09wQXVzNHRMaGY1Ynkxa2VMSXowcU9CZ3BCWnZQaFZi?oc=5"
+    },
     {
       "iso": "GBR",
       "title": "Britain gets experimental drug from Japan to bolster hantavirus response - Reuters",
@@ -4042,10 +4056,10 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina\u2019s icy outpost at the end of the world fears the hantavirus will chill tourism - AP News",
-      "t": "2026-05-18T18:36:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3ZsNWRWd2JEZEpWclg4V2RoMlJ0bWRiVFpSN0pZX3ZfX0JtdW15RHZicG5od1FMbl92Tm4zdC1DRHBsQW1XR3VtZnVOQ2JOYXd2QlZCWFpsTzJHVGEtTDFnbmRSTy1EV04wNmhVM2xMVkZTVGg5dURsZktfMFNFZG43S0FpdFA3ZzJ0R09wQXVzNHRMaGY1Ynkxa2VMSXowcU9CZ3BCWnZQaFZi?oc=5"
+      "title": "Extremo sur de Argentina teme que el hantavirus enfr\u00ede el turismo - laradiodelmercosur.com.ar",
+      "t": "2026-05-18T18:24:58Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRHgzVkxtckl1VVJRejRqYklSTlRsQU1IdzI3VWpNSk5NUlItSDVjQ29tR3BPM1B0NlJLMnBKSkozbjlHVDRVX2F2RXZfci1DT211aWZsNWRZNUNRb1d2UHBGanMzWDhxYXpUekwwOTdFaEpndUhZby0yNjVzTkhPdTV2bVRuMkU0REtDcnVpNDUyMGgtRDJKeHJMWWVTVTVYTlpsTnNiWW1oVzFmc2FCcQ?oc=5"
     },
     {
       "iso": "FRA",
@@ -4053,13 +4067,6 @@
       "t": "2026-05-18T16:22:06Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWUp2ZkdlUnFUVWtMTnphWHZFaHRlcS12UjlFa28xR3kyYTREN2xvdDN5ZHhKUUZYTGdTWlJGdzYyOUJpbElxVE9vUzNlM0FYN1dtekNweGo4T29obVJSMUU5M0tCbVhpcjVUUXRXem1CbzdZdXZRbVNhUWRhTGpRaW1wQmZxNWNkYm1LdnpkZXZWaUNiVEp4enBxdlAxV1BmMlFRZ2sxY0g0Qy1JdGZPZFVZMmxLUVoyOVRGal9JRHdtSERObFlnMWpjekhqTzhiTmxNSXF6N0NfWDBoMl9B?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Extremo sur de Argentina teme que el hantavirus enfr\u00ede el turismo - Boston Herald",
-      "t": "2026-05-18T16:00:09Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPblV4Nmp6cFBLOVRZcXlPa3Faa2thQXhtaUhKZFNJZ0UwVlZ4Sm5wNFJnVzkyYjFyNTdtQWJGeHZpTzdfWkpTUGpzUGtXdmprOFRFZlBJMlltU2ZFZXMxc3ZMSV9iUEhUOW5PbmVzSlJ0OHQ5T1U2Um9uN1JKTlJyMXFDMjJhSHdsVjd1TndHdEVZWnlUa3dhMHUwS3JObWdLLTViTnh5Rzg?oc=5"
     },
     {
       "iso": "USA",
@@ -4253,7 +4260,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T19:55:12Z",
+      "last_update": "2026-05-18T20:00:03Z",
       "signals": 11,
       "recent": [
         {
