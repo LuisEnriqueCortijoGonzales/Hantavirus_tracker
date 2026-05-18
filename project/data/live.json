@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-18T07:45:32.083592Z",
-  "next_update": "2026-05-18T07:50:00Z",
+  "generated": "2026-05-18T07:50:32.111661Z",
+  "next_update": "2026-05-18T07:55:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
       "ytd": 74,
-      "alert": "brote",
+      "alert": "vigilancia",
       "cfr": 37.3,
       "var_pct": 10,
       "strain": "andes",
       "new_today": 1,
       "r0": null,
-      "signals": 18,
+      "signals": 19,
       "gov_alert": false
     },
     "CHL": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 9,
+      "signals": 8,
       "gov_alert": false
     },
     "GTM": {
@@ -272,11 +272,11 @@
       "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 3,
+      "var_pct": 4,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 7,
+      "signals": 8,
       "gov_alert": false
     },
     "CHE": {
@@ -1499,7 +1499,7 @@
       73,
       73,
       73,
-      73
+      74
     ],
     "CHL": [
       31,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
-    "epidemio": 16,
+    "composite": 15,
+    "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 25,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4015,18 +4015,25 @@
       "Europe"
     ],
     "emergency_count": 0,
-    "outbreak_count": 7
+    "outbreak_count": 6
   },
   "signal_summary": {
-    "CAN": 9,
+    "CAN": 8,
     "USA": 2,
-    "ARG": 18,
-    "FRA": 7,
+    "ARG": 19,
+    "FRA": 8,
     "MEX": 2,
     "COL": 1,
     "CHL": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Argentina's icy outpost at the end of the world fears the hantavirus will chill tourism - The Killeen Daily Herald",
+      "t": "2026-05-18T07:01:18Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOUEluSE9lTUxOSzBZbEgtS0lCWHFwVWpua3VCWjkzbWpoV01QRkN4cFBsRFVHclNvWnM0WEJYMXBTeGFkWjNjNUdBcm9XZ2JucVJFWEVNLVVjcjh4dkJweS13MGZkNGZmbnFZVkRORjhHOURoaUc2UmxTaFF3bFp2WHVfcFI4R2doVU83NkdWX1VLbFZEVGw5RlJMWDhoWlR5b0h3S3VpZzcxVWE1aXdLYlI4ZGN0SGxYUjJKU29OWUhnM1ZDZ0FkdWx6c2lDV0VRNFhmakhCS2lGYUx3ZFZkNm0xblhoSTB3VHlpRlg2LU5BRGZSV1lVZlNQS2JJRk0?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina\u2019s icy outpost at the end of the world fears the hantavirus will chill tourism - AP News",
@@ -4070,11 +4077,11 @@
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbXk4T0sxZDBxRnRTNEpmRC1xNnVtcVJfZW9xNDZZa043bVNGTVRMSGxJeWVUV0xsSVc1a3g5dnQyT2NIV3hoWGxpbVBxQ2UzMEFlVGc2NTZMSnZBc1BrelJZWEtsZ1ZVNE1ZOGROU1RPbmFnVEFwQXM4NFdYbDF0TW1kTkVyMHJLRV92bjhsTkM4clJFT1ZRd3N5RE5vZXpLODQxTmhKc01UMGNCYzNWbWp1enhPbnZpemxDemxrLXFRRmlPcE9YRg?oc=5"
     },
     {
-      "iso": "CAN",
-      "title": "Canada confirms 1st positive hantavirus case - FOX 13 Tampa Bay",
-      "t": "2026-05-17T22:08:56Z",
+      "iso": "FRA",
+      "title": "Hantavirus-hit cruise ship nears end of voyage, to dock in Rotterdam - France 24",
+      "t": "2026-05-18T01:23:13Z",
       "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeFFmaXZPSVl4ZVkwNWZjc2x1enY5SFNCN1ZLcDBUdDlud0dKSk5nR3hLNHdYQ2RZQ1VZZnBrcldQQzZ4Q1I2Z3NoYTdqeTdDaEozOWxaNk5kNXhwc1BHOWwwTnAxaERWU0dtOUpXSVJTVUJ5RUxSek8tejFPXzVVcdIBhgFBVV95cUxOSnpwaGMwTktaMVBmVW1tbDZpNTYyYU5ZUjhEaGJXLWM2bVE4VGtEclFhcGc2ZTA0Ykt1S2haM1NnYkY1WmFadTEzcVI5ZE1Ick1JMGxfWDZWN19GamVhYzBNWG0zVWhGNGVLY1diNEJrbG9EWnNoZXpnejVkR1dFdzZBN25nQQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUjh3MnJDd2ZHRFZRYWVlb2k2RFNlVy1aR20zcndVYU1qRTd2S3RPeWpmWVh1Zm5xR0pyZ0RsTjNfaWEtRS1oaFBFQWJJWjBiNm9oUlBwajVGcjlEWm9wRHoyN2tXRlE2WGVpVm9yaDdDQTZ0bU5OR0FtaC1oYmNUdndzNEFNVmVtdU9fSWt6VllMRFdLb2U4ZVduLVBaTlFKQWN4VkstZFVJM0FYYXhfNExvTTU?oc=5"
     },
     {
       "iso": "CAN",
@@ -4299,13 +4306,6 @@
       "t": "2026-05-07T07:00:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc1hUT2M2aC10WmZZc01QMURwWU1hZ2tpYmJPbHllSVRiRlVKZ3RBMERpZmJ4Wk56LUFfX1NQZVk2U1BSXzdNdzFpb2U4WFdyay1tM1RyamZBTnF4MFdNLVpTWm5ucmdjSThNSk16eXU4U0Jwb01TMTAxWHVNUXpTSUtsaVNyd2ZubzhXZ0dsQzBOMDVybkFScjVhejhOdnNkZGV6WVppd01uVGI5dFMzZ0YwQk4tdHk2R1ZHXy1BSnVGbFhNWl9WZVVkUlp5UQ?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
-      "t": "2026-05-06T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
     }
   ],
   "maritime_events": [
@@ -4324,8 +4324,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T07:45:32Z",
-      "signals": 15,
+      "last_update": "2026-05-18T07:50:32Z",
+      "signals": 16,
       "recent": [
         {
           "title": "Canada confirms hantavirus case linked to cruise ship outbreak that has killed three passengers - Fox News",
