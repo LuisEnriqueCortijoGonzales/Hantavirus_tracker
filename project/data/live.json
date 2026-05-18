@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T00:35:32.170325Z",
-  "next_update": "2026-05-18T00:40:00Z",
+  "generated": "2026-05-18T00:40:32.055550Z",
+  "next_update": "2026-05-18T00:45:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 1,
+      "var_pct": 2,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 4,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
-    "epidemio": 17,
+    "composite": 17,
+    "epidemio": 18,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "CAN": 9,
-    "FRA": 3,
+    "FRA": 4,
     "ARG": 16,
     "USA": 1,
     "MEX": 2,
@@ -4027,6 +4027,13 @@
     "CHL": 1
   },
   "events": [
+    {
+      "iso": "FRA",
+      "title": "Hantavirus-hit cruise ship MV Hondius arrives in Rotterdam for disinfection - France 24",
+      "t": "2026-05-18T00:36:28Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaFpBU2xQeTVqZVJodXpWS3ZQbVpFTGhlQ1c5WHJvNVNSN2RWZTc4WVlLQVJrWGF3QjlPZGgyVGdSQkphS3h6Q3NKM0w4RllVb3h6MHY4bHBtbVotNTZXZU1SWnBIcFI3eDI5d1JINDFXaTJsLXhEUTBYWnQ5UE9KLWpLNk1BcHc5WTRPbDdndE1sdVZLQ3NBSUp4U0YxQ2FOdWRSOF9WTmptU3dsUFpPbVNkSlIyYzluVWNJ?oc=5"
+    },
     {
       "iso": "CAN",
       "title": "Pasajero de crucero con brote de hantavirus viaj\u00f3 a Canad\u00e1 y dio positivo - Noticias de Puerto Rico hoy",
@@ -4275,8 +4282,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T00:35:32Z",
-      "signals": 14,
+      "last_update": "2026-05-18T00:40:32Z",
+      "signals": 15,
       "recent": [
         {
           "title": "Salud. Canad\u00e1 confirma un caso de hantavirus: se trata de un pasajero del crucero MV Hondius - La Voz del Interior",
