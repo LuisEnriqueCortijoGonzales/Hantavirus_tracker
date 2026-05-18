@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T14:30:03.688260Z",
-  "next_update": "2026-05-18T14:35:00Z",
+  "generated": "2026-05-18T14:35:32.162648Z",
+  "next_update": "2026-05-18T14:40:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -78,18 +78,18 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": true
     },
     "USA": {
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 1,
+      "var_pct": 2,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 4,
       "gov_alert": false
     },
     "PRY": {
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 24,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,16 +4018,23 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "USA": 3,
+    "USA": 4,
     "CAN": 7,
     "FRA": 4,
-    "MEX": 3,
     "ARG": 14,
     "GBR": 1,
     "JPN": 1,
+    "MEX": 2,
     "CHL": 1
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "Nuevos focos de hantavirus en Estados Unidos: identifican zonas con mayor riesgo y advierten sobre nuevas especies portadoras - Infobae",
+      "t": "2026-05-18T14:10:32Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPUHk4OVFHNHR0X0NzWFR2ZFljODlFb0NwcVVmUzRSUzB2V0t0Q3RVamloQ1pUZlJDeTJFeTByNXl5ZWdtX2lGSk1ZQnY0bTRqUTJfQThmRGpMYWNJa29oeXAxUFAyc1B6ZFBYMkpRTm9LenNWQ0NpRGhoWV8wWVNlS3lRV0Y5T2lVZHYtbDAyaTlIT3RSNkxNamNZNkdyNGFGbFY3ZFlLWnQzbFpabll3TC0yTHNHM2RYOFFkZ05lQWJ1dktDOHRIS0Zwa05aMFFnR1RjMk5GMG9qTmpEd2JJNFcxOXpKbmswSlZGREU0QnNlZllPQ01hOW1acm1JWFNaekhaMnVB0gGgAkFVX3lxTE55NHNBak9yQ0xVN1hqa2JlVERSOHdKTEhvN09RSjlCWjVwTVYySVljVXVhQjdvdDFvUFo4UXVMZmROekd1RHY1TEQwb2dNaXo4YnJrbjB3b19KRkI2MVRLY1pzMHdWQ3R3Z19OM0xYR3BMZDhSbnhuS0VKaXY1YVAtZm5xZmdENVdqblVEMmEtSnhhQUl2ZWJ3UXBDUlZHQk9OMmZHQldVYmVDZWs5QnlCSEFRN2F0blpDUVlSZU8zQ0dTWDJaVkdBV1U3M0NFRGZSemJKMUFWdkNZUVJlYmYxYnZIcGtfUkVrWG1Hd3RBM29hWlBFb3ItcGx5TXdyY0VpREFkSW90QzRJLWdOdEZXdFVmRXBiaHlKZGdkOEszbA?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Colorado adult dies from hantavirus after local rodent exposure - USA Today",
@@ -4225,13 +4232,6 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdGxZU29EZEFGSHR3MDM0UWVpdkctNklXZTlzQUdBRkc3Nkpvc2djaW1oY01qdlB2UGJ1Wm5CdU1tLVBfN2JkM0x4MFU2RDV3RXFxZm1CeE5XeEh3WHRuM1FSM3ZDeVlhSnRrM2pENy11el8zY0ZVNlNvdDFHRzFIQkI3RTkyZDN3eHdwTmRMWGw?oc=5"
     },
     {
-      "iso": "MEX",
-      "title": "New Mexico's Hantavirus Strain is Different From Cruise Ship Outbreak and Does Not Spread Between People - UNM HSC Newsroom",
-      "t": "2026-05-13T21:12:54Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVpsMXJOSnRETzVJRUNiajlyMHpQWkVhVFpKZ1kwQ240bHlEMDd2anV4XzBRclI5Ti1yVXVCRWZ6V0JMdXNNZ0xrUGw1OVdtM1pINk80QVg3UmxQN0h4V2xWZ2l2NzlvUE5aZE4wemtUQTBzUk9RMzRoZnQtcWlXTlNJNGtEX08tYXlENWZtQS1OQWNhRWxlSkpNWm1yZ0ZDZDRWejZZSlBfaExJX00zYzBtX1ZkY2c3S0FMc1V1amdueWpEaE9lejZZVkFhZw?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Esfuerzo global para controlar el brote de hantavirus, mientras los casos en Espa\u00f1a y Francia disparan la incertidumbre - EL PA\u00cdS",
       "t": "2026-05-13T03:30:01Z",
@@ -4283,8 +4283,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T14:30:03Z",
-      "signals": 15,
+      "last_update": "2026-05-18T14:35:32Z",
+      "signals": 14,
       "recent": [
         {
           "title": "Health Officials Confirm First Case of Hantavirus in North America Stemming from Infected Cruise Ship - People.com",
