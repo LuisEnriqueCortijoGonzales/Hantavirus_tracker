@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T01:55:12.119894Z",
-  "next_update": "2026-05-18T02:00:00Z",
+  "generated": "2026-05-18T02:00:32.079714Z",
+  "next_update": "2026-05-18T02:05:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -151,11 +151,11 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 4,
+      "var_pct": 3,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 8,
+      "signals": 7,
       "gov_alert": false
     },
     "GTM": {
@@ -1401,7 +1401,6 @@
     "2026-05-18T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-16T02:00:00Z",
     "2026-05-16T03:00:00Z",
     "2026-05-16T04:00:00Z",
     "2026-05-16T05:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-17T22:00:00Z",
     "2026-05-17T23:00:00Z",
     "2026-05-18T00:00:00Z",
-    "2026-05-18T01:00:00Z"
+    "2026-05-18T01:00:00Z",
+    "2026-05-18T02:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -1528,7 +1528,6 @@
       31,
       31,
       31,
-      31,
       32,
       32,
       32,
@@ -1545,6 +1544,7 @@
       33,
       33,
       33,
+      34,
       34,
       34,
       34,
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "CAN": 8,
+    "CAN": 7,
     "FRA": 4,
     "ARG": 17,
     "USA": 1,
@@ -4027,13 +4027,6 @@
     "CHL": 1
   },
   "events": [
-    {
-      "iso": "CAN",
-      "title": "Pasajero de crucero con brote de hantavirus viaj\u00f3 a Canad\u00e1 y dio positivo - Noticias de Puerto Rico hoy",
-      "t": "2026-05-17T23:15:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdGFlZkt1OUhfcjk1bWNaRVZuajdWV1EwaVVkRUp3bFJsTWNvX0lnMkpqdHF1MnlQNHVORUNHS2dxZGh6a3lYeWJKT01TMGtfNl9xLWFBUWRlN3Mzc2NMdmRpN2w1X3BwOExvc0w3a25fT252VjNZSEFGdmNWeThfZWF0VXhsTk8xcUZIOG9obkJnUWJPWXUwNlg4X1ZXaG5JNWZuQ3BvVHVlSTVVeEtpMTFJLWtSMi0wbFFvWlpFQQ?oc=5"
-    },
     {
       "iso": "CAN",
       "title": "Canada confirms 1st positive hantavirus case - LiveNOW from FOX",
@@ -4282,8 +4275,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T01:55:12Z",
-      "signals": 14,
+      "last_update": "2026-05-18T02:00:32Z",
+      "signals": 13,
       "recent": [
         {
           "title": "Canad\u00e1 reporta primer caso de hantavirus en pasajeros de crucero - Cadena 3 Argentina",
@@ -4296,11 +4289,6 @@
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVFk3d0NqY25iZTI3aVJEUHpqWU1DQjZxRlM3X1M0R0hQc0lMMlhpUEhERGMtaFliMWZtcXZOLUgwVVUzSFFjY2swYU05c1NnOW1oWGI5TkZtcmFMOFFpbFpOSjBXYkIwV2NZcnoteVpBMFJGeEcxYnRMTHlOWVFseFV1RlFsS0phN2V0al9EaG1VeVhOS3dvdjRPcG53TkRSNzh6ZHZQdkRKNE93TkFiM2xHdklJeDlabmxzM2xB0gHSAUFVX3lxTE05b3JCdVk3ZnAweVRJMjBubEEtTmEtd2pTLWdXYkdPYjBpeGlqdnJ0ZHFwc1VvV2hSRC1Qdk5GVUhTZDVOaWZLWmNING13Tk1jWV9DNF9DdEw3V0ZDNDdRdFY5SF9POEZiQnZ0N3FRWF9GdUJTME9VUms3bkxBSWVfQ2ZVWExHU3Z1RnBLcUJnTXlpYjI0em5hckcwdEZRZ0RDOHBPYXhQTTFkZ1dPTDNNTTdyZmFwcncxN3hldDJEX2N6aWYzbGd0WFpwbTlmTWk0UQ?oc=5"
         },
         {
-          "title": "Pasajero de crucero con brote de hantavirus viaj\u00f3 a Canad\u00e1 y dio positivo - Noticias de Puerto Rico hoy",
-          "t": "2026-05-17T23:15:00Z",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdGFlZkt1OUhfcjk1bWNaRVZuajdWV1EwaVVkRUp3bFJsTWNvX0lnMkpqdHF1MnlQNHVORUNHS2dxZGh6a3lYeWJKT01TMGtfNl9xLWFBUWRlN3Mzc2NMdmRpN2w1X3BwOExvc0w3a25fT252VjNZSEFGdmNWeThfZWF0VXhsTk8xcUZIOG9obkJnUWJPWXUwNlg4X1ZXaG5JNWZuQ3BvVHVlSTVVeEtpMTFJLWtSMi0wbFFvWlpFQQ?oc=5"
-        },
-        {
           "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
           "t": "2026-05-16T18:07:02Z",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ01MSERfY0JHbWVCdy1rSWtHZ3EtNkJCNU5kcU9SQjNwbGY1b1B1NWE1alpYOGVsRnJxZWM5cU90Q2VIZzJiYzdjM0h2blhaUzExWEEtNlYtRkxORE1UR3dWTkhLTEsxTnFXSjczNHlJRmlVc3NpbHNfcGMwVTFRNlFtaGVlTjdlMUHSAY8BQVVfeXFMTUhqV3ctTE9hV3luREJWRnpHbzBnQ2EwZmk2anZfZTlFTGFIU193QVlUUFJpOWpTMGEzNXkwZFREaDFnZTMyc0xHb0tZWVhkN0pGUThSbEVPWHVtUVVhRXpFanBxN0pmYzVHMEtOWjNSNkxPMHJZV1Nlb1Z1bXlDT2NUbDVndlZONjgxb2lxcFk?oc=5"
@@ -4309,6 +4297,11 @@
           "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
           "t": "2026-05-12T22:12:02Z",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeUtmR2dNaUYwdEFTMTc1dUlmZVR4c1MzTXQ5VDZQclYzbW1xdzRfUGF3aWFIc1lSaWpRcXhfbW5OdFVYbW0tekVySTBDYy1Va050T1cwTWVNZHk3a2pmYUNkNDQ2MndoS1N2cUJPaFpfOU9scFlyb1hZZTNwamg3YnJzTnFjbVRUVEFLdFhkQmlXNUlDWUpuQ0hGblpYVkpIcTlKX1kwMjRURTV0UVdkSVMwZDhvZVpMc2RTcFYwdkdTZHZ5SEFwNXBlNld1V2d6eHBmUHVCWVE5UDFsbGYtRDl30gH8AUFVX3lxTFBoQ1JGSnZhTHg2SmpiUlltY3Vzd3p0d3ZLVXR0VEFNQkQzNVlOb19PcVBabUlfdDc5RHR6aGdvOEhiUnNmcE43cGNoZG1KVTZWSmlnOHZxZHJPOWdRWXJkbUVIXzI1SzdjTC1MX3NNaFhodnJwODVRakN1OVZxMkFrNHlEMXlVN3ZFWW1kdUFId21ISkRPRVF6bnJlTlBjZHVOd1NaY2FKbUJfYktwQm5meE1LNVNMQmZyekV2MUQzM1AwcVRtQnhsd3N3Vl83aldDQ2ZxeDB0RlpERE9ENEZ3ekhodXhhLUlGelU0U3VVYVFjeE1OSUpTUXdqTQ?oc=5"
+        },
+        {
+          "title": "El brote de Hantavirus en un crucero volvi\u00f3 a encender las alarmas: \u00bfCu\u00e1l es la situaci\u00f3n en Argentina? - La Opinion Online",
+          "t": "2026-05-17T10:01:00Z",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBldU1ta0FXbGI4UHJ0NUlubXN4YnNZeU5FVi1FWFR3R21PS0QyZ3ZyeVVvUE1QV29zSzkxWGoyaGgxQ1BpblpYSVd6VkcxUUJ4TUdkMWVMVUlzb0NGT1dmVEFCVzJkbjE2cU93ZlNESmVHdmhlWEE?oc=5"
         }
       ]
     }
