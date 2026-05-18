@@ -1,29 +1,29 @@
 {
-  "generated": "2026-05-18T19:20:32.144297Z",
-  "next_update": "2026-05-18T19:25:00Z",
+  "generated": "2026-05-18T19:25:26.055806Z",
+  "next_update": "2026-05-18T19:30:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 76,
+      "ytd": 77,
       "alert": "vigilancia",
       "cfr": 37.3,
-      "var_pct": 14,
+      "var_pct": 15,
       "strain": "andes",
       "new_today": 4,
       "r0": null,
-      "signals": 15,
+      "signals": 17,
       "gov_alert": false
     },
     "CHL": {
-      "ytd": 36,
+      "ytd": 37,
       "alert": "vigilancia",
       "cfr": 35.5,
-      "var_pct": 17,
+      "var_pct": 18,
       "strain": "andes",
-      "new_today": 3,
+      "new_today": 4,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "BRA": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "GTM": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      76
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      77
     ],
     "CHL": [
       31,
@@ -597,7 +597,7 @@
       31,
       31,
       33,
-      36
+      37
     ],
     "BRA": [
       89,
@@ -1452,42 +1452,40 @@
   ],
   "hourly_history": {
     "ARG": [
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
       73,
       73,
       73,
@@ -1499,7 +1497,9 @@
       75,
       76,
       76,
-      76
+      76,
+      77,
+      77
     ],
     "CHL": [
       31,
@@ -1511,7 +1511,6 @@
       31,
       31,
       31,
-      31,
       32,
       32,
       32,
@@ -1543,7 +1542,8 @@
       35,
       35,
       35,
-      35,
+      36,
+      36,
       36,
       36,
       36,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 13,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 19,
+    "kalshi": 17,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,11 +4019,12 @@
   },
   "signal_summary": {
     "USA": 3,
-    "CAN": 3,
+    "CAN": 2,
     "GBR": 2,
     "JPN": 2,
-    "ARG": 15,
-    "FRA": 5
+    "ARG": 17,
+    "FRA": 5,
+    "CHL": 1
   },
   "events": [
     {
@@ -4174,13 +4175,6 @@
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
     },
     {
-      "iso": "CAN",
-      "title": "Canad\u00e1 vigila a 36 personas por el brote de hantavirus vinculado a un crucero - Infobae",
-      "t": "2026-05-14T22:30:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQ0RqcERUY0J4eXZvVUc3bFo2TUljZE9abDl3TVVxV0NPa1AwTXlMVmI5b0tGQXg4aGdXWWRtZWVnR0dEOTJzZFJfNVloUG5ERWFRemtTQ040b0JYLVh5YXdhbk45TE5JNzhVMFNtVXZzUWYwZFl5cG1yaC1yS3RQV0xxQlNKODIxNWszTGRxZEhWOFRCbmhadWZpaGRfYXk2NFh1cjBneGozQWpfVzcyQV9UREpySEhoR2JiYnBwM1NjLS0tUzNaTXpB0gHkAUFVX3lxTE1iWm5kWlRnMDRRbHhUTGJfSEJWd0liQWFpMVZ5WXd6di1zWVByOFJGZjRRTW9IX1hpVnVveFZrYXlSbzdxNGNlV2dSY1BxTXJPZklrWHQ3dFRfZlVaS0t0UFgweWFobkVhOUx6c1QxcHVJcF9DVmdTeHQ1M2tLbDE0U1V5YzVQMDhCUC1zUkt1MnY4QmxLa1FJVV9tc0NrdVJyRDBHZzZWUDdnQ00xa29MSXpXNDNRd0o5MU5JTWVDWFJ5X1dKbVpwb2ZiTmdkdWticzZqT3RTaXJzV1ZXS19xbVhYQQ?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "Argentina est\u00e1 en una carrera por hallar el origen del brote de hantavirus - The New York Times",
       "t": "2026-05-14T14:48:04Z",
@@ -4231,10 +4225,31 @@
     },
     {
       "iso": "ARG",
+      "title": "Argentina asiste a pa\u00edses europeos con insumos de diagn\u00f3stico para hantavirus - Argentina.gob.ar",
+      "t": "2026-05-06T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORmRTT0JMUHpiWFBiV3J2cE51SGFOeGpXUjJ0TlVGaGpWS3hvalhuNURaZ2tzVVZjLTJQSGdURGFSZzNtVThKMGxZendPcHRqS0phT2UwYThpalItUENPWWpQaG93dVdZV1RBNXhhYnJhQ3VFYTZWemwwU1p4ME5sTnlsZURuSTBCdkd5OEFheklzRVlIeXNVcThscFZYSHdFMlpvTFVvMG5qNHd5OTdoUXhrZw?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
       "t": "2026-05-06T07:00:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "La pareja holandesa que muri\u00f3 en el crucero con hantavirus pas\u00f3 cuatro meses entre Argentina y Chile - EL PA\u00cdS",
+      "t": "2026-05-06T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT0h1cFRDdGhCeWVBNmFfWWxrRUZzZy1HS3d6VDNFd0FndE1OckxVSWNjeTNoVWlURmQ1UXJXWUpPbGlKWTY0c3o2NkJRVGx2RHFWcWdFR3ZFLWh1REZwVFp4ZGw4c1RrM3NmaUQyLVhTd3RoQWhUaFNZNVhYVF9WZ1k0YjgzNnNqQUN2VThXVkpzV0Ezd25qbTZQUG8tdVZ4QThhOVB4S2dJYVpXQk55VkhJdURaUjVDT1VSNlptTXEzUEdFRDVlR1B6cjZiY1RBUHRGSzBVTW9sVG_SAe8BQVVfeXFMTUFXRUwtbGR5MjhMcEdpclNNY0d0N3RYeGROTzlNTkNKa01FRzlwbU05bVphcXVoMl84R0sza0lHd2ZEZmhLbGtEOE1CLWZzWTg3ZkhOT1lZM2k2eDhTb1dTWlVfbVdhaGtCUi16bkNfT2hwdm5rc1BXZDBySlRTVG1ta2Y4bU52MkRHT3BlMEV3N01KSlZvTzM1UzFtQ2hmMzFQdXhBWFVSUVJ5M2xpZnVGNHdneUF6RzU0SFRnTkp6bE5sZzRhQ2N3SDcyVDZBLUpzRzhVbFZpVXItS3ZIYnZYTGlTZW1rY0tUZldKeVU?oc=5"
+    },
+    {
+      "iso": "CHL",
+      "title": "La pareja holandesa que muri\u00f3 en el crucero con hantavirus pas\u00f3 cuatro meses entre Argentina y Chile - EL PA\u00cdS",
+      "t": "2026-05-06T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT0h1cFRDdGhCeWVBNmFfWWxrRUZzZy1HS3d6VDNFd0FndE1OckxVSWNjeTNoVWlURmQ1UXJXWUpPbGlKWTY0c3o2NkJRVGx2RHFWcWdFR3ZFLWh1REZwVFp4ZGw4c1RrM3NmaUQyLVhTd3RoQWhUaFNZNVhYVF9WZ1k0YjgzNnNqQUN2VThXVkpzV0Ezd25qbTZQUG8tdVZ4QThhOVB4S2dJYVpXQk55VkhJdURaUjVDT1VSNlptTXEzUEdFRDVlR1B6cjZiY1RBUHRGSzBVTW9sVG_SAe8BQVVfeXFMTUFXRUwtbGR5MjhMcEdpclNNY0d0N3RYeGROTzlNTkNKa01FRzlwbU05bVphcXVoMl84R0sza0lHd2ZEZmhLbGtEOE1CLWZzWTg3ZkhOT1lZM2k2eDhTb1dTWlVfbVdhaGtCUi16bkNfT2hwdm5rc1BXZDBySlRTVG1ta2Y4bU52MkRHT3BlMEV3N01KSlZvTzM1UzFtQ2hmMzFQdXhBWFVSUVJ5M2xpZnVGNHdneUF6RzU0SFRnTkp6bE5sZzRhQ2N3SDcyVDZBLUpzRzhVbFZpVXItS3ZIYnZYTGlTZW1rY0tUZldKeVU?oc=5"
     }
   ],
   "maritime_events": [
@@ -4253,7 +4268,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T19:20:32Z",
+      "last_update": "2026-05-18T19:25:26Z",
       "signals": 11,
       "recent": [
         {
@@ -4272,14 +4287,14 @@
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd01idVpDYVFuSzZlbW9xVWJ0Zi1QVnpEVmlFMHpJdEc2SV9RODVZb05UcEZ0eXJ2bHJYR1pjeTNBU2Q4UVBPTXdoX1J6RWVrMkpRODlGQTY3YUJUbnczZFZaTTB5MUxfdVctSFpOaVljZlJCQ3JDd2dEU0NZanl0UE9ZVzRUenNHbHdXS1NVZ3ZCN3hwNC1UOFJzc0NCMGM4ZnZ4SUItcmFDbmNBaXfSAbMBQVVfeXFMTTluOGJkaG1BOEJVZHVTM3FGUGJQYWl6WGN5RGhLUTJwcFgxY0dWdllxb05vdTBkZ0laanU3Q01vTmF1SURzRVJlTzVlQ2Q1S3c2cXoxVkhkUEdlc3ZGM1VxTjVRZWRNczR6NVFZN19xN1BWWnBHaVZJMTNTTlA0dzFiNHV4aHU2Y3BxaF9ZQ2VzV1d3M0VnNWpNQ2xFMXZWMVRRRGN4TV9JOGRiV0RMcDE4OEk?oc=5"
         },
         {
-          "title": "Canad\u00e1 vigila a 36 personas por el brote de hantavirus vinculado a un crucero - Infobae",
-          "t": "2026-05-14T22:30:00Z",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQ0RqcERUY0J4eXZvVUc3bFo2TUljZE9abDl3TVVxV0NPa1AwTXlMVmI5b0tGQXg4aGdXWWRtZWVnR0dEOTJzZFJfNVloUG5ERWFRemtTQ040b0JYLVh5YXdhbk45TE5JNzhVMFNtVXZzUWYwZFl5cG1yaC1yS3RQV0xxQlNKODIxNWszTGRxZEhWOFRCbmhadWZpaGRfYXk2NFh1cjBneGozQWpfVzcyQV9UREpySEhoR2JiYnBwM1NjLS0tUzNaTXpB0gHkAUFVX3lxTE1iWm5kWlRnMDRRbHhUTGJfSEJWd0liQWFpMVZ5WXd6di1zWVByOFJGZjRRTW9IX1hpVnVveFZrYXlSbzdxNGNlV2dSY1BxTXJPZklrWHQ3dFRfZlVaS0t0UFgweWFobkVhOUx6c1QxcHVJcF9DVmdTeHQ1M2tLbDE0U1V5YzVQMDhCUC1zUkt1MnY4QmxLa1FJVV9tc0NrdVJyRDBHZzZWUDdnQ00xa29MSXpXNDNRd0o5MU5JTWVDWFJ5X1dKbVpwb2ZiTmdkdWticzZqT3RTaXJzV1ZXS19xbVhYQQ?oc=5"
-        },
-        {
           "title": "El crucero afectado por hantavirus llegar\u00e1 a Holanda tras un brote mortal - Cadena 3 Argentina",
           "t": "2026-05-18T06:56:54Z",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSW9mVlBzanVyekwwakNDUThJZmo4bWwxREdVZHgxRDBmVS1BQlJiWlZzRjBfdHFXVjM5RkJZR3I4UjZXZXFhelR4VmVvaXRLbTZFNDdEM0lveDRvVktYRGIxMmdtajJjeDVKVnZEd1V2LUlUQ05pOU5VX1V0ZXF3YnhRN1YxSXRIU3Q3TXZHZkhmbGtRSE9rb1pFaVdzX3dlNmowUHBGaDhacWVNTjNETHU5d01vRnl5RFHSAb8BQVVfeXFMT1BjWUcxaHhwQjJZTTkxX0loN0lEaEVJaWwtcG9USDRuV2wzMVRFYVdoTXZxajRzaVN1Sl9aLWthS0RrRkUwalNrQUt5UEFseEloMzVwOU5aVVE4aWtseko4RUlxdzZQNVNjbUtkSWIyODJSS3pXNDVkNmFJZG9Ma0JraGJLSzJDdi1GTlVuZmNpZGZISnJCMmJabFJqQXpHY2QyZ3ZHTW9aT0U0YTB1dm1EbHNTVkR3NjlmSTFrcFU?oc=5"
+        },
+        {
+          "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
+          "t": "2026-05-15T12:33:58Z",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
         }
       ]
     }
