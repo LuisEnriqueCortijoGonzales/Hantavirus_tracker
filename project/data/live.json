@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-18T13:00:03.686010Z",
-  "next_update": "2026-05-18T13:05:00Z",
+  "generated": "2026-05-18T13:05:32.179158Z",
+  "next_update": "2026-05-18T13:10:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 75,
+      "ytd": 74,
       "alert": "vigilancia",
       "cfr": 37.3,
       "var_pct": 11,
       "strain": "andes",
-      "new_today": 3,
+      "new_today": 2,
       "r0": null,
-      "signals": 16,
+      "signals": 15,
       "gov_alert": false
     },
     "CHL": {
@@ -581,7 +581,7 @@
       72,
       72,
       72,
-      75
+      74
     ],
     "CHL": [
       31,
@@ -1493,13 +1493,13 @@
       72,
       72,
       72,
+      72,
       73,
       73,
       73,
       74,
       74,
-      74,
-      75
+      74
     ],
     "CHL": [
       31,
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 18,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "CAN": 6,
     "USA": 3,
     "FRA": 5,
-    "ARG": 16,
+    "ARG": 15,
     "MEX": 3,
     "HUN": 1,
     "GBR": 1,
@@ -4240,13 +4240,6 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVpsMXJOSnRETzVJRUNiajlyMHpQWkVhVFpKZ1kwQ240bHlEMDd2anV4XzBRclI5Ti1yVXVCRWZ6V0JMdXNNZ0xrUGw1OVdtM1pINk80QVg3UmxQN0h4V2xWZ2l2NzlvUE5aZE4wemtUQTBzUk9RMzRoZnQtcWlXTlNJNGtEX08tYXlENWZtQS1OQWNhRWxlSkpNWm1yZ0ZDZDRWejZZSlBfaExJX00zYzBtX1ZkY2c3S0FMc1V1amdueWpEaE9lejZZVkFhZw?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "Fiesta de 15, 34 infectados y 12 muertos: el mayor brote de hantavirus de la Argentina aporta claves para el caso del MV Hondius - La Naci\u00f3n",
-      "t": "2026-05-13T17:32:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOWM3bDdqMmNKTUszLXRQWEF4ZmRsc19VWUdvSFJKU20ycjBxVjAyV3JzZmxSWVZHbllwYlpBQ01ROWw5eklmcTdWb1ZIZ2FsRFphZWc3bHF6SzRRelN3dWM4Sm9MMldtZDYtOEVEdjZWQkx0RHJmOTlCbk5ZU0M3enVKOFRjS0o2WXB1NlFIRG13QmUzandSSW1vYjJKWmRaMEJhZTJxWkNIMmstaF9qWlRSamUxZHl2NzY4cl9CUkhnN3RaeXZWQzNYZGVuN244ZmZHSmZocnJSMXdBbDZmSw?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Esfuerzo global para controlar el brote de hantavirus, mientras los casos en Espa\u00f1a y Francia disparan la incertidumbre - EL PA\u00cdS",
       "t": "2026-05-13T03:30:01Z",
@@ -4305,7 +4298,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T13:00:03Z",
+      "last_update": "2026-05-18T13:05:32Z",
       "signals": 16,
       "recent": [
         {
