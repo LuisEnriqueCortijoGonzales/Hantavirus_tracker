@@ -1,25 +1,25 @@
 {
-  "generated": "2026-05-18T06:55:03.722963Z",
-  "next_update": "2026-05-18T07:00:00Z",
+  "generated": "2026-05-18T07:00:32.067765Z",
+  "next_update": "2026-05-18T07:05:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 72,
+      "ytd": 73,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 8,
+      "var_pct": 9,
       "strain": "andes",
-      "new_today": 0,
+      "new_today": 1,
       "r0": null,
-      "signals": 15,
+      "signals": 16,
       "gov_alert": false
     },
     "CHL": {
       "ytd": 35,
       "alert": "vigilancia",
       "cfr": 35.5,
-      "var_pct": 12,
+      "var_pct": 13,
       "strain": "andes",
       "new_today": 3,
       "r0": null,
@@ -581,7 +581,7 @@
       72,
       72,
       72,
-      72
+      73
     ],
     "CHL": [
       31,
@@ -1401,7 +1401,6 @@
     "2026-05-18T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-16T07:00:00Z",
     "2026-05-16T08:00:00Z",
     "2026-05-16T09:00:00Z",
     "2026-05-16T10:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-18T03:00:00Z",
     "2026-05-18T04:00:00Z",
     "2026-05-18T05:00:00Z",
-    "2026-05-18T06:00:00Z"
+    "2026-05-18T06:00:00Z",
+    "2026-05-18T07:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -1499,7 +1499,7 @@
       72,
       72,
       72,
-      72
+      73
     ],
     "CHL": [
       31,
@@ -1523,7 +1523,6 @@
       31,
       31,
       31,
-      31,
       32,
       32,
       32,
@@ -1548,6 +1547,7 @@
       34,
       34,
       34,
+      35,
       35,
       35
     ],
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 7,
-    "kalshi": 19,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,12 +4021,19 @@
     "CAN": 8,
     "USA": 2,
     "FRA": 7,
-    "ARG": 15,
+    "ARG": 16,
     "MEX": 2,
     "COL": 1,
     "CHL": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "El crucero afectado por hantavirus llegar\u00e1 a Holanda tras un brote mortal - Cadena 3 Argentina",
+      "t": "2026-05-18T06:56:15Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSW9mVlBzanVyekwwakNDUThJZmo4bWwxREdVZHgxRDBmVS1BQlJiWlZzRjBfdHFXVjM5RkJZR3I4UjZXZXFhelR4VmVvaXRLbTZFNDdEM0lveDRvVktYRGIxMmdtajJjeDVKVnZEd1V2LUlUQ05pOU5VX1V0ZXF3YnhRN1YxSXRIU3Q3TXZHZkhmbGtRSE9rb1pFaVdzX3dlNmowUHBGaDhacWVNTjNETHU5d01vRnl5RFHSAb8BQVVfeXFMT1BjWUcxaHhwQjJZTTkxX0loN0lEaEVJaWwtcG9USDRuV2wzMVRFYVdoTXZxajRzaVN1Sl9aLWthS0RrRkUwalNrQUt5UEFseEloMzVwOU5aVVE4aWtseko4RUlxdzZQNVNjbUtkSWIyODJSS3pXNDVkNmFJZG9Ma0JraGJLSzJDdi1GTlVuZmNpZGZISnJCMmJabFJqQXpHY2QyZ3ZHTW9aT0U0YTB1dm1EbHNTVkR3NjlmSTFrcFU?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "In Tierra del Fuego, a hunt for the rodent carrier of hantavirus - France 24",
@@ -4296,8 +4303,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T06:55:03Z",
-      "signals": 14,
+      "last_update": "2026-05-18T07:00:32Z",
+      "signals": 15,
       "recent": [
         {
           "title": "Canada confirms hantavirus case linked to cruise ship outbreak that has killed three passengers - Fox News",
