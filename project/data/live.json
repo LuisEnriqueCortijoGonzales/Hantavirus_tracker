@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T13:30:32.093600Z",
-  "next_update": "2026-05-18T13:35:00Z",
+  "generated": "2026-05-18T13:35:32.155255Z",
+  "next_update": "2026-05-18T13:40:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 6,
+      "signals": 7,
       "gov_alert": false
     },
     "GTM": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 14,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 25,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,8 +4018,8 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "CAN": 6,
-    "USA": 3,
+    "CAN": 7,
+    "USA": 2,
     "FRA": 5,
     "ARG": 15,
     "MEX": 3,
@@ -4030,18 +4030,18 @@
   },
   "events": [
     {
+      "iso": "CAN",
+      "title": "Canada Confirms Hantavirus Case In Former Cruise Passenger - Yahoo",
+      "t": "2026-05-18T13:12:49Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPck9pc2VlOUpuUUVLZjlyenNyQzRrOEJBWnk0aTAyZnpmQWJvR2hkSDhPR1FrNkZGQk5VWTRMdlJuVVBySER3UmpxS3U4d1lxRURQNDFfekFOS3lwS0Zqb2hBQnZIV2tzeXQxSWU5ODJIYzU2VldBUWtIeEk2MlYtX3hOOXZJSVNlTVdqWUg5VkNmREk?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "Argentina recorta su presupuesto en ciencia en plena alerta por brote de hantavirus - expansion.mx",
       "t": "2026-05-18T11:55:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU1NjTXdBeUdUN2xhVVdITFN0QUpfZGtCWndCTEpfR3dZMlFHNWttcDRpVXZ4M2g1NVg2SUo3dGVpdDd1bndMRXAxNE54aTlWY2EzTVZlNU11SkRyWUhYV1JYQmc3RmItbkstWDc2Wjc2eDlaY00zSW5UbXVaN1JGVzNNME9CX2NZb0dYbFpNYzVzWHdrOTBlVlVXczBwVTQxdmEwUGp5akN1b3lSSExaVF9qV3BsOWtVNGlKSXRB0gHLAUFVX3lxTE1FNkREUlpuczR2WEpFaFdma2ZWLWFQeHBHVW5XN0xzSkswV0pISmlUTFlKZF9sMU9penNaM21EUzRpREFsVEFNYkFxeFAzanJXdXFhX0l2dnF6Q2pmSEl3eGt6UnA2QUZEdXlTdmJQR082YkpmelNKLUdfTlhjUUhfcHZDc1pGckhSZnZvcGZyQ3hkX2pjS3ZIV09FM2pFTkxaNzM0REtkcjNaR19nQ0dfSXFVenQxVWRSa0w4MkdvUmNBQkZOSlVMb1Nv?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "First Case of Hantavirus Confirmed in North America - Parade",
-      "t": "2026-05-18T11:34:06Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9iSkJaRS1XZTd2UkthNWJBa0dmMFEzRUs2emNnaXJmNFpCRXotYmxhNVVqcTN0NzR3UUxHaldmQmtLNHBZM1pTcE5aTnEzX0FtMDNNU1ZyVkZSXzU4dDB3UkFkSFpLTWxrTERLUm03UWE2ampockx2ZA?oc=5"
     },
     {
       "iso": "FRA",
@@ -4298,7 +4298,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T13:30:32Z",
+      "last_update": "2026-05-18T13:35:32Z",
       "signals": 16,
       "recent": [
         {
