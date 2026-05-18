@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T09:55:22.068391Z",
-  "next_update": "2026-05-18T10:00:00Z",
+  "generated": "2026-05-18T10:00:32.058647Z",
+  "next_update": "2026-05-18T10:05:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -67,7 +67,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "MEX": {
@@ -1401,7 +1401,6 @@
     "2026-05-18T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-16T10:00:00Z",
     "2026-05-16T11:00:00Z",
     "2026-05-16T12:00:00Z",
     "2026-05-16T13:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-18T06:00:00Z",
     "2026-05-18T07:00:00Z",
     "2026-05-18T08:00:00Z",
-    "2026-05-18T09:00:00Z"
+    "2026-05-18T09:00:00Z",
+    "2026-05-18T10:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -1496,10 +1496,10 @@
       73,
       73,
       73,
-      73,
       74,
       74,
-      74
+      74,
+      75
     ],
     "CHL": [
       31,
@@ -1520,7 +1520,6 @@
       31,
       31,
       31,
-      31,
       32,
       32,
       32,
@@ -1545,6 +1544,7 @@
       34,
       34,
       34,
+      35,
       35,
       35,
       35,
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 24,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4026,7 +4026,6 @@
     "GBR": 1,
     "JPN": 1,
     "MEX": 2,
-    "COL": 1,
     "CHL": 1
   },
   "events": [
@@ -4220,13 +4219,6 @@
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNYjB6RkQ4YnlNLV9SRFFmZFlJenE0UXZZX0pPbi1yQV9SSmpyRnpsbHRQLVh6TV81cm5iQVR6T0RwelA1TEdWdThsMkhvLUFCbVEwOE5pYWtUdGNjWXRCRHpWRFl3aC1YcVZuRWM0dkVjTzhQb0RHbm9ncWtKUUtnYzE4VWpRZC1XLVFfTWRMTWJhTlRYdVIyREdwVkdJTUhyTkdGNVJVTERoYndSVmswT3lqLVdBcm9CbkZsOWFJcmJUc3FkeUlva1B1WUc5NlRpaEx1Yk05OUgyU19HTlo1aUln?oc=5"
     },
     {
-      "iso": "COL",
-      "title": "El director de la OMS desmiente que el hantavirus es \"COVID 2.0\" - Forbes Colombia",
-      "t": "2026-05-16T11:06:32Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZmM3VTFsbVlEdzRSRWxPV2JCc0NQNDNYWk9oVXJYdDFnNHVHRjM1N045Z1o0cWhXdW5KekM1VzB0NmZBYkFoVnNLVWx4TktzdFNLS2lER3ZwMG5ieUM5ZlhQYlA0TTRiZGtkLXN2UmROdDhoeWcxTzJCbDVLQ1FJSXFKanRoUExVQWx4ZlJ2Mm1XdVpXTlQ0UnBUOVdsM0JGYWRwMV93?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
       "t": "2026-05-15T12:33:58Z",
@@ -4327,7 +4319,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T09:55:22Z",
+      "last_update": "2026-05-18T10:00:32Z",
       "signals": 14,
       "recent": [
         {
