@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T10:35:32.164399Z",
-  "next_update": "2026-05-18T10:40:00Z",
+  "generated": "2026-05-18T10:40:22.095883Z",
+  "next_update": "2026-05-18T10:45:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -151,11 +151,11 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 4,
+      "var_pct": 2,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 8,
+      "signals": 5,
       "gov_alert": false
     },
     "GTM": {
@@ -4018,7 +4018,7 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "CAN": 8,
+    "CAN": 5,
     "USA": 2,
     "ARG": 18,
     "FRA": 5,
@@ -4091,20 +4091,6 @@
       "t": "2026-05-18T00:36:28Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaFpBU2xQeTVqZVJodXpWS3ZQbVpFTGhlQ1c5WHJvNVNSN2RWZTc4WVlLQVJrWGF3QjlPZGgyVGdSQkphS3h6Q3NKM0w4RllVb3h6MHY4bHBtbVotNTZXZU1SWnBIcFI3eDI5d1JINDFXaTJsLXhEUTBYWnQ5UE9KLWpLNk1BcHc5WTRPbDdndE1sdVZLQ3NBSUp4U0YxQ2FOdWRSOF9WTmptU3dsUFpPbVNkSlIyYzluVWNJ?oc=5"
-    },
-    {
-      "iso": "CAN",
-      "title": "Canada confirms 1st positive hantavirus case - FOX 35 Orlando",
-      "t": "2026-05-17T22:08:56Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUXV4QWVLeVFlYkNIeFdhZ2RHblNnVzFlRm4wZVAyLTBqem9iTGhaY0V0RmVxdVFmQU1MSGR4UTZLNVZpYXVtT0ZuNWVLLW1DbGlsLXFPSVlUYzZTNVBEWnNKd2h6YjEzVGtLRzJHYjFyVFotSG5lZWhTY1VncUd4UWNkVFnSAYoBQVVfeXFMT3dFaHZjeHcxOXdNVk5XU2JPdVFEY2hTdlhRX2Q4MWtJbzZpM2FJNC1KamVkeFZtQ3hCMjkxbzJOWUI5YUtNQWREQk1TcnFwSG91d1BaNUlwVWRVaGV0RG5OdXZvZl8xS2F0ekN1LVpMVFlUZmNrcHl6ZGdWZDY2SU1VWmM2M2kwNkdn?oc=5"
-    },
-    {
-      "iso": "CAN",
-      "title": "Confirma Canad\u00e1 un caso de hantavirus - Reforma",
-      "t": "2026-05-17T21:42:18Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9QMzVtRXdVZWpMMVR4R2V3czZpdDJJb0JjbjdOQVVNV3EzUDJQVjFCM2pWTVRyS0pPQXB0dUU1aTZjcktjZXNEN3JtTmZ6cTFTR3Q5bEhXUG1WOVdYbmVvNXZOamZPbEhtdE9HcUptdVR1WU5NVjNHZDktcw?oc=5"
     },
     {
       "iso": "USA",
@@ -4196,13 +4182,6 @@
       "t": "2026-05-16T22:18:04Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWDhoZHBDMzlST2x0VDVLX3JkRWcwWE5LODFfbVUtUXZqWDluTVI0dnJXVVhfeVVmNWtuRFpqUFhFZC1ZVjB6MDk2UU9wUjJHWlh4djhySjFMa09iV29jZDN6cWFpYzF4aGRyQkR2UDJJVHUzUW1YTWV2QndJRVZkampSRHZRcnFHTi1tRk5RYTBhTTRpbGY2cUpFdVNRdUZfM3VWVDVlaWlmZERxYXF3RGU1VjhtajRXMEHSAb8BQVVfeXFMTjZ2Y2MzM3l3UDdTRWltZlZjdkkwSzVJWUdmNVpoeGVnTl9GODJ3OWhCV1BvV2Z3Ykh6c041ZDkwZGFZVFpqSWJqUlhEd3VoS1VZX2lIVWxOWGtQN2xSbWhSNy1YQWVEdFNhakNUdWc4TnRNaV9JV3FDRVBjM3IxRjZtbmg1SGtURkQ2aTBnS2c5Nm5uYWQ1MUtsU29lY3Y3ajVPRDZpTFMxM2w2N2x6XzFXVDdXZVB0M0ZobnhYdFE?oc=5"
-    },
-    {
-      "iso": "CAN",
-      "title": "Canada confirms first hantavirus case in isolation in British Columbia - The Guardian",
-      "t": "2026-05-16T20:12:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdDNheS1KQm5zRXhjWk5QSmlYbWd3dU41TmJZUHNvSnhGTFJkZ0prUWh6UlU3elZwZzAxVzdHVExwMDNoRTl0eElsUjNpR3FsOEsxWWR5c0hWU0Z5NFd0NVczczFYTWdUZUJmazlTWV9WeWJFRFdzTUdPbnFNWU1FMHVKcUtNbURfdEZrbnpJekdYZ3lOMkE?oc=5"
     },
     {
       "iso": "FRA",
@@ -4319,7 +4298,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T10:35:32Z",
+      "last_update": "2026-05-18T10:40:22Z",
       "signals": 14,
       "recent": [
         {
