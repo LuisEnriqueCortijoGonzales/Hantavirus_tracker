@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T19:10:32.061642Z",
-  "next_update": "2026-05-18T19:15:00Z",
+  "generated": "2026-05-18T19:20:32.144297Z",
+  "next_update": "2026-05-18T19:25:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -151,11 +151,11 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 2,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "GTM": {
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 22,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 3,
-    "CAN": 4,
+    "CAN": 3,
     "GBR": 2,
     "JPN": 2,
     "ARG": 15,
@@ -4048,18 +4048,18 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3ZsNWRWd2JEZEpWclg4V2RoMlJ0bWRiVFpSN0pZX3ZfX0JtdW15RHZicG5od1FMbl92Tm4zdC1DRHBsQW1XR3VtZnVOQ2JOYXd2QlZCWFpsTzJHVGEtTDFnbmRSTy1EV04wNmhVM2xMVkZTVGg5dURsZktfMFNFZG43S0FpdFA3ZzJ0R09wQXVzNHRMaGY1Ynkxa2VMSXowcU9CZ3BCWnZQaFZi?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "Extremo sur de Argentina teme que el hantavirus enfr\u00ede el turismo - laradiodelmercosur.com.ar",
-      "t": "2026-05-18T18:24:58Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRHgzVkxtckl1VVJRejRqYklSTlRsQU1IdzI3VWpNSk5NUlItSDVjQ29tR3BPM1B0NlJLMnBKSkozbjlHVDRVX2F2RXZfci1DT211aWZsNWRZNUNRb1d2UHBGanMzWDhxYXpUekwwOTdFaEpndUhZby0yNjVzTkhPdTV2bVRuMkU0REtDcnVpNDUyMGgtRDJKeHJMWWVTVTVYTlpsTnNiWW1oVzFmc2FCcQ?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Fin de la traves\u00eda: crucero afectado por hantavirus llega a R\u00f3terdam para su desinfecci\u00f3n - France 24",
       "t": "2026-05-18T16:22:06Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWUp2ZkdlUnFUVWtMTnphWHZFaHRlcS12UjlFa28xR3kyYTREN2xvdDN5ZHhKUUZYTGdTWlJGdzYyOUJpbElxVE9vUzNlM0FYN1dtekNweGo4T29obVJSMUU5M0tCbVhpcjVUUXRXem1CbzdZdXZRbVNhUWRhTGpRaW1wQmZxNWNkYm1LdnpkZXZWaUNiVEp4enBxdlAxV1BmMlFRZ2sxY0g0Qy1JdGZPZFVZMmxLUVoyOVRGal9JRHdtSERObFlnMWpjekhqTzhiTmxNSXF6N0NfWDBoMl9B?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Extremo sur de Argentina teme que el hantavirus enfr\u00ede el turismo - Boston Herald",
+      "t": "2026-05-18T16:00:09Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPblV4Nmp6cFBLOVRZcXlPa3Faa2thQXhtaUhKZFNJZ0UwVlZ4Sm5wNFJnVzkyYjFyNTdtQWJGeHZpTzdfWkpTUGpzUGtXdmprOFRFZlBJMlltU2ZFZXMxc3ZMSV9iUEhUOW5PbmVzSlJ0OHQ5T1U2Um9uN1JKTlJyMXFDMjJhSHdsVjd1TndHdEVZWnlUa3dhMHUwS3JObWdLLTViTnh5Rzg?oc=5"
     },
     {
       "iso": "USA",
@@ -4151,13 +4151,6 @@
       "t": "2026-05-17T18:41:46Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd01idVpDYVFuSzZlbW9xVWJ0Zi1QVnpEVmlFMHpJdEc2SV9RODVZb05UcEZ0eXJ2bHJYR1pjeTNBU2Q4UVBPTXdoX1J6RWVrMkpRODlGQTY3YUJUbnczZFZaTTB5MUxfdVctSFpOaVljZlJCQ3JDd2dEU0NZanl0UE9ZVzRUenNHbHdXS1NVZ3ZCN3hwNC1UOFJzc0NCMGM4ZnZ4SUItcmFDbmNBaXfSAbMBQVVfeXFMTTluOGJkaG1BOEJVZHVTM3FGUGJQYWl6WGN5RGhLUTJwcFgxY0dWdllxb05vdTBkZ0laanU3Q01vTmF1SURzRVJlTzVlQ2Q1S3c2cXoxVkhkUEdlc3ZGM1VxTjVRZWRNczR6NVFZN19xN1BWWnBHaVZJMTNTTlA0dzFiNHV4aHU2Y3BxaF9ZQ2VzV1d3M0VnNWpNQ2xFMXZWMVRRRGN4TV9JOGRiV0RMcDE4OEk?oc=5"
-    },
-    {
-      "iso": "CAN",
-      "title": "Canad\u00e1 confirma caso de hantavirus en ciudadano que viaj\u00f3 en el crucero afectado por un brote - Yahoo",
-      "t": "2026-05-17T17:32:52Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVkw1MjRFV1FKM1VVLUZUSVV1TjN1X253T2pBOWFfMm14b19TRHNCZHNxZHVvR2VHVG85dWVRVkZ6Mnk1YmRmd05hTVlvSXlva2thRTZjZmJCNXpKckE4TWZZTEx5X0Nib3Z2QmZ1bU0zUkpad0NERUZwVTFEQ0ZGVFYxS2wtWnlOYTg0ajk2amFCU1B3dUFGUDdR?oc=5"
     },
     {
       "iso": "ARG",
@@ -4260,8 +4253,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T19:10:32Z",
-      "signals": 12,
+      "last_update": "2026-05-18T19:20:32Z",
+      "signals": 11,
       "recent": [
         {
           "title": "Health Officials Confirm First Case of Hantavirus in North America Stemming from Infected Cruise Ship - People.com",
@@ -4284,9 +4277,9 @@
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQ0RqcERUY0J4eXZvVUc3bFo2TUljZE9abDl3TVVxV0NPa1AwTXlMVmI5b0tGQXg4aGdXWWRtZWVnR0dEOTJzZFJfNVloUG5ERWFRemtTQ040b0JYLVh5YXdhbk45TE5JNzhVMFNtVXZzUWYwZFl5cG1yaC1yS3RQV0xxQlNKODIxNWszTGRxZEhWOFRCbmhadWZpaGRfYXk2NFh1cjBneGozQWpfVzcyQV9UREpySEhoR2JiYnBwM1NjLS0tUzNaTXpB0gHkAUFVX3lxTE1iWm5kWlRnMDRRbHhUTGJfSEJWd0liQWFpMVZ5WXd6di1zWVByOFJGZjRRTW9IX1hpVnVveFZrYXlSbzdxNGNlV2dSY1BxTXJPZklrWHQ3dFRfZlVaS0t0UFgweWFobkVhOUx6c1QxcHVJcF9DVmdTeHQ1M2tLbDE0U1V5YzVQMDhCUC1zUkt1MnY4QmxLa1FJVV9tc0NrdVJyRDBHZzZWUDdnQ00xa29MSXpXNDNRd0o5MU5JTWVDWFJ5X1dKbVpwb2ZiTmdkdWticzZqT3RTaXJzV1ZXS19xbVhYQQ?oc=5"
         },
         {
-          "title": "Canad\u00e1 confirma caso de hantavirus en ciudadano que viaj\u00f3 en el crucero afectado por un brote - Yahoo",
-          "t": "2026-05-17T17:32:52Z",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVkw1MjRFV1FKM1VVLUZUSVV1TjN1X253T2pBOWFfMm14b19TRHNCZHNxZHVvR2VHVG85dWVRVkZ6Mnk1YmRmd05hTVlvSXlva2thRTZjZmJCNXpKckE4TWZZTEx5X0Nib3Z2QmZ1bU0zUkpad0NERUZwVTFEQ0ZGVFYxS2wtWnlOYTg0ajk2amFCU1B3dUFGUDdR?oc=5"
+          "title": "El crucero afectado por hantavirus llegar\u00e1 a Holanda tras un brote mortal - Cadena 3 Argentina",
+          "t": "2026-05-18T06:56:54Z",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSW9mVlBzanVyekwwakNDUThJZmo4bWwxREdVZHgxRDBmVS1BQlJiWlZzRjBfdHFXVjM5RkJZR3I4UjZXZXFhelR4VmVvaXRLbTZFNDdEM0lveDRvVktYRGIxMmdtajJjeDVKVnZEd1V2LUlUQ05pOU5VX1V0ZXF3YnhRN1YxSXRIU3Q3TXZHZkhmbGtRSE9rb1pFaVdzX3dlNmowUHBGaDhacWVNTjNETHU5d01vRnl5RFHSAb8BQVVfeXFMT1BjWUcxaHhwQjJZTTkxX0loN0lEaEVJaWwtcG9USDRuV2wzMVRFYVdoTXZxajRzaVN1Sl9aLWthS0RrRkUwalNrQUt5UEFseEloMzVwOU5aVVE4aWtseko4RUlxdzZQNVNjbUtkSWIyODJSS3pXNDVkNmFJZG9Ma0JraGJLSzJDdi1GTlVuZmNpZGZISnJCMmJabFJqQXpHY2QyZ3ZHTW9aT0U0YTB1dm1EbHNTVkR3NjlmSTFrcFU?oc=5"
         }
       ]
     }
