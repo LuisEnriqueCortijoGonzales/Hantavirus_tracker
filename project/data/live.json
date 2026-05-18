@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T08:00:03.690975Z",
-  "next_update": "2026-05-18T08:05:00Z",
+  "generated": "2026-05-18T08:05:03.725462Z",
+  "next_update": "2026-05-18T08:10:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 4,
+      "var_pct": 3,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 8,
+      "signals": 7,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 14,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 26,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "CAN": 8,
     "USA": 2,
     "ARG": 19,
-    "FRA": 8,
+    "FRA": 7,
     "JPN": 2,
     "GBR": 1,
     "MEX": 2,
@@ -4098,13 +4098,6 @@
       "t": "2026-05-18T02:02:18Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbXk4T0sxZDBxRnRTNEpmRC1xNnVtcVJfZW9xNDZZa043bVNGTVRMSGxJeWVUV0xsSVc1a3g5dnQyT2NIV3hoWGxpbVBxQ2UzMEFlVGc2NTZMSnZBc1BrelJZWEtsZ1ZVNE1ZOGROU1RPbmFnVEFwQXM4NFdYbDF0TW1kTkVyMHJLRV92bjhsTkM4clJFT1ZRd3N5RE5vZXpLODQxTmhKc01UMGNCYzNWbWp1enhPbnZpemxDemxrLXFRRmlPcE9YRg?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Hantavirus-hit cruise ship nears end of voyage, to dock in Rotterdam - France 24",
-      "t": "2026-05-18T01:23:13Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUjh3MnJDd2ZHRFZRYWVlb2k2RFNlVy1aR20zcndVYU1qRTd2S3RPeWpmWVh1Zm5xR0pyZ0RsTjNfaWEtRS1oaFBFQWJJWjBiNm9oUlBwajVGcjlEWm9wRHoyN2tXRlE2WGVpVm9yaDdDQTZ0bU5OR0FtaC1oYmNUdndzNEFNVmVtdU9fSWt6VllMRFdLb2U4ZVduLVBaTlFKQWN4VkstZFVJM0FYYXhfNExvTTU?oc=5"
     },
     {
       "iso": "CAN",
@@ -4308,6 +4301,13 @@
       "t": "2026-05-11T14:54:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS3R3bXdhdDhKcThHMTl0cUNSaEp4YkhsQVNzMlRneXlZdm40TzZaQ291aml6al9YeGpPV2htTUx0bkN3QWZXUHJHblktaEIyVXY5aE9seFZCd3dBa3dQYWRGN0p6bndGenJGLUotWmlnNkdZRS1adFhSekZKemlzQ1NfeXN4b2pWcDdnMmIwTnNocnM2VmV5U0xFY1lxa2d4NlBxSkFQUEI2MWQzNlY4a2ZpZTRNYkhCaWxSaXoyQy0tbGdWSGdNYklrRV9tMUXSAdQBQVVfeXFMTUF2Sjc5SkFMWXVCdXlIZGlIamNTS09qa29ueTgta1JBbE5Oc2VtOEpLdXpNdDJJUG5MbGhZVXAyRllaX1RVTGVyR2xacDFDQnZOY3BaTXBXWlozV1hUd2JzMjdWU3l2bklBbXhvcl9UWVpYOTZXM25LWXdYeURFZG9mZ0J4djI1WXdkMWNSOWwtdVI0bVdfRVA0b1VYS1FPNGNPdHZiU090dnRNZHhlRndKcDZFUldpUGJnY0NYWlZVUEMzcmpIeHBva0pWOWo1R2UzV3k?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
+      "t": "2026-05-10T17:36:03Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
     }
   ],
   "maritime_events": [
@@ -4326,8 +4326,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T08:00:03Z",
-      "signals": 16,
+      "last_update": "2026-05-18T08:05:03Z",
+      "signals": 15,
       "recent": [
         {
           "title": "Canada confirms hantavirus case linked to cruise ship outbreak that has killed three passengers - Fox News",
