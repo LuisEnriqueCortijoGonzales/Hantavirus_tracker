@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T17:05:32.158299Z",
-  "next_update": "2026-05-18T17:10:00Z",
+  "generated": "2026-05-18T17:10:12.104114Z",
+  "next_update": "2026-05-18T17:15:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -151,11 +151,11 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 4,
+      "var_pct": 3,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 8,
+      "signals": 7,
       "gov_alert": false
     },
     "GTM": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 7,
+      "signals": 6,
       "gov_alert": false
     },
     "CHE": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 18,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,8 +4019,8 @@
   },
   "signal_summary": {
     "USA": 4,
-    "CAN": 8,
-    "FRA": 7,
+    "CAN": 7,
+    "FRA": 6,
     "ARG": 13,
     "GBR": 1,
     "JPN": 1,
@@ -4197,27 +4197,6 @@
     },
     {
       "iso": "ARG",
-      "title": "El brote de Hantavirus en un crucero volvi\u00f3 a encender las alarmas: \u00bfCu\u00e1l es la situaci\u00f3n en Argentina? - La Opinion Online",
-      "t": "2026-05-17T10:01:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBldU1ta0FXbGI4UHJ0NUlubXN4YnNZeU5FVi1FWFR3R21PS0QyZ3ZyeVVvUE1QV29zSzkxWGoyaGgxQ1BpblpYSVd6VkcxUUJ4TUdkMWVMVUlzb0NGT1dmVEFCVzJkbjE2cU93ZlNESmVHdmhlWEE?oc=5"
-    },
-    {
-      "iso": "CAN",
-      "title": "Una pasajera del Hondius da \"presuntamente positiva\" al hantavirus en Canad\u00e1 - France 24",
-      "t": "2026-05-17T09:29:10Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUXZfaWV5NmRZLTZpT0lib0NnaXVWX0Rzd0pVQjBPMTY0V2x2REFiLURZSmhLMC1iLXltVVA0aTF1dldwVDlZMlhsLTA3V1NMekhQdlNWR3E4RXNMNDl5c1p1QTVFZmhzSGV5NHpjdkJ4bU1aSkFSYldDcnBMUnN0clNySXM1VkdmM05YclV4Q0NFOWUwQnVCYUVlQnZUc0I0Z3VBWEpGWUF2M3ZtSHhuTWZKeDVnTHVITTNRYWYwSTNIY0NtOHllcl9lSEE?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Una pasajera del Hondius da \"presuntamente positiva\" al hantavirus en Canad\u00e1 - France 24",
-      "t": "2026-05-17T09:29:10Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUXZfaWV5NmRZLTZpT0lib0NnaXVWX0Rzd0pVQjBPMTY0V2x2REFiLURZSmhLMC1iLXltVVA0aTF1dldwVDlZMlhsLTA3V1NMekhQdlNWR3E4RXNMNDl5c1p1QTVFZmhzSGV5NHpjdkJ4bU1aSkFSYldDcnBMUnN0clNySXM1VkdmM05YclV4Q0NFOWUwQnVCYUVlQnZUc0I0Z3VBWEpGWUF2M3ZtSHhuTWZKeDVnTHVITTNRYWYwSTNIY0NtOHllcl9lSEE?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "La escandalosa salida argentina de la OMS en medio del brote de hantavirus - P\u00e1gina|12",
       "t": "2026-05-16T23:01:00Z",
       "source": "GoogleNews-ES",
@@ -4274,6 +4253,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Argentina reconstruye el periplo del \u2018caso \u00edndice\u2019 de hantavirus antes de subir al crucero - Sinc",
+      "t": "2026-05-07T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
       "t": "2026-05-06T07:00:00Z",
       "source": "GoogleNews-ES",
@@ -4296,7 +4282,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T17:05:32Z",
+      "last_update": "2026-05-18T17:10:12Z",
       "signals": 13,
       "recent": [
         {
