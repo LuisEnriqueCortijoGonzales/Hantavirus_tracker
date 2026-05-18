@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T18:55:32.061106Z",
-  "next_update": "2026-05-18T19:00:00Z",
+  "generated": "2026-05-18T19:00:32.062650Z",
+  "next_update": "2026-05-18T19:05:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -1401,7 +1401,6 @@
     "2026-05-18T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-16T19:00:00Z",
     "2026-05-16T20:00:00Z",
     "2026-05-16T21:00:00Z",
     "2026-05-16T22:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-18T15:00:00Z",
     "2026-05-18T16:00:00Z",
     "2026-05-18T17:00:00Z",
-    "2026-05-18T18:00:00Z"
+    "2026-05-18T18:00:00Z",
+    "2026-05-18T19:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -1489,7 +1489,6 @@
       72,
       72,
       72,
-      72,
       73,
       73,
       73,
@@ -1499,7 +1498,8 @@
       75,
       75,
       75,
-      75
+      75,
+      76
     ],
     "CHL": [
       31,
@@ -1512,7 +1512,6 @@
       31,
       31,
       31,
-      31,
       32,
       32,
       32,
@@ -1545,6 +1544,7 @@
       35,
       35,
       35,
+      36,
       36,
       36,
       36,
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 20,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4027,6 +4027,13 @@
   },
   "events": [
     {
+      "iso": "ARG",
+      "title": "Extremo sur de Argentina teme que el hantavirus enfr\u00ede el turismo - laradiodelmercosur.com.ar",
+      "t": "2026-05-18T18:24:58Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRHgzVkxtckl1VVJRejRqYklSTlRsQU1IdzI3VWpNSk5NUlItSDVjQ29tR3BPM1B0NlJLMnBKSkozbjlHVDRVX2F2RXZfci1DT211aWZsNWRZNUNRb1d2UHBGanMzWDhxYXpUekwwOTdFaEpndUhZby0yNjVzTkhPdTV2bVRuMkU0REtDcnVpNDUyMGgtRDJKeHJMWWVTVTVYTlpsTnNiWW1oVzFmc2FCcQ?oc=5"
+    },
+    {
       "iso": "GBR",
       "title": "Britain gets experimental drug from Japan to bolster hantavirus response - Reuters",
       "t": "2026-05-18T17:28:24Z",
@@ -4046,13 +4053,6 @@
       "t": "2026-05-18T16:22:06Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWUp2ZkdlUnFUVWtMTnphWHZFaHRlcS12UjlFa28xR3kyYTREN2xvdDN5ZHhKUUZYTGdTWlJGdzYyOUJpbElxVE9vUzNlM0FYN1dtekNweGo4T29obVJSMUU5M0tCbVhpcjVUUXRXem1CbzdZdXZRbVNhUWRhTGpRaW1wQmZxNWNkYm1LdnpkZXZWaUNiVEp4enBxdlAxV1BmMlFRZ2sxY0g0Qy1JdGZPZFVZMmxLUVoyOVRGal9JRHdtSERObFlnMWpjekhqTzhiTmxNSXF6N0NfWDBoMl9B?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Extremo sur de Argentina teme que el hantavirus enfr\u00ede el turismo - Boston Herald",
-      "t": "2026-05-18T16:00:09Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPblV4Nmp6cFBLOVRZcXlPa3Faa2thQXhtaUhKZFNJZ0UwVlZ4Sm5wNFJnVzkyYjFyNTdtQWJGeHZpTzdfWkpTUGpzUGtXdmprOFRFZlBJMlltU2ZFZXMxc3ZMSV9iUEhUOW5PbmVzSlJ0OHQ5T1U2Um9uN1JKTlJyMXFDMjJhSHdsVjd1TndHdEVZWnlUa3dhMHUwS3JObWdLLTViTnh5Rzg?oc=5"
     },
     {
       "iso": "USA",
@@ -4267,7 +4267,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T18:55:32Z",
+      "last_update": "2026-05-18T19:00:32Z",
       "signals": 13,
       "recent": [
         {
