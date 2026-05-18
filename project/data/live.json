@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-18T09:45:32.095127Z",
-  "next_update": "2026-05-18T09:50:00Z",
+  "generated": "2026-05-18T09:50:12.089595Z",
+  "next_update": "2026-05-18T09:55:00Z",
   "days_active": 10,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -151,11 +151,11 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 3,
+      "var_pct": 4,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 7,
+      "signals": 8,
       "gov_alert": false
     },
     "GTM": {
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 18,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "CAN": 7,
+    "CAN": 8,
     "USA": 2,
     "ARG": 17,
     "HUN": 1,
@@ -4085,6 +4085,13 @@
       "t": "2026-05-18T02:02:18Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbXk4T0sxZDBxRnRTNEpmRC1xNnVtcVJfZW9xNDZZa043bVNGTVRMSGxJeWVUV0xsSVc1a3g5dnQyT2NIV3hoWGxpbVBxQ2UzMEFlVGc2NTZMSnZBc1BrelJZWEtsZ1ZVNE1ZOGROU1RPbmFnVEFwQXM4NFdYbDF0TW1kTkVyMHJLRV92bjhsTkM4clJFT1ZRd3N5RE5vZXpLODQxTmhKc01UMGNCYzNWbWp1enhPbnZpemxDemxrLXFRRmlPcE9YRg?oc=5"
+    },
+    {
+      "iso": "CAN",
+      "title": "Canada confirms 1st positive hantavirus case - FOX 35 Orlando",
+      "t": "2026-05-17T22:08:56Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUXV4QWVLeVFlYkNIeFdhZ2RHblNnVzFlRm4wZVAyLTBqem9iTGhaY0V0RmVxdVFmQU1MSGR4UTZLNVZpYXVtT0ZuNWVLLW1DbGlsLXFPSVlUYzZTNVBEWnNKd2h6YjEzVGtLRzJHYjFyVFotSG5lZWhTY1VncUd4UWNkVFnSAYoBQVVfeXFMT3dFaHZjeHcxOXdNVk5XU2JPdVFEY2hTdlhRX2Q4MWtJbzZpM2FJNC1KamVkeFZtQ3hCMjkxbzJOWUI5YUtNQWREQk1TcnFwSG91d1BaNUlwVWRVaGV0RG5OdXZvZl8xS2F0ekN1LVpMVFlUZmNrcHl6ZGdWZDY2SU1VWmM2M2kwNkdn?oc=5"
     },
     {
       "iso": "CAN",
@@ -4320,7 +4327,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-18T09:45:32Z",
+      "last_update": "2026-05-18T09:50:12Z",
       "signals": 14,
       "recent": [
         {
