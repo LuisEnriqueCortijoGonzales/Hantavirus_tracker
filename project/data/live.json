@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-19T05:35:32.143837Z",
-  "next_update": "2026-05-19T05:40:00Z",
+  "generated": "2026-05-19T05:40:03.723509Z",
+  "next_update": "2026-05-19T05:45:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 78,
+      "ytd": 77,
       "alert": "vigilancia",
       "cfr": 37.3,
-      "var_pct": 16,
+      "var_pct": 15,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 7,
       "r0": null,
-      "signals": 10,
+      "signals": 9,
       "gov_alert": false
     },
     "CHL": {
@@ -581,7 +581,7 @@
       70,
       70,
       70,
-      78
+      77
     ],
     "CHL": [
       31,
@@ -1477,13 +1477,14 @@
       70,
       70,
       70,
+      70,
       71,
       71,
       71,
       72,
       72,
       72,
-      73,
+      72,
       73,
       73,
       73,
@@ -1498,8 +1499,7 @@
       76,
       77,
       77,
-      77,
-      78
+      77
     ],
     "CHL": [
       32,
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 20,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4023,7 +4023,7 @@
     "USA": 3,
     "MEX": 1,
     "CAN": 2,
-    "ARG": 10,
+    "ARG": 9,
     "FRA": 2
   },
   "events": [
@@ -4187,13 +4187,6 @@
       "t": "2026-05-12T22:12:02Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeUtmR2dNaUYwdEFTMTc1dUlmZVR4c1MzTXQ5VDZQclYzbW1xdzRfUGF3aWFIc1lSaWpRcXhfbW5OdFVYbW0tekVySTBDYy1Va050T1cwTWVNZHk3a2pmYUNkNDQ2MndoS1N2cUJPaFpfOU9scFlyb1hZZTNwamg3YnJzTnFjbVRUVEFLdFhkQmlXNUlDWUpuQ0hGblpYVkpIcTlKX1kwMjRURTV0UVdkSVMwZDhvZVpMc2RTcFYwdkdTZHZ5SEFwNXBlNld1V2d6eHBmUHVCWVE5UDFsbGYtRDl30gH8AUFVX3lxTFBoQ1JGSnZhTHg2SmpiUlltY3Vzd3p0d3ZLVXR0VEFNQkQzNVlOb19PcVBabUlfdDc5RHR6aGdvOEhiUnNmcE43cGNoZG1KVTZWSmlnOHZxZHJPOWdRWXJkbUVIXzI1SzdjTC1MX3NNaFhodnJwODVRakN1OVZxMkFrNHlEMXlVN3ZFWW1kdUFId21ISkRPRVF6bnJlTlBjZHVOd1NaY2FKbUJfYktwQm5meE1LNVNMQmZyekV2MUQzM1AwcVRtQnhsd3N3Vl83aldDQ2ZxeDB0RlpERE9ENEZ3ekhodXhhLUlGelU0U3VVYVFjeE1OSUpTUXdqTQ?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
-      "t": "2026-05-06T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
     }
   ],
   "maritime_events": [
@@ -4212,8 +4205,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T05:35:32Z",
-      "signals": 9,
+      "last_update": "2026-05-19T05:40:03Z",
+      "signals": 8,
       "recent": [
         {
           "title": "Confirman el primer caso de Hantavirus en Estados Unidos no relacionado con el crucero MV Hondius - HOLA",
