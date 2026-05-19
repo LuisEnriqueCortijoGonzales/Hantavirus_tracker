@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-19T18:25:12.085633Z",
-  "next_update": "2026-05-19T18:30:00Z",
+  "generated": "2026-05-19T18:30:32.051853Z",
+  "next_update": "2026-05-19T18:35:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "GRC": {
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 21,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 4,
     "CAN": 3,
-    "GBR": 3,
+    "GBR": 2,
     "JPN": 1,
     "ARG": 10,
     "FRA": 3,
@@ -4064,13 +4064,6 @@
       "t": "2026-05-19T15:41:37Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVjZXX0ZfRFUxV0tiWEtObHpXYzNyQ0ZwZDdtSkV4aHBScTdsaXpXWmlDSlkxd3Z3bGJlaTljc1ZZZ3pfcC1Bd08zaVdOdFloeVYyVUFiZFpSemFBVTBFWXBVdEZUaXRJU3ZvXzlOSkxiNmxNSkFNcV9tcE1hUlY0clRKNThFUE5uMXJLNFJyLTJfZEsxOWxUcExKSFhqWEItT193TXBvQTdUTi02bmpZMnBTbTNpRDVRLTRTQXRKRQ?oc=5"
-    },
-    {
-      "iso": "GBR",
-      "title": "UK government bolsters antiviral supply for hantavirus - Yahoo",
-      "t": "2026-05-19T15:18:52Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNVZTQkM3TUhUYms4OUVKM0ZJWWVTWEQ2ZEExN0R3bkItc0FZSERZSHl0Z0FaY2J3OFpHT1JueWhjcU9RTno4eEFOT0xOaUlhODQ2S1BlTnl0bnJVU0t1SktqQ21nQ3doOXk5MlB4dmlLRmNaNWROa3FtS1ByaUNmcnVhcGM1dDRaOHgyZTNwUUxTQnRz?oc=5"
     },
     {
       "iso": "USA",
@@ -4250,7 +4243,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T18:25:12Z",
+      "last_update": "2026-05-19T18:30:32Z",
       "signals": 11,
       "recent": [
         {
