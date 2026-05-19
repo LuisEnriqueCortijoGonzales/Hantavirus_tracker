@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-19T13:30:32.087641Z",
-  "next_update": "2026-05-19T13:35:00Z",
+  "generated": "2026-05-19T13:40:32.077519Z",
+  "next_update": "2026-05-19T13:45:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 81,
       "alert": "vigilancia",
       "cfr": 37.3,
-      "var_pct": 20,
+      "var_pct": 21,
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 11,
+      "signals": 12,
       "gov_alert": false
     },
     "CHL": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "GRC": {
@@ -562,7 +562,7 @@
       "strain": "hantaan",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     }
   },
@@ -1470,14 +1470,13 @@
       71,
       71,
       71,
-      71,
       72,
       72,
       72,
       73,
       73,
       73,
-      73,
+      74,
       74,
       74,
       74,
@@ -1499,7 +1498,8 @@
       80,
       80,
       80,
-      80
+      81,
+      81
     ],
     "CHL": [
       33,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 22,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,11 +4019,11 @@
   },
   "signal_summary": {
     "USA": 5,
-    "GBR": 3,
-    "JPN": 3,
+    "GBR": 2,
+    "JPN": 2,
     "FRA": 5,
     "CAN": 2,
-    "ARG": 11
+    "ARG": 12
   },
   "events": [
     {
@@ -4032,20 +4032,6 @@
       "t": "2026-05-19T12:25:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUWpXa21hMVQxZUh5eUJNN1FkbUZhOFdNd2lYUU5MMXBzRDJTc2txNllQTUk0b0VXOUdwbXEtbEQtdjVGa2wzN1A5M1puT3NRMndwSXdNRkZJMFNMUkNnTTRxZWh1LUY5ZGw1NVZLM3Y0ek54cTlOVFl5NzQzY2stT2lsanQwRG50eWZpWHlmYkpRT1Z0UjRHUzdtMHJVcWFTQ3VPbnF1Ykg0SUlXZkpPMEdn?oc=5"
-    },
-    {
-      "iso": "GBR",
-      "title": "Reino Unido recibe f\u00e1rmaco experimental de Jap\u00f3n para reforzar su respuesta al hantavirus - El Economista",
-      "t": "2026-05-19T12:16:56Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUFVrdmdLWk1ycGt6TDF2VjRkVzRvR2M1WndZaUpYaUlTZ0ZNZDcyeHRoZjc3QzJKUTZLU2R5ZVV3Y3ZSU0NNX21nNl83cXVXRVZvZ2pRWkd1dURQTjdXeDRLTWpzT1NZVy11aWlFMXo3enFZZUZqa1pBZkozLXFmb0s4cDBfeW9HSnVnS1ZSZjJQVnE4TExTc2E5LWZXaWRLRDFIZDA5WVpMZHVDUVpCR05hanlzcmdqd2tmQklMSjY0blliYVB6TkFDbTBJa01rU2d4MWoyenVDT05O0gHiAUFVX3lxTE5TTTA5YnZEeGp4VDJaUU15ZDNSOExFNjhldTRJOUdUNHdJYkpfeTlJZFFkNnU0ckE5eDg1TUV0cDdwNEhHUnNtSEtCV1NYZGZJTjd3amJhMlRZUW94U0FGVXk0eUJ2eWx1UnVqdmQtT0ZlSGpWTzk4MEtuTll4Z05Na1kyOVk1RWZ0R3VpbWpvTDVEVkF4c28xREFjWTJicXFTdWhfRHRlZkpGdmpqN2V6M2lsOUdZdGlPNnFjcXlHb3drZjJ6eXZ6bE80d1JFTHJ3aDZsU0hqX1plN0pyNk9fa2c?oc=5"
-    },
-    {
-      "iso": "JPN",
-      "title": "Reino Unido recibe f\u00e1rmaco experimental de Jap\u00f3n para reforzar su respuesta al hantavirus - El Economista",
-      "t": "2026-05-19T12:16:56Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUFVrdmdLWk1ycGt6TDF2VjRkVzRvR2M1WndZaUpYaUlTZ0ZNZDcyeHRoZjc3QzJKUTZLU2R5ZVV3Y3ZSU0NNX21nNl83cXVXRVZvZ2pRWkd1dURQTjdXeDRLTWpzT1NZVy11aWlFMXo3enFZZUZqa1pBZkozLXFmb0s4cDBfeW9HSnVnS1ZSZjJQVnE4TExTc2E5LWZXaWRLRDFIZDA5WVpMZHVDUVpCR05hanlzcmdqd2tmQklMSjY0blliYVB6TkFDbTBJa01rU2d4MWoyenVDT05O0gHiAUFVX3lxTE5TTTA5YnZEeGp4VDJaUU15ZDNSOExFNjhldTRJOUdUNHdJYkpfeTlJZFFkNnU0ckE5eDg1TUV0cDdwNEhHUnNtSEtCV1NYZGZJTjd3amJhMlRZUW94U0FGVXk0eUJ2eWx1UnVqdmQtT0ZlSGpWTzk4MEtuTll4Z05Na1kyOVk1RWZ0R3VpbWpvTDVEVkF4c28xREFjWTJicXFTdWhfRHRlZkpGdmpqN2V6M2lsOUdZdGlPNnFjcXlHb3drZjJ6eXZ6bE80d1JFTHJ3aDZsU0hqX1plN0pyNk9fa2c?oc=5"
     },
     {
       "iso": "FRA",
@@ -4224,6 +4210,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Argentina reconstruye el periplo del \u2018caso \u00edndice\u2019 de hantavirus antes de subir al crucero - Sinc",
+      "t": "2026-05-07T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
       "t": "2026-05-06T07:00:00Z",
       "source": "GoogleNews-ES",
@@ -4246,8 +4239,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T13:30:32Z",
-      "signals": 11,
+      "last_update": "2026-05-19T13:40:32Z",
+      "signals": 12,
       "recent": [
         {
           "title": "Health Officials Confirm First Case of Hantavirus in North America Stemming from Infected Cruise Ship - People.com",
