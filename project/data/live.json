@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-19T17:45:12.113613Z",
-  "next_update": "2026-05-19T17:50:00Z",
+  "generated": "2026-05-19T17:50:03.715689Z",
+  "next_update": "2026-05-19T17:55:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "GRC": {
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 22,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 3,
     "CAN": 3,
-    "GBR": 2,
+    "GBR": 3,
     "JPN": 1,
     "MEX": 2,
     "FRA": 4,
@@ -4030,6 +4030,13 @@
     "URY": 1
   },
   "events": [
+    {
+      "iso": "GBR",
+      "title": "Reino Unido recurre al antiviral japon\u00e9s Avigan para blindar su respuesta al brote de hantavirus Andes - curecompass.com.ar",
+      "t": "2026-05-19T17:45:58Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdDNPeldlZVpwXzhiMm1haGlTRkVaQ2xLX2FQekRnbjlDZ1NsYkN1QXY2cjdxaDhuRzZsSEhjTGJ1T3NTaGR0SGdZbzBrel9OWjdnT29Yb2cyMkxWVFFVdkg3S21rM3NhX3k1cTNEVnFWd1BWZ3hqQkJHenJtS1RKeXNtWG1CSkxGS1d4cVhPV2J5cGtsZFJUMU95UkVqendmdWZGOThxVWwxRDNEVnZLS29yWnFUSG1hbkZsMzJXQXFoWVhZdVVXOEdB?oc=5"
+    },
     {
       "iso": "MEX",
       "title": "Salud descarta casos de hantavirus y \u00e9bola en M\u00e9xico, pero mantiene vigilancia epidemiol\u00f3gica - laradiodelmercosur.com.ar",
@@ -4236,7 +4243,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T17:45:12Z",
+      "last_update": "2026-05-19T17:50:03Z",
       "signals": 12,
       "recent": [
         {
