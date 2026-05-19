@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-19T12:50:03.727125Z",
-  "next_update": "2026-05-19T12:55:00Z",
+  "generated": "2026-05-19T12:55:22.055623Z",
+  "next_update": "2026-05-19T13:00:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 81,
+      "ytd": 80,
       "alert": "vigilancia",
       "cfr": 37.3,
-      "var_pct": 21,
+      "var_pct": 20,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 7,
       "r0": null,
-      "signals": 12,
+      "signals": 11,
       "gov_alert": false
     },
     "CHL": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 4,
+      "signals": 5,
       "gov_alert": false
     },
     "PRY": {
@@ -581,7 +581,7 @@
       71,
       71,
       73,
-      81
+      80
     ],
     "CHL": [
       31,
@@ -1471,13 +1471,14 @@
       71,
       71,
       71,
+      71,
       72,
       72,
       72,
       73,
       73,
       73,
-      74,
+      73,
       74,
       74,
       74,
@@ -1498,8 +1499,7 @@
       79,
       80,
       80,
-      80,
-      81
+      80
     ],
     "CHL": [
       32,
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 22,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,18 +4018,18 @@
     "outbreak_count": 5
   },
   "signal_summary": {
-    "USA": 4,
+    "USA": 5,
     "GBR": 2,
     "JPN": 2,
     "FRA": 5,
     "CAN": 2,
-    "ARG": 12
+    "ARG": 11
   },
   "events": [
     {
       "iso": "USA",
       "title": "Ebola, hantavirus and what these frightening outbreaks really mean - USA Today",
-      "t": "2026-05-19T11:18:00Z",
+      "t": "2026-05-19T12:25:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUWpXa21hMVQxZUh5eUJNN1FkbUZhOFdNd2lYUU5MMXBzRDJTc2txNllQTUk0b0VXOUdwbXEtbEQtdjVGa2wzN1A5M1puT3NRMndwSXdNRkZJMFNMUkNnTTRxZWh1LUY5ZGw1NVZLM3Y0ek54cTlOVFl5NzQzY2stT2lsanQwRG50eWZpWHlmYkpRT1Z0UjRHUzdtMHJVcWFTQ3VPbnF1Ykg0SUlXZkpPMEdn?oc=5"
     },
@@ -4074,13 +4074,6 @@
       "t": "2026-05-19T01:25:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3VsYjJOMHNjeFpfam4xcGYtLVhPM0tGLWY2MUdFUkFPNW9FMXFQVEZjSWw5V2Q2bHBkZ1pzS2VvSUFHdklzLUU3TkpFMEFNZGM4WDQ3bWZzOTdvU3I5eU5yQllUeVRnZUlnZmJseHFEZU5nT1ZwRmRuRjJQQ0dUbFJpVDBlbTc5Rml2Z243aGVodV8zZ2l0TEpQYkJKREtjNVpVUQ?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Se vota la salida de Argentina de la OMS: ilegal, con deudas y en pleno brote de hantavirus - - Aqu\u00ed La Noticia",
-      "t": "2026-05-18T21:11:12Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdm5sSnZXQWhfb21KazE2Q1ViejZCNHp4TzRLcjBYMmdxMzlUMXQ3UFlWTnpEUXNUdG1ILWxFQTlLOWc0ODhUMlE1YVE3WVFZZUtvUUM0WEZhMFk0Ri1ZTUNYbXlRQ190SHowVW15RUQzTFh2Y1k5V1JaQVY1MzVRay1KdzJaWUxZOGpraDVTZnB2ZUJQYy1YX1hzYXFIeU9xeS1DTmtZcUFwdXNDUWZJU3lVcDQ2QXM?oc=5"
     },
     {
       "iso": "FRA",
@@ -4144,6 +4137,13 @@
       "t": "2026-05-18T02:17:33Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdjVIdE5rYnItLTBJdGpxV24wSVQzaXJnWGFCenJHQXdBekZhd2YyazBJUlpVLXFwZzloelRYZGY3RWJWTkkzb0RRV2YtSFZjZVlacHE1N2NtMWswY3p5Y3p0NkZ0LUh6VlNYanpIYkpXZEJLQ0M5M0FwUmI0REZheDVVNmtxM1QtdmpYSlNkbWV1SWVxeVZUQ3RnUm8xeXpZTEx3QlRxbHo1SVI0YW15VklXWdIBuAFBVV95cUxOU1FLRlE5QkJmTHZ1UExWQmo1SVcwZlpYRGtTVDZGUUI1aTdQTmd4OGVBZDcyUWI2MVg0YWEzblpLMmFNc0hfX2U3eVFJLUtiVldNTDhYcHJEaWpMcjBYeUlHc1FXRlNYSWhWZHpBR2ttN21Rc2FCUXhzelRmckRrNllUOUZaOVI4dTg1YVY5a2VyQS0zYnRPYlBWdmZwelhoVUhuRHBtNmxscDdmM0laVTRMX3JwVUZq?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Health Officials Confirm First Case of Hantavirus in North America Stemming from Infected Cruise Ship - People.com",
+      "t": "2026-05-18T02:02:18Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbXk4T0sxZDBxRnRTNEpmRC1xNnVtcVJfZW9xNDZZa043bVNGTVRMSGxJeWVUV0xsSVc1a3g5dnQyT2NIV3hoWGxpbVBxQ2UzMEFlVGc2NTZMSnZBc1BrelJZWEtsZ1ZVNE1ZOGROU1RPbmFnVEFwQXM4NFdYbDF0TW1kTkVyMHJLRV92bjhsTkM4clJFT1ZRd3N5RE5vZXpLODQxTmhKc01UMGNCYzNWbWp1enhPbnZpemxDemxrLXFRRmlPcE9YRg?oc=5"
     },
     {
       "iso": "CAN",
@@ -4232,9 +4232,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T12:50:03Z",
-      "signals": 10,
+      "last_update": "2026-05-19T12:55:22Z",
+      "signals": 11,
       "recent": [
+        {
+          "title": "Health Officials Confirm First Case of Hantavirus in North America Stemming from Infected Cruise Ship - People.com",
+          "t": "2026-05-18T02:02:18Z",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbXk4T0sxZDBxRnRTNEpmRC1xNnVtcVJfZW9xNDZZa043bVNGTVRMSGxJeWVUV0xsSVc1a3g5dnQyT2NIV3hoWGxpbVBxQ2UzMEFlVGc2NTZMSnZBc1BrelJZWEtsZ1ZVNE1ZOGROU1RPbmFnVEFwQXM4NFdYbDF0TW1kTkVyMHJLRV92bjhsTkM4clJFT1ZRd3N5RE5vZXpLODQxTmhKc01UMGNCYzNWbWp1enhPbnZpemxDemxrLXFRRmlPcE9YRg?oc=5"
+        },
         {
           "title": "Confirman el primer caso de Hantavirus en Estados Unidos no relacionado con el crucero MV Hondius - HOLA",
           "t": "2026-05-19T01:25:00Z",
@@ -4254,11 +4259,6 @@
           "title": "Canad\u00e1 confirma caso de hantavirus en ciudadano que viaj\u00f3 en el crucero afectado por un brote - Yahoo",
           "t": "2026-05-17T17:32:52Z",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVkw1MjRFV1FKM1VVLUZUSVV1TjN1X253T2pBOWFfMm14b19TRHNCZHNxZHVvR2VHVG85dWVRVkZ6Mnk1YmRmd05hTVlvSXlva2thRTZjZmJCNXpKckE4TWZZTEx5X0Nib3Z2QmZ1bU0zUkpad0NERUZwVTFEQ0ZGVFYxS2wtWnlOYTg0ajk2amFCU1B3dUFGUDdR?oc=5"
-        },
-        {
-          "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
-          "t": "2026-05-15T12:33:58Z",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
         }
       ]
     }
