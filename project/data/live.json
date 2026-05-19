@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-19T08:45:03.718016Z",
-  "next_update": "2026-05-19T08:50:00Z",
+  "generated": "2026-05-19T08:50:32.189529Z",
+  "next_update": "2026-05-19T08:55:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4006,7 +4006,7 @@
     "composite": 13,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 16,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,8 +4020,8 @@
   "signal_summary": {
     "GBR": 3,
     "JPN": 3,
-    "USA": 3,
     "MEX": 1,
+    "USA": 3,
     "ARG": 10,
     "FRA": 2,
     "CAN": 1
@@ -4205,18 +4205,18 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T08:45:03Z",
+      "last_update": "2026-05-19T08:50:32Z",
       "signals": 8,
       "recent": [
-        {
-          "title": "Confirman el primer caso de Hantavirus en Estados Unidos no relacionado con el crucero MV Hondius - HOLA",
-          "t": "2026-05-19T01:25:00Z",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3VsYjJOMHNjeFpfam4xcGYtLVhPM0tGLWY2MUdFUkFPNW9FMXFQVEZjSWw5V2Q2bHBkZ1pzS2VvSUFHdklzLUU3TkpFMEFNZGM4WDQ3bWZzOTdvU3I5eU5yQllUeVRnZUlnZmJseHFEZU5nT1ZwRmRuRjJQQ0dUbFJpVDBlbTc5Rml2Z243aGVodV8zZ2l0TEpQYkJKREtjNVpVUQ?oc=5"
-        },
         {
           "title": "Cruise ship hantavirus differs from what's found in New Mexico - KOAT",
           "t": "2026-05-19T02:06:00Z",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHVSTmVheFctU3BSNTJtd0VGQ0w0VGZkOWIyLVZLMGdsakdvaUpkR2NYR3paVVBqc2lpZUNSMjZHU1RaRDBnN3ZFMGw5bDdvQURRS25Rb3hkWV8zWDJMTEluSkRMSlRMSE9lMW1PczQ0MDMwTnBxLXVCUVZ1am9qU0dSMjFWM0JRR1dkOGF2amxsdjhQZHoyaHhfQXFWcXVC?oc=5"
+        },
+        {
+          "title": "Confirman el primer caso de Hantavirus en Estados Unidos no relacionado con el crucero MV Hondius - HOLA",
+          "t": "2026-05-19T01:25:00Z",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3VsYjJOMHNjeFpfam4xcGYtLVhPM0tGLWY2MUdFUkFPNW9FMXFQVEZjSWw5V2Q2bHBkZ1pzS2VvSUFHdklzLUU3TkpFMEFNZGM4WDQ3bWZzOTdvU3I5eU5yQllUeVRnZUlnZmJseHFEZU5nT1ZwRmRuRjJQQ0dUbFJpVDBlbTc5Rml2Z243aGVodV8zZ2l0TEpQYkJKREtjNVpVUQ?oc=5"
         },
         {
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
