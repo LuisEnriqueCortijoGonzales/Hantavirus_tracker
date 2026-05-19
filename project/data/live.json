@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-19T17:35:32.117937Z",
-  "next_update": "2026-05-19T17:40:00Z",
+  "generated": "2026-05-19T17:40:32.081480Z",
+  "next_update": "2026-05-19T17:45:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -74,11 +74,11 @@
       "ytd": 8,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "USA": {
@@ -4006,7 +4006,7 @@
     "composite": 13,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 17,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4022,7 +4022,7 @@
     "CAN": 3,
     "GBR": 2,
     "JPN": 1,
-    "MEX": 1,
+    "MEX": 2,
     "FRA": 4,
     "ARG": 9,
     "COL": 1,
@@ -4030,6 +4030,13 @@
     "URY": 1
   },
   "events": [
+    {
+      "iso": "MEX",
+      "title": "Salud descarta casos de hantavirus y \u00e9bola en M\u00e9xico, pero mantiene vigilancia epidemiol\u00f3gica - laradiodelmercosur.com.ar",
+      "t": "2026-05-19T17:09:02Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNUJIcG5HTkZXbE9RRmVXWTdRT1QzbjZVR0tvWEQ3aUtkaXJ0VkFsUXhycFFGb3FIQjNoYVM1TjVCTGo1SVM0aXpMV2hwRTQ0clJjeDhULWNURVRZcGprYXdxdUgyVzNMMnNQRklTSzlldGkxSHVjX1JBa3E4NkpsTzVTWVpUVHhTTXV5STJfcmtLODN5Skl3Q05JTWppZmVzRUVVSlJVVTF2a2N0RXI3LXM5Vi1CMGJWX00wLWdZbEJTWFlfZ1hPMVN5Wm5Ya3h4VHVXMjJIdUFpbzQ?oc=5"
+    },
     {
       "iso": "COL",
       "title": "Crucero afectado por hantavirus volver\u00e1 a zarpar en junio (\u00faltimas actualizaciones) - Forbes Colombia",
@@ -4229,7 +4236,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T17:35:32Z",
+      "last_update": "2026-05-19T17:40:32Z",
       "signals": 12,
       "recent": [
         {
