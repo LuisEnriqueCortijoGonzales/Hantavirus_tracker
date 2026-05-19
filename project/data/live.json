@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-19T20:50:03.719926Z",
-  "next_update": "2026-05-19T20:55:00Z",
+  "generated": "2026-05-19T20:55:32.108050Z",
+  "next_update": "2026-05-19T21:00:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -269,14 +269,14 @@
       "gov_alert": false
     },
     "FRA": {
-      "ytd": 23,
+      "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 1,
+      "var_pct": 2,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 5,
       "gov_alert": false
     },
     "CHE": {
@@ -952,20 +952,20 @@
       67
     ],
     "FRA": [
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24
     ],
     "CHE": [
       8,
@@ -2652,54 +2652,54 @@
       67
     ],
     "FRA": [
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23,
-      23
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24
     ],
     "CHE": [
       8,
@@ -4006,7 +4006,7 @@
     "composite": 13,
     "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 17,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 6,
-    "FRA": 3,
+    "FRA": 5,
     "CAN": 4,
     "GBR": 2,
     "JPN": 1,
@@ -4028,6 +4028,13 @@
     "COL": 1
   },
   "events": [
+    {
+      "iso": "FRA",
+      "title": "Hantavirus cruise operator says ship not source of outbreak - France 24",
+      "t": "2026-05-19T20:19:09Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRFR5V01XR0xQUFZaMEtZcFBTdUlJV0VMRlFMbXdUS3ZRbGlWRV9GV0VvcG1DX180REdhdmV6eXNNUTBZb3gwMEpsVElzRGtEcWtFYk9YTy0tTENqaTUzaWVNWEI1NnFDRjJHNld5d0JyeGZFczZrR3JlN2g0d3Y5YmtjYWwza05leHBDempia1JhOERYREJrWnAyVDlLNUFSWE9CQ2xGYkxnZw?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Confirman muerte por contagio de hantavirus en Estados Unidos, no est\u00e1 relacionada con el crucero de Argentina - Azteca Morelos",
@@ -4197,6 +4204,13 @@
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVkw1MjRFV1FKM1VVLUZUSVV1TjN1X253T2pBOWFfMm14b19TRHNCZHNxZHVvR2VHVG85dWVRVkZ6Mnk1YmRmd05hTVlvSXlva2thRTZjZmJCNXpKckE4TWZZTEx5X0Nib3Z2QmZ1bU0zUkpad0NERUZwVTFEQ0ZGVFYxS2wtWnlOYTg0ajk2amFCU1B3dUFGUDdR?oc=5"
     },
     {
+      "iso": "FRA",
+      "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
+      "t": "2026-05-16T18:07:02Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ01MSERfY0JHbWVCdy1rSWtHZ3EtNkJCNU5kcU9SQjNwbGY1b1B1NWE1alpYOGVsRnJxZWM5cU90Q2VIZzJiYzdjM0h2blhaUzExWEEtNlYtRkxORE1UR3dWTkhLTEsxTnFXSjczNHlJRmlVc3NpbHNfcGMwVTFRNlFtaGVlTjdlMUHSAY8BQVVfeXFMTUhqV3ctTE9hV3luREJWRnpHbzBnQ2EwZmk2anZfZTlFTGFIU193QVlUUFJpOWpTMGEzNXkwZFREaDFnZTMyc0xHb0tZWVhkN0pGUThSbEVPWHVtUVVhRXpFanBxN0pmYzVHMEtOWjNSNkxPMHJZV1Nlb1Z1bXlDT2NUbDVndlZONjgxb2lxcFk?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
       "t": "2026-05-15T12:33:58Z",
@@ -4255,8 +4269,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T20:50:03Z",
-      "signals": 15,
+      "last_update": "2026-05-19T20:55:32Z",
+      "signals": 16,
       "recent": [
         {
           "title": "Confirman el primer caso de Hantavirus en Estados Unidos no relacionado con el crucero MV Hondius - HOLA",
@@ -4274,14 +4288,14 @@
           "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOYldoODQxdEEzRjR1RlpUbGh6VWZFS1FMdmZwUWZ5eWFBVk9OeHI2LUYyT05wc25ZVFVVTkY5SFpsMlpNeWQ0T1I4Tjlza3JveEs3TXlYZGRIVzhGZW12ZHJwU0xzNklUWmt1aUs4dFV3RV9teWZGUkZJQjlTSm9Mdnd1dnlJRGdsRFJwdTdUU0NsdjQ1ZWRaUkxhNmlvendOX0dNRGdBNDUta2tiV3ZRTnlQSVpyUk1KQzVMV3BhMkpHbkZpbmRZS2txWEdGUUxjVU5yOEYwemZfSGtVLU03MGdaeVhTTGs?oc=5"
         },
         {
+          "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
+          "t": "2026-05-16T18:07:02Z",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ01MSERfY0JHbWVCdy1rSWtHZ3EtNkJCNU5kcU9SQjNwbGY1b1B1NWE1alpYOGVsRnJxZWM5cU90Q2VIZzJiYzdjM0h2blhaUzExWEEtNlYtRkxORE1UR3dWTkhLTEsxTnFXSjczNHlJRmlVc3NpbHNfcGMwVTFRNlFtaGVlTjdlMUHSAY8BQVVfeXFMTUhqV3ctTE9hV3luREJWRnpHbzBnQ2EwZmk2anZfZTlFTGFIU193QVlUUFJpOWpTMGEzNXkwZFREaDFnZTMyc0xHb0tZWVhkN0pGUThSbEVPWHVtUVVhRXpFanBxN0pmYzVHMEtOWjNSNkxPMHJZV1Nlb1Z1bXlDT2NUbDVndlZONjgxb2lxcFk?oc=5"
+        },
+        {
           "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - France 24",
           "t": "2026-05-18T19:40:03Z",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVlhuUG82VktZUi1sOWRpclRTZU9HUVZmQjRwaS0tVml5bXhuakthM0xHYUhXYzJEbGFMR200NUF0QnlfMnV4SzkyaXRURzRWcnM3bTBJQjdkSnlrMGhSVENkMUxjRzNrNW1JNVJvUlZaV3JCdzdZbmZQLXYwUTVmR2x6bFZVXy1EX3FBTk9uRXFIVHhwOS1ucXRZVGNwSERTdTRqYzFVbHdyTXh5SjJ5bXZVc2NEaGNPczZsbF9saFd0R0VMQU9ac19FbjlNd0VhTjd0cWx1WGJCMW5tLWVUdk1Tbw?oc=5"
-        },
-        {
-          "title": "Canada hantavirus update: 1 of 4 who went home from cruise ship hit with hantavirus outbreak tests positive, health agency says - ABC7 Chicago",
-          "t": "2026-05-17T18:43:33Z",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYkkteVAzeUdWdHM0Nlg0VTZYS1NCUUxUMXl5eXZiTFF0eUVMSGxKOU5DZEtlbk8ydlB1MTdjRUlKaUljeTNlTU84NUZub1pQeXAzWTlJaGxWbkJDcVFRYTFCdWE5WnY4ZG5CTzVYVnBWd09ENDVFeFFteHZhSGZEZnBwVjlIOEtQX1RSMVZFOHAxQUk2SnBjeExqb3gwOHo5dnkxblJGTnRFMm9XWVlaWF9GazlGR2lCLUJ2QVdFYy1uZENXV2ZuR0FwS1lILU1UMGfSAdcBQVVfeXFMTzRHR1FYeVU4OHR0a04wMmxuc2xsY2ZtYVFZQ3NaQXRDWi1rWnNvSnpybjdhNXZNeXpMSXhCQnZSaVRNbnozcFJBd3dibU4zTHpZM2hKbWYtWGpvQ1ZIaVBtamRDSmUxampFMlM1OVdxa3A5VjV0N3V1SFpCMUxNZmF6N2RRVlhDaDNIdlVoU01MaVNDRlhhSER0eTFvMEJLOVV6MzVZSmNBUmNYNktoaXZPZll3WTdyTGNSODM4cUhPa3ZhczhYaldJLXFHQzNkeC0xV3FqWVU?oc=5"
         }
       ]
     }
