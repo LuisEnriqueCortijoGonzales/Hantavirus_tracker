@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-19T10:40:32.097868Z",
-  "next_update": "2026-05-19T10:45:00Z",
+  "generated": "2026-05-19T10:50:03.702160Z",
+  "next_update": "2026-05-19T10:55:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -78,7 +78,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "USA": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 1,
+      "var_pct": 2,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 4,
       "gov_alert": false
     },
     "CHE": {
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 19,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,12 +4021,18 @@
     "GBR": 3,
     "JPN": 3,
     "USA": 3,
-    "MEX": 1,
+    "FRA": 4,
     "ARG": 12,
-    "FRA": 3,
     "CAN": 1
   },
   "events": [
+    {
+      "iso": "FRA",
+      "title": "Dutch authorities expect more cruise ship outbreaks as hantavirus-hit vessel docks - France 24",
+      "t": "2026-05-19T09:47:48Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVjU3MUZiLXpwWWlPVEFVVHptcjd6eWU0TzdVSG1xclkzdFR6a0tXQXlNSVBudWQwUmJMSmtnQTB4T1RrcGlZU1JkZzFBRFlxMnpqLW5XS1RuQVZDNnp3eFVNV2dCWUk3YXk3NHQxZk1oMnJjOFlHbm9hRkxGTjhJVFJhUkE5dEEwT0M2TXRwZlpIV0hmMzVnZC1FZGFNclVsd1RrUnJQUEQ0RDlFX1Yw?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina busca respuestas en Ushuaia: trampas y an\u00e1lisis gen\u00e9ticos para rastrear el brote de hantavirus - El Confidencial",
@@ -4054,13 +4060,6 @@
       "t": "2026-05-19T02:59:38Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxONlU1dkNEaHJRR1ZNUXBaVXdIRkJPVTRqYzBkc3RDbnUyUDJfVTRLN0lzX2ZGYVBmdUpNTEtNdjBMbHR5UWJ2c3BDeU5qNW9yVHBHMHdycENuNXZqVktoMlFzRlFORHRjRUgyVWhpUnZGcjVDVk5XN3V2MGhkMnFjUmFETV9FUnVNejJibU9RNEZzNlA0U1hXcEs2OG5nbW9raWRVbS1JVndxMDQzYVdfYVJZWkJXMXA3OTNZUGFPX0c5dFBHdmx6QVpRcnktUkdZZEx2RENfaDRHQUNtckJqT2hPVFhMQ05pWDBlci1YZEJJR25fSVdMX2xXaDBrVmc?oc=5"
-    },
-    {
-      "iso": "MEX",
-      "title": "Cruise ship hantavirus differs from what's found in New Mexico - KOAT",
-      "t": "2026-05-19T02:06:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHVSTmVheFctU3BSNTJtd0VGQ0w0VGZkOWIyLVZLMGdsakdvaUpkR2NYR3paVVBqc2lpZUNSMjZHU1RaRDBnN3ZFMGw5bDdvQURRS25Rb3hkWV8zWDJMTEluSkRMSlRMSE9lMW1PczQ0MDMwTnBxLXVCUVZ1am9qU0dSMjFWM0JRR1dkOGF2amxsdjhQZHoyaHhfQXFWcXVC?oc=5"
     },
     {
       "iso": "USA",
@@ -4226,7 +4225,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T10:40:32Z",
+      "last_update": "2026-05-19T10:50:03Z",
       "signals": 9,
       "recent": [
         {
@@ -4235,9 +4234,9 @@
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3VsYjJOMHNjeFpfam4xcGYtLVhPM0tGLWY2MUdFUkFPNW9FMXFQVEZjSWw5V2Q2bHBkZ1pzS2VvSUFHdklzLUU3TkpFMEFNZGM4WDQ3bWZzOTdvU3I5eU5yQllUeVRnZUlnZmJseHFEZU5nT1ZwRmRuRjJQQ0dUbFJpVDBlbTc5Rml2Z243aGVodV8zZ2l0TEpQYkJKREtjNVpVUQ?oc=5"
         },
         {
-          "title": "Cruise ship hantavirus differs from what's found in New Mexico - KOAT",
-          "t": "2026-05-19T02:06:00Z",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHVSTmVheFctU3BSNTJtd0VGQ0w0VGZkOWIyLVZLMGdsakdvaUpkR2NYR3paVVBqc2lpZUNSMjZHU1RaRDBnN3ZFMGw5bDdvQURRS25Rb3hkWV8zWDJMTEluSkRMSlRMSE9lMW1PczQ0MDMwTnBxLXVCUVZ1am9qU0dSMjFWM0JRR1dkOGF2amxsdjhQZHoyaHhfQXFWcXVC?oc=5"
+          "title": "Dutch authorities expect more cruise ship outbreaks as hantavirus-hit vessel docks - France 24",
+          "t": "2026-05-19T09:47:48Z",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVjU3MUZiLXpwWWlPVEFVVHptcjd6eWU0TzdVSG1xclkzdFR6a0tXQXlNSVBudWQwUmJMSmtnQTB4T1RrcGlZU1JkZzFBRFlxMnpqLW5XS1RuQVZDNnp3eFVNV2dCWUk3YXk3NHQxZk1oMnJjOFlHbm9hRkxGTjhJVFJhUkE5dEEwT0M2TXRwZlpIV0hmMzVnZC1FZGFNclVsd1RrUnJQUEQ0RDlFX1Yw?oc=5"
         },
         {
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
