@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-19T01:35:03.712201Z",
-  "next_update": "2026-05-19T01:40:00Z",
+  "generated": "2026-05-19T01:40:32.145853Z",
+  "next_update": "2026-05-19T01:45:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 1,
+      "var_pct": 2,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 4,
       "gov_alert": false
     },
     "PRY": {
@@ -4006,7 +4006,7 @@
     "composite": 13,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 16,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,14 +4018,21 @@
     "outbreak_count": 5
   },
   "signal_summary": {
-    "USA": 3,
+    "USA": 4,
     "GBR": 2,
     "JPN": 2,
     "CAN": 2,
-    "ARG": 12,
-    "FRA": 3
+    "FRA": 3,
+    "ARG": 12
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "Confirman el primer caso de Hantavirus en Estados Unidos no relacionado con el crucero MV Hondius - HOLA",
+      "t": "2026-05-19T01:25:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3VsYjJOMHNjeFpfam4xcGYtLVhPM0tGLWY2MUdFUkFPNW9FMXFQVEZjSWw5V2Q2bHBkZ1pzS2VvSUFHdklzLUU3TkpFMEFNZGM4WDQ3bWZzOTdvU3I5eU5yQllUeVRnZUlnZmJseHFEZU5nT1ZwRmRuRjJQQ0dUbFJpVDBlbTc5Rml2Z243aGVodV8zZ2l0TEpQYkJKREtjNVpVUQ?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "Argentine scientists lay first traps in hantavirus hunt - France 24",
@@ -4211,13 +4218,18 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T01:35:03Z",
-      "signals": 8,
+      "last_update": "2026-05-19T01:40:32Z",
+      "signals": 9,
       "recent": [
         {
           "title": "Health Officials Confirm First Case of Hantavirus in North America Stemming from Infected Cruise Ship - People.com",
           "t": "2026-05-18T02:02:18Z",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbXk4T0sxZDBxRnRTNEpmRC1xNnVtcVJfZW9xNDZZa043bVNGTVRMSGxJeWVUV0xsSVc1a3g5dnQyT2NIV3hoWGxpbVBxQ2UzMEFlVGc2NTZMSnZBc1BrelJZWEtsZ1ZVNE1ZOGROU1RPbmFnVEFwQXM4NFdYbDF0TW1kTkVyMHJLRV92bjhsTkM4clJFT1ZRd3N5RE5vZXpLODQxTmhKc01UMGNCYzNWbWp1enhPbnZpemxDemxrLXFRRmlPcE9YRg?oc=5"
+        },
+        {
+          "title": "Confirman el primer caso de Hantavirus en Estados Unidos no relacionado con el crucero MV Hondius - HOLA",
+          "t": "2026-05-19T01:25:00Z",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3VsYjJOMHNjeFpfam4xcGYtLVhPM0tGLWY2MUdFUkFPNW9FMXFQVEZjSWw5V2Q2bHBkZ1pzS2VvSUFHdklzLUU3TkpFMEFNZGM4WDQ3bWZzOTdvU3I5eU5yQllUeVRnZUlnZmJseHFEZU5nT1ZwRmRuRjJQQ0dUbFJpVDBlbTc5Rml2Z243aGVodV8zZ2l0TEpQYkJKREtjNVpVUQ?oc=5"
         },
         {
           "title": "Canada confirms hantavirus case linked to cruise ship outbreak that has killed three passengers - Fox News",
@@ -4233,11 +4245,6 @@
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
           "t": "2026-05-15T12:33:58Z",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
-        },
-        {
-          "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - MSN",
-          "t": "2026-05-18T23:39:57Z",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxONlU1dkNEaHJRR1ZNUXBaVXdIRkJPVTRqYzBkc3RDbnUyUDJfVTRLN0lzX2ZGYVBmdUpNTEtNdjBMbHR5UWJ2c3BDeU5qNW9yVHBHMHdycENuNXZqVktoMlFzRlFORHRjRUgyVWhpUnZGcjVDVk5XN3V2MGhkMnFjUmFETV9FUnVNejJibU9RNEZzNlA0U1hXcEs2OG5nbW9raWRVbS1JVndxMDQzYVdfYVJZWkJXMXA3OTNZUGFPX0c5dFBHdmx6QVpRcnktUkdZZEx2RENfaDRHQUNtckJqT2hPVFhMQ05pWDBlci1YZEJJR25fSVdMX2xXaDBrVmc?oc=5"
         }
       ]
     }
