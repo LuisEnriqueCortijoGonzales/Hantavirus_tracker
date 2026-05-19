@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-19T12:05:32.161225Z",
-  "next_update": "2026-05-19T12:10:00Z",
+  "generated": "2026-05-19T12:10:32.047581Z",
+  "next_update": "2026-05-19T12:15:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 81,
       "alert": "vigilancia",
       "cfr": 37.3,
-      "var_pct": 21,
+      "var_pct": 20,
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 13,
+      "signals": 12,
       "gov_alert": false
     },
     "CHL": {
@@ -1470,6 +1470,7 @@
       71,
       71,
       71,
+      71,
       72,
       72,
       72,
@@ -1479,7 +1480,7 @@
       74,
       74,
       74,
-      75,
+      74,
       75,
       75,
       75,
@@ -1498,7 +1499,6 @@
       80,
       80,
       80,
-      81,
       81
     ],
     "CHL": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 13,
+    "composite": 14,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 17,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4022,7 +4022,7 @@
     "GBR": 2,
     "JPN": 2,
     "FRA": 5,
-    "ARG": 13,
+    "ARG": 12,
     "CAN": 1
   },
   "events": [
@@ -4203,13 +4203,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina reconstruye el periplo del \u2018caso \u00edndice\u2019 de hantavirus antes de subir al crucero - Sinc",
-      "t": "2026-05-07T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
       "t": "2026-05-06T07:00:00Z",
       "source": "GoogleNews-ES",
@@ -4232,8 +4225,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T12:05:32Z",
-      "signals": 10,
+      "last_update": "2026-05-19T12:10:32Z",
+      "signals": 9,
       "recent": [
         {
           "title": "Confirman el primer caso de Hantavirus en Estados Unidos no relacionado con el crucero MV Hondius - HOLA",
