@@ -1,16 +1,16 @@
 {
-  "generated": "2026-05-19T03:40:32.117406Z",
-  "next_update": "2026-05-19T03:45:00Z",
+  "generated": "2026-05-19T03:45:12.087857Z",
+  "next_update": "2026-05-19T03:50:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 77,
+      "ytd": 78,
       "alert": "vigilancia",
       "cfr": 37.3,
       "var_pct": 16,
       "strain": "andes",
-      "new_today": 6,
+      "new_today": 7,
       "r0": null,
       "signals": 11,
       "gov_alert": false
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "CHE": {
@@ -581,7 +581,7 @@
       71,
       71,
       71,
-      77
+      78
     ],
     "CHL": [
       31,
@@ -4023,9 +4023,9 @@
     "USA": 4,
     "MEX": 1,
     "CAN": 2,
-    "FRA": 3,
     "ROU": 1,
-    "ARG": 11
+    "ARG": 11,
+    "FRA": 2
   },
   "events": [
     {
@@ -4048,13 +4048,6 @@
       "t": "2026-05-19T01:25:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3VsYjJOMHNjeFpfam4xcGYtLVhPM0tGLWY2MUdFUkFPNW9FMXFQVEZjSWw5V2Q2bHBkZ1pzS2VvSUFHdklzLUU3TkpFMEFNZGM4WDQ3bWZzOTdvU3I5eU5yQllUeVRnZUlnZmJseHFEZU5nT1ZwRmRuRjJQQ0dUbFJpVDBlbTc5Rml2Z243aGVodV8zZ2l0TEpQYkJKREtjNVpVUQ?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Argentine scientists lay first traps in hantavirus hunt - France 24",
-      "t": "2026-05-19T00:31:14Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQks4dTdfSDhVTXg1Mkx3RFVUWFNvWk1oeHdGdndleUpDSnJTWF83cWZYa2NiM01zZGxLXzNYVXhtZGh5QWpsR3oyT0xpblVpN3k3S3lmdnZuS25sMkhac1RfOUlnQ0ktVlBsTTlzcEJfV3I3TW5BWDlTaDZieS1qNGxPNUVZYmJMdWp3R3RYSzd3a0FQVFBUNy1DaWQ5Y09zdWhDaw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4198,10 +4191,10 @@
     },
     {
       "iso": "ARG",
-      "title": "Fiesta de 15, 34 infectados y 12 muertos: el mayor brote de hantavirus de la Argentina aporta claves para el caso del MV Hondius - La Naci\u00f3n",
-      "t": "2026-05-13T17:32:00Z",
+      "title": "Fiesta de 15, 34 infectados y 12 muertos: el mayor brote de hantavirus de la Argentina aporta claves para el caso del MV Hondius - Yahoo",
+      "t": "2026-05-13T17:32:02Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOWM3bDdqMmNKTUszLXRQWEF4ZmRsc19VWUdvSFJKU20ycjBxVjAyV3JzZmxSWVZHbllwYlpBQ01ROWw5eklmcTdWb1ZIZ2FsRFphZWc3bHF6SzRRelN3dWM4Sm9MMldtZDYtOEVEdjZWQkx0RHJmOTlCbk5ZU0M3enVKOFRjS0o2WXB1NlFIRG13QmUzandSSW1vYjJKWmRaMEJhZTJxWkNIMmstaF9qWlRSamUxZHl2NzY4cl9CUkhnN3RaeXZWQzNYZGVuN244ZmZHSmZocnJSMXdBbDZmSw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONHdUTVFXOXJXcmJxTm5rcVlkRlIzVWYweThaVHpoMzN1QTFzUEREZVJPekNJOFJrOEwzaUpfdXRzMGY3dmVsemhLdmRnYUpvMUJtR3N3dEVTT3NpcjNJYzdtSldaODdIcTJ6V0ZfS0U1WGw2dTRxX3NiQUs1Smp0VldndTFfdFVqemc?oc=5"
     },
     {
       "iso": "ARG",
@@ -4227,7 +4220,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T03:40:32Z",
+      "last_update": "2026-05-19T03:45:12Z",
       "signals": 10,
       "recent": [
         {
