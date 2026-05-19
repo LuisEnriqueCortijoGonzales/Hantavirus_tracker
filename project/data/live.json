@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-19T22:20:12.076113Z",
-  "next_update": "2026-05-19T22:25:00Z",
+  "generated": "2026-05-19T22:25:22.057286Z",
+  "next_update": "2026-05-19T22:30:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 13,
     "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 20,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4027,6 +4027,13 @@
     "COL": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Investigadores argentinos buscan roedores para hallar origen del brote de hantavirus - Cadena 3 Argentina",
+      "t": "2026-05-19T22:21:19Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTkduM1FiV0xLd1Fucm9vRXZ6OEtacmFoc3RPRzA3bVdOWDcwSk1CTGhpYzk0WWRFSktWa19kMVg2eFNrNnRhLXZYdUsza3ZZcm14Z2YySjVJQW91UkE0SW51eFZwRWhuMnpEWVBMSmstUWtwLWtQX0psYkgyWnlqS2RHZ2RaRWVJbDRnanZmTEZwMFpmcUMtbGZqODNlbUFGdndaQ1dPci1HM2pVN3VHUENNU19VNVg0RHhtVVB5dm1QdC0zQk9JTdIBzgFBVV95cUxONHlUNVZqNnVSOC11MFJ5eWZyOUIycnd3UXlPSk55aThsSFNRRE9lY3BzamNtVVMwNlNjeVhNNlBreHkwVlg0dkNYSTM1ZVJ4YWYtQjI1VUNfdUlOVUdsNXNkWWtFMWE5aTA2enJNMVVfandzQTRTNWlQbFhaaXFaWWt1RkZ6d0ZsNF9oQ3BYY3NneS1TT3NsYjFBWHVYSGsybENfOVJkdXRfdWRQM0NycnRsSC0zbDJCamM5NTZpT19HdzJHOGNleXlwUFlEdw?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina: tras brote de hantavirus en crucero, cient\u00edficos capturan roedores en Ushuaia - radionacional.gob.pe",
@@ -4117,13 +4124,6 @@
       "t": "2026-05-18T19:40:03Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVlhuUG82VktZUi1sOWRpclRTZU9HUVZmQjRwaS0tVml5bXhuakthM0xHYUhXYzJEbGFMR200NUF0QnlfMnV4SzkyaXRURzRWcnM3bTBJQjdkSnlrMGhSVENkMUxjRzNrNW1JNVJvUlZaV3JCdzdZbmZQLXYwUTVmR2x6bFZVXy1EX3FBTk9uRXFIVHhwOS1ucXRZVGNwSERTdTRqYzFVbHdyTXh5SjJ5bXZVc2NEaGNPczZsbF9saFd0R0VMQU9ac19FbjlNd0VhTjd0cWx1WGJCMW5tLWVUdk1Tbw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Extremo sur de Argentina teme que el hantavirus enfr\u00ede el turismo - Independent en Espa\u00f1ol",
-      "t": "2026-05-18T15:42:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaGcxNUtXNEVXSF9RUnZFWWlwQnRyLU9kaUNUdUtpWDZnakQ4aEs5bGdhY1dQTHFVWWN4QUFjWkpKT0RRcXAyUVY0al81bWtsai0xM2hZUkhOd2RyRHJhMFNjYTctbk53X2RhY3ZPREhNLXIyNUxMU2xHdW14RFhOdGhtRENGSjZuSGtLbDNSNFFqcVRGQVhtb1pOanhjZEI2WXdqYVdQN3E3aGwtQnNVZ2owU0QtSlkwc0o5b0xjaVB4XzVXRlUtNUt6V2p4NTNLUGMySQ?oc=5"
     },
     {
       "iso": "USA",
@@ -4233,7 +4233,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T22:20:12Z",
+      "last_update": "2026-05-19T22:25:22Z",
       "signals": 14,
       "recent": [
         {
