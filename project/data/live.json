@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-19T03:10:22.074068Z",
-  "next_update": "2026-05-19T03:15:00Z",
+  "generated": "2026-05-19T03:20:12.090865Z",
+  "next_update": "2026-05-19T03:25:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -386,7 +386,7 @@
       "strain": "dobrava",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "HUN": {
@@ -4006,7 +4006,7 @@
     "composite": 13,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 17,
+    "kalshi": 16,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4024,9 +4024,17 @@
     "MEX": 1,
     "CAN": 2,
     "FRA": 3,
-    "ARG": 11
+    "ARG": 11,
+    "ROU": 1
   },
   "events": [
+    {
+      "iso": "ROU",
+      "title": "Romania confirms hantavirus case, unrelated to cruise ship outbreak - news.cgtn.com",
+      "t": "2026-05-19T02:38:35Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTko5WHVFREtIRHppajd2WkI2M1JOcTJ0UUZ2ZVBYZ3BoT2gycTBtc0pWTVNHdWNEeDZPd3lmOUxFRlJxT0hTUXNnaEc4dHBfSFRIcE1ncFNkenJYM1pac04wbFI5M2lZOHNIbGNBR0xiekw5Y0hRMGVyQkhHYzZVZDNLenVjM280SVFsVWY4cFd3SmhHdEs0TkhLUm9URl9wMk9kMjZMQmRhVXdxTGtCclVnUXJkRDNLMXloZVA4Wnk?oc=5"
+    },
     {
       "iso": "MEX",
       "title": "Cruise ship hantavirus differs from what's found in New Mexico - KOAT",
@@ -4061,6 +4069,13 @@
       "t": "2026-05-18T21:24:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3ZsNWRWd2JEZEpWclg4V2RoMlJ0bWRiVFpSN0pZX3ZfX0JtdW15RHZicG5od1FMbl92Tm4zdC1DRHBsQW1XR3VtZnVOQ2JOYXd2QlZCWFpsTzJHVGEtTDFnbmRSTy1EV04wNmhVM2xMVkZTVGg5dURsZktfMFNFZG43S0FpdFA3ZzJ0R09wQXVzNHRMaGY1Ynkxa2VMSXowcU9CZ3BCWnZQaFZi?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Se vota la salida de Argentina de la OMS: ilegal, con deudas y en pleno brote de hantavirus - - Aqu\u00ed La Noticia",
+      "t": "2026-05-18T21:11:12Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdm5sSnZXQWhfb21KazE2Q1ViejZCNHp4TzRLcjBYMmdxMzlUMXQ3UFlWTnpEUXNUdG1ILWxFQTlLOWc0ODhUMlE1YVE3WVFZZUtvUUM0WEZhMFk0Ri1ZTUNYbXlRQ190SHowVW15RUQzTFh2Y1k5V1JaQVY1MzVRay1KdzJaWUxZOGpraDVTZnB2ZUJQYy1YX1hzYXFIeU9xeS1DTmtZcUFwdXNDUWZJU3lVcDQ2QXM?oc=5"
     },
     {
       "iso": "FRA",
@@ -4110,13 +4125,6 @@
       "t": "2026-05-18T15:05:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPUHk4OVFHNHR0X0NzWFR2ZFljODlFb0NwcVVmUzRSUzB2V0t0Q3RVamloQ1pUZlJDeTJFeTByNXl5ZWdtX2lGSk1ZQnY0bTRqUTJfQThmRGpMYWNJa29oeXAxUFAyc1B6ZFBYMkpRTm9LenNWQ0NpRGhoWV8wWVNlS3lRV0Y5T2lVZHYtbDAyaTlIT3RSNkxNamNZNkdyNGFGbFY3ZFlLWnQzbFpabll3TC0yTHNHM2RYOFFkZ05lQWJ1dktDOHRIS0Zwa05aMFFnR1RjMk5GMG9qTmpEd2JJNFcxOXpKbmswSlZGREU0QnNlZllPQ01hOW1acm1JWFNaekhaMnVB0gGgAkFVX3lxTE55NHNBak9yQ0xVN1hqa2JlVERSOHdKTEhvN09RSjlCWjVwTVYySVljVXVhQjdvdDFvUFo4UXVMZmROekd1RHY1TEQwb2dNaXo4YnJrbjB3b19KRkI2MVRLY1pzMHdWQ3R3Z19OM0xYR3BMZDhSbnhuS0VKaXY1YVAtZm5xZmdENVdqblVEMmEtSnhhQUl2ZWJ3UXBDUlZHQk9OMmZHQldVYmVDZWs5QnlCSEFRN2F0blpDUVlSZU8zQ0dTWDJaVkdBV1U3M0NFRGZSemJKMUFWdkNZUVJlYmYxYnZIcGtfUkVrWG1Hd3RBM29hWlBFb3ItcGx5TXdyY0VpREFkSW90QzRJLWdOdEZXdFVmRXBiaHlKZGdkOEszbA?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Se vota la salida de Argentina de la OMS: ilegal, con deudas y en pleno brote de hantavirus - C5N",
-      "t": "2026-05-18T13:06:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBDN2R6blQwbE80R0Jld2JiZmF5QjVaX3FDMGlPQkVWUXRfQnM0WTVQNkNXb0xVcUwxT3pRbmlrX0RZZTA5UHpIWW0zRTlyYWRsRDl1clZ1aXg2TUttdTcwOHlndkxUTEdLalp3cXgzelZXbG9yemFic0NERdIBgAFBVV95cUxORzNNUktnNnpmY04xa3V3OVVKU2dTRUxURWhieVVLUFZIeU9SUndrMGlqR3pValliWE9GZGVzRXB0dmZPdk1DT0hsbnBHeDRDV3BJWDVrV0ZmTEdHVjg1OXgtWHVNQVVzencwbXQ4SUdCSzM0d3hWVTMwdEtwUGk1eg?oc=5"
     },
     {
       "iso": "GBR",
@@ -4197,10 +4205,10 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
-      "t": "2026-05-12T22:12:02Z",
+      "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
+      "t": "2026-05-06T07:00:00Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeUtmR2dNaUYwdEFTMTc1dUlmZVR4c1MzTXQ5VDZQclYzbW1xdzRfUGF3aWFIc1lSaWpRcXhfbW5OdFVYbW0tekVySTBDYy1Va050T1cwTWVNZHk3a2pmYUNkNDQ2MndoS1N2cUJPaFpfOU9scFlyb1hZZTNwamg3YnJzTnFjbVRUVEFLdFhkQmlXNUlDWUpuQ0hGblpYVkpIcTlKX1kwMjRURTV0UVdkSVMwZDhvZVpMc2RTcFYwdkdTZHZ5SEFwNXBlNld1V2d6eHBmUHVCWVE5UDFsbGYtRDl30gH8AUFVX3lxTFBoQ1JGSnZhTHg2SmpiUlltY3Vzd3p0d3ZLVXR0VEFNQkQzNVlOb19PcVBabUlfdDc5RHR6aGdvOEhiUnNmcE43cGNoZG1KVTZWSmlnOHZxZHJPOWdRWXJkbUVIXzI1SzdjTC1MX3NNaFhodnJwODVRakN1OVZxMkFrNHlEMXlVN3ZFWW1kdUFId21ISkRPRVF6bnJlTlBjZHVOd1NaY2FKbUJfYktwQm5meE1LNVNMQmZyekV2MUQzM1AwcVRtQnhsd3N3Vl83aldDQ2ZxeDB0RlpERE9ENEZ3ekhodXhhLUlGelU0U3VVYVFjeE1OSUpTUXdqTQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
     }
   ],
   "maritime_events": [
@@ -4219,8 +4227,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T03:10:22Z",
-      "signals": 9,
+      "last_update": "2026-05-19T03:20:12Z",
+      "signals": 10,
       "recent": [
         {
           "title": "Health Officials Confirm First Case of Hantavirus in North America Stemming from Infected Cruise Ship - People.com",
