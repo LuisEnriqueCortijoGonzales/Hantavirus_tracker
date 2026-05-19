@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-19T06:00:03.711543Z",
-  "next_update": "2026-05-19T06:05:00Z",
+  "generated": "2026-05-19T06:05:32.143894Z",
+  "next_update": "2026-05-19T06:10:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "CHE": {
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 23,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4023,7 +4023,7 @@
     "USA": 3,
     "MEX": 1,
     "ARG": 10,
-    "FRA": 3,
+    "FRA": 2,
     "CAN": 1
   },
   "events": [
@@ -4168,13 +4168,6 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaUVBWVhjVVJoX0VNXzR6WnlubmhZWS1saTN3OGVqcm1Va0tOcnVBaXcweEk4WFY0VWtCZDVNMmZTSXV3aEdLaHItYWh4ZENCYmFvaS1ZRGc5RFRfVmF4RjZrN2NHQ2tqRjI3aHltS19jSWtHNG5QU0FRRHVreGVRa3JFRjUtSXBfakt5Rk9JOA?oc=5"
     },
     {
-      "iso": "FRA",
-      "title": "La OMS confirma ocho casos del virus de los Andes, el \u00fanico hantavirus conocido por transmitirse entre humanos - France 24",
-      "t": "2026-05-14T11:23:11Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPd2JCMW5WWWx2cmxpWlVnOVRPRFRtM09yTnBmeFRRVFZ4Wkl0SDVHM1BOQ2JyWnR4UVJpcmdYTWkyN3c0MUNqQVlmX0tNazhJWGptdFZRYjdOYVpCbUNfbHhydGZ2X1BVZVdyWm1KMy05N0tQVUppN3dFOXVPRmh2ejJQQk82a3g1UWx0X0oyZGE4cE9iTEgzQ2dlXzFYRkRIN2djT3hnRlE0Mmp2ZUFUZ0VOYmNmTHQyY1FaSmZiRW5fa1FVM0VuaENQSk4?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "Fiesta de 15, 34 infectados y 12 muertos: el mayor brote de hantavirus de la Argentina aporta claves para el caso del MV Hondius - La Naci\u00f3n",
       "t": "2026-05-13T17:32:00Z",
@@ -4212,7 +4205,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T06:00:03Z",
+      "last_update": "2026-05-19T06:05:32Z",
       "signals": 8,
       "recent": [
         {
