@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-19T22:25:22.057286Z",
-  "next_update": "2026-05-19T22:30:00Z",
+  "generated": "2026-05-19T22:30:22.055383Z",
+  "next_update": "2026-05-19T22:35:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 84,
+      "ytd": 83,
       "alert": "vigilancia",
       "cfr": 37.3,
-      "var_pct": 25,
+      "var_pct": 24,
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 11,
+      "signals": 10,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      76,
-      84
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      75,
+      83
     ],
     "CHL": [
       31,
@@ -1452,13 +1452,14 @@
   ],
   "hourly_history": {
     "ARG": [
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
       71,
       71,
       71,
@@ -1484,10 +1485,10 @@
       78,
       78,
       78,
+      78,
       79,
       79,
       79,
-      80,
       80,
       80,
       80,
@@ -1497,7 +1498,6 @@
       82,
       82,
       82,
-      83,
       83,
       83
     ],
@@ -4006,7 +4006,7 @@
     "composite": 13,
     "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 18,
+    "kalshi": 17,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "USA": 5,
     "FRA": 4,
     "CAN": 3,
-    "ARG": 11,
+    "ARG": 10,
     "GBR": 1,
     "MEX": 2,
     "COL": 1
@@ -4183,13 +4183,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina Races to Find Origin of Hantavirus Contagion - The New York Times",
-      "t": "2026-05-14T09:04:59Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdGxZU29EZEFGSHR3MDM0UWVpdkctNklXZTlzQUdBRkc3Nkpvc2djaW1oY01qdlB2UGJ1Wm5CdU1tLVBfN2JkM0x4MFU2RDV3RXFxZm1CeE5XeEh3WHRuM1FSM3ZDeVlhSnRrM2pENy11el8zY0ZVNlNvdDFHRzFIQkI3RTkyZDN3eHdwTmRMWGw?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
       "t": "2026-05-12T22:12:02Z",
       "source": "GoogleNews-ES",
@@ -4233,7 +4226,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T22:25:22Z",
+      "last_update": "2026-05-19T22:30:22Z",
       "signals": 14,
       "recent": [
         {
