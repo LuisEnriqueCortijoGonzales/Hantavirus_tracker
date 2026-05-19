@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-19T05:40:03.723509Z",
-  "next_update": "2026-05-19T05:45:00Z",
+  "generated": "2026-05-19T05:45:32.052249Z",
+  "next_update": "2026-05-19T05:50:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 77,
+      "ytd": 78,
       "alert": "vigilancia",
       "cfr": 37.3,
-      "var_pct": 15,
+      "var_pct": 16,
       "strain": "andes",
-      "new_today": 7,
+      "new_today": 8,
       "r0": null,
-      "signals": 9,
+      "signals": 10,
       "gov_alert": false
     },
     "CHL": {
@@ -151,11 +151,11 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -581,7 +581,7 @@
       70,
       70,
       70,
-      77
+      78
     ],
     "CHL": [
       31,
@@ -1477,14 +1477,13 @@
       70,
       70,
       70,
-      70,
       71,
       71,
       71,
       72,
       72,
       72,
-      72,
+      73,
       73,
       73,
       73,
@@ -1499,7 +1498,8 @@
       76,
       77,
       77,
-      77
+      77,
+      78
     ],
     "CHL": [
       32,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 13,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 22,
+    "kalshi": 16,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4022,9 +4022,9 @@
     "JPN": 3,
     "USA": 3,
     "MEX": 1,
-    "CAN": 2,
-    "ARG": 9,
-    "FRA": 2
+    "ARG": 10,
+    "FRA": 2,
+    "CAN": 1
   },
   "events": [
     {
@@ -4042,6 +4042,13 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONHROTzVWMTMyMVNPdC16ZmxwWG1DNk9ObHg1ZWlVVEVDNGJBZGlEY21RTEc2Zl92NWJpekhiMUpiZEQwTHc3Tnd0TlNWaVlLWkVNRlRqT1R5THJlVUZ6bU5EZjlQVEozVjV2bmFjTWFfMWg4VjR3aDRfWTZ5c2xlVWdDU2JTekVtV04xRmxxQzNnVXNWNV91MExUczNoV3Mxc3Nlcy02a1poWjUtbUZMaVJvVVlCcDAwQWfSAb8BQVVfeXFMUHU4bG9QU1c2b3JqT2c3Z3oyY010b3k1Z0ZPbzVwMHBVNGl3ejFwLUQtTW9SOTJPMFpvXzRzS084Q2dGY3BGbE9lWWZ4RDFrT1pXb01Oa2t5eUcxaGliSkF2R3NheEpqdlo0WXNzZ1B1aUp2ZVpSYTRZb3ZKQ1FDSGV6S2ZSVlBxSVg1ZFFmUHh0YVFFbDZIRkZicVVXR0VEWDM5MWFpdE9PSGhuZGZMVVZsRDV6MklBb2xRZzh4b0k?oc=5"
     },
     {
+      "iso": "ARG",
+      "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - MSN",
+      "t": "2026-05-19T02:59:38Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxONlU1dkNEaHJRR1ZNUXBaVXdIRkJPVTRqYzBkc3RDbnUyUDJfVTRLN0lzX2ZGYVBmdUpNTEtNdjBMbHR5UWJ2c3BDeU5qNW9yVHBHMHdycENuNXZqVktoMlFzRlFORHRjRUgyVWhpUnZGcjVDVk5XN3V2MGhkMnFjUmFETV9FUnVNejJibU9RNEZzNlA0U1hXcEs2OG5nbW9raWRVbS1JVndxMDQzYVdfYVJZWkJXMXA3OTNZUGFPX0c5dFBHdmx6QVpRcnktUkdZZEx2RENfaDRHQUNtckJqT2hPVFhMQ05pWDBlci1YZEJJR25fSVdMX2xXaDBrVmc?oc=5"
+    },
+    {
       "iso": "MEX",
       "title": "Cruise ship hantavirus differs from what's found in New Mexico - KOAT",
       "t": "2026-05-19T02:06:00Z",
@@ -4054,13 +4061,6 @@
       "t": "2026-05-19T01:25:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3VsYjJOMHNjeFpfam4xcGYtLVhPM0tGLWY2MUdFUkFPNW9FMXFQVEZjSWw5V2Q2bHBkZ1pzS2VvSUFHdklzLUU3TkpFMEFNZGM4WDQ3bWZzOTdvU3I5eU5yQllUeVRnZUlnZmJseHFEZU5nT1ZwRmRuRjJQQ0dUbFJpVDBlbTc5Rml2Z243aGVodV8zZ2l0TEpQYkJKREtjNVpVUQ?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - MSN",
-      "t": "2026-05-18T23:39:57Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxONlU1dkNEaHJRR1ZNUXBaVXdIRkJPVTRqYzBkc3RDbnUyUDJfVTRLN0lzX2ZGYVBmdUpNTEtNdjBMbHR5UWJ2c3BDeU5qNW9yVHBHMHdycENuNXZqVktoMlFzRlFORHRjRUgyVWhpUnZGcjVDVk5XN3V2MGhkMnFjUmFETV9FUnVNejJibU9RNEZzNlA0U1hXcEs2OG5nbW9raWRVbS1JVndxMDQzYVdfYVJZWkJXMXA3OTNZUGFPX0c5dFBHdmx6QVpRcnktUkdZZEx2RENfaDRHQUNtckJqT2hPVFhMQ05pWDBlci1YZEJJR25fSVdMX2xXaDBrVmc?oc=5"
     },
     {
       "iso": "ARG",
@@ -4141,13 +4141,6 @@
     },
     {
       "iso": "CAN",
-      "title": "Canada confirms hantavirus case linked to cruise ship outbreak that has killed three passengers - Fox News",
-      "t": "2026-05-18T02:17:33Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdjVIdE5rYnItLTBJdGpxV24wSVQzaXJnWGFCenJHQXdBekZhd2YyazBJUlpVLXFwZzloelRYZGY3RWJWTkkzb0RRV2YtSFZjZVlacHE1N2NtMWswY3p5Y3p0NkZ0LUh6VlNYanpIYkpXZEJLQ0M5M0FwUmI0REZheDVVNmtxM1QtdmpYSlNkbWV1SWVxeVZUQ3RnUm8xeXpZTEx3QlRxbHo1SVI0YW15VklXWdIBuAFBVV95cUxOU1FLRlE5QkJmTHZ1UExWQmo1SVcwZlpYRGtTVDZGUUI1aTdQTmd4OGVBZDcyUWI2MVg0YWEzblpLMmFNc0hfX2U3eVFJLUtiVldNTDhYcHJEaWpMcjBYeUlHc1FXRlNYSWhWZHpBR2ttN21Rc2FCUXhzelRmckRrNllUOUZaOVI4dTg1YVY5a2VyQS0zYnRPYlBWdmZwelhoVUhuRHBtNmxscDdmM0laVTRMX3JwVUZq?oc=5"
-    },
-    {
-      "iso": "CAN",
       "title": "Canad\u00e1 confirma caso de hantavirus en ciudadano que viaj\u00f3 en el crucero afectado por un brote - Yahoo",
       "t": "2026-05-17T17:32:52Z",
       "source": "GoogleNews-ES",
@@ -4187,6 +4180,13 @@
       "t": "2026-05-12T22:12:02Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeUtmR2dNaUYwdEFTMTc1dUlmZVR4c1MzTXQ5VDZQclYzbW1xdzRfUGF3aWFIc1lSaWpRcXhfbW5OdFVYbW0tekVySTBDYy1Va050T1cwTWVNZHk3a2pmYUNkNDQ2MndoS1N2cUJPaFpfOU9scFlyb1hZZTNwamg3YnJzTnFjbVRUVEFLdFhkQmlXNUlDWUpuQ0hGblpYVkpIcTlKX1kwMjRURTV0UVdkSVMwZDhvZVpMc2RTcFYwdkdTZHZ5SEFwNXBlNld1V2d6eHBmUHVCWVE5UDFsbGYtRDl30gH8AUFVX3lxTFBoQ1JGSnZhTHg2SmpiUlltY3Vzd3p0d3ZLVXR0VEFNQkQzNVlOb19PcVBabUlfdDc5RHR6aGdvOEhiUnNmcE43cGNoZG1KVTZWSmlnOHZxZHJPOWdRWXJkbUVIXzI1SzdjTC1MX3NNaFhodnJwODVRakN1OVZxMkFrNHlEMXlVN3ZFWW1kdUFId21ISkRPRVF6bnJlTlBjZHVOd1NaY2FKbUJfYktwQm5meE1LNVNMQmZyekV2MUQzM1AwcVRtQnhsd3N3Vl83aldDQ2ZxeDB0RlpERE9ENEZ3ekhodXhhLUlGelU0U3VVYVFjeE1OSUpTUXdqTQ?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
+      "t": "2026-05-06T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
     }
   ],
   "maritime_events": [
@@ -4205,7 +4205,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T05:40:03Z",
+      "last_update": "2026-05-19T05:45:32Z",
       "signals": 8,
       "recent": [
         {
@@ -4219,19 +4219,19 @@
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTHVSTmVheFctU3BSNTJtd0VGQ0w0VGZkOWIyLVZLMGdsakdvaUpkR2NYR3paVVBqc2lpZUNSMjZHU1RaRDBnN3ZFMGw5bDdvQURRS25Rb3hkWV8zWDJMTEluSkRMSlRMSE9lMW1PczQ0MDMwTnBxLXVCUVZ1am9qU0dSMjFWM0JRR1dkOGF2amxsdjhQZHoyaHhfQXFWcXVC?oc=5"
         },
         {
-          "title": "Canada confirms hantavirus case linked to cruise ship outbreak that has killed three passengers - Fox News",
-          "t": "2026-05-18T02:17:33Z",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdjVIdE5rYnItLTBJdGpxV24wSVQzaXJnWGFCenJHQXdBekZhd2YyazBJUlpVLXFwZzloelRYZGY3RWJWTkkzb0RRV2YtSFZjZVlacHE1N2NtMWswY3p5Y3p0NkZ0LUh6VlNYanpIYkpXZEJLQ0M5M0FwUmI0REZheDVVNmtxM1QtdmpYSlNkbWV1SWVxeVZUQ3RnUm8xeXpZTEx3QlRxbHo1SVI0YW15VklXWdIBuAFBVV95cUxOU1FLRlE5QkJmTHZ1UExWQmo1SVcwZlpYRGtTVDZGUUI1aTdQTmd4OGVBZDcyUWI2MVg0YWEzblpLMmFNc0hfX2U3eVFJLUtiVldNTDhYcHJEaWpMcjBYeUlHc1FXRlNYSWhWZHpBR2ttN21Rc2FCUXhzelRmckRrNllUOUZaOVI4dTg1YVY5a2VyQS0zYnRPYlBWdmZwelhoVUhuRHBtNmxscDdmM0laVTRMX3JwVUZq?oc=5"
-        },
-        {
-          "title": "Canad\u00e1 confirma caso de hantavirus en ciudadano que viaj\u00f3 en el crucero afectado por un brote - Yahoo",
-          "t": "2026-05-17T17:32:52Z",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVkw1MjRFV1FKM1VVLUZUSVV1TjN1X253T2pBOWFfMm14b19TRHNCZHNxZHVvR2VHVG85dWVRVkZ6Mnk1YmRmd05hTVlvSXlva2thRTZjZmJCNXpKckE4TWZZTEx5X0Nib3Z2QmZ1bU0zUkpad0NERUZwVTFEQ0ZGVFYxS2wtWnlOYTg0ajk2amFCU1B3dUFGUDdR?oc=5"
-        },
-        {
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
           "t": "2026-05-15T12:33:58Z",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
+        },
+        {
+          "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - MSN",
+          "t": "2026-05-19T02:59:38Z",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxONlU1dkNEaHJRR1ZNUXBaVXdIRkJPVTRqYzBkc3RDbnUyUDJfVTRLN0lzX2ZGYVBmdUpNTEtNdjBMbHR5UWJ2c3BDeU5qNW9yVHBHMHdycENuNXZqVktoMlFzRlFORHRjRUgyVWhpUnZGcjVDVk5XN3V2MGhkMnFjUmFETV9FUnVNejJibU9RNEZzNlA0U1hXcEs2OG5nbW9raWRVbS1JVndxMDQzYVdfYVJZWkJXMXA3OTNZUGFPX0c5dFBHdmx6QVpRcnktUkdZZEx2RENfaDRHQUNtckJqT2hPVFhMQ05pWDBlci1YZEJJR25fSVdMX2xXaDBrVmc?oc=5"
+        },
+        {
+          "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
+          "t": "2026-05-12T22:12:02Z",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeUtmR2dNaUYwdEFTMTc1dUlmZVR4c1MzTXQ5VDZQclYzbW1xdzRfUGF3aWFIc1lSaWpRcXhfbW5OdFVYbW0tekVySTBDYy1Va050T1cwTWVNZHk3a2pmYUNkNDQ2MndoS1N2cUJPaFpfOU9scFlyb1hZZTNwamg3YnJzTnFjbVRUVEFLdFhkQmlXNUlDWUpuQ0hGblpYVkpIcTlKX1kwMjRURTV0UVdkSVMwZDhvZVpMc2RTcFYwdkdTZHZ5SEFwNXBlNld1V2d6eHBmUHVCWVE5UDFsbGYtRDl30gH8AUFVX3lxTFBoQ1JGSnZhTHg2SmpiUlltY3Vzd3p0d3ZLVXR0VEFNQkQzNVlOb19PcVBabUlfdDc5RHR6aGdvOEhiUnNmcE43cGNoZG1KVTZWSmlnOHZxZHJPOWdRWXJkbUVIXzI1SzdjTC1MX3NNaFhodnJwODVRakN1OVZxMkFrNHlEMXlVN3ZFWW1kdUFId21ISkRPRVF6bnJlTlBjZHVOd1NaY2FKbUJfYktwQm5meE1LNVNMQmZyekV2MUQzM1AwcVRtQnhsd3N3Vl83aldDQ2ZxeDB0RlpERE9ENEZ3ekhodXhhLUlGelU0U3VVYVFjeE1OSUpTUXdqTQ?oc=5"
         }
       ]
     }
