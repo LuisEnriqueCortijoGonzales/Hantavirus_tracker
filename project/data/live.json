@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-19T01:10:32.060936Z",
-  "next_update": "2026-05-19T01:15:00Z",
+  "generated": "2026-05-19T01:15:12.108325Z",
+  "next_update": "2026-05-19T01:20:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 77,
       "alert": "vigilancia",
       "cfr": 37.3,
-      "var_pct": 15,
+      "var_pct": 14,
       "strain": "andes",
       "new_today": 6,
       "r0": null,
-      "signals": 12,
+      "signals": 11,
       "gov_alert": false
     },
     "CHL": {
@@ -1482,13 +1482,14 @@
       71,
       71,
       71,
+      71,
       72,
       72,
       72,
       73,
       73,
       73,
-      74,
+      73,
       74,
       74,
       74,
@@ -1498,7 +1499,6 @@
       76,
       76,
       76,
-      77,
       77
     ],
     "CHL": [
@@ -4006,7 +4006,7 @@
     "composite": 13,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 18,
+    "kalshi": 17,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4022,7 +4022,7 @@
     "GBR": 2,
     "JPN": 2,
     "CAN": 2,
-    "ARG": 12,
+    "ARG": 11,
     "FRA": 2
   },
   "events": [
@@ -4161,13 +4161,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina Races to Find Origin of Hantavirus Contagion - The New York Times",
-      "t": "2026-05-14T09:04:59Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdGxZU29EZEFGSHR3MDM0UWVpdkctNklXZTlzQUdBRkc3Nkpvc2djaW1oY01qdlB2UGJ1Wm5CdU1tLVBfN2JkM0x4MFU2RDV3RXFxZm1CeE5XeEh3WHRuM1FSM3ZDeVlhSnRrM2pENy11el8zY0ZVNlNvdDFHRzFIQkI3RTkyZDN3eHdwTmRMWGw?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Fiesta de 15, 34 infectados y 12 muertos: el mayor brote de hantavirus de la Argentina aporta claves para el caso del MV Hondius - La Naci\u00f3n",
       "t": "2026-05-13T17:32:00Z",
       "source": "GoogleNews-ES",
@@ -4204,7 +4197,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T01:10:32Z",
+      "last_update": "2026-05-19T01:15:12Z",
       "signals": 8,
       "recent": [
         {
