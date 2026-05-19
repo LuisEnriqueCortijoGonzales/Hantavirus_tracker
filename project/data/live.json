@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-19T00:30:32.044087Z",
-  "next_update": "2026-05-19T00:35:00Z",
+  "generated": "2026-05-19T00:35:32.127995Z",
+  "next_update": "2026-05-19T00:40:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 6,
       "r0": null,
-      "signals": 13,
+      "signals": 12,
       "gov_alert": false
     },
     "CHL": {
@@ -1482,6 +1482,7 @@
       71,
       71,
       71,
+      71,
       72,
       72,
       72,
@@ -1491,14 +1492,13 @@
       74,
       74,
       74,
-      75,
+      74,
       75,
       75,
       75,
       76,
       76,
       76,
-      77,
       77
     ],
     "CHL": [
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 14,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4022,7 +4022,7 @@
     "GBR": 2,
     "JPN": 2,
     "CAN": 2,
-    "ARG": 13,
+    "ARG": 12,
     "FRA": 3
   },
   "events": [
@@ -4102,13 +4102,6 @@
       "t": "2026-05-18T13:06:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBDN2R6blQwbE80R0Jld2JiZmF5QjVaX3FDMGlPQkVWUXRfQnM0WTVQNkNXb0xVcUwxT3pRbmlrX0RZZTA5UHpIWW0zRTlyYWRsRDl1clZ1aXg2TUttdTcwOHlndkxUTEdLalp3cXgzelZXbG9yemFic0NERdIBgAFBVV95cUxORzNNUktnNnpmY04xa3V3OVVKU2dTRUxURWhieVVLUFZIeU9SUndrMGlqR3pValliWE9GZGVzRXB0dmZPdk1DT0hsbnBHeDRDV3BJWDVrV0ZmTEdHVjg1OXgtWHVNQVVzencwbXQ4SUdCSzM0d3hWVTMwdEtwUGk1eg?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina recorta su presupuesto en ciencia en plena alerta por brote de hantavirus - expansion.mx",
-      "t": "2026-05-18T11:55:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOU1NjTXdBeUdUN2xhVVdITFN0QUpfZGtCWndCTEpfR3dZMlFHNWttcDRpVXZ4M2g1NVg2SUo3dGVpdDd1bndMRXAxNE54aTlWY2EzTVZlNU11SkRyWUhYV1JYQmc3RmItbkstWDc2Wjc2eDlaY00zSW5UbXVaN1JGVzNNME9CX2NZb0dYbFpNYzVzWHdrOTBlVlVXczBwVTQxdmEwUGp5akN1b3lSSExaVF9qV3BsOWtVNGlKSXRB0gHLAUFVX3lxTE1FNkREUlpuczR2WEpFaFdma2ZWLWFQeHBHVW5XN0xzSkswV0pISmlUTFlKZF9sMU9penNaM21EUzRpREFsVEFNYkFxeFAzanJXdXFhX0l2dnF6Q2pmSEl3eGt6UnA2QUZEdXlTdmJQR082YkpmelNKLUdfTlhjUUhfcHZDc1pGckhSZnZvcGZyQ3hkX2pjS3ZIV09FM2pFTkxaNzM0REtkcjNaR19nQ0dfSXFVenQxVWRSa0w4MkdvUmNBQkZOSlVMb1Nv?oc=5"
     },
     {
       "iso": "GBR",
@@ -4218,7 +4211,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T00:30:32Z",
+      "last_update": "2026-05-19T00:35:32Z",
       "signals": 9,
       "recent": [
         {
