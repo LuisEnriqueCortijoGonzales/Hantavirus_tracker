@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-19T18:50:03.693802Z",
-  "next_update": "2026-05-19T18:55:00Z",
+  "generated": "2026-05-19T18:55:22.049299Z",
+  "next_update": "2026-05-19T19:00:00Z",
   "days_active": 11,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 4,
+      "signals": 5,
       "gov_alert": false
     },
     "PRY": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 12,
+    "composite": 14,
     "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 16,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 5
   },
   "signal_summary": {
-    "USA": 4,
+    "USA": 5,
     "CAN": 4,
     "GBR": 3,
     "JPN": 1,
@@ -4083,6 +4083,13 @@
       "t": "2026-05-19T09:32:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQV3k0N1J6RjhPcW9uWjdibkYwV3U3U2FvWXdlVVJ0SVR0a20xejZURE9IOGlfc092QzEybURENUhwbFJRTTc3Zm9ITy1KRWlVSzE2X2lnWVVMOXVlaG5uejNzU0c2YXJkbXlBbUpSYUNmRzJHVE1KTW9wMF8xaUo3YWJDQUxKUFNITi1hV1lfOFVvczhIcFE?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Confirman el primer caso de Hantavirus en Estados Unidos no relacionado con el crucero MV Hondius - HOLA",
+      "t": "2026-05-19T01:25:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3VsYjJOMHNjeFpfam4xcGYtLVhPM0tGLWY2MUdFUkFPNW9FMXFQVEZjSWw5V2Q2bHBkZ1pzS2VvSUFHdklzLUU3TkpFMEFNZGM4WDQ3bWZzOTdvU3I5eU5yQllUeVRnZUlnZmJseHFEZU5nT1ZwRmRuRjJQQ0dUbFJpVDBlbTc5Rml2Z243aGVodV8zZ2l0TEpQYkJKREtjNVpVUQ?oc=5"
     },
     {
       "iso": "FRA",
@@ -4234,9 +4241,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-19T18:50:03Z",
-      "signals": 13,
+      "last_update": "2026-05-19T18:55:22Z",
+      "signals": 14,
       "recent": [
+        {
+          "title": "Confirman el primer caso de Hantavirus en Estados Unidos no relacionado con el crucero MV Hondius - HOLA",
+          "t": "2026-05-19T01:25:00Z",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3VsYjJOMHNjeFpfam4xcGYtLVhPM0tGLWY2MUdFUkFPNW9FMXFQVEZjSWw5V2Q2bHBkZ1pzS2VvSUFHdklzLUU3TkpFMEFNZGM4WDQ3bWZzOTdvU3I5eU5yQllUeVRnZUlnZmJseHFEZU5nT1ZwRmRuRjJQQ0dUbFJpVDBlbTc5Rml2Z243aGVodV8zZ2l0TEpQYkJKREtjNVpVUQ?oc=5"
+        },
         {
           "title": "Confirman muerte por hantavirus en Estados Unidos no relacionada con el crucero MV Hondius - El Heraldo de M\u00e9xico",
           "t": "2026-05-19T17:48:00Z",
@@ -4256,11 +4268,6 @@
           "title": "Salud. Canad\u00e1 confirma un caso de hantavirus: se trata de un pasajero del crucero MV Hondius - La Voz del Interior",
           "t": "2026-05-17T18:37:27Z",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ1M0S3d6a3IxbC1RdnlfNERqRk10a0pwVEo5ZE9ZM1dkQ1U4N244S2F5STNIOUYzLTR4bXg3YmlQUkt2MlBhcjE5YTBpMHNid1NyQlYwRDFiV0kxVTllcnNnOWRLRnhMSGhiZEJneE12M01Ta0N6eGdxTjh1VW11TnBXa1dlLUlxOTFITDhzLXR4a3dmWHJHcHA1VWZjbUZ4V1Z1S0Ztd0NYYkpHUkR3QktzNW0?oc=5"
-        },
-        {
-          "title": "Canad\u00e1 confirma caso de hantavirus en ciudadano que viaj\u00f3 en el crucero afectado por un brote - Yahoo",
-          "t": "2026-05-17T17:32:52Z",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVkw1MjRFV1FKM1VVLUZUSVV1TjN1X253T2pBOWFfMm14b19TRHNCZHNxZHVvR2VHVG85dWVRVkZ6Mnk1YmRmd05hTVlvSXlva2thRTZjZmJCNXpKckE4TWZZTEx5X0Nib3Z2QmZ1bU0zUkpad0NERUZwVTFEQ0ZGVFYxS2wtWnlOYTg0ajk2amFCU1B3dUFGUDdR?oc=5"
         }
       ]
     }
