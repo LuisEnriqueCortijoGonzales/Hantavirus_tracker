@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-20T10:00:03.688916Z",
-  "next_update": "2026-05-20T10:05:00Z",
+  "generated": "2026-05-20T10:05:03.722298Z",
+  "next_update": "2026-05-20T10:10:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 88,
+      "ytd": 89,
       "alert": "vigilancia",
       "cfr": 37.3,
       "var_pct": 32,
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 13,
+      "signals": 14,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
       73,
-      80,
-      88
+      81,
+      89
     ],
     "CHL": [
       31,
@@ -1453,7 +1453,6 @@
   "hourly_history": {
     "ARG": [
       73,
-      73,
       74,
       74,
       74,
@@ -1499,7 +1498,8 @@
       87,
       88,
       88,
-      88
+      88,
+      89
     ],
     "CHL": [
       35,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 12,
+    "composite": 14,
     "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 16,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 5,
     "CAN": 3,
-    "ARG": 13,
+    "ARG": 14,
     "GBR": 2,
     "JPN": 1,
     "FRA": 4,
@@ -4055,6 +4055,13 @@
       "t": "2026-05-20T02:22:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUWpXa21hMVQxZUh5eUJNN1FkbUZhOFdNd2lYUU5MMXBzRDJTc2txNllQTUk0b0VXOUdwbXEtbEQtdjVGa2wzN1A5M1puT3NRMndwSXdNRkZJMFNMUkNnTTRxZWh1LUY5ZGw1NVZLM3Y0ek54cTlOVFl5NzQzY2stT2lsanQwRG50eWZpWHlmYkpRT1Z0UjRHUzdtMHJVcWFTQ3VPbnF1Ykg0SUlXZkpPMEdn?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Investigadores en Argentina buscan a los roedores que pudieron causar el brote de hantavirus - LatinUS",
+      "t": "2026-05-19T23:50:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQY0FPbjYtZVlBemptNExfODJHR0FTRFJGWGNqWXNHcExnRHZPVmJuejhtcTgtZXNCOVFiU3ZBU0ZyakxkTDVRT29ETk1yZTR5dUtfY1lFZjNCLXBjMmtHLVhDUG5lOEVUNkNoNm8yTElSS0NVc0kwRzkxZDVEWlhKTENrbkFYbU5PdWhtR3hNVGFfQUpCQXJxdE1zU0R4Mm1zV28yX0NPcnpCTjk0OWhRYVFsM01qTjZ2bDNlaW1qNjFPM2JNcUxMVTMyT2lYMVJsTzhSYzhOeXhsTnlhMUU40gHfAUFVX3lxTFBjQU9uNi1lWUF6am00TF84MkdHQVNEUkZYY2pZc0dwTGdEdk9WYm56OG1xOC1lc0I5UWJTdkFTRnJqTGRMNVFPb0ROTXJlNHl1S19jWUVmM0ItcGMya0ctWENQbmU4RVQ2Q2g2bzJMSVJLQ1VzSTBHOTFkNURaWEpMQ2tuQVhtTk91aG1HeE1UYV9BSkJBcnF0TXNTRHgybXNXbzJfQ09yekJOOTQ5aFFhUWwzTWpONnZsM2VpbWo2MU8zYk1xTExVMzJPaVgxUmxPOFJjOE55eGxOeWExRTg?oc=5"
     },
     {
       "iso": "ARG",
@@ -4255,7 +4262,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T10:00:03Z",
+      "last_update": "2026-05-20T10:05:03Z",
       "signals": 11,
       "recent": [
         {
