@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-20T21:05:02.119678Z",
-  "next_update": "2026-05-20T21:10:00Z",
+  "generated": "2026-05-20T21:10:32.095794Z",
+  "next_update": "2026-05-20T21:15:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 95,
+      "ytd": 94,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 41,
       "strain": "andes",
-      "new_today": 9,
+      "new_today": 8,
       "r0": null,
-      "signals": 19,
+      "signals": 18,
       "gov_alert": false
     },
     "CHL": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "GRC": {
@@ -562,7 +562,7 @@
       "strain": "hantaan",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     }
   },
@@ -581,7 +581,7 @@
       73,
       78,
       86,
-      95
+      94
     ],
     "CHL": [
       31,
@@ -1452,6 +1452,8 @@
   ],
   "hourly_history": {
     "ARG": [
+      78,
+      79,
       79,
       79,
       79,
@@ -1470,7 +1472,6 @@
       84,
       84,
       84,
-      85,
       85,
       85,
       86,
@@ -1496,10 +1497,9 @@
       92,
       93,
       93,
+      93,
       94,
-      94,
-      94,
-      95
+      94
     ],
     "CHL": [
       37,
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 16,
     "polymarket": 6,
-    "kalshi": 20,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,10 +4019,11 @@
   },
   "signal_summary": {
     "USA": 3,
-    "ARG": 19,
+    "ARG": 18,
     "CAN": 1,
-    "FRA": 2,
-    "GBR": 1
+    "GBR": 2,
+    "JPN": 1,
+    "FRA": 2
   },
   "events": [
     {
@@ -4103,13 +4104,6 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQd0N4SzN3SkJ0bjIyQVVOT2VLODhEVE9qU0lqT3VRelEwUXBxUWJ4OUxQN0F3R0ZTZ2Y1TFdxdDhqVGl0M0lieC16VzNlNDZHWGdDRURtem5nOG9BRzBHc3p4SUhaSmNiQmJUejVDemNNWlcyYXR2M3A3eGs3OTRQenN1cnZPT3ljcFNxLUpJMFJTNUJGWnQwUjJQS0hjUUUycG5KQjFfRVpMN1d5MHNwTHVlYUVaUW9YVWlvU0tTN3VrNVhmZlFEOHdLT2dYZw?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "Argentina's 'end of the world' outpost fears hantavirus will chill tourism - TelegraphHerald.com",
-      "t": "2026-05-20T05:30:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOFoxTHg4TGRDQ2x6R2w3LWtFRzM3VV9zZ0dPV3NXR08yTnAyQmY3b09HVnBYcW1RMXR1SWNlTndQMUxsQlRCR08tS0k0SC1TaWt2OE5oMjZseTQyVkpueHF6SU9lUjBHX1VOeHhUWWY3a3Q4QkZ5ZWdORmZPcUdEZHhYZzV0Rlh1eTNpbFlFd2FBd2hKeVBkaE1rVjFlUkE?oc=5"
-    },
-    {
       "iso": "USA",
       "title": "Ebola, hantavirus and what these frightening outbreaks really mean - USA Today",
       "t": "2026-05-20T02:22:00Z",
@@ -4136,6 +4130,20 @@
       "t": "2026-05-18T21:24:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3ZsNWRWd2JEZEpWclg4V2RoMlJ0bWRiVFpSN0pZX3ZfX0JtdW15RHZicG5od1FMbl92Tm4zdC1DRHBsQW1XR3VtZnVOQ2JOYXd2QlZCWFpsTzJHVGEtTDFnbmRSTy1EV04wNmhVM2xMVkZTVGg5dURsZktfMFNFZG43S0FpdFA3ZzJ0R09wQXVzNHRMaGY1Ynkxa2VMSXowcU9CZ3BCWnZQaFZi?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "Britain gets experimental drug from Japan to bolster hantavirus response - Reuters",
+      "t": "2026-05-18T17:22:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS2dnTnV0bXBIXzlYZ0JpRTVrWDBrUG9hVnk3RDJHYUJfdC1wMXcwUkxHc3ZQaVBkNm9LZ2VCbHhHQXVSeF9LNDFBNm5lVEZKQUtsd2R3UFZCOFd3UWIzRW9yc2x1Q2JEYmNNWW9OV0FrS2xyM1JhSmFxbVRsODVDdTlGUEJrck1OamtOVjVpWnVoekp5bExOY2RNeW4xMU1vWEIxMHZlQm5JZ2F0MWswZGNDZWJzNFp6R212MFE4a2xwTDVhbm5tQ2I5cXhTV1NlR0E?oc=5"
+    },
+    {
+      "iso": "JPN",
+      "title": "Britain gets experimental drug from Japan to bolster hantavirus response - Reuters",
+      "t": "2026-05-18T17:22:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS2dnTnV0bXBIXzlYZ0JpRTVrWDBrUG9hVnk3RDJHYUJfdC1wMXcwUkxHc3ZQaVBkNm9LZ2VCbHhHQXVSeF9LNDFBNm5lVEZKQUtsd2R3UFZCOFd3UWIzRW9yc2x1Q2JEYmNNWW9OV0FrS2xyM1JhSmFxbVRsODVDdTlGUEJrck1OamtOVjVpWnVoekp5bExOY2RNeW4xMU1vWEIxMHZlQm5JZ2F0MWswZGNDZWJzNFp6R212MFE4a2xwTDVhbm5tQ2I5cXhTV1NlR0E?oc=5"
     },
     {
       "iso": "USA",
@@ -4224,7 +4232,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T21:05:02Z",
+      "last_update": "2026-05-20T21:10:32Z",
       "signals": 7,
       "recent": [
         {
