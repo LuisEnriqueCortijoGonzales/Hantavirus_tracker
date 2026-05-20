@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-20T09:10:32.117125Z",
-  "next_update": "2026-05-20T09:15:00Z",
+  "generated": "2026-05-20T09:15:12.111788Z",
+  "next_update": "2026-05-20T09:20:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 89,
+      "ytd": 88,
       "alert": "vigilancia",
       "cfr": 37.3,
       "var_pct": 32,
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 15,
+      "signals": 14,
       "gov_alert": false
     },
     "CHL": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 4,
+      "signals": 5,
       "gov_alert": false
     },
     "PRY": {
@@ -580,8 +580,8 @@
       72,
       72,
       73,
-      81,
-      89
+      80,
+      88
     ],
     "CHL": [
       31,
@@ -1453,13 +1453,14 @@
   "hourly_history": {
     "ARG": [
       73,
+      73,
       74,
       74,
       74,
       75,
       75,
       75,
-      76,
+      75,
       76,
       76,
       76,
@@ -1498,8 +1499,7 @@
       87,
       88,
       88,
-      88,
-      89
+      88
     ],
     "CHL": [
       35,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 13,
     "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 21,
+    "kalshi": 17,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,15 +4018,22 @@
     "outbreak_count": 5
   },
   "signal_summary": {
-    "USA": 4,
+    "USA": 5,
     "CAN": 3,
-    "ARG": 15,
+    "ARG": 14,
     "FRA": 4,
     "GBR": 1,
     "CHL": 1,
     "URY": 1
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "Zoonotic spillover diseases like hantavirus and ebola are on the rise | The Excerpt - USA Today",
+      "t": "2026-05-20T09:09:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcmxjVWN2ZWlMZG5pS21RVF9fdHlhZElQVm43RS11Y3JlRDlyOGRfT0MzaVdxbnhVa29MMEZmWlJvY01Mc3NNb2hZM2lHV0NUdTMtS1ZOQVpPa1ZNdXl3VzIyaXBEVWMtdXl6ZEJWSXVGaFBySkNLcGE5TWZpcjg1RGdfTllJSHl0SW00NDU3TGg2UHVHVTBFcWJYd0laRE9kNy1HV1hJNmt1YUlHQVA0a1pYTG81dWJJODBjZFp3?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Zoonotic spillover diseases like hantavirus and ebola are on the rise - USA Today",
@@ -4082,13 +4089,6 @@
       "t": "2026-05-19T17:45:58Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdDNPeldlZVpwXzhiMm1haGlTRkVaQ2xLX2FQekRnbjlDZ1NsYkN1QXY2cjdxaDhuRzZsSEhjTGJ1T3NTaGR0SGdZbzBrel9OWjdnT29Yb2cyMkxWVFFVdkg3S21rM3NhX3k1cTNEVnFWd1BWZ3hqQkJHenJtS1RKeXNtWG1CSkxGS1d4cVhPV2J5cGtsZFJUMU95UkVqendmdWZGOThxVWwxRDNEVnZLS29yWnFUSG1hbkZsMzJXQXFoWVhZdVVXOEdB?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina busca respuestas en Ushuaia: trampas y an\u00e1lisis gen\u00e9ticos para rastrear el brote de hantavirus - El Confidencial",
-      "t": "2026-05-19T09:32:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQV3k0N1J6RjhPcW9uWjdibkYwV3U3U2FvWXdlVVJ0SVR0a20xejZURE9IOGlfc092QzEybURENUhwbFJRTTc3Zm9ITy1KRWlVSzE2X2lnWVVMOXVlaG5uejNzU0c2YXJkbXlBbUpSYUNmRzJHVE1KTW9wMF8xaUo3YWJDQUxKUFNITi1hV1lfOFVvczhIcFE?oc=5"
     },
     {
       "iso": "ARG",
@@ -4247,7 +4247,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T09:10:32Z",
+      "last_update": "2026-05-20T09:15:12Z",
       "signals": 11,
       "recent": [
         {
