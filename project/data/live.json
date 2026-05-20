@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-20T17:50:32.150341Z",
-  "next_update": "2026-05-20T17:55:00Z",
+  "generated": "2026-05-20T17:55:03.689458Z",
+  "next_update": "2026-05-20T18:00:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 13,
+    "composite": 14,
     "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 19,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 5
   },
   "signal_summary": {
-    "USA": 3,
+    "USA": 2,
     "CAN": 3,
     "ARG": 18,
     "FRA": 4,
@@ -4080,13 +4080,6 @@
       "t": "2026-05-20T13:03:47Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNXy1GeEYzNzVqRUF6QlFkRW9JS0h3WGJDemZXMnRXVjg2eFh5RzBpQVBqalN3MFdodC1OZkxRM0Z3WEhXMkk4UEpxV3cxLU12MjRPYW5SUEtHNHVrWEdmNUxQcWg2LWV3dFk5ZEg1aXdCenc5YjRYX1V5SThjbG5pWDlneUpBMzA4MzBveVd1T3NFVkpRYTNBYW9UVWxZNzQ5NE85SC1TekdpeWRRWUhjVGtVVEZ1aUt1ZTV6Z01hZw?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Zoonotic spillover diseases like hantavirus and ebola are on the rise | The Excerpt - USA Today",
-      "t": "2026-05-20T12:52:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcmxjVWN2ZWlMZG5pS21RVF9fdHlhZElQVm43RS11Y3JlRDlyOGRfT0MzaVdxbnhVa29MMEZmWlJvY01Mc3NNb2hZM2lHV0NUdTMtS1ZOQVpPa1ZNdXl3VzIyaXBEVWMtdXl6ZEJWSXVGaFBySkNLcGE5TWZpcjg1RGdfTllJSHl0SW00NDU3TGg2UHVHVTBFcWJYd0laRE9kNy1HV1hJNmt1YUlHQVA0a1pYTG81dWJJODBjZFp3?oc=5"
     },
     {
       "iso": "ARG",
@@ -4245,7 +4238,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T17:50:32Z",
+      "last_update": "2026-05-20T17:55:03Z",
       "signals": 8,
       "recent": [
         {
