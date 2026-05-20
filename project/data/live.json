@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-20T14:50:12.074111Z",
-  "next_update": "2026-05-20T14:55:00Z",
+  "generated": "2026-05-20T14:55:22.090850Z",
+  "next_update": "2026-05-20T15:00:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 21,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4027,17 +4027,17 @@
   "events": [
     {
       "iso": "ARG",
+      "title": "Se confirmaron tres nuevos positivos de hantavirus en Argentina: uno de ellos en Chubut - ADNSUR",
+      "t": "2026-05-20T14:52:47Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQT0o4TnJ5SlJndzlyNFgzRGdCUDdNcXVXb2RZdUNuSVg0cmc2U3hMTDhxdEN1MGVIZzdzQy1PYTJKMEIzaUkxQXFBTDVXQnFSQjA5TVhnQTdTWksycUhld0syakRWQlhDeFduMEludTFkNzh0RTJ2WUpFa1ZLTTc5dl9EZ0ViZWtsN2thWGNQdTVBdGNzaEpIc2xOZE5Gc0loMkpoTWxUQVpJRExMUEpSY18yMHZFX1Q4ZFpocnRDN0s0SVE5MFBkODZQanZpbjN3WEVlR094ZUtnWXVNSXVYN21R?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Confirmaron tres nuevos casos de hantavirus en Argentina y ya suman 105 en la temporada - Eld\u00f3polis",
       "t": "2026-05-20T13:36:37Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JNGp2blVnQ3FvTU5mcnNGTExzQ25Gc3VFQnY3dnNqZElMUS1MV3poQkFCM2x2WVNsd0lZUmJTSl81aWZOTmt1QVBQdHROTzlCMU9HTEszMlZOZ28?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Se confirmaron tres nuevos positivos de hantavirus en Argentina: uno de ellos en Chubut - ADNSUR",
-      "t": "2026-05-20T13:10:51Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQT0o4TnJ5SlJndzlyNFgzRGdCUDdNcXVXb2RZdUNuSVg0cmc2U3hMTDhxdEN1MGVIZzdzQy1PYTJKMEIzaUkxQXFBTDVXQnFSQjA5TVhnQTdTWksycUhld0syakRWQlhDeFduMEludTFkNzh0RTJ2WUpFa1ZLTTc5dl9EZ0ViZWtsN2thWGNQdTVBdGNzaEpIc2xOZE5Gc0loMkpoTWxUQVpJRExMUEpSY18yMHZFX1Q4ZFpocnRDN0s0SVE5MFBkODZQanZpbjN3WEVlR094ZUtnWXVNSXVYN21R?oc=5"
     },
     {
       "iso": "ARG",
@@ -4245,7 +4245,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T14:50:12Z",
+      "last_update": "2026-05-20T14:55:22Z",
       "signals": 9,
       "recent": [
         {
