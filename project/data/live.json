@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-20T17:05:32.175839Z",
-  "next_update": "2026-05-20T17:10:00Z",
+  "generated": "2026-05-20T17:10:03.730158Z",
+  "next_update": "2026-05-20T17:15:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -151,11 +151,11 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "GTM": {
@@ -4003,8 +4003,8 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
-    "epidemio": 15,
+    "composite": 14,
+    "epidemio": 14,
     "polymarket": 6,
     "kalshi": 23,
     "max_andes_r0": 1.0,
@@ -4019,8 +4019,8 @@
   },
   "signal_summary": {
     "FRA": 5,
-    "USA": 3,
-    "CAN": 1,
+    "USA": 2,
+    "CAN": 2,
     "ARG": 18,
     "GBR": 1
   },
@@ -4080,13 +4080,6 @@
       "t": "2026-05-20T13:03:47Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNXy1GeEYzNzVqRUF6QlFkRW9JS0h3WGJDemZXMnRXVjg2eFh5RzBpQVBqalN3MFdodC1OZkxRM0Z3WEhXMkk4UEpxV3cxLU12MjRPYW5SUEtHNHVrWEdmNUxQcWg2LWV3dFk5ZEg1aXdCenc5YjRYX1V5SThjbG5pWDlneUpBMzA4MzBveVd1T3NFVkpRYTNBYW9UVWxZNzQ5NE85SC1TekdpeWRRWUhjVGtVVEZ1aUt1ZTV6Z01hZw?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Zoonotic spillover diseases like hantavirus and ebola are on the rise | The Excerpt - USA Today",
-      "t": "2026-05-20T12:52:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcmxjVWN2ZWlMZG5pS21RVF9fdHlhZElQVm43RS11Y3JlRDlyOGRfT0MzaVdxbnhVa29MMEZmWlJvY01Mc3NNb2hZM2lHV0NUdTMtS1ZOQVpPa1ZNdXl3VzIyaXBEVWMtdXl6ZEJWSXVGaFBySkNLcGE5TWZpcjg1RGdfTllJSHl0SW00NDU3TGg2UHVHVTBFcWJYd0laRE9kNy1HV1hJNmt1YUlHQVA0a1pYTG81dWJJODBjZFp3?oc=5"
     },
     {
       "iso": "ARG",
@@ -4157,6 +4150,13 @@
       "t": "2026-05-18T15:32:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSjlYaGNZRDExWHJGNjRCTUFhTXhwRXNOTjVxRUtRa1FtdXlFUmFxa0hXTjdyN0ZRbkVqNzRSWDd3OWhCWkYtd1daME1WQjRUc2IwTVpuVlNPQXVQOW1xQ0JIdm9HMy12R01BRUU2YzYzQnBFTm5jbi1LSFFQVllFV190RVNkeTBsalZjOExibF92VzBXU1NHLVVjNE5GcTVDa2RVOFBRLWNjTXpIaEprOVJ4dXo5QQ?oc=5"
+    },
+    {
+      "iso": "CAN",
+      "title": "Canada confirms hantavirus case linked to cruise ship outbreak that has killed three passengers - Fox News",
+      "t": "2026-05-18T02:17:33Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdjVIdE5rYnItLTBJdGpxV24wSVQzaXJnWGFCenJHQXdBekZhd2YyazBJUlpVLXFwZzloelRYZGY3RWJWTkkzb0RRV2YtSFZjZVlacHE1N2NtMWswY3p5Y3p0NkZ0LUh6VlNYanpIYkpXZEJLQ0M5M0FwUmI0REZheDVVNmtxM1QtdmpYSlNkbWV1SWVxeVZUQ3RnUm8xeXpZTEx3QlRxbHo1SVI0YW15VklXWdIBuAFBVV95cUxOU1FLRlE5QkJmTHZ1UExWQmo1SVcwZlpYRGtTVDZGUUI1aTdQTmd4OGVBZDcyUWI2MVg0YWEzblpLMmFNc0hfX2U3eVFJLUtiVldNTDhYcHJEaWpMcjBYeUlHc1FXRlNYSWhWZHpBR2ttN21Rc2FCUXhzelRmckRrNllUOUZaOVI4dTg1YVY5a2VyQS0zYnRPYlBWdmZwelhoVUhuRHBtNmxscDdmM0laVTRMX3JwVUZq?oc=5"
     },
     {
       "iso": "CAN",
@@ -4238,8 +4238,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T17:05:32Z",
-      "signals": 8,
+      "last_update": "2026-05-20T17:10:03Z",
+      "signals": 9,
       "recent": [
         {
           "title": "France says cruise ship Andes virus matches known South American viruses - AP News",
@@ -4257,14 +4257,14 @@
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYkkteVAzeUdWdHM0Nlg0VTZYS1NCUUxUMXl5eXZiTFF0eUVMSGxKOU5DZEtlbk8ydlB1MTdjRUlKaUljeTNlTU84NUZub1pQeXAzWTlJaGxWbkJDcVFRYTFCdWE5WnY4ZG5CTzVYVnBWd09ENDVFeFFteHZhSGZEZnBwVjlIOEtQX1RSMVZFOHAxQUk2SnBjeExqb3gwOHo5dnkxblJGTnRFMm9XWVlaWF9GazlGR2lCLUJ2QVdFYy1uZENXV2ZuR0FwS1lILU1UMGfSAdcBQVVfeXFMTzRHR1FYeVU4OHR0a04wMmxuc2xsY2ZtYVFZQ3NaQXRDWi1rWnNvSnpybjdhNXZNeXpMSXhCQnZSaVRNbnozcFJBd3dibU4zTHpZM2hKbWYtWGpvQ1ZIaVBtamRDSmUxampFMlM1OVdxa3A5VjV0N3V1SFpCMUxNZmF6N2RRVlhDaDNIdlVoU01MaVNDRlhhSER0eTFvMEJLOVV6MzVZSmNBUmNYNktoaXZPZll3WTdyTGNSODM4cUhPa3ZhczhYaldJLXFHQzNkeC0xV3FqWVU?oc=5"
         },
         {
+          "title": "Canada confirms hantavirus case linked to cruise ship outbreak that has killed three passengers - Fox News",
+          "t": "2026-05-18T02:17:33Z",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdjVIdE5rYnItLTBJdGpxV24wSVQzaXJnWGFCenJHQXdBekZhd2YyazBJUlpVLXFwZzloelRYZGY3RWJWTkkzb0RRV2YtSFZjZVlacHE1N2NtMWswY3p5Y3p0NkZ0LUh6VlNYanpIYkpXZEJLQ0M5M0FwUmI0REZheDVVNmtxM1QtdmpYSlNkbWV1SWVxeVZUQ3RnUm8xeXpZTEx3QlRxbHo1SVI0YW15VklXWdIBuAFBVV95cUxOU1FLRlE5QkJmTHZ1UExWQmo1SVcwZlpYRGtTVDZGUUI1aTdQTmd4OGVBZDcyUWI2MVg0YWEzblpLMmFNc0hfX2U3eVFJLUtiVldNTDhYcHJEaWpMcjBYeUlHc1FXRlNYSWhWZHpBR2ttN21Rc2FCUXhzelRmckRrNllUOUZaOVI4dTg1YVY5a2VyQS0zYnRPYlBWdmZwelhoVUhuRHBtNmxscDdmM0laVTRMX3JwVUZq?oc=5"
+        },
+        {
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
           "t": "2026-05-15T12:33:58Z",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
-        },
-        {
-          "title": "Argentina reconstruye el periplo del \u2018caso \u00edndice\u2019 de hantavirus antes de subir al crucero - Sinc",
-          "t": "2026-05-07T07:00:00Z",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
         }
       ]
     }
