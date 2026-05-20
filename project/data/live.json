@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-20T07:15:12.105913Z",
-  "next_update": "2026-05-20T07:20:00Z",
+  "generated": "2026-05-20T07:20:32.166309Z",
+  "next_update": "2026-05-20T07:25:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 88,
       "alert": "vigilancia",
       "cfr": 37.3,
-      "var_pct": 32,
+      "var_pct": 31,
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 15,
+      "signals": 14,
       "gov_alert": false
     },
     "CHL": {
@@ -1452,6 +1452,7 @@
   ],
   "hourly_history": {
     "ARG": [
+      72,
       73,
       73,
       73,
@@ -1461,7 +1462,7 @@
       75,
       75,
       75,
-      76,
+      75,
       76,
       76,
       76,
@@ -1498,7 +1499,6 @@
       87,
       87,
       87,
-      88,
       88
     ],
     "CHL": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 13,
+    "composite": 12,
     "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 17,
+    "kalshi": 16,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 3,
     "CAN": 3,
-    "ARG": 15,
+    "ARG": 14,
     "FRA": 5,
     "GBR": 1,
     "CHL": 1,
@@ -4090,13 +4090,6 @@
       "t": "2026-05-19T15:41:37Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVjZXX0ZfRFUxV0tiWEtObHpXYzNyQ0ZwZDdtSkV4aHBScTdsaXpXWmlDSlkxd3Z3bGJlaTljc1ZZZ3pfcC1Bd08zaVdOdFloeVYyVUFiZFpSemFBVTBFWXBVdEZUaXRJU3ZvXzlOSkxiNmxNSkFNcV9tcE1hUlY0clRKNThFUE5uMXJLNFJyLTJfZEsxOWxUcExKSFhqWEItT193TXBvQTdUTi02bmpZMnBTbTNpRDVRLTRTQXRKRQ?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina busca respuestas en Ushuaia: trampas y an\u00e1lisis gen\u00e9ticos para rastrear el brote de hantavirus - El Confidencial",
-      "t": "2026-05-19T09:32:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQV3k0N1J6RjhPcW9uWjdibkYwV3U3U2FvWXdlVVJ0SVR0a20xejZURE9IOGlfc092QzEybURENUhwbFJRTTc3Zm9ITy1KRWlVSzE2X2lnWVVMOXVlaG5uejNzU0c2YXJkbXlBbUpSYUNmRzJHVE1KTW9wMF8xaUo3YWJDQUxKUFNITi1hV1lfOFVvczhIcFE?oc=5"
     },
     {
       "iso": "ARG",
@@ -4255,7 +4248,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T07:15:12Z",
+      "last_update": "2026-05-20T07:20:32Z",
       "signals": 12,
       "recent": [
         {
