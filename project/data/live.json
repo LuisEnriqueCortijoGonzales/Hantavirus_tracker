@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-20T21:25:03.707661Z",
-  "next_update": "2026-05-20T21:30:00Z",
+  "generated": "2026-05-20T21:30:32.113202Z",
+  "next_update": "2026-05-20T21:35:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,22 +8,22 @@
       "ytd": 94,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 41,
+      "var_pct": 40,
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 18,
+      "signals": 17,
       "gov_alert": false
     },
     "CHL": {
       "ytd": 43,
       "alert": "vigilancia",
       "cfr": 35.5,
-      "var_pct": 39,
+      "var_pct": 40,
       "strain": "andes",
       "new_today": 3,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "BRA": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -562,7 +562,7 @@
       "strain": "hantaan",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     }
   },
@@ -594,7 +594,7 @@
       31,
       31,
       31,
-      33,
+      34,
       37,
       40,
       43
@@ -1453,7 +1453,8 @@
   "hourly_history": {
     "ARG": [
       78,
-      79,
+      78,
+      78,
       79,
       79,
       79,
@@ -1474,13 +1475,13 @@
       84,
       85,
       85,
+      85,
       86,
       86,
       86,
       87,
       87,
       87,
-      88,
       88,
       88,
       89,
@@ -1498,7 +1499,6 @@
       93,
       93,
       93,
-      94,
       94
     ],
     "CHL": [
@@ -1507,8 +1507,6 @@
       37,
       37,
       37,
-      37,
-      37,
       38,
       38,
       38,
@@ -1516,6 +1514,7 @@
       38,
       38,
       38,
+      38,
       39,
       39,
       39,
@@ -1523,7 +1522,7 @@
       39,
       39,
       39,
-      39,
+      40,
       40,
       40,
       40,
@@ -1545,7 +1544,8 @@
       42,
       42,
       42,
-      42,
+      43,
+      43,
       43,
       43,
       43,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 6,
-    "kalshi": 24,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,14 +4018,21 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "ARG": 18,
+    "ARG": 17,
     "USA": 2,
     "CAN": 2,
-    "GBR": 2,
-    "JPN": 1,
-    "FRA": 2
+    "FRA": 2,
+    "CHL": 1,
+    "GBR": 1
   },
   "events": [
+    {
+      "iso": "CHL",
+      "title": "Alerta por hantavirus en Chile: confirman un nuevo caso en la Regi\u00f3n de los Lagos - Diario El Cordillerano",
+      "t": "2026-05-20T21:16:31Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWWZLVVBQSzBpNXZqa0dWMm41ME5QSGwyQkZuZURyTXV2eHdHNVFla1NqY3pwNHBWeWtpWjdnQTU0bkZBaWM4aFNMUl9hYmd0azZqWGhXX1VLMG5DU0x2aTA4bjNyTDBHZV8zSnNEUmRVX0RiaTF3MzlVWF9tTzdiWGIxVkhUR1Zxei1BVTh5c19vU0taMW1SbkMzZklqWEVnQUNQbGktRWhleFRuM1ZqbGI0eklCWmNNZFdIXzhyOS1EMmlrMmZwMUwtTlRLdHM0bEdiX0F0UGzSAd4BQVVfeXFMTVVyLXA3dnlyS1piYjFUZHRoMkJjNVNRNTZrQV9JMGlwZVRvZTNNSmdQN1ZBdm9tWnlOOFJ6VlF4bnNKdkdvbXc0RGw1QS1WOWJpR1dSZklyUDVGd2l5RlJRN0huOHNWZHdzeTIwaFEyQ1ZDbEN0UnBjVGFxcEhpNzJWdDJROURaZGVBZ19temRsdXJtN3Fsb0l6bVgwSlpWOGF4Z3dLODFQVVlRR0VFY256Z002di00XzJOaUxaT3JIN0FHWTNDTGZNbDhIOEZrMVJiOFFsYklkMDVoMTR3?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
@@ -4139,20 +4146,6 @@
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVlhuUG82VktZUi1sOWRpclRTZU9HUVZmQjRwaS0tVml5bXhuakthM0xHYUhXYzJEbGFMR200NUF0QnlfMnV4SzkyaXRURzRWcnM3bTBJQjdkSnlrMGhSVENkMUxjRzNrNW1JNVJvUlZaV3JCdzdZbmZQLXYwUTVmR2x6bFZVXy1EX3FBTk9uRXFIVHhwOS1ucXRZVGNwSERTdTRqYzFVbHdyTXh5SjJ5bXZVc2NEaGNPczZsbF9saFd0R0VMQU9ac19FbjlNd0VhTjd0cWx1WGJCMW5tLWVUdk1Tbw?oc=5"
     },
     {
-      "iso": "GBR",
-      "title": "Britain gets experimental drug from Japan to bolster hantavirus response - Reuters",
-      "t": "2026-05-18T17:22:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS2dnTnV0bXBIXzlYZ0JpRTVrWDBrUG9hVnk3RDJHYUJfdC1wMXcwUkxHc3ZQaVBkNm9LZ2VCbHhHQXVSeF9LNDFBNm5lVEZKQUtsd2R3UFZCOFd3UWIzRW9yc2x1Q2JEYmNNWW9OV0FrS2xyM1JhSmFxbVRsODVDdTlGUEJrck1OamtOVjVpWnVoekp5bExOY2RNeW4xMU1vWEIxMHZlQm5JZ2F0MWswZGNDZWJzNFp6R212MFE4a2xwTDVhbm5tQ2I5cXhTV1NlR0E?oc=5"
-    },
-    {
-      "iso": "JPN",
-      "title": "Britain gets experimental drug from Japan to bolster hantavirus response - Reuters",
-      "t": "2026-05-18T17:22:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS2dnTnV0bXBIXzlYZ0JpRTVrWDBrUG9hVnk3RDJHYUJfdC1wMXcwUkxHc3ZQaVBkNm9LZ2VCbHhHQXVSeF9LNDFBNm5lVEZKQUtsd2R3UFZCOFd3UWIzRW9yc2x1Q2JEYmNNWW9OV0FrS2xyM1JhSmFxbVRsODVDdTlGUEJrck1OamtOVjVpWnVoekp5bExOY2RNeW4xMU1vWEIxMHZlQm5JZ2F0MWswZGNDZWJzNFp6R212MFE4a2xwTDVhbm5tQ2I5cXhTV1NlR0E?oc=5"
-    },
-    {
       "iso": "USA",
       "title": "Colorado adult dies from hantavirus after local rodent exposure - USA Today",
       "t": "2026-05-18T15:32:00Z",
@@ -4207,13 +4200,6 @@
       "t": "2026-05-12T07:00:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeUtmR2dNaUYwdEFTMTc1dUlmZVR4c1MzTXQ5VDZQclYzbW1xdzRfUGF3aWFIc1lSaWpRcXhfbW5OdFVYbW0tekVySTBDYy1Va050T1cwTWVNZHk3a2pmYUNkNDQ2MndoS1N2cUJPaFpfOU9scFlyb1hZZTNwamg3YnJzTnFjbVRUVEFLdFhkQmlXNUlDWUpuQ0hGblpYVkpIcTlKX1kwMjRURTV0UVdkSVMwZDhvZVpMc2RTcFYwdkdTZHZ5SEFwNXBlNld1V2d6eHBmUHVCWVE5UDFsbGYtRDl30gH8AUFVX3lxTFBoQ1JGSnZhTHg2SmpiUlltY3Vzd3p0d3ZLVXR0VEFNQkQzNVlOb19PcVBabUlfdDc5RHR6aGdvOEhiUnNmcE43cGNoZG1KVTZWSmlnOHZxZHJPOWdRWXJkbUVIXzI1SzdjTC1MX3NNaFhodnJwODVRakN1OVZxMkFrNHlEMXlVN3ZFWW1kdUFId21ISkRPRVF6bnJlTlBjZHVOd1NaY2FKbUJfYktwQm5meE1LNVNMQmZyekV2MUQzM1AwcVRtQnhsd3N3Vl83aldDQ2ZxeDB0RlpERE9ENEZ3ekhodXhhLUlGelU0U3VVYVFjeE1OSUpTUXdqTQ?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "C\u00f3mo la destrucci\u00f3n de h\u00e1bitats y el cambio clim\u00e1tico contribuyeron al aumento de casos de hantavirus en Argentina - CNN en Espa\u00f1ol",
-      "t": "2026-05-08T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNTA4a2JUem5XRW5Xc05ENXpQalZwV0pyQlAtZDljVTBoNnJYYTMyMV9qVEN3Wmd0RG1mcnh1N0ViQkNpdTJoVzQ4STFNMm43MDN5RlRMaURxZ2tQMXdxYktJNkVKa2NXdzlLS3cteGlEMGszcFBQN2NJNVBFM0hyektrejVuOWp4RUt2VFhUMFduaVE?oc=5"
     }
   ],
   "maritime_events": [
@@ -4232,7 +4218,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T21:25:03Z",
+      "last_update": "2026-05-20T21:30:32Z",
       "signals": 7,
       "recent": [
         {
