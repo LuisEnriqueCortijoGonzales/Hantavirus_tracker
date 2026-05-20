@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-20T02:05:32.202786Z",
-  "next_update": "2026-05-20T02:10:00Z",
+  "generated": "2026-05-20T02:10:03.708416Z",
+  "next_update": "2026-05-20T02:15:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 12,
+      "signals": 11,
       "gov_alert": false
     },
     "CHL": {
@@ -562,7 +562,7 @@
       "strain": "hantaan",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     }
   },
@@ -1457,13 +1457,14 @@
       71,
       71,
       71,
+      71,
       72,
       72,
       72,
       73,
       73,
       73,
-      74,
+      73,
       74,
       74,
       74,
@@ -1485,10 +1486,10 @@
       80,
       80,
       80,
+      80,
       81,
       81,
       81,
-      82,
       82,
       82,
       82,
@@ -1498,7 +1499,6 @@
       84,
       84,
       84,
-      85,
       85
     ],
     "CHL": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 12,
+    "composite": 13,
     "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 16,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,12 +4021,20 @@
     "USA": 3,
     "CAN": 3,
     "FRA": 4,
-    "ARG": 12,
+    "JPN": 1,
+    "ARG": 11,
     "GBR": 1,
     "MEX": 1,
     "COL": 1
   },
   "events": [
+    {
+      "iso": "JPN",
+      "title": "Japan provided antiviral medication Avigan to U.K. for cruise ship Hantavirus outbreak - Asia News Network",
+      "t": "2026-05-20T02:06:54Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNa2ZTNndwS0cxQ2ZfRjJNLW5VLS1FR21ITWdoNGpnZXZBXzJNOWV1OE1ldkdjbGRXT0dNSmdZYThOMjdwUFpObkhuUUNVMEJYZERubHdVN0laWmlGamY1Y19xQVhPTzhmcHltNEVTbGJCMXpERFI0WHNKblNCZzRHUDZhOXFNTlc5WkkxUG1UbGxCT2wyUlptbTNqUFVTZWlydV9ObXVRa200RWVObVY3aA?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Investigadores en Argentina buscan a los roedores que pudieron causar el brote de hantavirus - LatinUS",
@@ -4155,13 +4163,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Brote de hantavirus en Argentina: tres muertes y vigilancia internacional en cruceros - Perfil",
-      "t": "2026-05-11T14:54:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS3R3bXdhdDhKcThHMTl0cUNSaEp4YkhsQVNzMlRneXlZdm40TzZaQ291aml6al9YeGpPV2htTUx0bkN3QWZXUHJHblktaEIyVXY5aE9seFZCd3dBa3dQYWRGN0p6bndGenJGLUotWmlnNkdZRS1adFhSekZKemlzQ1NfeXN4b2pWcDdnMmIwTnNocnM2VmV5U0xFY1lxa2d4NlBxSkFQUEI2MWQzNlY4a2ZpZTRNYkhCaWxSaXoyQy0tbGdWSGdNYklrRV9tMUXSAdQBQVVfeXFMTUF2Sjc5SkFMWXVCdXlIZGlIamNTS09qa29ueTgta1JBbE5Oc2VtOEpLdXpNdDJJUG5MbGhZVXAyRllaX1RVTGVyR2xacDFDQnZOY3BaTXBXWlozV1hUd2JzMjdWU3l2bklBbXhvcl9UWVpYOTZXM25LWXdYeURFZG9mZ0J4djI1WXdkMWNSOWwtdVI0bVdfRVA0b1VYS1FPNGNPdHZiU090dnRNZHhlRndKcDZFUldpUGJnY0NYWlZVUEMzcmpIeHBva0pWOWo1R2UzV3k?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
       "t": "2026-05-10T07:00:00Z",
       "source": "GoogleNews-ES",
@@ -4219,8 +4220,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T02:05:32Z",
-      "signals": 11,
+      "last_update": "2026-05-20T02:10:03Z",
+      "signals": 12,
       "recent": [
         {
           "title": "Canada hantavirus update: 1 of 4 who went home from cruise ship hit with hantavirus outbreak tests positive, health agency says - ABC7 Chicago",
