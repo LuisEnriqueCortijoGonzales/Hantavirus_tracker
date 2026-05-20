@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-20T18:20:03.708165Z",
-  "next_update": "2026-05-20T18:25:00Z",
+  "generated": "2026-05-20T18:25:02.058144Z",
+  "next_update": "2026-05-20T18:30:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "GRC": {
@@ -562,7 +562,7 @@
       "strain": "hantaan",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     }
   },
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 15,
     "polymarket": 6,
-    "kalshi": 19,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,11 +4018,12 @@
     "outbreak_count": 5
   },
   "signal_summary": {
-    "USA": 2,
+    "USA": 3,
     "ARG": 19,
     "CAN": 1,
-    "FRA": 4,
-    "GBR": 1
+    "GBR": 2,
+    "JPN": 1,
+    "FRA": 4
   },
   "events": [
     {
@@ -4096,6 +4097,13 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNXy1GeEYzNzVqRUF6QlFkRW9JS0h3WGJDemZXMnRXVjg2eFh5RzBpQVBqalN3MFdodC1OZkxRM0Z3WEhXMkk4UEpxV3cxLU12MjRPYW5SUEtHNHVrWEdmNUxQcWg2LWV3dFk5ZEg1aXdCenc5YjRYX1V5SThjbG5pWDlneUpBMzA4MzBveVd1T3NFVkpRYTNBYW9UVWxZNzQ5NE85SC1TekdpeWRRWUhjVGtVVEZ1aUt1ZTV6Z01hZw?oc=5"
     },
     {
+      "iso": "USA",
+      "title": "Zoonotic spillover diseases like hantavirus and ebola are on the rise | The Excerpt - USA Today",
+      "t": "2026-05-20T12:52:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcmxjVWN2ZWlMZG5pS21RVF9fdHlhZElQVm43RS11Y3JlRDlyOGRfT0MzaVdxbnhVa29MMEZmWlJvY01Mc3NNb2hZM2lHV0NUdTMtS1ZOQVpPa1ZNdXl3VzIyaXBEVWMtdXl6ZEJWSXVGaFBySkNLcGE5TWZpcjg1RGdfTllJSHl0SW00NDU3TGg2UHVHVTBFcWJYd0laRE9kNy1HV1hJNmt1YUlHQVA0a1pYTG81dWJJODBjZFp3?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "Se identificaron 3 nuevos casos de hantavirus en Argentina y uno es de Chubut - El Chubut",
       "t": "2026-05-20T12:29:20Z",
@@ -4143,6 +4151,20 @@
       "t": "2026-05-18T21:24:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3ZsNWRWd2JEZEpWclg4V2RoMlJ0bWRiVFpSN0pZX3ZfX0JtdW15RHZicG5od1FMbl92Tm4zdC1DRHBsQW1XR3VtZnVOQ2JOYXd2QlZCWFpsTzJHVGEtTDFnbmRSTy1EV04wNmhVM2xMVkZTVGg5dURsZktfMFNFZG43S0FpdFA3ZzJ0R09wQXVzNHRMaGY1Ynkxa2VMSXowcU9CZ3BCWnZQaFZi?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "Britain gets experimental drug from Japan to bolster hantavirus response - Reuters",
+      "t": "2026-05-18T17:22:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS2dnTnV0bXBIXzlYZ0JpRTVrWDBrUG9hVnk3RDJHYUJfdC1wMXcwUkxHc3ZQaVBkNm9LZ2VCbHhHQXVSeF9LNDFBNm5lVEZKQUtsd2R3UFZCOFd3UWIzRW9yc2x1Q2JEYmNNWW9OV0FrS2xyM1JhSmFxbVRsODVDdTlGUEJrck1OamtOVjVpWnVoekp5bExOY2RNeW4xMU1vWEIxMHZlQm5JZ2F0MWswZGNDZWJzNFp6R212MFE4a2xwTDVhbm5tQ2I5cXhTV1NlR0E?oc=5"
+    },
+    {
+      "iso": "JPN",
+      "title": "Britain gets experimental drug from Japan to bolster hantavirus response - Reuters",
+      "t": "2026-05-18T17:22:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS2dnTnV0bXBIXzlYZ0JpRTVrWDBrUG9hVnk3RDJHYUJfdC1wMXcwUkxHc3ZQaVBkNm9LZ2VCbHhHQXVSeF9LNDFBNm5lVEZKQUtsd2R3UFZCOFd3UWIzRW9yc2x1Q2JEYmNNWW9OV0FrS2xyM1JhSmFxbVRsODVDdTlGUEJrck1OamtOVjVpWnVoekp5bExOY2RNeW4xMU1vWEIxMHZlQm5JZ2F0MWswZGNDZWJzNFp6R212MFE4a2xwTDVhbm5tQ2I5cXhTV1NlR0E?oc=5"
     },
     {
       "iso": "USA",
@@ -4231,7 +4253,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T18:20:03Z",
+      "last_update": "2026-05-20T18:25:02Z",
       "signals": 7,
       "recent": [
         {
