@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-20T18:30:32.089600Z",
-  "next_update": "2026-05-20T18:35:00Z",
+  "generated": "2026-05-20T18:35:02.125410Z",
+  "next_update": "2026-05-20T18:40:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 93,
+      "ytd": 94,
       "alert": "vigilancia",
       "cfr": 37.3,
-      "var_pct": 39,
+      "var_pct": 40,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 9,
       "r0": null,
-      "signals": 18,
+      "signals": 19,
       "gov_alert": false
     },
     "CHL": {
@@ -581,7 +581,7 @@
       73,
       77,
       85,
-      93
+      94
     ],
     "CHL": [
       31,
@@ -1452,11 +1452,9 @@
   ],
   "hourly_history": {
     "ARG": [
-      77,
       78,
       78,
       78,
-      79,
       79,
       79,
       79,
@@ -1475,6 +1473,7 @@
       84,
       84,
       84,
+      85,
       85,
       85,
       86,
@@ -1499,7 +1498,8 @@
       92,
       92,
       93,
-      93
+      93,
+      94
     ],
     "CHL": [
       36,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
-    "epidemio": 14,
+    "composite": 15,
+    "epidemio": 15,
     "polymarket": 6,
-    "kalshi": 21,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 3,
-    "ARG": 18,
+    "ARG": 19,
     "CAN": 1,
     "GBR": 2,
     "JPN": 1,
@@ -4123,6 +4123,13 @@
       "t": "2026-05-20T02:22:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUWpXa21hMVQxZUh5eUJNN1FkbUZhOFdNd2lYUU5MMXBzRDJTc2txNllQTUk0b0VXOUdwbXEtbEQtdjVGa2wzN1A5M1puT3NRMndwSXdNRkZJMFNMUkNnTTRxZWh1LUY5ZGw1NVZLM3Y0ek54cTlOVFl5NzQzY2stT2lsanQwRG50eWZpWHlmYkpRT1Z0UjRHUzdtMHJVcWFTQ3VPbnF1Ykg0SUlXZkpPMEdn?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Investigadores en Argentina buscan a los roedores que pudieron causar el brote de hantavirus - LatinUS",
+      "t": "2026-05-19T23:50:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQY0FPbjYtZVlBemptNExfODJHR0FTRFJGWGNqWXNHcExnRHZPVmJuejhtcTgtZXNCOVFiU3ZBU0ZyakxkTDVRT29ETk1yZTR5dUtfY1lFZjNCLXBjMmtHLVhDUG5lOEVUNkNoNm8yTElSS0NVc0kwRzkxZDVEWlhKTENrbkFYbU5PdWhtR3hNVGFfQUpCQXJxdE1zU0R4Mm1zV28yX0NPcnpCTjk0OWhRYVFsM01qTjZ2bDNlaW1qNjFPM2JNcUxMVTMyT2lYMVJsTzhSYzhOeXhsTnlhMUU40gHfAUFVX3lxTFBjQU9uNi1lWUF6am00TF84MkdHQVNEUkZYY2pZc0dwTGdEdk9WYm56OG1xOC1lc0I5UWJTdkFTRnJqTGRMNVFPb0ROTXJlNHl1S19jWUVmM0ItcGMya0ctWENQbmU4RVQ2Q2g2bzJMSVJLQ1VzSTBHOTFkNURaWEpMQ2tuQVhtTk91aG1HeE1UYV9BSkJBcnF0TXNTRHgybXNXbzJfQ09yekJOOTQ5aFFhUWwzTWpONnZsM2VpbWo2MU8zYk1xTExVMzJPaVgxUmxPOFJjOE55eGxOeWExRTg?oc=5"
     },
     {
       "iso": "ARG",
@@ -4246,7 +4253,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T18:30:32Z",
+      "last_update": "2026-05-20T18:35:02Z",
       "signals": 7,
       "recent": [
         {
