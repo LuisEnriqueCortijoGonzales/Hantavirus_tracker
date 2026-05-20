@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-20T15:10:32.045316Z",
-  "next_update": "2026-05-20T15:15:00Z",
+  "generated": "2026-05-20T15:15:03.733908Z",
+  "next_update": "2026-05-20T15:20:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 92,
+      "ytd": 93,
       "alert": "vigilancia",
       "cfr": 37.3,
-      "var_pct": 37,
+      "var_pct": 38,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 9,
       "r0": null,
-      "signals": 18,
+      "signals": 19,
       "gov_alert": false
     },
     "CHL": {
@@ -581,7 +581,7 @@
       73,
       76,
       84,
-      92
+      93
     ],
     "CHL": [
       31,
@@ -1452,14 +1452,12 @@
   ],
   "hourly_history": {
     "ARG": [
-      76,
       77,
       77,
       77,
       78,
       78,
       78,
-      79,
       79,
       79,
       79,
@@ -1480,6 +1478,7 @@
       84,
       85,
       85,
+      85,
       86,
       86,
       86,
@@ -1498,6 +1497,7 @@
       91,
       91,
       91,
+      92,
       92,
       92
     ],
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 13,
     "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 20,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 4,
     "CAN": 2,
-    "ARG": 18,
+    "ARG": 19,
     "FRA": 4,
     "GBR": 1
   },
@@ -4031,6 +4031,20 @@
       "t": "2026-05-20T14:52:47Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQT0o4TnJ5SlJndzlyNFgzRGdCUDdNcXVXb2RZdUNuSVg0cmc2U3hMTDhxdEN1MGVIZzdzQy1PYTJKMEIzaUkxQXFBTDVXQnFSQjA5TVhnQTdTWksycUhld0syakRWQlhDeFduMEludTFkNzh0RTJ2WUpFa1ZLTTc5dl9EZ0ViZWtsN2thWGNQdTVBdGNzaEpIc2xOZE5Gc0loMkpoTWxUQVpJRExMUEpSY18yMHZFX1Q4ZFpocnRDN0s0SVE5MFBkODZQanZpbjN3WEVlR094ZUtnWXVNSXVYN21R?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "\u00bfLleg\u00f3 el hantavirus a la Argentina?: cient\u00edficos realizan pruebas para descartar su presencia en Ushuaia - Canal26",
+      "t": "2026-05-20T14:28:13Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOOG1ORDFsQWFTVGZCT1BmNWk3UC1qS0s0T2lQOEdGYVY4dDZmMU9vVmRsRktQWWNTQlNaV0lfVmxVbTBubXViVEx1TGtmeERvb05QVWg4ZnFzdEFMb1YzT3dMVTFTUEJtLU1RRzJ0a25NaDU1Q0pqZ2lMcTBwTE92dHJ1MkJlSUJmRnFCWHJvSFJRMkZ2Skg5OE9wdDkwNElrT003ejVpcFJuQ1NTaEYwZWpLaVQzRXZmenZFRTBBbG5ISW9lbVprQ3E5UXBPX1IzYm92Q0R0Y2RpQi0zV21SSlU4U2dfa2hUZXc3eA?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus en Argentina: el total de casos asciende a 105, tras la actualizaci\u00f3n del Bolet\u00edn Epidemiol\u00f3gico - EQSnotas",
+      "t": "2026-05-20T13:42:08Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOaUwtVU04MnRZN1drSEZTY1Z5Y3NzQV9vSFpzSzdhbDVtdDNzbW44WkFLLVZQVjgtWEdzR0RoSUxoYUtBMmNNd3BoQkk0enZzNF90VlBkd3RwQ2JiUlB0MTktY2pTREoxT29UU0dVRmsxVWQ4cGZOUTNudGh5eGV2SHVoNWRQMW82N2ZwdGhGN3VBdkZpdDlNWHhPMzE4eW5QQy1FRWxEcXFBdTdRRXBhWDhwbjUzb1hfWDhMRUp6TjBWejU4OG1VWWpwOGRJaXdSX0NJSmJ4RFNJZkdJeW5QM3kyUEIwOXZBQ1h5Vmh1U2RQSm55SV82LU4wSU9UUdIBjAJBVV95cUxPTG9TT3VUbWVnZHhBenFNSnc5eXVrV2EydjVLdnYzcGVzNldielRtTEwtU040R18tR0Z6TTZ4REJodmwzMzdsdVVidHdxd2VvZlp4WGVuZ1RTbzhwOHNmSTlXT19TTWlidERvaEItSmdyUDVDSHN6aUFmQTZMa1NsU2thNkhkTE5EOEJyVV9uN2NlNXgyUVJmUTVHWjlyYzlfNjN1d0RoNjZqOERFdXp6TEVJbk9EVWU0NzFIN3JSV01LVGpVMTFNWG84X3BUVnNZNnRxcEdOdmYzZlZJUDJ5RHA4cGJ0WEZsRmNPUkZPNDk1eXFGMk1lX21pSlJqbUpkY3RkQnh4QnJhZTBf?oc=5"
     },
     {
       "iso": "ARG",
@@ -4066,13 +4080,6 @@
       "t": "2026-05-20T11:35:47Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSmlEaElVOEZSWnRFam5XQXFTU2ZjazAzMjliRW5EemZjdEpTR2xuUjdhNEJQSjJJc0ZySjUyYWVfSlhsZDQ0d0d6SmViVjZ1Q29xR3VpclotTkg2dk9VMVF3QUVFcTJaN0pCVmQ3US1Rd2dBaVlEeks1VU9XUGhVQW9jdDg5SnhCOExiT3cxcVREQzkxZjVvOThwOERCZWZ0NGRqZVZOZWdMYmRoVlRkWlFDVm9zWGFOY0IxSnAyY9IBzgFBVV95cUxOUVppdjRvZ05tSk41YXFKRHk2ampiNXJsMFhLRFgwU25WWFRaMXlaRlZxUlYwS013VHNDRmlrRFJpU0M0SEx6a3A0LTd6Mm9BamVDTDZOdlhxQndjUzBIWnI1R1ZnUlk0LXduUk1OZ1pCQmdMVTNDbEVxeklFZjB3QUctOXZIdzNmWnJsQWZsa0ZMd3kyTjZHdC1CVXdrN1VmY1VwM3h3ZWE5RGM1cUp4dnZMbjhyNy1vUnk0bmZDWXpWRlZCbXpQVXkyZGNMQQ?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "\u00bfLleg\u00f3 el hantavirus a la Argentina?: cient\u00edficos realizan pruebas para descartar su presencia en Ushuaia - Canal26",
-      "t": "2026-05-20T10:59:48Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOOG1ORDFsQWFTVGZCT1BmNWk3UC1qS0s0T2lQOEdGYVY4dDZmMU9vVmRsRktQWWNTQlNaV0lfVmxVbTBubXViVEx1TGtmeERvb05QVWg4ZnFzdEFMb1YzT3dMVTFTUEJtLU1RRzJ0a25NaDU1Q0pqZ2lMcTBwTE92dHJ1MkJlSUJmRnFCWHJvSFJRMkZ2Skg5OE9wdDkwNElrT003ejVpcFJuQ1NTaEYwZWpLaVQzRXZmenZFRTBBbG5ISW9lbVprQ3E5UXBPX1IzYm92Q0R0Y2RpQi0zV21SSlU4U2dfa2hUZXc3eA?oc=5"
     },
     {
       "iso": "USA",
@@ -4245,7 +4252,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T15:10:32Z",
+      "last_update": "2026-05-20T15:15:03Z",
       "signals": 9,
       "recent": [
         {
