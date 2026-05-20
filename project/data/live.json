@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-20T23:40:02.103585Z",
-  "next_update": "2026-05-20T23:45:00Z",
+  "generated": "2026-05-20T23:45:32.109625Z",
+  "next_update": "2026-05-20T23:50:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 95,
+      "ytd": 96,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 42,
+      "var_pct": 43,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 9,
       "r0": null,
-      "signals": 18,
+      "signals": 19,
       "gov_alert": false
     },
     "CHL": {
@@ -581,7 +581,7 @@
       73,
       79,
       87,
-      95
+      96
     ],
     "CHL": [
       31,
@@ -1453,8 +1453,6 @@
   "hourly_history": {
     "ARG": [
       79,
-      79,
-      79,
       80,
       80,
       80,
@@ -1472,6 +1470,7 @@
       84,
       85,
       85,
+      85,
       86,
       86,
       86,
@@ -1495,10 +1494,11 @@
       92,
       93,
       93,
-      93,
       94,
       94,
       94,
+      95,
+      95,
       95
     ],
     "CHL": [
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 17,
     "polymarket": 6,
-    "kalshi": 22,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 4,
-    "ARG": 18,
+    "ARG": 19,
     "CAN": 2,
     "GBR": 2,
     "JPN": 1,
@@ -4027,6 +4027,13 @@
     "CHL": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Se detectaron tres nuevos casos de hantavirus en Argentina y el n\u00famero de contagios se eleva a 105 - NoticiasFormosa",
+      "t": "2026-05-20T23:40:44Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQLU0xZXo3d3BuQlNVcWFVMnBaU18zR2g4UHlyQ3hYMGpRYUs0eERBbWlSOFc1dmRnVHdRNHBNWjFuNjV3MjV1eTN1TFV4WVVJdVBZalA4Q2pWemNxOUJsV1Z2Zm45MmJjU0xYcGZvOFlUSWlnb2hmaml4SkFWR1JFdmVEOEN2am9JSnZkSHFLaWZtclpZY2QxZGJfVks2SVlOVmpTdi02SzUwWk9VSDdGSzhSSzBnWXJGWUliQXItOEdrNGNTM2dBVzJHVm9sNl9lUk02SjQ5aC1kX0VtN1E?oc=5"
+    },
     {
       "iso": "CHL",
       "title": "Alerta por hantavirus en Chile: confirman un nuevo caso en la Regi\u00f3n de los Lagos - Diario El Cordillerano",
@@ -4254,7 +4261,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T23:40:02Z",
+      "last_update": "2026-05-20T23:45:32Z",
       "signals": 6,
       "recent": [
         {
