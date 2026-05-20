@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-20T11:45:32.049492Z",
-  "next_update": "2026-05-20T11:50:00Z",
+  "generated": "2026-05-20T11:50:32.101846Z",
+  "next_update": "2026-05-20T11:55:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 13,
+      "signals": 14,
       "gov_alert": false
     },
     "CHL": {
@@ -568,18 +568,18 @@
   },
   "history": {
     "ARG": [
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      73,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      74,
       81,
       89
     ],
@@ -1452,7 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      73,
       74,
       74,
       74,
@@ -1499,6 +1498,7 @@
       88,
       88,
       88,
+      89,
       89
     ],
     "CHL": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 13,
+    "composite": 14,
     "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 17,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,13 +4019,20 @@
   },
   "signal_summary": {
     "USA": 5,
-    "ARG": 13,
+    "ARG": 14,
     "CAN": 3,
     "GBR": 2,
     "JPN": 1,
     "FRA": 4
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Hantavirus: se identificaron 3 nuevos casos en Argentina - La Verdad Jun\u00edn",
+      "t": "2026-05-20T11:48:40Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWmpfekhOUFFkNXhRN2JLT3pkZ29uVE5iQ2Y3am44WnVucUEtX0F4S3N2cC1EODZrWjcyQ1lvdHlfa1ctdEtuU3NOMVI3bmcyVFNvejd5SEFQcTFVREdDTldKS2V6LUQ4RWl3MGM2a2pOTTFSd3Jvc3VRbjlDU080R181T0RIdHlONmxZ?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "\u00bfLleg\u00f3 el hantavirus a la Argentina?: cient\u00edficos realizan pruebas para descartar su presencia en Ushuaia - Canal26",
@@ -4239,7 +4246,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T11:45:32Z",
+      "last_update": "2026-05-20T11:50:32Z",
       "signals": 9,
       "recent": [
         {
