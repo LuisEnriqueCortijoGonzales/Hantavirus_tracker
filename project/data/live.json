@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-20T09:55:22.065798Z",
-  "next_update": "2026-05-20T10:00:00Z",
+  "generated": "2026-05-20T10:00:03.688916Z",
+  "next_update": "2026-05-20T10:05:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "GRC": {
@@ -562,7 +562,7 @@
       "strain": "hantaan",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     }
   },
@@ -1401,7 +1401,6 @@
     "2026-05-20T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-18T10:00:00Z",
     "2026-05-18T11:00:00Z",
     "2026-05-18T12:00:00Z",
     "2026-05-18T13:00:00Z",
@@ -1448,11 +1447,11 @@
     "2026-05-20T06:00:00Z",
     "2026-05-20T07:00:00Z",
     "2026-05-20T08:00:00Z",
-    "2026-05-20T09:00:00Z"
+    "2026-05-20T09:00:00Z",
+    "2026-05-20T10:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      73,
       73,
       73,
       74,
@@ -1499,11 +1498,11 @@
       87,
       87,
       88,
+      88,
       88
     ],
     "CHL": [
       35,
-      35,
       36,
       36,
       36,
@@ -1549,6 +1548,7 @@
       41,
       41,
       41,
+      42,
       42
     ],
     "BRA": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 12,
     "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 20,
+    "kalshi": 16,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,8 +4021,9 @@
     "USA": 5,
     "CAN": 3,
     "ARG": 13,
+    "GBR": 2,
+    "JPN": 1,
     "FRA": 4,
-    "GBR": 1,
     "CHL": 1,
     "URY": 1
   },
@@ -4110,6 +4111,20 @@
       "t": "2026-05-18T19:40:03Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVlhuUG82VktZUi1sOWRpclRTZU9HUVZmQjRwaS0tVml5bXhuakthM0xHYUhXYzJEbGFMR200NUF0QnlfMnV4SzkyaXRURzRWcnM3bTBJQjdkSnlrMGhSVENkMUxjRzNrNW1JNVJvUlZaV3JCdzdZbmZQLXYwUTVmR2x6bFZVXy1EX3FBTk9uRXFIVHhwOS1ucXRZVGNwSERTdTRqYzFVbHdyTXh5SjJ5bXZVc2NEaGNPczZsbF9saFd0R0VMQU9ac19FbjlNd0VhTjd0cWx1WGJCMW5tLWVUdk1Tbw?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "Britain gets experimental drug from Japan to bolster hantavirus response - Reuters",
+      "t": "2026-05-18T17:22:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS2dnTnV0bXBIXzlYZ0JpRTVrWDBrUG9hVnk3RDJHYUJfdC1wMXcwUkxHc3ZQaVBkNm9LZ2VCbHhHQXVSeF9LNDFBNm5lVEZKQUtsd2R3UFZCOFd3UWIzRW9yc2x1Q2JEYmNNWW9OV0FrS2xyM1JhSmFxbVRsODVDdTlGUEJrck1OamtOVjVpWnVoekp5bExOY2RNeW4xMU1vWEIxMHZlQm5JZ2F0MWswZGNDZWJzNFp6R212MFE4a2xwTDVhbm5tQ2I5cXhTV1NlR0E?oc=5"
+    },
+    {
+      "iso": "JPN",
+      "title": "Britain gets experimental drug from Japan to bolster hantavirus response - Reuters",
+      "t": "2026-05-18T17:22:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS2dnTnV0bXBIXzlYZ0JpRTVrWDBrUG9hVnk3RDJHYUJfdC1wMXcwUkxHc3ZQaVBkNm9LZ2VCbHhHQXVSeF9LNDFBNm5lVEZKQUtsd2R3UFZCOFd3UWIzRW9yc2x1Q2JEYmNNWW9OV0FrS2xyM1JhSmFxbVRsODVDdTlGUEJrck1OamtOVjVpWnVoekp5bExOY2RNeW4xMU1vWEIxMHZlQm5JZ2F0MWswZGNDZWJzNFp6R212MFE4a2xwTDVhbm5tQ2I5cXhTV1NlR0E?oc=5"
     },
     {
       "iso": "USA",
@@ -4240,7 +4255,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T09:55:22Z",
+      "last_update": "2026-05-20T10:00:03Z",
       "signals": 11,
       "recent": [
         {
