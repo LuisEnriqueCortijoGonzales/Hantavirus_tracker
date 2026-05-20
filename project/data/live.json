@@ -1,16 +1,16 @@
 {
-  "generated": "2026-05-20T03:05:32.153395Z",
-  "next_update": "2026-05-20T03:10:00Z",
+  "generated": "2026-05-20T03:10:02.072846Z",
+  "next_update": "2026-05-20T03:15:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 85,
+      "ytd": 86,
       "alert": "vigilancia",
       "cfr": 37.3,
       "var_pct": 28,
       "strain": "andes",
-      "new_today": 7,
+      "new_today": 8,
       "r0": null,
       "signals": 12,
       "gov_alert": false
@@ -151,11 +151,11 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 1,
+      "var_pct": 2,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 4,
       "gov_alert": false
     },
     "GTM": {
@@ -562,7 +562,7 @@
       "strain": "hantaan",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     }
   },
@@ -581,7 +581,7 @@
       71,
       71,
       78,
-      85
+      86
     ],
     "CHL": [
       31,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 16,
     "polymarket": 6,
-    "kalshi": 21,
+    "kalshi": 25,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,8 +4019,9 @@
   },
   "signal_summary": {
     "USA": 4,
-    "CAN": 3,
+    "CAN": 4,
     "FRA": 5,
+    "JPN": 1,
     "ARG": 12,
     "GBR": 1,
     "MEX": 2,
@@ -4033,6 +4034,13 @@
       "t": "2026-05-20T02:22:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUWpXa21hMVQxZUh5eUJNN1FkbUZhOFdNd2lYUU5MMXBzRDJTc2txNllQTUk0b0VXOUdwbXEtbEQtdjVGa2wzN1A5M1puT3NRMndwSXdNRkZJMFNMUkNnTTRxZWh1LUY5ZGw1NVZLM3Y0ek54cTlOVFl5NzQzY2stT2lsanQwRG50eWZpWHlmYkpRT1Z0UjRHUzdtMHJVcWFTQ3VPbnF1Ykg0SUlXZkpPMEdn?oc=5"
+    },
+    {
+      "iso": "JPN",
+      "title": "Japan provided antiviral medication Avigan to U.K. for cruise ship Hantavirus outbreak - Asia News Network",
+      "t": "2026-05-20T02:06:54Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNa2ZTNndwS0cxQ2ZfRjJNLW5VLS1FR21ITWdoNGpnZXZBXzJNOWV1OE1ldkdjbGRXT0dNSmdZYThOMjdwUFpObkhuUUNVMEJYZERubHdVN0laWmlGamY1Y19xQVhPTzhmcHltNEVTbGJCMXpERFI0WHNKblNCZzRHUDZhOXFNTlc5WkkxUG1UbGxCT2wyUlptbTNqUFVTZWlydV9ObXVRa200RWVObVY3aA?oc=5"
     },
     {
       "iso": "ARG",
@@ -4141,6 +4149,13 @@
     },
     {
       "iso": "CAN",
+      "title": "Canada confirms hantavirus case linked to cruise ship outbreak that has killed three passengers - Fox News",
+      "t": "2026-05-18T02:17:33Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdjVIdE5rYnItLTBJdGpxV24wSVQzaXJnWGFCenJHQXdBekZhd2YyazBJUlpVLXFwZzloelRYZGY3RWJWTkkzb0RRV2YtSFZjZVlacHE1N2NtMWswY3p5Y3p0NkZ0LUh6VlNYanpIYkpXZEJLQ0M5M0FwUmI0REZheDVVNmtxM1QtdmpYSlNkbWV1SWVxeVZUQ3RnUm8xeXpZTEx3QlRxbHo1SVI0YW15VklXWdIBuAFBVV95cUxOU1FLRlE5QkJmTHZ1UExWQmo1SVcwZlpYRGtTVDZGUUI1aTdQTmd4OGVBZDcyUWI2MVg0YWEzblpLMmFNc0hfX2U3eVFJLUtiVldNTDhYcHJEaWpMcjBYeUlHc1FXRlNYSWhWZHpBR2ttN21Rc2FCUXhzelRmckRrNllUOUZaOVI4dTg1YVY5a2VyQS0zYnRPYlBWdmZwelhoVUhuRHBtNmxscDdmM0laVTRMX3JwVUZq?oc=5"
+    },
+    {
+      "iso": "CAN",
       "title": "Canada hantavirus update: 1 of 4 who went home from cruise ship hit with hantavirus outbreak tests positive, health agency says - ABC7 Chicago",
       "t": "2026-05-17T18:43:33Z",
       "source": "GoogleNews-EN",
@@ -4240,8 +4255,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T03:05:32Z",
-      "signals": 13,
+      "last_update": "2026-05-20T03:10:02Z",
+      "signals": 15,
       "recent": [
         {
           "title": "Confirman muerte por contagio de hantavirus en Estados Unidos, no est\u00e1 relacionada con el crucero de Argentina - Azteca Morelos",
@@ -4254,6 +4269,11 @@
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYkkteVAzeUdWdHM0Nlg0VTZYS1NCUUxUMXl5eXZiTFF0eUVMSGxKOU5DZEtlbk8ydlB1MTdjRUlKaUljeTNlTU84NUZub1pQeXAzWTlJaGxWbkJDcVFRYTFCdWE5WnY4ZG5CTzVYVnBWd09ENDVFeFFteHZhSGZEZnBwVjlIOEtQX1RSMVZFOHAxQUk2SnBjeExqb3gwOHo5dnkxblJGTnRFMm9XWVlaWF9GazlGR2lCLUJ2QVdFYy1uZENXV2ZuR0FwS1lILU1UMGfSAdcBQVVfeXFMTzRHR1FYeVU4OHR0a04wMmxuc2xsY2ZtYVFZQ3NaQXRDWi1rWnNvSnpybjdhNXZNeXpMSXhCQnZSaVRNbnozcFJBd3dibU4zTHpZM2hKbWYtWGpvQ1ZIaVBtamRDSmUxampFMlM1OVdxa3A5VjV0N3V1SFpCMUxNZmF6N2RRVlhDaDNIdlVoU01MaVNDRlhhSER0eTFvMEJLOVV6MzVZSmNBUmNYNktoaXZPZll3WTdyTGNSODM4cUhPa3ZhczhYaldJLXFHQzNkeC0xV3FqWVU?oc=5"
         },
         {
+          "title": "Canada confirms hantavirus case linked to cruise ship outbreak that has killed three passengers - Fox News",
+          "t": "2026-05-18T02:17:33Z",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdjVIdE5rYnItLTBJdGpxV24wSVQzaXJnWGFCenJHQXdBekZhd2YyazBJUlpVLXFwZzloelRYZGY3RWJWTkkzb0RRV2YtSFZjZVlacHE1N2NtMWswY3p5Y3p0NkZ0LUh6VlNYanpIYkpXZEJLQ0M5M0FwUmI0REZheDVVNmtxM1QtdmpYSlNkbWV1SWVxeVZUQ3RnUm8xeXpZTEx3QlRxbHo1SVI0YW15VklXWdIBuAFBVV95cUxOU1FLRlE5QkJmTHZ1UExWQmo1SVcwZlpYRGtTVDZGUUI1aTdQTmd4OGVBZDcyUWI2MVg0YWEzblpLMmFNc0hfX2U3eVFJLUtiVldNTDhYcHJEaWpMcjBYeUlHc1FXRlNYSWhWZHpBR2ttN21Rc2FCUXhzelRmckRrNllUOUZaOVI4dTg1YVY5a2VyQS0zYnRPYlBWdmZwelhoVUhuRHBtNmxscDdmM0laVTRMX3JwVUZq?oc=5"
+        },
+        {
           "title": "Salud. Canad\u00e1 confirma un caso de hantavirus: se trata de un pasajero del crucero MV Hondius - La Voz del Interior",
           "t": "2026-05-17T18:37:27Z",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ1M0S3d6a3IxbC1RdnlfNERqRk10a0pwVEo5ZE9ZM1dkQ1U4N244S2F5STNIOUYzLTR4bXg3YmlQUkt2MlBhcjE5YTBpMHNid1NyQlYwRDFiV0kxVTllcnNnOWRLRnhMSGhiZEJneE12M01Ta0N6eGdxTjh1VW11TnBXa1dlLUlxOTFITDhzLXR4a3dmWHJHcHA1VWZjbUZ4V1Z1S0Ztd0NYYkpHUkR3QktzNW0?oc=5"
@@ -4262,11 +4282,6 @@
           "title": "Canad\u00e1 confirma caso de hantavirus en ciudadano que viaj\u00f3 en el crucero afectado por un brote - Yahoo",
           "t": "2026-05-17T17:32:52Z",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNVkw1MjRFV1FKM1VVLUZUSVV1TjN1X253T2pBOWFfMm14b19TRHNCZHNxZHVvR2VHVG85dWVRVkZ6Mnk1YmRmd05hTVlvSXlva2thRTZjZmJCNXpKckE4TWZZTEx5X0Nib3Z2QmZ1bU0zUkpad0NERUZwVTFEQ0ZGVFYxS2wtWnlOYTg0ajk2amFCU1B3dUFGUDdR?oc=5"
-        },
-        {
-          "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
-          "t": "2026-05-16T18:07:02Z",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ01MSERfY0JHbWVCdy1rSWtHZ3EtNkJCNU5kcU9SQjNwbGY1b1B1NWE1alpYOGVsRnJxZWM5cU90Q2VIZzJiYzdjM0h2blhaUzExWEEtNlYtRkxORE1UR3dWTkhLTEsxTnFXSjczNHlJRmlVc3NpbHNfcGMwVTFRNlFtaGVlTjdlMUHSAY8BQVVfeXFMTUhqV3ctTE9hV3luREJWRnpHbzBnQ2EwZmk2anZfZTlFTGFIU193QVlUUFJpOWpTMGEzNXkwZFREaDFnZTMyc0xHb0tZWVhkN0pGUThSbEVPWHVtUVVhRXpFanBxN0pmYzVHMEtOWjNSNkxPMHJZV1Nlb1Z1bXlDT2NUbDVndlZONjgxb2lxcFk?oc=5"
         }
       ]
     }
