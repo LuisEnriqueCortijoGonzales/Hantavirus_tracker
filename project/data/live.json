@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-20T15:15:03.733908Z",
-  "next_update": "2026-05-20T15:20:00Z",
+  "generated": "2026-05-20T15:20:31.569236Z",
+  "next_update": "2026-05-20T15:25:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -151,11 +151,11 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 13,
-    "epidemio": 14,
+    "composite": 14,
+    "epidemio": 15,
     "polymarket": 6,
-    "kalshi": 19,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 4,
-    "CAN": 2,
+    "CAN": 1,
     "ARG": 19,
     "FRA": 4,
     "GBR": 1
@@ -4167,13 +4167,6 @@
     },
     {
       "iso": "CAN",
-      "title": "Canada confirms hantavirus case linked to cruise ship outbreak that has killed three passengers - Fox News",
-      "t": "2026-05-18T02:17:33Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdjVIdE5rYnItLTBJdGpxV24wSVQzaXJnWGFCenJHQXdBekZhd2YyazBJUlpVLXFwZzloelRYZGY3RWJWTkkzb0RRV2YtSFZjZVlacHE1N2NtMWswY3p5Y3p0NkZ0LUh6VlNYanpIYkpXZEJLQ0M5M0FwUmI0REZheDVVNmtxM1QtdmpYSlNkbWV1SWVxeVZUQ3RnUm8xeXpZTEx3QlRxbHo1SVI0YW15VklXWdIBuAFBVV95cUxOU1FLRlE5QkJmTHZ1UExWQmo1SVcwZlpYRGtTVDZGUUI1aTdQTmd4OGVBZDcyUWI2MVg0YWEzblpLMmFNc0hfX2U3eVFJLUtiVldNTDhYcHJEaWpMcjBYeUlHc1FXRlNYSWhWZHpBR2ttN21Rc2FCUXhzelRmckRrNllUOUZaOVI4dTg1YVY5a2VyQS0zYnRPYlBWdmZwelhoVUhuRHBtNmxscDdmM0laVTRMX3JwVUZq?oc=5"
-    },
-    {
-      "iso": "CAN",
       "title": "Canada hantavirus update: 1 of 4 who went home from cruise ship hit with hantavirus outbreak tests positive, health agency says - ABC7 Chicago",
       "t": "2026-05-17T18:43:33Z",
       "source": "GoogleNews-EN",
@@ -4252,18 +4245,13 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T15:15:03Z",
-      "signals": 9,
+      "last_update": "2026-05-20T15:20:31Z",
+      "signals": 8,
       "recent": [
         {
           "title": "Canada hantavirus update: 1 of 4 who went home from cruise ship hit with hantavirus outbreak tests positive, health agency says - ABC7 Chicago",
           "t": "2026-05-17T18:43:33Z",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYkkteVAzeUdWdHM0Nlg0VTZYS1NCUUxUMXl5eXZiTFF0eUVMSGxKOU5DZEtlbk8ydlB1MTdjRUlKaUljeTNlTU84NUZub1pQeXAzWTlJaGxWbkJDcVFRYTFCdWE5WnY4ZG5CTzVYVnBWd09ENDVFeFFteHZhSGZEZnBwVjlIOEtQX1RSMVZFOHAxQUk2SnBjeExqb3gwOHo5dnkxblJGTnRFMm9XWVlaWF9GazlGR2lCLUJ2QVdFYy1uZENXV2ZuR0FwS1lILU1UMGfSAdcBQVVfeXFMTzRHR1FYeVU4OHR0a04wMmxuc2xsY2ZtYVFZQ3NaQXRDWi1rWnNvSnpybjdhNXZNeXpMSXhCQnZSaVRNbnozcFJBd3dibU4zTHpZM2hKbWYtWGpvQ1ZIaVBtamRDSmUxampFMlM1OVdxa3A5VjV0N3V1SFpCMUxNZmF6N2RRVlhDaDNIdlVoU01MaVNDRlhhSER0eTFvMEJLOVV6MzVZSmNBUmNYNktoaXZPZll3WTdyTGNSODM4cUhPa3ZhczhYaldJLXFHQzNkeC0xV3FqWVU?oc=5"
-        },
-        {
-          "title": "Canada confirms hantavirus case linked to cruise ship outbreak that has killed three passengers - Fox News",
-          "t": "2026-05-18T02:17:33Z",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdjVIdE5rYnItLTBJdGpxV24wSVQzaXJnWGFCenJHQXdBekZhd2YyazBJUlpVLXFwZzloelRYZGY3RWJWTkkzb0RRV2YtSFZjZVlacHE1N2NtMWswY3p5Y3p0NkZ0LUh6VlNYanpIYkpXZEJLQ0M5M0FwUmI0REZheDVVNmtxM1QtdmpYSlNkbWV1SWVxeVZUQ3RnUm8xeXpZTEx3QlRxbHo1SVI0YW15VklXWdIBuAFBVV95cUxOU1FLRlE5QkJmTHZ1UExWQmo1SVcwZlpYRGtTVDZGUUI1aTdQTmd4OGVBZDcyUWI2MVg0YWEzblpLMmFNc0hfX2U3eVFJLUtiVldNTDhYcHJEaWpMcjBYeUlHc1FXRlNYSWhWZHpBR2ttN21Rc2FCUXhzelRmckRrNllUOUZaOVI4dTg1YVY5a2VyQS0zYnRPYlBWdmZwelhoVUhuRHBtNmxscDdmM0laVTRMX3JwVUZq?oc=5"
         },
         {
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
@@ -4279,6 +4267,11 @@
           "title": "Argentina reconstruye el periplo del \u2018caso \u00edndice\u2019 de hantavirus antes de subir al crucero - Sinc",
           "t": "2026-05-07T07:00:00Z",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVnMwZmhYVjM1NlZwUzFqVUllYUgtWnhXS1IwWTNrX2g5bWQxUjNNU0M0by1LendBanhwMFA3M3VvSG1lRV9nLUpPV3RxOV9ZWE5wdUdMd0FqVWxtX3NPa0ZLWVdfV3Vsb2tZNmUzRDhYaF9DYnhpbmRjZVRtY1J0WldMQ1N0eHRGX2x0bjB4LU8xNWpZZEJ5RC11U0huZ1pDMUo0a2dYeWlUcTFwUkpISkQ3a1JBLXo2RG9PY0E5QTBtdw?oc=5"
+        },
+        {
+          "title": "El basurero de Ushuaia, uno de los puntos que rastrea Argentina por el brote de hantavirus del crucero - EL PA\u00cdS",
+          "t": "2026-05-08T07:00:00Z",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUmFJWDFHRkZVcW82bmVQdVV1TWx4OEQ0S0E0RERkZUg5bG1KZWNLYXZGMWJ6bWlUSHRfdWl2eWFJQVVYYjN1OWctM3llcmRqX0lNYm9ybFNJWUthdUhhNXJ5eF9zSjMwUFpUWFNsX3NadWRZUnRfQk5idzNrTEQycTJnZk5RQVBrWldYenFiekFiMlpiV0ZxNkxBVVVZbFN3TllkejBsMF80VFgwQ3JCRWwydm11YUJRZmRSM0FJcktzSThBUTYweEhaZUtXY0QwYW45YnlrNE5rRnpQMmk40gHzAUFVX3lxTE5NZEQ2cE5xcF84YXZrRERPRGtVWXh6bGRKQVZmYXRnYkhBTWVXSndFT1FmOVpJSFZ5Ni1DU2hNRDVjMEtZU0NhTWVQZzZtZDNhaEVSekxacmdUT3NOcThCX2oxODZUUDE5SGVaVWdRZTVVNkdNZFA2MUlpUUxncmRnZkcxXzdaN1BwR0lJcDBtUl9yWWJsRXJaSUx5aTd6dm1KaUpDRUlYdElvcVgzRElTUThtS3dVSk9sY1d5OUp3WEV0R3FPMHFMdk42VmcwbGRLUFotTGVxUDdTVUJtaUd4TTRXRHg2dmpVUU9PUV82SF9tYw?oc=5"
         }
       ]
     }
