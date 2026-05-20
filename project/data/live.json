@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-20T06:55:32.054400Z",
-  "next_update": "2026-05-20T07:00:00Z",
+  "generated": "2026-05-20T07:00:32.055234Z",
+  "next_update": "2026-05-20T07:05:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 88,
       "alert": "vigilancia",
       "cfr": 37.3,
-      "var_pct": 32,
+      "var_pct": 31,
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 16,
+      "signals": 15,
       "gov_alert": false
     },
     "CHL": {
@@ -579,7 +579,7 @@
       72,
       72,
       72,
-      73,
+      72,
       80,
       88
     ],
@@ -1401,7 +1401,6 @@
     "2026-05-20T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-18T07:00:00Z",
     "2026-05-18T08:00:00Z",
     "2026-05-18T09:00:00Z",
     "2026-05-18T10:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-05-20T03:00:00Z",
     "2026-05-20T04:00:00Z",
     "2026-05-20T05:00:00Z",
-    "2026-05-20T06:00:00Z"
+    "2026-05-20T06:00:00Z",
+    "2026-05-20T07:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -1464,7 +1464,7 @@
       76,
       76,
       76,
-      77,
+      76,
       77,
       77,
       77,
@@ -1506,7 +1506,6 @@
       35,
       35,
       35,
-      35,
       36,
       36,
       36,
@@ -1545,6 +1544,7 @@
       40,
       40,
       40,
+      41,
       41,
       41,
       41,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 13,
+    "composite": 14,
     "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 17,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 3,
     "CAN": 3,
-    "ARG": 16,
+    "ARG": 15,
     "FRA": 5,
     "GBR": 1,
     "CHL": 1,
@@ -4237,13 +4237,6 @@
       "t": "2026-05-07T07:00:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvQk85TUotMXBBY2dsU2hHVGxNUEk3OENZdFRHR0dYLVVoWGIwaG5IVS04LXVNU1R5NXhWZU5zX2E2aXBlcXBEYXhDcllqRmRPb3hqVDY2RFRkdVXSAWBBVV95cUxNdE5pdDNZbU1qZjFPSFRBeWZWaHJGX2p0V3FBbjllTWFQNG9VekxNc0FVcVV4cEd0em5UYUxTd2JpMG9pMzREMFMzWHFUX3BZai1SeXdLZ01TR2pEenk5OHQ?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Identifican cepa andina de hantavirus que se transmite entre humanos en el brote mortal del crucero que zarp\u00f3 de Argentina - BBC",
-      "t": "2026-05-06T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1WNUI2Zk5ZakI1NXpsZHdSWGxCMW84Y2dvOXRjeDNFbzRGbXhNaVpWVlVYNmZyMmRRLXNPSWxPRHkyLUZocTh2YVY2WlpEQkI2ZlVhMUxiUzVhTkXSAWBBVV95cUxOMW9jbE1zTU5Taktmazc3cklDeUxtbTFFbHJoVU0wRE9QbUJaMTVFVGtsRlBiV01mN0hLVVRmbGVZYjZ3dThCYjlxUW1NdzdXZ3pMbHpZTkJvSmRLcTcxUi0?oc=5"
     }
   ],
   "maritime_events": [
@@ -4262,8 +4255,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T06:55:32Z",
-      "signals": 13,
+      "last_update": "2026-05-20T07:00:32Z",
+      "signals": 12,
       "recent": [
         {
           "title": "Canada hantavirus update: 1 of 4 who went home from cruise ship hit with hantavirus outbreak tests positive, health agency says - ABC7 Chicago",
