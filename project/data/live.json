@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-20T01:25:12.092410Z",
-  "next_update": "2026-05-20T01:30:00Z",
+  "generated": "2026-05-20T01:30:02.139006Z",
+  "next_update": "2026-05-20T01:35:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 13,
+      "signals": 12,
       "gov_alert": false
     },
     "CHL": {
@@ -1457,6 +1457,7 @@
       71,
       71,
       71,
+      71,
       72,
       72,
       72,
@@ -1466,7 +1467,7 @@
       74,
       74,
       74,
-      75,
+      74,
       75,
       75,
       75,
@@ -1491,14 +1492,13 @@
       82,
       82,
       82,
+      82,
       83,
       83,
       83,
       84,
       84,
       84,
-      85,
-      85,
       85
     ],
     "CHL": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 13,
+    "composite": 12,
     "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 18,
+    "kalshi": 16,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,7 @@
     "USA": 3,
     "CAN": 2,
     "FRA": 4,
-    "ARG": 13,
+    "ARG": 12,
     "GBR": 1,
     "MEX": 1,
     "COL": 1
@@ -4033,13 +4033,6 @@
       "t": "2026-05-19T23:50:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQY0FPbjYtZVlBemptNExfODJHR0FTRFJGWGNqWXNHcExnRHZPVmJuejhtcTgtZXNCOVFiU3ZBU0ZyakxkTDVRT29ETk1yZTR5dUtfY1lFZjNCLXBjMmtHLVhDUG5lOEVUNkNoNm8yTElSS0NVc0kwRzkxZDVEWlhKTENrbkFYbU5PdWhtR3hNVGFfQUpCQXJxdE1zU0R4Mm1zV28yX0NPcnpCTjk0OWhRYVFsM01qTjZ2bDNlaW1qNjFPM2JNcUxMVTMyT2lYMVJsTzhSYzhOeXhsTnlhMUU40gHfAUFVX3lxTFBjQU9uNi1lWUF6am00TF84MkdHQVNEUkZYY2pZc0dwTGdEdk9WYm56OG1xOC1lc0I5UWJTdkFTRnJqTGRMNVFPb0ROTXJlNHl1S19jWUVmM0ItcGMya0ctWENQbmU4RVQ2Q2g2bzJMSVJLQ1VzSTBHOTFkNURaWEpMQ2tuQVhtTk91aG1HeE1UYV9BSkJBcnF0TXNTRHgybXNXbzJfQ09yekJOOTQ5aFFhUWwzTWpONnZsM2VpbWo2MU8zYk1xTExVMzJPaVgxUmxPOFJjOE55eGxOeWExRTg?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Con caza de roedores en Argentina, buscan determinar el origen del brote de hantavirus - El Informador",
-      "t": "2026-05-19T23:31:33Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQUVVFVVZkVjJSei04YVMteU1VX0FVY3hRYTRDbG93WTRxSkFwSEtGR3N5YWhfZVJHQTJwYVBMR2dkTjc0YkMwNHVJaUxEVndyN3pSSElIVVQ3QXBraEVQUU9tc0JvT2pQSEYxOERuRWpIOXhVWEQtVVVIQ3loLU11UXN4Y3E0WGt4MS1jSFd0eWF5Vzh5cG5IdG9qaGFZRGVsODNWTGxOQ2dwX2FKaFRpQXpGTEszRGdUTTdwZU1KTnJ2d1o0bzd4YTJaM1dnWjlvSk9lbnJLcUpYTy1HN0dLa2NxYm1UQ05VNEtlNGVJbWlTdWNWMUswWHRRWDE5bDc3ZC1WSDR1Vmc5cUg5QkpHdXFVSXVsdEnSAZwCQVVfeXFMTVFqYklqVk94UGFDcDUySVBacXRKekdmbXBaTFNib2hncnFsS2ZDMGV1dkluWk9jN01rTF9nZjlFdDNob1FCZ3g3b2lwUnJHMnNNdzRNanhTVVBGRlAxR1FPR2pvNWtaYjBsV3VyUldBOGJnbEF6a0Z6aDY5UXQySTdXNGpLTTBnM3ctXzV5YUZERnphVTZmNTdTMTV0R094QUYwaWJiNUZrTUZqbG5raE0xUC1aQmdXV2paYUI2Vm85WGRJVjM5MDdDUzk2YzZhd3c2dUV0d25mOEs1WkhCZjF0dlAzaTVJREc3eDhaanlWLTRVejBjdkViWmpRZzBVTTNqbURUaXVRb1JUV01QSld6aDBraExjUU5CLTI?oc=5"
     },
     {
       "iso": "ARG",
@@ -4219,7 +4212,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T01:25:12Z",
+      "last_update": "2026-05-20T01:30:02Z",
       "signals": 10,
       "recent": [
         {
