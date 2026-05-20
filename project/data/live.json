@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-20T07:45:32.048969Z",
-  "next_update": "2026-05-20T07:50:00Z",
+  "generated": "2026-05-20T07:50:14.056008Z",
+  "next_update": "2026-05-20T07:55:00Z",
   "days_active": 12,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 12,
+    "composite": 14,
     "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 16,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4027,13 +4027,6 @@
     "URY": 1
   },
   "events": [
-    {
-      "iso": "FRA",
-      "title": "France hantavirus update: contact cases continue to test negative - The Connexion",
-      "t": "2026-05-20T06:30:42Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeWVXNWtvSmQzUTBpelRQQ1VadnVDTWs4dC16R1FoVW9CNlMwNWFFMXRybm41c1NqdnpNd2czdVpnY3BpZUJoWjM2RlJtSkZvT1FoeFJmR2dSMGFYeDYwNkpEazVWcXlMM3VJT2pJTHRtSnRmTktxck5XUGZGX2pSM0tycUIxX2VXVTRvVzFoSll0VEowSzhKSHlNLVJrd2xuV3lGclhqdGxpakFY?oc=5"
-    },
     {
       "iso": "ARG",
       "title": "Argentina's 'end of the world' outpost fears hantavirus will chill tourism - TelegraphHerald.com",
@@ -4075,6 +4068,13 @@
       "t": "2026-05-19T20:19:09Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRFR5V01XR0xQUFZaMEtZcFBTdUlJV0VMRlFMbXdUS3ZRbGlWRV9GV0VvcG1DX180REdhdmV6eXNNUTBZb3gwMEpsVElzRGtEcWtFYk9YTy0tTENqaTUzaWVNWEI1NnFDRjJHNld5d0JyeGZFczZrR3JlN2g0d3Y5YmtjYWwza05leHBDempia1JhOERYREJrWnAyVDlLNUFSWE9CQ2xGYkxnZw?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Argentine researchers collect rodents for hantavirus tests - France 24",
+      "t": "2026-05-19T18:53:11Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVEN0b2E3MkFEWldvbHdHeUVvQ3ZjMHpCaUpJRUJ0SEZkUG04dTRMS2MtZTR1TmdPTkE4WF9YRmUzTjR4X0FTT3pCUkl0bk9JeDlfTFd5SmNqM0xkMVhnXy1BOXVxNks0TnBnNXZNRGxqdUVBR2RHVnRRTG92VUNiaml2ZWF6eXpSOERTVW10cEtKUWR2OFhDNVlTS21fWk5vMkpWUENlbzE?oc=5"
     },
     {
       "iso": "GBR",
@@ -4240,7 +4240,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-20T07:45:32Z",
+      "last_update": "2026-05-20T07:50:14Z",
       "signals": 11,
       "recent": [
         {
