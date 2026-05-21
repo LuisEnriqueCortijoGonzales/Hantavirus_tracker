@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-21T09:25:22.077445Z",
-  "next_update": "2026-05-21T09:30:00Z",
+  "generated": "2026-05-21T09:30:22.057915Z",
+  "next_update": "2026-05-21T09:35:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -151,11 +151,11 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -214,12 +214,12 @@
       "gov_alert": false
     },
     "FIN": {
-      "ytd": 320,
+      "ytd": 321,
       "alert": "brote",
       "cfr": 0.1,
       "var_pct": 3,
       "strain": "puumala",
-      "new_today": 8,
+      "new_today": 9,
       "r0": null,
       "signals": 0,
       "gov_alert": false
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -885,7 +885,7 @@
       312,
       312,
       312,
-      320
+      321
     ],
     "SWE": [
       145,
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 18,
     "polymarket": 6,
-    "kalshi": 23,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,9 +4020,10 @@
   "signal_summary": {
     "USA": 4,
     "ARG": 22,
-    "CAN": 2,
     "FRA": 2,
-    "CHL": 1
+    "CHL": 1,
+    "CAN": 1,
+    "GBR": 1
   },
   "events": [
     {
@@ -4159,6 +4160,13 @@
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTkduM1FiV0xLd1Fucm9vRXZ6OEtacmFoc3RPRzA3bVdOWDcwSk1CTGhpYzk0WWRFSktWa19kMVg2eFNrNnRhLXZYdUsza3ZZcm14Z2YySjVJQW91UkE0SW51eFZwRWhuMnpEWVBMSmstUWtwLWtQX0psYkgyWnlqS2RHZ2RaRWVJbDRnanZmTEZwMFpmcUMtbGZqODNlbUFGdndaQ1dPci1HM2pVN3VHUENNU19VNVg0RHhtVVB5dm1QdC0zQk9JTdIBzgFBVV95cUxONHlUNVZqNnVSOC11MFJ5eWZyOUIycnd3UXlPSk55aThsSFNRRE9lY3BzamNtVVMwNlNjeVhNNlBreHkwVlg0dkNYSTM1ZVJ4YWYtQjI1VUNfdUlOVUdsNXNkWWtFMWE5aTA2enJNMVVfandzQTRTNWlQbFhaaXFaWWt1RkZ6d0ZsNF9oQ3BYY3NneS1TT3NsYjFBWHVYSGsybENfOVJkdXRfdWRQM0NycnRsSC0zbDJCamM5NTZpT19HdzJHOGNleXlwUFlEdw?oc=5"
     },
     {
+      "iso": "GBR",
+      "title": "Reino Unido recurre al antiviral japon\u00e9s Avigan para blindar su respuesta al brote de hantavirus Andes - curecompass.com.ar",
+      "t": "2026-05-19T17:45:58Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdDNPeldlZVpwXzhiMm1haGlTRkVaQ2xLX2FQekRnbjlDZ1NsYkN1QXY2cjdxaDhuRzZsSEhjTGJ1T3NTaGR0SGdZbzBrel9OWjdnT29Yb2cyMkxWVFFVdkg3S21rM3NhX3k1cTNEVnFWd1BWZ3hqQkJHenJtS1RKeXNtWG1CSkxGS1d4cVhPV2J5cGtsZFJUMU95UkVqendmdWZGOThxVWwxRDNEVnZLS29yWnFUSG1hbkZsMzJXQXFoWVhZdVVXOEdB?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "Argentina\u2019s icy outpost at the end of the world fears the hantavirus will chill tourism - AP News",
       "t": "2026-05-18T21:24:00Z",
@@ -4185,13 +4193,6 @@
       "t": "2026-05-18T15:05:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPUHk4OVFHNHR0X0NzWFR2ZFljODlFb0NwcVVmUzRSUzB2V0t0Q3RVamloQ1pUZlJDeTJFeTByNXl5ZWdtX2lGSk1ZQnY0bTRqUTJfQThmRGpMYWNJa29oeXAxUFAyc1B6ZFBYMkpRTm9LenNWQ0NpRGhoWV8wWVNlS3lRV0Y5T2lVZHYtbDAyaTlIT3RSNkxNamNZNkdyNGFGbFY3ZFlLWnQzbFpabll3TC0yTHNHM2RYOFFkZ05lQWJ1dktDOHRIS0Zwa05aMFFnR1RjMk5GMG9qTmpEd2JJNFcxOXpKbmswSlZGREU0QnNlZllPQ01hOW1acm1JWFNaekhaMnVB0gGgAkFVX3lxTE55NHNBak9yQ0xVN1hqa2JlVERSOHdKTEhvN09RSjlCWjVwTVYySVljVXVhQjdvdDFvUFo4UXVMZmROekd1RHY1TEQwb2dNaXo4YnJrbjB3b19KRkI2MVRLY1pzMHdWQ3R3Z19OM0xYR3BMZDhSbnhuS0VKaXY1YVAtZm5xZmdENVdqblVEMmEtSnhhQUl2ZWJ3UXBDUlZHQk9OMmZHQldVYmVDZWs5QnlCSEFRN2F0blpDUVlSZU8zQ0dTWDJaVkdBV1U3M0NFRGZSemJKMUFWdkNZUVJlYmYxYnZIcGtfUkVrWG1Hd3RBM29hWlBFb3ItcGx5TXdyY0VpREFkSW90QzRJLWdOdEZXdFVmRXBiaHlKZGdkOEszbA?oc=5"
-    },
-    {
-      "iso": "CAN",
-      "title": "Canada hantavirus update: 1 of 4 who went home from cruise ship hit with hantavirus outbreak tests positive, health agency says - ABC7 Chicago",
-      "t": "2026-05-17T18:43:33Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYkkteVAzeUdWdHM0Nlg0VTZYS1NCUUxUMXl5eXZiTFF0eUVMSGxKOU5DZEtlbk8ydlB1MTdjRUlKaUljeTNlTU84NUZub1pQeXAzWTlJaGxWbkJDcVFRYTFCdWE5WnY4ZG5CTzVYVnBWd09ENDVFeFFteHZhSGZEZnBwVjlIOEtQX1RSMVZFOHAxQUk2SnBjeExqb3gwOHo5dnkxblJGTnRFMm9XWVlaWF9GazlGR2lCLUJ2QVdFYy1uZENXV2ZuR0FwS1lILU1UMGfSAdcBQVVfeXFMTzRHR1FYeVU4OHR0a04wMmxuc2xsY2ZtYVFZQ3NaQXRDWi1rWnNvSnpybjdhNXZNeXpMSXhCQnZSaVRNbnozcFJBd3dibU4zTHpZM2hKbWYtWGpvQ1ZIaVBtamRDSmUxampFMlM1OVdxa3A5VjV0N3V1SFpCMUxNZmF6N2RRVlhDaDNIdlVoU01MaVNDRlhhSER0eTFvMEJLOVV6MzVZSmNBUmNYNktoaXZPZll3WTdyTGNSODM4cUhPa3ZhczhYaldJLXFHQzNkeC0xV3FqWVU?oc=5"
     },
     {
       "iso": "CAN",
@@ -4259,8 +4260,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T09:25:22Z",
-      "signals": 7,
+      "last_update": "2026-05-21T09:30:22Z",
+      "signals": 6,
       "recent": [
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
@@ -4283,9 +4284,9 @@
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeUtmR2dNaUYwdEFTMTc1dUlmZVR4c1MzTXQ5VDZQclYzbW1xdzRfUGF3aWFIc1lSaWpRcXhfbW5OdFVYbW0tekVySTBDYy1Va050T1cwTWVNZHk3a2pmYUNkNDQ2MndoS1N2cUJPaFpfOU9scFlyb1hZZTNwamg3YnJzTnFjbVRUVEFLdFhkQmlXNUlDWUpuQ0hGblpYVkpIcTlKX1kwMjRURTV0UVdkSVMwZDhvZVpMc2RTcFYwdkdTZHZ5SEFwNXBlNld1V2d6eHBmUHVCWVE5UDFsbGYtRDl30gH8AUFVX3lxTFBoQ1JGSnZhTHg2SmpiUlltY3Vzd3p0d3ZLVXR0VEFNQkQzNVlOb19PcVBabUlfdDc5RHR6aGdvOEhiUnNmcE43cGNoZG1KVTZWSmlnOHZxZHJPOWdRWXJkbUVIXzI1SzdjTC1MX3NNaFhodnJwODVRakN1OVZxMkFrNHlEMXlVN3ZFWW1kdUFId21ISkRPRVF6bnJlTlBjZHVOd1NaY2FKbUJfYktwQm5meE1LNVNMQmZyekV2MUQzM1AwcVRtQnhsd3N3Vl83aldDQ2ZxeDB0RlpERE9ENEZ3ekhodXhhLUlGelU0U3VVYVFjeE1OSUpTUXdqTQ?oc=5"
         },
         {
-          "title": "Canada hantavirus update: 1 of 4 who went home from cruise ship hit with hantavirus outbreak tests positive, health agency says - ABC7 Chicago",
-          "t": "2026-05-17T18:43:33Z",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYkkteVAzeUdWdHM0Nlg0VTZYS1NCUUxUMXl5eXZiTFF0eUVMSGxKOU5DZEtlbk8ydlB1MTdjRUlKaUljeTNlTU84NUZub1pQeXAzWTlJaGxWbkJDcVFRYTFCdWE5WnY4ZG5CTzVYVnBWd09ENDVFeFFteHZhSGZEZnBwVjlIOEtQX1RSMVZFOHAxQUk2SnBjeExqb3gwOHo5dnkxblJGTnRFMm9XWVlaWF9GazlGR2lCLUJ2QVdFYy1uZENXV2ZuR0FwS1lILU1UMGfSAdcBQVVfeXFMTzRHR1FYeVU4OHR0a04wMmxuc2xsY2ZtYVFZQ3NaQXRDWi1rWnNvSnpybjdhNXZNeXpMSXhCQnZSaVRNbnozcFJBd3dibU4zTHpZM2hKbWYtWGpvQ1ZIaVBtamRDSmUxampFMlM1OVdxa3A5VjV0N3V1SFpCMUxNZmF6N2RRVlhDaDNIdlVoU01MaVNDRlhhSER0eTFvMEJLOVV6MzVZSmNBUmNYNktoaXZPZll3WTdyTGNSODM4cUhPa3ZhczhYaldJLXFHQzNkeC0xV3FqWVU?oc=5"
+          "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
+          "t": "2026-05-16T18:07:02Z",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ01MSERfY0JHbWVCdy1rSWtHZ3EtNkJCNU5kcU9SQjNwbGY1b1B1NWE1alpYOGVsRnJxZWM5cU90Q2VIZzJiYzdjM0h2blhaUzExWEEtNlYtRkxORE1UR3dWTkhLTEsxTnFXSjczNHlJRmlVc3NpbHNfcGMwVTFRNlFtaGVlTjdlMUHSAY8BQVVfeXFMTUhqV3ctTE9hV3luREJWRnpHbzBnQ2EwZmk2anZfZTlFTGFIU193QVlUUFJpOWpTMGEzNXkwZFREaDFnZTMyc0xHb0tZWVhkN0pGUThSbEVPWHVtUVVhRXpFanBxN0pmYzVHMEtOWjNSNkxPMHJZV1Nlb1Z1bXlDT2NUbDVndlZONjgxb2lxcFk?oc=5"
         }
       ]
     }
