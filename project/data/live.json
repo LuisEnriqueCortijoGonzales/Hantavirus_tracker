@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-21T06:25:03.718516Z",
-  "next_update": "2026-05-21T06:30:00Z",
+  "generated": "2026-05-21T06:30:03.708076Z",
+  "next_update": "2026-05-21T06:35:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,16 +12,16 @@
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 21,
+      "signals": 20,
       "gov_alert": false
     },
     "CHL": {
-      "ytd": 44,
+      "ytd": 45,
       "alert": "brote",
       "cfr": 35.5,
       "var_pct": 44,
       "strain": "andes",
-      "new_today": 3,
+      "new_today": 4,
       "r0": null,
       "signals": 1,
       "gov_alert": false
@@ -597,7 +597,7 @@
       35,
       38,
       41,
-      44
+      45
     ],
     "BRA": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 17,
+    "composite": 16,
     "epidemio": 18,
     "polymarket": 6,
-    "kalshi": 25,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 4,
-    "ARG": 21,
+    "ARG": 20,
     "CAN": 2,
     "FRA": 2,
     "CHL": 1,
@@ -4235,13 +4235,6 @@
       "t": "2026-05-08T07:00:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNTA4a2JUem5XRW5Xc05ENXpQalZwV0pyQlAtZDljVTBoNnJYYTMyMV9qVEN3Wmd0RG1mcnh1N0ViQkNpdTJoVzQ4STFNMm43MDN5RlRMaURxZ2tQMXdxYktJNkVKa2NXdzlLS3cteGlEMGszcFBQN2NJNVBFM0hyektrejVuOWp4RUt2VFhUMFduaVE?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina vive una de sus temporadas m\u00e1s letales de hantavirus: as\u00ed lleg\u00f3 a este nivel y estas son las razones - CNN en Espa\u00f1ol",
-      "t": "2026-05-07T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNd2EwWXVrcEFQNjl2QllwSWJSUXlZamVTUGJSRUNNWDViRlpIaFJqdmFRdFpZZ01Qb1BwMFl5QlZCSGxXaUZLYUY2bWdjZG5vaVgzS21wX3VaSjlUcW9VcEJnZ1lmckEwMXRhVjR6WEJrbXVXMUpfMU5MaEVkNlpuS2M3QVJxWnVsWGdxQ2tMVUNUMjQxeEE?oc=5"
     }
   ],
   "maritime_events": [
@@ -4260,7 +4253,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T06:25:03Z",
+      "last_update": "2026-05-21T06:30:03Z",
       "signals": 6,
       "recent": [
         {
