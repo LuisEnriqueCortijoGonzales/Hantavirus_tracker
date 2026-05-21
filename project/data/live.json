@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-21T11:35:32.117965Z",
-  "next_update": "2026-05-21T11:40:00Z",
+  "generated": "2026-05-21T11:40:32.083785Z",
+  "next_update": "2026-05-21T11:45:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 23,
+      "signals": 22,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 17,
+    "composite": 16,
     "epidemio": 18,
     "polymarket": 6,
-    "kalshi": 27,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 3,
-    "ARG": 23,
+    "ARG": 22,
     "FRA": 1,
     "CHL": 1,
     "GBR": 1,
@@ -4154,13 +4154,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina reporta tres nuevos casos de hantavirus en distintas provincias - La Uni\u00f3n Digital",
-      "t": "2026-05-20T12:02:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcWN5RnE2RHg3b1QxelZPYTRlYzN6RmFGbVdWcFJVMDlRYndkcjVscEhkbnptTkF4czVuOS1jLW9JbkxJSUtfel9ic1Etcl83WTg1VDgwTHRjNFdQRDNlZ1ItTW8zUlY2NGUzTV9MeFlfZmtqUE1RbFdWekppTWIxWkNDTGIyN1lTRy16dzFwWkxLcnRHWndncEJsWHdXcTlrUzFqVDVGanZLOGVXZ3FMeWlR0gG3AUFVX3lxTE04b2VlWmQ0VGd2QVUtZnpOVXRvZ3lrU3ZWNnY1QzNwWnJxV0hwYnpmNXozVXVHYVBkaWY5SU1IYkRHZThlQlBRMm5FUGV5eGFkUTR3RHFYMnRoMDVrT2FvT2R1YjJKUGRSTzgzUEIyVTA3TDJnN0h4b2lnZUhnOHlKQVVibDJSb2tNQURFaEtlVGhDcTd0ZUZKYUMwMWtaVjRteXphRGxWeXp5QmNwaVJBWU00bDJ1VQ?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Hantavirus: se identificaron 3 nuevos casos en Argentina - Agencia Noticias Argentinas",
       "t": "2026-05-20T11:35:47Z",
       "source": "GoogleNews-ES",
@@ -4253,7 +4246,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T11:35:32Z",
+      "last_update": "2026-05-21T11:40:32Z",
       "signals": 6,
       "recent": [
         {
