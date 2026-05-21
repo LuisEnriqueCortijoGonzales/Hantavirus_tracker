@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-21T14:25:12.057255Z",
-  "next_update": "2026-05-21T14:30:00Z",
+  "generated": "2026-05-21T14:30:22.090986Z",
+  "next_update": "2026-05-21T14:35:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 21,
+      "signals": 22,
       "gov_alert": false
     },
     "CHL": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 18,
     "polymarket": 6,
-    "kalshi": 21,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 3,
-    "ARG": 21,
+    "ARG": 22,
     "CAN": 2,
     "FRA": 1,
     "CHL": 1,
@@ -4032,6 +4032,13 @@
       "t": "2026-05-21T12:26:03Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZmtjNFVlZ3BxSkNHMkJ4UXpRY2V2eFRQd2lDUFVnTGpSUjh0S2pvdERQaFVjN3ZwbzZzanRxdXBHdnNCTTA1bjNfRDBzR1J1UlRmX25NZThoSVgzbXZDaGUwTmVfdktHakRUV3AwQXRoaWNxWmdlcjRpdEliR1lyeGJzUkdNQkFEN09SOU5ES2dXZ1Z0YXJNME5GUVQzOGZ6TTNBTklsZi1veURSeU92aU1vN1ctMThhbmV3aDVzV0dqZVpndmprMVRB?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "El hantavirus suma 45 contagios y 33 muertes en Argentina durante 2026 - El Zonda",
+      "t": "2026-05-21T10:26:44Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNR1UzUVJobzFyOE5lMTM5UUJBM2pjaWxjZ3VkZ05RZG5UU3M3c3hpU0R1bXE4SHYtbjZPZ2FyUVlXZWJPMnFQSlpNbEQwTnctV0pSY0k1NTJjQ19pUlN0dTQ2YjhodTJFNXlxajA2R0o1SDhaaEpWaGV5TDhIa0hPbTVKYUVTelVJamlrNGxjM2dZbTlaVThxZnVxc0xfcUd6V0N4aks1bHNodk5VcmZtcWRn?oc=5"
     },
     {
       "iso": "ARG",
@@ -4246,7 +4253,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T14:25:12Z",
+      "last_update": "2026-05-21T14:30:22Z",
       "signals": 7,
       "recent": [
         {
