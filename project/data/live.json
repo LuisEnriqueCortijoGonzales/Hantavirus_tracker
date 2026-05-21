@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-21T14:10:31.790946Z",
-  "next_update": "2026-05-21T14:15:00Z",
+  "generated": "2026-05-21T14:15:22.116372Z",
+  "next_update": "2026-05-21T14:20:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 101,
+      "ytd": 100,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 51,
+      "var_pct": 49,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 9,
       "r0": null,
-      "signals": 21,
+      "signals": 17,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      74,
-      74,
-      74,
-      74,
-      74,
-      74,
-      74,
-      74,
-      74,
-      74,
-      76,
-      84,
-      93,
-      101
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      75,
+      83,
+      91,
+      100
     ],
     "CHL": [
       31,
@@ -1452,6 +1452,10 @@
   ],
   "hourly_history": {
     "ARG": [
+      83,
+      84,
+      84,
+      84,
       85,
       85,
       85,
@@ -1461,7 +1465,6 @@
       87,
       87,
       87,
-      88,
       88,
       88,
       89,
@@ -1475,6 +1478,7 @@
       91,
       92,
       92,
+      92,
       93,
       93,
       93,
@@ -1484,7 +1488,6 @@
       95,
       95,
       95,
-      96,
       96,
       96,
       97,
@@ -1492,14 +1495,11 @@
       97,
       98,
       98,
+      98,
       99,
       99,
       99,
-      100,
-      100,
-      100,
-      101,
-      101
+      100
     ],
     "CHL": [
       39,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 17,
     "epidemio": 18,
     "polymarket": 6,
-    "kalshi": 24,
+    "kalshi": 26,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 3,
-    "ARG": 21,
+    "ARG": 17,
     "CAN": 1,
     "FRA": 1,
     "CHL": 1,
@@ -4105,38 +4105,10 @@
     },
     {
       "iso": "ARG",
-      "title": "\u00bfLleg\u00f3 el hantavirus a la Argentina?: cient\u00edficos realizan pruebas para descartar su presencia en Ushuaia - Canal26",
-      "t": "2026-05-20T14:28:13Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOOG1ORDFsQWFTVGZCT1BmNWk3UC1qS0s0T2lQOEdGYVY4dDZmMU9vVmRsRktQWWNTQlNaV0lfVmxVbTBubXViVEx1TGtmeERvb05QVWg4ZnFzdEFMb1YzT3dMVTFTUEJtLU1RRzJ0a25NaDU1Q0pqZ2lMcTBwTE92dHJ1MkJlSUJmRnFCWHJvSFJRMkZ2Skg5OE9wdDkwNElrT003ejVpcFJuQ1NTaEYwZWpLaVQzRXZmenZFRTBBbG5ISW9lbVprQ3E5UXBPX1IzYm92Q0R0Y2RpQi0zV21SSlU4U2dfa2hUZXc3eA?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Alerta por tres nuevos casos de hantavirus en Argentina: confirmaron uno en Chubut - Comodoro 24",
-      "t": "2026-05-20T14:27:59Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZjJrc1djZi1RVHR2MWpSWm1NMHlQaGotRXRFMnhYeEVoQmJVQUdObmhFd3NYeFNFc2VzOEFPa1h5U015akw1U1NHWkZRM20zbHQ2UHJsZkp3dkhlR0QyS0pmcDdwc2xUcW96d0ZNOGxlNXd5M2dDVlAxM0ZPb0pJTTJkZzVIOHh4NF9GaGZxek81WlloUGRzSTIySU1ydw?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Hantavirus: se identificaron 3 nuevos casos en Argentina - elpaisdiario.com.ar",
       "t": "2026-05-20T14:08:44Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNFIwenVVcGlZbGF2MWkzOXZCWV8zeHd2S01FRGZRSEpWSHlsS29mMWVxS01EVjcxQlF4UjV0Qmo5djRzODV3cUhZRG56SWF3UFpERHdUa0ttTzl5bkRKdE9icFBwWmE4akFQcEpiSk43cFAxcmtQcjFZSWlOcWlpdGE0OS1mYklNTFlJb2l1bV9KT3JyeEc2TTNJdw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus en Argentina: el total de casos asciende a 105, tras la actualizaci\u00f3n del Bolet\u00edn Epidemiol\u00f3gico - EQSnotas",
-      "t": "2026-05-20T13:42:08Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOaUwtVU04MnRZN1drSEZTY1Z5Y3NzQV9vSFpzSzdhbDVtdDNzbW44WkFLLVZQVjgtWEdzR0RoSUxoYUtBMmNNd3BoQkk0enZzNF90VlBkd3RwQ2JiUlB0MTktY2pTREoxT29UU0dVRmsxVWQ4cGZOUTNudGh5eGV2SHVoNWRQMW82N2ZwdGhGN3VBdkZpdDlNWHhPMzE4eW5QQy1FRWxEcXFBdTdRRXBhWDhwbjUzb1hfWDhMRUp6TjBWejU4OG1VWWpwOGRJaXdSX0NJSmJ4RFNJZkdJeW5QM3kyUEIwOXZBQ1h5Vmh1U2RQSm55SV82LU4wSU9UUdIBjAJBVV95cUxPTG9TT3VUbWVnZHhBenFNSnc5eXVrV2EydjVLdnYzcGVzNldielRtTEwtU040R18tR0Z6TTZ4REJodmwzMzdsdVVidHdxd2VvZlp4WGVuZ1RTbzhwOHNmSTlXT19TTWlidERvaEItSmdyUDVDSHN6aUFmQTZMa1NsU2thNkhkTE5EOEJyVV9uN2NlNXgyUVJmUTVHWjlyYzlfNjN1d0RoNjZqOERFdXp6TEVJbk9EVWU0NzFIN3JSV01LVGpVMTFNWG84X3BUVnNZNnRxcEdOdmYzZlZJUDJ5RHA4cGJ0WEZsRmNPUkZPNDk1eXFGMk1lX21pSlJqbUpkY3RkQnh4QnJhZTBf?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Confirman nuevos casos de hantavirus en Argentina: detectaron contagios en Chubut, R\u00edo Negro y Jujuy - Canal 12 Web",
-      "t": "2026-05-20T13:03:47Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNXy1GeEYzNzVqRUF6QlFkRW9JS0h3WGJDemZXMnRXVjg2eFh5RzBpQVBqalN3MFdodC1OZkxRM0Z3WEhXMkk4UEpxV3cxLU12MjRPYW5SUEtHNHVrWEdmNUxQcWg2LWV3dFk5ZEg1aXdCenc5YjRYX1V5SThjbG5pWDlneUpBMzA4MzBveVd1T3NFVkpRYTNBYW9UVWxZNzQ5NE85SC1TekdpeWRRWUhjVGtVVEZ1aUt1ZTV6Z01hZw?oc=5"
     },
     {
       "iso": "USA",
@@ -4239,7 +4211,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T14:10:31Z",
+      "last_update": "2026-05-21T14:15:22Z",
       "signals": 6,
       "recent": [
         {
