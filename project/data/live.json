@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-21T17:30:02.052090Z",
-  "next_update": "2026-05-21T17:35:00Z",
+  "generated": "2026-05-21T17:35:03.730294Z",
+  "next_update": "2026-05-21T17:40:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 22,
+      "signals": 20,
       "gov_alert": false
     },
     "CHL": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 18,
     "polymarket": 6,
-    "kalshi": 24,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 3,
-    "ARG": 22,
+    "ARG": 20,
     "CAN": 1,
     "FRA": 1,
     "CHL": 1,
@@ -4084,13 +4084,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus en Argentina: tres provincias suman casos, el pa\u00eds lleg\u00f3 a 105 contagios - LA17",
-      "t": "2026-05-20T17:31:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQUhjVkpDOEo3bks0RFRLOWlrTC0xUUpRUGtnMXZzU3FyTmtqOU9IcEVVZE1jMHZvWWdhRDlzcUV2ZGwzTjNaSUhJbGlpVmF6aXNyeWRzcm13VWpQLU8wM0JTWXdJMF9POE04NkdwdE5vSldET0l5Wk5JYU9DMjM1UG1VcDF6NGFya19GQmdfNlJyU09lNmFMUDFUVHA5QUFzR2oyMDdkblEyV2V0Q0V6bUJSLXg?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Detectaron tres nuevos casos de hantavirus en Argentina y ya son 105 en la temporada - AHORA Entre R\u00edos",
       "t": "2026-05-20T16:57:14Z",
       "source": "GoogleNews-ES",
@@ -4102,13 +4095,6 @@
       "t": "2026-05-20T15:35:43Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQT0o4TnJ5SlJndzlyNFgzRGdCUDdNcXVXb2RZdUNuSVg0cmc2U3hMTDhxdEN1MGVIZzdzQy1PYTJKMEIzaUkxQXFBTDVXQnFSQjA5TVhnQTdTWksycUhld0syakRWQlhDeFduMEludTFkNzh0RTJ2WUpFa1ZLTTc5dl9EZ0ViZWtsN2thWGNQdTVBdGNzaEpIc2xOZE5Gc0loMkpoTWxUQVpJRExMUEpSY18yMHZFX1Q4ZFpocnRDN0s0SVE5MFBkODZQanZpbjN3WEVlR094ZUtnWXVNSXVYN21R?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "\u00bfLleg\u00f3 el hantavirus a la Argentina?: cient\u00edficos realizan pruebas para descartar su presencia en Ushuaia - Canal26",
-      "t": "2026-05-20T14:28:13Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOOG1ORDFsQWFTVGZCT1BmNWk3UC1qS0s0T2lQOEdGYVY4dDZmMU9vVmRsRktQWWNTQlNaV0lfVmxVbTBubXViVEx1TGtmeERvb05QVWg4ZnFzdEFMb1YzT3dMVTFTUEJtLU1RRzJ0a25NaDU1Q0pqZ2lMcTBwTE92dHJ1MkJlSUJmRnFCWHJvSFJRMkZ2Skg5OE9wdDkwNElrT003ejVpcFJuQ1NTaEYwZWpLaVQzRXZmenZFRTBBbG5ISW9lbVprQ3E5UXBPX1IzYm92Q0R0Y2RpQi0zV21SSlU4U2dfa2hUZXc3eA?oc=5"
     },
     {
       "iso": "ARG",
@@ -4246,7 +4232,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T17:30:02Z",
+      "last_update": "2026-05-21T17:35:03Z",
       "signals": 6,
       "recent": [
         {
