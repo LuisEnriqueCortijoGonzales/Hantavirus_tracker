@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-21T10:50:03.690938Z",
-  "next_update": "2026-05-21T10:55:00Z",
+  "generated": "2026-05-21T10:55:12.052919Z",
+  "next_update": "2026-05-21T11:00:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 9,
       "r0": null,
-      "signals": 22,
+      "signals": 23,
       "gov_alert": false
     },
     "CHL": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 2,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -214,12 +214,12 @@
       "gov_alert": false
     },
     "FIN": {
-      "ytd": 321,
+      "ytd": 322,
       "alert": "brote",
       "cfr": 0.1,
       "var_pct": 3,
       "strain": "puumala",
-      "new_today": 9,
+      "new_today": 10,
       "r0": null,
       "signals": 0,
       "gov_alert": false
@@ -885,7 +885,7 @@
       312,
       312,
       312,
-      321
+      322
     ],
     "SWE": [
       145,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 17,
+    "composite": 16,
     "epidemio": 18,
     "polymarket": 6,
-    "kalshi": 26,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,8 +4018,8 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "USA": 4,
-    "ARG": 22,
+    "USA": 3,
+    "ARG": 23,
     "FRA": 1,
     "CHL": 1,
     "GBR": 1,
@@ -4154,6 +4154,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Argentina reporta tres nuevos casos de hantavirus en distintas provincias - La Uni\u00f3n Digital",
+      "t": "2026-05-20T12:02:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcWN5RnE2RHg3b1QxelZPYTRlYzN6RmFGbVdWcFJVMDlRYndkcjVscEhkbnptTkF4czVuOS1jLW9JbkxJSUtfel9ic1Etcl83WTg1VDgwTHRjNFdQRDNlZ1ItTW8zUlY2NGUzTV9MeFlfZmtqUE1RbFdWekppTWIxWkNDTGIyN1lTRy16dzFwWkxLcnRHWndncEJsWHdXcTlrUzFqVDVGanZLOGVXZ3FMeWlR0gG3AUFVX3lxTE04b2VlWmQ0VGd2QVUtZnpOVXRvZ3lrU3ZWNnY1QzNwWnJxV0hwYnpmNXozVXVHYVBkaWY5SU1IYkRHZThlQlBRMm5FUGV5eGFkUTR3RHFYMnRoMDVrT2FvT2R1YjJKUGRSTzgzUEIyVTA3TDJnN0h4b2lnZUhnOHlKQVVibDJSb2tNQURFaEtlVGhDcTd0ZUZKYUMwMWtaVjRteXphRGxWeXp5QmNwaVJBWU00bDJ1VQ?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Hantavirus: se identificaron 3 nuevos casos en Argentina - Agencia Noticias Argentinas",
       "t": "2026-05-20T11:35:47Z",
       "source": "GoogleNews-ES",
@@ -4186,13 +4193,6 @@
       "t": "2026-05-18T21:24:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3ZsNWRWd2JEZEpWclg4V2RoMlJ0bWRiVFpSN0pZX3ZfX0JtdW15RHZicG5od1FMbl92Tm4zdC1DRHBsQW1XR3VtZnVOQ2JOYXd2QlZCWFpsTzJHVGEtTDFnbmRSTy1EV04wNmhVM2xMVkZTVGg5dURsZktfMFNFZG43S0FpdFA3ZzJ0R09wQXVzNHRMaGY1Ynkxa2VMSXowcU9CZ3BCWnZQaFZi?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Nuevos focos de hantavirus en Estados Unidos: identifican zonas con mayor riesgo y advierten sobre nuevas especies portadoras - Infobae",
-      "t": "2026-05-18T15:05:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPUHk4OVFHNHR0X0NzWFR2ZFljODlFb0NwcVVmUzRSUzB2V0t0Q3RVamloQ1pUZlJDeTJFeTByNXl5ZWdtX2lGSk1ZQnY0bTRqUTJfQThmRGpMYWNJa29oeXAxUFAyc1B6ZFBYMkpRTm9LenNWQ0NpRGhoWV8wWVNlS3lRV0Y5T2lVZHYtbDAyaTlIT3RSNkxNamNZNkdyNGFGbFY3ZFlLWnQzbFpabll3TC0yTHNHM2RYOFFkZ05lQWJ1dktDOHRIS0Zwa05aMFFnR1RjMk5GMG9qTmpEd2JJNFcxOXpKbmswSlZGREU0QnNlZllPQ01hOW1acm1JWFNaekhaMnVB0gGgAkFVX3lxTE55NHNBak9yQ0xVN1hqa2JlVERSOHdKTEhvN09RSjlCWjVwTVYySVljVXVhQjdvdDFvUFo4UXVMZmROekd1RHY1TEQwb2dNaXo4YnJrbjB3b19KRkI2MVRLY1pzMHdWQ3R3Z19OM0xYR3BMZDhSbnhuS0VKaXY1YVAtZm5xZmdENVdqblVEMmEtSnhhQUl2ZWJ3UXBDUlZHQk9OMmZHQldVYmVDZWs5QnlCSEFRN2F0blpDUVlSZU8zQ0dTWDJaVkdBV1U3M0NFRGZSemJKMUFWdkNZUVJlYmYxYnZIcGtfUkVrWG1Hd3RBM29hWlBFb3ItcGx5TXdyY0VpREFkSW90QzRJLWdOdEZXdFVmRXBiaHlKZGdkOEszbA?oc=5"
     },
     {
       "iso": "CAN",
@@ -4253,7 +4253,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T10:50:03Z",
+      "last_update": "2026-05-21T10:55:12Z",
       "signals": 6,
       "recent": [
         {
