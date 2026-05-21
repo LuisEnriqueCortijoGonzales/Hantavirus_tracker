@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-21T03:55:22.083924Z",
-  "next_update": "2026-05-21T04:00:00Z",
+  "generated": "2026-05-21T04:00:02.165628Z",
+  "next_update": "2026-05-21T04:05:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,7 +8,7 @@
       "ytd": 97,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 45,
+      "var_pct": 46,
       "strain": "andes",
       "new_today": 8,
       "r0": null,
@@ -1401,7 +1401,6 @@
     "2026-05-21T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-19T04:00:00Z",
     "2026-05-19T05:00:00Z",
     "2026-05-19T06:00:00Z",
     "2026-05-19T07:00:00Z",
@@ -1448,11 +1447,11 @@
     "2026-05-21T00:00:00Z",
     "2026-05-21T01:00:00Z",
     "2026-05-21T02:00:00Z",
-    "2026-05-21T03:00:00Z"
+    "2026-05-21T03:00:00Z",
+    "2026-05-21T04:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      81,
       81,
       82,
       82,
@@ -1499,6 +1498,7 @@
       96,
       96,
       97,
+      97,
       97
     ],
     "CHL": [
@@ -1508,7 +1508,6 @@
       38,
       38,
       38,
-      38,
       39,
       39,
       39,
@@ -1546,6 +1545,7 @@
       43,
       43,
       43,
+      44,
       44,
       44,
       44,
@@ -2444,12 +2444,12 @@
       312,
       312,
       312,
-      312,
       313,
       314,
       314,
       315,
-      316
+      316,
+      317
     ],
     "SWE": [
       145,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 17,
     "polymarket": 6,
-    "kalshi": 25,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4246,7 +4246,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T03:55:22Z",
+      "last_update": "2026-05-21T04:00:02Z",
       "signals": 6,
       "recent": [
         {
