@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-21T06:05:32.179394Z",
-  "next_update": "2026-05-21T06:10:00Z",
+  "generated": "2026-05-21T06:10:32.087685Z",
+  "next_update": "2026-05-21T06:15:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "GTM": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 17,
+    "composite": 16,
     "epidemio": 18,
     "polymarket": 6,
-    "kalshi": 25,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 4,
     "ARG": 20,
-    "CAN": 3,
+    "CAN": 2,
     "FRA": 2,
     "CHL": 1,
     "GBR": 1
@@ -4039,13 +4039,6 @@
       "t": "2026-05-21T00:51:15Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUGhmdHVmbkhmLUV3Wk9tdnhObDBKT0JET1J1SHJORkFwNkVZU0xpUlZUOVdnczRXWlcybXFsaXlRNXJtMThfdWJOTWh5eHBYY18wVWVEczFDSjFEOUpGU2RPRzR0ekZKb1hjYm9NYTF5U1hQd0FpZE4ySWtZLXJmbzA2Uk9mMVRzbXZtalVkUDhzR3ItNFVLal9FVkpyc05SNnZPS0RMN3lYN21WY09LTmY1WGlVUzUyZEZjbXhoVXBEWkVXVzFzVnFyTm1PTDQ3eEE?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus: confirmaron 45 casos en Argentina y preocupa el aumento de contagios en Buenos Aires - MisionesOnline",
-      "t": "2026-05-21T00:09:29Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4S1l5TS1ETVhVNjlYNUo3U0ZEWjNlR1lCcVZVRE5tTmg1cVdvZ1hYdzhZZkR3WUVPRjRQdDRpWk5LRFlKTGozX2VXakVhUU5sWFdXT29HWTBFcU5lTHdlbFBjYVkxN05fdThhZFFwaw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4196,13 +4189,6 @@
     },
     {
       "iso": "CAN",
-      "title": "Canad\u00e1 confirma un caso de hantavirus relacionado con el brote en un crucero que ha causado la muerte de tres pasajeros - Yahoo",
-      "t": "2026-05-18T02:17:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNnlqTmlQWk13RW5QQmdhbzRCRkp6U21BdWxlZ1B4TDJtcmRDSXE5cVBnMF9mT3pTWVVyOU1UclpaMmRjNjYtdGJ6U3ZEbEhubnU0SDBRWlFuWkdWMUhGVHJfV1Fyd2x4T0xLUm5jSnR3Vm9fdW51MUNjZ0lJSDNXNG5RcTNZRklJWnpzSEpITGQxakp0N0hUazJmclo?oc=5"
-    },
-    {
-      "iso": "CAN",
       "title": "Canada hantavirus update: 1 of 4 who went home from cruise ship hit with hantavirus outbreak tests positive, health agency says - ABC7 Chicago",
       "t": "2026-05-17T18:43:33Z",
       "source": "GoogleNews-EN",
@@ -4238,6 +4224,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Fiesta de 15, 34 infectados y 12 muertos: el mayor brote de hantavirus de la Argentina aporta claves para el caso del MV Hondius - La Naci\u00f3n",
+      "t": "2026-05-13T17:32:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQOWM3bDdqMmNKTUszLXRQWEF4ZmRsc19VWUdvSFJKU20ycjBxVjAyV3JzZmxSWVZHbllwYlpBQ01ROWw5eklmcTdWb1ZIZ2FsRFphZWc3bHF6SzRRelN3dWM4Sm9MMldtZDYtOEVEdjZWQkx0RHJmOTlCbk5ZU0M3enVKOFRjS0o2WXB1NlFIRG13QmUzandSSW1vYjJKWmRaMEJhZTJxWkNIMmstaF9qWlRSamUxZHl2NzY4cl9CUkhnN3RaeXZWQzNYZGVuN244ZmZHSmZocnJSMXdBbDZmSw?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "C\u00f3mo la destrucci\u00f3n de h\u00e1bitats y el cambio clim\u00e1tico contribuyeron al aumento de casos de hantavirus en Argentina - CNN en Espa\u00f1ol",
       "t": "2026-05-08T07:00:00Z",
       "source": "GoogleNews-ES",
@@ -4260,8 +4253,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T06:05:32Z",
-      "signals": 7,
+      "last_update": "2026-05-21T06:10:32Z",
+      "signals": 6,
       "recent": [
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
