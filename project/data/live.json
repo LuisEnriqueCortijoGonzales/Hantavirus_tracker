@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-21T05:10:32.089251Z",
-  "next_update": "2026-05-21T05:15:00Z",
+  "generated": "2026-05-21T05:15:32.066809Z",
+  "next_update": "2026-05-21T05:20:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 9,
       "r0": null,
-      "signals": 21,
+      "signals": 23,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 17,
     "epidemio": 18,
     "polymarket": 6,
-    "kalshi": 22,
+    "kalshi": 27,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 4,
-    "ARG": 21,
+    "ARG": 23,
     "CAN": 2,
     "FRA": 2,
     "CHL": 1,
@@ -4119,6 +4119,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Tres nuevos casos de hantavirus en Argentina: confirmaron uno en Chubut - abcdiario.com.ar",
+      "t": "2026-05-20T13:26:36Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSlMwT19qR1Znclk4VXRabWJnTDVqdTJfZlpFbTZBOXhFWTh2dGtGU2xLRWJLeXJzbWlGckcwMm9vVF9PcmxvaTlpSmgwcU5IVjcybFFDelV2MFVDVGhuYmR1Y1M3QW1ELWVEQ0VhUjRUa2NLWDZaa2syLWVlMjRrcnFuN0RaVXlpNVNpQ2NEOWdKZEh2eVpYLVljWWR3S25JMWRZSGphQnU4SVpK0gGnAUFVX3lxTFBGMTJQQV9RaVZ4SDdrdFdhcm9TTzdXSmdwNFl3OW01WUhyQVVOckE5OVVmeFN0UmdwenhtaWRNdnp6aDBtcTZ0VWhuR3BwWnB4WDkxaHBpV3gxRHVJcTJNb2pCYTZ1cnp0TlgyZWtESVo3d3UxNS1hVS1paWxCa1l2SV9zdlZvNmRmZl9IUEhHcFduaGQwSWZzOEUxdDQwRlJPMFpZZEd3?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Confirman nuevos casos de hantavirus en Argentina: detectaron contagios en Chubut, R\u00edo Negro y Jujuy - Canal 12 Web",
       "t": "2026-05-20T13:03:47Z",
       "source": "GoogleNews-ES",
@@ -4165,6 +4172,13 @@
       "t": "2026-05-18T21:24:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3ZsNWRWd2JEZEpWclg4V2RoMlJ0bWRiVFpSN0pZX3ZfX0JtdW15RHZicG5od1FMbl92Tm4zdC1DRHBsQW1XR3VtZnVOQ2JOYXd2QlZCWFpsTzJHVGEtTDFnbmRSTy1EV04wNmhVM2xMVkZTVGg5dURsZktfMFNFZG43S0FpdFA3ZzJ0R09wQXVzNHRMaGY1Ynkxa2VMSXowcU9CZ3BCWnZQaFZi?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - Yahoo",
+      "t": "2026-05-18T19:59:44Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOXc0NExYSzZjdk4ySEVMeXNuWkoweXpWNUVpVlMweU9HYUp3RDQ5M3o5b2Q4OW1TZ0g5M0syZFFPTVJPOU81VlYwVGdzX0dzN2pOYmJVZlNfdmFxX3puWERVWTV2SG9Za0NiQmdyY2FjS1RtYmcwTl90cUwtZG5ZYU9uLW1xWUM0NDU3cXd1eEMwZ3BPeDBKOWxzU1FBVWpnY3VqMQ?oc=5"
     },
     {
       "iso": "ARG",
@@ -4260,8 +4274,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T05:10:32Z",
-      "signals": 6,
+      "last_update": "2026-05-21T05:15:32Z",
+      "signals": 7,
       "recent": [
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
@@ -4279,14 +4293,14 @@
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
         },
         {
+          "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - Yahoo",
+          "t": "2026-05-18T19:59:44Z",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOXc0NExYSzZjdk4ySEVMeXNuWkoweXpWNUVpVlMweU9HYUp3RDQ5M3o5b2Q4OW1TZ0g5M0syZFFPTVJPOU81VlYwVGdzX0dzN2pOYmJVZlNfdmFxX3puWERVWTV2SG9Za0NiQmdyY2FjS1RtYmcwTl90cUwtZG5ZYU9uLW1xWUM0NDU3cXd1eEMwZ3BPeDBKOWxzU1FBVWpnY3VqMQ?oc=5"
+        },
+        {
           "title": "Canada hantavirus update: 1 of 4 who went home from cruise ship hit with hantavirus outbreak tests positive, health agency says - ABC7 Chicago",
           "t": "2026-05-17T18:43:33Z",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYkkteVAzeUdWdHM0Nlg0VTZYS1NCUUxUMXl5eXZiTFF0eUVMSGxKOU5DZEtlbk8ydlB1MTdjRUlKaUljeTNlTU84NUZub1pQeXAzWTlJaGxWbkJDcVFRYTFCdWE5WnY4ZG5CTzVYVnBWd09ENDVFeFFteHZhSGZEZnBwVjlIOEtQX1RSMVZFOHAxQUk2SnBjeExqb3gwOHo5dnkxblJGTnRFMm9XWVlaWF9GazlGR2lCLUJ2QVdFYy1uZENXV2ZuR0FwS1lILU1UMGfSAdcBQVVfeXFMTzRHR1FYeVU4OHR0a04wMmxuc2xsY2ZtYVFZQ3NaQXRDWi1rWnNvSnpybjdhNXZNeXpMSXhCQnZSaVRNbnozcFJBd3dibU4zTHpZM2hKbWYtWGpvQ1ZIaVBtamRDSmUxampFMlM1OVdxa3A5VjV0N3V1SFpCMUxNZmF6N2RRVlhDaDNIdlVoU01MaVNDRlhhSER0eTFvMEJLOVV6MzVZSmNBUmNYNktoaXZPZll3WTdyTGNSODM4cUhPa3ZhczhYaldJLXFHQzNkeC0xV3FqWVU?oc=5"
-        },
-        {
-          "title": "Salud. Canad\u00e1 confirma un caso de hantavirus: se trata de un pasajero del crucero MV Hondius - La Voz del Interior",
-          "t": "2026-05-17T18:37:27Z",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ1M0S3d6a3IxbC1RdnlfNERqRk10a0pwVEo5ZE9ZM1dkQ1U4N244S2F5STNIOUYzLTR4bXg3YmlQUkt2MlBhcjE5YTBpMHNid1NyQlYwRDFiV0kxVTllcnNnOWRLRnhMSGhiZEJneE12M01Ta0N6eGdxTjh1VW11TnBXa1dlLUlxOTFITDhzLXR4a3dmWHJHcHA1VWZjbUZ4V1Z1S0Ztd0NYYkpHUkR3QktzNW0?oc=5"
         }
       ]
     }
