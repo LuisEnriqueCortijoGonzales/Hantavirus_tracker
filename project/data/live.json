@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-21T09:30:22.057915Z",
-  "next_update": "2026-05-21T09:35:00Z",
+  "generated": "2026-05-21T09:35:32.184131Z",
+  "next_update": "2026-05-21T09:40:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 99,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 48,
+      "var_pct": 49,
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 22,
+      "signals": 23,
       "gov_alert": false
     },
     "CHL": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 18,
     "polymarket": 6,
-    "kalshi": 21,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 4,
-    "ARG": 22,
+    "ARG": 23,
     "FRA": 2,
     "CHL": 1,
     "CAN": 1,
@@ -4146,6 +4146,13 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQd0N4SzN3SkJ0bjIyQVVOT2VLODhEVE9qU0lqT3VRelEwUXBxUWJ4OUxQN0F3R0ZTZ2Y1TFdxdDhqVGl0M0lieC16VzNlNDZHWGdDRURtem5nOG9BRzBHc3p4SUhaSmNiQmJUejVDemNNWlcyYXR2M3A3eGs3OTRQenN1cnZPT3ljcFNxLUpJMFJTNUJGWnQwUjJQS0hjUUUycG5KQjFfRVpMN1d5MHNwTHVlYUVaUW9YVWlvU0tTN3VrNVhmZlFEOHdLT2dYZw?oc=5"
     },
     {
+      "iso": "ARG",
+      "title": "Hantavirus: se identificaron 3 nuevos casos en Argentina - Agencia Noticias Argentinas",
+      "t": "2026-05-20T11:35:47Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSmlEaElVOEZSWnRFam5XQXFTU2ZjazAzMjliRW5EemZjdEpTR2xuUjdhNEJQSjJJc0ZySjUyYWVfSlhsZDQ0d0d6SmViVjZ1Q29xR3VpclotTkg2dk9VMVF3QUVFcTJaN0pCVmQ3US1Rd2dBaVlEeks1VU9XUGhVQW9jdDg5SnhCOExiT3cxcVREQzkxZjVvOThwOERCZWZ0NGRqZVZOZWdMYmRoVlRkWlFDVm9zWGFOY0IxSnAyY9IBzgFBVV95cUxOUVppdjRvZ05tSk41YXFKRHk2ampiNXJsMFhLRFgwU25WWFRaMXlaRlZxUlYwS013VHNDRmlrRFJpU0M0SEx6a3A0LTd6Mm9BamVDTDZOdlhxQndjUzBIWnI1R1ZnUlk0LXduUk1OZ1pCQmdMVTNDbEVxeklFZjB3QUctOXZIdzNmWnJsQWZsa0ZMd3kyTjZHdC1CVXdrN1VmY1VwM3h3ZWE5RGM1cUp4dnZMbjhyNy1vUnk0bmZDWXpWRlZCbXpQVXkyZGNMQQ?oc=5"
+    },
+    {
       "iso": "USA",
       "title": "Ebola, hantavirus and what these frightening outbreaks really mean - USA Today",
       "t": "2026-05-20T02:22:00Z",
@@ -4260,7 +4267,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T09:30:22Z",
+      "last_update": "2026-05-21T09:35:32Z",
       "signals": 6,
       "recent": [
         {
