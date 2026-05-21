@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-21T00:50:32.170602Z",
-  "next_update": "2026-05-21T00:55:00Z",
+  "generated": "2026-05-21T00:55:03.684002Z",
+  "next_update": "2026-05-21T01:00:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 96,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 43,
+      "var_pct": 44,
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 19,
+      "signals": 20,
       "gov_alert": false
     },
     "CHL": {
@@ -568,18 +568,18 @@
   },
   "history": {
     "ARG": [
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      79,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      80,
       88,
       96
     ],
@@ -1454,7 +1454,6 @@
     "ARG": [
       80,
       80,
-      80,
       81,
       81,
       81,
@@ -1488,17 +1487,18 @@
       91,
       91,
       91,
-      92,
       92,
       92,
       93,
       93,
+      93,
       94,
       94,
       94,
       95,
       95,
       95,
+      96,
       96
     ],
     "CHL": [
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 17,
     "polymarket": 6,
-    "kalshi": 21,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 4,
-    "ARG": 19,
+    "ARG": 20,
     "CAN": 2,
     "GBR": 2,
     "JPN": 1,
@@ -4027,6 +4027,13 @@
     "CHL": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Hantavirus en Argentina: hay 45 contagios confirmados en el pa\u00eds y alerta internacional por la cepa Andes - La Voz del Interior",
+      "t": "2026-05-21T00:51:15Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUGhmdHVmbkhmLUV3Wk9tdnhObDBKT0JET1J1SHJORkFwNkVZU0xpUlZUOVdnczRXWlcybXFsaXlRNXJtMThfdWJOTWh5eHBYY18wVWVEczFDSjFEOUpGU2RPRzR0ekZKb1hjYm9NYTF5U1hQd0FpZE4ySWtZLXJmbzA2Uk9mMVRzbXZtalVkUDhzR3ItNFVLal9FVkpyc05SNnZPS0RMN3lYN21WY09LTmY1WGlVUzUyZEZjbXhoVXBEWkVXVzFzVnFyTm1PTDQ3eEE?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Se detectaron tres nuevos casos de hantavirus en Argentina y el n\u00famero de contagios se eleva a 105 - NoticiasFormosa",
@@ -4261,7 +4268,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T00:50:32Z",
+      "last_update": "2026-05-21T00:55:03Z",
       "signals": 6,
       "recent": [
         {
