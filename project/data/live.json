@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-21T05:00:22.059245Z",
-  "next_update": "2026-05-21T05:05:00Z",
+  "generated": "2026-05-21T05:05:32.049219Z",
+  "next_update": "2026-05-21T05:10:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 9,
       "r0": null,
-      "signals": 20,
+      "signals": 21,
       "gov_alert": false
     },
     "CHL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 18,
     "polymarket": 6,
-    "kalshi": 19,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 4,
-    "ARG": 20,
+    "ARG": 21,
     "CAN": 2,
     "FRA": 2,
     "CHL": 1,
@@ -4039,6 +4039,13 @@
       "t": "2026-05-21T00:51:15Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUGhmdHVmbkhmLUV3Wk9tdnhObDBKT0JET1J1SHJORkFwNkVZU0xpUlZUOVdnczRXWlcybXFsaXlRNXJtMThfdWJOTWh5eHBYY18wVWVEczFDSjFEOUpGU2RPRzR0ekZKb1hjYm9NYTF5U1hQd0FpZE4ySWtZLXJmbzA2Uk9mMVRzbXZtalVkUDhzR3ItNFVLal9FVkpyc05SNnZPS0RMN3lYN21WY09LTmY1WGlVUzUyZEZjbXhoVXBEWkVXVzFzVnFyTm1PTDQ3eEE?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus: confirmaron 45 casos en Argentina y preocupa el aumento de contagios en Buenos Aires - MisionesOnline",
+      "t": "2026-05-21T00:09:29Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB4S1l5TS1ETVhVNjlYNUo3U0ZEWjNlR1lCcVZVRE5tTmg1cVdvZ1hYdzhZZkR3WUVPRjRQdDRpWk5LRFlKTGozX2VXakVhUU5sWFdXT29HWTBFcU5lTHdlbFBjYVkxN05fdThhZFFwaw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4253,7 +4260,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T05:00:22Z",
+      "last_update": "2026-05-21T05:05:32Z",
       "signals": 6,
       "recent": [
         {
