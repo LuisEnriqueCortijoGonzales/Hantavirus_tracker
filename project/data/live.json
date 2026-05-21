@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-21T02:50:02.145762Z",
-  "next_update": "2026-05-21T02:55:00Z",
+  "generated": "2026-05-21T02:55:12.124207Z",
+  "next_update": "2026-05-21T03:00:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 96,
+      "ytd": 97,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 44,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 9,
       "r0": null,
-      "signals": 18,
+      "signals": 19,
       "gov_alert": false
     },
     "CHL": {
@@ -581,7 +581,7 @@
       73,
       80,
       88,
-      96
+      97
     ],
     "CHL": [
       31,
@@ -1453,8 +1453,6 @@
   "hourly_history": {
     "ARG": [
       80,
-      80,
-      80,
       81,
       81,
       81,
@@ -1469,6 +1467,7 @@
       84,
       85,
       85,
+      85,
       86,
       86,
       86,
@@ -1490,7 +1489,6 @@
       92,
       92,
       92,
-      93,
       93,
       93,
       94,
@@ -1498,6 +1496,8 @@
       94,
       95,
       95,
+      95,
+      96,
       96,
       96
     ],
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 17,
     "polymarket": 6,
-    "kalshi": 22,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "ARG": 18,
+    "ARG": 19,
     "CAN": 2,
     "USA": 3,
     "FRA": 2,
@@ -4026,6 +4026,13 @@
     "GBR": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Hantavirus en Argentina: confirman 45 contagios y alertan por brote en Buenos Aires - Los Primeros TV",
+      "t": "2026-05-21T02:53:19Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWEh1Q3pUcXcyeU8wWmRBZVd1cTNaS1pUcGRGMC1IUUVJRHNOMWNHY2lpWVdZZmUxR3ZiUUpvZWI3RFNhYnpfUWJaOVZiOUlhdXF2YldjQjBrV1JwSm9FcEFOREYxQkxvbXdsZnJjM3UxbEMxLWZ6T0Z2cFFIUXhTdGQtN3hCMU5GLXBGc0lDSE5PdE9SS0VWWTUzZEdDM3ZxX2VLUGxFdFZTM2RERXZ4bi1SeGFLQW1BaTk2R2RXeTlYNmQxRXlNS3liWEJtR2JiZU1vNnVmYlNxZXNmMjBfMA?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Hantavirus en Argentina: hay 45 contagios confirmados en el pa\u00eds y alerta internacional por la cepa Andes - La Voz del Interior",
@@ -4232,7 +4239,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T02:50:02Z",
+      "last_update": "2026-05-21T02:55:12Z",
       "signals": 6,
       "recent": [
         {
