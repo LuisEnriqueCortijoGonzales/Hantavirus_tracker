@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-21T01:05:03.711562Z",
-  "next_update": "2026-05-21T01:10:00Z",
+  "generated": "2026-05-21T01:10:32.132321Z",
+  "next_update": "2026-05-21T01:15:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -21,7 +21,7 @@
       "cfr": 35.5,
       "var_pct": 41,
       "strain": "andes",
-      "new_today": 4,
+      "new_today": 3,
       "r0": null,
       "signals": 1,
       "gov_alert": false
@@ -214,12 +214,12 @@
       "gov_alert": false
     },
     "FIN": {
-      "ytd": 314,
+      "ytd": 315,
       "alert": "brote",
       "cfr": 0.1,
       "var_pct": 1,
       "strain": "puumala",
-      "new_today": 2,
+      "new_today": 3,
       "r0": null,
       "signals": 0,
       "gov_alert": false
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -562,7 +562,7 @@
       "strain": "hantaan",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     }
   },
@@ -596,7 +596,7 @@
       31,
       34,
       37,
-      40,
+      41,
       44
     ],
     "BRA": [
@@ -885,7 +885,7 @@
       312,
       312,
       312,
-      314
+      315
     ],
     "SWE": [
       145,
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 17,
     "polymarket": 6,
-    "kalshi": 21,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,12 +4019,11 @@
   },
   "signal_summary": {
     "ARG": 20,
-    "USA": 3,
     "CAN": 2,
-    "GBR": 2,
-    "JPN": 1,
+    "USA": 3,
     "FRA": 2,
-    "CHL": 1
+    "CHL": 1,
+    "GBR": 1
   },
   "events": [
     {
@@ -4064,10 +4063,10 @@
     },
     {
       "iso": "ARG",
-      "title": "Detectaron tres nuevos casos de hantavirus en Argentina y ya son 105 en la temporada - 9 Digital",
+      "title": "Detectaron tres nuevos casos de hantavirus en Argentina y ya son 105 en la temporada - AHORA Entre R\u00edos",
       "t": "2026-05-20T16:57:14Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTmMyY01DTEttTXh0WkRTN2JTNTA4cFdiRnRnWlhCa1JraUxFNngzalJUU3VpNGxLUEpmOXFma2lfSDVMS3JTeHFhZnE1MWVpSTZtWkplSXNrYW5feTFZUjQxcmsyTVBmLURrdkltZGNMSE55TWdYTXc0Z05zNnBJbmE1LTFOeXI1dWczcG85ZFNFOG1Hekx3b1k0cFp1cjFYOTFSUFRpOUFqZThoQnc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVkJEY0FWSE5Wb21TZ1B0MFZIdkxJNEIyNTJaTUJWX1lGRXI5azgxZG9WZjEwQjdzOVhPUG1JdVlYUkFqZTBsT2dnYlVNVTVvR1JNeUJZTW5GREhqZUFUWUxlYVJ3eHBGT2tXbks5TFBLNlEtbnl3ZVpBR1Z1bDhibElsdTlLbVRLNlkxc1ZFNFlPTkxnc2lzYTh1MnVyMm9CX3k5U0thWGtNWWxsdmdDR0lwS20?oc=5"
     },
     {
       "iso": "ARG",
@@ -4168,20 +4167,6 @@
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVlhuUG82VktZUi1sOWRpclRTZU9HUVZmQjRwaS0tVml5bXhuakthM0xHYUhXYzJEbGFMR200NUF0QnlfMnV4SzkyaXRURzRWcnM3bTBJQjdkSnlrMGhSVENkMUxjRzNrNW1JNVJvUlZaV3JCdzdZbmZQLXYwUTVmR2x6bFZVXy1EX3FBTk9uRXFIVHhwOS1ucXRZVGNwSERTdTRqYzFVbHdyTXh5SjJ5bXZVc2NEaGNPczZsbF9saFd0R0VMQU9ac19FbjlNd0VhTjd0cWx1WGJCMW5tLWVUdk1Tbw?oc=5"
     },
     {
-      "iso": "GBR",
-      "title": "Britain gets experimental drug from Japan to bolster hantavirus response - Reuters",
-      "t": "2026-05-18T17:22:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS2dnTnV0bXBIXzlYZ0JpRTVrWDBrUG9hVnk3RDJHYUJfdC1wMXcwUkxHc3ZQaVBkNm9LZ2VCbHhHQXVSeF9LNDFBNm5lVEZKQUtsd2R3UFZCOFd3UWIzRW9yc2x1Q2JEYmNNWW9OV0FrS2xyM1JhSmFxbVRsODVDdTlGUEJrck1OamtOVjVpWnVoekp5bExOY2RNeW4xMU1vWEIxMHZlQm5JZ2F0MWswZGNDZWJzNFp6R212MFE4a2xwTDVhbm5tQ2I5cXhTV1NlR0E?oc=5"
-    },
-    {
-      "iso": "JPN",
-      "title": "Britain gets experimental drug from Japan to bolster hantavirus response - Reuters",
-      "t": "2026-05-18T17:22:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS2dnTnV0bXBIXzlYZ0JpRTVrWDBrUG9hVnk3RDJHYUJfdC1wMXcwUkxHc3ZQaVBkNm9LZ2VCbHhHQXVSeF9LNDFBNm5lVEZKQUtsd2R3UFZCOFd3UWIzRW9yc2x1Q2JEYmNNWW9OV0FrS2xyM1JhSmFxbVRsODVDdTlGUEJrck1OamtOVjVpWnVoekp5bExOY2RNeW4xMU1vWEIxMHZlQm5JZ2F0MWswZGNDZWJzNFp6R212MFE4a2xwTDVhbm5tQ2I5cXhTV1NlR0E?oc=5"
-    },
-    {
       "iso": "USA",
       "title": "Colorado adult dies from hantavirus after local rodent exposure - USA Today",
       "t": "2026-05-18T15:32:00Z",
@@ -4261,7 +4246,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T01:05:03Z",
+      "last_update": "2026-05-21T01:10:32Z",
       "signals": 6,
       "recent": [
         {
