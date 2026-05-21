@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-21T12:50:32.151768Z",
-  "next_update": "2026-05-21T12:55:00Z",
+  "generated": "2026-05-21T12:55:12.084365Z",
+  "next_update": "2026-05-21T13:00:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 9,
       "r0": null,
-      "signals": 23,
+      "signals": 22,
       "gov_alert": false
     },
     "CHL": {
@@ -217,7 +217,7 @@
       "ytd": 323,
       "alert": "brote",
       "cfr": 0.1,
-      "var_pct": 3,
+      "var_pct": 4,
       "strain": "puumala",
       "new_today": 11,
       "r0": null,
@@ -4006,7 +4006,7 @@
     "composite": 17,
     "epidemio": 18,
     "polymarket": 6,
-    "kalshi": 25,
+    "kalshi": 27,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 3,
-    "ARG": 23,
+    "ARG": 22,
     "FRA": 1,
     "CHL": 1,
     "GBR": 1,
@@ -4188,13 +4188,6 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdDNPeldlZVpwXzhiMm1haGlTRkVaQ2xLX2FQekRnbjlDZ1NsYkN1QXY2cjdxaDhuRzZsSEhjTGJ1T3NTaGR0SGdZbzBrel9OWjdnT29Yb2cyMkxWVFFVdkg3S21rM3NhX3k1cTNEVnFWd1BWZ3hqQkJHenJtS1RKeXNtWG1CSkxGS1d4cVhPV2J5cGtsZFJUMU95UkVqendmdWZGOThxVWwxRDNEVnZLS29yWnFUSG1hbkZsMzJXQXFoWVhZdVVXOEdB?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "Argentina\u2019s icy outpost at the end of the world fears the hantavirus will chill tourism - AP News",
-      "t": "2026-05-18T21:24:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3ZsNWRWd2JEZEpWclg4V2RoMlJ0bWRiVFpSN0pZX3ZfX0JtdW15RHZicG5od1FMbl92Tm4zdC1DRHBsQW1XR3VtZnVOQ2JOYXd2QlZCWFpsTzJHVGEtTDFnbmRSTy1EV04wNmhVM2xMVkZTVGg5dURsZktfMFNFZG43S0FpdFA3ZzJ0R09wQXVzNHRMaGY1Ynkxa2VMSXowcU9CZ3BCWnZQaFZi?oc=5"
-    },
-    {
       "iso": "CAN",
       "title": "Canad\u00e1 confirma un caso de hantavirus relacionado con el brote en un crucero que ha causado la muerte de tres pasajeros - Yahoo",
       "t": "2026-05-18T02:17:00Z",
@@ -4253,7 +4246,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T12:50:32Z",
+      "last_update": "2026-05-21T12:55:12Z",
       "signals": 6,
       "recent": [
         {
