@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-21T10:15:12.080151Z",
-  "next_update": "2026-05-21T10:20:00Z",
+  "generated": "2026-05-21T10:20:03.714038Z",
+  "next_update": "2026-05-21T10:25:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 4,
+      "signals": 5,
       "gov_alert": false
     },
     "PRY": {
@@ -595,7 +595,7 @@
       31,
       32,
       35,
-      38,
+      39,
       42,
       45
     ],
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 17,
     "epidemio": 18,
     "polymarket": 6,
-    "kalshi": 24,
+    "kalshi": 25,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "USA": 4,
+    "USA": 5,
     "ARG": 24,
     "FRA": 2,
     "CHL": 1,
@@ -4203,10 +4203,17 @@
     },
     {
       "iso": "USA",
-      "title": "Nuevos focos de hantavirus en Estados Unidos: identifican zonas con mayor riesgo y advierten sobre nuevas especies portadoras - Infobae",
-      "t": "2026-05-18T15:05:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPUHk4OVFHNHR0X0NzWFR2ZFljODlFb0NwcVVmUzRSUzB2V0t0Q3RVamloQ1pUZlJDeTJFeTByNXl5ZWdtX2lGSk1ZQnY0bTRqUTJfQThmRGpMYWNJa29oeXAxUFAyc1B6ZFBYMkpRTm9LenNWQ0NpRGhoWV8wWVNlS3lRV0Y5T2lVZHYtbDAyaTlIT3RSNkxNamNZNkdyNGFGbFY3ZFlLWnQzbFpabll3TC0yTHNHM2RYOFFkZ05lQWJ1dktDOHRIS0Zwa05aMFFnR1RjMk5GMG9qTmpEd2JJNFcxOXpKbmswSlZGREU0QnNlZllPQ01hOW1acm1JWFNaekhaMnVB0gGgAkFVX3lxTE55NHNBak9yQ0xVN1hqa2JlVERSOHdKTEhvN09RSjlCWjVwTVYySVljVXVhQjdvdDFvUFo4UXVMZmROekd1RHY1TEQwb2dNaXo4YnJrbjB3b19KRkI2MVRLY1pzMHdWQ3R3Z19OM0xYR3BMZDhSbnhuS0VKaXY1YVAtZm5xZmdENVdqblVEMmEtSnhhQUl2ZWJ3UXBDUlZHQk9OMmZHQldVYmVDZWs5QnlCSEFRN2F0blpDUVlSZU8zQ0dTWDJaVkdBV1U3M0NFRGZSemJKMUFWdkNZUVJlYmYxYnZIcGtfUkVrWG1Hd3RBM29hWlBFb3ItcGx5TXdyY0VpREFkSW90QzRJLWdOdEZXdFVmRXBiaHlKZGdkOEszbA?oc=5"
+      "title": "Colorado adult dies from hantavirus after local rodent exposure - USA Today",
+      "t": "2026-05-18T15:32:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSjlYaGNZRDExWHJGNjRCTUFhTXhwRXNOTjVxRUtRa1FtdXlFUmFxa0hXTjdyN0ZRbkVqNzRSWDd3OWhCWkYtd1daME1WQjRUc2IwTVpuVlNPQXVQOW1xQ0JIdm9HMy12R01BRUU2YzYzQnBFTm5jbi1LSFFQVllFV190RVNkeTBsalZjOExibF92VzBXU1NHLVVjNE5GcTVDa2RVOFBRLWNjTXpIaEprOVJ4dXo5QQ?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Health Officials Confirm First Case of Hantavirus in North America Stemming from Infected Cruise Ship - People.com",
+      "t": "2026-05-18T02:02:18Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbXk4T0sxZDBxRnRTNEpmRC1xNnVtcVJfZW9xNDZZa043bVNGTVRMSGxJeWVUV0xsSVc1a3g5dnQyT2NIV3hoWGxpbVBxQ2UzMEFlVGc2NTZMSnZBc1BrelJZWEtsZ1ZVNE1ZOGROU1RPbmFnVEFwQXM4NFdYbDF0TW1kTkVyMHJLRV92bjhsTkM4clJFT1ZRd3N5RE5vZXpLODQxTmhKc01UMGNCYzNWbWp1enhPbnZpemxDemxrLXFRRmlPcE9YRg?oc=5"
     },
     {
       "iso": "CAN",
@@ -4274,9 +4281,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T10:15:12Z",
-      "signals": 7,
+      "last_update": "2026-05-21T10:20:03Z",
+      "signals": 8,
       "recent": [
+        {
+          "title": "Health Officials Confirm First Case of Hantavirus in North America Stemming from Infected Cruise Ship - People.com",
+          "t": "2026-05-18T02:02:18Z",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbXk4T0sxZDBxRnRTNEpmRC1xNnVtcVJfZW9xNDZZa043bVNGTVRMSGxJeWVUV0xsSVc1a3g5dnQyT2NIV3hoWGxpbVBxQ2UzMEFlVGc2NTZMSnZBc1BrelJZWEtsZ1ZVNE1ZOGROU1RPbmFnVEFwQXM4NFdYbDF0TW1kTkVyMHJLRV92bjhsTkM4clJFT1ZRd3N5RE5vZXpLODQxTmhKc01UMGNCYzNWbWp1enhPbnZpemxDemxrLXFRRmlPcE9YRg?oc=5"
+        },
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
           "t": "2026-05-20T17:59:00Z",
@@ -4296,11 +4308,6 @@
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
           "t": "2026-05-15T12:33:58Z",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
-        },
-        {
-          "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
-          "t": "2026-05-12T07:00:00Z",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeUtmR2dNaUYwdEFTMTc1dUlmZVR4c1MzTXQ5VDZQclYzbW1xdzRfUGF3aWFIc1lSaWpRcXhfbW5OdFVYbW0tekVySTBDYy1Va050T1cwTWVNZHk3a2pmYUNkNDQ2MndoS1N2cUJPaFpfOU9scFlyb1hZZTNwamg3YnJzTnFjbVRUVEFLdFhkQmlXNUlDWUpuQ0hGblpYVkpIcTlKX1kwMjRURTV0UVdkSVMwZDhvZVpMc2RTcFYwdkdTZHZ5SEFwNXBlNld1V2d6eHBmUHVCWVE5UDFsbGYtRDl30gH8AUFVX3lxTFBoQ1JGSnZhTHg2SmpiUlltY3Vzd3p0d3ZLVXR0VEFNQkQzNVlOb19PcVBabUlfdDc5RHR6aGdvOEhiUnNmcE43cGNoZG1KVTZWSmlnOHZxZHJPOWdRWXJkbUVIXzI1SzdjTC1MX3NNaFhodnJwODVRakN1OVZxMkFrNHlEMXlVN3ZFWW1kdUFId21ISkRPRVF6bnJlTlBjZHVOd1NaY2FKbUJfYktwQm5meE1LNVNMQmZyekV2MUQzM1AwcVRtQnhsd3N3Vl83aldDQ2ZxeDB0RlpERE9ENEZ3ekhodXhhLUlGelU0U3VVYVFjeE1OSUpTUXdqTQ?oc=5"
         }
       ]
     }
