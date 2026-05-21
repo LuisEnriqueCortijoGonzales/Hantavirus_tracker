@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-21T17:40:32.096588Z",
-  "next_update": "2026-05-21T17:45:00Z",
+  "generated": "2026-05-21T17:45:22.065687Z",
+  "next_update": "2026-05-21T17:50:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 21,
+      "signals": 22,
       "gov_alert": false
     },
     "CHL": {
@@ -578,8 +578,8 @@
       74,
       74,
       74,
-      77,
-      85,
+      78,
+      86,
       94,
       102
     ],
@@ -595,7 +595,7 @@
       31,
       33,
       36,
-      39,
+      40,
       43,
       46
     ],
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 17,
+    "composite": 16,
     "epidemio": 18,
     "polymarket": 6,
-    "kalshi": 25,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 3,
-    "ARG": 21,
+    "ARG": 22,
     "CAN": 1,
     "FRA": 1,
     "CHL": 1,
@@ -4081,6 +4081,13 @@
       "t": "2026-05-20T17:59:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ueUZSY2k1ZTcyQ1RCZWdnWU9JT1V3elpoTXZRb1V6eloxeG5NMWQ3dnFWQXNjb3dtc1lfZ0JDY21JUjYxa016b18ySGhBSlI2TnU0YTdMU2hYSE0wazNrdDRwNVlJa085ZkJCV2ViZ3lVdkI1b2pR?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus en Argentina: tres provincias suman casos, el pa\u00eds lleg\u00f3 a 105 contagios - LA17",
+      "t": "2026-05-20T17:31:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQUhjVkpDOEo3bks0RFRLOWlrTC0xUUpRUGtnMXZzU3FyTmtqOU9IcEVVZE1jMHZvWWdhRDlzcUV2ZGwzTjNaSUhJbGlpVmF6aXNyeWRzcm13VWpQLU8wM0JTWXdJMF9POE04NkdwdE5vSldET0l5Wk5JYU9DMjM1UG1VcDF6NGFya19GQmdfNlJyU09lNmFMUDFUVHA5QUFzR2oyMDdkblEyV2V0Q0V6bUJSLXg?oc=5"
     },
     {
       "iso": "ARG",
@@ -4239,7 +4246,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T17:40:32Z",
+      "last_update": "2026-05-21T17:45:22Z",
       "signals": 6,
       "recent": [
         {
