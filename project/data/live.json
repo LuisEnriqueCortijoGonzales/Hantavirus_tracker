@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-21T09:00:32.084305Z",
-  "next_update": "2026-05-21T09:05:00Z",
+  "generated": "2026-05-21T09:05:32.154120Z",
+  "next_update": "2026-05-21T09:10:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 4,
+      "signals": 5,
       "gov_alert": false
     },
     "PRY": {
@@ -4018,13 +4018,20 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "USA": 4,
+    "USA": 5,
     "ARG": 22,
     "CAN": 2,
     "FRA": 2,
     "CHL": 1
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "What Ebola and hantavirus are revealing about America\u2019s public health system - Politico",
+      "t": "2026-05-21T09:00:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV1loTDAxemdLT285cDNreXlKVDNjUVRMbVdENUJlOEtTSUpzNzVOSEUtNzRyTXpJdGdvUFV5ZGpDWXJoRG0tUnJ2S0RCRjVFQXlRTzZQNGJtLTIyVnVxLUk1OURldzExRXFGaVYxS0lkVE95UEJQclkwYmZ3SFZqdFhzekRaX3VwbkFfa3p3?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Hantavirus en Argentina: confirman 45 contagios y alertan por brote en Buenos Aires - Los Primeros TV",
@@ -4259,7 +4266,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T09:00:32Z",
+      "last_update": "2026-05-21T09:05:32Z",
       "signals": 7,
       "recent": [
         {
