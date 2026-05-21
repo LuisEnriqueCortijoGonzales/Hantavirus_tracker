@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-21T18:15:32.114687Z",
-  "next_update": "2026-05-21T18:20:00Z",
+  "generated": "2026-05-21T18:20:32.099110Z",
+  "next_update": "2026-05-21T18:25:00Z",
   "days_active": 13,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 17,
     "epidemio": 18,
     "polymarket": 6,
-    "kalshi": 19,
+    "kalshi": 26,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4022,6 +4022,7 @@
     "ARG": 20,
     "FRA": 1,
     "CHL": 1,
+    "CAN": 1,
     "GBR": 1
   },
   "events": [
@@ -4097,13 +4098,6 @@
     },
     {
       "iso": "ARG",
-      "title": "\u00bfLleg\u00f3 el hantavirus a la Argentina?: cient\u00edficos realizan pruebas para descartar su presencia en Ushuaia - Canal26",
-      "t": "2026-05-20T14:28:13Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOOG1ORDFsQWFTVGZCT1BmNWk3UC1qS0s0T2lQOEdGYVY4dDZmMU9vVmRsRktQWWNTQlNaV0lfVmxVbTBubXViVEx1TGtmeERvb05QVWg4ZnFzdEFMb1YzT3dMVTFTUEJtLU1RRzJ0a25NaDU1Q0pqZ2lMcTBwTE92dHJ1MkJlSUJmRnFCWHJvSFJRMkZ2Skg5OE9wdDkwNElrT003ejVpcFJuQ1NTaEYwZWpLaVQzRXZmenZFRTBBbG5ISW9lbVprQ3E5UXBPX1IzYm92Q0R0Y2RpQi0zV21SSlU4U2dfa2hUZXc3eA?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Hantavirus: se identificaron 3 nuevos casos en Argentina - elpaisdiario.com.ar",
       "t": "2026-05-20T14:08:44Z",
       "source": "GoogleNews-ES",
@@ -4173,6 +4167,20 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3ZsNWRWd2JEZEpWclg4V2RoMlJ0bWRiVFpSN0pZX3ZfX0JtdW15RHZicG5od1FMbl92Tm4zdC1DRHBsQW1XR3VtZnVOQ2JOYXd2QlZCWFpsTzJHVGEtTDFnbmRSTy1EV04wNmhVM2xMVkZTVGg5dURsZktfMFNFZG43S0FpdFA3ZzJ0R09wQXVzNHRMaGY1Ynkxa2VMSXowcU9CZ3BCWnZQaFZi?oc=5"
     },
     {
+      "iso": "CAN",
+      "title": "Salud. Canad\u00e1 confirma un caso de hantavirus: se trata de un pasajero del crucero MV Hondius - La Voz del Interior",
+      "t": "2026-05-17T18:37:27Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQ1M0S3d6a3IxbC1RdnlfNERqRk10a0pwVEo5ZE9ZM1dkQ1U4N244S2F5STNIOUYzLTR4bXg3YmlQUkt2MlBhcjE5YTBpMHNid1NyQlYwRDFiV0kxVTllcnNnOWRLRnhMSGhiZEJneE12M01Ta0N6eGdxTjh1VW11TnBXa1dlLUlxOTFITDhzLXR4a3dmWHJHcHA1VWZjbUZ4V1Z1S0Ztd0NYYkpHUkR3QktzNW0?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Confirmaron el d\u00e9cimo caso de hantavirus vinculado al crucero polar que parti\u00f3 desde la Argentina - MinutoUno",
+      "t": "2026-05-17T02:31:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVVJHNGtnVlYxUkNLa3laSnVPdXZ0bkhDZkFvbWVZSE1uM2tZTDVObEVWLTV4cVR2eERKSE5wNzhVOVprYmVjd282TWEyZ2N2RHVESFV0clhtRWRoNHc5dm5ZWFdYeWRhOG04Z3VvY2lBOUZpUUFaNS1UZmp2MjdIS2tnOUVIZGVrNlZhN01VVDRadHZVc0tpVjJCNFVyNG1xVXU4ZUFrZ1g5bE1mT2s0RkJhb3RRUXNXQW5ScDd3eFZmVkxMTXd5S1U5cVTSAcwBQVVfeXFMTlVSRzRrZ1ZWMVJDS2t5Wkp1T3V2dG5IQ2ZBb21lWUhNbjNrWUw1TmxFVi01eHFUdnhESkhOcDc4VTlaa2JlY3dvNk1hMmdjdkR1REhVdHJYbUVkaDR3OXZuWVhXWHlkYThtOGd1b2NpQTlGaVFBWjUtVGZqdjI3SEtrZzlFSGRlazZWYTdNVVQ0WnR2VXNLaVYyQjRVcjRtcVV1OGVBa2dYOWxNZk9rNEZCYW90UVFzV0FuUnA3d3hWZlZMTE13eUtVOXFU?oc=5"
+    },
+    {
       "iso": "FRA",
       "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
       "t": "2026-05-16T18:07:02Z",
@@ -4224,8 +4232,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T18:15:32Z",
-      "signals": 5,
+      "last_update": "2026-05-21T18:20:32Z",
+      "signals": 7,
       "recent": [
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
@@ -4248,9 +4256,9 @@
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
         },
         {
-          "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
-          "t": "2026-05-16T18:07:02Z",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ01MSERfY0JHbWVCdy1rSWtHZ3EtNkJCNU5kcU9SQjNwbGY1b1B1NWE1alpYOGVsRnJxZWM5cU90Q2VIZzJiYzdjM0h2blhaUzExWEEtNlYtRkxORE1UR3dWTkhLTEsxTnFXSjczNHlJRmlVc3NpbHNfcGMwVTFRNlFtaGVlTjdlMUHSAY8BQVVfeXFMTUhqV3ctTE9hV3luREJWRnpHbzBnQ2EwZmk2anZfZTlFTGFIU193QVlUUFJpOWpTMGEzNXkwZFREaDFnZTMyc0xHb0tZWVhkN0pGUThSbEVPWHVtUVVhRXpFanBxN0pmYzVHMEtOWjNSNkxPMHJZV1Nlb1Z1bXlDT2NUbDVndlZONjgxb2lxcFk?oc=5"
+          "title": "Confirmaron el d\u00e9cimo caso de hantavirus vinculado al crucero polar que parti\u00f3 desde la Argentina - MinutoUno",
+          "t": "2026-05-17T02:31:00Z",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVVJHNGtnVlYxUkNLa3laSnVPdXZ0bkhDZkFvbWVZSE1uM2tZTDVObEVWLTV4cVR2eERKSE5wNzhVOVprYmVjd282TWEyZ2N2RHVESFV0clhtRWRoNHc5dm5ZWFdYeWRhOG04Z3VvY2lBOUZpUUFaNS1UZmp2MjdIS2tnOUVIZGVrNlZhN01VVDRadHZVc0tpVjJCNFVyNG1xVXU4ZUFrZ1g5bE1mT2s0RkJhb3RRUXNXQW5ScDd3eFZmVkxMTXd5S1U5cVTSAcwBQVVfeXFMTlVSRzRrZ1ZWMVJDS2t5Wkp1T3V2dG5IQ2ZBb21lWUhNbjNrWUw1TmxFVi01eHFUdnhESkhOcDc4VTlaa2JlY3dvNk1hMmdjdkR1REhVdHJYbUVkaDR3OXZuWVhXWHlkYThtOGd1b2NpQTlGaVFBWjUtVGZqdjI3SEtrZzlFSGRlazZWYTdNVVQ0WnR2VXNLaVYyQjRVcjRtcVV1OGVBa2dYOWxNZk9rNEZCYW90UVFzV0FuUnA3d3hWZlZMTE13eUtVOXFU?oc=5"
         }
       ]
     }
