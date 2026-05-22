@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-22T16:00:32.091656Z",
-  "next_update": "2026-05-22T16:05:00Z",
+  "generated": "2026-05-22T16:05:32.191561Z",
+  "next_update": "2026-05-22T16:10:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -10,7 +10,7 @@
       "cfr": 37.3,
       "var_pct": 61,
       "strain": "andes",
-      "new_today": 9,
+      "new_today": 8,
       "r0": null,
       "signals": 15,
       "gov_alert": false
@@ -580,7 +580,7 @@
       75,
       83,
       91,
-      99,
+      100,
       108
     ],
     "CHL": [
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 18,
     "polymarket": 5,
-    "kalshi": 22,
+    "kalshi": 25,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4034,6 +4034,13 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcUs4MHBRYk12ZHFBZ0kzZ3lnR3phNW9NQkV1dHJjYllUOHE0Vmh0TDFNSlFGaTN3VlduTTd3TmduSHJCLW00N2JjaGlSdHNjbm55SUhOekVNS1pnTW1tcW1uamU5TnRmUVZsQktYSHdGcVFRNkQtVWNiNVZRUVdrOWZJZnNUUnFSamxXQ1R4cWI?oc=5"
     },
     {
+      "iso": "ARG",
+      "title": "Hantavirus: Argentina mantiene activos sus sistemas de vigilancia y monitoreo sanitario - TSN Necochea",
+      "t": "2026-05-22T13:46:30Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdE1xQ0RzSU1DalVnSDdpUnVFVkRvWEZYbEdmYWJ6WDMyRmRaQXhack1aVHRrQ3ZhcmFEdGRvSVBTY2V1a1otalZXQklKMGRMMjQ4M2gxYjEzeUUwM1VoV210MXY3UmZ1Tm9VY1g1YWVtck5maVA1UV9La1F2d1VPclc3M0dsOFY5Rkh4V0w2SDl1X0h4T3BfaG5GaXNDMGRQM0F0STlGV0VNYm9rbmZ3NDlGdE9nRUV0ZmQ2WjdYQkVUamo5QXNj0gHHAUFVX3lxTE90TXFDRHNJTUNqVWdIN2lSdUVWRG9YRlhsR2ZhYnpYMzJGZFpBeFpyTVpUdGtDdmFyYUR0ZG9JUFNjZXVrWi1qVldCSUowZEwyNDgzaDFiMTN5RTAzVWhXbXQxdjdSZnVOb1VjWDVhZW1yTmZpUDVRX0trUXZ3VU9yVzczR2w4VjlGSHhXTDZIOXVfSHhPcF9obkZpc0MwZFAzQXRJOUZXRU1ib2tuZnc0OUZ0T2dFRXRmZDZaN1hCRVRqajlBc2M?oc=5"
+    },
+    {
       "iso": "PER",
       "title": "Un nuevo caso de hantavirus confirmado en un tripulante del MV Hondius repatriado a Pa\u00edses Bajo - El Comercio Per\u00fa",
       "t": "2026-05-22T13:44:00Z",
@@ -4046,13 +4053,6 @@
       "t": "2026-05-22T12:53:14Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaU1tXzZaeXNQMGd3d3FVZkhhTUd0ZzRvTWIyMWQ3ejgtUERQaWpUR2V5TF8xb1Z6OFdUMi0zTFNaUG1lWDdfbFBTNGtBNTIxd0hiVjQ1NzhqWWVwQnlUWTZsaEtELXpXVjRaNE5JLXBRSktGUFdkMFVlUHVSTk1PWUtqWFhNbFdqZ2FDX0h1cDlZbWxweUt4a1lORk5TOWFFamVUMmlGNDhWclZZVzV2cFBJS3MxMTI3NG0zb0ZwZDJVUE5CM293QTlYdkFaS2h0VGIwMg?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina refuerza vigilancia sanitaria ante brote de hantavirus en crucero - Cadena 3 Argentina",
-      "t": "2026-05-22T10:19:56Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcV9rcm5uT2ljTUliODV3aTU3TnI1MWhQcXd5UU9OaTBQVmYxbDVENWVwQlFDdnlTb2QzRV84THUyUlJPcWFFMzFYMEJTRG1IX0JKUDg3YnIzbGhoZXpGU09RN05UZm1UQzI0OXlKR3NhRFpuVzY4czRJV0pvOFhpaXVLbDNCNUpxUzAzd1pRSGZlZ2U2dVNaSGdETFgwbWp2LUdJWS1jLXQxdWJMSWJoRUN0MEc5ZG5lOWZPZG10TnjSAcYBQVVfeXFMTjlhQmduNHFPUHVWaklxdDdyVjFjTmtzUGY1cXQyemszSDhETVRaNTlGb0pOcXZJelFBbG9ud3VnRnRXQlhrZjM5bm9rNk51eVhOaXBFemVKM0xCaWVfemdtUG11V1dVWHBYV1BILWtIN2ZuSUdSNVlrOTNSUXBiZnEwNUdXUVI5azE5OHVTTVdMQ1dEUmc4T3J2dDAtVDhucy0yRXNuY1lkY1drUmpwcnIzaVlIXzlWQXNoTHdxbnBFR3pBUUpB?oc=5"
     },
     {
       "iso": "ARG",
@@ -4218,8 +4218,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T16:00:32Z",
-      "signals": 8,
+      "last_update": "2026-05-22T16:05:32Z",
+      "signals": 7,
       "recent": [
         {
           "title": "El operador niega que el crucero sea el origen del brote de hantavirus - France 24",
@@ -4237,14 +4237,14 @@
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ueUZSY2k1ZTcyQ1RCZWdnWU9JT1V3elpoTXZRb1V6eloxeG5NMWQ3dnFWQXNjb3dtc1lfZ0JDY21JUjYxa016b18ySGhBSlI2TnU0YTdMU2hYSE0wazNrdDRwNVlJa085ZkJCV2ViZ3lVdkI1b2pR?oc=5"
         },
         {
-          "title": "Argentina refuerza vigilancia sanitaria ante brote de hantavirus en crucero - Cadena 3 Argentina",
-          "t": "2026-05-22T10:19:56Z",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcV9rcm5uT2ljTUliODV3aTU3TnI1MWhQcXd5UU9OaTBQVmYxbDVENWVwQlFDdnlTb2QzRV84THUyUlJPcWFFMzFYMEJTRG1IX0JKUDg3YnIzbGhoZXpGU09RN05UZm1UQzI0OXlKR3NhRFpuVzY4czRJV0pvOFhpaXVLbDNCNUpxUzAzd1pRSGZlZ2U2dVNaSGdETFgwbWp2LUdJWS1jLXQxdWJMSWJoRUN0MEc5ZG5lOWZPZG10TnjSAcYBQVVfeXFMTjlhQmduNHFPUHVWaklxdDdyVjFjTmtzUGY1cXQyemszSDhETVRaNTlGb0pOcXZJelFBbG9ud3VnRnRXQlhrZjM5bm9rNk51eVhOaXBFemVKM0xCaWVfemdtUG11V1dVWHBYV1BILWtIN2ZuSUdSNVlrOTNSUXBiZnEwNUdXUVI5azE5OHVTTVdMQ1dEUmc4T3J2dDAtVDhucy0yRXNuY1lkY1drUmpwcnIzaVlIXzlWQXNoTHdxbnBFR3pBUUpB?oc=5"
-        },
-        {
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
           "t": "2026-05-15T12:33:58Z",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
+        },
+        {
+          "title": "Argentina registra 45 casos de hantavirus y alerta por brote en un crucero - De la Tribuna TV",
+          "t": "2026-05-21T10:00:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSDE1VTZOSU0tWlMzWkFNWi1zRWdpTlJmbGx1X1NHR3pJV1ZBOUNMUlVnbkpJNmdQY2VWWGt6ZV9SMFNuc3RfUm11YUtGS29BZ1dKY1djenFvRTdCOXNDc1dQMlZSclk1WjloWlU3NXhJYjNSQmNkUTVFWVEyMW11MFM0OWFBVUtaQmlFeHctZlY2V3E1aUtjTnI0ekcyMTlJYzJUT3NaclZqUUVDRFk5ZGt1c0poMFo2MV9fTllOeFo?oc=5"
         }
       ]
     }
