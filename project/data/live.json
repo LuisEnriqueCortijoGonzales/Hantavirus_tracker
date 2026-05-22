@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-22T21:15:12.098157Z",
-  "next_update": "2026-05-22T21:20:00Z",
+  "generated": "2026-05-22T21:20:32.156668Z",
+  "next_update": "2026-05-22T21:25:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -21,9 +21,9 @@
       "cfr": 35.5,
       "var_pct": 60,
       "strain": "andes",
-      "new_today": 3,
+      "new_today": 4,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "BRA": {
@@ -592,11 +592,11 @@
       31,
       31,
       31,
-      34,
+      33,
       37,
       40,
       43,
-      47,
+      46,
       50
     ],
     "BRA": [
@@ -1504,6 +1504,8 @@
     "CHL": [
       43,
       43,
+      43,
+      44,
       44,
       44,
       44,
@@ -1525,7 +1527,7 @@
       46,
       46,
       46,
-      46,
+      47,
       47,
       47,
       47,
@@ -1547,9 +1549,7 @@
       49,
       49,
       49,
-      49,
-      50,
-      50
+      49
     ],
     "BRA": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 18,
     "polymarket": 5,
-    "kalshi": 24,
+    "kalshi": 18,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,8 +4021,7 @@
     "USA": 2,
     "FRA": 2,
     "ARG": 9,
-    "PER": 1,
-    "CHL": 1
+    "PER": 1
   },
   "events": [
     {
@@ -4089,13 +4088,6 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUGhmdHVmbkhmLUV3Wk9tdnhObDBKT0JET1J1SHJORkFwNkVZU0xpUlZUOVdnczRXWlcybXFsaXlRNXJtMThfdWJOTWh5eHBYY18wVWVEczFDSjFEOUpGU2RPRzR0ekZKb1hjYm9NYTF5U1hQd0FpZE4ySWtZLXJmbzA2Uk9mMVRzbXZtalVkUDhzR3ItNFVLal9FVkpyc05SNnZPS0RMN3lYN21WY09LTmY1WGlVUzUyZEZjbXhoVXBEWkVXVzFzVnFyTm1PTDQ3eEE?oc=5"
     },
     {
-      "iso": "CHL",
-      "title": "Alerta por hantavirus en Chile: confirman un nuevo caso en la Regi\u00f3n de los Lagos - Diario El Cordillerano",
-      "t": "2026-05-20T21:16:31Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPWWZLVVBQSzBpNXZqa0dWMm41ME5QSGwyQkZuZURyTXV2eHdHNVFla1NqY3pwNHBWeWtpWjdnQTU0bkZBaWM4aFNMUl9hYmd0azZqWGhXX1VLMG5DU0x2aTA4bjNyTDBHZV8zSnNEUmRVX0RiaTF3MzlVWF9tTzdiWGIxVkhUR1Zxei1BVTh5c19vU0taMW1SbkMzZklqWEVnQUNQbGktRWhleFRuM1ZqbGI0eklCWmNNZFdIXzhyOS1EMmlrMmZwMUwtTlRLdHM0bEdiX0F0UGzSAd4BQVVfeXFMTVVyLXA3dnlyS1piYjFUZHRoMkJjNVNRNTZrQV9JMGlwZVRvZTNNSmdQN1ZBdm9tWnlOOFJ6VlF4bnNKdkdvbXc0RGw1QS1WOWJpR1dSZklyUDVGd2l5RlJRN0huOHNWZHdzeTIwaFEyQ1ZDbEN0UnBjVGFxcEhpNzJWdDJROURaZGVBZ19temRsdXJtN3Fsb0l6bVgwSlpWOGF4Z3dLODFQVVlRR0VFY256Z002di00XzJOaUxaT3JIN0FHWTNDTGZNbDhIOEZrMVJiOFFsYklkMDVoMTR3?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
       "t": "2026-05-20T17:59:00Z",
@@ -4147,7 +4139,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T21:15:12Z",
+      "last_update": "2026-05-22T21:20:32Z",
       "signals": 4,
       "recent": [
         {
