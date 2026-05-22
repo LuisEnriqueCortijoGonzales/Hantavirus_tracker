@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-22T23:40:32.120087Z",
-  "next_update": "2026-05-22T23:45:00Z",
+  "generated": "2026-05-22T23:45:12.119893Z",
+  "next_update": "2026-05-22T23:50:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -4004,9 +4004,9 @@
   },
   "pandemic": {
     "composite": 16,
-    "epidemio": 18,
+    "epidemio": 19,
     "polymarket": 5,
-    "kalshi": 23,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "USA": 2,
+    "USA": 1,
     "FRA": 2,
     "ARG": 10,
     "PER": 1
@@ -4081,13 +4081,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSDE1VTZOSU0tWlMzWkFNWi1zRWdpTlJmbGx1X1NHR3pJV1ZBOUNMUlVnbkpJNmdQY2VWWGt6ZV9SMFNuc3RfUm11YUtGS29BZ1dKY1djenFvRTdCOXNDc1dQMlZSclk1WjloWlU3NXhJYjNSQmNkUTVFWVEyMW11MFM0OWFBVUtaQmlFeHctZlY2V3E1aUtjTnI0ekcyMTlJYzJUT3NaclZqUUVDRFk5ZGt1c0poMFo2MV9fTllOeFo?oc=5"
     },
     {
-      "iso": "USA",
-      "title": "What Ebola and hantavirus are revealing about America\u2019s public health system - Politico",
-      "t": "2026-05-21T09:00:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV1loTDAxemdLT285cDNreXlKVDNjUVRMbVdENUJlOEtTSUpzNzVOSEUtNzRyTXpJdGdvUFV5ZGpDWXJoRG0tUnJ2S0RCRjVFQXlRTzZQNGJtLTIyVnVxLUk1OURldzExRXFGaVYxS0lkVE95UEJQclkwYmZ3SFZqdFhzekRaX3VwbkFfa3p3?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "Hantavirus en Argentina: confirman 45 contagios y alertan por brote en Buenos Aires - Los Primeros TV",
       "t": "2026-05-21T02:53:19Z",
@@ -4146,7 +4139,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T23:40:32Z",
+      "last_update": "2026-05-22T23:45:12Z",
       "signals": 4,
       "recent": [
         {
