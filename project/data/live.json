@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-22T04:20:27.882105Z",
-  "next_update": "2026-05-22T04:25:00Z",
+  "generated": "2026-05-22T04:25:22.060036Z",
+  "next_update": "2026-05-22T04:30:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 106,
+      "ytd": 105,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 58,
+      "var_pct": 57,
       "strain": "andes",
-      "new_today": 9,
+      "new_today": 8,
       "r0": null,
-      "signals": 19,
+      "signals": 18,
       "gov_alert": false
     },
     "CHL": {
@@ -578,10 +578,10 @@
       73,
       73,
       73,
-      81,
-      89,
+      80,
+      88,
       97,
-      106
+      105
     ],
     "CHL": [
       31,
@@ -1454,6 +1454,7 @@
     "ARG": [
       89,
       89,
+      89,
       90,
       90,
       90,
@@ -1465,10 +1466,10 @@
       92,
       93,
       93,
+      93,
       94,
       94,
       94,
-      95,
       95,
       95,
       96,
@@ -1482,7 +1483,7 @@
       98,
       99,
       99,
-      100,
+      99,
       100,
       100,
       101,
@@ -1493,13 +1494,12 @@
       102,
       103,
       103,
+      103,
       104,
       104,
       104,
       105,
-      105,
-      105,
-      106
+      105
     ],
     "CHL": [
       41,
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 2,
-    "ARG": 19,
+    "ARG": 18,
     "GBR": 1,
     "CHL": 1
   },
@@ -4030,13 +4030,6 @@
       "t": "2026-05-21T18:28:28Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeHplNkhsc2lHaVBWMVlTOU51cTVpSW1ZZnNzRXA0YUhVSHlzeW5McG90ZUxyYVpiWWlDUmpVYXk4eW5Zb1ZWOXZiZEg5Qi1Bb3RMWmtXeTN0bVNZZTNGWW5famZnbEhQalgxdjgweHN1QmJkMVVMZy1rWnNmT0NZakZhYkF0VjYyaXAzVHRwSmtHUTRfdjRqY0xIaEtURXlaVFNDRnVfbw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina\u2019s icy outpost at the end of the world fears the hantavirus will chill tourism - Sentinel Colorado",
-      "t": "2026-05-21T12:31:49Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZmtjNFVlZ3BxSkNHMkJ4UXpRY2V2eFRQd2lDUFVnTGpSUjh0S2pvdERQaFVjN3ZwbzZzanRxdXBHdnNCTTA1bjNfRDBzR1J1UlRmX25NZThoSVgzbXZDaGUwTmVfdktHakRUV3AwQXRoaWNxWmdlcjRpdEliR1lyeGJzUkdNQkFEN09SOU5ES2dXZ1Z0YXJNME5GUVQzOGZ6TTNBTklsZi1veURSeU92aU1vN1ctMThhbmV3aDVzV0dqZVpndmprMVRB?oc=5"
     },
     {
       "iso": "ARG",
@@ -4202,7 +4195,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T04:20:27Z",
+      "last_update": "2026-05-22T04:25:22Z",
       "signals": 4,
       "recent": [
         {
