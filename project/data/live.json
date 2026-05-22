@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-22T21:25:12.068275Z",
-  "next_update": "2026-05-22T21:30:00Z",
+  "generated": "2026-05-22T21:30:03.709564Z",
+  "next_update": "2026-05-22T21:35:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 107,
+      "ytd": 106,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 60,
+      "var_pct": 59,
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 10,
+      "signals": 8,
       "gov_alert": false
     },
     "CHL": {
@@ -577,11 +577,11 @@
       70,
       70,
       70,
-      75,
-      83,
-      91,
-      99,
-      107
+      74,
+      82,
+      90,
+      98,
+      106
     ],
     "CHL": [
       31,
@@ -1452,9 +1452,11 @@
   ],
   "hourly_history": {
     "ARG": [
+      90,
+      90,
       91,
       91,
-      92,
+      91,
       92,
       92,
       93,
@@ -1471,6 +1473,7 @@
       96,
       97,
       97,
+      97,
       98,
       98,
       98,
@@ -1489,17 +1492,14 @@
       103,
       103,
       103,
-      104,
       104,
       104,
       105,
       105,
+      105,
       106,
       106,
-      106,
-      107,
-      107,
-      107
+      106
     ],
     "CHL": [
       43,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 18,
     "polymarket": 5,
-    "kalshi": 22,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 2,
     "FRA": 2,
-    "ARG": 10,
+    "ARG": 8,
     "PER": 1
   },
   "events": [
@@ -4068,13 +4068,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus en Argentina: confirmaron 45 casos y crece la preocupaci\u00f3n por el brote - Canal C",
-      "t": "2026-05-21T18:28:28Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeHplNkhsc2lHaVBWMVlTOU51cTVpSW1ZZnNzRXA0YUhVSHlzeW5McG90ZUxyYVpiWWlDUmpVYXk4eW5Zb1ZWOXZiZEg5Qi1Bb3RMWmtXeTN0bVNZZTNGWW5famZnbEhQalgxdjgweHN1QmJkMVVMZy1rWnNmT0NZakZhYkF0VjYyaXAzVHRwSmtHUTRfdjRqY0xIaEtURXlaVFNDRnVfbw?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Argentina registra 45 casos de hantavirus y alerta por brote en un crucero - De la Tribuna TV",
       "t": "2026-05-21T10:00:00Z",
       "source": "GoogleNews-ES",
@@ -4086,13 +4079,6 @@
       "t": "2026-05-21T09:00:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV1loTDAxemdLT285cDNreXlKVDNjUVRMbVdENUJlOEtTSUpzNzVOSEUtNzRyTXpJdGdvUFV5ZGpDWXJoRG0tUnJ2S0RCRjVFQXlRTzZQNGJtLTIyVnVxLUk1OURldzExRXFGaVYxS0lkVE95UEJQclkwYmZ3SFZqdFhzekRaX3VwbkFfa3p3?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus en Argentina: hay 45 contagios confirmados en el pa\u00eds y alerta internacional por la cepa Andes - La Voz del Interior",
-      "t": "2026-05-21T00:51:15Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUGhmdHVmbkhmLUV3Wk9tdnhObDBKT0JET1J1SHJORkFwNkVZU0xpUlZUOVdnczRXWlcybXFsaXlRNXJtMThfdWJOTWh5eHBYY18wVWVEczFDSjFEOUpGU2RPRzR0ekZKb1hjYm9NYTF5U1hQd0FpZE4ySWtZLXJmbzA2Uk9mMVRzbXZtalVkUDhzR3ItNFVLal9FVkpyc05SNnZPS0RMN3lYN21WY09LTmY1WGlVUzUyZEZjbXhoVXBEWkVXVzFzVnFyTm1PTDQ3eEE?oc=5"
     },
     {
       "iso": "ARG",
@@ -4146,7 +4132,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T21:25:12Z",
+      "last_update": "2026-05-22T21:30:03Z",
       "signals": 4,
       "recent": [
         {
