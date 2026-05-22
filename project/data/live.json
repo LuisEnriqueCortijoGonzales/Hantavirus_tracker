@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-22T16:20:32.081785Z",
-  "next_update": "2026-05-22T16:25:00Z",
+  "generated": "2026-05-22T16:25:12.090298Z",
+  "next_update": "2026-05-22T16:30:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 108,
+      "ytd": 107,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 61,
+      "var_pct": 60,
       "strain": "andes",
-      "new_today": 9,
+      "new_today": 8,
       "r0": null,
-      "signals": 14,
+      "signals": 13,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
       75,
-      83,
-      91,
+      82,
+      90,
       99,
-      108
+      107
     ],
     "CHL": [
       31,
@@ -1454,6 +1454,7 @@
     "ARG": [
       91,
       91,
+      91,
       92,
       92,
       92,
@@ -1465,10 +1466,10 @@
       94,
       95,
       95,
+      95,
       96,
       96,
       96,
-      97,
       97,
       97,
       98,
@@ -1482,13 +1483,13 @@
       100,
       101,
       101,
+      101,
       102,
       102,
       102,
       103,
       103,
       103,
-      104,
       104,
       104,
       105,
@@ -1498,8 +1499,7 @@
       106,
       106,
       107,
-      107,
-      108
+      107
     ],
     "CHL": [
       43,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 18,
     "polymarket": 5,
-    "kalshi": 20,
+    "kalshi": 25,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "FRA": 3,
     "USA": 4,
-    "ARG": 14,
+    "ARG": 13,
     "PER": 1,
     "CAN": 1,
     "CHL": 1
@@ -4125,13 +4125,6 @@
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVkJEY0FWSE5Wb21TZ1B0MFZIdkxJNEIyNTJaTUJWX1lGRXI5azgxZG9WZjEwQjdzOVhPUG1JdVlYUkFqZTBsT2dnYlVNVTVvR1JNeUJZTW5GREhqZUFUWUxlYVJ3eHBGT2tXbks5TFBLNlEtbnl3ZVpBR1Z1bDhibElsdTlLbVRLNlkxc1ZFNFlPTkxnc2lzYTh1MnVyMm9CX3k5U0thWGtNWWxsdmdDR0lwS20?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "Hay 3 nuevos contagiados de hantavirus en Argentina y son 105 los casos confirmados - Infonews",
-      "t": "2026-05-20T15:55:31Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUTZ1NVlRdWdZS1hnY2k0NUduT0NQZF8xd3d5d3JGOXBvUlRBRk9SbHBvODlacDVrRU5LN1FxOG5JaERiTDJTYXl2Y1pIaXFHcWQtSjgzRUl3Sm1ucktvSzcyNnJ2TW9iY0JxV1pYWDQwQzlmRGl5Y1FZRVNRNDNvaXpub1F5NUdEaS1veE1ZTFVjR2Voem41d2dUZ2hmSVhrWWxzWFlVa1FIcXYzenfSAbMBQVVfeXFMUE5zRWFxekMxNnZmY3JjQVZhQ0ZNaVBTemZnc2gza0dJaE40T3kxOGt1c3FqWW4zUmxSbUJUQlJmdHZ6LWEzWVhBckpsQ0RfeTN0STM4U1p5VFNsUGQ2NUxnRU5jODM5QlAzeWtYQkU2eDVzbjlyV0M1c0oxRXFUeWpNMDBsRHN2b3NvY0RUOFQ0Ynd4cDlRaHlpY2MtUy13ZnZJcHVQMkpEaVNiQm9OMWctQmM?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "El operador niega que el crucero sea el origen del brote de hantavirus - France 24",
       "t": "2026-05-20T15:11:14Z",
@@ -4211,7 +4204,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T16:20:32Z",
+      "last_update": "2026-05-22T16:25:12Z",
       "signals": 7,
       "recent": [
         {
