@@ -1,16 +1,16 @@
 {
-  "generated": "2026-05-22T04:45:32.057083Z",
-  "next_update": "2026-05-22T04:50:00Z",
+  "generated": "2026-05-22T04:50:32.182375Z",
+  "next_update": "2026-05-22T04:55:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 105,
+      "ytd": 106,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 57,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 9,
       "r0": null,
       "signals": 18,
       "gov_alert": false
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -579,9 +579,9 @@
       73,
       73,
       80,
-      88,
+      89,
       97,
-      105
+      106
     ],
     "CHL": [
       31,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 17,
-    "epidemio": 19,
+    "composite": 16,
+    "epidemio": 20,
     "polymarket": 5,
-    "kalshi": 24,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "USA": 2,
+    "USA": 1,
     "ARG": 18,
     "GBR": 1,
     "CHL": 1
@@ -4123,13 +4123,6 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNXy1GeEYzNzVqRUF6QlFkRW9JS0h3WGJDemZXMnRXVjg2eFh5RzBpQVBqalN3MFdodC1OZkxRM0Z3WEhXMkk4UEpxV3cxLU12MjRPYW5SUEtHNHVrWEdmNUxQcWg2LWV3dFk5ZEg1aXdCenc5YjRYX1V5SThjbG5pWDlneUpBMzA4MzBveVd1T3NFVkpRYTNBYW9UVWxZNzQ5NE85SC1TekdpeWRRWUhjVGtVVEZ1aUt1ZTV6Z01hZw?oc=5"
     },
     {
-      "iso": "USA",
-      "title": "Zoonotic spillover diseases like hantavirus and ebola are on the rise | The Excerpt - USA Today",
-      "t": "2026-05-20T12:52:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcmxjVWN2ZWlMZG5pS21RVF9fdHlhZElQVm43RS11Y3JlRDlyOGRfT0MzaVdxbnhVa29MMEZmWlJvY01Mc3NNb2hZM2lHV0NUdTMtS1ZOQVpPa1ZNdXl3VzIyaXBEVWMtdXl6ZEJWSXVGaFBySkNLcGE5TWZpcjg1RGdfTllJSHl0SW00NDU3TGg2UHVHVTBFcWJYd0laRE9kNy1HV1hJNmt1YUlHQVA0a1pYTG81dWJJODBjZFp3?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "Se identificaron 3 nuevos casos de hantavirus en Argentina y uno es de Chubut - El Chubut",
       "t": "2026-05-20T12:29:20Z",
@@ -4195,7 +4188,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T04:45:32Z",
+      "last_update": "2026-05-22T04:50:32Z",
       "signals": 4,
       "recent": [
         {
