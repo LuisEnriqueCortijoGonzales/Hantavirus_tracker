@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-22T21:30:03.709564Z",
-  "next_update": "2026-05-22T21:35:00Z",
+  "generated": "2026-05-22T21:35:32.148259Z",
+  "next_update": "2026-05-22T21:40:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 106,
+      "ytd": 107,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 59,
+      "var_pct": 60,
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 8,
+      "signals": 9,
       "gov_alert": false
     },
     "CHL": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -577,11 +577,11 @@
       70,
       70,
       70,
-      74,
+      75,
       82,
       90,
-      98,
-      106
+      99,
+      107
     ],
     "CHL": [
       31,
@@ -1452,13 +1452,12 @@
   ],
   "hourly_history": {
     "ARG": [
-      90,
-      90,
       91,
       91,
       91,
       92,
       92,
+      92,
       93,
       93,
       93,
@@ -1480,7 +1479,6 @@
       99,
       99,
       99,
-      100,
       100,
       100,
       101,
@@ -1494,12 +1492,14 @@
       103,
       104,
       104,
+      104,
       105,
       105,
       105,
       106,
       106,
-      106
+      106,
+      107
     ],
     "CHL": [
       43,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
-    "epidemio": 18,
+    "composite": 16,
+    "epidemio": 19,
     "polymarket": 5,
-    "kalshi": 19,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,9 +4018,9 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "USA": 2,
+    "USA": 1,
     "FRA": 2,
-    "ARG": 8,
+    "ARG": 9,
     "PER": 1
   },
   "events": [
@@ -4068,17 +4068,17 @@
     },
     {
       "iso": "ARG",
+      "title": "Hantavirus en Argentina: confirmaron 45 casos y crece la preocupaci\u00f3n por el brote - Canal C",
+      "t": "2026-05-21T18:28:28Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeHplNkhsc2lHaVBWMVlTOU51cTVpSW1ZZnNzRXA0YUhVSHlzeW5McG90ZUxyYVpiWWlDUmpVYXk4eW5Zb1ZWOXZiZEg5Qi1Bb3RMWmtXeTN0bVNZZTNGWW5famZnbEhQalgxdjgweHN1QmJkMVVMZy1rWnNmT0NZakZhYkF0VjYyaXAzVHRwSmtHUTRfdjRqY0xIaEtURXlaVFNDRnVfbw?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Argentina registra 45 casos de hantavirus y alerta por brote en un crucero - De la Tribuna TV",
       "t": "2026-05-21T10:00:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSDE1VTZOSU0tWlMzWkFNWi1zRWdpTlJmbGx1X1NHR3pJV1ZBOUNMUlVnbkpJNmdQY2VWWGt6ZV9SMFNuc3RfUm11YUtGS29BZ1dKY1djenFvRTdCOXNDc1dQMlZSclk1WjloWlU3NXhJYjNSQmNkUTVFWVEyMW11MFM0OWFBVUtaQmlFeHctZlY2V3E1aUtjTnI0ekcyMTlJYzJUT3NaclZqUUVDRFk5ZGt1c0poMFo2MV9fTllOeFo?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "What Ebola and hantavirus are revealing about America\u2019s public health system - Politico",
-      "t": "2026-05-21T09:00:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV1loTDAxemdLT285cDNreXlKVDNjUVRMbVdENUJlOEtTSUpzNzVOSEUtNzRyTXpJdGdvUFV5ZGpDWXJoRG0tUnJ2S0RCRjVFQXlRTzZQNGJtLTIyVnVxLUk1OURldzExRXFGaVYxS0lkVE95UEJQclkwYmZ3SFZqdFhzekRaX3VwbkFfa3p3?oc=5"
     },
     {
       "iso": "ARG",
@@ -4132,7 +4132,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T21:30:03Z",
+      "last_update": "2026-05-22T21:35:32Z",
       "signals": 4,
       "recent": [
         {
