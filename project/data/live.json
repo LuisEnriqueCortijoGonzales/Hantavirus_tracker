@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-22T13:45:03.718592Z",
-  "next_update": "2026-05-22T13:50:00Z",
+  "generated": "2026-05-22T13:50:32.125348Z",
+  "next_update": "2026-05-22T13:55:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 110,
+      "ytd": 109,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 64,
+      "var_pct": 63,
       "strain": "andes",
-      "new_today": 9,
+      "new_today": 8,
       "r0": null,
-      "signals": 20,
+      "signals": 19,
       "gov_alert": false
     },
     "CHL": {
@@ -21,7 +21,7 @@
       "cfr": 35.5,
       "var_pct": 57,
       "strain": "andes",
-      "new_today": 4,
+      "new_today": 3,
       "r0": null,
       "signals": 1,
       "gov_alert": false
@@ -56,7 +56,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "COL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      74,
-      74,
-      74,
-      74,
-      74,
-      74,
-      74,
-      74,
-      74,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
       76,
       84,
       92,
       101,
-      110
+      109
     ],
     "CHL": [
       31,
@@ -596,7 +596,7 @@
       36,
       39,
       42,
-      45,
+      46,
       49
     ],
     "BRA": [
@@ -1452,7 +1452,8 @@
   ],
   "hourly_history": {
     "ARG": [
-      93,
+      92,
+      92,
       93,
       93,
       94,
@@ -1469,7 +1470,7 @@
       97,
       98,
       98,
-      99,
+      98,
       99,
       99,
       100,
@@ -1480,7 +1481,7 @@
       101,
       102,
       102,
-      103,
+      102,
       103,
       103,
       104,
@@ -1491,13 +1492,12 @@
       105,
       106,
       106,
-      107,
+      106,
       107,
       107,
       108,
       108,
       108,
-      109,
       109,
       109
     ],
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 19,
     "polymarket": 5,
-    "kalshi": 23,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,10 +4020,18 @@
   "signal_summary": {
     "FRA": 1,
     "USA": 3,
-    "ARG": 20,
+    "ARG": 19,
+    "PER": 1,
     "CHL": 1
   },
   "events": [
+    {
+      "iso": "PER",
+      "title": "Un nuevo caso de hantavirus confirmado en un tripulante del MV Hondius repatriado a Pa\u00edses Bajo - El Comercio Per\u00fa",
+      "t": "2026-05-22T13:44:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaGhNR2dmcHpXci1oazV2TVhfNGlzTTNZWDVyWFFlczNBRG52WFJsR0JiZnEtX0RfRXNHbHdkUENLZ0s3LUUtZ0g3S3Uzc1BjSWNfclE3NTZsVHc4STkweDBxVjUyQVBnVU5ERTI5TmJORjVhYkxNMHozRHBka082a1N4T0RwN1ZIdFRxTmpuZV9mSXh5MjNpMkJaLXlCWWlPTzc4bGFSanFKN0V2b3NYMlRlV0dZS1Jwbzd0QV9pczJZdW45TVIzN2NMV1RfbTlJQWJKQ3F1a1dDOExMVGFHNQ?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "Hantavirus and the lessons of Covid: Screening the EU's public health response - Talking Europe - France 24",
@@ -4107,13 +4115,6 @@
       "t": "2026-05-20T15:35:43Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQT0o4TnJ5SlJndzlyNFgzRGdCUDdNcXVXb2RZdUNuSVg0cmc2U3hMTDhxdEN1MGVIZzdzQy1PYTJKMEIzaUkxQXFBTDVXQnFSQjA5TVhnQTdTWksycUhld0syakRWQlhDeFduMEludTFkNzh0RTJ2WUpFa1ZLTTc5dl9EZ0ViZWtsN2thWGNQdTVBdGNzaEpIc2xOZE5Gc0loMkpoTWxUQVpJRExMUEpSY18yMHZFX1Q4ZFpocnRDN0s0SVE5MFBkODZQanZpbjN3WEVlR094ZUtnWXVNSXVYN21R?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus: se identificaron 3 nuevos casos en Argentina - elpaisdiario.com.ar",
-      "t": "2026-05-20T14:08:44Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNFIwenVVcGlZbGF2MWkzOXZCWV8zeHd2S01FRGZRSEpWSHlsS29mMWVxS01EVjcxQlF4UjV0Qmo5djRzODV3cUhZRG56SWF3UFpERHdUa0ttTzl5bkRKdE9icFBwWmE4akFQcEpiSk43cFAxcmtQcjFZSWlOcWlpdGE0OS1mYklNTFlJb2l1bV9KT3JyeEc2TTNJdw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4216,7 +4217,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T13:45:03Z",
+      "last_update": "2026-05-22T13:50:32Z",
       "signals": 6,
       "recent": [
         {
