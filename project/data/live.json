@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-22T19:50:32.102297Z",
-  "next_update": "2026-05-22T19:55:00Z",
+  "generated": "2026-05-22T19:55:32.049460Z",
+  "next_update": "2026-05-22T20:00:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 106,
+      "ytd": 107,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 59,
+      "var_pct": 60,
       "strain": "andes",
       "new_today": 8,
       "r0": null,
-      "signals": 9,
+      "signals": 10,
       "gov_alert": false
     },
     "CHL": {
@@ -577,11 +577,11 @@
       70,
       70,
       70,
-      74,
+      75,
       82,
       90,
-      98,
-      106
+      99,
+      107
     ],
     "CHL": [
       31,
@@ -1453,7 +1453,6 @@
   "hourly_history": {
     "ARG": [
       90,
-      90,
       91,
       91,
       91,
@@ -1472,7 +1471,6 @@
       96,
       96,
       96,
-      97,
       97,
       97,
       98,
@@ -1483,6 +1481,7 @@
       99,
       100,
       100,
+      100,
       101,
       101,
       101,
@@ -1495,11 +1494,12 @@
       104,
       104,
       104,
-      105,
       105,
       105,
       106,
-      106
+      106,
+      106,
+      107
     ],
     "CHL": [
       43,
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 18,
     "polymarket": 5,
-    "kalshi": 18,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 2,
     "FRA": 2,
-    "ARG": 9,
+    "ARG": 10,
     "PER": 1,
     "CHL": 1
   },
@@ -4104,6 +4104,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Detectaron tres nuevos casos de hantavirus en Argentina y ya son 105 en la temporada - AHORA Entre R\u00edos",
+      "t": "2026-05-20T16:57:14Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVkJEY0FWSE5Wb21TZ1B0MFZIdkxJNEIyNTJaTUJWX1lGRXI5azgxZG9WZjEwQjdzOVhPUG1JdVlYUkFqZTBsT2dnYlVNVTVvR1JNeUJZTW5GREhqZUFUWUxlYVJ3eHBGT2tXbks5TFBLNlEtbnl3ZVpBR1Z1bDhibElsdTlLbVRLNlkxc1ZFNFlPTkxnc2lzYTh1MnVyMm9CX3k5U0thWGtNWWxsdmdDR0lwS20?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
       "t": "2026-05-15T12:33:58Z",
       "source": "GoogleNews-ES",
@@ -4147,7 +4154,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T19:50:32Z",
+      "last_update": "2026-05-22T19:55:32Z",
       "signals": 4,
       "recent": [
         {
