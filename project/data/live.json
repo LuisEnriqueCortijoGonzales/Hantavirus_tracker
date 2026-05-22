@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-22T07:30:22.097618Z",
-  "next_update": "2026-05-22T07:35:00Z",
+  "generated": "2026-05-22T07:35:03.690312Z",
+  "next_update": "2026-05-22T07:40:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GRC": {
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 19,
     "polymarket": 5,
-    "kalshi": 20,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4021,7 +4021,6 @@
     "USA": 3,
     "ARG": 18,
     "CAN": 1,
-    "GBR": 1,
     "CHL": 1
   },
   "events": [
@@ -4152,13 +4151,6 @@
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTkduM1FiV0xLd1Fucm9vRXZ6OEtacmFoc3RPRzA3bVdOWDcwSk1CTGhpYzk0WWRFSktWa19kMVg2eFNrNnRhLXZYdUsza3ZZcm14Z2YySjVJQW91UkE0SW51eFZwRWhuMnpEWVBMSmstUWtwLWtQX0psYkgyWnlqS2RHZ2RaRWVJbDRnanZmTEZwMFpmcUMtbGZqODNlbUFGdndaQ1dPci1HM2pVN3VHUENNU19VNVg0RHhtVVB5dm1QdC0zQk9JTdIBzgFBVV95cUxONHlUNVZqNnVSOC11MFJ5eWZyOUIycnd3UXlPSk55aThsSFNRRE9lY3BzamNtVVMwNlNjeVhNNlBreHkwVlg0dkNYSTM1ZVJ4YWYtQjI1VUNfdUlOVUdsNXNkWWtFMWE5aTA2enJNMVVfandzQTRTNWlQbFhaaXFaWWt1RkZ6d0ZsNF9oQ3BYY3NneS1TT3NsYjFBWHVYSGsybENfOVJkdXRfdWRQM0NycnRsSC0zbDJCamM5NTZpT19HdzJHOGNleXlwUFlEdw?oc=5"
     },
     {
-      "iso": "GBR",
-      "title": "Reino Unido recurre al antiviral japon\u00e9s Avigan para blindar su respuesta al brote de hantavirus Andes - curecompass.com.ar",
-      "t": "2026-05-19T17:45:58Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdDNPeldlZVpwXzhiMm1haGlTRkVaQ2xLX2FQekRnbjlDZ1NsYkN1QXY2cjdxaDhuRzZsSEhjTGJ1T3NTaGR0SGdZbzBrel9OWjdnT29Yb2cyMkxWVFFVdkg3S21rM3NhX3k1cTNEVnFWd1BWZ3hqQkJHenJtS1RKeXNtWG1CSkxGS1d4cVhPV2J5cGtsZFJUMU95UkVqendmdWZGOThxVWwxRDNEVnZLS29yWnFUSG1hbkZsMzJXQXFoWVhZdVVXOEdB?oc=5"
-    },
-    {
       "iso": "USA",
       "title": "Confirman el primer caso de Hantavirus en Estados Unidos no relacionado con el crucero MV Hondius - HOLA",
       "t": "2026-05-19T01:25:00Z",
@@ -4210,7 +4202,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T07:30:22Z",
+      "last_update": "2026-05-22T07:35:03Z",
       "signals": 6,
       "recent": [
         {
