@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-22T14:25:32.057642Z",
-  "next_update": "2026-05-22T14:30:00Z",
+  "generated": "2026-05-22T14:30:32.061531Z",
+  "next_update": "2026-05-22T14:35:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 108,
+      "ytd": 109,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 62,
+      "var_pct": 63,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 9,
       "r0": null,
-      "signals": 17,
+      "signals": 18,
       "gov_alert": false
     },
     "CHL": {
@@ -577,11 +577,11 @@
       73,
       73,
       73,
-      75,
-      83,
-      91,
+      76,
+      84,
+      92,
       100,
-      108
+      109
     ],
     "CHL": [
       31,
@@ -1454,18 +1454,17 @@
     "ARG": [
       92,
       92,
-      92,
       93,
       93,
       93,
       94,
       94,
       94,
-      95,
       95,
       95,
       96,
       96,
+      96,
       97,
       97,
       97,
@@ -1475,7 +1474,6 @@
       99,
       99,
       99,
-      100,
       100,
       100,
       101,
@@ -1483,6 +1481,7 @@
       101,
       102,
       102,
+      102,
       103,
       103,
       103,
@@ -1491,7 +1490,7 @@
       104,
       105,
       105,
-      105,
+      106,
       106,
       106,
       107,
@@ -1499,7 +1498,8 @@
       107,
       108,
       108,
-      108
+      108,
+      109
     ],
     "CHL": [
       42,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 18,
+    "composite": 17,
     "epidemio": 19,
     "polymarket": 5,
-    "kalshi": 27,
+    "kalshi": 25,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "FRA": 1,
     "USA": 4,
-    "ARG": 17,
+    "ARG": 18,
     "PER": 1,
     "CHL": 1
   },
@@ -4152,6 +4152,13 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYjM2dk5WaEhHX2dmZGhQTEJKdy1yOGdoNjlyNHEwN3VtSHJXVS10TEJPbVJfTmNnSHpwR0FhdXhwUzlNRGp4M3lOQmN6UDRrbVIzZjA3alBWczZhNVJPQXd5LWJFd2ZkaHpEUlRfNTRiNUpZZzMwNmpyQWdtTTVlVUt5Vkw1cmJBdWN3VXVZWGhfTnkwLXAzS2FyRnpNWTJwZ2RnSXBGY3VTdw?oc=5"
     },
     {
+      "iso": "ARG",
+      "title": "Investigadores argentinos buscan roedores para hallar origen del brote de hantavirus - Cadena 3 Argentina",
+      "t": "2026-05-20T04:31:13Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTkduM1FiV0xLd1Fucm9vRXZ6OEtacmFoc3RPRzA3bVdOWDcwSk1CTGhpYzk0WWRFSktWa19kMVg2eFNrNnRhLXZYdUsza3ZZcm14Z2YySjVJQW91UkE0SW51eFZwRWhuMnpEWVBMSmstUWtwLWtQX0psYkgyWnlqS2RHZ2RaRWVJbDRnanZmTEZwMFpmcUMtbGZqODNlbUFGdndaQ1dPci1HM2pVN3VHUENNU19VNVg0RHhtVVB5dm1QdC0zQk9JTdIBzgFBVV95cUxONHlUNVZqNnVSOC11MFJ5eWZyOUIycnd3UXlPSk55aThsSFNRRE9lY3BzamNtVVMwNlNjeVhNNlBreHkwVlg0dkNYSTM1ZVJ4YWYtQjI1VUNfdUlOVUdsNXNkWWtFMWE5aTA2enJNMVVfandzQTRTNWlQbFhaaXFaWWt1RkZ6d0ZsNF9oQ3BYY3NneS1TT3NsYjFBWHVYSGsybENfOVJkdXRfdWRQM0NycnRsSC0zbDJCamM5NTZpT19HdzJHOGNleXlwUFlEdw?oc=5"
+    },
+    {
       "iso": "USA",
       "title": "Ebola, hantavirus and what these frightening outbreaks really mean - USA Today",
       "t": "2026-05-20T02:22:00Z",
@@ -4210,7 +4217,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T14:25:32Z",
+      "last_update": "2026-05-22T14:30:32Z",
       "signals": 6,
       "recent": [
         {
