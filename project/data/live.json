@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-22T15:35:32.184364Z",
-  "next_update": "2026-05-22T15:40:00Z",
+  "generated": "2026-05-22T15:40:32.079187Z",
+  "next_update": "2026-05-22T15:45:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 109,
+      "ytd": 108,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 63,
+      "var_pct": 62,
       "strain": "andes",
-      "new_today": 9,
+      "new_today": 8,
       "r0": null,
-      "signals": 17,
+      "signals": 16,
       "gov_alert": false
     },
     "CHL": {
@@ -214,12 +214,12 @@
       "gov_alert": false
     },
     "FIN": {
-      "ytd": 341,
+      "ytd": 342,
       "alert": "brote",
       "cfr": 0.1,
       "var_pct": 9,
       "strain": "puumala",
-      "new_today": 16,
+      "new_today": 17,
       "r0": null,
       "signals": 0,
       "gov_alert": false
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 2,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "CHE": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      76,
-      84,
-      92,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      75,
+      83,
+      91,
       100,
-      109
+      108
     ],
     "CHL": [
       31,
@@ -885,7 +885,7 @@
       312,
       312,
       325,
-      341
+      342
     ],
     "SWE": [
       145,
@@ -1454,6 +1454,7 @@
     "ARG": [
       92,
       92,
+      92,
       93,
       93,
       93,
@@ -1465,10 +1466,10 @@
       95,
       96,
       96,
+      96,
       97,
       97,
       97,
-      98,
       98,
       98,
       99,
@@ -1482,7 +1483,7 @@
       101,
       102,
       102,
-      103,
+      102,
       103,
       103,
       104,
@@ -1493,13 +1494,12 @@
       105,
       106,
       106,
+      106,
       107,
       107,
       107,
       108,
-      108,
-      108,
-      109
+      108
     ],
     "CHL": [
       43,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 18,
     "polymarket": 5,
-    "kalshi": 20,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,21 +4018,14 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "FRA": 4,
+    "FRA": 3,
     "USA": 4,
-    "ARG": 17,
+    "ARG": 16,
     "PER": 1,
     "CAN": 1,
     "CHL": 1
   },
   "events": [
-    {
-      "iso": "FRA",
-      "title": "El paciente con nuevo caso de hantavirus ingres\u00f3 en un hospital de Pa\u00edses Bajos - France 24",
-      "t": "2026-05-22T14:47:10Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUm5wVnpaNFJOTzJkTjlXWkFDS0N3ZHp1ckVwekhwbjhZSkJaemYySTdra2NrcVdSWDQ5RE80M2F4eHpKVnFCRUtWR3pnUC1VS0Ftb3gxRXZZZzFsc2RESmlsVlZISENfSGxvbHRFM3RxMTh2WUNVdE9GZExiRl9nTlBTdmNLNFB0TlU1empUOTVmenphSnRzcTFKa1NyMEEwbng2RmdIUzUxZFBmSkdEckd3Q0VjNGF2SThsdmNTdUlsaWptNS0xMHBTTEZ5aWhja091bEZtTW1LZw?oc=5"
-    },
     {
       "iso": "PER",
       "title": "Un nuevo caso de hantavirus confirmado en un tripulante del MV Hondius repatriado a Pa\u00edses Bajo - El Comercio Per\u00fa",
@@ -4188,13 +4181,6 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3VsYjJOMHNjeFpfam4xcGYtLVhPM0tGLWY2MUdFUkFPNW9FMXFQVEZjSWw5V2Q2bHBkZ1pzS2VvSUFHdklzLUU3TkpFMEFNZGM4WDQ3bWZzOTdvU3I5eU5yQllUeVRnZUlnZmJseHFEZU5nT1ZwRmRuRjJQQ0dUbFJpVDBlbTc5Rml2Z243aGVodV8zZ2l0TEpQYkJKREtjNVpVUQ?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "Argentina\u2019s icy outpost at the end of the world fears the hantavirus will chill tourism - AP News",
-      "t": "2026-05-18T21:24:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3ZsNWRWd2JEZEpWclg4V2RoMlJ0bWRiVFpSN0pZX3ZfX0JtdW15RHZicG5od1FMbl92Tm4zdC1DRHBsQW1XR3VtZnVOQ2JOYXd2QlZCWFpsTzJHVGEtTDFnbmRSTy1EV04wNmhVM2xMVkZTVGg5dURsZktfMFNFZG43S0FpdFA3ZzJ0R09wQXVzNHRMaGY1Ynkxa2VMSXowcU9CZ3BCWnZQaFZi?oc=5"
-    },
-    {
       "iso": "CAN",
       "title": "Salud. Canad\u00e1 confirma un caso de hantavirus: se trata de un pasajero del crucero MV Hondius - La Voz del Interior",
       "t": "2026-05-17T18:37:27Z",
@@ -4239,7 +4225,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T15:35:32Z",
+      "last_update": "2026-05-22T15:40:32Z",
       "signals": 8,
       "recent": [
         {
