@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-22T12:50:01.535214Z",
-  "next_update": "2026-05-22T12:55:00Z",
+  "generated": "2026-05-22T12:55:31.803681Z",
+  "next_update": "2026-05-22T13:00:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "CHE": {
@@ -4006,7 +4006,7 @@
     "composite": 17,
     "epidemio": 19,
     "polymarket": 5,
-    "kalshi": 24,
+    "kalshi": 26,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4018,11 +4018,19 @@
     "outbreak_count": 7
   },
   "signal_summary": {
+    "FRA": 1,
     "USA": 3,
     "ARG": 20,
     "CHL": 1
   },
   "events": [
+    {
+      "iso": "FRA",
+      "title": "Talking Europe - Hantavirus and the lessons of Covid: Screening the EU's public health response - France 24",
+      "t": "2026-05-22T12:53:14Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaU1tXzZaeXNQMGd3d3FVZkhhTUd0ZzRvTWIyMWQ3ejgtUERQaWpUR2V5TF8xb1Z6OFdUMi0zTFNaUG1lWDdfbFBTNGtBNTIxd0hiVjQ1NzhqWWVwQnlUWTZsaEtELXpXVjRaNE5JLXBRSktGUFdkMFVlUHVSTk1PWUtqWFhNbFdqZ2FDX0h1cDlZbWxweUt4a1lORk5TOWFFamVUMmlGNDhWclZZVzV2cFBJS3MxMTI3NG0zb0ZwZDJVUE5CM293QTlYdkFaS2h0VGIwMg?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina refuerza vigilancia sanitaria ante brote de hantavirus en crucero - Cadena 3 Argentina",
@@ -4208,7 +4216,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T12:50:01Z",
+      "last_update": "2026-05-22T12:55:31Z",
       "signals": 6,
       "recent": [
         {
