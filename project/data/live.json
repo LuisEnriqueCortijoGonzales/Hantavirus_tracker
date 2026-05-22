@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-22T01:55:22.078065Z",
-  "next_update": "2026-05-22T02:00:00Z",
+  "generated": "2026-05-22T02:00:22.047920Z",
+  "next_update": "2026-05-22T02:05:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "CHE": {
@@ -1401,7 +1401,6 @@
     "2026-05-22T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-20T02:00:00Z",
     "2026-05-20T03:00:00Z",
     "2026-05-20T04:00:00Z",
     "2026-05-20T05:00:00Z",
@@ -1448,11 +1447,11 @@
     "2026-05-21T22:00:00Z",
     "2026-05-21T23:00:00Z",
     "2026-05-22T00:00:00Z",
-    "2026-05-22T01:00:00Z"
+    "2026-05-22T01:00:00Z",
+    "2026-05-22T02:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      88,
       89,
       89,
       89,
@@ -1499,6 +1498,7 @@
       104,
       104,
       105,
+      105,
       105
     ],
     "CHL": [
@@ -1508,7 +1508,6 @@
       41,
       41,
       41,
-      41,
       42,
       42,
       42,
@@ -1546,6 +1545,7 @@
       46,
       46,
       46,
+      47,
       47,
       47,
       47,
@@ -2422,7 +2422,6 @@
       312,
       312,
       312,
-      312,
       313,
       314,
       314,
@@ -2449,7 +2448,8 @@
       329,
       330,
       331,
-      331
+      331,
+      332
     ],
     "SWE": [
       145,
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 19,
     "polymarket": 5,
-    "kalshi": 21,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,6 +4020,7 @@
   "signal_summary": {
     "USA": 2,
     "ARG": 21,
+    "FRA": 1,
     "CHL": 1,
     "GBR": 1
   },
@@ -4179,6 +4180,13 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdDNPeldlZVpwXzhiMm1haGlTRkVaQ2xLX2FQekRnbjlDZ1NsYkN1QXY2cjdxaDhuRzZsSEhjTGJ1T3NTaGR0SGdZbzBrel9OWjdnT29Yb2cyMkxWVFFVdkg3S21rM3NhX3k1cTNEVnFWd1BWZ3hqQkJHenJtS1RKeXNtWG1CSkxGS1d4cVhPV2J5cGtsZFJUMU95UkVqendmdWZGOThxVWwxRDNEVnZLS29yWnFUSG1hbkZsMzJXQXFoWVhZdVVXOEdB?oc=5"
     },
     {
+      "iso": "FRA",
+      "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
+      "t": "2026-05-16T18:07:02Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ01MSERfY0JHbWVCdy1rSWtHZ3EtNkJCNU5kcU9SQjNwbGY1b1B1NWE1alpYOGVsRnJxZWM5cU90Q2VIZzJiYzdjM0h2blhaUzExWEEtNlYtRkxORE1UR3dWTkhLTEsxTnFXSjczNHlJRmlVc3NpbHNfcGMwVTFRNlFtaGVlTjdlMUHSAY8BQVVfeXFMTUhqV3ctTE9hV3luREJWRnpHbzBnQ2EwZmk2anZfZTlFTGFIU193QVlUUFJpOWpTMGEzNXkwZFREaDFnZTMyc0xHb0tZWVhkN0pGUThSbEVPWHVtUVVhRXpFanBxN0pmYzVHMEtOWjNSNkxPMHJZV1Nlb1Z1bXlDT2NUbDVndlZONjgxb2lxcFk?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
       "t": "2026-05-15T12:33:58Z",
@@ -4216,8 +4224,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T01:55:22Z",
-      "signals": 4,
+      "last_update": "2026-05-22T02:00:22Z",
+      "signals": 5,
       "recent": [
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
@@ -4238,6 +4246,11 @@
           "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
           "t": "2026-05-10T07:00:00Z",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
+        },
+        {
+          "title": "Version of hantavirus behind deadly cruise ship outbreak matches known strain, France says - CBS News",
+          "t": "2026-05-16T18:07:02Z",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ01MSERfY0JHbWVCdy1rSWtHZ3EtNkJCNU5kcU9SQjNwbGY1b1B1NWE1alpYOGVsRnJxZWM5cU90Q2VIZzJiYzdjM0h2blhaUzExWEEtNlYtRkxORE1UR3dWTkhLTEsxTnFXSjczNHlJRmlVc3NpbHNfcGMwVTFRNlFtaGVlTjdlMUHSAY8BQVVfeXFMTUhqV3ctTE9hV3luREJWRnpHbzBnQ2EwZmk2anZfZTlFTGFIU193QVlUUFJpOWpTMGEzNXkwZFREaDFnZTMyc0xHb0tZWVhkN0pGUThSbEVPWHVtUVVhRXpFanBxN0pmYzVHMEtOWjNSNkxPMHJZV1Nlb1Z1bXlDT2NUbDVndlZONjgxb2lxcFk?oc=5"
         }
       ]
     }
