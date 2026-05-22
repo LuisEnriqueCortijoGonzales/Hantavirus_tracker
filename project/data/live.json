@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-21T23:55:03.686684Z",
-  "next_update": "2026-05-22T00:00:00Z",
-  "days_active": 13,
+  "generated": "2026-05-22T00:00:22.050241Z",
+  "next_update": "2026-05-22T00:05:00Z",
+  "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 104,
+      "ytd": 105,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 55,
+      "var_pct": 56,
       "strain": "andes",
       "new_today": 9,
       "r0": null,
-      "signals": 18,
+      "signals": 21,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      73,
-      79,
-      87,
-      95,
-      104
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      74,
+      80,
+      88,
+      96,
+      105
     ],
     "CHL": [
       31,
@@ -1385,7 +1385,6 @@
     ]
   },
   "dates": [
-    "2026-05-08T12:00Z",
     "2026-05-09T12:00Z",
     "2026-05-10T12:00Z",
     "2026-05-11T12:00Z",
@@ -1398,10 +1397,10 @@
     "2026-05-18T12:00Z",
     "2026-05-19T12:00Z",
     "2026-05-20T12:00Z",
-    "2026-05-21T12:00Z"
+    "2026-05-21T12:00Z",
+    "2026-05-22T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-20T00:00:00Z",
     "2026-05-20T01:00:00Z",
     "2026-05-20T02:00:00Z",
     "2026-05-20T03:00:00Z",
@@ -1448,13 +1447,11 @@
     "2026-05-21T20:00:00Z",
     "2026-05-21T21:00:00Z",
     "2026-05-21T22:00:00Z",
-    "2026-05-21T23:00:00Z"
+    "2026-05-21T23:00:00Z",
+    "2026-05-22T00:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      87,
-      87,
-      88,
       88,
       88,
       89,
@@ -1466,7 +1463,6 @@
       91,
       91,
       91,
-      92,
       92,
       92,
       93,
@@ -1477,13 +1473,13 @@
       94,
       95,
       95,
+      95,
       96,
       96,
       96,
       97,
       97,
       97,
-      98,
       98,
       98,
       99,
@@ -1491,19 +1487,22 @@
       99,
       100,
       100,
+      100,
       101,
       101,
       101,
-      102,
       102,
       102,
       103,
       103,
-      103
+      103,
+      104,
+      104,
+      104,
+      105
     ],
     "CHL": [
       40,
-      40,
       41,
       41,
       41,
@@ -1548,6 +1547,7 @@
       46,
       46,
       46,
+      47,
       47,
       47
     ],
@@ -2424,7 +2424,6 @@
       312,
       312,
       312,
-      312,
       313,
       314,
       314,
@@ -2449,7 +2448,8 @@
       328,
       329,
       329,
-      330
+      330,
+      331
     ],
     "SWE": [
       145,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 18,
     "polymarket": 5,
-    "kalshi": 20,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 2,
-    "ARG": 18,
+    "ARG": 21,
     "CHL": 1,
     "GBR": 1
   },
@@ -4067,6 +4067,13 @@
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUGhmdHVmbkhmLUV3Wk9tdnhObDBKT0JET1J1SHJORkFwNkVZU0xpUlZUOVdnczRXWlcybXFsaXlRNXJtMThfdWJOTWh5eHBYY18wVWVEczFDSjFEOUpGU2RPRzR0ekZKb1hjYm9NYTF5U1hQd0FpZE4ySWtZLXJmbzA2Uk9mMVRzbXZtalVkUDhzR3ItNFVLal9FVkpyc05SNnZPS0RMN3lYN21WY09LTmY1WGlVUzUyZEZjbXhoVXBEWkVXVzFzVnFyTm1PTDQ3eEE?oc=5"
     },
     {
+      "iso": "ARG",
+      "title": "Alarma por Hantavirus en Argentina: ya se cuentan 45 casos en lo que va de 2026 - El Liberal",
+      "t": "2026-05-21T00:25:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPX2NIWnJfVGZ1akM2d3R5dTBjb0cxU0lCZVp5djFReWlBT2g4QlZadkhydS15ckRfbVcta3A4WGxCekVXMXE2RkU4NmxXQ3VVdVJiak04MEwwVW5iUENMRjA5UTdSS2JBbUVCMFdyYmx2MXhqX2NxdnpGMEVoVGt6R1ZpWVI4Mk9KeTdBOEc4bnBNOWg3Q2ZWVGlkdV9KNnhXNnA3LXlYVWVUbzYzdDVJQzlmbnI5X2h1OGtNWlNlaDBjWC0zUlHSAc8BQVVfeXFMTzJIa3g2MHJFODhyTDdiak0wb2xIVTJOaUxPeDRKYm1BNjR3a01LQU9lS2t1dElqb0F0Y1V1bXRnZDJHTDR5MS1oaXhfVzI5QmNEN2xNQTVGMjliWld3UnQwYVBXaVllVlFLN1o2cEwtMFdoc044VkdpVHRLcllDOFdNbGFSUGY1cV9rc2cxem1oY0wwbkRRR2dfVjhfVUFrUllwOXY3WWN6dE5RM2lhOGg2UzA4WUhDNlVPYmRQNEQyWU9TYWdiX20xcmRtRm5r?oc=5"
+    },
+    {
       "iso": "CHL",
       "title": "Alerta por hantavirus en Chile: confirman un nuevo caso en la Regi\u00f3n de los Lagos - Diario El Cordillerano",
       "t": "2026-05-20T21:16:31Z",
@@ -4082,6 +4089,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Hantavirus en Argentina: tres provincias suman casos, el pa\u00eds lleg\u00f3 a 105 contagios - LA17",
+      "t": "2026-05-20T17:31:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQUhjVkpDOEo3bks0RFRLOWlrTC0xUUpRUGtnMXZzU3FyTmtqOU9IcEVVZE1jMHZvWWdhRDlzcUV2ZGwzTjNaSUhJbGlpVmF6aXNyeWRzcm13VWpQLU8wM0JTWXdJMF9POE04NkdwdE5vSldET0l5Wk5JYU9DMjM1UG1VcDF6NGFya19GQmdfNlJyU09lNmFMUDFUVHA5QUFzR2oyMDdkblEyV2V0Q0V6bUJSLXg?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Detectaron tres nuevos casos de hantavirus en Argentina y ya son 105 en la temporada - AHORA Entre R\u00edos",
       "t": "2026-05-20T16:57:14Z",
       "source": "GoogleNews-ES",
@@ -4093,6 +4107,13 @@
       "t": "2026-05-20T15:35:43Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQT0o4TnJ5SlJndzlyNFgzRGdCUDdNcXVXb2RZdUNuSVg0cmc2U3hMTDhxdEN1MGVIZzdzQy1PYTJKMEIzaUkxQXFBTDVXQnFSQjA5TVhnQTdTWksycUhld0syakRWQlhDeFduMEludTFkNzh0RTJ2WUpFa1ZLTTc5dl9EZ0ViZWtsN2thWGNQdTVBdGNzaEpIc2xOZE5Gc0loMkpoTWxUQVpJRExMUEpSY18yMHZFX1Q4ZFpocnRDN0s0SVE5MFBkODZQanZpbjN3WEVlR094ZUtnWXVNSXVYN21R?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "\u00bfLleg\u00f3 el hantavirus a la Argentina?: cient\u00edficos realizan pruebas para descartar su presencia en Ushuaia - Canal26",
+      "t": "2026-05-20T14:28:13Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOOG1ORDFsQWFTVGZCT1BmNWk3UC1qS0s0T2lQOEdGYVY4dDZmMU9vVmRsRktQWWNTQlNaV0lfVmxVbTBubXViVEx1TGtmeERvb05QVWg4ZnFzdEFMb1YzT3dMVTFTUEJtLU1RRzJ0a25NaDU1Q0pqZ2lMcTBwTE92dHJ1MkJlSUJmRnFCWHJvSFJRMkZ2Skg5OE9wdDkwNElrT003ejVpcFJuQ1NTaEYwZWpLaVQzRXZmenZFRTBBbG5ISW9lbVprQ3E5UXBPX1IzYm92Q0R0Y2RpQi0zV21SSlU4U2dfa2hUZXc3eA?oc=5"
     },
     {
       "iso": "ARG",
@@ -4195,7 +4216,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-21T23:55:03Z",
+      "last_update": "2026-05-22T00:00:22Z",
       "signals": 4,
       "recent": [
         {
