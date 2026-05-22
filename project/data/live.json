@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-22T15:40:32.079187Z",
-  "next_update": "2026-05-22T15:45:00Z",
+  "generated": "2026-05-22T15:45:12.109460Z",
+  "next_update": "2026-05-22T15:50:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 108,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 62,
+      "var_pct": 61,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 9,
       "r0": null,
-      "signals": 16,
+      "signals": 15,
       "gov_alert": false
     },
     "CHL": {
@@ -580,7 +580,7 @@
       75,
       83,
       91,
-      100,
+      99,
       108
     ],
     "CHL": [
@@ -1452,10 +1452,11 @@
   ],
   "hourly_history": {
     "ARG": [
+      91,
+      91,
       92,
       92,
       92,
-      93,
       93,
       93,
       94,
@@ -1472,10 +1473,10 @@
       97,
       98,
       98,
+      98,
       99,
       99,
       99,
-      100,
       100,
       100,
       101,
@@ -1486,10 +1487,10 @@
       102,
       103,
       103,
+      103,
       104,
       104,
       104,
-      105,
       105,
       105,
       106,
@@ -1498,7 +1499,6 @@
       107,
       107,
       107,
-      108,
       108
     ],
     "CHL": [
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 18,
     "polymarket": 5,
-    "kalshi": 23,
+    "kalshi": 21,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "FRA": 3,
     "USA": 4,
-    "ARG": 16,
+    "ARG": 15,
     "PER": 1,
     "CAN": 1,
     "CHL": 1
@@ -4125,13 +4125,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR3lPWGxjMm53TjUtak50TXJxYUpWTkh0ajN6TkdGOE5HSm9ibUF3SUR0bVZjRHd4NGE0QUk4OEw0al9LOXFWTnhrWTlMcktzNzRRTFNNNTZUek5helEyMW9WREVfVi1Zd2xHQmhmQk5IXzdoR2hwS3RpR2EwNE5GUEpCRXVhS0VfV0hOekxXNTBJS1lCR2lpdXB4WUpvVXduY3U1bEhIVjNtb0t6RDAzTTZyQl9KV3pfWXNpYmNmVTk?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "Hantavirus en Argentina: el total de casos asciende a 105, tras la actualizaci\u00f3n del Bolet\u00edn Epidemiol\u00f3gico - EQSnotas",
-      "t": "2026-05-20T13:42:08Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOaUwtVU04MnRZN1drSEZTY1Z5Y3NzQV9vSFpzSzdhbDVtdDNzbW44WkFLLVZQVjgtWEdzR0RoSUxoYUtBMmNNd3BoQkk0enZzNF90VlBkd3RwQ2JiUlB0MTktY2pTREoxT29UU0dVRmsxVWQ4cGZOUTNudGh5eGV2SHVoNWRQMW82N2ZwdGhGN3VBdkZpdDlNWHhPMzE4eW5QQy1FRWxEcXFBdTdRRXBhWDhwbjUzb1hfWDhMRUp6TjBWejU4OG1VWWpwOGRJaXdSX0NJSmJ4RFNJZkdJeW5QM3kyUEIwOXZBQ1h5Vmh1U2RQSm55SV82LU4wSU9UUdIBjAJBVV95cUxPTG9TT3VUbWVnZHhBenFNSnc5eXVrV2EydjVLdnYzcGVzNldielRtTEwtU040R18tR0Z6TTZ4REJodmwzMzdsdVVidHdxd2VvZlp4WGVuZ1RTbzhwOHNmSTlXT19TTWlidERvaEItSmdyUDVDSHN6aUFmQTZMa1NsU2thNkhkTE5EOEJyVV9uN2NlNXgyUVJmUTVHWjlyYzlfNjN1d0RoNjZqOERFdXp6TEVJbk9EVWU0NzFIN3JSV01LVGpVMTFNWG84X3BUVnNZNnRxcEdOdmYzZlZJUDJ5RHA4cGJ0WEZsRmNPUkZPNDk1eXFGMk1lX21pSlJqbUpkY3RkQnh4QnJhZTBf?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "El \u00e9bola y el hantavirus confirman que el mundo sigue sin estar preparado ante los riesgos, seg\u00fan una experta en pandemias - France 24",
       "t": "2026-05-20T13:09:10Z",
@@ -4225,7 +4218,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T15:40:32Z",
+      "last_update": "2026-05-22T15:45:12Z",
       "signals": 8,
       "recent": [
         {
