@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-22T15:55:12.110296Z",
-  "next_update": "2026-05-22T16:00:00Z",
+  "generated": "2026-05-22T16:00:32.091656Z",
+  "next_update": "2026-05-22T16:05:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -1401,7 +1401,6 @@
     "2026-05-22T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-20T16:00:00Z",
     "2026-05-20T17:00:00Z",
     "2026-05-20T18:00:00Z",
     "2026-05-20T19:00:00Z",
@@ -1448,12 +1447,12 @@
     "2026-05-22T12:00:00Z",
     "2026-05-22T13:00:00Z",
     "2026-05-22T14:00:00Z",
-    "2026-05-22T15:00:00Z"
+    "2026-05-22T15:00:00Z",
+    "2026-05-22T16:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
       91,
-      91,
       92,
       92,
       92,
@@ -1499,6 +1498,7 @@
       107,
       107,
       107,
+      108,
       108
     ],
     "CHL": [
@@ -1509,7 +1509,6 @@
       43,
       43,
       43,
-      43,
       44,
       44,
       44,
@@ -1546,6 +1545,7 @@
       48,
       48,
       48,
+      49,
       49,
       49,
       49,
@@ -2408,7 +2408,6 @@
       312,
       312,
       312,
-      312,
       313,
       314,
       314,
@@ -2449,7 +2448,8 @@
       339,
       340,
       340,
-      341
+      341,
+      342
     ],
     "SWE": [
       145,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 17,
+    "composite": 16,
     "epidemio": 18,
     "polymarket": 5,
-    "kalshi": 26,
+    "kalshi": 22,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4026,6 +4026,13 @@
     "CHL": 1
   },
   "events": [
+    {
+      "iso": "FRA",
+      "title": "Hantavirus isn\u2019t very contagious, but it can spread from human to human - France 24",
+      "t": "2026-05-22T15:54:03Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcUs4MHBRYk12ZHFBZ0kzZ3lnR3phNW9NQkV1dHJjYllUOHE0Vmh0TDFNSlFGaTN3VlduTTd3TmduSHJCLW00N2JjaGlSdHNjbm55SUhOekVNS1pnTW1tcW1uamU5TnRmUVZsQktYSHdGcVFRNkQtVWNiNVZRUVdrOWZJZnNUUnFSamxXQ1R4cWI?oc=5"
+    },
     {
       "iso": "PER",
       "title": "Un nuevo caso de hantavirus confirmado en un tripulante del MV Hondius repatriado a Pa\u00edses Bajo - El Comercio Per\u00fa",
@@ -4125,13 +4132,6 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR3lPWGxjMm53TjUtak50TXJxYUpWTkh0ajN6TkdGOE5HSm9ibUF3SUR0bVZjRHd4NGE0QUk4OEw0al9LOXFWTnhrWTlMcktzNzRRTFNNNTZUek5helEyMW9WREVfVi1Zd2xHQmhmQk5IXzdoR2hwS3RpR2EwNE5GUEpCRXVhS0VfV0hOekxXNTBJS1lCR2lpdXB4WUpvVXduY3U1bEhIVjNtb0t6RDAzTTZyQl9KV3pfWXNpYmNmVTk?oc=5"
     },
     {
-      "iso": "FRA",
-      "title": "Cient\u00edficos buscan hantavirus ante turistas indiferentes en Ushuaia - France 24",
-      "t": "2026-05-20T14:27:24Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVFBRajlFd2xfRmpoN1paWm00UUw5M3JReVJsNEgxMHRld25xSXhRNmdoYVpzTUlJMTVkbXAyNk5mbEl2dEVhZDdVa0VsRnVkYmwyczU3Q1gxMGRydVRjYnlDTVNTT2padjBaVVQtN05wX1dodm9kWnMzdUNDNF91dHNrbGVzWWUyOE1zTk9KRWNYRGc1cmd0YkRLSUtRZnZULXR5UFFXeS01OUZZNnRkMTUybmprNGJNZ3l5SmpPVXBlTlU?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "Confirman nuevos casos de hantavirus en Argentina: detectaron contagios en Chubut, R\u00edo Negro y Jujuy - Canal 12 Web",
       "t": "2026-05-20T13:03:47Z",
@@ -4218,7 +4218,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T15:55:12Z",
+      "last_update": "2026-05-22T16:00:32Z",
       "signals": 8,
       "recent": [
         {
