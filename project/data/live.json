@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-22T12:55:31.803681Z",
-  "next_update": "2026-05-22T13:00:00Z",
+  "generated": "2026-05-22T13:00:03.719532Z",
+  "next_update": "2026-05-22T13:05:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -1401,7 +1401,6 @@
     "2026-05-22T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-20T13:00:00Z",
     "2026-05-20T14:00:00Z",
     "2026-05-20T15:00:00Z",
     "2026-05-20T16:00:00Z",
@@ -1448,11 +1447,11 @@
     "2026-05-22T09:00:00Z",
     "2026-05-22T10:00:00Z",
     "2026-05-22T11:00:00Z",
-    "2026-05-22T12:00:00Z"
+    "2026-05-22T12:00:00Z",
+    "2026-05-22T13:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      92,
       93,
       93,
       93,
@@ -1499,12 +1498,12 @@
       108,
       108,
       109,
+      109,
       109
     ],
     "CHL": [
       42,
       42,
-      42,
       43,
       43,
       43,
@@ -1549,6 +1548,7 @@
       48,
       48,
       48,
+      49,
       49
     ],
     "BRA": [
@@ -2411,7 +2411,6 @@
       312,
       312,
       312,
-      312,
       313,
       314,
       314,
@@ -2449,7 +2448,8 @@
       337,
       338,
       338,
-      339
+      339,
+      340
     ],
     "SWE": [
       145,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 17,
+    "composite": 16,
     "epidemio": 19,
     "polymarket": 5,
-    "kalshi": 26,
+    "kalshi": 23,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4026,7 +4026,7 @@
   "events": [
     {
       "iso": "FRA",
-      "title": "Talking Europe - Hantavirus and the lessons of Covid: Screening the EU's public health response - France 24",
+      "title": "Hantavirus and the lessons of Covid: Screening the EU's public health response - Talking Europe - France 24",
       "t": "2026-05-22T12:53:14Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNaU1tXzZaeXNQMGd3d3FVZkhhTUd0ZzRvTWIyMWQ3ejgtUERQaWpUR2V5TF8xb1Z6OFdUMi0zTFNaUG1lWDdfbFBTNGtBNTIxd0hiVjQ1NzhqWWVwQnlUWTZsaEtELXpXVjRaNE5JLXBRSktGUFdkMFVlUHVSTk1PWUtqWFhNbFdqZ2FDX0h1cDlZbWxweUt4a1lORk5TOWFFamVUMmlGNDhWclZZVzV2cFBJS3MxMTI3NG0zb0ZwZDJVUE5CM293QTlYdkFaS2h0VGIwMg?oc=5"
@@ -4216,7 +4216,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T12:55:31Z",
+      "last_update": "2026-05-22T13:00:03Z",
       "signals": 6,
       "recent": [
         {
