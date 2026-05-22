@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-22T15:30:32.076323Z",
-  "next_update": "2026-05-22T15:35:00Z",
+  "generated": "2026-05-22T15:35:32.184364Z",
+  "next_update": "2026-05-22T15:40:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 108,
+      "ytd": 109,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 61,
+      "var_pct": 63,
       "strain": "andes",
       "new_today": 9,
       "r0": null,
-      "signals": 15,
+      "signals": 17,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      75,
-      83,
-      91,
-      99,
-      108
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      76,
+      84,
+      92,
+      100,
+      109
     ],
     "CHL": [
       31,
@@ -1452,11 +1452,9 @@
   ],
   "hourly_history": {
     "ARG": [
-      91,
-      91,
       92,
       92,
-      92,
+      93,
       93,
       93,
       94,
@@ -1465,7 +1463,6 @@
       95,
       95,
       95,
-      96,
       96,
       96,
       97,
@@ -1479,10 +1476,10 @@
       99,
       100,
       100,
+      100,
       101,
       101,
       101,
-      102,
       102,
       102,
       103,
@@ -1493,13 +1490,16 @@
       104,
       105,
       105,
-      106,
+      105,
       106,
       106,
       107,
       107,
       107,
-      108
+      108,
+      108,
+      108,
+      109
     ],
     "CHL": [
       43,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 18,
     "polymarket": 5,
-    "kalshi": 23,
+    "kalshi": 20,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "FRA": 4,
     "USA": 4,
-    "ARG": 15,
+    "ARG": 17,
     "PER": 1,
     "CAN": 1,
     "CHL": 1
@@ -4188,6 +4188,13 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3VsYjJOMHNjeFpfam4xcGYtLVhPM0tGLWY2MUdFUkFPNW9FMXFQVEZjSWw5V2Q2bHBkZ1pzS2VvSUFHdklzLUU3TkpFMEFNZGM4WDQ3bWZzOTdvU3I5eU5yQllUeVRnZUlnZmJseHFEZU5nT1ZwRmRuRjJQQ0dUbFJpVDBlbTc5Rml2Z243aGVodV8zZ2l0TEpQYkJKREtjNVpVUQ?oc=5"
     },
     {
+      "iso": "ARG",
+      "title": "Argentina\u2019s icy outpost at the end of the world fears the hantavirus will chill tourism - AP News",
+      "t": "2026-05-18T21:24:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3ZsNWRWd2JEZEpWclg4V2RoMlJ0bWRiVFpSN0pZX3ZfX0JtdW15RHZicG5od1FMbl92Tm4zdC1DRHBsQW1XR3VtZnVOQ2JOYXd2QlZCWFpsTzJHVGEtTDFnbmRSTy1EV04wNmhVM2xMVkZTVGg5dURsZktfMFNFZG43S0FpdFA3ZzJ0R09wQXVzNHRMaGY1Ynkxa2VMSXowcU9CZ3BCWnZQaFZi?oc=5"
+    },
+    {
       "iso": "CAN",
       "title": "Salud. Canad\u00e1 confirma un caso de hantavirus: se trata de un pasajero del crucero MV Hondius - La Voz del Interior",
       "t": "2026-05-17T18:37:27Z",
@@ -4207,6 +4214,13 @@
       "t": "2026-05-14T14:48:04Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaUVBWVhjVVJoX0VNXzR6WnlubmhZWS1saTN3OGVqcm1Va0tOcnVBaXcweEk4WFY0VWtCZDVNMmZTSXV3aEdLaHItYWh4ZENCYmFvaS1ZRGc5RFRfVmF4RjZrN2NHQ2tqRjI3aHltS19jSWtHNG5QU0FRRHVreGVRa3JFRjUtSXBfakt5Rk9JOA?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
+      "t": "2026-05-10T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
     }
   ],
   "maritime_events": [
@@ -4225,8 +4239,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T15:30:32Z",
-      "signals": 7,
+      "last_update": "2026-05-22T15:35:32Z",
+      "signals": 8,
       "recent": [
         {
           "title": "El operador niega que el crucero sea el origen del brote de hantavirus - France 24",
