@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-22T12:35:32.171211Z",
-  "next_update": "2026-05-22T12:40:00Z",
+  "generated": "2026-05-22T12:40:32.087958Z",
+  "next_update": "2026-05-22T12:45:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 109,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 63,
+      "var_pct": 62,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 9,
       "r0": null,
-      "signals": 20,
+      "signals": 19,
       "gov_alert": false
     },
     "CHL": {
@@ -214,12 +214,12 @@
       "gov_alert": false
     },
     "FIN": {
-      "ytd": 339,
+      "ytd": 340,
       "alert": "brote",
       "cfr": 0.1,
       "var_pct": 9,
       "strain": "puumala",
-      "new_today": 16,
+      "new_today": 17,
       "r0": null,
       "signals": 0,
       "gov_alert": false
@@ -568,19 +568,19 @@
   },
   "history": {
     "ARG": [
-      74,
-      74,
-      74,
-      74,
-      74,
-      74,
-      74,
-      74,
-      74,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73,
       76,
-      84,
+      83,
       92,
-      101,
+      100,
       109
     ],
     "CHL": [
@@ -592,7 +592,7 @@
       31,
       31,
       31,
-      32,
+      33,
       36,
       39,
       42,
@@ -885,7 +885,7 @@
       312,
       312,
       323,
-      339
+      340
     ],
     "SWE": [
       145,
@@ -1453,7 +1453,8 @@
   "hourly_history": {
     "ARG": [
       92,
-      93,
+      92,
+      92,
       93,
       93,
       94,
@@ -1470,7 +1471,7 @@
       97,
       98,
       98,
-      99,
+      98,
       99,
       99,
       100,
@@ -1481,7 +1482,7 @@
       101,
       102,
       102,
-      103,
+      102,
       103,
       103,
       104,
@@ -1492,13 +1493,12 @@
       105,
       106,
       106,
-      107,
+      106,
       107,
       107,
       108,
       108,
       108,
-      109,
       109
     ],
     "CHL": [
@@ -4006,7 +4006,7 @@
     "composite": 17,
     "epidemio": 19,
     "polymarket": 5,
-    "kalshi": 25,
+    "kalshi": 24,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 3,
-    "ARG": 20,
+    "ARG": 19,
     "CHL": 1
   },
   "events": [
@@ -4179,13 +4179,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
-      "t": "2026-05-12T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeUtmR2dNaUYwdEFTMTc1dUlmZVR4c1MzTXQ5VDZQclYzbW1xdzRfUGF3aWFIc1lSaWpRcXhfbW5OdFVYbW0tekVySTBDYy1Va050T1cwTWVNZHk3a2pmYUNkNDQ2MndoS1N2cUJPaFpfOU9scFlyb1hZZTNwamg3YnJzTnFjbVRUVEFLdFhkQmlXNUlDWUpuQ0hGblpYVkpIcTlKX1kwMjRURTV0UVdkSVMwZDhvZVpMc2RTcFYwdkdTZHZ5SEFwNXBlNld1V2d6eHBmUHVCWVE5UDFsbGYtRDl30gH8AUFVX3lxTFBoQ1JGSnZhTHg2SmpiUlltY3Vzd3p0d3ZLVXR0VEFNQkQzNVlOb19PcVBabUlfdDc5RHR6aGdvOEhiUnNmcE43cGNoZG1KVTZWSmlnOHZxZHJPOWdRWXJkbUVIXzI1SzdjTC1MX3NNaFhodnJwODVRakN1OVZxMkFrNHlEMXlVN3ZFWW1kdUFId21ISkRPRVF6bnJlTlBjZHVOd1NaY2FKbUJfYktwQm5meE1LNVNMQmZyekV2MUQzM1AwcVRtQnhsd3N3Vl83aldDQ2ZxeDB0RlpERE9ENEZ3ekhodXhhLUlGelU0U3VVYVFjeE1OSUpTUXdqTQ?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
       "t": "2026-05-10T07:00:00Z",
       "source": "GoogleNews-ES",
@@ -4208,8 +4201,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T12:35:32Z",
-      "signals": 7,
+      "last_update": "2026-05-22T12:40:32Z",
+      "signals": 6,
       "recent": [
         {
           "title": "Confirman el primer caso de Hantavirus en Estados Unidos no relacionado con el crucero MV Hondius - HOLA",
