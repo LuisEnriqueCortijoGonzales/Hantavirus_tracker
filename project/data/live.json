@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-22T15:05:32.192266Z",
-  "next_update": "2026-05-22T15:10:00Z",
+  "generated": "2026-05-22T15:10:02.090859Z",
+  "next_update": "2026-05-22T15:15:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": null,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "CHE": {
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "FRA": 2,
+    "FRA": 3,
     "USA": 4,
     "ARG": 15,
     "PER": 1,
@@ -4026,6 +4026,13 @@
     "CHL": 1
   },
   "events": [
+    {
+      "iso": "FRA",
+      "title": "El paciente con nuevo caso de hantavirus ingres\u00f3 en un hospital de Pa\u00edses Bajos - France 24",
+      "t": "2026-05-22T14:47:10Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUm5wVnpaNFJOTzJkTjlXWkFDS0N3ZHp1ckVwekhwbjhZSkJaemYySTdra2NrcVdSWDQ5RE80M2F4eHpKVnFCRUtWR3pnUC1VS0Ftb3gxRXZZZzFsc2RESmlsVlZISENfSGxvbHRFM3RxMTh2WUNVdE9GZExiRl9nTlBTdmNLNFB0TlU1empUOTVmenphSnRzcTFKa1NyMEEwbng2RmdIUzUxZFBmSkdEckd3Q0VjNGF2SThsdmNTdUlsaWptNS0xMHBTTEZ5aWhja091bEZtTW1LZw?oc=5"
+    },
     {
       "iso": "PER",
       "title": "Un nuevo caso de hantavirus confirmado en un tripulante del MV Hondius repatriado a Pa\u00edses Bajo - El Comercio Per\u00fa",
@@ -4211,7 +4218,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T15:05:32Z",
+      "last_update": "2026-05-22T15:10:02Z",
       "signals": 7,
       "recent": [
         {
