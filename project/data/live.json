@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-22T14:35:32.195326Z",
-  "next_update": "2026-05-22T14:40:00Z",
+  "generated": "2026-05-22T14:40:32.083708Z",
+  "next_update": "2026-05-22T14:45:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 9,
       "r0": null,
-      "signals": 16,
+      "signals": 15,
       "gov_alert": false
     },
     "CHL": {
@@ -1453,10 +1453,11 @@
   "hourly_history": {
     "ARG": [
       91,
+      91,
+      91,
       92,
       92,
       92,
-      93,
       93,
       93,
       94,
@@ -1473,10 +1474,10 @@
       97,
       98,
       98,
+      98,
       99,
       99,
       99,
-      100,
       100,
       100,
       101,
@@ -1487,10 +1488,10 @@
       102,
       103,
       103,
+      103,
       104,
       104,
       104,
-      105,
       105,
       105,
       106,
@@ -1498,8 +1499,7 @@
       106,
       107,
       107,
-      107,
-      108
+      107
     ],
     "CHL": [
       42,
@@ -4006,7 +4006,7 @@
     "composite": 17,
     "epidemio": 19,
     "polymarket": 5,
-    "kalshi": 24,
+    "kalshi": 25,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "FRA": 1,
     "USA": 4,
-    "ARG": 16,
+    "ARG": 15,
     "PER": 1,
     "CAN": 1,
     "CHL": 1
@@ -4146,13 +4146,6 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYjM2dk5WaEhHX2dmZGhQTEJKdy1yOGdoNjlyNHEwN3VtSHJXVS10TEJPbVJfTmNnSHpwR0FhdXhwUzlNRGp4M3lOQmN6UDRrbVIzZjA3alBWczZhNVJPQXd5LWJFd2ZkaHpEUlRfNTRiNUpZZzMwNmpyQWdtTTVlVUt5Vkw1cmJBdWN3VXVZWGhfTnkwLXAzS2FyRnpNWTJwZ2RnSXBGY3VTdw?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "Investigadores argentinos buscan roedores para hallar origen del brote de hantavirus - Cadena 3 Argentina",
-      "t": "2026-05-20T04:31:13Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTkduM1FiV0xLd1Fucm9vRXZ6OEtacmFoc3RPRzA3bVdOWDcwSk1CTGhpYzk0WWRFSktWa19kMVg2eFNrNnRhLXZYdUsza3ZZcm14Z2YySjVJQW91UkE0SW51eFZwRWhuMnpEWVBMSmstUWtwLWtQX0psYkgyWnlqS2RHZ2RaRWVJbDRnanZmTEZwMFpmcUMtbGZqODNlbUFGdndaQ1dPci1HM2pVN3VHUENNU19VNVg0RHhtVVB5dm1QdC0zQk9JTdIBzgFBVV95cUxONHlUNVZqNnVSOC11MFJ5eWZyOUIycnd3UXlPSk55aThsSFNRRE9lY3BzamNtVVMwNlNjeVhNNlBreHkwVlg0dkNYSTM1ZVJ4YWYtQjI1VUNfdUlOVUdsNXNkWWtFMWE5aTA2enJNMVVfandzQTRTNWlQbFhaaXFaWWt1RkZ6d0ZsNF9oQ3BYY3NneS1TT3NsYjFBWHVYSGsybENfOVJkdXRfdWRQM0NycnRsSC0zbDJCamM5NTZpT19HdzJHOGNleXlwUFlEdw?oc=5"
-    },
-    {
       "iso": "USA",
       "title": "Ebola, hantavirus and what these frightening outbreaks really mean - USA Today",
       "t": "2026-05-20T02:22:00Z",
@@ -4211,7 +4204,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T14:35:32Z",
+      "last_update": "2026-05-22T14:40:32Z",
       "signals": 7,
       "recent": [
         {
