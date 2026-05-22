@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-22T22:30:32.045405Z",
-  "next_update": "2026-05-22T22:35:00Z",
+  "generated": "2026-05-22T22:35:32.064131Z",
+  "next_update": "2026-05-22T22:40:00Z",
   "days_active": 14,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 107,
+      "ytd": 108,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 60,
+      "var_pct": 61,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 9,
       "r0": null,
-      "signals": 9,
+      "signals": 10,
       "gov_alert": false
     },
     "CHL": {
@@ -577,11 +577,11 @@
       70,
       70,
       70,
-      75,
+      76,
       83,
       91,
       99,
-      107
+      108
     ],
     "CHL": [
       31,
@@ -1453,7 +1453,6 @@
   "hourly_history": {
     "ARG": [
       91,
-      91,
       92,
       92,
       92,
@@ -1469,7 +1468,6 @@
       96,
       96,
       96,
-      97,
       97,
       97,
       98,
@@ -1480,6 +1478,7 @@
       99,
       100,
       100,
+      100,
       101,
       101,
       101,
@@ -1492,14 +1491,15 @@
       104,
       104,
       104,
-      105,
       105,
       105,
       106,
       106,
       106,
       107,
-      107
+      107,
+      107,
+      108
     ],
     "CHL": [
       43,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 18,
     "polymarket": 5,
-    "kalshi": 24,
+    "kalshi": 19,
     "max_andes_r0": 1.0,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 2,
     "FRA": 2,
-    "ARG": 9,
+    "ARG": 10,
     "PER": 1
   },
   "events": [
@@ -4089,6 +4089,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Hantavirus en Argentina: confirman 45 contagios y alertan por brote en Buenos Aires - Los Primeros TV",
+      "t": "2026-05-21T02:53:19Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWEh1Q3pUcXcyeU8wWmRBZVd1cTNaS1pUcGRGMC1IUUVJRHNOMWNHY2lpWVdZZmUxR3ZiUUpvZWI3RFNhYnpfUWJaOVZiOUlhdXF2YldjQjBrV1JwSm9FcEFOREYxQkxvbXdsZnJjM3UxbEMxLWZ6T0Z2cFFIUXhTdGQtN3hCMU5GLXBGc0lDSE5PdE9SS0VWWTUzZEdDM3ZxX2VLUGxFdFZTM2RERXZ4bi1SeGFLQW1BaTk2R2RXeTlYNmQxRXlNS3liWEJtR2JiZU1vNnVmYlNxZXNmMjBfMA?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
       "t": "2026-05-20T17:59:00Z",
       "source": "GoogleNews-EN",
@@ -4139,7 +4146,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-22T22:30:32Z",
+      "last_update": "2026-05-22T22:35:32Z",
       "signals": 4,
       "recent": [
         {
@@ -4153,14 +4160,14 @@
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
         },
         {
-          "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
-          "t": "2026-05-10T07:00:00Z",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
-        },
-        {
           "title": "Argentina registra 45 casos de hantavirus y alerta por brote en un crucero - De la Tribuna TV",
           "t": "2026-05-21T10:00:00Z",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSDE1VTZOSU0tWlMzWkFNWi1zRWdpTlJmbGx1X1NHR3pJV1ZBOUNMUlVnbkpJNmdQY2VWWGt6ZV9SMFNuc3RfUm11YUtGS29BZ1dKY1djenFvRTdCOXNDc1dQMlZSclk1WjloWlU3NXhJYjNSQmNkUTVFWVEyMW11MFM0OWFBVUtaQmlFeHctZlY2V3E1aUtjTnI0ekcyMTlJYzJUT3NaclZqUUVDRFk5ZGt1c0poMFo2MV9fTllOeFo?oc=5"
+        },
+        {
+          "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
+          "t": "2026-05-10T07:00:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
         }
       ]
     }
