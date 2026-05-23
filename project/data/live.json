@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-23T01:00:32.073502Z",
-  "next_update": "2026-05-23T01:05:00Z",
+  "generated": "2026-05-23T01:05:32.158027Z",
+  "next_update": "2026-05-23T01:10:00Z",
   "days_active": 15,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -219,7 +219,7 @@
       "cfr": 0.1,
       "var_pct": 11,
       "strain": "puumala",
-      "new_today": 17,
+      "new_today": 16,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -884,7 +884,7 @@
       312,
       312,
       314,
-      331,
+      332,
       348
     ],
     "SWE": [
@@ -4004,9 +4004,9 @@
   },
   "pandemic": {
     "composite": 29,
-    "epidemio": 37,
+    "epidemio": 36,
     "polymarket": 5,
-    "kalshi": 36,
+    "kalshi": 38,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.08,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "USA": 1,
+    "USA": 2,
     "FRA": 2,
     "ARG": 10,
     "PER": 1
@@ -4081,6 +4081,13 @@
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSDE1VTZOSU0tWlMzWkFNWi1zRWdpTlJmbGx1X1NHR3pJV1ZBOUNMUlVnbkpJNmdQY2VWWGt6ZV9SMFNuc3RfUm11YUtGS29BZ1dKY1djenFvRTdCOXNDc1dQMlZSclk1WjloWlU3NXhJYjNSQmNkUTVFWVEyMW11MFM0OWFBVUtaQmlFeHctZlY2V3E1aUtjTnI0ekcyMTlJYzJUT3NaclZqUUVDRFk5ZGt1c0poMFo2MV9fTllOeFo?oc=5"
     },
     {
+      "iso": "USA",
+      "title": "What Ebola and hantavirus are revealing about America\u2019s public health system - Politico",
+      "t": "2026-05-21T09:00:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV1loTDAxemdLT285cDNreXlKVDNjUVRMbVdENUJlOEtTSUpzNzVOSEUtNzRyTXpJdGdvUFV5ZGpDWXJoRG0tUnJ2S0RCRjVFQXlRTzZQNGJtLTIyVnVxLUk1OURldzExRXFGaVYxS0lkVE95UEJQclkwYmZ3SFZqdFhzekRaX3VwbkFfa3p3?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "Hantavirus en Argentina: confirman 45 contagios y alertan por brote en Buenos Aires - Los Primeros TV",
       "t": "2026-05-21T02:53:19Z",
@@ -4139,7 +4146,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-23T01:00:32Z",
+      "last_update": "2026-05-23T01:05:32Z",
       "signals": 4,
       "recent": [
         {
