@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-23T06:15:32.094302Z",
-  "next_update": "2026-05-23T06:20:00Z",
+  "generated": "2026-05-23T06:20:02.135969Z",
+  "next_update": "2026-05-23T06:25:00Z",
   "days_active": 15,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -10,9 +10,9 @@
       "cfr": 37.3,
       "var_pct": 67,
       "strain": "andes",
-      "new_today": 9,
+      "new_today": 8,
       "r0": 5.0,
-      "signals": 12,
+      "signals": 13,
       "gov_alert": false
     },
     "CHL": {
@@ -21,7 +21,7 @@
       "cfr": 35.5,
       "var_pct": 64,
       "strain": "andes",
-      "new_today": 4,
+      "new_today": 3,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2357,
+      "ytd": 2358,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 1,
       "strain": "hantaan",
-      "new_today": 16,
+      "new_today": 17,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -576,11 +576,11 @@
       71,
       71,
       71,
-      71,
+      72,
       79,
       87,
       95,
-      103,
+      104,
       112
     ],
     "CHL": [
@@ -596,7 +596,7 @@
       38,
       41,
       44,
-      47,
+      48,
       51
     ],
     "BRA": [
@@ -1349,7 +1349,7 @@
       2341,
       2341,
       2341,
-      2357
+      2358
     ],
     "KOR": [
       89,
@@ -1453,11 +1453,9 @@
   "hourly_history": {
     "ARG": [
       95,
-      95,
       96,
       96,
       96,
-      97,
       97,
       97,
       98,
@@ -1465,6 +1463,7 @@
       98,
       99,
       99,
+      99,
       100,
       100,
       100,
@@ -1477,7 +1476,6 @@
       103,
       103,
       103,
-      104,
       104,
       104,
       105,
@@ -1485,13 +1483,13 @@
       105,
       106,
       106,
+      106,
       107,
       107,
       107,
       108,
       108,
       108,
-      109,
       109,
       109,
       110,
@@ -1499,6 +1497,8 @@
       110,
       111,
       111,
+      111,
+      112,
       112
     ],
     "CHL": [
@@ -4006,7 +4006,7 @@
     "composite": 29,
     "epidemio": 37,
     "polymarket": 5,
-    "kalshi": 36,
+    "kalshi": 37,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.15,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 2,
     "FRA": 1,
-    "ARG": 12,
+    "ARG": 13,
     "PER": 1
   },
   "events": [
@@ -4124,6 +4124,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
+      "t": "2026-05-12T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQeUtmR2dNaUYwdEFTMTc1dUlmZVR4c1MzTXQ5VDZQclYzbW1xdzRfUGF3aWFIc1lSaWpRcXhfbW5OdFVYbW0tekVySTBDYy1Va050T1cwTWVNZHk3a2pmYUNkNDQ2MndoS1N2cUJPaFpfOU9scFlyb1hZZTNwamg3YnJzTnFjbVRUVEFLdFhkQmlXNUlDWUpuQ0hGblpYVkpIcTlKX1kwMjRURTV0UVdkSVMwZDhvZVpMc2RTcFYwdkdTZHZ5SEFwNXBlNld1V2d6eHBmUHVCWVE5UDFsbGYtRDl30gH8AUFVX3lxTFBoQ1JGSnZhTHg2SmpiUlltY3Vzd3p0d3ZLVXR0VEFNQkQzNVlOb19PcVBabUlfdDc5RHR6aGdvOEhiUnNmcE43cGNoZG1KVTZWSmlnOHZxZHJPOWdRWXJkbUVIXzI1SzdjTC1MX3NNaFhodnJwODVRakN1OVZxMkFrNHlEMXlVN3ZFWW1kdUFId21ISkRPRVF6bnJlTlBjZHVOd1NaY2FKbUJfYktwQm5meE1LNVNMQmZyekV2MUQzM1AwcVRtQnhsd3N3Vl83aldDQ2ZxeDB0RlpERE9ENEZ3ekhodXhhLUlGelU0U3VVYVFjeE1OSUpTUXdqTQ?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Brote de hantavirus en Argentina: tres muertes y vigilancia internacional en cruceros - Perfil",
       "t": "2026-05-11T07:00:00Z",
       "source": "GoogleNews-ES",
@@ -4153,8 +4160,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-23T06:15:32Z",
-      "signals": 6,
+      "last_update": "2026-05-23T06:20:02Z",
+      "signals": 7,
       "recent": [
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
