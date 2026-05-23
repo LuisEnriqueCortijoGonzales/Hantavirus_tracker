@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-23T05:55:32.061191Z",
-  "next_update": "2026-05-23T06:00:00Z",
+  "generated": "2026-05-23T06:00:32.051778Z",
+  "next_update": "2026-05-23T06:05:00Z",
   "days_active": 15,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 111,
+      "ytd": 110,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 66,
+      "var_pct": 65,
       "strain": "andes",
       "new_today": 8,
       "r0": 5.0,
-      "signals": 12,
+      "signals": 10,
       "gov_alert": false
     },
     "CHL": {
@@ -56,7 +56,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "COL": {
@@ -217,7 +217,7 @@
       "ytd": 351,
       "alert": "brote",
       "cfr": 0.1,
-      "var_pct": 12,
+      "var_pct": 13,
       "strain": "puumala",
       "new_today": 16,
       "r0": 3.5,
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      79,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      78,
       86,
-      95,
-      103,
-      111
+      94,
+      102,
+      110
     ],
     "CHL": [
       31,
@@ -591,7 +591,7 @@
       31,
       31,
       31,
-      31,
+      32,
       35,
       38,
       41,
@@ -1401,7 +1401,6 @@
     "2026-05-23T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-21T06:00:00Z",
     "2026-05-21T07:00:00Z",
     "2026-05-21T08:00:00Z",
     "2026-05-21T09:00:00Z",
@@ -1448,17 +1447,19 @@
     "2026-05-23T02:00:00Z",
     "2026-05-23T03:00:00Z",
     "2026-05-23T04:00:00Z",
-    "2026-05-23T05:00:00Z"
+    "2026-05-23T05:00:00Z",
+    "2026-05-23T06:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
+      94,
+      94,
       95,
       95,
       95,
       96,
       96,
       96,
-      97,
       97,
       97,
       98,
@@ -1466,6 +1467,7 @@
       98,
       99,
       99,
+      99,
       100,
       100,
       100,
@@ -1481,11 +1483,11 @@
       104,
       104,
       104,
-      105,
       105,
       105,
       106,
       106,
+      106,
       107,
       107,
       107,
@@ -1497,14 +1499,11 @@
       109,
       110,
       110,
-      110,
-      111,
-      111
+      110
     ],
     "CHL": [
       44,
       44,
-      44,
       45,
       45,
       45,
@@ -1549,6 +1548,7 @@
       50,
       50,
       50,
+      51,
       51
     ],
     "BRA": [
@@ -2402,7 +2402,6 @@
       1
     ],
     "FIN": [
-      318,
       319,
       319,
       320,
@@ -2449,7 +2448,8 @@
       348,
       349,
       350,
-      350
+      350,
+      351
     ],
     "SWE": [
       145,
@@ -3897,9 +3897,9 @@
       2341,
       2341,
       2341,
-      2341,
       2346,
-      2351
+      2351,
+      2356
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 29,
+    "composite": 28,
     "epidemio": 36,
     "polymarket": 5,
-    "kalshi": 38,
+    "kalshi": 36,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.15,
     "continents": [
@@ -4020,8 +4020,7 @@
   "signal_summary": {
     "USA": 2,
     "FRA": 2,
-    "ARG": 12,
-    "PER": 1
+    "ARG": 10
   },
   "events": [
     {
@@ -4046,13 +4045,6 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcUs4MHBRYk12ZHFBZ0kzZ3lnR3phNW9NQkV1dHJjYllUOHE0Vmh0TDFNSlFGaTN3VlduTTd3TmduSHJCLW00N2JjaGlSdHNjbm55SUhOekVNS1pnTW1tcW1uamU5TnRmUVZsQktYSHdGcVFRNkQtVWNiNVZRUVdrOWZJZnNUUnFSamxXQ1R4cWI?oc=5"
     },
     {
-      "iso": "PER",
-      "title": "Un nuevo caso de hantavirus confirmado en un tripulante del MV Hondius repatriado a Pa\u00edses Bajo - El Comercio Per\u00fa",
-      "t": "2026-05-22T13:44:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaGhNR2dmcHpXci1oazV2TVhfNGlzTTNZWDVyWFFlczNBRG52WFJsR0JiZnEtX0RfRXNHbHdkUENLZ0s3LUUtZ0g3S3Uzc1BjSWNfclE3NTZsVHc4STkweDBxVjUyQVBnVU5ERTI5TmJORjVhYkxNMHozRHBka082a1N4T0RwN1ZIdFRxTmpuZV9mSXh5MjNpMkJaLXlCWWlPTzc4bGFSanFKN0V2b3NYMlRlV0dZS1Jwbzd0QV9pczJZdW45TVIzN2NMV1RfbTlJQWJKQ3F1a1dDOExMVGFHNQ?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Hantavirus and the lessons of Covid: Screening the EU's public health response - Talking Europe - France 24",
       "t": "2026-05-22T12:53:14Z",
@@ -4075,13 +4067,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus en Argentina: confirmaron 45 casos y crece la preocupaci\u00f3n por el brote - Canal C",
-      "t": "2026-05-21T18:28:28Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeHplNkhsc2lHaVBWMVlTOU51cTVpSW1ZZnNzRXA0YUhVSHlzeW5McG90ZUxyYVpiWWlDUmpVYXk4eW5Zb1ZWOXZiZEg5Qi1Bb3RMWmtXeTN0bVNZZTNGWW5famZnbEhQalgxdjgweHN1QmJkMVVMZy1rWnNmT0NZakZhYkF0VjYyaXAzVHRwSmtHUTRfdjRqY0xIaEtURXlaVFNDRnVfbw?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Argentina registra 45 casos de hantavirus y alerta por brote en un crucero - De la Tribuna TV",
       "t": "2026-05-21T10:00:00Z",
       "source": "GoogleNews-ES",
@@ -4093,13 +4078,6 @@
       "t": "2026-05-21T09:00:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV1loTDAxemdLT285cDNreXlKVDNjUVRMbVdENUJlOEtTSUpzNzVOSEUtNzRyTXpJdGdvUFV5ZGpDWXJoRG0tUnJ2S0RCRjVFQXlRTzZQNGJtLTIyVnVxLUk1OURldzExRXFGaVYxS0lkVE95UEJQclkwYmZ3SFZqdFhzekRaX3VwbkFfa3p3?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus en Argentina: confirman 45 contagios y alertan por brote en Buenos Aires - Los Primeros TV",
-      "t": "2026-05-21T02:53:19Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWEh1Q3pUcXcyeU8wWmRBZVd1cTNaS1pUcGRGMC1IUUVJRHNOMWNHY2lpWVdZZmUxR3ZiUUpvZWI3RFNhYnpfUWJaOVZiOUlhdXF2YldjQjBrV1JwSm9FcEFOREYxQkxvbXdsZnJjM3UxbEMxLWZ6T0Z2cFFIUXhTdGQtN3hCMU5GLXBGc0lDSE5PdE9SS0VWWTUzZEdDM3ZxX2VLUGxFdFZTM2RERXZ4bi1SeGFLQW1BaTk2R2RXeTlYNmQxRXlNS3liWEJtR2JiZU1vNnVmYlNxZXNmMjBfMA?oc=5"
     },
     {
       "iso": "ARG",
@@ -4160,7 +4138,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-23T05:55:32Z",
+      "last_update": "2026-05-23T06:00:32Z",
       "signals": 6,
       "recent": [
         {
@@ -4184,9 +4162,9 @@
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
         },
         {
-          "title": "Argentina registra 45 casos de hantavirus y alerta por brote en un crucero - De la Tribuna TV",
-          "t": "2026-05-21T10:00:00Z",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSDE1VTZOSU0tWlMzWkFNWi1zRWdpTlJmbGx1X1NHR3pJV1ZBOUNMUlVnbkpJNmdQY2VWWGt6ZV9SMFNuc3RfUm11YUtGS29BZ1dKY1djenFvRTdCOXNDc1dQMlZSclk1WjloWlU3NXhJYjNSQmNkUTVFWVEyMW11MFM0OWFBVUtaQmlFeHctZlY2V3E1aUtjTnI0ekcyMTlJYzJUT3NaclZqUUVDRFk5ZGt1c0poMFo2MV9fTllOeFo?oc=5"
+          "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
+          "t": "2026-05-10T07:00:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
         }
       ]
     }
