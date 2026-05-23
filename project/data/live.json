@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-23T08:45:12.078332Z",
-  "next_update": "2026-05-23T08:50:00Z",
+  "generated": "2026-05-23T08:50:32.186310Z",
+  "next_update": "2026-05-23T08:55:00Z",
   "days_active": 15,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 114,
+      "ytd": 113,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 69,
       "strain": "andes",
-      "new_today": 9,
+      "new_today": 8,
       "r0": 5.0,
-      "signals": 14,
+      "signals": 13,
       "gov_alert": false
     },
     "CHL": {
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2381,
+      "ytd": 2382,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 2,
       "strain": "hantaan",
-      "new_today": 28,
+      "new_today": 29,
       "r0": 3.5,
       "signals": 1,
       "gov_alert": true
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
       72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      73,
       80,
       88,
       96,
       105,
-      114
+      113
     ],
     "CHL": [
       31,
@@ -1349,7 +1349,7 @@
       2353,
       2353,
       2353,
-      2381
+      2382
     ],
     "KOR": [
       89,
@@ -1452,7 +1452,8 @@
   ],
   "hourly_history": {
     "ARG": [
-      97,
+      96,
+      96,
       97,
       97,
       98,
@@ -1466,13 +1467,13 @@
       100,
       101,
       101,
+      101,
       102,
       102,
       102,
       103,
       103,
       103,
-      104,
       104,
       104,
       105,
@@ -1483,10 +1484,10 @@
       106,
       107,
       107,
+      107,
       108,
       108,
       108,
-      109,
       109,
       109,
       110,
@@ -1497,8 +1498,7 @@
       111,
       112,
       112,
-      113,
-      113,
+      112,
       113
     ],
     "CHL": [
@@ -4006,7 +4006,7 @@
     "composite": 30,
     "epidemio": 37,
     "polymarket": 5,
-    "kalshi": 40,
+    "kalshi": 41,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.15,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 3,
     "FRA": 2,
-    "ARG": 14,
+    "ARG": 13,
     "CHN": 1,
     "PER": 1
   },
@@ -4104,13 +4104,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus en Argentina: hay 45 contagios confirmados en el pa\u00eds y alerta internacional por la cepa Andes - La Voz del Interior",
-      "t": "2026-05-21T00:51:15Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUGhmdHVmbkhmLUV3Wk9tdnhObDBKT0JET1J1SHJORkFwNkVZU0xpUlZUOVdnczRXWlcybXFsaXlRNXJtMThfdWJOTWh5eHBYY18wVWVEczFDSjFEOUpGU2RPRzR0ekZKb1hjYm9NYTF5U1hQd0FpZE4ySWtZLXJmbzA2Uk9mMVRzbXZtalVkUDhzR3ItNFVLal9FVkpyc05SNnZPS0RMN3lYN21WY09LTmY1WGlVUzUyZEZjbXhoVXBEWkVXVzFzVnFyTm1PTDQ3eEE?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
       "t": "2026-05-20T17:59:00Z",
       "source": "GoogleNews-EN",
@@ -4189,7 +4182,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-23T08:45:12Z",
+      "last_update": "2026-05-23T08:50:32Z",
       "signals": 8,
       "recent": [
         {
