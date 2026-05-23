@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-23T06:55:32.061935Z",
-  "next_update": "2026-05-23T07:00:00Z",
+  "generated": "2026-05-23T07:00:02.196355Z",
+  "next_update": "2026-05-23T07:05:00Z",
   "days_active": 15,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,7 +8,7 @@
       "ytd": 113,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 68,
+      "var_pct": 69,
       "strain": "andes",
       "new_today": 9,
       "r0": 5.0,
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.25,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "CHE": {
@@ -1401,7 +1401,6 @@
     "2026-05-23T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-21T07:00:00Z",
     "2026-05-21T08:00:00Z",
     "2026-05-21T09:00:00Z",
     "2026-05-21T10:00:00Z",
@@ -1448,12 +1447,12 @@
     "2026-05-23T03:00:00Z",
     "2026-05-23T04:00:00Z",
     "2026-05-23T05:00:00Z",
-    "2026-05-23T06:00:00Z"
+    "2026-05-23T06:00:00Z",
+    "2026-05-23T07:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
       96,
-      96,
       97,
       97,
       97,
@@ -1499,11 +1498,11 @@
       111,
       112,
       112,
+      113,
       113
     ],
     "CHL": [
       44,
-      44,
       45,
       45,
       45,
@@ -1548,6 +1547,7 @@
       50,
       50,
       50,
+      51,
       51,
       51
     ],
@@ -2403,7 +2403,6 @@
     ],
     "FIN": [
       319,
-      319,
       320,
       321,
       322,
@@ -2449,7 +2448,8 @@
       349,
       350,
       350,
-      351
+      351,
+      352
     ],
     "SWE": [
       145,
@@ -3896,10 +3896,10 @@
       2341,
       2341,
       2341,
-      2341,
       2346,
       2351,
-      2356
+      2356,
+      2361
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 30,
+    "composite": 28,
     "epidemio": 37,
     "polymarket": 5,
-    "kalshi": 40,
+    "kalshi": 34,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.15,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 3,
-    "FRA": 2,
+    "FRA": 3,
     "ARG": 14,
     "PER": 1
   },
@@ -4037,6 +4037,13 @@
       "t": "2026-05-22T18:24:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcjdDdThiRUZYY2ZDeEMweEdZOVlINUFYUVUyRjcxb0xhX0FGSW0tUXZkTG1nbHN4MkVORGZabndVTGhJcnNvMjRsY012c3pFZTEtY1N0aVN3NkdxUmFVWDlfT0luY2NZaHoxYUs0UFYyX3VSdGdrNEdydjBobWxFVERJaDFYcE1xZUEtWXlSV0RWckdnempfSmxIWmxjUHBxWk1CY1EzODlTMTlnRDBlRGpB?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Hantavirus isn\u2019t very contagious, but it can spread from human to human - France 24",
+      "t": "2026-05-22T15:54:03Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcUs4MHBRYk12ZHFBZ0kzZ3lnR3phNW9NQkV1dHJjYllUOHE0Vmh0TDFNSlFGaTN3VlduTTd3TmduSHJCLW00N2JjaGlSdHNjbm55SUhOekVNS1pnTW1tcW1uamU5TnRmUVZsQktYSHdGcVFRNkQtVWNiNVZRUVdrOWZJZnNUUnFSamxXQ1R4cWI?oc=5"
     },
     {
       "iso": "PER",
@@ -4181,7 +4188,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-23T06:55:32Z",
+      "last_update": "2026-05-23T07:00:02Z",
       "signals": 8,
       "recent": [
         {
