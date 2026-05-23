@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-23T09:20:32.191769Z",
-  "next_update": "2026-05-23T09:25:00Z",
+  "generated": "2026-05-23T09:25:02.075979Z",
+  "next_update": "2026-05-23T09:30:00Z",
   "days_active": 15,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -56,7 +56,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "COL": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 30,
+    "composite": 29,
     "epidemio": 37,
     "polymarket": 5,
-    "kalshi": 41,
+    "kalshi": 37,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.15,
     "continents": [
@@ -4021,8 +4021,7 @@
     "USA": 3,
     "FRA": 2,
     "ARG": 13,
-    "CHN": 1,
-    "PER": 1
+    "CHN": 1
   },
   "events": [
     {
@@ -4045,13 +4044,6 @@
       "t": "2026-05-22T18:24:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcjdDdThiRUZYY2ZDeEMweEdZOVlINUFYUVUyRjcxb0xhX0FGSW0tUXZkTG1nbHN4MkVORGZabndVTGhJcnNvMjRsY012c3pFZTEtY1N0aVN3NkdxUmFVWDlfT0luY2NZaHoxYUs0UFYyX3VSdGdrNEdydjBobWxFVERJaDFYcE1xZUEtWXlSV0RWckdnempfSmxIWmxjUHBxWk1CY1EzODlTMTlnRDBlRGpB?oc=5"
-    },
-    {
-      "iso": "PER",
-      "title": "Un nuevo caso de hantavirus confirmado en un tripulante del MV Hondius repatriado a Pa\u00edses Bajo - El Comercio Per\u00fa",
-      "t": "2026-05-22T13:44:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaGhNR2dmcHpXci1oazV2TVhfNGlzTTNZWDVyWFFlczNBRG52WFJsR0JiZnEtX0RfRXNHbHdkUENLZ0s3LUUtZ0g3S3Uzc1BjSWNfclE3NTZsVHc4STkweDBxVjUyQVBnVU5ERTI5TmJORjVhYkxNMHozRHBka082a1N4T0RwN1ZIdFRxTmpuZV9mSXh5MjNpMkJaLXlCWWlPTzc4bGFSanFKN0V2b3NYMlRlV0dZS1Jwbzd0QV9pczJZdW45TVIzN2NMV1RfbTlJQWJKQ3F1a1dDOExMVGFHNQ?oc=5"
     },
     {
       "iso": "FRA",
@@ -4182,7 +4174,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-23T09:20:32Z",
+      "last_update": "2026-05-23T09:25:02Z",
       "signals": 8,
       "recent": [
         {
