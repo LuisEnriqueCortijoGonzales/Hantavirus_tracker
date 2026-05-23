@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-23T15:25:32.086292Z",
-  "next_update": "2026-05-23T15:30:00Z",
+  "generated": "2026-05-23T15:30:12.075857Z",
+  "next_update": "2026-05-23T15:35:00Z",
   "days_active": 15,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 116,
+      "ytd": 115,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 73,
+      "var_pct": 72,
       "strain": "andes",
-      "new_today": 9,
+      "new_today": 8,
       "r0": 5.0,
-      "signals": 14,
+      "signals": 13,
       "gov_alert": false
     },
     "CHL": {
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2413,
+      "ytd": 2414,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 3,
       "strain": "hantaan",
-      "new_today": 60,
+      "new_today": 61,
       "r0": 3.5,
       "signals": 1,
       "gov_alert": true
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      72,
-      75,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      74,
       82,
       90,
-      99,
+      98,
       107,
-      116
+      115
     ],
     "CHL": [
       31,
@@ -595,7 +595,7 @@
       36,
       39,
       42,
-      45,
+      46,
       49,
       52
     ],
@@ -1349,7 +1349,7 @@
       2353,
       2353,
       2353,
-      2413
+      2414
     ],
     "KOR": [
       89,
@@ -1454,18 +1454,19 @@
     "ARG": [
       99,
       99,
+      99,
       100,
       100,
       100,
       101,
       101,
+      101,
       102,
       102,
       102,
       103,
       103,
       103,
-      104,
       104,
       104,
       105,
@@ -1476,10 +1477,10 @@
       106,
       107,
       107,
+      107,
       108,
       108,
       108,
-      109,
       109,
       109,
       110,
@@ -1490,16 +1491,15 @@
       111,
       112,
       112,
+      112,
       113,
       113,
       113,
       114,
       114,
-      114,
       115,
       115,
-      115,
-      116
+      115
     ],
     "CHL": [
       46,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 30,
+    "composite": 29,
     "epidemio": 37,
     "polymarket": 5,
-    "kalshi": 39,
+    "kalshi": 37,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.15,
     "continents": [
@@ -4019,19 +4019,12 @@
   },
   "signal_summary": {
     "USA": 3,
-    "ARG": 14,
+    "ARG": 13,
     "CHN": 1,
     "FRA": 2,
     "CAN": 1
   },
   "events": [
-    {
-      "iso": "ARG",
-      "title": "El operativo para atrapar a roedores transmisores del hantavirus se cierra sin capturas en Argentina - El Peri\u00f3dico",
-      "t": "2026-05-23T14:01:30Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcE00ZjlBSWEyM3VJTmdoRG5uNll0Y1dFMGcxdmM3Mm0wN3hpa3REcTR1Y0I2UzFwdGFCTEdyYkRnM29sbjZMQU5Ga3hhUXRfWmRPQTNfV3BPaElyX0ltdHQ3RGFmWmw2Snd2WEJtSkluZHZKemxPUTNtUGxoMVlYQ2h6ak9oSm9CM2NrV04wekdBV3ZWdDhTVkJsZHdnUjJicm9GZXdn0gGmAUFVX3lxTE1pMkduYVV4eDRpR1AxTk01ODMxc01nZ3dCQ0dLNDV2alczYjY5aWE0VjRkSlpXN0JsTXNOOHA0aUJqdXhJbml2VDFJU251dEljUFk1MVVDQ0d1M1NmWHFfOEtvbnJiR3RKSkZCbU9KVzhpcU1BbVFKZlRQXzh4TnpKX1l1M3RuZ1dDSl8xMGJoYTBCcjI4Z1lkc0RzTnRldGlHQkNQNkE?oc=5"
-    },
     {
       "iso": "ARG",
       "title": "Argentina investiga el origen del brote de hantavirus vinculado al crucero MV Hondius - CGTN en Espa\u00f1ol",
@@ -4189,7 +4182,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-23T15:25:32Z",
+      "last_update": "2026-05-23T15:30:12Z",
       "signals": 10,
       "recent": [
         {
