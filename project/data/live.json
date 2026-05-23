@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-23T03:05:02.129803Z",
-  "next_update": "2026-05-23T03:10:00Z",
+  "generated": "2026-05-23T03:10:32.094759Z",
+  "next_update": "2026-05-23T03:15:00Z",
   "days_active": 15,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 110,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 65,
+      "var_pct": 64,
       "strain": "andes",
       "new_today": 8,
       "r0": 5.0,
-      "signals": 12,
+      "signals": 11,
       "gov_alert": false
     },
     "CHL": {
@@ -577,9 +577,9 @@
       71,
       71,
       71,
-      78,
+      77,
       85,
-      94,
+      93,
       102,
       110
     ],
@@ -1454,6 +1454,7 @@
     "ARG": [
       94,
       94,
+      94,
       95,
       95,
       95,
@@ -1468,13 +1469,13 @@
       98,
       99,
       99,
+      99,
       100,
       100,
       100,
       101,
       101,
       101,
-      102,
       102,
       102,
       103,
@@ -1488,16 +1489,15 @@
       105,
       106,
       106,
+      106,
       107,
       107,
       107,
       108,
       108,
-      108,
       109,
       109,
       109,
-      110,
       110,
       110
     ],
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 2,
     "FRA": 2,
-    "ARG": 12,
+    "ARG": 11,
     "PER": 1
   },
   "events": [
@@ -4110,13 +4110,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina\u2019s icy outpost at the end of the world fears the hantavirus will chill tourism - AP News",
-      "t": "2026-05-18T21:24:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3ZsNWRWd2JEZEpWclg4V2RoMlJ0bWRiVFpSN0pZX3ZfX0JtdW15RHZicG5od1FMbl92Tm4zdC1DRHBsQW1XR3VtZnVOQ2JOYXd2QlZCWFpsTzJHVGEtTDFnbmRSTy1EV04wNmhVM2xMVkZTVGg5dURsZktfMFNFZG43S0FpdFA3ZzJ0R09wQXVzNHRMaGY1Ynkxa2VMSXowcU9CZ3BCWnZQaFZi?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
       "t": "2026-05-15T12:33:58Z",
       "source": "GoogleNews-ES",
@@ -4160,7 +4153,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-23T03:05:02Z",
+      "last_update": "2026-05-23T03:10:32Z",
       "signals": 4,
       "recent": [
         {
