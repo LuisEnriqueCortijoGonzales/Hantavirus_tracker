@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-23T04:05:32.075758Z",
-  "next_update": "2026-05-23T04:10:00Z",
+  "generated": "2026-05-23T04:10:03.697517Z",
+  "next_update": "2026-05-23T04:15:00Z",
   "days_active": 15,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 110,
+      "ytd": 111,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 65,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 9,
       "r0": 5.0,
-      "signals": 11,
+      "signals": 12,
       "gov_alert": false
     },
     "CHL": {
@@ -578,10 +578,10 @@
       71,
       71,
       78,
-      85,
+      86,
       94,
       102,
-      110
+      111
     ],
     "CHL": [
       31,
@@ -1453,7 +1453,6 @@
   "hourly_history": {
     "ARG": [
       94,
-      94,
       95,
       95,
       95,
@@ -1466,7 +1465,6 @@
       98,
       98,
       98,
-      99,
       99,
       99,
       100,
@@ -1477,6 +1475,7 @@
       101,
       102,
       102,
+      102,
       103,
       103,
       103,
@@ -1486,7 +1485,6 @@
       105,
       105,
       105,
-      106,
       106,
       106,
       107,
@@ -1494,12 +1492,14 @@
       107,
       108,
       108,
+      108,
       109,
       109,
       109,
       110,
       110,
-      110
+      110,
+      111
     ],
     "CHL": [
       44,
@@ -4006,7 +4006,7 @@
     "composite": 28,
     "epidemio": 36,
     "polymarket": 5,
-    "kalshi": 33,
+    "kalshi": 35,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.15,
     "continents": [
@@ -4020,10 +4020,17 @@
   "signal_summary": {
     "USA": 2,
     "FRA": 2,
-    "ARG": 11,
+    "ARG": 12,
     "PER": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Argentina investiga el origen del brote de hantavirus vinculado al crucero MV Hondius - CGTN en Espa\u00f1ol",
+      "t": "2026-05-23T04:06:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE53ZkJpSWEyNXdqYk9Tc1FHWi15YkhHREZlUkRoa0F6YURpb0NaX2gyeU96SzB4Nlp1bUg0VWxjR2tQVFBsSkJGWUlpNF9jb1poM3ZMaE52cW9nYXE3eURGcUFfenJOdXhIX1hvZE1vdE8xNFd3b3YxNEdyUQ?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Hantavirus risk from rodents may be higher in Pacific Northwest - USA Today",
@@ -4153,13 +4160,18 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-23T04:05:32Z",
-      "signals": 5,
+      "last_update": "2026-05-23T04:10:03Z",
+      "signals": 6,
       "recent": [
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
           "t": "2026-05-20T17:59:00Z",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ueUZSY2k1ZTcyQ1RCZWdnWU9JT1V3elpoTXZRb1V6eloxeG5NMWQ3dnFWQXNjb3dtc1lfZ0JDY21JUjYxa016b18ySGhBSlI2TnU0YTdMU2hYSE0wazNrdDRwNVlJa085ZkJCV2ViZ3lVdkI1b2pR?oc=5"
+        },
+        {
+          "title": "Argentina investiga el origen del brote de hantavirus vinculado al crucero MV Hondius - CGTN en Espa\u00f1ol",
+          "t": "2026-05-23T04:06:00Z",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE53ZkJpSWEyNXdqYk9Tc1FHWi15YkhHREZlUkRoa0F6YURpb0NaX2gyeU96SzB4Nlp1bUg0VWxjR2tQVFBsSkJGWUlpNF9jb1poM3ZMaE52cW9nYXE3eURGcUFfenJOdXhIX1hvZE1vdE8xNFd3b3YxNEdyUQ?oc=5"
         },
         {
           "title": "Argentina refuerza vigilancia sanitaria ante brote de hantavirus en crucero - Cadena 3 Argentina",
@@ -4175,11 +4187,6 @@
           "title": "Argentina registra 45 casos de hantavirus y alerta por brote en un crucero - De la Tribuna TV",
           "t": "2026-05-21T10:00:00Z",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSDE1VTZOSU0tWlMzWkFNWi1zRWdpTlJmbGx1X1NHR3pJV1ZBOUNMUlVnbkpJNmdQY2VWWGt6ZV9SMFNuc3RfUm11YUtGS29BZ1dKY1djenFvRTdCOXNDc1dQMlZSclk1WjloWlU3NXhJYjNSQmNkUTVFWVEyMW11MFM0OWFBVUtaQmlFeHctZlY2V3E1aUtjTnI0ekcyMTlJYzJUT3NaclZqUUVDRFk5ZGt1c0poMFo2MV9fTllOeFo?oc=5"
-        },
-        {
-          "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
-          "t": "2026-05-10T07:00:00Z",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
         }
       ]
     }
