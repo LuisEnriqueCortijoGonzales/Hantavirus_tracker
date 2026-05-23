@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-23T02:50:32.123268Z",
-  "next_update": "2026-05-23T02:55:00Z",
+  "generated": "2026-05-23T02:55:12.053668Z",
+  "next_update": "2026-05-23T03:00:00Z",
   "days_active": 15,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 109,
+      "ytd": 110,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 63,
+      "var_pct": 64,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 9,
       "r0": 5.0,
-      "signals": 10,
+      "signals": 11,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
       77,
       85,
       93,
       101,
-      109
+      110
     ],
     "CHL": [
       31,
@@ -1453,8 +1453,6 @@
   "hourly_history": {
     "ARG": [
       93,
-      93,
-      93,
       94,
       94,
       94,
@@ -1466,6 +1464,7 @@
       96,
       97,
       97,
+      97,
       98,
       98,
       98,
@@ -1478,7 +1477,6 @@
       101,
       101,
       101,
-      102,
       102,
       102,
       103,
@@ -1489,17 +1487,19 @@
       104,
       105,
       105,
+      105,
       106,
       106,
       106,
       107,
       107,
       107,
-      108,
       108,
       108,
       109,
-      109
+      109,
+      109,
+      110
     ],
     "CHL": [
       44,
@@ -4006,7 +4006,7 @@
     "composite": 28,
     "epidemio": 36,
     "polymarket": 5,
-    "kalshi": 37,
+    "kalshi": 35,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.08,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 2,
     "FRA": 2,
-    "ARG": 10,
+    "ARG": 11,
     "PER": 1
   },
   "events": [
@@ -4096,6 +4096,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Hantavirus en Argentina: hay 45 contagios confirmados en el pa\u00eds y alerta internacional por la cepa Andes - La Voz del Interior",
+      "t": "2026-05-21T00:51:15Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUGhmdHVmbkhmLUV3Wk9tdnhObDBKT0JET1J1SHJORkFwNkVZU0xpUlZUOVdnczRXWlcybXFsaXlRNXJtMThfdWJOTWh5eHBYY18wVWVEczFDSjFEOUpGU2RPRzR0ekZKb1hjYm9NYTF5U1hQd0FpZE4ySWtZLXJmbzA2Uk9mMVRzbXZtalVkUDhzR3ItNFVLal9FVkpyc05SNnZPS0RMN3lYN21WY09LTmY1WGlVUzUyZEZjbXhoVXBEWkVXVzFzVnFyTm1PTDQ3eEE?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
       "t": "2026-05-20T17:59:00Z",
       "source": "GoogleNews-EN",
@@ -4146,7 +4153,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-23T02:50:32Z",
+      "last_update": "2026-05-23T02:55:12Z",
       "signals": 4,
       "recent": [
         {
