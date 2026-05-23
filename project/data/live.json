@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-23T06:30:12.087624Z",
-  "next_update": "2026-05-23T06:35:00Z",
+  "generated": "2026-05-23T06:35:32.166615Z",
+  "next_update": "2026-05-23T06:40:00Z",
   "days_active": 15,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 112,
+      "ytd": 113,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 67,
+      "var_pct": 68,
       "strain": "andes",
       "new_today": 9,
       "r0": 5.0,
-      "signals": 12,
+      "signals": 14,
       "gov_alert": false
     },
     "CHL": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.25,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "CHE": {
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2358,
+      "ytd": 2359,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 1,
       "strain": "hantaan",
-      "new_today": 17,
+      "new_today": 18,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      71,
-      79,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      72,
+      80,
       87,
-      95,
-      103,
-      112
+      96,
+      104,
+      113
     ],
     "CHL": [
       31,
@@ -1349,7 +1349,7 @@
       2341,
       2341,
       2341,
-      2358
+      2359
     ],
     "KOR": [
       89,
@@ -1452,9 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      95,
-      95,
-      96,
       96,
       96,
       97,
@@ -1465,10 +1462,10 @@
       98,
       99,
       99,
+      99,
       100,
       100,
       100,
-      101,
       101,
       101,
       102,
@@ -1485,7 +1482,7 @@
       105,
       106,
       106,
-      107,
+      106,
       107,
       107,
       108,
@@ -1499,7 +1496,10 @@
       110,
       111,
       111,
-      112
+      111,
+      112,
+      112,
+      113
     ],
     "CHL": [
       44,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 29,
+    "composite": 30,
     "epidemio": 37,
     "polymarket": 5,
-    "kalshi": 38,
+    "kalshi": 40,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.15,
     "continents": [
@@ -4018,9 +4018,9 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "USA": 2,
-    "FRA": 1,
-    "ARG": 12,
+    "USA": 3,
+    "FRA": 2,
+    "ARG": 14,
     "PER": 1
   },
   "events": [
@@ -4110,6 +4110,34 @@
     },
     {
       "iso": "ARG",
+      "title": "Argentina acelera la investigaci\u00f3n del brote de hantavirus - VOV World",
+      "t": "2026-05-20T11:18:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYjM2dk5WaEhHX2dmZGhQTEJKdy1yOGdoNjlyNHEwN3VtSHJXVS10TEJPbVJfTmNnSHpwR0FhdXhwUzlNRGp4M3lOQmN6UDRrbVIzZjA3alBWczZhNVJPQXd5LWJFd2ZkaHpEUlRfNTRiNUpZZzMwNmpyQWdtTTVlVUt5Vkw1cmJBdWN3VXVZWGhfTnkwLXAzS2FyRnpNWTJwZ2RnSXBGY3VTdw?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Confirman el primer caso de Hantavirus en Estados Unidos no relacionado con el crucero MV Hondius - HOLA",
+      "t": "2026-05-19T01:25:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3VsYjJOMHNjeFpfam4xcGYtLVhPM0tGLWY2MUdFUkFPNW9FMXFQVEZjSWw5V2Q2bHBkZ1pzS2VvSUFHdklzLUU3TkpFMEFNZGM4WDQ3bWZzOTdvU3I5eU5yQllUeVRnZUlnZmJseHFEZU5nT1ZwRmRuRjJQQ0dUbFJpVDBlbTc5Rml2Z243aGVodV8zZ2l0TEpQYkJKREtjNVpVUQ?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - France 24",
+      "t": "2026-05-18T19:40:03Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVlhuUG82VktZUi1sOWRpclRTZU9HUVZmQjRwaS0tVml5bXhuakthM0xHYUhXYzJEbGFMR200NUF0QnlfMnV4SzkyaXRURzRWcnM3bTBJQjdkSnlrMGhSVENkMUxjRzNrNW1JNVJvUlZaV3JCdzdZbmZQLXYwUTVmR2x6bFZVXy1EX3FBTk9uRXFIVHhwOS1ucXRZVGNwSERTdTRqYzFVbHdyTXh5SjJ5bXZVc2NEaGNPczZsbF9saFd0R0VMQU9ac19FbjlNd0VhTjd0cWx1WGJCMW5tLWVUdk1Tbw?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - France 24",
+      "t": "2026-05-18T19:40:03Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVlhuUG82VktZUi1sOWRpclRTZU9HUVZmQjRwaS0tVml5bXhuakthM0xHYUhXYzJEbGFMR200NUF0QnlfMnV4SzkyaXRURzRWcnM3bTBJQjdkSnlrMGhSVENkMUxjRzNrNW1JNVJvUlZaV3JCdzdZbmZQLXYwUTVmR2x6bFZVXy1EX3FBTk9uRXFIVHhwOS1ucXRZVGNwSERTdTRqYzFVbHdyTXh5SjJ5bXZVc2NEaGNPczZsbF9saFd0R0VMQU9ac19FbjlNd0VhTjd0cWx1WGJCMW5tLWVUdk1Tbw?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
       "t": "2026-05-15T12:33:58Z",
       "source": "GoogleNews-ES",
@@ -4153,9 +4181,19 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-23T06:30:12Z",
-      "signals": 6,
+      "last_update": "2026-05-23T06:35:32Z",
+      "signals": 8,
       "recent": [
+        {
+          "title": "Confirman el primer caso de Hantavirus en Estados Unidos no relacionado con el crucero MV Hondius - HOLA",
+          "t": "2026-05-19T01:25:00Z",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3VsYjJOMHNjeFpfam4xcGYtLVhPM0tGLWY2MUdFUkFPNW9FMXFQVEZjSWw5V2Q2bHBkZ1pzS2VvSUFHdklzLUU3TkpFMEFNZGM4WDQ3bWZzOTdvU3I5eU5yQllUeVRnZUlnZmJseHFEZU5nT1ZwRmRuRjJQQ0dUbFJpVDBlbTc5Rml2Z243aGVodV8zZ2l0TEpQYkJKREtjNVpVUQ?oc=5"
+        },
+        {
+          "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - France 24",
+          "t": "2026-05-18T19:40:03Z",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVlhuUG82VktZUi1sOWRpclRTZU9HUVZmQjRwaS0tVml5bXhuakthM0xHYUhXYzJEbGFMR200NUF0QnlfMnV4SzkyaXRURzRWcnM3bTBJQjdkSnlrMGhSVENkMUxjRzNrNW1JNVJvUlZaV3JCdzdZbmZQLXYwUTVmR2x6bFZVXy1EX3FBTk9uRXFIVHhwOS1ucXRZVGNwSERTdTRqYzFVbHdyTXh5SjJ5bXZVc2NEaGNPczZsbF9saFd0R0VMQU9ac19FbjlNd0VhTjd0cWx1WGJCMW5tLWVUdk1Tbw?oc=5"
+        },
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
           "t": "2026-05-20T17:59:00Z",
@@ -4170,16 +4208,6 @@
           "title": "Argentina refuerza vigilancia sanitaria ante brote de hantavirus en crucero - Cadena 3 Argentina",
           "t": "2026-05-22T10:19:56Z",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcV9rcm5uT2ljTUliODV3aTU3TnI1MWhQcXd5UU9OaTBQVmYxbDVENWVwQlFDdnlTb2QzRV84THUyUlJPcWFFMzFYMEJTRG1IX0JKUDg3YnIzbGhoZXpGU09RN05UZm1UQzI0OXlKR3NhRFpuVzY4czRJV0pvOFhpaXVLbDNCNUpxUzAzd1pRSGZlZ2U2dVNaSGdETFgwbWp2LUdJWS1jLXQxdWJMSWJoRUN0MEc5ZG5lOWZPZG10TnjSAcYBQVVfeXFMTjlhQmduNHFPUHVWaklxdDdyVjFjTmtzUGY1cXQyemszSDhETVRaNTlGb0pOcXZJelFBbG9ud3VnRnRXQlhrZjM5bm9rNk51eVhOaXBFemVKM0xCaWVfemdtUG11V1dVWHBYV1BILWtIN2ZuSUdSNVlrOTNSUXBiZnEwNUdXUVI5azE5OHVTTVdMQ1dEUmc4T3J2dDAtVDhucy0yRXNuY1lkY1drUmpwcnIzaVlIXzlWQXNoTHdxbnBFR3pBUUpB?oc=5"
-        },
-        {
-          "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
-          "t": "2026-05-15T12:33:58Z",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
-        },
-        {
-          "title": "Argentina registra 45 casos de hantavirus y alerta por brote en un crucero - De la Tribuna TV",
-          "t": "2026-05-21T10:00:00Z",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSDE1VTZOSU0tWlMzWkFNWi1zRWdpTlJmbGx1X1NHR3pJV1ZBOUNMUlVnbkpJNmdQY2VWWGt6ZV9SMFNuc3RfUm11YUtGS29BZ1dKY1djenFvRTdCOXNDc1dQMlZSclk1WjloWlU3NXhJYjNSQmNkUTVFWVEyMW11MFM0OWFBVUtaQmlFeHctZlY2V3E1aUtjTnI0ekcyMTlJYzJUT3NaclZqUUVDRFk5ZGt1c0poMFo2MV9fTllOeFo?oc=5"
         }
       ]
     }
