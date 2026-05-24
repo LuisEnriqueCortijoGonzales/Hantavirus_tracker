@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-24T13:45:06.066408Z",
-  "next_update": "2026-05-24T13:50:00Z",
+  "generated": "2026-05-24T13:50:05.293539Z",
+  "next_update": "2026-05-24T13:55:00Z",
   "days_active": 16,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 120,
+      "ytd": 121,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 80,
+      "var_pct": 81,
       "strain": "andes",
       "new_today": 8,
       "r0": 5.0,
-      "signals": 8,
+      "signals": 9,
       "gov_alert": false
     },
     "CHL": {
@@ -538,7 +538,7 @@
       "cfr": 1.2,
       "var_pct": 8,
       "strain": "hantaan",
-      "new_today": 112,
+      "new_today": 111,
       "r0": 3.5,
       "signals": 1,
       "gov_alert": true
@@ -577,11 +577,11 @@
       70,
       72,
       80,
-      87,
-      95,
+      88,
+      96,
       104,
-      112,
-      120
+      113,
+      121
     ],
     "CHL": [
       31,
@@ -595,7 +595,7 @@
       39,
       42,
       45,
-      48,
+      49,
       52,
       55
     ],
@@ -1348,7 +1348,7 @@
       2353,
       2353,
       2353,
-      2405,
+      2406,
       2517
     ],
     "KOR": [
@@ -1453,7 +1453,6 @@
   "hourly_history": {
     "ARG": [
       104,
-      104,
       105,
       105,
       105,
@@ -1463,7 +1462,6 @@
       107,
       107,
       107,
-      108,
       108,
       108,
       109,
@@ -1477,13 +1475,13 @@
       111,
       112,
       112,
+      112,
       113,
       113,
       113,
       114,
       114,
       114,
-      115,
       115,
       115,
       116,
@@ -1499,7 +1497,9 @@
       119,
       119,
       120,
-      120
+      120,
+      120,
+      121
     ],
     "CHL": [
       49,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 28,
+    "composite": 30,
     "epidemio": 37,
     "polymarket": 5,
-    "kalshi": 34,
+    "kalshi": 39,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.23,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "ARG": 8,
+    "ARG": 9,
     "USA": 2,
     "MEX": 2,
     "CHN": 1,
@@ -4045,6 +4045,13 @@
       "t": "2026-05-23T17:02:55Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPS0g0VVl0YjRTV2swYnBaR1l1emdBcEVWYnVHcXc4SzgtQ0JaVWVvLTd6UEpiLXd5MUN2SkxwSUlwTUhJWkpibTVuWV9KcGRiQ0dDZXpKT1haQzkwTXZEZFh0bVE4S0tIak5FRUNtREw3ekdvSjNhYUhqOTZkalN1cWJ1UFh6WnB5d1p6QVlnT2Z6MTBHYzUwSmxBajVpSVFyMWJydm9KUjR4ZHZ2Qk1ER0p1WTVEaHVqcmo5MTRlUlVzYUU0WU9tUlNpbkdyNVNZNlZHQ2RRUHYxVTZkczZOOE5wanRaSUU?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "El operativo para atrapar a roedores transmisores del hantavirus se cierra sin capturas en Argentina - El Peri\u00f3dico",
+      "t": "2026-05-23T14:01:30Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcE00ZjlBSWEyM3VJTmdoRG5uNll0Y1dFMGcxdmM3Mm0wN3hpa3REcTR1Y0I2UzFwdGFCTEdyYkRnM29sbjZMQU5Ga3hhUXRfWmRPQTNfV3BPaElyX0ltdHQ3RGFmWmw2Snd2WEJtSkluZHZKemxPUTNtUGxoMVlYQ2h6ak9oSm9CM2NrV04wekdBV3ZWdDhTVkJsZHdnUjJicm9GZXdn0gGmAUFVX3lxTE1pMkduYVV4eDRpR1AxTk01ODMxc01nZ3dCQ0dLNDV2alczYjY5aWE0VjRkSlpXN0JsTXNOOHA0aUJqdXhJbml2VDFJU251dEljUFk1MVVDQ0d1M1NmWHFfOEtvbnJiR3RKSkZCbU9KVzhpcU1BbVFKZlRQXzh4TnpKX1l1M3RuZ1dDSl8xMGJoYTBCcjI4Z1lkc0RzTnRldGlHQkNQNkE?oc=5"
     },
     {
       "iso": "ARG",
@@ -4140,7 +4147,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-24T13:45:06Z",
+      "last_update": "2026-05-24T13:50:05Z",
       "signals": 5,
       "recent": [
         {
