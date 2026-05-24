@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-24T13:20:04.544212Z",
-  "next_update": "2026-05-24T13:25:00Z",
+  "generated": "2026-05-24T13:25:09.080034Z",
+  "next_update": "2026-05-24T13:30:00Z",
   "days_active": 16,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -45,7 +45,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "PER": {
@@ -538,7 +538,7 @@
       "cfr": 1.2,
       "var_pct": 7,
       "strain": "hantaan",
-      "new_today": 112,
+      "new_today": 111,
       "r0": 3.5,
       "signals": 1,
       "gov_alert": true
@@ -1348,7 +1348,7 @@
       2353,
       2353,
       2353,
-      2403,
+      2404,
       2515
     ],
     "KOR": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 29,
+    "composite": 28,
     "epidemio": 37,
     "polymarket": 5,
-    "kalshi": 37,
+    "kalshi": 35,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.23,
     "continents": [
@@ -4021,9 +4021,17 @@
     "ARG": 8,
     "USA": 2,
     "MEX": 2,
-    "CHN": 1
+    "CHN": 1,
+    "BOL": 1
   },
   "events": [
+    {
+      "iso": "BOL",
+      "title": "C\u00f3mo cient\u00edficos sudafricanos logran identificar el hantavirus - El Diario - Bolivia",
+      "t": "2026-05-24T11:49:16Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOalk4N3V1TFFaMGZpcWVFdWxQSlo2YWJENy1lVjhPUlZGa2lXLTBOV3A0RDRNV1RqQW9rXzhYSTZjN29tclJqRVExZnU2RnpYTnlHa0I4N0FIVFFOZGw5dlhGTDUxcW1JMXp3MUlWeWVJaS0xV3N6VlZHNTE2dTd4WEN5bG9PR0Y4SlRyN0JabGEybzhPRDM3VGgxYVpiZzRldUFMVWQyR1g2QQ?oc=5"
+    },
     {
       "iso": "MEX",
       "title": "Hantavirus de los Andes: qu\u00e9 tan peligroso es y por qu\u00e9 M\u00e9xico emiti\u00f3 un aviso epidemiol\u00f3gico - Infobae",
@@ -4132,7 +4140,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-24T13:20:04Z",
+      "last_update": "2026-05-24T13:25:09Z",
       "signals": 5,
       "recent": [
         {
