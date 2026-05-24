@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-24T08:25:06.794920Z",
-  "next_update": "2026-05-24T08:30:00Z",
+  "generated": "2026-05-24T08:30:06.085980Z",
+  "next_update": "2026-05-24T08:35:00Z",
   "days_active": 16,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -4006,7 +4006,7 @@
     "composite": 28,
     "epidemio": 37,
     "polymarket": 5,
-    "kalshi": 34,
+    "kalshi": 35,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.23,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "ARG": 8,
-    "USA": 3,
+    "USA": 2,
     "MEX": 2,
     "CHN": 1
   },
@@ -4088,13 +4088,6 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ueUZSY2k1ZTcyQ1RCZWdnWU9JT1V3elpoTXZRb1V6eloxeG5NMWQ3dnFWQXNjb3dtc1lfZ0JDY21JUjYxa016b18ySGhBSlI2TnU0YTdMU2hYSE0wazNrdDRwNVlJa085ZkJCV2ViZ3lVdkI1b2pR?oc=5"
     },
     {
-      "iso": "USA",
-      "title": "Colorado adult dies from hantavirus after local rodent exposure - USA Today",
-      "t": "2026-05-18T15:32:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSjlYaGNZRDExWHJGNjRCTUFhTXhwRXNOTjVxRUtRa1FtdXlFUmFxa0hXTjdyN0ZRbkVqNzRSWDd3OWhCWkYtd1daME1WQjRUc2IwTVpuVlNPQXVQOW1xQ0JIdm9HMy12R01BRUU2YzYzQnBFTm5jbi1LSFFQVllFV190RVNkeTBsalZjOExibF92VzBXU1NHLVVjNE5GcTVDa2RVOFBRLWNjTXpIaEprOVJ4dXo5QQ?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
       "t": "2026-05-15T07:00:00Z",
@@ -4139,7 +4132,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-24T08:25:06Z",
+      "last_update": "2026-05-24T08:30:06Z",
       "signals": 5,
       "recent": [
         {
