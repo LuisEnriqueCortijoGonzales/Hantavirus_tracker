@@ -1,16 +1,16 @@
 {
-  "generated": "2026-05-24T08:05:09.797018Z",
-  "next_update": "2026-05-24T08:10:00Z",
+  "generated": "2026-05-24T08:10:09.056630Z",
+  "next_update": "2026-05-24T08:15:00Z",
   "days_active": 16,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 118,
+      "ytd": 119,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 77,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 9,
       "r0": 5.0,
       "signals": 8,
       "gov_alert": false
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2491,
+      "ytd": 2492,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 6,
       "strain": "hantaan",
-      "new_today": 113,
+      "new_today": 114,
       "r0": 3.5,
       "signals": 1,
       "gov_alert": true
@@ -581,7 +581,7 @@
       94,
       102,
       110,
-      118
+      119
     ],
     "CHL": [
       31,
@@ -594,7 +594,7 @@
       35,
       38,
       41,
-      44,
+      45,
       48,
       51,
       54
@@ -1349,7 +1349,7 @@
       2353,
       2353,
       2378,
-      2491
+      2492
     ],
     "KOR": [
       89,
@@ -4006,7 +4006,7 @@
     "composite": 30,
     "epidemio": 37,
     "polymarket": 5,
-    "kalshi": 39,
+    "kalshi": 40,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.23,
     "continents": [
@@ -4027,7 +4027,7 @@
     {
       "iso": "MEX",
       "title": "Hantavirus de los Andes: qu\u00e9 tan peligroso es y por qu\u00e9 M\u00e9xico emiti\u00f3 un aviso epidemiol\u00f3gico - Infobae",
-      "t": "2026-05-23T23:18:16Z",
+      "t": "2026-05-23T23:56:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQXhsUW5wYkt1X2FHaUZLcXNXMEQxRmlTeUN1RmZ1SFZKNWhKTzNwS29MYWlHdlZoNm1hS2MwUDctaHhXUWQwZUFZUzZNUndpX3hzb0ZsOFNpcXhWakFkalVmQjc1MVd1X1NVWUdNM1NmalAyUk1QbW9aNkhqTENHSmZ4aEphQmNHNEw0RHFWY2cyT1IyQmhyQmluMEFKc09rS0lna1o0U2d6NnJrZHViM0FNTm5PTElaeFJVaF94TDZoNWVHN19GSE9lcjZBZEI20gHrAUFVX3lxTE8ybU42dWhCRVNXaXFUVEFEOENqYTBIMHVYbXppNHlHcEtHSHhRVlJsTHltbUFZQ0JYWHNvYXBha05mZVlXVHBNUG1QbERsZ0lRQTZxUEdDeFBQd0lCV1FzYV9ZRFZDZmZzOVoxTXVaWUJDUk1YeUVfaWdZcmNhVlM0ZHloYkpjc2o4SDVLLXZzZkw3cUd2ZF9sT1JMaXZoWEhwc0tUYTBUM0ZnYzdSd1ZHNXhiOXpsRHJFaFdfRDNtN1JiajAxVVZ3SnNWNTBjX3FLQ0NoQUY5dnRMMlF6TUNTRFAzOGZ4SDd1S1U?oc=5"
     },
@@ -4132,7 +4132,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-24T08:05:09Z",
+      "last_update": "2026-05-24T08:10:09Z",
       "signals": 5,
       "recent": [
         {
