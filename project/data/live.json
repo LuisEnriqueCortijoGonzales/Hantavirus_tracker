@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-24T16:40:11.305554Z",
-  "next_update": "2026-05-24T16:45:00Z",
+  "generated": "2026-05-24T16:45:10.554857Z",
+  "next_update": "2026-05-24T16:50:00Z",
   "days_active": 16,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 122,
+      "ytd": 123,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 82,
+      "var_pct": 83,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 9,
       "r0": 5.0,
-      "signals": 9,
+      "signals": 10,
       "gov_alert": false
     },
     "CHL": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2517,
+      "ytd": 2518,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 8,
@@ -575,13 +575,13 @@
       70,
       70,
       70,
-      73,
+      74,
       81,
       89,
       97,
-      105,
+      106,
       114,
-      122
+      123
     ],
     "CHL": [
       31,
@@ -1348,8 +1348,8 @@
       2341,
       2341,
       2341,
-      2407,
-      2517
+      2408,
+      2518
     ],
     "KOR": [
       89,
@@ -1452,8 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      105,
-      106,
       106,
       106,
       107,
@@ -1461,13 +1459,13 @@
       107,
       108,
       108,
+      108,
       109,
       109,
       109,
       110,
       110,
       110,
-      111,
       111,
       111,
       112,
@@ -1481,13 +1479,13 @@
       114,
       115,
       115,
+      115,
       116,
       116,
       116,
       117,
       117,
       117,
-      118,
       118,
       118,
       119,
@@ -1499,6 +1497,8 @@
       121,
       121,
       121,
+      122,
+      122,
       122
     ],
     "CHL": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 28,
+    "composite": 30,
     "epidemio": 37,
     "polymarket": 5,
-    "kalshi": 34,
+    "kalshi": 39,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.3,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "ARG": 9,
+    "ARG": 10,
     "MEX": 2,
     "USA": 2,
     "BOL": 1
@@ -4117,6 +4117,13 @@
     },
     {
       "iso": "ARG",
+      "title": "La fiesta de 15 que desat\u00f3 EL PEOR BROTE DE HANTAVIRUS en Argentina: 34 casos y una tragedia que hoy vuelve a inquietar - El Destape",
+      "t": "2026-05-12T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPOUg0UURyQ182S1lDaUpFSGVaeFFqSFFEdVNPSHd5NmJtaTQwdzVCUGhfcFBwNDBiRHhCRmZKWWpWNEotRUZURWJNanVfQng2QzRwaEsxWWFVUE0zRG1xaTByR1dtMmdkSUFnQmtpQmNrYXU3eGN2NGgzVlJYbjJoelpCMjE4b2VZNXlGT0VkWjdabWRLZ080Y21Kbkg0RjZTWGcxTC1ZUXYxNGV4LWo5dzFOTGpGbVJwS1praW45LWdNeXVyM3UtcUxJY2NYZWlnNDBEOFl2WTlOOGtmTGduNTBXZE1XQkV3dzh6TjB5QXRYbXF6czdOMUdWV2VrUdIB_gFBVV95cUxPOUg0UURyQ182S1lDaUpFSGVaeFFqSFFEdVNPSHd5NmJtaTQwdzVCUGhfcFBwNDBiRHhCRmZKWWpWNEotRUZURWJNanVfQng2QzRwaEsxWWFVUE0zRG1xaTByR1dtMmdkSUFnQmtpQmNrYXU3eGN2NGgzVlJYbjJoelpCMjE4b2VZNXlGT0VkWjdabWRLZ080Y21Kbkg0RjZTWGcxTC1ZUXYxNGV4LWo5dzFOTGpGbVJwS1praW45LWdNeXVyM3UtcUxJY2NYZWlnNDBEOFl2WTlOOGtmTGduNTBXZE1XQkV3dzh6TjB5QXRYbXF6czdOMUdWV2VrUQ?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Brote de hantavirus en Argentina: tres muertes y vigilancia internacional en cruceros - Perfil",
       "t": "2026-05-11T07:00:00Z",
       "source": "GoogleNews-ES",
@@ -4139,7 +4146,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-24T16:40:11Z",
+      "last_update": "2026-05-24T16:45:10Z",
       "signals": 5,
       "recent": [
         {
