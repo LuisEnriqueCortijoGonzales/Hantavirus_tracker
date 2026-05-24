@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-24T21:50:06.810582Z",
-  "next_update": "2026-05-24T21:55:00Z",
+  "generated": "2026-05-24T21:55:06.045917Z",
+  "next_update": "2026-05-24T22:00:00Z",
   "days_active": 16,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 124,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 85,
+      "var_pct": 86,
       "strain": "andes",
-      "new_today": 9,
+      "new_today": 8,
       "r0": 5.0,
-      "signals": 9,
+      "signals": 10,
       "gov_alert": false
     },
     "CHL": {
@@ -74,11 +74,11 @@
       "ytd": 8,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "USA": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2540,
+      "ytd": 2541,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 9,
@@ -579,8 +579,8 @@
       83,
       91,
       99,
-      107,
-      115,
+      108,
+      116,
       124
     ],
     "CHL": [
@@ -1348,8 +1348,8 @@
       2341,
       2341,
       2341,
-      2431,
-      2540
+      2432,
+      2541
     ],
     "KOR": [
       89,
@@ -1452,17 +1452,15 @@
   ],
   "hourly_history": {
     "ARG": [
-      107,
-      107,
       108,
       108,
+      108,
       109,
       109,
       109,
       110,
       110,
       110,
-      111,
       111,
       111,
       112,
@@ -1476,13 +1474,13 @@
       114,
       115,
       115,
+      115,
       116,
       116,
       116,
       117,
       117,
       117,
-      118,
       118,
       118,
       119,
@@ -1499,6 +1497,8 @@
       122,
       123,
       123,
+      123,
+      124,
       124
     ],
     "CHL": [
@@ -4006,7 +4006,7 @@
     "composite": 28,
     "epidemio": 36,
     "polymarket": 5,
-    "kalshi": 37,
+    "kalshi": 34,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.3,
     "continents": [
@@ -4018,20 +4018,13 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "ARG": 9,
-    "USA": 3,
-    "MEX": 1,
+    "ARG": 10,
+    "MEX": 2,
+    "USA": 2,
     "FRA": 1,
     "BOL": 1
   },
   "events": [
-    {
-      "iso": "USA",
-      "title": "Hantavirus Cruise Travel Advisory Sparks Fresh Health Concerns for Antarctica and South America Expedition Travelers - Travel And Tour World",
-      "t": "2026-05-24T20:04:06Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GeFVnSGgwRG1pNWJNLXJ1bW1yb1pzSGtjclRadDlPckhDcHUtRGJGcVk0eGdxTVh2dEFQNGVGUWtJSnZGcWtSU3htTW9ha05keWZuY2szOTBwSFY3X0lUUURvUm1UR0VVeWQ2MDNn?oc=5"
-    },
     {
       "iso": "BOL",
       "title": "C\u00f3mo cient\u00edficos sudafricanos logran identificar el hantavirus - El Diario - Bolivia",
@@ -4118,10 +4111,24 @@
     },
     {
       "iso": "ARG",
+      "title": "Argentina Races to Find Origin of Hantavirus Contagion - The New York Times",
+      "t": "2026-05-14T07:00:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdGxZU29EZEFGSHR3MDM0UWVpdkctNklXZTlzQUdBRkc3Nkpvc2djaW1oY01qdlB2UGJ1Wm5CdU1tLVBfN2JkM0x4MFU2RDV3RXFxZm1CeE5XeEh3WHRuM1FSM3ZDeVlhSnRrM2pENy11el8zY0ZVNlNvdDFHRzFIQkI3RTkyZDN3eHdwTmRMWGw?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Argentina est\u00e1 en una carrera por hallar el origen del brote de hantavirus - The New York Times",
       "t": "2026-05-14T07:00:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaUVBWVhjVVJoX0VNXzR6WnlubmhZWS1saTN3OGVqcm1Va0tOcnVBaXcweEk4WFY0VWtCZDVNMmZTSXV3aEdLaHItYWh4ZENCYmFvaS1ZRGc5RFRfVmF4RjZrN2NHQ2tqRjI3aHltS19jSWtHNG5QU0FRRHVreGVRa3JFRjUtSXBfakt5Rk9JOA?oc=5"
+    },
+    {
+      "iso": "MEX",
+      "title": "New Mexico's Hantavirus Strain is Different From Cruise Ship Outbreak and Does Not Spread Between People - UNM HSC Newsroom",
+      "t": "2026-05-13T07:00:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVpsMXJOSnRETzVJRUNiajlyMHpQWkVhVFpKZ1kwQ240bHlEMDd2anV4XzBRclI5Ti1yVXVCRWZ6V0JMdXNNZ0xrUGw1OVdtM1pINk80QVg3UmxQN0h4V2xWZ2l2NzlvUE5aZE4wemtUQTBzUk9RMzRoZnQtcWlXTlNJNGtEX08tYXlENWZtQS1OQWNhRWxlSkpNWm1yZ0ZDZDRWejZZSlBfaExJX00zYzBtX1ZkY2c3S0FMc1V1amdueWpEaE9lejZZVkFhZw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4147,8 +4154,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-24T21:50:06Z",
-      "signals": 4,
+      "last_update": "2026-05-24T21:55:06Z",
+      "signals": 5,
       "recent": [
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
@@ -4169,6 +4176,11 @@
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
           "t": "2026-05-15T07:00:00Z",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
+        },
+        {
+          "title": "New Mexico's Hantavirus Strain is Different From Cruise Ship Outbreak and Does Not Spread Between People - UNM HSC Newsroom",
+          "t": "2026-05-13T07:00:00Z",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVpsMXJOSnRETzVJRUNiajlyMHpQWkVhVFpKZ1kwQ240bHlEMDd2anV4XzBRclI5Ti1yVXVCRWZ6V0JMdXNNZ0xrUGw1OVdtM1pINk80QVg3UmxQN0h4V2xWZ2l2NzlvUE5aZE4wemtUQTBzUk9RMzRoZnQtcWlXTlNJNGtEX08tYXlENWZtQS1OQWNhRWxlSkpNWm1yZ0ZDZDRWejZZSlBfaExJX00zYzBtX1ZkY2c3S0FMc1V1amdueWpEaE9lejZZVkFhZw?oc=5"
         }
       ]
     }
