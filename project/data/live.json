@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-24T12:35:11.326637Z",
-  "next_update": "2026-05-24T12:40:00Z",
+  "generated": "2026-05-24T12:40:15.807209Z",
+  "next_update": "2026-05-24T12:45:00Z",
   "days_active": 16,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 121,
+      "ytd": 120,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 80,
+      "var_pct": 79,
       "strain": "andes",
-      "new_today": 9,
+      "new_today": 8,
       "r0": 5.0,
-      "signals": 9,
+      "signals": 8,
       "gov_alert": false
     },
     "CHL": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -576,12 +576,12 @@
       70,
       70,
       72,
-      80,
+      79,
       87,
-      96,
-      104,
+      95,
+      103,
       112,
-      121
+      120
     ],
     "CHL": [
       31,
@@ -883,7 +883,7 @@
       312,
       312,
       323,
-      339,
+      340,
       355,
       370
     ],
@@ -1452,6 +1452,7 @@
   ],
   "hourly_history": {
     "ARG": [
+      103,
       104,
       104,
       105,
@@ -1465,6 +1466,7 @@
       107,
       108,
       108,
+      108,
       109,
       109,
       109,
@@ -1474,7 +1476,6 @@
       111,
       111,
       111,
-      112,
       112,
       112,
       113,
@@ -1485,6 +1486,7 @@
       114,
       115,
       115,
+      115,
       116,
       116,
       116,
@@ -1497,8 +1499,6 @@
       119,
       119,
       119,
-      120,
-      120,
       120
     ],
     "CHL": [
@@ -4006,7 +4006,7 @@
     "composite": 29,
     "epidemio": 37,
     "polymarket": 5,
-    "kalshi": 38,
+    "kalshi": 37,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.23,
     "continents": [
@@ -4018,8 +4018,8 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "ARG": 9,
-    "USA": 3,
+    "ARG": 8,
+    "USA": 2,
     "MEX": 2,
     "CHN": 1
   },
@@ -4089,20 +4089,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina\u2019s icy outpost at the end of the world fears the hantavirus will chill tourism - AP News",
-      "t": "2026-05-18T21:24:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb3ZsNWRWd2JEZEpWclg4V2RoMlJ0bWRiVFpSN0pZX3ZfX0JtdW15RHZicG5od1FMbl92Tm4zdC1DRHBsQW1XR3VtZnVOQ2JOYXd2QlZCWFpsTzJHVGEtTDFnbmRSTy1EV04wNmhVM2xMVkZTVGg5dURsZktfMFNFZG43S0FpdFA3ZzJ0R09wQXVzNHRMaGY1Ynkxa2VMSXowcU9CZ3BCWnZQaFZi?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Colorado adult dies from hantavirus after local rodent exposure - USA Today",
-      "t": "2026-05-18T15:32:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSjlYaGNZRDExWHJGNjRCTUFhTXhwRXNOTjVxRUtRa1FtdXlFUmFxa0hXTjdyN0ZRbkVqNzRSWDd3OWhCWkYtd1daME1WQjRUc2IwTVpuVlNPQXVQOW1xQ0JIdm9HMy12R01BRUU2YzYzQnBFTm5jbi1LSFFQVllFV190RVNkeTBsalZjOExibF92VzBXU1NHLVVjNE5GcTVDa2RVOFBRLWNjTXpIaEprOVJ4dXo5QQ?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
       "t": "2026-05-15T07:00:00Z",
       "source": "GoogleNews-ES",
@@ -4146,7 +4132,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-24T12:35:11Z",
+      "last_update": "2026-05-24T12:40:15Z",
       "signals": 5,
       "recent": [
         {
