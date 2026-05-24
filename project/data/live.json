@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-24T06:55:15.068931Z",
-  "next_update": "2026-05-24T07:00:00Z",
+  "generated": "2026-05-24T07:00:09.100742Z",
+  "next_update": "2026-05-24T07:05:00Z",
   "days_active": 16,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 119,
+      "ytd": 118,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 77,
+      "var_pct": 76,
       "strain": "andes",
-      "new_today": 9,
+      "new_today": 8,
       "r0": 5.0,
-      "signals": 9,
+      "signals": 8,
       "gov_alert": false
     },
     "CHL": {
@@ -538,7 +538,7 @@
       "cfr": 1.2,
       "var_pct": 6,
       "strain": "hantaan",
-      "new_today": 114,
+      "new_today": 113,
       "r0": 3.5,
       "signals": 1,
       "gov_alert": true
@@ -576,12 +576,12 @@
       70,
       70,
       70,
-      78,
-      86,
-      94,
-      102,
+      77,
+      85,
+      93,
+      101,
       110,
-      119
+      118
     ],
     "CHL": [
       31,
@@ -1348,7 +1348,7 @@
       2353,
       2353,
       2353,
-      2372,
+      2373,
       2486
     ],
     "KOR": [
@@ -1401,7 +1401,6 @@
     "2026-05-24T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-22T07:00:00Z",
     "2026-05-22T08:00:00Z",
     "2026-05-22T09:00:00Z",
     "2026-05-22T10:00:00Z",
@@ -1448,16 +1447,17 @@
     "2026-05-24T03:00:00Z",
     "2026-05-24T04:00:00Z",
     "2026-05-24T05:00:00Z",
-    "2026-05-24T06:00:00Z"
+    "2026-05-24T06:00:00Z",
+    "2026-05-24T07:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
       102,
       102,
+      102,
       103,
       103,
       103,
-      104,
       104,
       104,
       105,
@@ -1471,6 +1471,7 @@
       107,
       108,
       108,
+      108,
       109,
       109,
       109,
@@ -1480,7 +1481,6 @@
       111,
       111,
       111,
-      112,
       112,
       112,
       113,
@@ -1491,13 +1491,13 @@
       114,
       115,
       115,
+      115,
       116,
       116,
       116,
       117,
       117,
       117,
-      118,
       118,
       118
     ],
@@ -1508,7 +1508,6 @@
       48,
       48,
       48,
-      48,
       49,
       49,
       49,
@@ -1547,6 +1546,7 @@
       53,
       53,
       53,
+      54,
       54,
       54,
       54
@@ -2403,7 +2403,6 @@
     ],
     "FIN": [
       336,
-      336,
       337,
       338,
       338,
@@ -2449,7 +2448,8 @@
       364,
       365,
       366,
-      366
+      366,
+      367
     ],
     "SWE": [
       145,
@@ -2546,9 +2546,9 @@
       234,
       234,
       234,
-      234,
       235,
       235,
+      236,
       236
     ],
     "POL": [
@@ -3872,7 +3872,6 @@
       2353,
       2353,
       2353,
-      2353,
       2358,
       2363,
       2368,
@@ -3899,7 +3898,8 @@
       2468,
       2472,
       2477,
-      2482
+      2482,
+      2486
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 29,
+    "composite": 30,
     "epidemio": 37,
     "polymarket": 5,
-    "kalshi": 38,
+    "kalshi": 39,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.23,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "ARG": 9,
+    "ARG": 8,
     "USA": 2,
     "MEX": 2,
     "CHN": 1
@@ -4114,13 +4114,6 @@
       "t": "2026-05-11T07:00:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPS3R3bXdhdDhKcThHMTl0cUNSaEp4YkhsQVNzMlRneXlZdm40TzZaQ291aml6al9YeGpPV2htTUx0bkN3QWZXUHJHblktaEIyVXY5aE9seFZCd3dBa3dQYWRGN0p6bndGenJGLUotWmlnNkdZRS1adFhSekZKemlzQ1NfeXN4b2pWcDdnMmIwTnNocnM2VmV5U0xFY1lxa2d4NlBxSkFQUEI2MWQzNlY4a2ZpZTRNYkhCaWxSaXoyQy0tbGdWSGdNYklrRV9tMUXSAdQBQVVfeXFMTUF2Sjc5SkFMWXVCdXlIZGlIamNTS09qa29ueTgta1JBbE5Oc2VtOEpLdXpNdDJJUG5MbGhZVXAyRllaX1RVTGVyR2xacDFDQnZOY3BaTXBXWlozV1hUd2JzMjdWU3l2bklBbXhvcl9UWVpYOTZXM25LWXdYeURFZG9mZ0J4djI1WXdkMWNSOWwtdVI0bVdfRVA0b1VYS1FPNGNPdHZiU090dnRNZHhlRndKcDZFUldpUGJnY0NYWlZVUEMzcmpIeHBva0pWOWo1R2UzV3k?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
-      "t": "2026-05-10T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
     }
   ],
   "maritime_events": [
@@ -4139,8 +4132,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-24T06:55:15Z",
-      "signals": 6,
+      "last_update": "2026-05-24T07:00:09Z",
+      "signals": 5,
       "recent": [
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
@@ -4163,9 +4156,9 @@
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
         },
         {
-          "title": "\"En Tierra del Fuego no tenemos casos de hantavirus\": la provincia argentina desde donde zarp\u00f3 el crucero niega ser la causa de la crisis que alerta a Europa - BBC",
-          "t": "2026-05-10T07:00:00Z",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5USndPNEpyT201R0hwWEVLV3VuZTVTOFlaQ0ZvWW9YMXJFR3dhQmNJR2tyWXIyUWNYOFk0enJFcGMzVnNyNTBxSzJ5UjdJLTA2ckJrdG8taElYdTjSAWBBVV95cUxQUXBBRmllY205WnFKbzBvWUVoSG5wOUJzTm9UVVRZMllyVS1vUTJ0OUlEZFhqMnRQNFdOa2dRc1RmY1ltWG9DTEs0VFVnOXRGeXprWm9TTnM0aTNBdXBHbVU?oc=5"
+          "title": "New Mexico's Hantavirus Strain is Different From Cruise Ship Outbreak and Does Not Spread Between People - UNM HSC Newsroom",
+          "t": "2026-05-13T07:00:00Z",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVpsMXJOSnRETzVJRUNiajlyMHpQWkVhVFpKZ1kwQ240bHlEMDd2anV4XzBRclI5Ti1yVXVCRWZ6V0JMdXNNZ0xrUGw1OVdtM1pINk80QVg3UmxQN0h4V2xWZ2l2NzlvUE5aZE4wemtUQTBzUk9RMzRoZnQtcWlXTlNJNGtEX08tYXlENWZtQS1OQWNhRWxlSkpNWm1yZ0ZDZDRWejZZSlBfaExJX00zYzBtX1ZkY2c3S0FMc1V1amdueWpEaE9lejZZVkFhZw?oc=5"
         }
       ]
     }
