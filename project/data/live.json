@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-24T20:15:15.794034Z",
-  "next_update": "2026-05-24T20:20:00Z",
+  "generated": "2026-05-24T20:20:15.058541Z",
+  "next_update": "2026-05-24T20:25:00Z",
   "days_active": 16,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.25,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "CHE": {
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2533,
+      "ytd": 2534,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 8,
       "strain": "hantaan",
-      "new_today": 109,
+      "new_today": 110,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -1349,7 +1349,7 @@
       2341,
       2341,
       2424,
-      2533
+      2534
     ],
     "KOR": [
       89,
@@ -4006,7 +4006,7 @@
     "composite": 28,
     "epidemio": 36,
     "polymarket": 5,
-    "kalshi": 33,
+    "kalshi": 36,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.3,
     "continents": [
@@ -4021,7 +4021,6 @@
     "ARG": 9,
     "USA": 3,
     "MEX": 1,
-    "FRA": 1,
     "BOL": 1
   },
   "events": [
@@ -4103,13 +4102,6 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ueUZSY2k1ZTcyQ1RCZWdnWU9JT1V3elpoTXZRb1V6eloxeG5NMWQ3dnFWQXNjb3dtc1lfZ0JDY21JUjYxa016b18ySGhBSlI2TnU0YTdMU2hYSE0wazNrdDRwNVlJa085ZkJCV2ViZ3lVdkI1b2pR?oc=5"
     },
     {
-      "iso": "FRA",
-      "title": "El \u00e9bola y el hantavirus confirman que el mundo sigue sin estar preparado ante los riesgos, seg\u00fan una experta en pandemias - France 24",
-      "t": "2026-05-20T13:09:10Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQYnBXTnJOOS00b3BTVnE5UDNCdHQ4QW9ib2RzaHlhVXV5dnB6aXY1UWxyVTFicW9CNWtOSTdkaGN5ODE4S2JLZkZUbzlTbTFHbkxGQWI2STdKdk9SdWtDSWRTMkxwZ2tKQW9UWkVnZ1RBNjFVQnljOG5BVV9kRDBhdmppNjlGR3NpY3lTN0J5bE1HbnFLQnRqSkZHNy14Zi1vamI3SnlObW05alRzdnhvTWh3clBwMWlPSk9Qdl91NnVPWklSelA3QnUzTjE3WU1PNDJHa3lueHhpVDBYOVphVHpLdkZkTV85X1dET2lyUzdfenBkTmNiVS1CQTJ3VEdKZmhZTXFRYkQ4eXhUOEZ1WUl3?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
       "t": "2026-05-15T07:00:00Z",
@@ -4147,7 +4139,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-24T20:15:15Z",
+      "last_update": "2026-05-24T20:20:15Z",
       "signals": 4,
       "recent": [
         {
