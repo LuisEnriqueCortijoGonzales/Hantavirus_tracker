@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-24T20:05:17.312654Z",
-  "next_update": "2026-05-24T20:10:00Z",
+  "generated": "2026-05-24T20:10:16.542399Z",
+  "next_update": "2026-05-24T20:15:00Z",
   "days_active": 16,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -21,7 +21,7 @@
       "cfr": 35.5,
       "var_pct": 67,
       "strain": "andes",
-      "new_today": 4,
+      "new_today": 3,
       "r0": 5.0,
       "signals": 0,
       "gov_alert": false
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -538,7 +538,7 @@
       "cfr": 1.2,
       "var_pct": 8,
       "strain": "hantaan",
-      "new_today": 110,
+      "new_today": 109,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -596,7 +596,7 @@
       43,
       46,
       49,
-      52,
+      53,
       56
     ],
     "BRA": [
@@ -883,7 +883,7 @@
       312,
       312,
       328,
-      344,
+      345,
       360,
       375
     ],
@@ -1348,7 +1348,7 @@
       2341,
       2341,
       2341,
-      2423,
+      2424,
       2533
     ],
     "KOR": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 28,
+    "composite": 29,
     "epidemio": 36,
     "polymarket": 5,
-    "kalshi": 34,
+    "kalshi": 38,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.3,
     "continents": [
@@ -4019,12 +4019,19 @@
   },
   "signal_summary": {
     "ARG": 9,
-    "USA": 2,
+    "USA": 3,
     "MEX": 1,
     "FRA": 1,
     "BOL": 1
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "Hantavirus Cruise Travel Advisory Sparks Fresh Health Concerns for Antarctica and South America Expedition Travelers - Travel And Tour World",
+      "t": "2026-05-24T20:04:06Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GeFVnSGgwRG1pNWJNLXJ1bW1yb1pzSGtjclRadDlPckhDcHUtRGJGcVk0eGdxTVh2dEFQNGVGUWtJSnZGcWtSU3htTW9ha05keWZuY2szOTBwSFY3X0lUUURvUm1UR0VVeWQ2MDNn?oc=5"
+    },
     {
       "iso": "BOL",
       "title": "C\u00f3mo cient\u00edficos sudafricanos logran identificar el hantavirus - El Diario - Bolivia",
@@ -4140,7 +4147,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-24T20:05:17Z",
+      "last_update": "2026-05-24T20:10:16Z",
       "signals": 4,
       "recent": [
         {
