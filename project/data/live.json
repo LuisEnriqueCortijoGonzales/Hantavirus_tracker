@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-24T04:15:07.594012Z",
-  "next_update": "2026-05-24T04:20:00Z",
+  "generated": "2026-05-24T04:20:06.807995Z",
+  "next_update": "2026-05-24T04:25:00Z",
   "days_active": 16,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 118,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 76,
+      "var_pct": 77,
       "strain": "andes",
-      "new_today": 9,
+      "new_today": 8,
       "r0": 5.0,
-      "signals": 9,
+      "signals": 10,
       "gov_alert": false
     },
     "CHL": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -538,7 +538,7 @@
       "cfr": 1.2,
       "var_pct": 6,
       "strain": "hantaan",
-      "new_today": 115,
+      "new_today": 114,
       "r0": 3.5,
       "signals": 1,
       "gov_alert": true
@@ -580,7 +580,7 @@
       85,
       93,
       101,
-      109,
+      110,
       118
     ],
     "CHL": [
@@ -1348,7 +1348,7 @@
       2353,
       2353,
       2353,
-      2359,
+      2360,
       2474
     ],
     "KOR": [
@@ -1452,7 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      101,
       102,
       102,
       102,
@@ -1462,7 +1461,6 @@
       104,
       104,
       104,
-      105,
       105,
       105,
       106,
@@ -1473,13 +1471,13 @@
       107,
       108,
       108,
+      108,
       109,
       109,
       109,
       110,
       110,
       110,
-      111,
       111,
       111,
       112,
@@ -1493,12 +1491,14 @@
       114,
       115,
       115,
+      115,
       116,
       116,
       116,
       117,
       117,
       117,
+      118,
       118
     ],
     "CHL": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 29,
+    "composite": 30,
     "epidemio": 37,
     "polymarket": 5,
-    "kalshi": 38,
+    "kalshi": 41,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.23,
     "continents": [
@@ -4018,8 +4018,8 @@
     "outbreak_count": 7
   },
   "signal_summary": {
-    "ARG": 9,
-    "USA": 2,
+    "ARG": 10,
+    "USA": 3,
     "MEX": 2,
     "CHN": 1
   },
@@ -4088,6 +4088,20 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ueUZSY2k1ZTcyQ1RCZWdnWU9JT1V3elpoTXZRb1V6eloxeG5NMWQ3dnFWQXNjb3dtc1lfZ0JDY21JUjYxa016b18ySGhBSlI2TnU0YTdMU2hYSE0wazNrdDRwNVlJa085ZkJCV2ViZ3lVdkI1b2pR?oc=5"
     },
     {
+      "iso": "USA",
+      "title": "Confirman el primer caso de Hantavirus en Estados Unidos no relacionado con el crucero MV Hondius - HOLA",
+      "t": "2026-05-19T01:25:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3VsYjJOMHNjeFpfam4xcGYtLVhPM0tGLWY2MUdFUkFPNW9FMXFQVEZjSWw5V2Q2bHBkZ1pzS2VvSUFHdklzLUU3TkpFMEFNZGM4WDQ3bWZzOTdvU3I5eU5yQllUeVRnZUlnZmJseHFEZU5nT1ZwRmRuRjJQQ0dUbFJpVDBlbTc5Rml2Z243aGVodV8zZ2l0TEpQYkJKREtjNVpVUQ?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "El crucero afectado por hantavirus llegar\u00e1 a Holanda tras un brote mortal - Cadena 3 Argentina",
+      "t": "2026-05-18T06:56:54Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSW9mVlBzanVyekwwakNDUThJZmo4bWwxREdVZHgxRDBmVS1BQlJiWlZzRjBfdHFXVjM5RkJZR3I4UjZXZXFhelR4VmVvaXRLbTZFNDdEM0lveDRvVktYRGIxMmdtajJjeDVKVnZEd1V2LUlUQ05pOU5VX1V0ZXF3YnhRN1YxSXRIU3Q3TXZHZkhmbGtRSE9rb1pFaVdzX3dlNmowUHBGaDhacWVNTjNETHU5d01vRnl5RFHSAb8BQVVfeXFMT1BjWUcxaHhwQjJZTTkxX0loN0lEaEVJaWwtcG9USDRuV2wzMVRFYVdoTXZxajRzaVN1Sl9aLWthS0RrRkUwalNrQUt5UEFseEloMzVwOU5aVVE4aWtseko4RUlxdzZQNVNjbUtkSWIyODJSS3pXNDVkNmFJZG9Ma0JraGJLSzJDdi1GTlVuZmNpZGZISnJCMmJabFJqQXpHY2QyZ3ZHTW9aT0U0YTB1dm1EbHNTVkR3NjlmSTFrcFU?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
       "t": "2026-05-15T07:00:00Z",
@@ -4139,8 +4153,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-24T04:15:07Z",
-      "signals": 6,
+      "last_update": "2026-05-24T04:20:06Z",
+      "signals": 8,
       "recent": [
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
