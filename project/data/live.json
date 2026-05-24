@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-24T22:05:15.068579Z",
-  "next_update": "2026-05-24T22:10:00Z",
+  "generated": "2026-05-24T22:10:09.046308Z",
+  "next_update": "2026-05-24T22:15:00Z",
   "days_active": 16,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 124,
+      "ytd": 123,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 85,
+      "var_pct": 84,
       "strain": "andes",
       "new_today": 8,
       "r0": 5.0,
-      "signals": 9,
+      "signals": 8,
       "gov_alert": false
     },
     "CHL": {
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2541,
+      "ytd": 2542,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 9,
       "strain": "hantaan",
-      "new_today": 108,
+      "new_today": 109,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -576,12 +576,12 @@
       70,
       70,
       75,
-      83,
-      91,
-      99,
+      82,
+      90,
+      98,
       107,
-      116,
-      124
+      115,
+      123
     ],
     "CHL": [
       31,
@@ -882,7 +882,7 @@
       312,
       312,
       312,
-      329,
+      330,
       346,
       361,
       376
@@ -1349,7 +1349,7 @@
       2341,
       2341,
       2433,
-      2541
+      2542
     ],
     "KOR": [
       89,
@@ -1453,8 +1453,10 @@
   "hourly_history": {
     "ARG": [
       107,
+      107,
       108,
       108,
+      108,
       109,
       109,
       109,
@@ -1464,7 +1466,6 @@
       111,
       111,
       111,
-      112,
       112,
       112,
       113,
@@ -1475,6 +1476,7 @@
       114,
       115,
       115,
+      115,
       116,
       116,
       116,
@@ -1487,7 +1489,6 @@
       119,
       119,
       119,
-      120,
       120,
       120,
       121,
@@ -1498,8 +1499,7 @@
       122,
       123,
       123,
-      124,
-      124
+      123
     ],
     "CHL": [
       50,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 28,
+    "composite": 29,
     "epidemio": 36,
     "polymarket": 5,
-    "kalshi": 33,
+    "kalshi": 38,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.3,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "ARG": 9,
+    "ARG": 8,
     "USA": 2,
     "MEX": 1,
     "BOL": 1
@@ -4051,13 +4051,6 @@
       "t": "2026-05-23T14:01:30Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcE00ZjlBSWEyM3VJTmdoRG5uNll0Y1dFMGcxdmM3Mm0wN3hpa3REcTR1Y0I2UzFwdGFCTEdyYkRnM29sbjZMQU5Ga3hhUXRfWmRPQTNfV3BPaElyX0ltdHQ3RGFmWmw2Snd2WEJtSkluZHZKemxPUTNtUGxoMVlYQ2h6ak9oSm9CM2NrV04wekdBV3ZWdDhTVkJsZHdnUjJicm9GZXdn0gGmAUFVX3lxTE1pMkduYVV4eDRpR1AxTk01ODMxc01nZ3dCQ0dLNDV2alczYjY5aWE0VjRkSlpXN0JsTXNOOHA0aUJqdXhJbml2VDFJU251dEljUFk1MVVDQ0d1M1NmWHFfOEtvbnJiR3RKSkZCbU9KVzhpcU1BbVFKZlRQXzh4TnpKX1l1M3RuZ1dDSl8xMGJoYTBCcjI4Z1lkc0RzTnRldGlHQkNQNkE?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina investiga el origen del brote de hantavirus vinculado al crucero MV Hondius - CGTN en Espa\u00f1ol",
-      "t": "2026-05-23T04:06:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE53ZkJpSWEyNXdqYk9Tc1FHWi15YkhHREZlUkRoa0F6YURpb0NaX2gyeU96SzB4Nlp1bUg0VWxjR2tQVFBsSkJGWUlpNF9jb1poM3ZMaE52cW9nYXE3eURGcUFfenJOdXhIX1hvZE1vdE8xNFd3b3YxNEdyUQ?oc=5"
     },
     {
       "iso": "USA",
@@ -4132,8 +4125,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-24T22:05:15Z",
-      "signals": 4,
+      "last_update": "2026-05-24T22:10:09Z",
+      "signals": 3,
       "recent": [
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
@@ -4144,11 +4137,6 @@
           "title": "Argentina refuerza vigilancia sanitaria ante brote de hantavirus en crucero - Cadena 3 Argentina",
           "t": "2026-05-22T10:19:56Z",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcV9rcm5uT2ljTUliODV3aTU3TnI1MWhQcXd5UU9OaTBQVmYxbDVENWVwQlFDdnlTb2QzRV84THUyUlJPcWFFMzFYMEJTRG1IX0JKUDg3YnIzbGhoZXpGU09RN05UZm1UQzI0OXlKR3NhRFpuVzY4czRJV0pvOFhpaXVLbDNCNUpxUzAzd1pRSGZlZ2U2dVNaSGdETFgwbWp2LUdJWS1jLXQxdWJMSWJoRUN0MEc5ZG5lOWZPZG10TnjSAcYBQVVfeXFMTjlhQmduNHFPUHVWaklxdDdyVjFjTmtzUGY1cXQyemszSDhETVRaNTlGb0pOcXZJelFBbG9ud3VnRnRXQlhrZjM5bm9rNk51eVhOaXBFemVKM0xCaWVfemdtUG11V1dVWHBYV1BILWtIN2ZuSUdSNVlrOTNSUXBiZnEwNUdXUVI5azE5OHVTTVdMQ1dEUmc4T3J2dDAtVDhucy0yRXNuY1lkY1drUmpwcnIzaVlIXzlWQXNoTHdxbnBFR3pBUUpB?oc=5"
-        },
-        {
-          "title": "Argentina investiga el origen del brote de hantavirus vinculado al crucero MV Hondius - CGTN en Espa\u00f1ol",
-          "t": "2026-05-23T04:06:00Z",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE53ZkJpSWEyNXdqYk9Tc1FHWi15YkhHREZlUkRoa0F6YURpb0NaX2gyeU96SzB4Nlp1bUg0VWxjR2tQVFBsSkJGWUlpNF9jb1poM3ZMaE52cW9nYXE3eURGcUFfenJOdXhIX1hvZE1vdE8xNFd3b3YxNEdyUQ?oc=5"
         },
         {
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
