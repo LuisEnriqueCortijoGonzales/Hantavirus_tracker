@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-25T15:50:12.824925Z",
-  "next_update": "2026-05-25T15:55:00Z",
+  "generated": "2026-05-25T15:55:12.058777Z",
+  "next_update": "2026-05-25T16:00:00Z",
   "days_active": 17,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2617,
+      "ytd": 2618,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": 12,
       "strain": "hantaan",
-      "new_today": 103,
+      "new_today": 104,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -578,7 +578,7 @@
       80,
       88,
       96,
-      104,
+      105,
       113,
       121,
       129
@@ -1347,9 +1347,9 @@
       2341,
       2341,
       2341,
-      2403,
+      2404,
       2514,
-      2617
+      2618
     ],
     "KOR": [
       89,
@@ -4006,7 +4006,7 @@
     "composite": 26,
     "epidemio": 33,
     "polymarket": 5,
-    "kalshi": 34,
+    "kalshi": 33,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.31,
     "continents": [
@@ -4018,10 +4018,18 @@
   },
   "signal_summary": {
     "ARG": 8,
+    "CAN": 1,
     "MEX": 1,
     "GBR": 1
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "Hantavirus \u2018stable for now,\u2019 WHO leader says - Yahoo News Canada",
+      "t": "2026-05-25T15:43:32Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03cTdleHdUdHU1aUgzM1QxWGptMGNZQlRTVFpvdHIwU3o5aVhjZ3FtWU0wV3BUdDY5a2NEckE0Z2VXNmtIVmM3OVR1MjhGZHViamtsUGIzazBMdWNuVjlxT25xb1VzSThQbTVEZ3lfSjZwQmRwYVpkTmp1cFBjZkE?oc=5"
+    },
     {
       "iso": "GBR",
       "title": "Reino Unido investiga el brote de hantavirus en el crucero MV Hondius para frenar su capacidad de contagio humano - consalud.es",
@@ -4109,7 +4117,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-25T15:50:12Z",
+      "last_update": "2026-05-25T15:55:12Z",
       "signals": 5,
       "recent": [
         {
