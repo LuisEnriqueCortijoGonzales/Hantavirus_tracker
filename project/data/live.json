@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-25T21:10:06.817976Z",
-  "next_update": "2026-05-25T21:15:00Z",
+  "generated": "2026-05-25T21:15:16.575591Z",
+  "next_update": "2026-05-25T21:20:00Z",
   "days_active": 17,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 130,
+      "ytd": 131,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 82,
+      "var_pct": 83,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 9,
       "r0": 5.0,
-      "signals": 6,
+      "signals": 7,
       "gov_alert": false
     },
     "CHL": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2639,
+      "ytd": 2640,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": 13,
@@ -575,13 +575,13 @@
       69,
       69,
       74,
-      81,
+      82,
       89,
-      97,
-      105,
+      98,
+      106,
       114,
       122,
-      130
+      131
     ],
     "CHL": [
       31,
@@ -1347,9 +1347,9 @@
       2341,
       2341,
       2341,
-      2428,
-      2537,
-      2639
+      2429,
+      2538,
+      2640
     ],
     "KOR": [
       89,
@@ -1453,14 +1453,12 @@
   "hourly_history": {
     "ARG": [
       114,
-      114,
       115,
       115,
       115,
       116,
       116,
       116,
-      117,
       117,
       117,
       118,
@@ -1484,6 +1482,7 @@
       124,
       124,
       124,
+      125,
       125,
       125,
       126,
@@ -1499,7 +1498,8 @@
       129,
       129,
       130,
-      130
+      130,
+      131
     ],
     "CHL": [
       53,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 25,
+    "composite": 26,
     "epidemio": 33,
     "polymarket": 5,
-    "kalshi": 30,
+    "kalshi": 33,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.31,
     "continents": [
@@ -4017,11 +4017,19 @@
     "outbreak_count": 5
   },
   "signal_summary": {
-    "ARG": 6,
+    "ARG": 7,
     "USA": 2,
-    "MEX": 1
+    "MEX": 1,
+    "GBR": 1
   },
   "events": [
+    {
+      "iso": "GBR",
+      "title": "Reino Unido investiga el brote de hantavirus en el crucero MV Hondius para frenar su capacidad de contagio humano - consalud.es",
+      "t": "2026-05-25T09:40:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPV2JwSmd0YU01TkZaSW1kNzlhdzdURXRjSTRya1dLZUZzZDZsRmhnTEk5U2lndkxPQkhmd1lTelU5ckNKWWk5NXFJQkYyRTF6MGU4RnVHTEZGc0hoektPV2x5cHR2V2tnUVZYcGpEN00yMWtOQ2VlaXIwZ3o0X1pOb1ZvTnN4cUFzSGxRUkx6TVBYbHhtLUJ4QlhyRWdtdnByN2tWem9rSW16M2xncnYzNEpxUVhpeW9FbThCdW0yX2lZaWh3RTJUdG5jRnE0N2twbFdLNUU1RmtNSGc5TGZsNmIwYXM5ZEU5QUJZRw?oc=5"
+    },
     {
       "iso": "MEX",
       "title": "Hantavirus de los Andes: qu\u00e9 tan peligroso es y por qu\u00e9 M\u00e9xico emiti\u00f3 un aviso epidemiol\u00f3gico - Infobae",
@@ -4056,6 +4064,13 @@
       "t": "2026-05-22T18:24:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcjdDdThiRUZYY2ZDeEMweEdZOVlINUFYUVUyRjcxb0xhX0FGSW0tUXZkTG1nbHN4MkVORGZabndVTGhJcnNvMjRsY012c3pFZTEtY1N0aVN3NkdxUmFVWDlfT0luY2NZaHoxYUs0UFYyX3VSdGdrNEdydjBobWxFVERJaDFYcE1xZUEtWXlSV0RWckdnempfSmxIWmxjUHBxWk1CY1EzODlTMTlnRDBlRGpB?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina refuerza vigilancia sanitaria ante brote de hantavirus en crucero - Cadena 3 Argentina",
+      "t": "2026-05-22T10:19:56Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcV9rcm5uT2ljTUliODV3aTU3TnI1MWhQcXd5UU9OaTBQVmYxbDVENWVwQlFDdnlTb2QzRV84THUyUlJPcWFFMzFYMEJTRG1IX0JKUDg3YnIzbGhoZXpGU09RN05UZm1UQzI0OXlKR3NhRFpuVzY4czRJV0pvOFhpaXVLbDNCNUpxUzAzd1pRSGZlZ2U2dVNaSGdETFgwbWp2LUdJWS1jLXQxdWJMSWJoRUN0MEc5ZG5lOWZPZG10TnjSAcYBQVVfeXFMTjlhQmduNHFPUHVWaklxdDdyVjFjTmtzUGY1cXQyemszSDhETVRaNTlGb0pOcXZJelFBbG9ud3VnRnRXQlhrZjM5bm9rNk51eVhOaXBFemVKM0xCaWVfemdtUG11V1dVWHBYV1BILWtIN2ZuSUdSNVlrOTNSUXBiZnEwNUdXUVI5azE5OHVTTVdMQ1dEUmc4T3J2dDAtVDhucy0yRXNuY1lkY1drUmpwcnIzaVlIXzlWQXNoTHdxbnBFR3pBUUpB?oc=5"
     },
     {
       "iso": "USA",
@@ -4102,8 +4117,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-25T21:10:06Z",
-      "signals": 3,
+      "last_update": "2026-05-25T21:15:16Z",
+      "signals": 5,
       "recent": [
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
@@ -4116,9 +4131,19 @@
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE53ZkJpSWEyNXdqYk9Tc1FHWi15YkhHREZlUkRoa0F6YURpb0NaX2gyeU96SzB4Nlp1bUg0VWxjR2tQVFBsSkJGWUlpNF9jb1poM3ZMaE52cW9nYXE3eURGcUFfenJOdXhIX1hvZE1vdE8xNFd3b3YxNEdyUQ?oc=5"
         },
         {
+          "title": "Argentina refuerza vigilancia sanitaria ante brote de hantavirus en crucero - Cadena 3 Argentina",
+          "t": "2026-05-22T10:19:56Z",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcV9rcm5uT2ljTUliODV3aTU3TnI1MWhQcXd5UU9OaTBQVmYxbDVENWVwQlFDdnlTb2QzRV84THUyUlJPcWFFMzFYMEJTRG1IX0JKUDg3YnIzbGhoZXpGU09RN05UZm1UQzI0OXlKR3NhRFpuVzY4czRJV0pvOFhpaXVLbDNCNUpxUzAzd1pRSGZlZ2U2dVNaSGdETFgwbWp2LUdJWS1jLXQxdWJMSWJoRUN0MEc5ZG5lOWZPZG10TnjSAcYBQVVfeXFMTjlhQmduNHFPUHVWaklxdDdyVjFjTmtzUGY1cXQyemszSDhETVRaNTlGb0pOcXZJelFBbG9ud3VnRnRXQlhrZjM5bm9rNk51eVhOaXBFemVKM0xCaWVfemdtUG11V1dVWHBYV1BILWtIN2ZuSUdSNVlrOTNSUXBiZnEwNUdXUVI5azE5OHVTTVdMQ1dEUmc4T3J2dDAtVDhucy0yRXNuY1lkY1drUmpwcnIzaVlIXzlWQXNoTHdxbnBFR3pBUUpB?oc=5"
+        },
+        {
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
           "t": "2026-05-15T07:00:00Z",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
+        },
+        {
+          "title": "Reino Unido investiga el brote de hantavirus en el crucero MV Hondius para frenar su capacidad de contagio humano - consalud.es",
+          "t": "2026-05-25T09:40:00Z",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPV2JwSmd0YU01TkZaSW1kNzlhdzdURXRjSTRya1dLZUZzZDZsRmhnTEk5U2lndkxPQkhmd1lTelU5ckNKWWk5NXFJQkYyRTF6MGU4RnVHTEZGc0hoektPV2x5cHR2V2tnUVZYcGpEN00yMWtOQ2VlaXIwZ3o0X1pOb1ZvTnN4cUFzSGxRUkx6TVBYbHhtLUJ4QlhyRWdtdnByN2tWem9rSW16M2xncnYzNEpxUVhpeW9FbThCdW0yX2lZaWh3RTJUdG5jRnE0N2twbFdLNUU1RmtNSGc5TGZsNmIwYXM5ZEU5QUJZRw?oc=5"
         }
       ]
     }
