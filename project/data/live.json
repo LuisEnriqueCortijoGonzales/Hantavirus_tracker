@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-25T18:55:06.090280Z",
-  "next_update": "2026-05-25T19:00:00Z",
+  "generated": "2026-05-25T19:00:05.260693Z",
+  "next_update": "2026-05-25T19:05:00Z",
   "days_active": 17,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -74,11 +74,11 @@
       "ytd": 8,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "USA": {
@@ -538,7 +538,7 @@
       "cfr": 1.2,
       "var_pct": 12,
       "strain": "hantaan",
-      "new_today": 103,
+      "new_today": 102,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -1348,7 +1348,7 @@
       2341,
       2341,
       2418,
-      2527,
+      2528,
       2630
     ],
     "KOR": [
@@ -1401,7 +1401,6 @@
     "2026-05-25T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-23T19:00:00Z",
     "2026-05-23T20:00:00Z",
     "2026-05-23T21:00:00Z",
     "2026-05-23T22:00:00Z",
@@ -1448,11 +1447,11 @@
     "2026-05-25T15:00:00Z",
     "2026-05-25T16:00:00Z",
     "2026-05-25T17:00:00Z",
-    "2026-05-25T18:00:00Z"
+    "2026-05-25T18:00:00Z",
+    "2026-05-25T19:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      113,
       114,
       114,
       114,
@@ -1499,11 +1498,11 @@
       128,
       129,
       129,
-      129
+      129,
+      130
     ],
     "CHL": [
       52,
-      52,
       53,
       53,
       53,
@@ -1543,6 +1542,7 @@
       57,
       57,
       57,
+      58,
       58,
       58,
       58,
@@ -2402,7 +2402,6 @@
       1
     ],
     "FIN": [
-      359,
       360,
       361,
       361,
@@ -2449,10 +2448,10 @@
       385,
       386,
       386,
+      387,
       387
     ],
     "SWE": [
-      145,
       145,
       145,
       145,
@@ -2499,10 +2498,10 @@
       151,
       151,
       152,
+      152,
       152
     ],
     "DEU": [
-      234,
       234,
       234,
       234,
@@ -2549,7 +2548,8 @@
       251,
       251,
       252,
-      252
+      252,
+      253
     ],
     "POL": [
       45,
@@ -3852,7 +3852,6 @@
       23
     ],
     "CHN": [
-      2418,
       2423,
       2428,
       2432,
@@ -3899,7 +3898,8 @@
       2614,
       2618,
       2622,
-      2626
+      2626,
+      2630
     ],
     "KOR": [
       89,
@@ -4006,7 +4006,7 @@
     "composite": 26,
     "epidemio": 33,
     "polymarket": 5,
-    "kalshi": 34,
+    "kalshi": 35,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.31,
     "continents": [
@@ -4019,7 +4019,7 @@
   "signal_summary": {
     "ARG": 7,
     "USA": 2,
-    "MEX": 2,
+    "MEX": 1,
     "GBR": 1
   },
   "events": [
@@ -4099,13 +4099,6 @@
       "t": "2026-05-14T07:00:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaUVBWVhjVVJoX0VNXzR6WnlubmhZWS1saTN3OGVqcm1Va0tOcnVBaXcweEk4WFY0VWtCZDVNMmZTSXV3aEdLaHItYWh4ZENCYmFvaS1ZRGc5RFRfVmF4RjZrN2NHQ2tqRjI3aHltS19jSWtHNG5QU0FRRHVreGVRa3JFRjUtSXBfakt5Rk9JOA?oc=5"
-    },
-    {
-      "iso": "MEX",
-      "title": "New Mexico's Hantavirus Strain is Different From Cruise Ship Outbreak and Does Not Spread Between People - UNM HSC Newsroom",
-      "t": "2026-05-13T07:00:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVpsMXJOSnRETzVJRUNiajlyMHpQWkVhVFpKZ1kwQ240bHlEMDd2anV4XzBRclI5Ti1yVXVCRWZ6V0JMdXNNZ0xrUGw1OVdtM1pINk80QVg3UmxQN0h4V2xWZ2l2NzlvUE5aZE4wemtUQTBzUk9RMzRoZnQtcWlXTlNJNGtEX08tYXlENWZtQS1OQWNhRWxlSkpNWm1yZ0ZDZDRWejZZSlBfaExJX00zYzBtX1ZkY2c3S0FMc1V1amdueWpEaE9lejZZVkFhZw?oc=5"
     }
   ],
   "maritime_events": [
@@ -4124,8 +4117,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-25T18:55:06Z",
-      "signals": 6,
+      "last_update": "2026-05-25T19:00:05Z",
+      "signals": 5,
       "recent": [
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
@@ -4148,9 +4141,9 @@
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
         },
         {
-          "title": "New Mexico's Hantavirus Strain is Different From Cruise Ship Outbreak and Does Not Spread Between People - UNM HSC Newsroom",
-          "t": "2026-05-13T07:00:00Z",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVpsMXJOSnRETzVJRUNiajlyMHpQWkVhVFpKZ1kwQ240bHlEMDd2anV4XzBRclI5Ti1yVXVCRWZ6V0JMdXNNZ0xrUGw1OVdtM1pINk80QVg3UmxQN0h4V2xWZ2l2NzlvUE5aZE4wemtUQTBzUk9RMzRoZnQtcWlXTlNJNGtEX08tYXlENWZtQS1OQWNhRWxlSkpNWm1yZ0ZDZDRWejZZSlBfaExJX00zYzBtX1ZkY2c3S0FMc1V1amdueWpEaE9lejZZVkFhZw?oc=5"
+          "title": "Reino Unido investiga el brote de hantavirus en el crucero MV Hondius para frenar su capacidad de contagio humano - consalud.es",
+          "t": "2026-05-25T09:40:00Z",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPV2JwSmd0YU01TkZaSW1kNzlhdzdURXRjSTRya1dLZUZzZDZsRmhnTEk5U2lndkxPQkhmd1lTelU5ckNKWWk5NXFJQkYyRTF6MGU4RnVHTEZGc0hoektPV2x5cHR2V2tnUVZYcGpEN00yMWtOQ2VlaXIwZ3o0X1pOb1ZvTnN4cUFzSGxRUkx6TVBYbHhtLUJ4QlhyRWdtdnByN2tWem9rSW16M2xncnYzNEpxUVhpeW9FbThCdW0yX2lZaWh3RTJUdG5jRnE0N2twbFdLNUU1RmtNSGc5TGZsNmIwYXM5ZEU5QUJZRw?oc=5"
         }
       ]
     }
