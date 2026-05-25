@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-25T22:45:13.496927Z",
-  "next_update": "2026-05-25T22:50:00Z",
+  "generated": "2026-05-25T22:50:12.793870Z",
+  "next_update": "2026-05-25T22:55:00Z",
   "days_active": 17,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 130,
+      "ytd": 131,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 81,
+      "var_pct": 82,
       "strain": "andes",
       "new_today": 8,
       "r0": 5.0,
-      "signals": 6,
+      "signals": 7,
       "gov_alert": false
     },
     "CHL": {
@@ -241,7 +241,7 @@
       "cfr": 0.2,
       "var_pct": 9,
       "strain": "puumala",
-      "new_today": 11,
+      "new_today": 10,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -538,7 +538,7 @@
       "cfr": 1.2,
       "var_pct": 13,
       "strain": "hantaan",
-      "new_today": 102,
+      "new_today": 101,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -574,14 +574,14 @@
       69,
       69,
       69,
-      74,
+      75,
       82,
       90,
       98,
       106,
-      114,
-      122,
-      130
+      115,
+      123,
+      131
     ],
     "CHL": [
       31,
@@ -916,7 +916,7 @@
       234,
       234,
       234,
-      243,
+      244,
       254
     ],
     "POL": [
@@ -1348,7 +1348,7 @@
       2341,
       2341,
       2436,
-      2544,
+      2545,
       2646
     ],
     "KOR": [
@@ -1452,14 +1452,12 @@
   ],
   "hourly_history": {
     "ARG": [
-      114,
       115,
       115,
       115,
       116,
       116,
       116,
-      117,
       117,
       117,
       118,
@@ -1485,6 +1483,7 @@
       124,
       125,
       125,
+      125,
       126,
       126,
       126,
@@ -1499,7 +1498,8 @@
       129,
       130,
       130,
-      130
+      131,
+      131
     ],
     "CHL": [
       53,
@@ -4006,7 +4006,7 @@
     "composite": 26,
     "epidemio": 33,
     "polymarket": 5,
-    "kalshi": 35,
+    "kalshi": 31,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.31,
     "continents": [
@@ -4017,7 +4017,7 @@
     "outbreak_count": 5
   },
   "signal_summary": {
-    "ARG": 6,
+    "ARG": 7,
     "FRA": 1,
     "MEX": 1,
     "GBR": 1
@@ -4067,6 +4067,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Argentina refuerza vigilancia sanitaria ante brote de hantavirus en crucero - Cadena 3 Argentina",
+      "t": "2026-05-22T10:19:56Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcV9rcm5uT2ljTUliODV3aTU3TnI1MWhQcXd5UU9OaTBQVmYxbDVENWVwQlFDdnlTb2QzRV84THUyUlJPcWFFMzFYMEJTRG1IX0JKUDg3YnIzbGhoZXpGU09RN05UZm1UQzI0OXlKR3NhRFpuVzY4czRJV0pvOFhpaXVLbDNCNUpxUzAzd1pRSGZlZ2U2dVNaSGdETFgwbWp2LUdJWS1jLXQxdWJMSWJoRUN0MEc5ZG5lOWZPZG10TnjSAcYBQVVfeXFMTjlhQmduNHFPUHVWaklxdDdyVjFjTmtzUGY1cXQyemszSDhETVRaNTlGb0pOcXZJelFBbG9ud3VnRnRXQlhrZjM5bm9rNk51eVhOaXBFemVKM0xCaWVfemdtUG11V1dVWHBYV1BILWtIN2ZuSUdSNVlrOTNSUXBiZnEwNUdXUVI5azE5OHVTTVdMQ1dEUmc4T3J2dDAtVDhucy0yRXNuY1lkY1drUmpwcnIzaVlIXzlWQXNoTHdxbnBFR3pBUUpB?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
       "t": "2026-05-20T17:59:00Z",
       "source": "GoogleNews-EN",
@@ -4103,8 +4110,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-25T22:45:13Z",
-      "signals": 5,
+      "last_update": "2026-05-25T22:50:12Z",
+      "signals": 6,
       "recent": [
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
@@ -4117,6 +4124,11 @@
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE53ZkJpSWEyNXdqYk9Tc1FHWi15YkhHREZlUkRoa0F6YURpb0NaX2gyeU96SzB4Nlp1bUg0VWxjR2tQVFBsSkJGWUlpNF9jb1poM3ZMaE52cW9nYXE3eURGcUFfenJOdXhIX1hvZE1vdE8xNFd3b3YxNEdyUQ?oc=5"
         },
         {
+          "title": "Argentina refuerza vigilancia sanitaria ante brote de hantavirus en crucero - Cadena 3 Argentina",
+          "t": "2026-05-22T10:19:56Z",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcV9rcm5uT2ljTUliODV3aTU3TnI1MWhQcXd5UU9OaTBQVmYxbDVENWVwQlFDdnlTb2QzRV84THUyUlJPcWFFMzFYMEJTRG1IX0JKUDg3YnIzbGhoZXpGU09RN05UZm1UQzI0OXlKR3NhRFpuVzY4czRJV0pvOFhpaXVLbDNCNUpxUzAzd1pRSGZlZ2U2dVNaSGdETFgwbWp2LUdJWS1jLXQxdWJMSWJoRUN0MEc5ZG5lOWZPZG10TnjSAcYBQVVfeXFMTjlhQmduNHFPUHVWaklxdDdyVjFjTmtzUGY1cXQyemszSDhETVRaNTlGb0pOcXZJelFBbG9ud3VnRnRXQlhrZjM5bm9rNk51eVhOaXBFemVKM0xCaWVfemdtUG11V1dVWHBYV1BILWtIN2ZuSUdSNVlrOTNSUXBiZnEwNUdXUVI5azE5OHVTTVdMQ1dEUmc4T3J2dDAtVDhucy0yRXNuY1lkY1drUmpwcnIzaVlIXzlWQXNoTHdxbnBFR3pBUUpB?oc=5"
+        },
+        {
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
           "t": "2026-05-15T07:00:00Z",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
@@ -4125,11 +4137,6 @@
           "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
           "t": "2026-05-25T22:40:00Z",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
-        },
-        {
-          "title": "Reino Unido investiga el brote de hantavirus en el crucero MV Hondius para frenar su capacidad de contagio humano - consalud.es",
-          "t": "2026-05-25T09:40:00Z",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPV2JwSmd0YU01TkZaSW1kNzlhdzdURXRjSTRya1dLZUZzZDZsRmhnTEk5U2lndkxPQkhmd1lTelU5ckNKWWk5NXFJQkYyRTF6MGU4RnVHTEZGc0hoektPV2x5cHR2V2tnUVZYcGpEN00yMWtOQ2VlaXIwZ3o0X1pOb1ZvTnN4cUFzSGxRUkx6TVBYbHhtLUJ4QlhyRWdtdnByN2tWem9rSW16M2xncnYzNEpxUVhpeW9FbThCdW0yX2lZaWh3RTJUdG5jRnE0N2twbFdLNUU1RmtNSGc5TGZsNmIwYXM5ZEU5QUJZRw?oc=5"
         }
       ]
     }
