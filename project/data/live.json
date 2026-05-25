@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-25T05:50:18.629210Z",
-  "next_update": "2026-05-25T05:55:00Z",
+  "generated": "2026-05-25T05:55:18.034241Z",
+  "next_update": "2026-05-25T06:00:00Z",
   "days_active": 17,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -534,11 +534,11 @@
     },
     "CHN": {
       "ytd": 2575,
-      "alert": "brote",
+      "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": 10,
       "strain": "hantaan",
-      "new_today": 107,
+      "new_today": 106,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -1347,8 +1347,8 @@
       2341,
       2341,
       2341,
-      2355,
-      2468,
+      2356,
+      2469,
       2575
     ],
     "KOR": [
@@ -4003,23 +4003,22 @@
     ]
   },
   "pandemic": {
-    "composite": 28,
-    "epidemio": 36,
+    "composite": 26,
+    "epidemio": 33,
     "polymarket": 5,
-    "kalshi": 34,
+    "kalshi": 31,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.31,
     "continents": [
       "Americas",
-      "Asia",
       "Europe"
     ],
     "emergency_count": 0,
-    "outbreak_count": 6
+    "outbreak_count": 5
   },
   "signal_summary": {
     "ARG": 10,
-    "USA": 3,
+    "USA": 2,
     "MEX": 2
   },
   "events": [
@@ -4087,13 +4086,6 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYjM2dk5WaEhHX2dmZGhQTEJKdy1yOGdoNjlyNHEwN3VtSHJXVS10TEJPbVJfTmNnSHpwR0FhdXhwUzlNRGp4M3lOQmN6UDRrbVIzZjA3alBWczZhNVJPQXd5LWJFd2ZkaHpEUlRfNTRiNUpZZzMwNmpyQWdtTTVlVUt5Vkw1cmJBdWN3VXVZWGhfTnkwLXAzS2FyRnpNWTJwZ2RnSXBGY3VTdw?oc=5"
     },
     {
-      "iso": "USA",
-      "title": "Confirman el primer caso de Hantavirus en Estados Unidos no relacionado con el crucero MV Hondius - HOLA",
-      "t": "2026-05-19T01:25:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQN3VsYjJOMHNjeFpfam4xcGYtLVhPM0tGLWY2MUdFUkFPNW9FMXFQVEZjSWw5V2Q2bHBkZ1pzS2VvSUFHdklzLUU3TkpFMEFNZGM4WDQ3bWZzOTdvU3I5eU5yQllUeVRnZUlnZmJseHFEZU5nT1ZwRmRuRjJQQ0dUbFJpVDBlbTc5Rml2Z243aGVodV8zZ2l0TEpQYkJKREtjNVpVUQ?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
       "t": "2026-05-15T07:00:00Z",
@@ -4145,8 +4137,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-25T05:50:18Z",
-      "signals": 7,
+      "last_update": "2026-05-25T05:55:18Z",
+      "signals": 6,
       "recent": [
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
