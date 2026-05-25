@@ -1,16 +1,16 @@
 {
-  "generated": "2026-05-25T16:05:10.562765Z",
-  "next_update": "2026-05-25T16:10:00Z",
+  "generated": "2026-05-25T16:10:04.578366Z",
+  "next_update": "2026-05-25T16:15:00Z",
   "days_active": 17,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 129,
+      "ytd": 130,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 85,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 9,
       "r0": 5.0,
       "signals": 8,
       "gov_alert": false
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2618,
+      "ytd": 2619,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": 12,
       "strain": "hantaan",
-      "new_today": 103,
+      "new_today": 104,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -581,7 +581,7 @@
       105,
       113,
       121,
-      129
+      130
     ],
     "CHL": [
       31,
@@ -1347,9 +1347,9 @@
       2341,
       2341,
       2341,
-      2404,
+      2405,
       2515,
-      2618
+      2619
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 26,
+    "composite": 27,
     "epidemio": 33,
     "polymarket": 5,
-    "kalshi": 33,
+    "kalshi": 36,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.31,
     "continents": [
@@ -4017,18 +4017,11 @@
     "outbreak_count": 5
   },
   "signal_summary": {
-    "GBR": 2,
     "ARG": 8,
-    "MEX": 1
+    "MEX": 1,
+    "GBR": 1
   },
   "events": [
-    {
-      "iso": "GBR",
-      "title": "Hantavirus \u2018stable for now,\u2019 WHO leader says - Yahoo News UK",
-      "t": "2026-05-25T15:43:32Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zYnRXSEdGS1ZIRW5LMi0xT255OXFGU3hhdk9vNjh2cGNmX2Vsc29Fd3pwbWR2SUtIaDdOSUgwVDctX2lHMEczSTJ1YjVKM0hVSVlsbGFlMUJxTFdBTE5acExrNHN6YmVkWDMteEQtcXFpVGpsRWU1dkhtRG9nNWM?oc=5"
-    },
     {
       "iso": "GBR",
       "title": "Reino Unido investiga el brote de hantavirus en el crucero MV Hondius para frenar su capacidad de contagio humano - consalud.es",
@@ -4116,14 +4109,9 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-25T16:05:10Z",
+      "last_update": "2026-05-25T16:10:04Z",
       "signals": 5,
       "recent": [
-        {
-          "title": "Reino Unido investiga el brote de hantavirus en el crucero MV Hondius para frenar su capacidad de contagio humano - consalud.es",
-          "t": "2026-05-25T09:40:00Z",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPV2JwSmd0YU01TkZaSW1kNzlhdzdURXRjSTRya1dLZUZzZDZsRmhnTEk5U2lndkxPQkhmd1lTelU5ckNKWWk5NXFJQkYyRTF6MGU4RnVHTEZGc0hoektPV2x5cHR2V2tnUVZYcGpEN00yMWtOQ2VlaXIwZ3o0X1pOb1ZvTnN4cUFzSGxRUkx6TVBYbHhtLUJ4QlhyRWdtdnByN2tWem9rSW16M2xncnYzNEpxUVhpeW9FbThCdW0yX2lZaWh3RTJUdG5jRnE0N2twbFdLNUU1RmtNSGc5TGZsNmIwYXM5ZEU5QUJZRw?oc=5"
-        },
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
           "t": "2026-05-20T17:59:00Z",
@@ -4143,6 +4131,11 @@
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
           "t": "2026-05-15T07:00:00Z",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
+        },
+        {
+          "title": "Reino Unido investiga el brote de hantavirus en el crucero MV Hondius para frenar su capacidad de contagio humano - consalud.es",
+          "t": "2026-05-25T09:40:00Z",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPV2JwSmd0YU01TkZaSW1kNzlhdzdURXRjSTRya1dLZUZzZDZsRmhnTEk5U2lndkxPQkhmd1lTelU5ckNKWWk5NXFJQkYyRTF6MGU4RnVHTEZGc0hoektPV2x5cHR2V2tnUVZYcGpEN00yMWtOQ2VlaXIwZ3o0X1pOb1ZvTnN4cUFzSGxRUkx6TVBYbHhtLUJ4QlhyRWdtdnByN2tWem9rSW16M2xncnYzNEpxUVhpeW9FbThCdW0yX2lZaWh3RTJUdG5jRnE0N2twbFdLNUU1RmtNSGc5TGZsNmIwYXM5ZEU5QUJZRw?oc=5"
         }
       ]
     }
