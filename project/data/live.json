@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-25T02:40:15.799114Z",
-  "next_update": "2026-05-25T02:45:00Z",
+  "generated": "2026-05-25T02:45:04.564589Z",
+  "next_update": "2026-05-25T02:50:00Z",
   "days_active": 17,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 2,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2561,
+      "ytd": 2562,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 9,
       "strain": "hantaan",
-      "new_today": 107,
+      "new_today": 108,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -1349,7 +1349,7 @@
       2341,
       2341,
       2454,
-      2561
+      2562
     ],
     "KOR": [
       89,
@@ -4006,7 +4006,7 @@
     "composite": 29,
     "epidemio": 36,
     "polymarket": 5,
-    "kalshi": 39,
+    "kalshi": 38,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.31,
     "continents": [
@@ -4019,17 +4019,10 @@
   },
   "signal_summary": {
     "ARG": 10,
-    "USA": 4,
+    "USA": 3,
     "MEX": 2
   },
   "events": [
-    {
-      "iso": "USA",
-      "title": "Hantavirus Cruise Travel Advisory Sparks Fresh Health Concerns for Antarctica and South America Expedition Travelers - Travel And Tour World",
-      "t": "2026-05-24T20:04:06Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GeFVnSGgwRG1pNWJNLXJ1bW1yb1pzSGtjclRadDlPckhDcHUtRGJGcVk0eGdxTVh2dEFQNGVGUWtJSnZGcWtSU3htTW9ha05keWZuY2szOTBwSFY3X0lUUURvUm1UR0VVeWQ2MDNn?oc=5"
-    },
     {
       "iso": "MEX",
       "title": "Hantavirus de los Andes: qu\u00e9 tan peligroso es y por qu\u00e9 M\u00e9xico emiti\u00f3 un aviso epidemiol\u00f3gico - Infobae",
@@ -4152,7 +4145,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-25T02:40:15Z",
+      "last_update": "2026-05-25T02:45:04Z",
       "signals": 7,
       "recent": [
         {
