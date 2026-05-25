@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-25T00:30:03.826805Z",
-  "next_update": "2026-05-25T00:35:00Z",
+  "generated": "2026-05-25T00:35:13.566901Z",
+  "next_update": "2026-05-25T00:40:00Z",
   "days_active": 17,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -74,22 +74,22 @@
       "ytd": 8,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "USA": {
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 2,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GTM": {
@@ -4019,25 +4019,10 @@
   },
   "signal_summary": {
     "ARG": 10,
-    "USA": 4,
-    "MEX": 2,
-    "CAN": 1
+    "USA": 3,
+    "MEX": 1
   },
   "events": [
-    {
-      "iso": "CAN",
-      "title": "Canadian Government Warns Of Fatal Hantavirus Surge In The Americas' Most Peaceful Nation After Canada - TheTravel",
-      "t": "2026-05-24T22:01:20Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc2hNMGNzVFRwTWRVN2VFSWFuLUdKWHhvNlJQbWhFOGJoR19BQTdld1NqNmxCaGUyR3dSVFVhVGQxd2M2YlUwblVsWWFzWTJWUVZIdzZXOWpWV1I5c1FiTXppU3R0UGRuN1RMRC1QZ0pjajZFNEdsS21YOVJsd3NaTDhMT204MktnTy1taVJvOEJ3TW5UMHRNR0Qxc3ZUOC1JMXB1RU5iQW9ScnZJRDRUQ2NvcWI?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Hantavirus Cruise Travel Advisory Sparks Fresh Health Concerns for Antarctica and South America Expedition Travelers - Travel And Tour World",
-      "t": "2026-05-24T20:04:06Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GeFVnSGgwRG1pNWJNLXJ1bW1yb1pzSGtjclRadDlPckhDcHUtRGJGcVk0eGdxTVh2dEFQNGVGUWtJSnZGcWtSU3htTW9ha05keWZuY2szOTBwSFY3X0lUUURvUm1UR0VVeWQ2MDNn?oc=5"
-    },
     {
       "iso": "MEX",
       "title": "Hantavirus de los Andes: qu\u00e9 tan peligroso es y por qu\u00e9 M\u00e9xico emiti\u00f3 un aviso epidemiol\u00f3gico - Infobae",
@@ -4123,13 +4108,6 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaUVBWVhjVVJoX0VNXzR6WnlubmhZWS1saTN3OGVqcm1Va0tOcnVBaXcweEk4WFY0VWtCZDVNMmZTSXV3aEdLaHItYWh4ZENCYmFvaS1ZRGc5RFRfVmF4RjZrN2NHQ2tqRjI3aHltS19jSWtHNG5QU0FRRHVreGVRa3JFRjUtSXBfakt5Rk9JOA?oc=5"
     },
     {
-      "iso": "MEX",
-      "title": "New Mexico's Hantavirus Strain is Different From Cruise Ship Outbreak and Does Not Spread Between People - UNM HSC Newsroom",
-      "t": "2026-05-13T07:00:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVpsMXJOSnRETzVJRUNiajlyMHpQWkVhVFpKZ1kwQ240bHlEMDd2anV4XzBRclI5Ti1yVXVCRWZ6V0JMdXNNZ0xrUGw1OVdtM1pINk80QVg3UmxQN0h4V2xWZ2l2NzlvUE5aZE4wemtUQTBzUk9RMzRoZnQtcWlXTlNJNGtEX08tYXlENWZtQS1OQWNhRWxlSkpNWm1yZ0ZDZDRWejZZSlBfaExJX00zYzBtX1ZkY2c3S0FMc1V1amdueWpEaE9lejZZVkFhZw?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "Hantavirus en Argentina: los \u00faltimos datos oficiales y c\u00f3mo avanza la investigaci\u00f3n del brote en el crucero - Infobae",
       "t": "2026-05-12T07:00:00Z",
@@ -4160,8 +4138,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-25T00:30:03Z",
-      "signals": 7,
+      "last_update": "2026-05-25T00:35:13Z",
+      "signals": 6,
       "recent": [
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
