@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-25T02:45:04.564589Z",
-  "next_update": "2026-05-25T02:50:00Z",
+  "generated": "2026-05-25T02:50:14.294940Z",
+  "next_update": "2026-05-25T02:55:00Z",
   "days_active": 17,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 126,
+      "ytd": 127,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 88,
+      "var_pct": 89,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 9,
       "r0": 5.0,
-      "signals": 10,
+      "signals": 11,
       "gov_alert": false
     },
     "CHL": {
@@ -538,7 +538,7 @@
       "cfr": 1.2,
       "var_pct": 9,
       "strain": "hantaan",
-      "new_today": 108,
+      "new_today": 107,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
-      70,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
+      71,
       77,
       85,
       93,
       101,
-      109,
+      110,
       118,
-      126
+      127
     ],
     "CHL": [
       31,
@@ -1348,7 +1348,7 @@
       2341,
       2341,
       2341,
-      2454,
+      2455,
       2562
     ],
     "KOR": [
@@ -1452,19 +1452,17 @@
   ],
   "hourly_history": {
     "ARG": [
-      109,
-      110,
       110,
       110,
       111,
       111,
+      111,
       112,
       112,
       112,
       113,
       113,
       113,
-      114,
       114,
       114,
       115,
@@ -1478,10 +1476,10 @@
       117,
       118,
       118,
+      118,
       119,
       119,
       119,
-      120,
       120,
       120,
       121,
@@ -1498,6 +1496,8 @@
       124,
       125,
       125,
+      125,
+      126,
       126,
       126
     ],
@@ -4006,7 +4006,7 @@
     "composite": 29,
     "epidemio": 36,
     "polymarket": 5,
-    "kalshi": 38,
+    "kalshi": 40,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.31,
     "continents": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "ARG": 10,
+    "ARG": 11,
     "USA": 3,
     "MEX": 2
   },
@@ -4064,6 +4064,13 @@
       "t": "2026-05-22T10:19:56Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcV9rcm5uT2ljTUliODV3aTU3TnI1MWhQcXd5UU9OaTBQVmYxbDVENWVwQlFDdnlTb2QzRV84THUyUlJPcWFFMzFYMEJTRG1IX0JKUDg3YnIzbGhoZXpGU09RN05UZm1UQzI0OXlKR3NhRFpuVzY4czRJV0pvOFhpaXVLbDNCNUpxUzAzd1pRSGZlZ2U2dVNaSGdETFgwbWp2LUdJWS1jLXQxdWJMSWJoRUN0MEc5ZG5lOWZPZG10TnjSAcYBQVVfeXFMTjlhQmduNHFPUHVWaklxdDdyVjFjTmtzUGY1cXQyemszSDhETVRaNTlGb0pOcXZJelFBbG9ud3VnRnRXQlhrZjM5bm9rNk51eVhOaXBFemVKM0xCaWVfemdtUG11V1dVWHBYV1BILWtIN2ZuSUdSNVlrOTNSUXBiZnEwNUdXUVI5azE5OHVTTVdMQ1dEUmc4T3J2dDAtVDhucy0yRXNuY1lkY1drUmpwcnIzaVlIXzlWQXNoTHdxbnBFR3pBUUpB?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Brote de Hantavirus en Argentina: 45 casos confirmados, pero Mendoza se mantiene sin circulaci\u00f3n - Sitio Andino",
+      "t": "2026-05-21T21:55:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZHlRaGcxOGZ0YzNoeG5DZHNxd3ZuQ3pzejIwWnloRDJHQ1p5X1RnSy0za1dPRVhXTHdWb1E4Qi1YMkl3Z1prS2N6VmNvamJ0TDVoR2x6UVNzYUVmQUpYVHZrX3FzSW4tZ3dEYzhlaEpPZk5JMzFvWkhmb0pKeGJvVkpmMlM0blJ1SUhfX3N4ZWxHb3d3OHNEbDFVSmlqN0JVdDRCWDVCcDA2T0NKcUZleHRnNl92bVhRS3VoWVZ6NHNhYWFxX2d4WVlB0gHPAUFVX3lxTE5LdDgzVGhQckpITkQtdkNTRHVYMWxQbTZWZjNEd21rZlAzZmRQcjFaTVpXRnBwYlczTlA3ZUZ2Mm9zTUdpTjFYc2JfYW9ha18zVTFvQ0VMOFF0ZENiMXo3OWowbEdxY2NQTWFraDlUa08tOG5hZ0JFdHFQcFZWajR0T0pPMWVtSXFMZDBBQXVrdS02SjlVczJ3Wno2YVktQXl3c2ZpakN4b3pPTWs2c1ZnbEdyNEZTZTZ6dzZWNjJoQ3d1QlFYV3N6VlJ0S1FjMA?oc=5"
     },
     {
       "iso": "USA",
@@ -4145,7 +4152,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-25T02:45:04Z",
+      "last_update": "2026-05-25T02:50:14Z",
       "signals": 7,
       "recent": [
         {
