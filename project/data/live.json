@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-26T06:20:08.322697Z",
-  "next_update": "2026-05-26T06:25:00Z",
+  "generated": "2026-05-26T06:25:07.572616Z",
+  "next_update": "2026-05-26T06:30:00Z",
   "days_active": 18,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "PRY": {
@@ -219,7 +219,7 @@
       "cfr": 0.1,
       "var_pct": 26,
       "strain": "puumala",
-      "new_today": 14,
+      "new_today": 13,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2676,
+      "ytd": 2677,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": 14,
@@ -884,7 +884,7 @@
       335,
       351,
       366,
-      380,
+      381,
       394
     ],
     "SWE": [
@@ -1348,8 +1348,8 @@
       2341,
       2358,
       2471,
-      2577,
-      2676
+      2578,
+      2677
     ],
     "KOR": [
       89,
@@ -4006,7 +4006,7 @@
     "composite": 25,
     "epidemio": 33,
     "polymarket": 5,
-    "kalshi": 30,
+    "kalshi": 29,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.29,
     "continents": [
@@ -4018,7 +4018,6 @@
   },
   "signal_summary": {
     "ARG": 5,
-    "USA": 1,
     "FRA": 1,
     "MEX": 1
   },
@@ -4050,13 +4049,6 @@
       "t": "2026-05-23T14:01:30Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcE00ZjlBSWEyM3VJTmdoRG5uNll0Y1dFMGcxdmM3Mm0wN3hpa3REcTR1Y0I2UzFwdGFCTEdyYkRnM29sbjZMQU5Ga3hhUXRfWmRPQTNfV3BPaElyX0ltdHQ3RGFmWmw2Snd2WEJtSkluZHZKemxPUTNtUGxoMVlYQ2h6ak9oSm9CM2NrV04wekdBV3ZWdDhTVkJsZHdnUjJicm9GZXdn0gGmAUFVX3lxTE1pMkduYVV4eDRpR1AxTk01ODMxc01nZ3dCQ0dLNDV2alczYjY5aWE0VjRkSlpXN0JsTXNOOHA0aUJqdXhJbml2VDFJU251dEljUFk1MVVDQ0d1M1NmWHFfOEtvbnJiR3RKSkZCbU9KVzhpcU1BbVFKZlRQXzh4TnpKX1l1M3RuZ1dDSl8xMGJoYTBCcjI4Z1lkc0RzTnRldGlHQkNQNkE?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Hantavirus risk from rodents may be higher in Pacific Northwest - USA Today",
-      "t": "2026-05-22T18:24:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcjdDdThiRUZYY2ZDeEMweEdZOVlINUFYUVUyRjcxb0xhX0FGSW0tUXZkTG1nbHN4MkVORGZabndVTGhJcnNvMjRsY012c3pFZTEtY1N0aVN3NkdxUmFVWDlfT0luY2NZaHoxYUs0UFYyX3VSdGdrNEdydjBobWxFVERJaDFYcE1xZUEtWXlSV0RWckdnempfSmxIWmxjUHBxWk1CY1EzODlTMTlnRDBlRGpB?oc=5"
     },
     {
       "iso": "ARG",
@@ -4096,7 +4088,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-26T06:20:08Z",
+      "last_update": "2026-05-26T06:25:07Z",
       "signals": 3,
       "recent": [
         {
