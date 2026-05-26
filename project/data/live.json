@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-26T20:00:16.573577Z",
-  "next_update": "2026-05-26T20:05:00Z",
+  "generated": "2026-05-26T20:05:10.556791Z",
+  "next_update": "2026-05-26T20:10:00Z",
   "days_active": 18,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -1347,7 +1347,7 @@
       2341,
       2341,
       2423,
-      2532,
+      2533,
       2635,
       2730
     ],
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 26,
+    "composite": 28,
     "epidemio": 35,
     "polymarket": 5,
-    "kalshi": 31,
+    "kalshi": 36,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.29,
     "continents": [
@@ -4017,12 +4017,20 @@
     "outbreak_count": 6
   },
   "signal_summary": {
+    "GBR": 1,
     "ARG": 4,
     "FRA": 2,
     "MEX": 1,
     "PRY": 1
   },
   "events": [
+    {
+      "iso": "GBR",
+      "title": "Briton treated in Netherlands for hantavirus returns to UK - The Independent",
+      "t": "2026-05-26T19:59:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOS10Qk5YdEFnSUV1R3lNY3E4TU8zTFA1VTFSdHdRMUpqVGtidFBCUzVqY2VDaEF4NFBUdG1yYjBVWWo2b1JsVjdrbXdtQ2l6YzVDczNBUE1xVTRRc1ZaM1BhSFZwME1uWGI1X1lxV0tlbEhMcU9talV1N3BVVHB0UGJfMkFsZUo0QUlIMDFqV3l6dmFBLVU0TkFqM0huYkV2LWJzcw?oc=5"
+    },
     {
       "iso": "PRY",
       "title": "Hantavirus: tras el brote en un crucero, el NEA y Paraguay refuerzan controles - NEA HOY",
@@ -4096,7 +4104,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-26T20:00:16Z",
+      "last_update": "2026-05-26T20:05:10Z",
       "signals": 4,
       "recent": [
         {
