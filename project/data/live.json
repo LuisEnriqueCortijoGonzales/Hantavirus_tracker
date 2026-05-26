@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-26T22:35:03.801452Z",
-  "next_update": "2026-05-26T22:40:00Z",
+  "generated": "2026-05-26T22:40:13.588675Z",
+  "next_update": "2026-05-26T22:45:00Z",
   "days_active": 18,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 136,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 72,
+      "var_pct": 71,
       "strain": "andes",
-      "new_today": 7,
+      "new_today": 8,
       "r0": 5.0,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "CHL": {
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2739,
+      "ytd": 2740,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": 17,
       "strain": "hantaan",
-      "new_today": 94,
+      "new_today": 95,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -579,8 +579,8 @@
       96,
       104,
       112,
-      121,
-      129,
+      120,
+      128,
       136
     ],
     "CHL": [
@@ -1349,7 +1349,7 @@
       2435,
       2544,
       2645,
-      2739
+      2740
     ],
     "KOR": [
       89,
@@ -1452,6 +1452,8 @@
   ],
   "hourly_history": {
     "ARG": [
+      120,
+      120,
       121,
       121,
       121,
@@ -1497,9 +1499,7 @@
       134,
       135,
       135,
-      135,
-      136,
-      136
+      135
     ],
     "CHL": [
       56,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 26,
+    "composite": 27,
     "epidemio": 35,
     "polymarket": 5,
-    "kalshi": 30,
+    "kalshi": 34,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.29,
     "continents": [
@@ -4018,7 +4018,7 @@
   },
   "signal_summary": {
     "GBR": 1,
-    "ARG": 3,
+    "ARG": 2,
     "FRA": 1,
     "MEX": 2,
     "PRY": 1
@@ -4068,13 +4068,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
-      "t": "2026-05-15T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Argentina est\u00e1 en una carrera por hallar el origen del brote de hantavirus - The New York Times",
       "t": "2026-05-14T07:00:00Z",
       "source": "GoogleNews-ES",
@@ -4097,8 +4090,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-26T22:35:03Z",
-      "signals": 6,
+      "last_update": "2026-05-26T22:40:13Z",
+      "signals": 5,
       "recent": [
         {
           "title": "Brit hospitalised with hantavirus in the Netherlands after cruise ship outbreak returns to UK - AOL.com",
@@ -4111,11 +4104,6 @@
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ueUZSY2k1ZTcyQ1RCZWdnWU9JT1V3elpoTXZRb1V6eloxeG5NMWQ3dnFWQXNjb3dtc1lfZ0JDY21JUjYxa016b18ySGhBSlI2TnU0YTdMU2hYSE0wazNrdDRwNVlJa085ZkJCV2ViZ3lVdkI1b2pR?oc=5"
         },
         {
-          "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
-          "t": "2026-05-15T07:00:00Z",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
-        },
-        {
           "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
           "t": "2026-05-25T22:40:00Z",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
@@ -4124,6 +4112,11 @@
           "title": "Espa\u00f1a confirma nuevo caso de hantavirus; el paciente tuvo contacto con un pasajero del crucero MV Hondius - El Heraldo de M\u00e9xico",
           "t": "2026-05-26T20:50:00Z",
           "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQV0VmSnpSRkZBbnJ1dXRQbGpUWUd0SUtzV2lzY1BLWXRESHdlMUZGb1ZVYk1fWGJ0T0dwVVRRV01VZDE3ZXNVaDZab0d6OWlTc0VLbmptMndlWkFjeG5VNFdKRHdWMEJUUE1WNFIwNEtEaVRZSHp4VFhna1A3REpReVpxaE1oVmRPNmtIVFYyX2QwOVF1QUIteWh5WFVqZXhfaU5hdVhtYXpvcWFMXzJGQlBQSW1ibkxjcWhXc0ROaEdtUDV6eVkxVFJuZEdoc0IyQXk5WktCQmlaVnhVZEF5RDgtSVRYeTA4aldfMFpBV1ljbjdtWGZr0gH8AUFVX3lxTE5WLVNKMm8xaC1heDFoYy1jVTBSSVBfazhyYXZTY2JLZFpyeXBWbjNhdk5qQVFHdmZ4dEZpUFBaOVJJN2NDQWt0VHNmNHNTX0ZQOENCMmtlOGhWc2ZtOU9QTExPU2dZMlZfQ3hycEEtTFdvc19tWWVpbG5FdnVLUER0enYtbFF4VXFlVW85VVVqUnRMMURCWGNJdUNVZnZKWENGZFZueTBqZXFsd1pQeGgxWHF5dTdJcmRzNkpuU2Fqc01oX1c4WnlLWi1hTXpqRnJLYWVxUnpvZTBKLUZ2X1hKRjlHM0lVSTYtcFlaQi1URFdmMW1sRllOTURDZw?oc=5"
+        },
+        {
+          "title": "Hantavirus: tras el brote en un crucero, el NEA y Paraguay refuerzan controles - NEA HOY",
+          "t": "2026-05-26T13:03:42Z",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUVAzdFN1bC1iTlZiMGs0M1hfX2VoYUxXUXlaRXNxTlRfMlg0VnNQaUZlam51RFN1ZTRYSFVrbUtoMGhZd0pEalAzNWpJUmljaUxhZUgzZURWVFREakxGQm5HUmtLNkpNLUV1SVlKTjRUd1N4UXV6TmJEZUZJUl9Ib0ZwMW9kS2FnZ3dTZmR5aHVKOTFZbGt0ZnR2S2tNcmxEZkZ0OTBqaW5iU28?oc=5"
         }
       ]
     }
