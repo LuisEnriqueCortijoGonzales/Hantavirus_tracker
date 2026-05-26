@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-26T06:25:07.572616Z",
-  "next_update": "2026-05-26T06:30:00Z",
+  "generated": "2026-05-26T06:30:12.054400Z",
+  "next_update": "2026-05-26T06:35:00Z",
   "days_active": 18,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 132,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 78,
+      "var_pct": 77,
       "strain": "andes",
       "new_today": 8,
       "r0": 5.0,
-      "signals": 5,
+      "signals": 4,
       "gov_alert": false
     },
     "CHL": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -568,17 +568,17 @@
   },
   "history": {
     "ARG": [
-      69,
-      69,
-      69,
-      69,
-      69,
+      68,
+      68,
+      68,
+      68,
+      68,
       69,
       76,
-      84,
-      92,
-      100,
-      108,
+      83,
+      91,
+      99,
+      107,
       116,
       124,
       132
@@ -1347,7 +1347,7 @@
       2341,
       2341,
       2358,
-      2471,
+      2472,
       2578,
       2677
     ],
@@ -1453,6 +1453,7 @@
   "hourly_history": {
     "ARG": [
       116,
+      116,
       117,
       117,
       117,
@@ -1467,6 +1468,7 @@
       120,
       121,
       121,
+      121,
       122,
       122,
       122,
@@ -1497,8 +1499,6 @@
       131,
       131,
       131,
-      132,
-      132,
       132
     ],
     "CHL": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 25,
+    "composite": 26,
     "epidemio": 33,
     "polymarket": 5,
-    "kalshi": 29,
+    "kalshi": 35,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.29,
     "continents": [
@@ -4017,7 +4017,8 @@
     "outbreak_count": 5
   },
   "signal_summary": {
-    "ARG": 5,
+    "ARG": 4,
+    "USA": 1,
     "FRA": 1,
     "MEX": 1
   },
@@ -4038,17 +4039,17 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus: Argentina mantiene activos los sistemas de vigilancia, monitoreo sanitario y cooperaci\u00f3n internacional - el1digital.com.ar",
-      "t": "2026-05-23T17:02:55Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPS0g0VVl0YjRTV2swYnBaR1l1emdBcEVWYnVHcXc4SzgtQ0JaVWVvLTd6UEpiLXd5MUN2SkxwSUlwTUhJWkpibTVuWV9KcGRiQ0dDZXpKT1haQzkwTXZEZFh0bVE4S0tIak5FRUNtREw3ekdvSjNhYUhqOTZkalN1cWJ1UFh6WnB5d1p6QVlnT2Z6MTBHYzUwSmxBajVpSVFyMWJydm9KUjR4ZHZ2Qk1ER0p1WTVEaHVqcmo5MTRlUlVzYUU0WU9tUlNpbkdyNVNZNlZHQ2RRUHYxVTZkczZOOE5wanRaSUU?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "El operativo para atrapar a roedores transmisores del hantavirus se cierra sin capturas en Argentina - El Peri\u00f3dico",
       "t": "2026-05-23T14:01:30Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcE00ZjlBSWEyM3VJTmdoRG5uNll0Y1dFMGcxdmM3Mm0wN3hpa3REcTR1Y0I2UzFwdGFCTEdyYkRnM29sbjZMQU5Ga3hhUXRfWmRPQTNfV3BPaElyX0ltdHQ3RGFmWmw2Snd2WEJtSkluZHZKemxPUTNtUGxoMVlYQ2h6ak9oSm9CM2NrV04wekdBV3ZWdDhTVkJsZHdnUjJicm9GZXdn0gGmAUFVX3lxTE1pMkduYVV4eDRpR1AxTk01ODMxc01nZ3dCQ0dLNDV2alczYjY5aWE0VjRkSlpXN0JsTXNOOHA0aUJqdXhJbml2VDFJU251dEljUFk1MVVDQ0d1M1NmWHFfOEtvbnJiR3RKSkZCbU9KVzhpcU1BbVFKZlRQXzh4TnpKX1l1M3RuZ1dDSl8xMGJoYTBCcjI4Z1lkc0RzTnRldGlHQkNQNkE?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Hantavirus risk from rodents may be higher in Pacific Northwest - USA Today",
+      "t": "2026-05-22T18:24:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcjdDdThiRUZYY2ZDeEMweEdZOVlINUFYUVUyRjcxb0xhX0FGSW0tUXZkTG1nbHN4MkVORGZabndVTGhJcnNvMjRsY012c3pFZTEtY1N0aVN3NkdxUmFVWDlfT0luY2NZaHoxYUs0UFYyX3VSdGdrNEdydjBobWxFVERJaDFYcE1xZUEtWXlSV0RWckdnempfSmxIWmxjUHBxWk1CY1EzODlTMTlnRDBlRGpB?oc=5"
     },
     {
       "iso": "ARG",
@@ -4088,7 +4089,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-26T06:25:07Z",
+      "last_update": "2026-05-26T06:30:12Z",
       "signals": 3,
       "recent": [
         {
