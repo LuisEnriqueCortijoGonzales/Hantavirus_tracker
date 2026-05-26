@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-26T21:35:12.815749Z",
-  "next_update": "2026-05-26T21:40:00Z",
+  "generated": "2026-05-26T21:40:12.009433Z",
+  "next_update": "2026-05-26T21:45:00Z",
   "days_active": 18,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -881,9 +881,9 @@
       312,
       312,
       329,
-      345,
+      346,
       361,
-      375,
+      376,
       389,
       498
     ],
@@ -1346,8 +1346,8 @@
       2341,
       2341,
       2341,
-      2430,
-      2539,
+      2431,
+      2540,
       2641,
       2736
     ],
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 27,
+    "composite": 28,
     "epidemio": 35,
     "polymarket": 5,
-    "kalshi": 34,
+    "kalshi": 36,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.29,
     "continents": [
@@ -4025,18 +4025,18 @@
   },
   "events": [
     {
+      "iso": "GBR",
+      "title": "Brit hospitalised with hantavirus in the Netherlands after cruise ship outbreak returns to UK - AOL.com",
+      "t": "2026-05-26T21:37:52Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSGd3cWN1blJ5d24xUXRxeHFQV3Q3X1ZQS3VnY24wR3FBYWJUclRrM3NLUjM5al9Oendfa3lwOTZQekxQaWl6SkhDckcxN0c1TXZoSHowVXQ4NmxOUnJxcVdzaUtrVXoxaGd6YVpHYTg4aDVUeXhvYWhTTEhtY0VMbWQ4clNtc0dDM25icjQwOS1KNDJDSVE?oc=5"
+    },
+    {
       "iso": "MEX",
       "title": "Espa\u00f1a confirma nuevo caso de hantavirus; el paciente tuvo contacto con un pasajero del crucero MV Hondius - El Heraldo de M\u00e9xico",
       "t": "2026-05-26T20:50:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQV0VmSnpSRkZBbnJ1dXRQbGpUWUd0SUtzV2lzY1BLWXRESHdlMUZGb1ZVYk1fWGJ0T0dwVVRRV01VZDE3ZXNVaDZab0d6OWlTc0VLbmptMndlWkFjeG5VNFdKRHdWMEJUUE1WNFIwNEtEaVRZSHp4VFhna1A3REpReVpxaE1oVmRPNmtIVFYyX2QwOVF1QUIteWh5WFVqZXhfaU5hdVhtYXpvcWFMXzJGQlBQSW1ibkxjcWhXc0ROaEdtUDV6eVkxVFJuZEdoc0IyQXk5WktCQmlaVnhVZEF5RDgtSVRYeTA4aldfMFpBV1ljbjdtWGZr0gH8AUFVX3lxTE5WLVNKMm8xaC1heDFoYy1jVTBSSVBfazhyYXZTY2JLZFpyeXBWbjNhdk5qQVFHdmZ4dEZpUFBaOVJJN2NDQWt0VHNmNHNTX0ZQOENCMmtlOGhWc2ZtOU9QTExPU2dZMlZfQ3hycEEtTFdvc19tWWVpbG5FdnVLUER0enYtbFF4VXFlVW85VVVqUnRMMURCWGNJdUNVZnZKWENGZFZueTBqZXFsd1pQeGgxWHF5dTdJcmRzNkpuU2Fqc01oX1c4WnlLWi1hTXpqRnJLYWVxUnpvZTBKLUZ2X1hKRjlHM0lVSTYtcFlaQi1URFdmMW1sRllOTURDZw?oc=5"
-    },
-    {
-      "iso": "GBR",
-      "title": "Briton treated in Netherlands for hantavirus returns to UK - The Independent",
-      "t": "2026-05-26T19:59:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOS10Qk5YdEFnSUV1R3lNY3E4TU8zTFA1VTFSdHdRMUpqVGtidFBCUzVqY2VDaEF4NFBUdG1yYjBVWWo2b1JsVjdrbXdtQ2l6YzVDczNBUE1xVTRRc1ZaM1BhSFZwME1uWGI1X1lxV0tlbEhMcU9talV1N3BVVHB0UGJfMkFsZUo0QUlIMDFqV3l6dmFBLVU0TkFqM0huYkV2LWJzcw?oc=5"
     },
     {
       "iso": "PRY",
@@ -4111,9 +4111,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-26T21:35:12Z",
-      "signals": 5,
+      "last_update": "2026-05-26T21:40:12Z",
+      "signals": 6,
       "recent": [
+        {
+          "title": "Brit hospitalised with hantavirus in the Netherlands after cruise ship outbreak returns to UK - AOL.com",
+          "t": "2026-05-26T21:37:52Z",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSGd3cWN1blJ5d24xUXRxeHFQV3Q3X1ZQS3VnY24wR3FBYWJUclRrM3NLUjM5al9Oendfa3lwOTZQekxQaWl6SkhDckcxN0c1TXZoSHowVXQ4NmxOUnJxcVdzaUtrVXoxaGd6YVpHYTg4aDVUeXhvYWhTTEhtY0VMbWQ4clNtc0dDM25icjQwOS1KNDJDSVE?oc=5"
+        },
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
           "t": "2026-05-20T17:59:00Z",
@@ -4133,11 +4138,6 @@
           "title": "Espa\u00f1a confirma nuevo caso de hantavirus; el paciente tuvo contacto con un pasajero del crucero MV Hondius - El Heraldo de M\u00e9xico",
           "t": "2026-05-26T20:50:00Z",
           "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQV0VmSnpSRkZBbnJ1dXRQbGpUWUd0SUtzV2lzY1BLWXRESHdlMUZGb1ZVYk1fWGJ0T0dwVVRRV01VZDE3ZXNVaDZab0d6OWlTc0VLbmptMndlWkFjeG5VNFdKRHdWMEJUUE1WNFIwNEtEaVRZSHp4VFhna1A3REpReVpxaE1oVmRPNmtIVFYyX2QwOVF1QUIteWh5WFVqZXhfaU5hdVhtYXpvcWFMXzJGQlBQSW1ibkxjcWhXc0ROaEdtUDV6eVkxVFJuZEdoc0IyQXk5WktCQmlaVnhVZEF5RDgtSVRYeTA4aldfMFpBV1ljbjdtWGZr0gH8AUFVX3lxTE5WLVNKMm8xaC1heDFoYy1jVTBSSVBfazhyYXZTY2JLZFpyeXBWbjNhdk5qQVFHdmZ4dEZpUFBaOVJJN2NDQWt0VHNmNHNTX0ZQOENCMmtlOGhWc2ZtOU9QTExPU2dZMlZfQ3hycEEtTFdvc19tWWVpbG5FdnVLUER0enYtbFF4VXFlVW85VVVqUnRMMURCWGNJdUNVZnZKWENGZFZueTBqZXFsd1pQeGgxWHF5dTdJcmRzNkpuU2Fqc01oX1c4WnlLWi1hTXpqRnJLYWVxUnpvZTBKLUZ2X1hKRjlHM0lVSTYtcFlaQi1URFdmMW1sRllOTURDZw?oc=5"
-        },
-        {
-          "title": "Hantavirus: tras el brote en un crucero, el NEA y Paraguay refuerzan controles - NEA HOY",
-          "t": "2026-05-26T13:03:42Z",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUVAzdFN1bC1iTlZiMGs0M1hfX2VoYUxXUXlaRXNxTlRfMlg0VnNQaUZlam51RFN1ZTRYSFVrbUtoMGhZd0pEalAzNWpJUmljaUxhZUgzZURWVFREakxGQm5HUmtLNkpNLUV1SVlKTjRUd1N4UXV6TmJEZUZJUl9Ib0ZwMW9kS2FnZ3dTZmR5aHVKOTFZbGt0ZnR2S2tNcmxEZkZ0OTBqaW5iU28?oc=5"
         }
       ]
     }
