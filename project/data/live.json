@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-26T04:20:10.541930Z",
-  "next_update": "2026-05-26T04:25:00Z",
+  "generated": "2026-05-26T04:25:09.801636Z",
+  "next_update": "2026-05-26T04:30:00Z",
   "days_active": 18,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -19,7 +19,7 @@
       "ytd": 59,
       "alert": "brote",
       "cfr": 35.5,
-      "var_pct": 59,
+      "var_pct": 58,
       "strain": "andes",
       "new_today": 2,
       "r0": 4.46,
@@ -214,12 +214,12 @@
       "gov_alert": false
     },
     "FIN": {
-      "ytd": 392,
+      "ytd": 393,
       "alert": "vigilancia",
       "cfr": 0.1,
       "var_pct": 26,
       "strain": "puumala",
-      "new_today": 13,
+      "new_today": 14,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -230,7 +230,7 @@
       "cfr": 0.1,
       "var_pct": 6,
       "strain": "puumala",
-      "new_today": 6,
+      "new_today": 5,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2668,
+      "ytd": 2669,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": 14,
       "strain": "hantaan",
-      "new_today": 99,
+      "new_today": 100,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -574,12 +574,12 @@
       69,
       69,
       69,
-      75,
+      76,
       83,
       91,
       99,
       107,
-      115,
+      116,
       124,
       132
     ],
@@ -885,7 +885,7 @@
       350,
       365,
       379,
-      392
+      393
     ],
     "SWE": [
       145,
@@ -900,7 +900,7 @@
       145,
       145,
       145,
-      148,
+      149,
       154
     ],
     "DEU": [
@@ -1349,7 +1349,7 @@
       2348,
       2462,
       2569,
-      2668
+      2669
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 25,
+    "composite": 26,
     "epidemio": 33,
     "polymarket": 5,
-    "kalshi": 29,
+    "kalshi": 34,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.29,
     "continents": [
@@ -4088,7 +4088,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-26T04:20:10Z",
+      "last_update": "2026-05-26T04:25:09Z",
       "signals": 3,
       "recent": [
         {
