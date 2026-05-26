@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-26T06:35:11.302829Z",
-  "next_update": "2026-05-26T06:40:00Z",
+  "generated": "2026-05-26T06:40:05.308139Z",
+  "next_update": "2026-05-26T06:45:00Z",
   "days_active": 18,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 132,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 78,
+      "var_pct": 77,
       "strain": "andes",
       "new_today": 8,
       "r0": 5.0,
-      "signals": 5,
+      "signals": 4,
       "gov_alert": false
     },
     "CHL": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2677,
+      "ytd": 2678,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": 14,
@@ -568,16 +568,16 @@
   },
   "history": {
     "ARG": [
-      69,
-      69,
-      69,
-      69,
-      69,
+      68,
+      68,
+      68,
+      68,
+      68,
       69,
       76,
-      84,
-      92,
-      100,
+      83,
+      91,
+      99,
       108,
       116,
       124,
@@ -1348,8 +1348,8 @@
       2341,
       2359,
       2472,
-      2578,
-      2677
+      2579,
+      2678
     ],
     "KOR": [
       89,
@@ -1453,6 +1453,7 @@
   "hourly_history": {
     "ARG": [
       116,
+      116,
       117,
       117,
       117,
@@ -1467,6 +1468,7 @@
       120,
       121,
       121,
+      121,
       122,
       122,
       122,
@@ -1497,8 +1499,6 @@
       131,
       131,
       131,
-      132,
-      132,
       132
     ],
     "CHL": [
@@ -4017,7 +4017,7 @@
     "outbreak_count": 5
   },
   "signal_summary": {
-    "ARG": 5,
+    "ARG": 4,
     "FRA": 1,
     "MEX": 1
   },
@@ -4035,13 +4035,6 @@
       "t": "2026-05-23T23:56:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQXhsUW5wYkt1X2FHaUZLcXNXMEQxRmlTeUN1RmZ1SFZKNWhKTzNwS29MYWlHdlZoNm1hS2MwUDctaHhXUWQwZUFZUzZNUndpX3hzb0ZsOFNpcXhWakFkalVmQjc1MVd1X1NVWUdNM1NmalAyUk1QbW9aNkhqTENHSmZ4aEphQmNHNEw0RHFWY2cyT1IyQmhyQmluMEFKc09rS0lna1o0U2d6NnJrZHViM0FNTm5PTElaeFJVaF94TDZoNWVHN19GSE9lcjZBZEI20gHrAUFVX3lxTE8ybU42dWhCRVNXaXFUVEFEOENqYTBIMHVYbXppNHlHcEtHSHhRVlJsTHltbUFZQ0JYWHNvYXBha05mZVlXVHBNUG1QbERsZ0lRQTZxUEdDeFBQd0lCV1FzYV9ZRFZDZmZzOVoxTXVaWUJDUk1YeUVfaWdZcmNhVlM0ZHloYkpjc2o4SDVLLXZzZkw3cUd2ZF9sT1JMaXZoWEhwc0tUYTBUM0ZnYzdSd1ZHNXhiOXpsRHJFaFdfRDNtN1JiajAxVVZ3SnNWNTBjX3FLQ0NoQUY5dnRMMlF6TUNTRFAzOGZ4SDd1S1U?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus: Argentina mantiene activos los sistemas de vigilancia, monitoreo sanitario y cooperaci\u00f3n internacional - el1digital.com.ar",
-      "t": "2026-05-23T17:02:55Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPS0g0VVl0YjRTV2swYnBaR1l1emdBcEVWYnVHcXc4SzgtQ0JaVWVvLTd6UEpiLXd5MUN2SkxwSUlwTUhJWkpibTVuWV9KcGRiQ0dDZXpKT1haQzkwTXZEZFh0bVE4S0tIak5FRUNtREw3ekdvSjNhYUhqOTZkalN1cWJ1UFh6WnB5d1p6QVlnT2Z6MTBHYzUwSmxBajVpSVFyMWJydm9KUjR4ZHZ2Qk1ER0p1WTVEaHVqcmo5MTRlUlVzYUU0WU9tUlNpbkdyNVNZNlZHQ2RRUHYxVTZkczZOOE5wanRaSUU?oc=5"
     },
     {
       "iso": "ARG",
@@ -4088,7 +4081,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-26T06:35:11Z",
+      "last_update": "2026-05-26T06:40:05Z",
       "signals": 3,
       "recent": [
         {
