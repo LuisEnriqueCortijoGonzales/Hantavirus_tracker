@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-26T13:10:09.806740Z",
-  "next_update": "2026-05-26T13:15:00Z",
+  "generated": "2026-05-26T13:15:03.838072Z",
+  "next_update": "2026-05-26T13:20:00Z",
   "days_active": 18,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2703,
+      "ytd": 2704,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": 15,
       "strain": "hantaan",
-      "new_today": 97,
+      "new_today": 98,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -574,7 +574,7 @@
       68,
       68,
       70,
-      77,
+      78,
       85,
       93,
       101,
@@ -883,7 +883,7 @@
       323,
       340,
       356,
-      370,
+      371,
       384,
       499
     ],
@@ -1349,7 +1349,7 @@
       2391,
       2502,
       2606,
-      2703
+      2704
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 27,
+    "composite": 26,
     "epidemio": 35,
     "polymarket": 5,
-    "kalshi": 34,
+    "kalshi": 31,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.29,
     "continents": [
@@ -4017,6 +4017,7 @@
     "outbreak_count": 6
   },
   "signal_summary": {
+    "CAN": 1,
     "ARG": 3,
     "FRA": 1,
     "MEX": 1,
@@ -4029,6 +4030,13 @@
       "t": "2026-05-26T13:03:42Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUVAzdFN1bC1iTlZiMGs0M1hfX2VoYUxXUXlaRXNxTlRfMlg0VnNQaUZlam51RFN1ZTRYSFVrbUtoMGhZd0pEalAzNWpJUmljaUxhZUgzZURWVFREakxGQm5HUmtLNkpNLUV1SVlKTjRUd1N4UXV6TmJEZUZJUl9Ib0ZwMW9kS2FnZ3dTZmR5aHVKOTFZbGt0ZnR2S2tNcmxEZkZ0OTBqaW5iU28?oc=5"
+    },
+    {
+      "iso": "CAN",
+      "title": "Passenger Evacuated from Hantavirus-Hit Cruise Ship Tests Positive for Disease in Spain - Yahoo News Canada",
+      "t": "2026-05-26T10:53:16Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaDJiU2hxTVdQRWRiVVBXZ0UxLTBfU3NleWxQWHFCbndISnhCQmVkZVY3UzJDaTRqRW9ueU1lLVJxV09PT1JJSWJTa3o2VlB1dkhMNUcwYjJtT1BSVWR2ZVpFS3dVanlKaWFpLXBtZUNiZWtlVWx0RHZmQmMtMUtyV1lmeUlxVEdreEE?oc=5"
     },
     {
       "iso": "FRA",
@@ -4082,9 +4090,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-26T13:10:09Z",
-      "signals": 4,
+      "last_update": "2026-05-26T13:15:03Z",
+      "signals": 5,
       "recent": [
+        {
+          "title": "Passenger Evacuated from Hantavirus-Hit Cruise Ship Tests Positive for Disease in Spain - Yahoo News Canada",
+          "t": "2026-05-26T10:53:16Z",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaDJiU2hxTVdQRWRiVVBXZ0UxLTBfU3NleWxQWHFCbndISnhCQmVkZVY3UzJDaTRqRW9ueU1lLVJxV09PT1JJSWJTa3o2VlB1dkhMNUcwYjJtT1BSVWR2ZVpFS3dVanlKaWFpLXBtZUNiZWtlVWx0RHZmQmMtMUtyV1lmeUlxVEdreEE?oc=5"
+        },
         {
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
           "t": "2026-05-20T17:59:00Z",
