@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-26T09:40:15.082084Z",
-  "next_update": "2026-05-26T09:45:00Z",
+  "generated": "2026-05-26T09:45:14.364767Z",
+  "next_update": "2026-05-26T09:50:00Z",
   "days_active": 18,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -225,12 +225,12 @@
       "gov_alert": false
     },
     "SWE": {
-      "ytd": 155,
+      "ytd": 156,
       "alert": "vigilancia",
       "cfr": 0.1,
       "var_pct": 7,
       "strain": "puumala",
-      "new_today": 5,
+      "new_today": 6,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -241,7 +241,7 @@
       "cfr": 0.2,
       "var_pct": 11,
       "strain": "puumala",
-      "new_today": 11,
+      "new_today": 10,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -538,7 +538,7 @@
       "cfr": 1.2,
       "var_pct": 15,
       "strain": "hantaan",
-      "new_today": 99,
+      "new_today": 98,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -881,7 +881,7 @@
       312,
       312,
       321,
-      337,
+      338,
       353,
       368,
       382,
@@ -901,7 +901,7 @@
       145,
       145,
       150,
-      155
+      156
     ],
     "DEU": [
       234,
@@ -916,7 +916,7 @@
       234,
       234,
       237,
-      248,
+      249,
       259
     ],
     "POL": [
@@ -1348,7 +1348,7 @@
       2341,
       2374,
       2486,
-      2591,
+      2592,
       2690
     ],
     "KOR": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 26,
+    "composite": 25,
     "epidemio": 33,
     "polymarket": 5,
-    "kalshi": 31,
+    "kalshi": 30,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.29,
     "continents": [
@@ -4082,7 +4082,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-26T09:40:15Z",
+      "last_update": "2026-05-26T09:45:14Z",
       "signals": 3,
       "recent": [
         {
