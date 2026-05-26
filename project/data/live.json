@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-26T19:40:14.307928Z",
-  "next_update": "2026-05-26T19:45:00Z",
+  "generated": "2026-05-26T19:45:03.051754Z",
+  "next_update": "2026-05-26T19:50:00Z",
   "days_active": 18,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -100,7 +100,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "URY": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2728,
+      "ytd": 2729,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": 17,
@@ -1346,10 +1346,10 @@
       2341,
       2341,
       2341,
-      2421,
+      2422,
       2531,
-      2633,
-      2728
+      2634,
+      2729
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 27,
+    "composite": 28,
     "epidemio": 35,
     "polymarket": 5,
-    "kalshi": 33,
+    "kalshi": 35,
     "max_andes_r0": 5.0,
     "avg_other_r0": 0.29,
     "continents": [
@@ -4019,9 +4019,17 @@
   "signal_summary": {
     "ARG": 4,
     "FRA": 2,
-    "MEX": 1
+    "MEX": 1,
+    "PRY": 1
   },
   "events": [
+    {
+      "iso": "PRY",
+      "title": "Hantavirus: tras el brote en un crucero, el NEA y Paraguay refuerzan controles - NEA HOY",
+      "t": "2026-05-26T13:03:42Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUVAzdFN1bC1iTlZiMGs0M1hfX2VoYUxXUXlaRXNxTlRfMlg0VnNQaUZlam51RFN1ZTRYSFVrbUtoMGhZd0pEalAzNWpJUmljaUxhZUgzZURWVFREakxGQm5HUmtLNkpNLUV1SVlKTjRUd1N4UXV6TmJEZUZJUl9Ib0ZwMW9kS2FnZ3dTZmR5aHVKOTFZbGt0ZnR2S2tNcmxEZkZ0OTBqaW5iU28?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
@@ -4037,6 +4045,13 @@
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQXhsUW5wYkt1X2FHaUZLcXNXMEQxRmlTeUN1RmZ1SFZKNWhKTzNwS29MYWlHdlZoNm1hS2MwUDctaHhXUWQwZUFZUzZNUndpX3hzb0ZsOFNpcXhWakFkalVmQjc1MVd1X1NVWUdNM1NmalAyUk1QbW9aNkhqTENHSmZ4aEphQmNHNEw0RHFWY2cyT1IyQmhyQmluMEFKc09rS0lna1o0U2d6NnJrZHViM0FNTm5PTElaeFJVaF94TDZoNWVHN19GSE9lcjZBZEI20gHrAUFVX3lxTE8ybU42dWhCRVNXaXFUVEFEOENqYTBIMHVYbXppNHlHcEtHSHhRVlJsTHltbUFZQ0JYWHNvYXBha05mZVlXVHBNUG1QbERsZ0lRQTZxUEdDeFBQd0lCV1FzYV9ZRFZDZmZzOVoxTXVaWUJDUk1YeUVfaWdZcmNhVlM0ZHloYkpjc2o4SDVLLXZzZkw3cUd2ZF9sT1JMaXZoWEhwc0tUYTBUM0ZnYzdSd1ZHNXhiOXpsRHJFaFdfRDNtN1JiajAxVVZ3SnNWNTBjX3FLQ0NoQUY5dnRMMlF6TUNTRFAzOGZ4SDd1S1U?oc=5"
     },
     {
+      "iso": "FRA",
+      "title": "El paciente con nuevo caso de hantavirus ingres\u00f3 en un hospital de Pa\u00edses Bajos - France 24",
+      "t": "2026-05-22T14:47:10Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUm5wVnpaNFJOTzJkTjlXWkFDS0N3ZHp1ckVwekhwbjhZSkJaemYySTdra2NrcVdSWDQ5RE80M2F4eHpKVnFCRUtWR3pnUC1VS0Ftb3gxRXZZZzFsc2RESmlsVlZISENfSGxvbHRFM3RxMTh2WUNVdE9GZExiRl9nTlBTdmNLNFB0TlU1empUOTVmenphSnRzcTFKa1NyMEEwbng2RmdIUzUxZFBmSkdEckd3Q0VjNGF2SThsdmNTdUlsaWptNS0xMHBTTEZ5aWhja091bEZtTW1LZw?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
       "t": "2026-05-20T17:59:00Z",
@@ -4045,17 +4060,10 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - France 24",
-      "t": "2026-05-18T07:00:00Z",
+      "title": "Argentina acelera la investigaci\u00f3n del brote de hantavirus - VOV World",
+      "t": "2026-05-20T11:18:00Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVlhuUG82VktZUi1sOWRpclRTZU9HUVZmQjRwaS0tVml5bXhuakthM0xHYUhXYzJEbGFMR200NUF0QnlfMnV4SzkyaXRURzRWcnM3bTBJQjdkSnlrMGhSVENkMUxjRzNrNW1JNVJvUlZaV3JCdzdZbmZQLXYwUTVmR2x6bFZVXy1EX3FBTk9uRXFIVHhwOS1ucXRZVGNwSERTdTRqYzFVbHdyTXh5SjJ5bXZVc2NEaGNPczZsbF9saFd0R0VMQU9ac19FbjlNd0VhTjd0cWx1WGJCMW5tLWVUdk1Tbw?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - France 24",
-      "t": "2026-05-18T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVlhuUG82VktZUi1sOWRpclRTZU9HUVZmQjRwaS0tVml5bXhuakthM0xHYUhXYzJEbGFMR200NUF0QnlfMnV4SzkyaXRURzRWcnM3bTBJQjdkSnlrMGhSVENkMUxjRzNrNW1JNVJvUlZaV3JCdzdZbmZQLXYwUTVmR2x6bFZVXy1EX3FBTk9uRXFIVHhwOS1ucXRZVGNwSERTdTRqYzFVbHdyTXh5SjJ5bXZVc2NEaGNPczZsbF9saFd0R0VMQU9ac19FbjlNd0VhTjd0cWx1WGJCMW5tLWVUdk1Tbw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYjM2dk5WaEhHX2dmZGhQTEJKdy1yOGdoNjlyNHEwN3VtSHJXVS10TEJPbVJfTmNnSHpwR0FhdXhwUzlNRGp4M3lOQmN6UDRrbVIzZjA3alBWczZhNVJPQXd5LWJFd2ZkaHpEUlRfNTRiNUpZZzMwNmpyQWdtTTVlVUt5Vkw1cmJBdWN3VXVZWGhfTnkwLXAzS2FyRnpNWTJwZ2RnSXBGY3VTdw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4088,7 +4096,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-26T19:40:14Z",
+      "last_update": "2026-05-26T19:45:03Z",
       "signals": 4,
       "recent": [
         {
@@ -4102,14 +4110,14 @@
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
         },
         {
-          "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - France 24",
-          "t": "2026-05-18T07:00:00Z",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVlhuUG82VktZUi1sOWRpclRTZU9HUVZmQjRwaS0tVml5bXhuakthM0xHYUhXYzJEbGFMR200NUF0QnlfMnV4SzkyaXRURzRWcnM3bTBJQjdkSnlrMGhSVENkMUxjRzNrNW1JNVJvUlZaV3JCdzdZbmZQLXYwUTVmR2x6bFZVXy1EX3FBTk9uRXFIVHhwOS1ucXRZVGNwSERTdTRqYzFVbHdyTXh5SjJ5bXZVc2NEaGNPczZsbF9saFd0R0VMQU9ac19FbjlNd0VhTjd0cWx1WGJCMW5tLWVUdk1Tbw?oc=5"
-        },
-        {
           "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
           "t": "2026-05-25T22:40:00Z",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
+        },
+        {
+          "title": "Hantavirus: tras el brote en un crucero, el NEA y Paraguay refuerzan controles - NEA HOY",
+          "t": "2026-05-26T13:03:42Z",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUVAzdFN1bC1iTlZiMGs0M1hfX2VoYUxXUXlaRXNxTlRfMlg0VnNQaUZlam51RFN1ZTRYSFVrbUtoMGhZd0pEalAzNWpJUmljaUxhZUgzZURWVFREakxGQm5HUmtLNkpNLUV1SVlKTjRUd1N4UXV6TmJEZUZJUl9Ib0ZwMW9kS2FnZ3dTZmR5aHVKOTFZbGt0ZnR2S2tNcmxEZkZ0OTBqaW5iU28?oc=5"
         }
       ]
     }
