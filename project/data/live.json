@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-27T18:40:11.546490Z",
-  "next_update": "2026-05-27T18:45:00Z",
+  "generated": "2026-05-27T18:45:16.564728Z",
+  "next_update": "2026-05-27T18:50:00Z",
   "days_active": 19,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -230,7 +230,7 @@
       "cfr": 0.1,
       "var_pct": 12,
       "strain": "puumala",
-      "new_today": 6,
+      "new_today": 5,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -254,7 +254,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "NOR": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2812,
+      "ytd": 2813,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": 20,
@@ -900,7 +900,7 @@
       145,
       146,
       152,
-      157,
+      158,
       163
     ],
     "DEU": [
@@ -1346,10 +1346,10 @@
       2341,
       2341,
       2417,
-      2526,
+      2527,
       2629,
-      2724,
-      2812
+      2725,
+      2813
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 26,
+    "composite": 27,
     "epidemio": 34,
     "polymarket": 6,
-    "kalshi": 32,
+    "kalshi": 33,
     "max_andes_r0": 3.53,
     "avg_other_r0": 0.39,
     "continents": [
@@ -4017,7 +4017,6 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "POL": 1,
     "USA": 1,
     "FRA": 1,
     "ARG": 4
@@ -4043,13 +4042,6 @@
       "t": "2026-05-27T10:50:11Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObDVuN3JiVWVPY3NoWWRLUDVmQVYxcnIySExLN2N2R2NRYWpRWG5YTWo4aDM0LXk4aUphOWppUDM2ZTlRMHp3VjFPSGtlMVdIeFB2aE9qajhmSzVEbWlsNnFqODFrazVUeUpPOHBvWWl6NFR2bEt2OUd6S2xqNXptSmFBNkVKUTJ3cE9kVmhiYWpReHcweUVUdkFsQlhEYnUyVFZNYVN2eW93TTVrSk1wVlQyN1VXdlRUVFUxcU1R0gHMAUFVX3lxTE45VDAtdTh5M3dhZndKUWNTcEFnM1BPY25COUxyeVVNZkVIV05QLXhfQzE3NmJYcVhBSkZYY181X2xFN3lZdU53MWhxUlBuRmNIX0MzZ0NyZjhzZGNSWmU1NVdSUm5uVEE4ZnhDcmxvc3VuN003UDFLMVJrNXh4NG1uVFZjS1Q3WEdmQ2pST3hCNnRxNVNLc1Rjb01xRVplV21HWHhrN0pFanpkLXVuaExrRTExNTNuUVhOMDlwRU8yaC1uc3FDQm1GZlhqeg?oc=5"
-    },
-    {
-      "iso": "POL",
-      "title": "Captain of Hantavirus cruise horror quarantined in Poland - TVP World",
-      "t": "2026-05-27T06:36:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeG1wWnVNTDZQTV96WDdrMHdEc2hXQjRzRTlDT0xZNEZ6TW9yX1NCVUpGQ2pmbmVxMXhjSU1xQlJLZEpsaU9BX0JCazdHYkZxVTd5RjQ0b3pTU2xydGE5LWgwS21fX1V2V1dabjM1c1NjT3ZfZzVfUGMtcXpDZGhST1Vva0ZHTkh1d2hjTVdYeEs2X0NWTnp6XzZuWlcxZzAtbWlB?oc=5"
     },
     {
       "iso": "FRA",
@@ -4089,7 +4081,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-27T18:40:11Z",
+      "last_update": "2026-05-27T18:45:16Z",
       "signals": 3,
       "recent": [
         {
