@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-27T10:55:18.622214Z",
-  "next_update": "2026-05-27T11:00:00Z",
+  "generated": "2026-05-27T11:00:18.050369Z",
+  "next_update": "2026-05-27T11:05:00Z",
   "days_active": 19,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -100,7 +100,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "URY": {
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 1899,
+      "ytd": 1900,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 1,
       "strain": "puumala",
-      "new_today": 27,
+      "new_today": 28,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -538,7 +538,7 @@
       "cfr": 1.2,
       "var_pct": 19,
       "strain": "hantaan",
-      "new_today": 91,
+      "new_today": 90,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -572,7 +572,7 @@
       68,
       68,
       68,
-      69,
+      70,
       77,
       84,
       92,
@@ -1253,7 +1253,7 @@
       1872,
       1872,
       1872,
-      1899
+      1900
     ],
     "BLR": [
       34,
@@ -1348,7 +1348,7 @@
       2380,
       2492,
       2597,
-      2694,
+      2695,
       2785
     ],
     "KOR": [
@@ -1401,7 +1401,6 @@
     "2026-05-27T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-25T11:00:00Z",
     "2026-05-25T12:00:00Z",
     "2026-05-25T13:00:00Z",
     "2026-05-25T14:00:00Z",
@@ -1448,11 +1447,11 @@
     "2026-05-27T07:00:00Z",
     "2026-05-27T08:00:00Z",
     "2026-05-27T09:00:00Z",
-    "2026-05-27T10:00:00Z"
+    "2026-05-27T10:00:00Z",
+    "2026-05-27T11:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      125,
       125,
       125,
       126,
@@ -1499,10 +1498,10 @@
       139,
       139,
       140,
+      140,
       140
     ],
     "CHL": [
-      57,
       58,
       58,
       58,
@@ -1547,6 +1546,7 @@
       62,
       62,
       62,
+      63,
       63,
       63,
       63
@@ -2402,7 +2402,6 @@
       1
     ],
     "FIN": [
-      383,
       384,
       384,
       385,
@@ -2449,10 +2448,10 @@
       496,
       496,
       496,
+      496,
       496
     ],
     "SWE": [
-      150,
       150,
       151,
       151,
@@ -2499,10 +2498,10 @@
       160,
       160,
       161,
+      161,
       161
     ],
     "DEU": [
-      249,
       250,
       250,
       250,
@@ -2548,6 +2547,7 @@
       267,
       268,
       268,
+      269,
       269,
       269
     ],
@@ -3591,7 +3591,6 @@
       1872,
       1872,
       1872,
-      1872,
       1873,
       1877,
       1880,
@@ -3599,7 +3598,8 @@
       1887,
       1890,
       1893,
-      1896
+      1896,
+      1900
     ],
     "BLR": [
       34,
@@ -3852,7 +3852,6 @@
       23
     ],
     "CHN": [
-      2597,
       2601,
       2605,
       2610,
@@ -3899,7 +3898,8 @@
       2770,
       2774,
       2778,
-      2781
+      2781,
+      2785
     ],
     "KOR": [
       89,
@@ -4006,7 +4006,7 @@
     "composite": 28,
     "epidemio": 35,
     "polymarket": 6,
-    "kalshi": 37,
+    "kalshi": 35,
     "max_andes_r0": 3.1,
     "avg_other_r0": 0.39,
     "continents": [
@@ -4021,7 +4021,8 @@
     "GBR": 1,
     "ARG": 3,
     "FRA": 1,
-    "MEX": 1
+    "MEX": 1,
+    "PRY": 1
   },
   "events": [
     {
@@ -4037,6 +4038,13 @@
       "t": "2026-05-26T21:37:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSGd3cWN1blJ5d24xUXRxeHFQV3Q3X1ZQS3VnY24wR3FBYWJUclRrM3NLUjM5al9Oendfa3lwOTZQekxQaWl6SkhDckcxN0c1TXZoSHowVXQ4NmxOUnJxcVdzaUtrVXoxaGd6YVpHYTg4aDVUeXhvYWhTTEhtY0VMbWQ4clNtc0dDM25icjQwOS1KNDJDSVE?oc=5"
+    },
+    {
+      "iso": "PRY",
+      "title": "Hantavirus: tras el brote en un crucero, el NEA y Paraguay refuerzan controles - NEA HOY",
+      "t": "2026-05-26T13:03:42Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUVAzdFN1bC1iTlZiMGs0M1hfX2VoYUxXUXlaRXNxTlRfMlg0VnNQaUZlam51RFN1ZTRYSFVrbUtoMGhZd0pEalAzNWpJUmljaUxhZUgzZURWVFREakxGQm5HUmtLNkpNLUV1SVlKTjRUd1N4UXV6TmJEZUZJUl9Ib0ZwMW9kS2FnZ3dTZmR5aHVKOTFZbGt0ZnR2S2tNcmxEZkZ0OTBqaW5iU28?oc=5"
     },
     {
       "iso": "FRA",
@@ -4090,8 +4098,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-27T10:55:18Z",
-      "signals": 4,
+      "last_update": "2026-05-27T11:00:18Z",
+      "signals": 5,
       "recent": [
         {
           "title": "Brit hospitalised with hantavirus in the Netherlands after cruise ship outbreak returns to UK - AOL.com",
@@ -4112,6 +4120,11 @@
           "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
           "t": "2026-05-25T22:40:00Z",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
+        },
+        {
+          "title": "Hantavirus: tras el brote en un crucero, el NEA y Paraguay refuerzan controles - NEA HOY",
+          "t": "2026-05-26T13:03:42Z",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUVAzdFN1bC1iTlZiMGs0M1hfX2VoYUxXUXlaRXNxTlRfMlg0VnNQaUZlam51RFN1ZTRYSFVrbUtoMGhZd0pEalAzNWpJUmljaUxhZUgzZURWVFREakxGQm5HUmtLNkpNLUV1SVlKTjRUd1N4UXV6TmJEZUZJUl9Ib0ZwMW9kS2FnZ3dTZmR5aHVKOTFZbGt0ZnR2S2tNcmxEZkZ0OTBqaW5iU28?oc=5"
         }
       ]
     }
