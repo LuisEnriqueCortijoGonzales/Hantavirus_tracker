@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-27T08:45:12.062256Z",
-  "next_update": "2026-05-27T08:50:00Z",
+  "generated": "2026-05-27T08:50:16.546646Z",
+  "next_update": "2026-05-27T08:55:00Z",
   "days_active": 19,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 139,
+      "ytd": 140,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 69,
       "strain": "andes",
-      "new_today": 7,
-      "r0": 2.96,
+      "new_today": 8,
+      "r0": 3.1,
       "signals": 3,
       "gov_alert": false
     },
@@ -236,12 +236,12 @@
       "gov_alert": false
     },
     "DEU": {
-      "ytd": 268,
+      "ytd": 269,
       "alert": "brote",
       "cfr": 0.2,
       "var_pct": 15,
       "strain": "puumala",
-      "new_today": 9,
+      "new_today": 10,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 1892,
+      "ytd": 1893,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 1,
       "strain": "puumala",
-      "new_today": 20,
+      "new_today": 21,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -581,7 +581,7 @@
       116,
       124,
       132,
-      139
+      140
     ],
     "CHL": [
       31,
@@ -917,7 +917,7 @@
       237,
       248,
       259,
-      268
+      269
     ],
     "POL": [
       45,
@@ -1253,7 +1253,7 @@
       1872,
       1872,
       1872,
-      1892
+      1893
     ],
     "BLR": [
       34,
@@ -1345,9 +1345,9 @@
       2341,
       2341,
       2341,
-      2369,
+      2370,
       2482,
-      2587,
+      2588,
       2686,
       2777
     ],
@@ -4006,8 +4006,8 @@
     "composite": 28,
     "epidemio": 35,
     "polymarket": 5,
-    "kalshi": 36,
-    "max_andes_r0": 2.96,
+    "kalshi": 35,
+    "max_andes_r0": 3.1,
     "avg_other_r0": 0.39,
     "continents": [
       "Americas",
@@ -4090,7 +4090,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-27T08:45:12Z",
+      "last_update": "2026-05-27T08:50:16Z",
       "signals": 4,
       "recent": [
         {
