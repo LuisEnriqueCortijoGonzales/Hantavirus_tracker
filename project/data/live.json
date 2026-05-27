@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-27T10:30:06.756948Z",
-  "next_update": "2026-05-27T10:35:00Z",
+  "generated": "2026-05-27T10:35:16.579295Z",
+  "next_update": "2026-05-27T10:40:00Z",
   "days_active": 19,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -100,7 +100,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "URY": {
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2783,
+      "ytd": 2784,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": 19,
       "strain": "hantaan",
-      "new_today": 90,
+      "new_today": 91,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -1349,7 +1349,7 @@
       2490,
       2595,
       2693,
-      2783
+      2784
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 28,
+    "composite": 27,
     "epidemio": 35,
     "polymarket": 6,
-    "kalshi": 35,
+    "kalshi": 33,
     "max_andes_r0": 3.1,
     "avg_other_r0": 0.39,
     "continents": [
@@ -4021,7 +4021,8 @@
     "GBR": 1,
     "ARG": 3,
     "FRA": 1,
-    "MEX": 1
+    "MEX": 1,
+    "PRY": 1
   },
   "events": [
     {
@@ -4037,6 +4038,13 @@
       "t": "2026-05-26T21:37:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSGd3cWN1blJ5d24xUXRxeHFQV3Q3X1ZQS3VnY24wR3FBYWJUclRrM3NLUjM5al9Oendfa3lwOTZQekxQaWl6SkhDckcxN0c1TXZoSHowVXQ4NmxOUnJxcVdzaUtrVXoxaGd6YVpHYTg4aDVUeXhvYWhTTEhtY0VMbWQ4clNtc0dDM25icjQwOS1KNDJDSVE?oc=5"
+    },
+    {
+      "iso": "PRY",
+      "title": "Hantavirus: tras el brote en un crucero, el NEA y Paraguay refuerzan controles - NEA HOY",
+      "t": "2026-05-26T13:03:42Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUVAzdFN1bC1iTlZiMGs0M1hfX2VoYUxXUXlaRXNxTlRfMlg0VnNQaUZlam51RFN1ZTRYSFVrbUtoMGhZd0pEalAzNWpJUmljaUxhZUgzZURWVFREakxGQm5HUmtLNkpNLUV1SVlKTjRUd1N4UXV6TmJEZUZJUl9Ib0ZwMW9kS2FnZ3dTZmR5aHVKOTFZbGt0ZnR2S2tNcmxEZkZ0OTBqaW5iU28?oc=5"
     },
     {
       "iso": "FRA",
@@ -4090,8 +4098,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-27T10:30:06Z",
-      "signals": 4,
+      "last_update": "2026-05-27T10:35:16Z",
+      "signals": 5,
       "recent": [
         {
           "title": "Brit hospitalised with hantavirus in the Netherlands after cruise ship outbreak returns to UK - AOL.com",
@@ -4112,6 +4120,11 @@
           "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
           "t": "2026-05-25T22:40:00Z",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
+        },
+        {
+          "title": "Hantavirus: tras el brote en un crucero, el NEA y Paraguay refuerzan controles - NEA HOY",
+          "t": "2026-05-26T13:03:42Z",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUVAzdFN1bC1iTlZiMGs0M1hfX2VoYUxXUXlaRXNxTlRfMlg0VnNQaUZlam51RFN1ZTRYSFVrbUtoMGhZd0pEalAzNWpJUmljaUxhZUgzZURWVFREakxGQm5HUmtLNkpNLUV1SVlKTjRUd1N4UXV6TmJEZUZJUl9Ib0ZwMW9kS2FnZ3dTZmR5aHVKOTFZbGt0ZnR2S2tNcmxEZkZ0OTBqaW5iU28?oc=5"
         }
       ]
     }
