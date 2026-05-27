@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-27T16:25:06.046273Z",
-  "next_update": "2026-05-27T16:30:00Z",
+  "generated": "2026-05-27T16:30:10.570553Z",
+  "next_update": "2026-05-27T16:35:00Z",
   "days_active": 19,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 1917,
+      "ytd": 1918,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 2,
       "strain": "puumala",
-      "new_today": 45,
+      "new_today": 46,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2804,
+      "ytd": 2805,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": 20,
       "strain": "hantaan",
-      "new_today": 88,
+      "new_today": 89,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -572,7 +572,7 @@
       68,
       68,
       68,
-      71,
+      72,
       79,
       87,
       95,
@@ -879,12 +879,12 @@
       312,
       312,
       312,
-      325,
+      326,
       342,
       358,
       372,
       386,
-      499,
+      498,
       495
     ],
     "SWE": [
@@ -914,7 +914,7 @@
       234,
       234,
       234,
-      240,
+      241,
       252,
       262,
       271
@@ -1253,7 +1253,7 @@
       1872,
       1872,
       1872,
-      1917
+      1918
     ],
     "BLR": [
       34,
@@ -1346,10 +1346,10 @@
       2341,
       2341,
       2406,
-      2516,
+      2517,
       2620,
       2716,
-      2804
+      2805
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 27,
+    "composite": 28,
     "epidemio": 35,
     "polymarket": 6,
-    "kalshi": 32,
+    "kalshi": 36,
     "max_andes_r0": 3.53,
     "avg_other_r0": 0.39,
     "continents": [
@@ -4105,7 +4105,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-27T16:25:06Z",
+      "last_update": "2026-05-27T16:30:10Z",
       "signals": 4,
       "recent": [
         {
