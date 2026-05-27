@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-27T12:50:12.028753Z",
-  "next_update": "2026-05-27T12:55:00Z",
+  "generated": "2026-05-27T12:55:11.329726Z",
+  "next_update": "2026-05-27T13:00:00Z",
   "days_active": 19,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 141,
+      "ytd": 142,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 69,
+      "var_pct": 70,
       "strain": "andes",
-      "new_today": 7,
-      "r0": 3.24,
-      "signals": 4,
+      "new_today": 8,
+      "r0": 3.39,
+      "signals": 5,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      68,
-      68,
-      68,
-      68,
-      70,
+      69,
+      69,
+      69,
+      69,
+      71,
       78,
-      85,
-      93,
-      101,
+      86,
+      94,
+      102,
       110,
       118,
-      126,
+      127,
       134,
-      141
+      142
     ],
     "CHL": [
       31,
@@ -1346,7 +1346,7 @@
       2341,
       2341,
       2389,
-      2500,
+      2501,
       2605,
       2702,
       2792
@@ -1452,8 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      126,
-      126,
       127,
       127,
       127,
@@ -1499,7 +1497,9 @@
       140,
       141,
       141,
-      141
+      141,
+      142,
+      142
     ],
     "CHL": [
       58,
@@ -4003,11 +4003,11 @@
     ]
   },
   "pandemic": {
-    "composite": 28,
+    "composite": 27,
     "epidemio": 35,
     "polymarket": 6,
-    "kalshi": 35,
-    "max_andes_r0": 3.24,
+    "kalshi": 32,
+    "max_andes_r0": 3.39,
     "avg_other_r0": 0.39,
     "continents": [
       "Americas",
@@ -4020,11 +4020,18 @@
     "POL": 1,
     "USA": 1,
     "GBR": 1,
-    "ARG": 4,
+    "ARG": 5,
     "FRA": 1,
     "MEX": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Sin nuevos casos de hantavirus en Argentina, pero sigue la investigaci\u00f3n por el brote en un crucero \u2014 ACTUALIDAD - Opinando San Nicol\u00e1s",
+      "t": "2026-05-27T12:50:41Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOU15bTQ3R24xejJwTDJxTzV0Z2hzbnZ3QkczWkpyc3ZoMlFHME5NdTVqNmVIbmZEQjViRW1tY1l5NlV4MHBEREhsTDFVUWtTQjZwbmYwa3NWMjNKbS1pbXAwUWQ1WlZQUG0xTVRDUElESG1CdGpRLUlYUXRsR2pyam5sQlM0d3FYUWxyY3QwXzNiXzRjckNNODJpTWJ2LXJTX3BodzRjZ0tWMnFmbnMtLVp1TVNSU2owSEw5X3JoSGI0SDdnRDNtWkxSbTBaSGFvYWRUX2ZCX0o?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Misinterpretation of Hantavirus Map Spreads Misinformation About Andes Strain in Europe and North America - IndexBox",
@@ -4105,8 +4112,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-27T12:50:12Z",
-      "signals": 4,
+      "last_update": "2026-05-27T12:55:11Z",
+      "signals": 5,
       "recent": [
         {
           "title": "Brit hospitalised with hantavirus in the Netherlands after cruise ship outbreak returns to UK - AOL.com",
@@ -4117,6 +4124,11 @@
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
           "t": "2026-05-20T17:59:00Z",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ueUZSY2k1ZTcyQ1RCZWdnWU9JT1V3elpoTXZRb1V6eloxeG5NMWQ3dnFWQXNjb3dtc1lfZ0JDY21JUjYxa016b18ySGhBSlI2TnU0YTdMU2hYSE0wazNrdDRwNVlJa085ZkJCV2ViZ3lVdkI1b2pR?oc=5"
+        },
+        {
+          "title": "Sin nuevos casos de hantavirus en Argentina, pero sigue la investigaci\u00f3n por el brote en un crucero \u2014 ACTUALIDAD - Opinando San Nicol\u00e1s",
+          "t": "2026-05-27T12:50:41Z",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOU15bTQ3R24xejJwTDJxTzV0Z2hzbnZ3QkczWkpyc3ZoMlFHME5NdTVqNmVIbmZEQjViRW1tY1l5NlV4MHBEREhsTDFVUWtTQjZwbmYwa3NWMjNKbS1pbXAwUWQ1WlZQUG0xTVRDUElESG1CdGpRLUlYUXRsR2pyam5sQlM0d3FYUWxyY3QwXzNiXzRjckNNODJpTWJ2LXJTX3BodzRjZ0tWMnFmbnMtLVp1TVNSU2owSEw5X3JoSGI0SDdnRDNtWkxSbTBaSGFvYWRUX2ZCX0o?oc=5"
         },
         {
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
