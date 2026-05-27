@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-27T07:20:14.299262Z",
-  "next_update": "2026-05-27T07:25:00Z",
+  "generated": "2026-05-27T07:25:08.332678Z",
+  "next_update": "2026-05-27T07:30:00Z",
   "days_active": 19,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -239,7 +239,7 @@
       "ytd": 268,
       "alert": "brote",
       "cfr": 0.2,
-      "var_pct": 14,
+      "var_pct": 15,
       "strain": "puumala",
       "new_today": 10,
       "r0": 3.5,
@@ -538,7 +538,7 @@
       "cfr": 1.2,
       "var_pct": 18,
       "strain": "hantaan",
-      "new_today": 92,
+      "new_today": 91,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -1346,9 +1346,9 @@
       2341,
       2341,
       2363,
-      2475,
-      2581,
-      2680,
+      2476,
+      2582,
+      2681,
       2772
     ],
     "KOR": [
@@ -4006,7 +4006,7 @@
     "composite": 28,
     "epidemio": 35,
     "polymarket": 5,
-    "kalshi": 37,
+    "kalshi": 36,
     "max_andes_r0": 2.96,
     "avg_other_r0": 0.39,
     "continents": [
@@ -4090,7 +4090,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-27T07:20:14Z",
+      "last_update": "2026-05-27T07:25:08Z",
       "signals": 4,
       "recent": [
         {
