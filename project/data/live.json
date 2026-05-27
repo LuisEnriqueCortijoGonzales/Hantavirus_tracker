@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-27T01:00:13.577927Z",
-  "next_update": "2026-05-27T01:05:00Z",
+  "generated": "2026-05-27T01:05:07.554582Z",
+  "next_update": "2026-05-27T01:10:00Z",
   "days_active": 19,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -74,11 +74,11 @@
       "ytd": 8,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "USA": {
@@ -230,7 +230,7 @@
       "cfr": 0.1,
       "var_pct": 10,
       "strain": "puumala",
-      "new_today": 6,
+      "new_today": 5,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2748,
+      "ytd": 2749,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": 17,
       "strain": "hantaan",
-      "new_today": 93,
+      "new_today": 94,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -576,7 +576,7 @@
       73,
       81,
       89,
-      96,
+      97,
       105,
       113,
       121,
@@ -880,7 +880,7 @@
       312,
       312,
       314,
-      331,
+      332,
       348,
       363,
       377,
@@ -900,7 +900,7 @@
       145,
       145,
       148,
-      153,
+      154,
       159
     ],
     "DEU": [
@@ -1346,10 +1346,10 @@
       2341,
       2341,
       2341,
-      2446,
+      2447,
       2554,
       2655,
-      2748
+      2749
     ],
     "KOR": [
       89,
@@ -4006,7 +4006,7 @@
     "composite": 26,
     "epidemio": 34,
     "polymarket": 5,
-    "kalshi": 31,
+    "kalshi": 33,
     "max_andes_r0": 2.56,
     "avg_other_r0": 0.32,
     "continents": [
@@ -4019,8 +4019,8 @@
   "signal_summary": {
     "GBR": 1,
     "ARG": 2,
+    "MEX": 2,
     "FRA": 1,
-    "MEX": 1,
     "PRY": 1
   },
   "events": [
@@ -4065,6 +4065,13 @@
       "t": "2026-05-14T07:00:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaUVBWVhjVVJoX0VNXzR6WnlubmhZWS1saTN3OGVqcm1Va0tOcnVBaXcweEk4WFY0VWtCZDVNMmZTSXV3aEdLaHItYWh4ZENCYmFvaS1ZRGc5RFRfVmF4RjZrN2NHQ2tqRjI3aHltS19jSWtHNG5QU0FRRHVreGVRa3JFRjUtSXBfakt5Rk9JOA?oc=5"
+    },
+    {
+      "iso": "MEX",
+      "title": "New Mexico's Hantavirus Strain is Different From Cruise Ship Outbreak and Does Not Spread Between People - UNM HSC Newsroom",
+      "t": "2026-05-13T07:00:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVpsMXJOSnRETzVJRUNiajlyMHpQWkVhVFpKZ1kwQ240bHlEMDd2anV4XzBRclI5Ti1yVXVCRWZ6V0JMdXNNZ0xrUGw1OVdtM1pINk80QVg3UmxQN0h4V2xWZ2l2NzlvUE5aZE4wemtUQTBzUk9RMzRoZnQtcWlXTlNJNGtEX08tYXlENWZtQS1OQWNhRWxlSkpNWm1yZ0ZDZDRWejZZSlBfaExJX00zYzBtX1ZkY2c3S0FMc1V1amdueWpEaE9lejZZVkFhZw?oc=5"
     }
   ],
   "maritime_events": [
@@ -4083,8 +4090,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-27T01:00:13Z",
-      "signals": 4,
+      "last_update": "2026-05-27T01:05:07Z",
+      "signals": 5,
       "recent": [
         {
           "title": "Brit hospitalised with hantavirus in the Netherlands after cruise ship outbreak returns to UK - AOL.com",
@@ -4095,6 +4102,11 @@
           "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
           "t": "2026-05-20T17:59:00Z",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ueUZSY2k1ZTcyQ1RCZWdnWU9JT1V3elpoTXZRb1V6eloxeG5NMWQ3dnFWQXNjb3dtc1lfZ0JDY21JUjYxa016b18ySGhBSlI2TnU0YTdMU2hYSE0wazNrdDRwNVlJa085ZkJCV2ViZ3lVdkI1b2pR?oc=5"
+        },
+        {
+          "title": "New Mexico's Hantavirus Strain is Different From Cruise Ship Outbreak and Does Not Spread Between People - UNM HSC Newsroom",
+          "t": "2026-05-13T07:00:00Z",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVpsMXJOSnRETzVJRUNiajlyMHpQWkVhVFpKZ1kwQ240bHlEMDd2anV4XzBRclI5Ti1yVXVCRWZ6V0JMdXNNZ0xrUGw1OVdtM1pINk80QVg3UmxQN0h4V2xWZ2l2NzlvUE5aZE4wemtUQTBzUk9RMzRoZnQtcWlXTlNJNGtEX08tYXlENWZtQS1OQWNhRWxlSkpNWm1yZ0ZDZDRWejZZSlBfaExJX00zYzBtX1ZkY2c3S0FMc1V1amdueWpEaE9lejZZVkFhZw?oc=5"
         },
         {
           "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
