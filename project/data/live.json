@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-27T15:25:15.013206Z",
-  "next_update": "2026-05-27T15:30:00Z",
+  "generated": "2026-05-27T15:30:09.093459Z",
+  "next_update": "2026-05-27T15:35:00Z",
   "days_active": 19,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 143,
+      "ytd": 142,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 69,
+      "var_pct": 68,
       "strain": "andes",
-      "new_today": 8,
-      "r0": 3.53,
-      "signals": 5,
+      "new_today": 7,
+      "r0": 3.39,
+      "signals": 4,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      69,
-      69,
-      69,
-      69,
-      72,
+      68,
+      68,
+      68,
+      68,
+      71,
       79,
-      87,
-      95,
-      103,
+      86,
+      94,
+      102,
       111,
       119,
       127,
       135,
-      143
+      142
     ],
     "CHL": [
       31,
@@ -591,7 +591,7 @@
       36,
       39,
       42,
-      45,
+      46,
       49,
       52,
       55,
@@ -1345,7 +1345,7 @@
       2341,
       2341,
       2341,
-      2401,
+      2402,
       2512,
       2616,
       2712,
@@ -1452,6 +1452,8 @@
   ],
   "hourly_history": {
     "ARG": [
+      127,
+      127,
       128,
       128,
       128,
@@ -1497,9 +1499,7 @@
       141,
       142,
       142,
-      142,
-      143,
-      143
+      142
     ],
     "CHL": [
       58,
@@ -4003,11 +4003,11 @@
     ]
   },
   "pandemic": {
-    "composite": 27,
+    "composite": 28,
     "epidemio": 35,
     "polymarket": 6,
-    "kalshi": 33,
-    "max_andes_r0": 3.53,
+    "kalshi": 38,
+    "max_andes_r0": 3.39,
     "avg_other_r0": 0.39,
     "continents": [
       "Americas",
@@ -4020,7 +4020,7 @@
     "POL": 1,
     "USA": 1,
     "GBR": 1,
-    "ARG": 5,
+    "ARG": 4,
     "FRA": 1,
     "MEX": 1
   },
@@ -4076,13 +4076,6 @@
     },
     {
       "iso": "ARG",
-      "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
-      "t": "2026-05-20T17:59:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ueUZSY2k1ZTcyQ1RCZWdnWU9JT1V3elpoTXZRb1V6eloxeG5NMWQ3dnFWQXNjb3dtc1lfZ0JDY21JUjYxa016b18ySGhBSlI2TnU0YTdMU2hYSE0wazNrdDRwNVlJa085ZkJCV2ViZ3lVdkI1b2pR?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
       "t": "2026-05-15T07:00:00Z",
       "source": "GoogleNews-ES",
@@ -4112,18 +4105,13 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-27T15:25:15Z",
-      "signals": 5,
+      "last_update": "2026-05-27T15:30:09Z",
+      "signals": 4,
       "recent": [
         {
           "title": "Brit hospitalised with hantavirus in the Netherlands after cruise ship outbreak returns to UK - AOL.com",
           "t": "2026-05-26T21:37:52Z",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSGd3cWN1blJ5d24xUXRxeHFQV3Q3X1ZQS3VnY24wR3FBYWJUclRrM3NLUjM5al9Oendfa3lwOTZQekxQaWl6SkhDckcxN0c1TXZoSHowVXQ4NmxOUnJxcVdzaUtrVXoxaGd6YVpHYTg4aDVUeXhvYWhTTEhtY0VMbWQ4clNtc0dDM25icjQwOS1KNDJDSVE?oc=5"
-        },
-        {
-          "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
-          "t": "2026-05-20T17:59:00Z",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ueUZSY2k1ZTcyQ1RCZWdnWU9JT1V3elpoTXZRb1V6eloxeG5NMWQ3dnFWQXNjb3dtc1lfZ0JDY21JUjYxa016b18ySGhBSlI2TnU0YTdMU2hYSE0wazNrdDRwNVlJa085ZkJCV2ViZ3lVdkI1b2pR?oc=5"
         },
         {
           "title": "Sin nuevos casos de hantavirus en Argentina, pero sigue la investigaci\u00f3n por el brote en un crucero \u2014 ACTUALIDAD - Opinando San Nicol\u00e1s",
