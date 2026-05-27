@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-27T20:20:07.575916Z",
-  "next_update": "2026-05-27T20:25:00Z",
+  "generated": "2026-05-27T20:25:12.053244Z",
+  "next_update": "2026-05-27T20:30:00Z",
   "days_active": 19,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -241,7 +241,7 @@
       "cfr": 0.2,
       "var_pct": 17,
       "strain": "puumala",
-      "new_today": 10,
+      "new_today": 9,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -916,7 +916,7 @@
       234,
       242,
       253,
-      263,
+      264,
       273
     ],
     "POL": [
@@ -1345,7 +1345,7 @@
       2341,
       2341,
       2341,
-      2424,
+      2425,
       2534,
       2636,
       2731,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 27,
+    "composite": 26,
     "epidemio": 34,
     "polymarket": 6,
-    "kalshi": 33,
+    "kalshi": 30,
     "max_andes_r0": 3.69,
     "avg_other_r0": 0.39,
     "continents": [
@@ -4053,7 +4053,7 @@
     {
       "iso": "ARG",
       "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
-      "t": "2026-05-15T12:34:16Z",
+      "t": "2026-05-15T07:00:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
     },
@@ -4081,7 +4081,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-27T20:20:07Z",
+      "last_update": "2026-05-27T20:25:12Z",
       "signals": 3,
       "recent": [
         {
@@ -4096,7 +4096,7 @@
         },
         {
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
-          "t": "2026-05-15T12:34:16Z",
+          "t": "2026-05-15T07:00:00Z",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
         }
       ]
