@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-27T23:50:18.079388Z",
-  "next_update": "2026-05-27T23:55:00Z",
+  "generated": "2026-05-27T23:55:06.797528Z",
+  "next_update": "2026-05-28T00:00:00Z",
   "days_active": 19,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -122,7 +122,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "CRI": {
@@ -1347,7 +1347,7 @@
       2341,
       2441,
       2549,
-      2650,
+      2651,
       2744,
       2830
     ],
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 28,
+    "composite": 27,
     "epidemio": 34,
     "polymarket": 6,
-    "kalshi": 36,
+    "kalshi": 33,
     "max_andes_r0": 3.84,
     "avg_other_r0": 0.39,
     "continents": [
@@ -4017,10 +4017,18 @@
     "outbreak_count": 6
   },
   "signal_summary": {
+    "PAN": 1,
     "FRA": 1,
     "ARG": 4
   },
   "events": [
+    {
+      "iso": "PAN",
+      "title": "Confirman en Panam\u00e1 la primera muerte este a\u00f1o por hantavirus - Infobae",
+      "t": "2026-05-27T23:49:42Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV3ZUZktsRlY2Z2V6b1RKcDd1SWlNYTJ2RkRzQjRZXzlwemZ4eWk2OEo1MWt2cWgyaGZNRDZDTmxKRmdlXzQxTW9xOTZZNk05OUVnUzZqWDJ5dUxRX0J5RmxEV0diV25xeWtBeU1QdlpvY3cwR3ZPdEdiSFE3MHNOYjIwYUhsMnZsQ1p2b2pzWEpCRnMxY2hWZDI5QmxKZnU0a211MnhXONIBwgFBVV95cUxNcktVZ1hyb3JFdGNyaHpPMVhBel9xOElJWmI2cVdDZDJEZHczZGVRdTBUeFdiZ05hVnNRUjFiV0p0TVBDQzdGcHZNNFREMnM4eWJBVkN3bzNndXVMbld4RDdsYl80UXpxZWJIc094R0ZUbW5nenM1M3lhUzhLM1dfa05tcndIQUlpSWgyWUhnN2FaSTZ1cjdXbVY3VlA4dmhoOG5WZlpRbUtGcU1ONXlhNEdqc1RZNjd2Wk5ELWctaHdxQQ?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Sin nuevos casos de hantavirus en Argentina, pero sigue la investigaci\u00f3n por el brote en un crucero \u2014 ACTUALIDAD - Opinando San Nicol\u00e1s",
@@ -4073,7 +4081,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-27T23:50:18Z",
+      "last_update": "2026-05-27T23:55:06Z",
       "signals": 3,
       "recent": [
         {
