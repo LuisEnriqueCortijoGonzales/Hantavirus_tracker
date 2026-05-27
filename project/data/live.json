@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-27T11:00:18.050369Z",
-  "next_update": "2026-05-27T11:05:00Z",
+  "generated": "2026-05-27T11:05:06.777011Z",
+  "next_update": "2026-05-27T11:10:00Z",
   "days_active": 19,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 140,
+      "ytd": 141,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 69,
       "strain": "andes",
-      "new_today": 7,
-      "r0": 3.1,
-      "signals": 3,
+      "new_today": 8,
+      "r0": 3.24,
+      "signals": 4,
       "gov_alert": false
     },
     "CHL": {
@@ -574,14 +574,14 @@
       68,
       70,
       77,
-      84,
-      92,
-      100,
-      108,
+      85,
+      93,
+      101,
+      109,
       117,
       125,
       133,
-      140
+      141
     ],
     "CHL": [
       31,
@@ -1345,7 +1345,7 @@
       2341,
       2341,
       2341,
-      2380,
+      2381,
       2492,
       2597,
       2695,
@@ -1452,8 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      125,
-      125,
       126,
       126,
       126,
@@ -1481,7 +1479,7 @@
       134,
       134,
       134,
-      134,
+      135,
       135,
       135,
       135,
@@ -1499,7 +1497,9 @@
       139,
       140,
       140,
-      140
+      140,
+      141,
+      141
     ],
     "CHL": [
       58,
@@ -4007,7 +4007,7 @@
     "epidemio": 35,
     "polymarket": 6,
     "kalshi": 35,
-    "max_andes_r0": 3.1,
+    "max_andes_r0": 3.24,
     "avg_other_r0": 0.39,
     "continents": [
       "Americas",
@@ -4019,12 +4019,19 @@
   "signal_summary": {
     "POL": 1,
     "GBR": 1,
-    "ARG": 3,
+    "ARG": 4,
     "FRA": 1,
     "MEX": 1,
     "PRY": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Hantavirus: no se notificaron nuevos casos en Argentina - Agencia Noticias Argentinas",
+      "t": "2026-05-27T10:50:11Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObDVuN3JiVWVPY3NoWWRLUDVmQVYxcnIySExLN2N2R2NRYWpRWG5YTWo4aDM0LXk4aUphOWppUDM2ZTlRMHp3VjFPSGtlMVdIeFB2aE9qajhmSzVEbWlsNnFqODFrazVUeUpPOHBvWWl6NFR2bEt2OUd6S2xqNXptSmFBNkVKUTJ3cE9kVmhiYWpReHcweUVUdkFsQlhEYnUyVFZNYVN2eW93TTVrSk1wVlQyN1VXdlRUVFUxcU1R0gHMAUFVX3lxTE45VDAtdTh5M3dhZndKUWNTcEFnM1BPY25COUxyeVVNZkVIV05QLXhfQzE3NmJYcVhBSkZYY181X2xFN3lZdU53MWhxUlBuRmNIX0MzZ0NyZjhzZGNSWmU1NVdSUm5uVEE4ZnhDcmxvc3VuN003UDFLMVJrNXh4NG1uVFZjS1Q3WEdmQ2pST3hCNnRxNVNLc1Rjb01xRVplV21HWHhrN0pFanpkLXVuaExrRTExNTNuUVhOMDlwRU8yaC1uc3FDQm1GZlhqeg?oc=5"
+    },
     {
       "iso": "POL",
       "title": "Captain of Hantavirus cruise horror quarantined in Poland - TVP World",
@@ -4098,7 +4105,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-27T11:00:18Z",
+      "last_update": "2026-05-27T11:05:06Z",
       "signals": 5,
       "recent": [
         {
