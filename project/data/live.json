@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-27T06:55:18.028475Z",
-  "next_update": "2026-05-27T07:00:00Z",
+  "generated": "2026-05-27T07:00:17.298023Z",
+  "next_update": "2026-05-27T07:05:00Z",
   "days_active": 19,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -74,11 +74,11 @@
       "ytd": 8,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "USA": {
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 1886,
+      "ytd": 1887,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 1,
       "strain": "puumala",
-      "new_today": 14,
+      "new_today": 15,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -1253,7 +1253,7 @@
       1872,
       1872,
       1872,
-      1886
+      1887
     ],
     "BLR": [
       34,
@@ -1346,7 +1346,7 @@
       2341,
       2341,
       2361,
-      2473,
+      2474,
       2580,
       2679,
       2770
@@ -1401,7 +1401,6 @@
     "2026-05-27T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-25T07:00:00Z",
     "2026-05-25T08:00:00Z",
     "2026-05-25T09:00:00Z",
     "2026-05-25T10:00:00Z",
@@ -1448,11 +1447,11 @@
     "2026-05-27T03:00:00Z",
     "2026-05-27T04:00:00Z",
     "2026-05-27T05:00:00Z",
-    "2026-05-27T06:00:00Z"
+    "2026-05-27T06:00:00Z",
+    "2026-05-27T07:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      123,
       124,
       124,
       124,
@@ -1499,6 +1498,7 @@
       138,
       138,
       138,
+      139,
       139
     ],
     "CHL": [
@@ -1506,7 +1506,6 @@
       57,
       57,
       57,
-      57,
       58,
       58,
       58,
@@ -1542,6 +1541,7 @@
       61,
       61,
       61,
+      62,
       62,
       62,
       62,
@@ -2403,7 +2403,6 @@
     ],
     "FIN": [
       381,
-      381,
       382,
       383,
       383,
@@ -2449,11 +2448,11 @@
       497,
       497,
       497,
+      496,
       496
     ],
     "SWE": [
       149,
-      149,
       150,
       150,
       150,
@@ -2497,12 +2496,12 @@
       159,
       159,
       159,
+      160,
       160,
       160,
       160
     ],
     "DEU": [
-      247,
       248,
       248,
       249,
@@ -2549,7 +2548,8 @@
       266,
       267,
       267,
-      267
+      267,
+      268
     ],
     "POL": [
       45,
@@ -3595,11 +3595,11 @@
       1872,
       1872,
       1872,
-      1872,
       1873,
       1877,
       1880,
-      1883
+      1883,
+      1887
     ],
     "BLR": [
       34,
@@ -3852,7 +3852,6 @@
       23
     ],
     "CHN": [
-      2580,
       2584,
       2589,
       2593,
@@ -3899,7 +3898,8 @@
       2756,
       2759,
       2763,
-      2767
+      2767,
+      2770
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 26,
+    "composite": 28,
     "epidemio": 35,
     "polymarket": 5,
-    "kalshi": 31,
+    "kalshi": 36,
     "max_andes_r0": 2.96,
     "avg_other_r0": 0.39,
     "continents": [
@@ -4020,8 +4020,8 @@
     "POL": 1,
     "GBR": 1,
     "ARG": 3,
-    "MEX": 2,
-    "FRA": 1
+    "FRA": 1,
+    "MEX": 1
   },
   "events": [
     {
@@ -4072,13 +4072,6 @@
       "t": "2026-05-14T07:00:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaUVBWVhjVVJoX0VNXzR6WnlubmhZWS1saTN3OGVqcm1Va0tOcnVBaXcweEk4WFY0VWtCZDVNMmZTSXV3aEdLaHItYWh4ZENCYmFvaS1ZRGc5RFRfVmF4RjZrN2NHQ2tqRjI3aHltS19jSWtHNG5QU0FRRHVreGVRa3JFRjUtSXBfakt5Rk9JOA?oc=5"
-    },
-    {
-      "iso": "MEX",
-      "title": "New Mexico's Hantavirus Strain is Different From Cruise Ship Outbreak and Does Not Spread Between People - UNM HSC Newsroom",
-      "t": "2026-05-13T07:00:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVpsMXJOSnRETzVJRUNiajlyMHpQWkVhVFpKZ1kwQ240bHlEMDd2anV4XzBRclI5Ti1yVXVCRWZ6V0JMdXNNZ0xrUGw1OVdtM1pINk80QVg3UmxQN0h4V2xWZ2l2NzlvUE5aZE4wemtUQTBzUk9RMzRoZnQtcWlXTlNJNGtEX08tYXlENWZtQS1OQWNhRWxlSkpNWm1yZ0ZDZDRWejZZSlBfaExJX00zYzBtX1ZkY2c3S0FMc1V1amdueWpEaE9lejZZVkFhZw?oc=5"
     }
   ],
   "maritime_events": [
@@ -4097,8 +4090,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-27T06:55:18Z",
-      "signals": 5,
+      "last_update": "2026-05-27T07:00:17Z",
+      "signals": 4,
       "recent": [
         {
           "title": "Brit hospitalised with hantavirus in the Netherlands after cruise ship outbreak returns to UK - AOL.com",
@@ -4114,11 +4107,6 @@
           "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
           "t": "2026-05-15T07:00:00Z",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbUg4UmEwcDdNTXVqWTJ5ME80ckZQWHNhUzJrRkNYcnN5UFB2ZjRXdDh5ZWJja2ZvWDlwVnpsVHJLZ2d4amlqSkkxdF9sRE9hWHNmTmlBTkR3Yzg2d0NsNGZ6MTlubWFmYmd6Sk9Ua09SVEN5R3FsYXBRclpNTDNiaVFoSWJfWXYyUU1SNmZrdzA3X0sxaHBza2hMY0YyQjgwTUxaWUo0NGJLZ2ZpU09JcmZiRFZhQlhtNGR5N3FLNE54SDZ1MHVtcUtLNks0R0IxWlhHYms4ZW83ZXBIMjBRNHpVdkE2QQ?oc=5"
-        },
-        {
-          "title": "New Mexico's Hantavirus Strain is Different From Cruise Ship Outbreak and Does Not Spread Between People - UNM HSC Newsroom",
-          "t": "2026-05-13T07:00:00Z",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVpsMXJOSnRETzVJRUNiajlyMHpQWkVhVFpKZ1kwQ240bHlEMDd2anV4XzBRclI5Ti1yVXVCRWZ6V0JMdXNNZ0xrUGw1OVdtM1pINk80QVg3UmxQN0h4V2xWZ2l2NzlvUE5aZE4wemtUQTBzUk9RMzRoZnQtcWlXTlNJNGtEX08tYXlENWZtQS1OQWNhRWxlSkpNWm1yZ0ZDZDRWejZZSlBfaExJX00zYzBtX1ZkY2c3S0FMc1V1amdueWpEaE9lejZZVkFhZw?oc=5"
         },
         {
           "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
