@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-27T18:00:12.819260Z",
-  "next_update": "2026-05-27T18:05:00Z",
+  "generated": "2026-05-27T18:05:12.057839Z",
+  "next_update": "2026-05-27T18:10:00Z",
   "days_active": 19,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -10,7 +10,7 @@
       "cfr": 37.3,
       "var_pct": 68,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 7,
       "r0": 3.53,
       "signals": 4,
       "gov_alert": false
@@ -19,7 +19,7 @@
       "ytd": 64,
       "alert": "brote",
       "cfr": 35.5,
-      "var_pct": 50,
+      "var_pct": 49,
       "strain": "andes",
       "new_today": 3,
       "r0": 2.37,
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GRC": {
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 1922,
+      "ytd": 1923,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 3,
       "strain": "puumala",
-      "new_today": 50,
+      "new_today": 51,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -580,7 +580,7 @@
       111,
       120,
       128,
-      135,
+      136,
       143
     ],
     "CHL": [
@@ -1253,7 +1253,7 @@
       1872,
       1872,
       1872,
-      1922
+      1923
     ],
     "BLR": [
       34,
@@ -1345,9 +1345,9 @@
       2341,
       2341,
       2341,
-      2413,
-      2523,
-      2626,
+      2414,
+      2524,
+      2627,
       2722,
       2810
     ],
@@ -4004,9 +4004,9 @@
   },
   "pandemic": {
     "composite": 27,
-    "epidemio": 35,
+    "epidemio": 34,
     "polymarket": 6,
-    "kalshi": 31,
+    "kalshi": 34,
     "max_andes_r0": 3.53,
     "avg_other_r0": 0.39,
     "continents": [
@@ -4019,7 +4019,6 @@
   "signal_summary": {
     "POL": 1,
     "USA": 1,
-    "GBR": 1,
     "FRA": 1,
     "ARG": 4
   },
@@ -4051,13 +4050,6 @@
       "t": "2026-05-27T06:36:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeG1wWnVNTDZQTV96WDdrMHdEc2hXQjRzRTlDT0xZNEZ6TW9yX1NCVUpGQ2pmbmVxMXhjSU1xQlJLZEpsaU9BX0JCazdHYkZxVTd5RjQ0b3pTU2xydGE5LWgwS21fX1V2V1dabjM1c1NjT3ZfZzVfUGMtcXpDZGhST1Vva0ZHTkh1d2hjTVdYeEs2X0NWTnp6XzZuWlcxZzAtbWlB?oc=5"
-    },
-    {
-      "iso": "GBR",
-      "title": "Brit hospitalised with hantavirus in the Netherlands after cruise ship outbreak returns to UK - AOL.com",
-      "t": "2026-05-26T21:37:52Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSGd3cWN1blJ5d24xUXRxeHFQV3Q3X1ZQS3VnY24wR3FBYWJUclRrM3NLUjM5al9Oendfa3lwOTZQekxQaWl6SkhDckcxN0c1TXZoSHowVXQ4NmxOUnJxcVdzaUtrVXoxaGd6YVpHYTg4aDVUeXhvYWhTTEhtY0VMbWQ4clNtc0dDM25icjQwOS1KNDJDSVE?oc=5"
     },
     {
       "iso": "FRA",
@@ -4097,14 +4089,9 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-27T18:00:12Z",
-      "signals": 4,
+      "last_update": "2026-05-27T18:05:12Z",
+      "signals": 3,
       "recent": [
-        {
-          "title": "Brit hospitalised with hantavirus in the Netherlands after cruise ship outbreak returns to UK - AOL.com",
-          "t": "2026-05-26T21:37:52Z",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSGd3cWN1blJ5d24xUXRxeHFQV3Q3X1ZQS3VnY24wR3FBYWJUclRrM3NLUjM5al9Oendfa3lwOTZQekxQaWl6SkhDckcxN0c1TXZoSHowVXQ4NmxOUnJxcVdzaUtrVXoxaGd6YVpHYTg4aDVUeXhvYWhTTEhtY0VMbWQ4clNtc0dDM25icjQwOS1KNDJDSVE?oc=5"
-        },
         {
           "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
           "t": "2026-05-25T22:40:00Z",
