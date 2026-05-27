@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-27T06:35:15.791901Z",
-  "next_update": "2026-05-27T06:40:00Z",
+  "generated": "2026-05-27T06:40:04.620843Z",
+  "next_update": "2026-05-27T06:45:00Z",
   "days_active": 19,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -100,7 +100,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "URY": {
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 1885,
+      "ytd": 1886,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 1,
       "strain": "puumala",
-      "new_today": 13,
+      "new_today": 14,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -538,7 +538,7 @@
       "cfr": 1.2,
       "var_pct": 18,
       "strain": "hantaan",
-      "new_today": 92,
+      "new_today": 91,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -1253,7 +1253,7 @@
       1872,
       1872,
       1872,
-      1885
+      1886
     ],
     "BLR": [
       34,
@@ -1347,8 +1347,8 @@
       2341,
       2359,
       2472,
-      2578,
-      2677,
+      2579,
+      2678,
       2769
     ],
     "KOR": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 28,
+    "composite": 26,
     "epidemio": 35,
     "polymarket": 5,
-    "kalshi": 35,
+    "kalshi": 31,
     "max_andes_r0": 2.96,
     "avg_other_r0": 0.39,
     "continents": [
@@ -4020,8 +4020,7 @@
     "GBR": 1,
     "ARG": 3,
     "MEX": 2,
-    "FRA": 1,
-    "PRY": 1
+    "FRA": 1
   },
   "events": [
     {
@@ -4030,13 +4029,6 @@
       "t": "2026-05-26T21:37:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSGd3cWN1blJ5d24xUXRxeHFQV3Q3X1ZQS3VnY24wR3FBYWJUclRrM3NLUjM5al9Oendfa3lwOTZQekxQaWl6SkhDckcxN0c1TXZoSHowVXQ4NmxOUnJxcVdzaUtrVXoxaGd6YVpHYTg4aDVUeXhvYWhTTEhtY0VMbWQ4clNtc0dDM25icjQwOS1KNDJDSVE?oc=5"
-    },
-    {
-      "iso": "PRY",
-      "title": "Hantavirus: tras el brote en un crucero, el NEA y Paraguay refuerzan controles - NEA HOY",
-      "t": "2026-05-26T13:03:42Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUVAzdFN1bC1iTlZiMGs0M1hfX2VoYUxXUXlaRXNxTlRfMlg0VnNQaUZlam51RFN1ZTRYSFVrbUtoMGhZd0pEalAzNWpJUmljaUxhZUgzZURWVFREakxGQm5HUmtLNkpNLUV1SVlKTjRUd1N4UXV6TmJEZUZJUl9Ib0ZwMW9kS2FnZ3dTZmR5aHVKOTFZbGt0ZnR2S2tNcmxEZkZ0OTBqaW5iU28?oc=5"
     },
     {
       "iso": "FRA",
@@ -4097,8 +4089,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-27T06:35:15Z",
-      "signals": 6,
+      "last_update": "2026-05-27T06:40:04Z",
+      "signals": 5,
       "recent": [
         {
           "title": "Brit hospitalised with hantavirus in the Netherlands after cruise ship outbreak returns to UK - AOL.com",
