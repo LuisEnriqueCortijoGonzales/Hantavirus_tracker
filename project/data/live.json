@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-28T03:40:15.096291Z",
-  "next_update": "2026-05-28T03:45:00Z",
+  "generated": "2026-05-28T03:45:14.307308Z",
+  "next_update": "2026-05-28T03:50:00Z",
   "days_active": 20,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -538,7 +538,7 @@
       "cfr": 1.2,
       "var_pct": 21,
       "strain": "hantaan",
-      "new_today": 85,
+      "new_today": 84,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -594,7 +594,7 @@
       47,
       50,
       53,
-      56,
+      57,
       59,
       62,
       65
@@ -1348,7 +1348,7 @@
       2459,
       2566,
       2666,
-      2758,
+      2759,
       2843
     ],
     "KOR": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 21,
+    "composite": 20,
     "epidemio": 25,
     "polymarket": 6,
-    "kalshi": 28,
+    "kalshi": 26,
     "max_andes_r0": 1.7,
     "avg_other_r0": 0.39,
     "continents": [
@@ -4025,7 +4025,7 @@
     {
       "iso": "PAN",
       "title": "Confirman en Panam\u00e1 la primera muerte este a\u00f1o por hantavirus - Infobae",
-      "t": "2026-05-27T23:49:42Z",
+      "t": "2026-05-28T02:56:04Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV3ZUZktsRlY2Z2V6b1RKcDd1SWlNYTJ2RkRzQjRZXzlwemZ4eWk2OEo1MWt2cWgyaGZNRDZDTmxKRmdlXzQxTW9xOTZZNk05OUVnUzZqWDJ5dUxRX0J5RmxEV0diV25xeWtBeU1QdlpvY3cwR3ZPdEdiSFE3MHNOYjIwYUhsMnZsQ1p2b2pzWEpCRnMxY2hWZDI5QmxKZnU0a211MnhXONIBwgFBVV95cUxNcktVZ1hyb3JFdGNyaHpPMVhBel9xOElJWmI2cVdDZDJEZHczZGVRdTBUeFdiZ05hVnNRUjFiV0p0TVBDQzdGcHZNNFREMnM4eWJBVkN3bzNndXVMbld4RDdsYl80UXpxZWJIc094R0ZUbW5nenM1M3lhUzhLM1dfa05tcndIQUlpSWgyWUhnN2FaSTZ1cjdXbVY3VlA4dmhoOG5WZlpRbUtGcU1ONXlhNEdqc1RZNjd2Wk5ELWctaHdxQQ?oc=5"
     },
@@ -4109,7 +4109,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-28T03:40:15Z",
+      "last_update": "2026-05-28T03:45:14Z",
       "signals": 4,
       "recent": [
         {
