@@ -1,28 +1,28 @@
 {
-  "generated": "2026-05-28T01:55:04.550411Z",
-  "next_update": "2026-05-28T02:00:00Z",
+  "generated": "2026-05-28T02:00:14.294484Z",
+  "next_update": "2026-05-28T02:05:00Z",
   "days_active": 20,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 145,
+      "ytd": 146,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 65,
       "strain": "andes",
-      "new_today": 7,
-      "r0": 1.54,
+      "new_today": 8,
+      "r0": 1.62,
       "signals": 4,
       "gov_alert": false
     },
     "CHL": {
-      "ytd": 64,
+      "ytd": 65,
       "alert": "brote",
       "cfr": 35.5,
       "var_pct": 48,
       "strain": "andes",
-      "new_today": 2,
-      "r0": 1.13,
+      "new_today": 3,
+      "r0": 1.27,
       "signals": 0,
       "gov_alert": false
     },
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "PRY": {
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 1947,
+      "ytd": 1948,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 4,
       "strain": "puumala",
-      "new_today": 75,
+      "new_today": 76,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2837,
+      "ytd": 2838,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": 21,
       "strain": "hantaan",
-      "new_today": 85,
+      "new_today": 86,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -581,7 +581,7 @@
       122,
       130,
       138,
-      145
+      146
     ],
     "CHL": [
       31,
@@ -597,7 +597,7 @@
       56,
       59,
       62,
-      64
+      65
     ],
     "BRA": [
       89,
@@ -1253,7 +1253,7 @@
       1872,
       1872,
       1872,
-      1947
+      1948
     ],
     "BLR": [
       34,
@@ -1345,11 +1345,11 @@
       2341,
       2341,
       2341,
-      2450,
+      2451,
       2558,
       2659,
       2752,
-      2837
+      2838
     ],
     "KOR": [
       89,
@@ -1401,7 +1401,6 @@
     "2026-05-28T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-26T02:00:00Z",
     "2026-05-26T03:00:00Z",
     "2026-05-26T04:00:00Z",
     "2026-05-26T05:00:00Z",
@@ -1448,11 +1447,11 @@
     "2026-05-27T22:00:00Z",
     "2026-05-27T23:00:00Z",
     "2026-05-28T00:00:00Z",
-    "2026-05-28T01:00:00Z"
+    "2026-05-28T01:00:00Z",
+    "2026-05-28T02:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      130,
       131,
       131,
       131,
@@ -1499,12 +1498,12 @@
       144,
       145,
       145,
-      145
+      145,
+      146
     ],
     "CHL": [
       59,
       59,
-      59,
       60,
       60,
       60,
@@ -1549,7 +1548,8 @@
       64,
       64,
       64,
-      64
+      64,
+      65
     ],
     "BRA": [
       89,
@@ -2402,7 +2402,6 @@
       1
     ],
     "FIN": [
-      391,
       392,
       392,
       393,
@@ -2449,10 +2448,10 @@
       494,
       494,
       494,
-      494
+      494,
+      493
     ],
     "SWE": [
-      154,
       154,
       154,
       154,
@@ -2499,11 +2498,11 @@
       163,
       163,
       164,
+      164,
       164
     ],
     "DEU": [
       256,
-      256,
       257,
       257,
       257,
@@ -2549,6 +2548,7 @@
       274,
       274,
       274,
+      275,
       275
     ],
     "POL": [
@@ -3576,7 +3576,6 @@
       1872,
       1872,
       1872,
-      1872,
       1873,
       1877,
       1880,
@@ -3599,7 +3598,8 @@
       1935,
       1938,
       1941,
-      1945
+      1945,
+      1948
     ],
     "BLR": [
       34,
@@ -3852,7 +3852,6 @@
       23
     ],
     "CHN": [
-      2659,
       2663,
       2667,
       2671,
@@ -3899,7 +3898,8 @@
       2824,
       2827,
       2831,
-      2834
+      2834,
+      2838
     ],
     "KOR": [
       89,
@@ -4003,11 +4003,11 @@
     ]
   },
   "pandemic": {
-    "composite": 20,
-    "epidemio": 23,
+    "composite": 19,
+    "epidemio": 24,
     "polymarket": 6,
-    "kalshi": 27,
-    "max_andes_r0": 1.54,
+    "kalshi": 23,
+    "max_andes_r0": 1.62,
     "avg_other_r0": 0.39,
     "continents": [
       "Americas",
@@ -4017,7 +4017,6 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "USA": 1,
     "PAN": 1,
     "FRA": 1,
     "ARG": 4
@@ -4036,13 +4035,6 @@
       "t": "2026-05-27T12:50:25Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOU15bTQ3R24xejJwTDJxTzV0Z2hzbnZ3QkczWkpyc3ZoMlFHME5NdTVqNmVIbmZEQjViRW1tY1l5NlV4MHBEREhsTDFVUWtTQjZwbmYwa3NWMjNKbS1pbXAwUWQ1WlZQUG0xTVRDUElESG1CdGpRLUlYUXRsR2pyam5sQlM0d3FYUWxyY3QwXzNiXzRjckNNODJpTWJ2LXJTX3BodzRjZ0tWMnFmbnMtLVp1TVNSU2owSEw5X3JoSGI0SDdnRDNtWkxSbTBaSGFvYWRUX2ZCX0o?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Misinterpretation of Hantavirus Map Spreads Misinformation About Andes Strain in Europe and North America - IndexBox",
-      "t": "2026-05-27T11:00:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUDhqZEEwY3dQekk2aGczYzZIcUkxc2Y2N1k3Q2o0bzBheEYtWTBYQUs3VnFpNFV6bWJWSzRXaUo2QWdTWW9NSzhEM2tEd3ZfVFBsTlB3UnB1eEU3d2kxWHNjUDc0TVhkSGtXVlZHYXRlWWNNeU9jQVlJMnJaTHozTG9RY0VFdjdTTzlKblBmWUU3TXQ4eUdQWkRHVnJWT2hLMnhrN3JsY3R2TUZEdUpSRU5vT1d1VTdrN1Bad1Z1YTQweG5FXzdySG9Nc2ZQVVJ3?oc=5"
     },
     {
       "iso": "ARG",
@@ -4089,7 +4081,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-28T01:55:04Z",
+      "last_update": "2026-05-28T02:00:14Z",
       "signals": 3,
       "recent": [
         {
