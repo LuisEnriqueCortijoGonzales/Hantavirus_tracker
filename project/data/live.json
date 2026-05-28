@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-28T00:50:09.045700Z",
-  "next_update": "2026-05-28T00:55:00Z",
+  "generated": "2026-05-28T00:55:13.556091Z",
+  "next_update": "2026-05-28T01:00:00Z",
   "days_active": 20,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 1,
+      "var_pct": 2,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -1345,9 +1345,9 @@
       2341,
       2341,
       2341,
-      2445,
-      2553,
-      2654,
+      2446,
+      2554,
+      2655,
       2748,
       2834
     ],
@@ -4017,6 +4017,7 @@
     "outbreak_count": 6
   },
   "signal_summary": {
+    "USA": 1,
     "PAN": 1,
     "FRA": 1,
     "ARG": 4
@@ -4035,6 +4036,13 @@
       "t": "2026-05-27T12:50:25Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOU15bTQ3R24xejJwTDJxTzV0Z2hzbnZ3QkczWkpyc3ZoMlFHME5NdTVqNmVIbmZEQjViRW1tY1l5NlV4MHBEREhsTDFVUWtTQjZwbmYwa3NWMjNKbS1pbXAwUWQ1WlZQUG0xTVRDUElESG1CdGpRLUlYUXRsR2pyam5sQlM0d3FYUWxyY3QwXzNiXzRjckNNODJpTWJ2LXJTX3BodzRjZ0tWMnFmbnMtLVp1TVNSU2owSEw5X3JoSGI0SDdnRDNtWkxSbTBaSGFvYWRUX2ZCX0o?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Misinterpretation of Hantavirus Map Spreads Misinformation About Andes Strain in Europe and North America - IndexBox",
+      "t": "2026-05-27T11:00:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUDhqZEEwY3dQekk2aGczYzZIcUkxc2Y2N1k3Q2o0bzBheEYtWTBYQUs3VnFpNFV6bWJWSzRXaUo2QWdTWW9NSzhEM2tEd3ZfVFBsTlB3UnB1eEU3d2kxWHNjUDc0TVhkSGtXVlZHYXRlWWNNeU9jQVlJMnJaTHozTG9RY0VFdjdTTzlKblBmWUU3TXQ4eUdQWkRHVnJWT2hLMnhrN3JsY3R2TUZEdUpSRU5vT1d1VTdrN1Bad1Z1YTQweG5FXzdySG9Nc2ZQVVJ3?oc=5"
     },
     {
       "iso": "ARG",
@@ -4081,7 +4089,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-28T00:50:09Z",
+      "last_update": "2026-05-28T00:55:13Z",
       "signals": 3,
       "recent": [
         {
