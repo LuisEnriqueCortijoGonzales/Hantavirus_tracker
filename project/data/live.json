@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-28T01:15:10.549584Z",
-  "next_update": "2026-05-28T01:20:00Z",
+  "generated": "2026-05-28T01:20:15.072428Z",
+  "next_update": "2026-05-28T01:25:00Z",
   "days_active": 20,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,7 +85,7 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 1,
+      "var_pct": 2,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
@@ -241,7 +241,7 @@
       "cfr": 0.2,
       "var_pct": 17,
       "strain": "puumala",
-      "new_today": 10,
+      "new_today": 9,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 1945,
+      "ytd": 1946,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 4,
       "strain": "puumala",
-      "new_today": 73,
+      "new_today": 74,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -538,7 +538,7 @@
       "cfr": 1.2,
       "var_pct": 21,
       "strain": "hantaan",
-      "new_today": 86,
+      "new_today": 85,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -574,7 +574,7 @@
       68,
       74,
       82,
-      89,
+      90,
       98,
       106,
       114,
@@ -916,7 +916,7 @@
       234,
       245,
       255,
-      265,
+      266,
       275
     ],
     "POL": [
@@ -1253,7 +1253,7 @@
       1872,
       1872,
       1872,
-      1945
+      1946
     ],
     "BLR": [
       34,
@@ -1345,10 +1345,10 @@
       2341,
       2341,
       2341,
-      2447,
-      2555,
+      2448,
+      2556,
       2656,
-      2749,
+      2750,
       2835
     ],
     "KOR": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 18,
+    "composite": 19,
     "epidemio": 23,
     "polymarket": 6,
-    "kalshi": 20,
+    "kalshi": 24,
     "max_andes_r0": 1.54,
     "avg_other_r0": 0.39,
     "continents": [
@@ -4081,7 +4081,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-28T01:15:10Z",
+      "last_update": "2026-05-28T01:20:15Z",
       "signals": 3,
       "recent": [
         {
