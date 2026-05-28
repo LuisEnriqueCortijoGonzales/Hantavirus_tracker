@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-28T22:40:12.091816Z",
-  "next_update": "2026-05-28T22:45:00Z",
+  "generated": "2026-05-28T22:45:16.564312Z",
+  "next_update": "2026-05-28T22:50:00Z",
   "days_active": 20,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,7 +85,7 @@
       "ytd": 20,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 8,
+      "var_pct": 9,
       "strain": "hps",
       "new_today": 2,
       "r0": 3.5,
@@ -236,12 +236,12 @@
       "gov_alert": false
     },
     "DEU": {
-      "ytd": 282,
+      "ytd": 283,
       "alert": "vigilancia",
       "cfr": 0.2,
       "var_pct": 21,
       "strain": "puumala",
-      "new_today": 8,
+      "new_today": 9,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2010,
+      "ytd": 2011,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 7,
       "strain": "puumala",
-      "new_today": 73,
+      "new_today": 74,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -882,7 +882,7 @@
       346,
       362,
       376,
-      389,
+      390,
       498,
       494,
       490
@@ -917,7 +917,7 @@
       254,
       264,
       274,
-      282
+      283
     ],
     "POL": [
       45,
@@ -1253,7 +1253,7 @@
       1872,
       1872,
       1937,
-      2010
+      2011
     ],
     "BLR": [
       34,
@@ -1344,9 +1344,9 @@
       2341,
       2341,
       2341,
-      2435,
+      2436,
       2544,
-      2645,
+      2646,
       2740,
       2826,
       3501
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 24,
+    "composite": 25,
     "epidemio": 31,
     "polymarket": 6,
-    "kalshi": 29,
+    "kalshi": 31,
     "max_andes_r0": 2.03,
     "avg_other_r0": 0.47,
     "continents": [
@@ -4097,7 +4097,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-28T22:40:12Z",
+      "last_update": "2026-05-28T22:45:16Z",
       "signals": 3,
       "recent": [
         {
