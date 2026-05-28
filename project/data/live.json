@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-28T17:45:09.072780Z",
-  "next_update": "2026-05-28T17:50:00Z",
+  "generated": "2026-05-28T17:50:03.046544Z",
+  "next_update": "2026-05-28T17:55:00Z",
   "days_active": 20,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 149,
+      "ytd": 150,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 61,
       "strain": "andes",
-      "new_today": 7,
-      "r0": 1.86,
+      "new_today": 8,
+      "r0": 1.94,
       "signals": 3,
       "gov_alert": false
     },
@@ -237,7 +237,7 @@
     },
     "DEU": {
       "ytd": 281,
-      "alert": "brote",
+      "alert": "vigilancia",
       "cfr": 0.2,
       "var_pct": 20,
       "strain": "puumala",
@@ -581,7 +581,7 @@
       127,
       135,
       142,
-      149
+      150
     ],
     "CHL": [
       31,
@@ -1344,9 +1344,9 @@
       2341,
       2341,
       2341,
-      2412,
-      2522,
-      2625,
+      2413,
+      2523,
+      2626,
       2721,
       2809,
       3506
@@ -4003,11 +4003,11 @@
     ]
   },
   "pandemic": {
-    "composite": 25,
-    "epidemio": 31,
+    "composite": 24,
+    "epidemio": 30,
     "polymarket": 6,
-    "kalshi": 33,
-    "max_andes_r0": 1.86,
+    "kalshi": 29,
+    "max_andes_r0": 1.94,
     "avg_other_r0": 0.47,
     "continents": [
       "Americas",
@@ -4015,7 +4015,7 @@
       "Europe"
     ],
     "emergency_count": 0,
-    "outbreak_count": 7
+    "outbreak_count": 6
   },
   "signal_summary": {
     "JPN": 1,
@@ -4083,7 +4083,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-28T17:45:09Z",
+      "last_update": "2026-05-28T17:50:03Z",
       "signals": 3,
       "recent": [
         {
