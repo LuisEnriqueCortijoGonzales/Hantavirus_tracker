@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-28T13:50:18.086616Z",
-  "next_update": "2026-05-28T13:55:00Z",
+  "generated": "2026-05-28T13:55:12.036935Z",
+  "next_update": "2026-05-28T14:00:00Z",
   "days_active": 20,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 149,
+      "ytd": 148,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 62,
+      "var_pct": 61,
       "strain": "andes",
       "new_today": 7,
-      "r0": 1.86,
-      "signals": 4,
+      "r0": 1.78,
+      "signals": 3,
       "gov_alert": false
     },
     "CHL": {
@@ -571,22 +571,22 @@
       68,
       68,
       68,
-      71,
+      70,
       78,
-      86,
-      94,
-      102,
-      110,
+      85,
+      93,
+      101,
+      109,
       118,
       126,
       134,
-      142,
-      149
+      141,
+      148
     ],
     "CHL": [
       31,
       31,
-      32,
+      33,
       36,
       39,
       42,
@@ -1453,7 +1453,9 @@
   "hourly_history": {
     "ARG": [
       134,
-      135,
+      134,
+      134,
+      134,
       135,
       135,
       135,
@@ -1475,7 +1477,7 @@
       141,
       141,
       141,
-      142,
+      141,
       142,
       142,
       142,
@@ -1488,7 +1490,7 @@
       145,
       145,
       145,
-      146,
+      145,
       146,
       146,
       146,
@@ -1497,9 +1499,7 @@
       147,
       148,
       148,
-      148,
-      149,
-      149
+      148
     ],
     "CHL": [
       61,
@@ -4003,11 +4003,11 @@
     ]
   },
   "pandemic": {
-    "composite": 25,
-    "epidemio": 31,
+    "composite": 24,
+    "epidemio": 30,
     "polymarket": 6,
-    "kalshi": 32,
-    "max_andes_r0": 1.86,
+    "kalshi": 30,
+    "max_andes_r0": 1.78,
     "avg_other_r0": 0.47,
     "continents": [
       "Americas",
@@ -4021,7 +4021,7 @@
     "JPN": 1,
     "FRA": 1,
     "PAN": 1,
-    "ARG": 4
+    "ARG": 3
   },
   "events": [
     {
@@ -4061,13 +4061,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina acelera la investigaci\u00f3n del brote de hantavirus - VOV World",
-      "t": "2026-05-20T11:18:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYjM2dk5WaEhHX2dmZGhQTEJKdy1yOGdoNjlyNHEwN3VtSHJXVS10TEJPbVJfTmNnSHpwR0FhdXhwUzlNRGp4M3lOQmN6UDRrbVIzZjA3alBWczZhNVJPQXd5LWJFd2ZkaHpEUlRfNTRiNUpZZzMwNmpyQWdtTTVlVUt5Vkw1cmJBdWN3VXVZWGhfTnkwLXAzS2FyRnpNWTJwZ2RnSXBGY3VTdw?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
       "t": "2026-05-15T12:34:16Z",
       "source": "GoogleNews-ES",
@@ -4090,7 +4083,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-28T13:50:18Z",
+      "last_update": "2026-05-28T13:55:12Z",
       "signals": 3,
       "recent": [
         {
