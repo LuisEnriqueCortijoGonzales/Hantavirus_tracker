@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-28T16:25:15.842373Z",
-  "next_update": "2026-05-28T16:30:00Z",
+  "generated": "2026-05-28T16:30:09.792373Z",
+  "next_update": "2026-05-28T16:35:00Z",
   "days_active": 20,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -472,7 +472,7 @@
       "cfr": 0.9,
       "var_pct": 6,
       "strain": "puumala",
-      "new_today": 75,
+      "new_today": 74,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -538,7 +538,7 @@
       "cfr": 1.2,
       "var_pct": 50,
       "strain": "hantaan",
-      "new_today": 703,
+      "new_today": 702,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -572,13 +572,13 @@
       68,
       68,
       71,
-      78,
+      79,
       86,
       94,
       102,
       110,
       118,
-      126,
+      127,
       134,
       142,
       149
@@ -878,12 +878,12 @@
       312,
       312,
       312,
-      325,
+      326,
       342,
       358,
       372,
       386,
-      499,
+      498,
       495,
       491
     ],
@@ -913,7 +913,7 @@
       234,
       234,
       234,
-      240,
+      241,
       252,
       262,
       271,
@@ -1252,7 +1252,7 @@
       1872,
       1872,
       1872,
-      1917,
+      1918,
       1992
     ],
     "BLR": [
@@ -1345,10 +1345,10 @@
       2341,
       2341,
       2406,
-      2516,
+      2517,
       2620,
       2716,
-      2804,
+      2805,
       3507
     ],
     "KOR": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 24,
+    "composite": 25,
     "epidemio": 31,
     "polymarket": 6,
-    "kalshi": 28,
+    "kalshi": 32,
     "max_andes_r0": 1.86,
     "avg_other_r0": 0.47,
     "continents": [
@@ -4083,7 +4083,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-28T16:25:15Z",
+      "last_update": "2026-05-28T16:30:09Z",
       "signals": 3,
       "recent": [
         {
