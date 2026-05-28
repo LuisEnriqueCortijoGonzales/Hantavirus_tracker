@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-28T06:20:12.079813Z",
-  "next_update": "2026-05-28T06:25:00Z",
+  "generated": "2026-05-28T06:25:16.567419Z",
+  "next_update": "2026-05-28T06:30:00Z",
   "days_active": 20,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GRC": {
@@ -472,7 +472,7 @@
       "cfr": 0.9,
       "var_pct": 5,
       "strain": "puumala",
-      "new_today": 77,
+      "new_today": 76,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -882,7 +882,7 @@
       335,
       351,
       366,
-      380,
+      381,
       394,
       496,
       493
@@ -1252,7 +1252,7 @@
       1872,
       1872,
       1872,
-      1884,
+      1885,
       1961
     ],
     "BLR": [
@@ -1346,8 +1346,8 @@
       2341,
       2358,
       2471,
-      2577,
-      2676,
+      2578,
+      2677,
       2768,
       2852
     ],
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 22,
+    "composite": 21,
     "epidemio": 26,
     "polymarket": 6,
-    "kalshi": 29,
+    "kalshi": 26,
     "max_andes_r0": 1.78,
     "avg_other_r0": 0.47,
     "continents": [
@@ -4017,19 +4017,11 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "GBR": 1,
     "PAN": 1,
     "FRA": 3,
     "ARG": 6
   },
   "events": [
-    {
-      "iso": "GBR",
-      "title": "Old Taiwan hantavirus death falsely shared as recent - Yahoo News UK",
-      "t": "2026-05-28T04:41:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaGlxRmdPVmVHYWJMTFkxQWRGcGY4dldCZVhPYUw0aVBZd0lSY1dqamVGbWNlbGpSU1NCaW9ldjBvZW82RVpsYmJKZjZWV2o5MERNMVJsS000VjlNc2pwUTg5ZlJ2SjdzUFo3S0RnalRZQWNYUVdkQ1JpRmR6Y1I1d093?oc=5"
-    },
     {
       "iso": "PAN",
       "title": "Confirman en Panam\u00e1 la primera muerte este a\u00f1o por hantavirus - Infobae",
@@ -4117,7 +4109,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-28T06:20:12Z",
+      "last_update": "2026-05-28T06:25:16Z",
       "signals": 4,
       "recent": [
         {
