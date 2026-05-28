@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-28T18:25:08.313245Z",
-  "next_update": "2026-05-28T18:30:00Z",
+  "generated": "2026-05-28T18:30:12.810487Z",
+  "next_update": "2026-05-28T18:35:00Z",
   "days_active": 20,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -10,7 +10,7 @@
       "cfr": 37.3,
       "var_pct": 60,
       "strain": "andes",
-      "new_today": 8,
+      "new_today": 7,
       "r0": 1.94,
       "signals": 3,
       "gov_alert": false
@@ -538,7 +538,7 @@
       "cfr": 1.2,
       "var_pct": 50,
       "strain": "hantaan",
-      "new_today": 694,
+      "new_today": 693,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -558,11 +558,11 @@
       "ytd": 12,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hantaan",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     }
   },
@@ -580,7 +580,7 @@
       119,
       127,
       135,
-      142,
+      143,
       150
     ],
     "CHL": [
@@ -1344,11 +1344,11 @@
       2341,
       2341,
       2341,
-      2415,
-      2525,
+      2416,
+      2526,
       2628,
-      2723,
-      2811,
+      2724,
+      2812,
       3505
     ],
     "KOR": [
@@ -4006,7 +4006,7 @@
     "composite": 24,
     "epidemio": 30,
     "polymarket": 6,
-    "kalshi": 28,
+    "kalshi": 29,
     "max_andes_r0": 1.94,
     "avg_other_r0": 0.47,
     "continents": [
@@ -4018,12 +4018,19 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "JPN": 1,
+    "JPN": 2,
     "PAN": 1,
     "FRA": 2,
     "ARG": 3
   },
   "events": [
+    {
+      "iso": "JPN",
+      "title": "Experimental Hantavirus Treatment Sent to Europe Through Partnership With Japan - Morocco World News",
+      "t": "2026-05-28T18:26:30Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLTVYalhSdlZZSl9SN2d6TllSc0l6MnU5TXdhVHJ6NExPMTBqbHBNVVhLNTZHOEpveGhaVHVQQkJjbWk5RVN6WlpJSzlGaFNpN01Da193ZDMxcmh0TkJqdnNLOHRuWlFzMG1zRGkwenQxRk9sZkZhWEFLNm5uZWptamdQbTVzaW5lSHoxdkNYTFc4Q0FIZ2NSNTlfLWV5bUd2T0RrMmV1ZV8zNWZ5dzVxQVNpZHVsckc2V1dBQWh0NkNVZXE5UWlB?oc=5"
+    },
     {
       "iso": "JPN",
       "title": "EU secures emergency deliveries of potential treatment against Hantavirus through EU-Japan cooperation - Repr\u00e9sentation de la Commission Europ\u00e9enne au Luxembourg",
@@ -4090,7 +4097,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-28T18:25:08Z",
+      "last_update": "2026-05-28T18:30:12Z",
       "signals": 3,
       "recent": [
         {
