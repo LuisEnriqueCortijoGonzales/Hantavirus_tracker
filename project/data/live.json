@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-28T04:20:09.042974Z",
-  "next_update": "2026-05-28T04:25:00Z",
+  "generated": "2026-05-28T04:25:08.300655Z",
+  "next_update": "2026-05-28T04:30:00Z",
   "days_active": 20,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,7 +85,7 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 2,
+      "var_pct": 3,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
@@ -225,12 +225,12 @@
       "gov_alert": false
     },
     "SWE": {
-      "ytd": 164,
+      "ytd": 165,
       "alert": "vigilancia",
       "cfr": 0.1,
       "var_pct": 13,
       "strain": "puumala",
-      "new_today": 4,
+      "new_today": 5,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2845,
+      "ytd": 2846,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": 22,
       "strain": "hantaan",
-      "new_today": 84,
+      "new_today": 85,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -573,7 +573,7 @@
       69,
       69,
       76,
-      83,
+      84,
       91,
       100,
       108,
@@ -883,7 +883,7 @@
       350,
       365,
       379,
-      392,
+      393,
       497,
       493
     ],
@@ -898,10 +898,10 @@
       145,
       145,
       145,
-      148,
+      149,
       154,
       160,
-      164
+      165
     ],
     "DEU": [
       234,
@@ -1347,9 +1347,9 @@
       2348,
       2462,
       2569,
-      2668,
+      2669,
       2761,
-      2845
+      2846
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 22,
+    "composite": 20,
     "epidemio": 26,
     "polymarket": 6,
-    "kalshi": 31,
+    "kalshi": 24,
     "max_andes_r0": 1.78,
     "avg_other_r0": 0.39,
     "continents": [
@@ -4109,7 +4109,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-28T04:20:09Z",
+      "last_update": "2026-05-28T04:25:08Z",
       "signals": 4,
       "recent": [
         {
