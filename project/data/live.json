@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-28T03:45:14.307308Z",
-  "next_update": "2026-05-28T03:50:00Z",
+  "generated": "2026-05-28T03:50:08.310390Z",
+  "next_update": "2026-05-28T03:55:00Z",
   "days_active": 20,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 147,
+      "ytd": 148,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 67,
       "strain": "andes",
-      "new_today": 7,
-      "r0": 1.7,
+      "new_today": 8,
+      "r0": 1.78,
       "signals": 6,
       "gov_alert": false
     },
@@ -241,7 +241,7 @@
       "cfr": 0.2,
       "var_pct": 18,
       "strain": "puumala",
-      "new_today": 10,
+      "new_today": 9,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -533,12 +533,12 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2843,
+      "ytd": 2844,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": 21,
       "strain": "hantaan",
-      "new_today": 84,
+      "new_today": 85,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -581,7 +581,7 @@
       124,
       132,
       140,
-      147
+      148
     ],
     "CHL": [
       31,
@@ -915,8 +915,8 @@
       234,
       234,
       246,
-      256,
-      266,
+      257,
+      267,
       276
     ],
     "POL": [
@@ -1344,12 +1344,12 @@
       2341,
       2341,
       2341,
-      2345,
+      2346,
       2459,
       2566,
       2666,
       2759,
-      2843
+      2844
     ],
     "KOR": [
       89,
@@ -4003,11 +4003,11 @@
     ]
   },
   "pandemic": {
-    "composite": 20,
-    "epidemio": 25,
+    "composite": 21,
+    "epidemio": 26,
     "polymarket": 6,
     "kalshi": 26,
-    "max_andes_r0": 1.7,
+    "max_andes_r0": 1.78,
     "avg_other_r0": 0.39,
     "continents": [
       "Americas",
@@ -4109,7 +4109,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-28T03:45:14Z",
+      "last_update": "2026-05-28T03:50:08Z",
       "signals": 4,
       "recent": [
         {
