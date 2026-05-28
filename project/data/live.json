@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-28T07:15:09.094537Z",
-  "next_update": "2026-05-28T07:20:00Z",
+  "generated": "2026-05-28T07:20:18.627829Z",
+  "next_update": "2026-05-28T07:25:00Z",
   "days_active": 20,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GRC": {
@@ -472,7 +472,7 @@
       "cfr": 0.9,
       "var_pct": 5,
       "strain": "puumala",
-      "new_today": 77,
+      "new_today": 76,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2855,
+      "ytd": 2856,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": 22,
@@ -574,7 +574,7 @@
       69,
       76,
       84,
-      91,
+      92,
       100,
       108,
       116,
@@ -1252,7 +1252,7 @@
       1872,
       1872,
       1872,
-      1887,
+      1888,
       1964
     ],
     "BLR": [
@@ -1344,12 +1344,12 @@
       2341,
       2341,
       2341,
-      2362,
+      2363,
       2475,
       2581,
       2680,
-      2771,
-      2855
+      2772,
+      2856
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 20,
+    "composite": 21,
     "epidemio": 25,
     "polymarket": 6,
-    "kalshi": 25,
+    "kalshi": 27,
     "max_andes_r0": 1.7,
     "avg_other_r0": 0.47,
     "continents": [
@@ -4017,19 +4017,11 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "GBR": 1,
     "FRA": 2,
     "PAN": 1,
     "ARG": 4
   },
   "events": [
-    {
-      "iso": "GBR",
-      "title": "Old Taiwan hantavirus death falsely shared as recent - Yahoo News UK",
-      "t": "2026-05-28T04:41:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaGlxRmdPVmVHYWJMTFkxQWRGcGY4dldCZVhPYUw0aVBZd0lSY1dqamVGbWNlbGpSU1NCaW9ldjBvZW82RVpsYmJKZjZWV2o5MERNMVJsS000VjlNc2pwUTg5ZlJ2SjdzUFo3S0RnalRZQWNYUVdkQ1JpRmR6Y1I1d093?oc=5"
-    },
     {
       "iso": "PAN",
       "title": "Confirman en Panam\u00e1 la primera muerte este a\u00f1o por hantavirus - Infobae",
@@ -4096,7 +4088,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-28T07:15:09Z",
+      "last_update": "2026-05-28T07:20:18Z",
       "signals": 3,
       "recent": [
         {
