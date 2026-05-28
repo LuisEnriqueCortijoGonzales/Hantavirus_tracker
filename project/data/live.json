@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-28T00:55:13.556091Z",
-  "next_update": "2026-05-28T01:00:00Z",
+  "generated": "2026-05-28T01:00:12.833233Z",
+  "next_update": "2026-05-28T01:05:00Z",
   "days_active": 20,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 18,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 2,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "PRY": {
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 1944,
+      "ytd": 1945,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 4,
       "strain": "puumala",
-      "new_today": 72,
+      "new_today": 73,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -914,7 +914,7 @@
       234,
       234,
       234,
-      244,
+      245,
       255,
       265,
       275
@@ -1253,7 +1253,7 @@
       1872,
       1872,
       1872,
-      1944
+      1945
     ],
     "BLR": [
       34,
@@ -1401,7 +1401,6 @@
     "2026-05-28T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-26T01:00:00Z",
     "2026-05-26T02:00:00Z",
     "2026-05-26T03:00:00Z",
     "2026-05-26T04:00:00Z",
@@ -1448,11 +1447,11 @@
     "2026-05-27T21:00:00Z",
     "2026-05-27T22:00:00Z",
     "2026-05-27T23:00:00Z",
-    "2026-05-28T00:00:00Z"
+    "2026-05-28T00:00:00Z",
+    "2026-05-28T01:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      130,
       130,
       131,
       131,
@@ -1499,13 +1498,13 @@
       144,
       144,
       145,
+      145,
       145
     ],
     "CHL": [
       59,
       59,
       59,
-      59,
       60,
       60,
       60,
@@ -1542,6 +1541,7 @@
       63,
       63,
       63,
+      64,
       64,
       64,
       64,
@@ -2403,7 +2403,6 @@
     ],
     "FIN": [
       391,
-      391,
       392,
       392,
       393,
@@ -2444,6 +2443,7 @@
       495,
       495,
       495,
+      494,
       494,
       494,
       494,
@@ -2452,7 +2452,6 @@
       494
     ],
     "SWE": [
-      153,
       154,
       154,
       154,
@@ -2499,10 +2498,10 @@
       163,
       163,
       163,
+      164,
       164
     ],
     "DEU": [
-      255,
       256,
       256,
       257,
@@ -2549,7 +2548,8 @@
       273,
       274,
       274,
-      274
+      274,
+      275
     ],
     "POL": [
       45,
@@ -3577,7 +3577,6 @@
       1872,
       1872,
       1872,
-      1872,
       1873,
       1877,
       1880,
@@ -3599,7 +3598,8 @@
       1932,
       1935,
       1938,
-      1941
+      1941,
+      1945
     ],
     "BLR": [
       34,
@@ -3852,7 +3852,6 @@
       23
     ],
     "CHN": [
-      2655,
       2659,
       2663,
       2667,
@@ -3899,7 +3898,8 @@
       2820,
       2824,
       2827,
-      2831
+      2831,
+      2834
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 18,
+    "composite": 19,
     "epidemio": 23,
     "polymarket": 6,
-    "kalshi": 22,
+    "kalshi": 25,
     "max_andes_r0": 1.54,
     "avg_other_r0": 0.39,
     "continents": [
@@ -4017,7 +4017,6 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "USA": 1,
     "PAN": 1,
     "FRA": 1,
     "ARG": 4
@@ -4036,13 +4035,6 @@
       "t": "2026-05-27T12:50:25Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOU15bTQ3R24xejJwTDJxTzV0Z2hzbnZ3QkczWkpyc3ZoMlFHME5NdTVqNmVIbmZEQjViRW1tY1l5NlV4MHBEREhsTDFVUWtTQjZwbmYwa3NWMjNKbS1pbXAwUWQ1WlZQUG0xTVRDUElESG1CdGpRLUlYUXRsR2pyam5sQlM0d3FYUWxyY3QwXzNiXzRjckNNODJpTWJ2LXJTX3BodzRjZ0tWMnFmbnMtLVp1TVNSU2owSEw5X3JoSGI0SDdnRDNtWkxSbTBaSGFvYWRUX2ZCX0o?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Misinterpretation of Hantavirus Map Spreads Misinformation About Andes Strain in Europe and North America - IndexBox",
-      "t": "2026-05-27T11:00:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUDhqZEEwY3dQekk2aGczYzZIcUkxc2Y2N1k3Q2o0bzBheEYtWTBYQUs3VnFpNFV6bWJWSzRXaUo2QWdTWW9NSzhEM2tEd3ZfVFBsTlB3UnB1eEU3d2kxWHNjUDc0TVhkSGtXVlZHYXRlWWNNeU9jQVlJMnJaTHozTG9RY0VFdjdTTzlKblBmWUU3TXQ4eUdQWkRHVnJWT2hLMnhrN3JsY3R2TUZEdUpSRU5vT1d1VTdrN1Bad1Z1YTQweG5FXzdySG9Nc2ZQVVJ3?oc=5"
     },
     {
       "iso": "ARG",
@@ -4089,7 +4081,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-28T00:55:13Z",
+      "last_update": "2026-05-28T01:00:12Z",
       "signals": 3,
       "recent": [
         {
