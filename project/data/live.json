@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-29T21:25:17.302784Z",
-  "next_update": "2026-05-29T21:30:00Z",
+  "generated": "2026-05-29T21:30:16.568257Z",
+  "next_update": "2026-05-29T21:35:00Z",
   "days_active": 21,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,7 +8,7 @@
       "ytd": 158,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 55,
+      "var_pct": 54,
       "strain": "andes",
       "new_today": 7,
       "r0": 1.93,
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "CHE": {
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2074,
+      "ytd": 2075,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 11,
       "strain": "puumala",
-      "new_today": 67,
+      "new_today": 68,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -1251,9 +1251,9 @@
       1872,
       1872,
       1872,
-      1933,
+      1934,
       2007,
-      2074
+      2075
     ],
     "BLR": [
       34,
@@ -1344,8 +1344,8 @@
       2341,
       2341,
       2430,
-      2538,
-      2640,
+      2539,
+      2641,
       2735,
       2822,
       3502,
@@ -4006,7 +4006,7 @@
     "composite": 24,
     "epidemio": 30,
     "polymarket": 6,
-    "kalshi": 28,
+    "kalshi": 32,
     "max_andes_r0": 1.93,
     "avg_other_r0": 0.61,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "ARG": 4,
-    "FRA": 2,
+    "FRA": 1,
     "PAN": 1
   },
   "events": [
@@ -4036,13 +4036,6 @@
       "t": "2026-05-29T12:24:13Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQVTFIbW9fU1pyZVJPZXVIMHhQQ2w4emdBNWpXUjFIcHVCNlBpYmFpU3Y2MDhOM3poSlhMV2ktaktOOUdGRW1pRnVITXZpemZ4UTNKS213VGh1WWdZUlQzbFhDWlgyZEVpZ29GR0JDZzJBZUtNUjE3VkhHZE9CTzlHOXpKNFVZRFdZenFJbi1jTEdiam1sUGh6cDZHWTNydFNFVnVWOEN6aXc5eF9tT2FMeFRFZVZnY0VMay04RVRsblRiV29vbUdQWVRPZ3JOU2N5aXNvdGJmNVA0RExZbWd6cEVVUHdKM2kxeHF3d0VPTjhfNFhNa0wwZXJ6TE1PODVKWUc0UjJyREpzZw?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Espa\u00f1a, Francia y Pa\u00edses Bajos reciben un antiviral experimental japon\u00e9s contra el hantavirus - Infosalus",
-      "t": "2026-05-28T11:49:06Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZUY5UXA2R0lhci1IUms2bjQ3dVpoWU04TGFLSWpnS1BEaW5fSkJtSmNqMGJ5RVBtYmFaLXNrTVFILXBOek9zdTVXak1jekhJZVZKeV9Fbk1JT0tzbTlrajhybFdOUmdHbFpGdG9KY1JSdFE3Q2pUS2lZa21meFFwZjFwa0E3SFRfY1hXd0xkcTl5SkEyTEpXVEI3Zm5XS3pXYjhuVHdCMUVkeUVUN0hWTlMyTGQzM25tYnk1VUIzUk1nQWhGa2lCYlMzV2hJQnYwRXFQR2xrSmtsMzE5bjJZRElTV2N6UlNoNmtnWG1XWQ?oc=5"
     },
     {
       "iso": "PAN",
@@ -4089,7 +4082,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-29T21:25:17Z",
+      "last_update": "2026-05-29T21:30:16Z",
       "signals": 3,
       "recent": [
         {
