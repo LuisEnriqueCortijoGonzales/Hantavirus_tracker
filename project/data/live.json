@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-29T18:55:08.301786Z",
-  "next_update": "2026-05-29T19:00:00Z",
+  "generated": "2026-05-29T19:00:07.616569Z",
+  "next_update": "2026-05-29T19:05:00Z",
   "days_active": 21,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "CHE": {
@@ -1251,7 +1251,7 @@
       1872,
       1872,
       1872,
-      1925,
+      1926,
       1999,
       2068
     ],
@@ -1344,9 +1344,9 @@
       2341,
       2341,
       2418,
-      2527,
+      2528,
       2630,
-      2725,
+      2726,
       2813,
       3505,
       3482
@@ -1401,7 +1401,6 @@
     "2026-05-29T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-27T19:00:00Z",
     "2026-05-27T20:00:00Z",
     "2026-05-27T21:00:00Z",
     "2026-05-27T22:00:00Z",
@@ -1448,11 +1447,11 @@
     "2026-05-29T15:00:00Z",
     "2026-05-29T16:00:00Z",
     "2026-05-29T17:00:00Z",
-    "2026-05-29T18:00:00Z"
+    "2026-05-29T18:00:00Z",
+    "2026-05-29T19:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      143,
       144,
       144,
       144,
@@ -1497,6 +1496,7 @@
       156,
       156,
       156,
+      157,
       157,
       157,
       157
@@ -1508,7 +1508,6 @@
       64,
       64,
       64,
-      64,
       65,
       65,
       65,
@@ -1540,6 +1539,7 @@
       67,
       67,
       67,
+      68,
       68,
       68,
       68,
@@ -1812,7 +1812,6 @@
       18,
       18,
       18,
-      18,
       19,
       19,
       19,
@@ -1847,6 +1846,7 @@
       20,
       20,
       20,
+      21,
       21,
       21,
       21
@@ -2408,7 +2408,6 @@
       494,
       494,
       494,
-      494,
       493,
       493,
       493,
@@ -2449,6 +2448,7 @@
       488,
       488,
       488,
+      487,
       487
     ],
     "SWE": [
@@ -2456,7 +2456,6 @@
       163,
       163,
       163,
-      163,
       164,
       164,
       164,
@@ -2480,6 +2479,7 @@
       203,
       203,
       203,
+      202,
       202,
       202,
       202,
@@ -2502,7 +2502,6 @@
       202
     ],
     "DEU": [
-      272,
       273,
       273,
       274,
@@ -2549,6 +2548,7 @@
       288,
       288,
       289,
+      289,
       289
     ],
     "POL": [
@@ -2589,7 +2589,7 @@
       45,
       45,
       45,
-      45,
+      46,
       46,
       46,
       46,
@@ -3552,7 +3552,6 @@
       4
     ],
     "RUS": [
-      1926,
       1929,
       1932,
       1935,
@@ -3599,7 +3598,8 @@
       2057,
       2060,
       2062,
-      2065
+      2065,
+      2068
     ],
     "BLR": [
       34,
@@ -3852,7 +3852,6 @@
       23
     ],
     "CHN": [
-      2813,
       2817,
       2820,
       2824,
@@ -3899,7 +3898,8 @@
       3485,
       3485,
       3484,
-      3483
+      3483,
+      3482
     ],
     "KOR": [
       89,
@@ -3935,7 +3935,6 @@
       89,
       89,
       89,
-      89,
       90,
       90,
       90,
@@ -3944,6 +3943,7 @@
       90,
       90,
       90,
+      91,
       91,
       91,
       91,
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "ARG": 4,
     "CAN": 1,
-    "FRA": 2,
+    "FRA": 1,
     "PAN": 1
   },
   "events": [
@@ -4044,13 +4044,6 @@
       "t": "2026-05-29T12:24:13Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQVTFIbW9fU1pyZVJPZXVIMHhQQ2w4emdBNWpXUjFIcHVCNlBpYmFpU3Y2MDhOM3poSlhMV2ktaktOOUdGRW1pRnVITXZpemZ4UTNKS213VGh1WWdZUlQzbFhDWlgyZEVpZ29GR0JDZzJBZUtNUjE3VkhHZE9CTzlHOXpKNFVZRFdZenFJbi1jTEdiam1sUGh6cDZHWTNydFNFVnVWOEN6aXc5eF9tT2FMeFRFZVZnY0VMay04RVRsblRiV29vbUdQWVRPZ3JOU2N5aXNvdGJmNVA0RExZbWd6cEVVUHdKM2kxeHF3d0VPTjhfNFhNa0wwZXJ6TE1PODVKWUc0UjJyREpzZw?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Espa\u00f1a, Francia y Pa\u00edses Bajos reciben un antiviral experimental japon\u00e9s contra el hantavirus - Infosalus",
-      "t": "2026-05-28T11:49:06Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZUY5UXA2R0lhci1IUms2bjQ3dVpoWU04TGFLSWpnS1BEaW5fSkJtSmNqMGJ5RVBtYmFaLXNrTVFILXBOek9zdTVXak1jekhJZVZKeV9Fbk1JT0tzbTlrajhybFdOUmdHbFpGdG9KY1JSdFE3Q2pUS2lZa21meFFwZjFwa0E3SFRfY1hXd0xkcTl5SkEyTEpXVEI3Zm5XS3pXYjhuVHdCMUVkeUVUN0hWTlMyTGQzM25tYnk1VUIzUk1nQWhGa2lCYlMzV2hJQnYwRXFQR2xrSmtsMzE5bjJZRElTV2N6UlNoNmtnWG1XWQ?oc=5"
     },
     {
       "iso": "PAN",
@@ -4097,7 +4090,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-29T18:55:08Z",
+      "last_update": "2026-05-29T19:00:07Z",
       "signals": 4,
       "recent": [
         {
