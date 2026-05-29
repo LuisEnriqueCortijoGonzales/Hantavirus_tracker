@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-29T20:35:03.801331Z",
-  "next_update": "2026-05-29T20:40:00Z",
+  "generated": "2026-05-29T20:40:03.035862Z",
+  "next_update": "2026-05-29T20:45:00Z",
   "days_active": 21,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -577,7 +577,7 @@
       104,
       112,
       120,
-      128,
+      129,
       136,
       144,
       151,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 25,
+    "composite": 23,
     "epidemio": 30,
     "polymarket": 6,
-    "kalshi": 33,
+    "kalshi": 26,
     "max_andes_r0": 1.93,
     "avg_other_r0": 0.61,
     "continents": [
@@ -4039,10 +4039,10 @@
     },
     {
       "iso": "FRA",
-      "title": "Espa\u00f1a, Francia y Pa\u00edses Bajos reciben un antiviral experimental japon\u00e9s contra el hantavirus - Infosalus",
-      "t": "2026-05-28T11:49:06Z",
+      "title": "Espa\u00f1a, Francia y Pa\u00edses Bajos reciben un antiviral japon\u00e9s contra el hantavirus - EcoAvant.com",
+      "t": "2026-05-29T06:09:00Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZUY5UXA2R0lhci1IUms2bjQ3dVpoWU04TGFLSWpnS1BEaW5fSkJtSmNqMGJ5RVBtYmFaLXNrTVFILXBOek9zdTVXak1jekhJZVZKeV9Fbk1JT0tzbTlrajhybFdOUmdHbFpGdG9KY1JSdFE3Q2pUS2lZa21meFFwZjFwa0E3SFRfY1hXd0xkcTl5SkEyTEpXVEI3Zm5XS3pXYjhuVHdCMUVkeUVUN0hWTlMyTGQzM25tYnk1VUIzUk1nQWhGa2lCYlMzV2hJQnYwRXFQR2xrSmtsMzE5bjJZRElTV2N6UlNoNmtnWG1XWQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPemRNZGo5aEs5VGNJLU1BdlFtZkF3Ny1xaE45RzJaN05NalNFNm9MemI1WE80RE9acllFQkhWQ3pOM3p4WXllWjY3SmVpeWh3VnQwUFVmQ2VtSmtHNTd5ZXBBcHJNd1NNcmt3TFFZU0NEdlBKazZxWHBDN1lMOG1jZTZVUXRvSHRaNGhNYjFrZEhoc2RqNktDNE5fbTJuRnhnRjd3ZmFIYTF5NWE3M2M5c2NKVlZienFI0gG-AUFVX3lxTE9La240eVQ2LTlnc1MtTFZ6VTludmRPN01hdFMxSzlVWEdpU3Q0d2k0ZnNwcHNFV2hxc004VWV2TGhkS3Z0WDJxdlNzSVp4NVpna19lc1JrR2xXNDR2T1cwbVA4MVNNV3kyZFhKazJ3WHNZYlRDMlMzbWs5TG5kSTVnMVFTb2xqejl6T0dhOEdKWjZXYzZhbi1kelFEOGp1Skd6Wld3OWZfdElONW0xWkhKT1R6UFFwWVcxa1J3aFE?oc=5"
     },
     {
       "iso": "PAN",
@@ -4089,7 +4089,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-29T20:35:03Z",
+      "last_update": "2026-05-29T20:40:03Z",
       "signals": 3,
       "recent": [
         {
