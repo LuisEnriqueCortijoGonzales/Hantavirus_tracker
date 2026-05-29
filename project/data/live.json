@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-29T18:35:11.304580Z",
-  "next_update": "2026-05-29T18:40:00Z",
+  "generated": "2026-05-29T18:40:10.560794Z",
+  "next_update": "2026-05-29T18:45:00Z",
   "days_active": 21,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -878,7 +878,7 @@
       312,
       312,
       327,
-      343,
+      344,
       359,
       374,
       387,
@@ -913,7 +913,7 @@
       234,
       234,
       242,
-      252,
+      253,
       263,
       272,
       281,
@@ -1251,7 +1251,7 @@
       1872,
       1872,
       1872,
-      1924,
+      1925,
       1998,
       2067
     ],
@@ -1343,7 +1343,7 @@
       2341,
       2341,
       2341,
-      2416,
+      2417,
       2526,
       2629,
       2724,
@@ -4006,7 +4006,7 @@
     "composite": 23,
     "epidemio": 29,
     "polymarket": 6,
-    "kalshi": 28,
+    "kalshi": 29,
     "max_andes_r0": 1.85,
     "avg_other_r0": 0.61,
     "continents": [
@@ -4019,10 +4019,18 @@
   },
   "signal_summary": {
     "ARG": 4,
+    "CAN": 1,
     "FRA": 2,
     "PAN": 1
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "Hantavirus Cruise Ship\u201c \u201dPassengers in U.S. Quarantine Could Be Allowed to Return Home Under 24/7 Watch: Report - Yahoo News Canada",
+      "t": "2026-05-29T17:01:28Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcWtGVVJHTFpLNk81RTFOSGVPLXdTVTloZk1GMFpKYWhySTRQa2dIUmJXUU1TSGxVR0tOZVZ0WG5udnlNQ1B4d0tSckdLa0h4eTZRVFF1VkpHQkliOGpRckw4QlBpVnZ0dDByWVRGTW44NnhXVWZMelA4Z01mRENIS3FB?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Hantavirus: Climate change suspected of contributing to recent surge in cases in Argentina - Le Monde.fr",
@@ -4089,8 +4097,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-29T18:35:11Z",
-      "signals": 3,
+      "last_update": "2026-05-29T18:40:10Z",
+      "signals": 4,
       "recent": [
         {
           "title": "Brote de hantavirus en el crucero MV Hondius: suben los casos y la OMS sigue el rastro del \u201cpaciente cero\u201d en Argentina - Los Primeros TV",
@@ -4101,6 +4109,11 @@
           "title": "Sin nuevos casos de hantavirus en Argentina, pero sigue la investigaci\u00f3n por el brote en un crucero \u2014 ACTUALIDAD - Opinando San Nicol\u00e1s",
           "t": "2026-05-27T12:50:25Z",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOU15bTQ3R24xejJwTDJxTzV0Z2hzbnZ3QkczWkpyc3ZoMlFHME5NdTVqNmVIbmZEQjViRW1tY1l5NlV4MHBEREhsTDFVUWtTQjZwbmYwa3NWMjNKbS1pbXAwUWQ1WlZQUG0xTVRDUElESG1CdGpRLUlYUXRsR2pyam5sQlM0d3FYUWxyY3QwXzNiXzRjckNNODJpTWJ2LXJTX3BodzRjZ0tWMnFmbnMtLVp1TVNSU2owSEw5X3JoSGI0SDdnRDNtWkxSbTBaSGFvYWRUX2ZCX0o?oc=5"
+        },
+        {
+          "title": "Hantavirus Cruise Ship\u201c \u201dPassengers in U.S. Quarantine Could Be Allowed to Return Home Under 24/7 Watch: Report - Yahoo News Canada",
+          "t": "2026-05-29T17:01:28Z",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcWtGVVJHTFpLNk81RTFOSGVPLXdTVTloZk1GMFpKYWhySTRQa2dIUmJXUU1TSGxVR0tOZVZ0WG5udnlNQ1B4d0tSckdLa0h4eTZRVFF1VkpHQkliOGpRckw4QlBpVnZ0dDByWVRGTW44NnhXVWZMelA4Z01mRENIS3FB?oc=5"
         },
         {
           "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
