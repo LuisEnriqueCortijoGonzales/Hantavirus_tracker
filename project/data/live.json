@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-29T04:30:06.832035Z",
-  "next_update": "2026-05-29T04:35:00Z",
+  "generated": "2026-05-29T04:35:06.056027Z",
+  "next_update": "2026-05-29T04:40:00Z",
   "days_active": 21,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -236,12 +236,12 @@
       "gov_alert": false
     },
     "DEU": {
-      "ytd": 284,
+      "ytd": 285,
       "alert": "vigilancia",
       "cfr": 0.2,
       "var_pct": 22,
       "strain": "puumala",
-      "new_today": 8,
+      "new_today": 9,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -472,7 +472,7 @@
       "cfr": 0.9,
       "var_pct": 8,
       "strain": "puumala",
-      "new_today": 72,
+      "new_today": 71,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -533,24 +533,24 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3496,
+      "ytd": 3495,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 49,
       "strain": "hantaan",
-      "new_today": 650,
+      "new_today": 649,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
     },
     "KOR": {
-      "ytd": 89,
+      "ytd": 90,
       "alert": "vigilancia",
       "cfr": 1.5,
       "var_pct": 1,
       "strain": "hantaan",
-      "new_today": 0,
-      "r0": 0.0,
+      "new_today": 1,
+      "r0": 3.5,
       "signals": 0,
       "gov_alert": false
     },
@@ -917,7 +917,7 @@
       257,
       267,
       276,
-      284
+      285
     ],
     "POL": [
       45,
@@ -1251,8 +1251,8 @@
       1872,
       1872,
       1872,
-      1878,
-      1955,
+      1879,
+      1956,
       2027
     ],
     "BLR": [
@@ -1344,12 +1344,12 @@
       2341,
       2341,
       2349,
-      2462,
-      2569,
+      2463,
+      2570,
       2669,
-      2761,
+      2762,
       2846,
-      3496
+      3495
     ],
     "KOR": [
       89,
@@ -1365,7 +1365,7 @@
       89,
       89,
       89,
-      89
+      90
     ],
     "JPN": [
       12,
@@ -4006,9 +4006,9 @@
     "composite": 21,
     "epidemio": 26,
     "polymarket": 6,
-    "kalshi": 27,
+    "kalshi": 26,
     "max_andes_r0": 1.56,
-    "avg_other_r0": 0.47,
+    "avg_other_r0": 0.54,
     "continents": [
       "Americas",
       "Asia",
@@ -4097,7 +4097,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-29T04:30:06Z",
+      "last_update": "2026-05-29T04:35:06Z",
       "signals": 3,
       "recent": [
         {
