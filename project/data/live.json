@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-29T16:50:06.054684Z",
-  "next_update": "2026-05-29T16:55:00Z",
+  "generated": "2026-05-29T16:55:05.298332Z",
+  "next_update": "2026-05-29T17:00:00Z",
   "days_active": 21,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 157,
+      "ytd": 158,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 56,
       "strain": "andes",
       "new_today": 7,
-      "r0": 1.85,
-      "signals": 4,
+      "r0": 1.93,
+      "signals": 5,
       "gov_alert": false
     },
     "CHL": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "CHE": {
@@ -562,26 +562,26 @@
       "strain": "hantaan",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     }
   },
   "history": {
     "ARG": [
-      68,
-      68,
+      69,
+      69,
       72,
       79,
       87,
       95,
       103,
-      111,
-      119,
-      127,
-      135,
+      112,
+      120,
+      128,
+      136,
       143,
-      150,
-      157
+      151,
+      158
     ],
     "CHL": [
       31,
@@ -1344,9 +1344,9 @@
       2341,
       2341,
       2408,
-      2518,
-      2621,
-      2717,
+      2519,
+      2622,
+      2718,
       2806,
       3507,
       3484
@@ -1453,8 +1453,6 @@
   "hourly_history": {
     "ARG": [
       143,
-      143,
-      143,
       144,
       144,
       144,
@@ -1464,7 +1462,7 @@
       146,
       146,
       146,
-      146,
+      147,
       147,
       147,
       147,
@@ -1474,11 +1472,10 @@
       149,
       149,
       149,
-      149,
       150,
       150,
       150,
-      151,
+      150,
       151,
       151,
       151,
@@ -1499,6 +1496,9 @@
       156,
       156,
       156,
+      157,
+      157,
+      157,
       157
     ],
     "CHL": [
@@ -4004,10 +4004,10 @@
   },
   "pandemic": {
     "composite": 24,
-    "epidemio": 29,
+    "epidemio": 30,
     "polymarket": 6,
-    "kalshi": 33,
-    "max_andes_r0": 1.85,
+    "kalshi": 29,
+    "max_andes_r0": 1.93,
     "avg_other_r0": 0.61,
     "continents": [
       "Americas",
@@ -4018,9 +4018,8 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "ARG": 4,
-    "JPN": 1,
-    "FRA": 1,
+    "ARG": 5,
+    "FRA": 2,
     "PAN": 1
   },
   "events": [
@@ -4039,11 +4038,11 @@
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQVTFIbW9fU1pyZVJPZXVIMHhQQ2w4emdBNWpXUjFIcHVCNlBpYmFpU3Y2MDhOM3poSlhMV2ktaktOOUdGRW1pRnVITXZpemZ4UTNKS213VGh1WWdZUlQzbFhDWlgyZEVpZ29GR0JDZzJBZUtNUjE3VkhHZE9CTzlHOXpKNFVZRFdZenFJbi1jTEdiam1sUGh6cDZHWTNydFNFVnVWOEN6aXc5eF9tT2FMeFRFZVZnY0VMay04RVRsblRiV29vbUdQWVRPZ3JOU2N5aXNvdGJmNVA0RExZbWd6cEVVUHdKM2kxeHF3d0VPTjhfNFhNa0wwZXJ6TE1PODVKWUc0UjJyREpzZw?oc=5"
     },
     {
-      "iso": "JPN",
-      "title": "EU receives experimental Hantavirus treatment from Japan - Yeni Safak English",
-      "t": "2026-05-29T10:45:46Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWm44TzE0eHNWOHAwNEVKX1hFaHRqeE5xRkJwbXY1U0FXRldGczlKLVp0QmFNaFc0MjBtZlNlVjlWNXVER29wNFdHRkRvLVZFWVlfd05INHMtTWV5Yy1lbkUxRHpvOHVlejlaNzBybFdNQWxrTTI2RWdKMWhMZUVvemZFWHBqT2dxUDdfZWFuRDRhVjhuMEt5Q1o0bw?oc=5"
+      "iso": "FRA",
+      "title": "Espa\u00f1a, Francia y Pa\u00edses Bajos reciben un antiviral experimental japon\u00e9s contra el hantavirus - Infosalus",
+      "t": "2026-05-28T11:49:06Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZUY5UXA2R0lhci1IUms2bjQ3dVpoWU04TGFLSWpnS1BEaW5fSkJtSmNqMGJ5RVBtYmFaLXNrTVFILXBOek9zdTVXak1jekhJZVZKeV9Fbk1JT0tzbTlrajhybFdOUmdHbFpGdG9KY1JSdFE3Q2pUS2lZa21meFFwZjFwa0E3SFRfY1hXd0xkcTl5SkEyTEpXVEI3Zm5XS3pXYjhuVHdCMUVkeUVUN0hWTlMyTGQzM25tYnk1VUIzUk1nQWhGa2lCYlMzV2hJQnYwRXFQR2xrSmtsMzE5bjJZRElTV2N6UlNoNmtnWG1XWQ?oc=5"
     },
     {
       "iso": "PAN",
@@ -4072,6 +4071,13 @@
       "t": "2026-05-25T22:40:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina acelera la investigaci\u00f3n del brote de hantavirus - VOV World",
+      "t": "2026-05-20T11:18:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYjM2dk5WaEhHX2dmZGhQTEJKdy1yOGdoNjlyNHEwN3VtSHJXVS10TEJPbVJfTmNnSHpwR0FhdXhwUzlNRGp4M3lOQmN6UDRrbVIzZjA3alBWczZhNVJPQXd5LWJFd2ZkaHpEUlRfNTRiNUpZZzMwNmpyQWdtTTVlVUt5Vkw1cmJBdWN3VXVZWGhfTnkwLXAzS2FyRnpNWTJwZ2RnSXBGY3VTdw?oc=5"
     }
   ],
   "maritime_events": [
@@ -4090,7 +4096,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-29T16:50:06Z",
+      "last_update": "2026-05-29T16:55:05Z",
       "signals": 3,
       "recent": [
         {
