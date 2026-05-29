@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-29T06:45:02.331631Z",
-  "next_update": "2026-05-29T06:50:00Z",
+  "generated": "2026-05-29T06:50:06.830821Z",
+  "next_update": "2026-05-29T06:55:00Z",
   "days_active": 21,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -472,7 +472,7 @@
       "cfr": 0.9,
       "var_pct": 9,
       "strain": "puumala",
-      "new_today": 72,
+      "new_today": 71,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -558,11 +558,11 @@
       "ytd": 12,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "hantaan",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     }
   },
@@ -571,7 +571,7 @@
       68,
       68,
       68,
-      75,
+      76,
       83,
       91,
       99,
@@ -878,7 +878,7 @@
       312,
       312,
       319,
-      335,
+      336,
       352,
       367,
       381,
@@ -1252,7 +1252,7 @@
       1872,
       1872,
       1886,
-      1962,
+      1963,
       2034
     ],
     "BLR": [
@@ -4018,7 +4018,7 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "JPN": 2,
+    "JPN": 1,
     "FRA": 2,
     "PAN": 1,
     "ARG": 3
@@ -4030,13 +4030,6 @@
       "t": "2026-05-28T18:34:06Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLTVYalhSdlZZSl9SN2d6TllSc0l6MnU5TXdhVHJ6NExPMTBqbHBNVVhLNTZHOEpveGhaVHVQQkJjbWk5RVN6WlpJSzlGaFNpN01Da193ZDMxcmh0TkJqdnNLOHRuWlFzMG1zRGkwenQxRk9sZkZhWEFLNm5uZWptamdQbTVzaW5lSHoxdkNYTFc4Q0FIZ2NSNTlfLWV5bUd2T0RrMmV1ZV8zNWZ5dzVxQVNpZHVsckc2V1dBQWh0NkNVZXE5UWlB?oc=5"
-    },
-    {
-      "iso": "JPN",
-      "title": "EU secures emergency deliveries of potential treatment against Hantavirus through EU-Japan cooperation - Repr\u00e9sentation de la Commission Europ\u00e9enne au Luxembourg",
-      "t": "2026-05-28T12:00:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPZ09NWGw1eXpPb19zQjU5elRNYkVGdUVERURmUHZ2MmdaU2RwQTFFM0RpYkFtTE9KdU1ZLTVQUXNvN2tRczJTekdqM1EyM0d6TTJHT0xoTi1JODBiYng0Zk1YZ1Z3Znpyal9UaFpkeDlPdWNibURudmU2Tkx6VEtwR0x0QzhSWWo4S3hPakpNcGVuMVUteEI4RG1VY2paLXJKbG84QkQyY0x6cV9kTnZpVENMaUxlMWlieEk4aEQyRFVuWm5JeGJrTDZMUnJNM2VnNlp2TWZMcjlBZno2dFJJT3FLeGJtMEVaeWZOSjR3TGxUTThndGVpM054cF9Lc1cyUzJTTVMxbWhMNmlLTFR5YUtRSUo1eVhTNmxqNmZac1hhUQ?oc=5"
     },
     {
       "iso": "FRA",
@@ -4097,7 +4090,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-29T06:45:02Z",
+      "last_update": "2026-05-29T06:50:06Z",
       "signals": 3,
       "recent": [
         {
