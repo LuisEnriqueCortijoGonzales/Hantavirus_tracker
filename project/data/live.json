@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-29T08:25:08.294655Z",
-  "next_update": "2026-05-29T08:30:00Z",
+  "generated": "2026-05-29T08:30:07.569827Z",
+  "next_update": "2026-05-29T08:35:00Z",
   "days_active": 21,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -247,13 +247,13 @@
       "gov_alert": false
     },
     "POL": {
-      "ytd": 45,
+      "ytd": 46,
       "alert": "vigilancia",
       "cfr": 0.3,
       "var_pct": 1,
       "strain": "puumala",
-      "new_today": 0,
-      "r0": 0.0,
+      "new_today": 1,
+      "r0": 3.5,
       "signals": 0,
       "gov_alert": false
     },
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2038,
+      "ytd": 2039,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 9,
       "strain": "puumala",
-      "new_today": 70,
+      "new_today": 71,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -914,7 +914,7 @@
       234,
       237,
       248,
-      258,
+      259,
       268,
       277,
       286
@@ -933,7 +933,7 @@
       45,
       45,
       45,
-      45
+      46
     ],
     "NOR": [
       67,
@@ -1251,9 +1251,9 @@
       1872,
       1872,
       1872,
-      1891,
+      1892,
       1968,
-      2038
+      2039
     ],
     "BLR": [
       34,
@@ -1344,7 +1344,7 @@
       2341,
       2341,
       2368,
-      2480,
+      2481,
       2586,
       2685,
       2776,
@@ -4008,7 +4008,7 @@
     "polymarket": 6,
     "kalshi": 30,
     "max_andes_r0": 1.63,
-    "avg_other_r0": 0.54,
+    "avg_other_r0": 0.61,
     "continents": [
       "Americas",
       "Asia",
@@ -4082,7 +4082,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-29T08:25:08Z",
+      "last_update": "2026-05-29T08:30:07Z",
       "signals": 3,
       "recent": [
         {
