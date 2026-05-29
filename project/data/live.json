@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-29T16:40:07.533084Z",
-  "next_update": "2026-05-29T16:45:00Z",
+  "generated": "2026-05-29T16:45:06.798424Z",
+  "next_update": "2026-05-29T16:50:00Z",
   "days_active": 21,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -236,12 +236,12 @@
       "gov_alert": false
     },
     "DEU": {
-      "ytd": 288,
+      "ytd": 289,
       "alert": "vigilancia",
       "cfr": 0.2,
       "var_pct": 23,
       "strain": "puumala",
-      "new_today": 8,
+      "new_today": 9,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GRC": {
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2061,
+      "ytd": 2062,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 10,
       "strain": "puumala",
-      "new_today": 68,
+      "new_today": 69,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -575,7 +575,7 @@
       87,
       95,
       103,
-      111,
+      112,
       120,
       128,
       136,
@@ -917,7 +917,7 @@
       262,
       272,
       280,
-      288
+      289
     ],
     "POL": [
       45,
@@ -1253,7 +1253,7 @@
       1872,
       1918,
       1993,
-      2061
+      2062
     ],
     "BLR": [
       34,
@@ -1343,8 +1343,8 @@
       2341,
       2341,
       2341,
-      2407,
-      2517,
+      2408,
+      2518,
       2621,
       2717,
       2805,
@@ -4006,7 +4006,7 @@
     "composite": 25,
     "epidemio": 30,
     "polymarket": 6,
-    "kalshi": 34,
+    "kalshi": 33,
     "max_andes_r0": 1.93,
     "avg_other_r0": 0.61,
     "continents": [
@@ -4020,18 +4020,10 @@
   "signal_summary": {
     "ARG": 5,
     "JPN": 1,
-    "GBR": 1,
     "FRA": 2,
     "PAN": 1
   },
   "events": [
-    {
-      "iso": "GBR",
-      "title": "The US hantavirus cruise passengers may soon go home ahead of the 42-day symptom period. Here\u2019s why - Yahoo News UK",
-      "t": "2026-05-29T16:15:20Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTW8wcWtFTGFNS1J5aHhNcnpGZXN6bkRwZEFvRk90MVFhdHV2dmZYcVg3TFVBX1VkX0ozVlgtaDNWV180elBuWGhvMEhZQy1nbmk2NzlmcE1Qa1dlR003Z1NqX1JEOEEwdEUyV2tDY0R5M1BGOW5MOW1Gc0hIRkJoODB3?oc=5"
-    },
     {
       "iso": "ARG",
       "title": "Hantavirus: Climate change suspected of contributing to recent surge in cases in Argentina - Le Monde.fr",
@@ -4112,7 +4104,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-29T16:40:07Z",
+      "last_update": "2026-05-29T16:45:06Z",
       "signals": 3,
       "recent": [
         {
