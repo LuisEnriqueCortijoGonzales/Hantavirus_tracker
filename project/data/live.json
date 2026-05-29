@@ -1,25 +1,25 @@
 {
-  "generated": "2026-05-29T17:25:06.056251Z",
-  "next_update": "2026-05-29T17:30:00Z",
+  "generated": "2026-05-29T17:30:05.328792Z",
+  "next_update": "2026-05-29T17:35:00Z",
   "days_active": 21,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 158,
+      "ytd": 157,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 56,
+      "var_pct": 55,
       "strain": "andes",
       "new_today": 7,
-      "r0": 1.93,
-      "signals": 5,
+      "r0": 1.85,
+      "signals": 4,
       "gov_alert": false
     },
     "CHL": {
       "ytd": 68,
       "alert": "brote",
       "cfr": 35.5,
-      "var_pct": 40,
+      "var_pct": 39,
       "strain": "andes",
       "new_today": 2,
       "r0": 0.9,
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -214,7 +214,7 @@
       "gov_alert": false
     },
     "FIN": {
-      "ytd": 488,
+      "ytd": 487,
       "alert": "brote",
       "cfr": 0.1,
       "var_pct": 42,
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2063,
+      "ytd": 2064,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 10,
       "strain": "puumala",
-      "new_today": 68,
+      "new_today": 69,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      69,
-      69,
+      68,
+      68,
       72,
-      80,
+      79,
       87,
       95,
-      104,
-      112,
-      120,
-      128,
-      136,
-      144,
-      151,
-      158
+      103,
+      111,
+      119,
+      127,
+      135,
+      143,
+      150,
+      157
     ],
     "CHL": [
       31,
@@ -885,7 +885,7 @@
       498,
       495,
       491,
-      488
+      487
     ],
     "SWE": [
       145,
@@ -1253,7 +1253,7 @@
       1872,
       1921,
       1995,
-      2063
+      2064
     ],
     "BLR": [
       34,
@@ -1452,6 +1452,8 @@
   ],
   "hourly_history": {
     "ARG": [
+      143,
+      143,
       144,
       144,
       144,
@@ -1461,7 +1463,7 @@
       146,
       146,
       146,
-      147,
+      146,
       147,
       147,
       147,
@@ -1471,10 +1473,11 @@
       149,
       149,
       149,
+      149,
       150,
       150,
       150,
-      150,
+      151,
       151,
       151,
       151,
@@ -1496,10 +1499,7 @@
       156,
       156,
       157,
-      157,
-      157,
-      157,
-      158
+      157
     ],
     "CHL": [
       64,
@@ -4004,10 +4004,10 @@
   },
   "pandemic": {
     "composite": 23,
-    "epidemio": 30,
+    "epidemio": 29,
     "polymarket": 6,
-    "kalshi": 27,
-    "max_andes_r0": 1.93,
+    "kalshi": 28,
+    "max_andes_r0": 1.85,
     "avg_other_r0": 0.61,
     "continents": [
       "Americas",
@@ -4018,11 +4018,19 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "ARG": 5,
+    "ARG": 4,
+    "CAN": 1,
     "FRA": 2,
     "PAN": 1
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "Hantavirus Cruise Ship\u201c \u201dPassengers in U.S. Quarantine Could Be Allowed to Return Home Under 24/7 Watch: Report - Yahoo News Canada",
+      "t": "2026-05-29T17:01:28Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcWtGVVJHTFpLNk81RTFOSGVPLXdTVTloZk1GMFpKYWhySTRQa2dIUmJXUU1TSGxVR0tOZVZ0WG5udnlNQ1B4d0tSckdLa0h4eTZRVFF1VkpHQkliOGpRckw4QlBpVnZ0dDByWVRGTW44NnhXVWZMelA4Z01mRENIS3FB?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Hantavirus: Climate change suspected of contributing to recent surge in cases in Argentina - Le Monde.fr",
@@ -4071,13 +4079,6 @@
       "t": "2026-05-25T22:40:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina acelera la investigaci\u00f3n del brote de hantavirus - VOV World",
-      "t": "2026-05-20T11:18:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYjM2dk5WaEhHX2dmZGhQTEJKdy1yOGdoNjlyNHEwN3VtSHJXVS10TEJPbVJfTmNnSHpwR0FhdXhwUzlNRGp4M3lOQmN6UDRrbVIzZjA3alBWczZhNVJPQXd5LWJFd2ZkaHpEUlRfNTRiNUpZZzMwNmpyQWdtTTVlVUt5Vkw1cmJBdWN3VXVZWGhfTnkwLXAzS2FyRnpNWTJwZ2RnSXBGY3VTdw?oc=5"
     }
   ],
   "maritime_events": [
@@ -4096,8 +4097,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-29T17:25:06Z",
-      "signals": 3,
+      "last_update": "2026-05-29T17:30:05Z",
+      "signals": 4,
       "recent": [
         {
           "title": "Brote de hantavirus en el crucero MV Hondius: suben los casos y la OMS sigue el rastro del \u201cpaciente cero\u201d en Argentina - Los Primeros TV",
@@ -4108,6 +4109,11 @@
           "title": "Sin nuevos casos de hantavirus en Argentina, pero sigue la investigaci\u00f3n por el brote en un crucero \u2014 ACTUALIDAD - Opinando San Nicol\u00e1s",
           "t": "2026-05-27T12:50:25Z",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOU15bTQ3R24xejJwTDJxTzV0Z2hzbnZ3QkczWkpyc3ZoMlFHME5NdTVqNmVIbmZEQjViRW1tY1l5NlV4MHBEREhsTDFVUWtTQjZwbmYwa3NWMjNKbS1pbXAwUWQ1WlZQUG0xTVRDUElESG1CdGpRLUlYUXRsR2pyam5sQlM0d3FYUWxyY3QwXzNiXzRjckNNODJpTWJ2LXJTX3BodzRjZ0tWMnFmbnMtLVp1TVNSU2owSEw5X3JoSGI0SDdnRDNtWkxSbTBaSGFvYWRUX2ZCX0o?oc=5"
+        },
+        {
+          "title": "Hantavirus Cruise Ship\u201c \u201dPassengers in U.S. Quarantine Could Be Allowed to Return Home Under 24/7 Watch: Report - Yahoo News Canada",
+          "t": "2026-05-29T17:01:28Z",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcWtGVVJHTFpLNk81RTFOSGVPLXdTVTloZk1GMFpKYWhySTRQa2dIUmJXUU1TSGxVR0tOZVZ0WG5udnlNQ1B4d0tSckdLa0h4eTZRVFF1VkpHQkliOGpRckw4QlBpVnZ0dDByWVRGTW44NnhXVWZMelA4Z01mRENIS3FB?oc=5"
         },
         {
           "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
