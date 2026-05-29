@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-29T01:45:05.306327Z",
-  "next_update": "2026-05-29T01:50:00Z",
+  "generated": "2026-05-29T01:50:15.082702Z",
+  "next_update": "2026-05-29T01:55:00Z",
   "days_active": 21,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 152,
+      "ytd": 153,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 59,
       "strain": "andes",
-      "new_today": 7,
-      "r0": 1.49,
-      "signals": 3,
+      "new_today": 8,
+      "r0": 1.56,
+      "signals": 4,
       "gov_alert": false
     },
     "CHL": {
@@ -572,16 +572,16 @@
       68,
       68,
       74,
-      81,
-      89,
-      97,
-      105,
-      113,
+      82,
+      90,
+      98,
+      106,
+      114,
       122,
       130,
-      137,
+      138,
       145,
-      152
+      153
     ],
     "CHL": [
       31,
@@ -1345,7 +1345,7 @@
       2341,
       2341,
       2450,
-      2557,
+      2558,
       2658,
       2751,
       2837,
@@ -1452,8 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      137,
-      138,
       138,
       138,
       139,
@@ -1465,7 +1463,7 @@
       141,
       141,
       141,
-      141,
+      142,
       142,
       142,
       142,
@@ -1478,7 +1476,7 @@
       145,
       145,
       145,
-      145,
+      146,
       146,
       146,
       146,
@@ -1488,17 +1486,19 @@
       148,
       148,
       148,
-      148,
       149,
       149,
       149,
-      150,
+      149,
       150,
       150,
       150,
       151,
       151,
       151,
+      151,
+      152,
+      152,
       152
     ],
     "CHL": [
@@ -4003,11 +4003,11 @@
     ]
   },
   "pandemic": {
-    "composite": 20,
-    "epidemio": 25,
+    "composite": 21,
+    "epidemio": 26,
     "polymarket": 6,
-    "kalshi": 26,
-    "max_andes_r0": 1.49,
+    "kalshi": 25,
+    "max_andes_r0": 1.56,
     "avg_other_r0": 0.47,
     "continents": [
       "Americas",
@@ -4021,7 +4021,7 @@
     "JPN": 2,
     "FRA": 2,
     "PAN": 1,
-    "ARG": 3
+    "ARG": 4
   },
   "events": [
     {
@@ -4075,6 +4075,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Argentina acelera la investigaci\u00f3n del brote de hantavirus - VOV World",
+      "t": "2026-05-20T11:18:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYjM2dk5WaEhHX2dmZGhQTEJKdy1yOGdoNjlyNHEwN3VtSHJXVS10TEJPbVJfTmNnSHpwR0FhdXhwUzlNRGp4M3lOQmN6UDRrbVIzZjA3alBWczZhNVJPQXd5LWJFd2ZkaHpEUlRfNTRiNUpZZzMwNmpyQWdtTTVlVUt5Vkw1cmJBdWN3VXVZWGhfTnkwLXAzS2FyRnpNWTJwZ2RnSXBGY3VTdw?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Hantavirus en Argentina: qu\u00e9 muestran los n\u00fameros oficiales y c\u00f3mo se vinculan con la evoluci\u00f3n del brote del crucero MV Hondius - infomed.com.ar",
       "t": "2026-05-15T12:34:16Z",
       "source": "GoogleNews-ES",
@@ -4097,7 +4104,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-29T01:45:05Z",
+      "last_update": "2026-05-29T01:50:15Z",
       "signals": 3,
       "recent": [
         {
