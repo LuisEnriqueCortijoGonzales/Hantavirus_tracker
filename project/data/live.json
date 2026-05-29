@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-29T08:20:09.088358Z",
-  "next_update": "2026-05-29T08:25:00Z",
+  "generated": "2026-05-29T08:25:08.294655Z",
+  "next_update": "2026-05-29T08:30:00Z",
   "days_active": 21,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -472,7 +472,7 @@
       "cfr": 0.9,
       "var_pct": 9,
       "strain": "puumala",
-      "new_today": 71,
+      "new_today": 70,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -562,7 +562,7 @@
       "strain": "hantaan",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     }
   },
@@ -897,7 +897,7 @@
       145,
       145,
       145,
-      149,
+      150,
       155,
       160,
       165,
@@ -1252,7 +1252,7 @@
       1872,
       1872,
       1891,
-      1967,
+      1968,
       2038
     ],
     "BLR": [
@@ -1343,11 +1343,11 @@
       2341,
       2341,
       2341,
-      2367,
+      2368,
       2480,
       2586,
-      2684,
-      2775,
+      2685,
+      2776,
       2859,
       3492
     ],
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 21,
+    "composite": 22,
     "epidemio": 26,
     "polymarket": 6,
-    "kalshi": 27,
+    "kalshi": 30,
     "max_andes_r0": 1.63,
     "avg_other_r0": 0.54,
     "continents": [
@@ -4018,19 +4018,11 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "JPN": 1,
     "FRA": 2,
     "PAN": 1,
     "ARG": 3
   },
   "events": [
-    {
-      "iso": "JPN",
-      "title": "Experimental Hantavirus Treatment Sent to Europe Through Partnership With Japan - Morocco World News",
-      "t": "2026-05-28T18:34:06Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLTVYalhSdlZZSl9SN2d6TllSc0l6MnU5TXdhVHJ6NExPMTBqbHBNVVhLNTZHOEpveGhaVHVQQkJjbWk5RVN6WlpJSzlGaFNpN01Da193ZDMxcmh0TkJqdnNLOHRuWlFzMG1zRGkwenQxRk9sZkZhWEFLNm5uZWptamdQbTVzaW5lSHoxdkNYTFc4Q0FIZ2NSNTlfLWV5bUd2T0RrMmV1ZV8zNWZ5dzVxQVNpZHVsckc2V1dBQWh0NkNVZXE5UWlB?oc=5"
-    },
     {
       "iso": "FRA",
       "title": "Espa\u00f1a, Francia y Pa\u00edses Bajos reciben un antiviral experimental japon\u00e9s contra el hantavirus - Infosalus",
@@ -4090,7 +4082,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-29T08:20:09Z",
+      "last_update": "2026-05-29T08:25:08Z",
       "signals": 3,
       "recent": [
         {
