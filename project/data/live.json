@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-29T09:20:05.302427Z",
-  "next_update": "2026-05-29T09:25:00Z",
+  "generated": "2026-05-29T09:25:15.074438Z",
+  "next_update": "2026-05-29T09:30:00Z",
   "days_active": 21,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -472,7 +472,7 @@
       "cfr": 0.9,
       "var_pct": 9,
       "strain": "puumala",
-      "new_today": 71,
+      "new_today": 70,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -562,7 +562,7 @@
       "strain": "hantaan",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     }
   },
@@ -1251,8 +1251,8 @@
       1872,
       1872,
       1872,
-      1894,
-      1970,
+      1895,
+      1971,
       2041
     ],
     "BLR": [
@@ -1343,10 +1343,10 @@
       2341,
       2341,
       2341,
-      2372,
-      2484,
+      2373,
+      2485,
       2590,
-      2688,
+      2689,
       2779,
       2862,
       3491
@@ -4006,7 +4006,7 @@
     "composite": 21,
     "epidemio": 26,
     "polymarket": 6,
-    "kalshi": 27,
+    "kalshi": 26,
     "max_andes_r0": 1.63,
     "avg_other_r0": 0.61,
     "continents": [
@@ -4018,19 +4018,11 @@
     "outbreak_count": 6
   },
   "signal_summary": {
-    "JPN": 1,
     "FRA": 2,
     "PAN": 1,
     "ARG": 3
   },
   "events": [
-    {
-      "iso": "JPN",
-      "title": "Experimental Hantavirus Treatment Sent to Europe Through Partnership With Japan - Morocco World News",
-      "t": "2026-05-28T18:34:06Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQLTVYalhSdlZZSl9SN2d6TllSc0l6MnU5TXdhVHJ6NExPMTBqbHBNVVhLNTZHOEpveGhaVHVQQkJjbWk5RVN6WlpJSzlGaFNpN01Da193ZDMxcmh0TkJqdnNLOHRuWlFzMG1zRGkwenQxRk9sZkZhWEFLNm5uZWptamdQbTVzaW5lSHoxdkNYTFc4Q0FIZ2NSNTlfLWV5bUd2T0RrMmV1ZV8zNWZ5dzVxQVNpZHVsckc2V1dBQWh0NkNVZXE5UWlB?oc=5"
-    },
     {
       "iso": "FRA",
       "title": "Espa\u00f1a, Francia y Pa\u00edses Bajos reciben un antiviral experimental japon\u00e9s contra el hantavirus - Infosalus",
@@ -4090,7 +4082,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-29T09:20:05Z",
+      "last_update": "2026-05-29T09:25:15Z",
       "signals": 3,
       "recent": [
         {
