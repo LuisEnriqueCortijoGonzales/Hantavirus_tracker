@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-30T15:30:12.075612Z",
-  "next_update": "2026-05-30T15:35:00Z",
+  "generated": "2026-05-30T15:35:06.087377Z",
+  "next_update": "2026-05-30T15:40:00Z",
   "days_active": 22,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -45,7 +45,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "PER": {
@@ -913,7 +913,7 @@
       234,
       240,
       251,
-      261,
+      262,
       271,
       280,
       288,
@@ -1250,7 +1250,7 @@
       1872,
       1872,
       1872,
-      1914,
+      1915,
       1989,
       2058,
       2122
@@ -1343,9 +1343,9 @@
       2341,
       2341,
       2402,
-      2512,
+      2513,
       2616,
-      2712,
+      2713,
       2801,
       3508,
       3485,
@@ -4006,7 +4006,7 @@
     "composite": 18,
     "epidemio": 22,
     "polymarket": 6,
-    "kalshi": 23,
+    "kalshi": 24,
     "max_andes_r0": 1.36,
     "avg_other_r0": 0.64,
     "continents": [
@@ -4020,17 +4020,9 @@
   "signal_summary": {
     "ARG": 4,
     "PAN": 1,
-    "FRA": 1,
-    "BOL": 1
+    "FRA": 1
   },
   "events": [
-    {
-      "iso": "BOL",
-      "title": "Tres pa\u00edses recibir\u00e1n antiviral experimental contra hantavirus - El Diario - Bolivia",
-      "t": "2026-05-30T11:49:25Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRWJqdndGTVl6dWYwaTlScUlFaGRGZ0xkaVNaZVB5VkVJTXZCSnBFQnBncS1mdF9OV3ZKQzZFQVJKcXlmVUp5bTJsbHVyOHlRbXVZQTBER3plV3FTNDdkYWQ0Y0pXaUcwTHhHZVN2eERMSi1hWV93cmE3emJ0cmtjb0hzUXV4bHg5ZW9xNzJ2eGplSmlCSHBkR2hSQW9nZk9pRkp0WUZCd0V3amVw?oc=5"
-    },
     {
       "iso": "ARG",
       "title": "Hantavirus: Climate change suspected of contributing to recent surge in cases in Argentina - Le Monde.fr",
@@ -4090,7 +4082,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-30T15:30:12Z",
+      "last_update": "2026-05-30T15:35:06Z",
       "signals": 3,
       "recent": [
         {
