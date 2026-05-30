@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-30T10:00:14.295839Z",
-  "next_update": "2026-05-30T10:05:00Z",
+  "generated": "2026-05-30T10:05:13.667846Z",
+  "next_update": "2026-05-30T10:10:00Z",
   "days_active": 22,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 161,
+      "ytd": 162,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 52,
       "strain": "andes",
       "new_today": 6,
-      "r0": 1.25,
-      "signals": 4,
+      "r0": 1.31,
+      "signals": 5,
       "gov_alert": false
     },
     "CHL": {
@@ -83,7 +83,7 @@
     },
     "USA": {
       "ytd": 22,
-      "alert": "brote",
+      "alert": "vigilancia",
       "cfr": 36.0,
       "var_pct": 20,
       "strain": "hps",
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 1,
+      "var_pct": 2,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 3,
+      "signals": 4,
       "gov_alert": false
     },
     "CHE": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      68,
+      69,
       70,
       77,
       85,
-      92,
-      100,
+      93,
+      101,
       109,
       117,
-      125,
-      133,
+      126,
+      134,
       141,
-      148,
-      155,
-      161
+      149,
+      156,
+      162
     ],
     "CHL": [
       32,
@@ -1250,8 +1250,8 @@
       1872,
       1872,
       1872,
-      1896,
-      1972,
+      1897,
+      1973,
       2043,
       2108
     ],
@@ -1342,12 +1342,12 @@
       2341,
       2341,
       2341,
-      2375,
-      2487,
+      2376,
+      2488,
       2593,
       2691,
-      2781,
-      2864,
+      2782,
+      2865,
       3490,
       3467
     ],
@@ -1452,15 +1452,12 @@
   ],
   "hourly_history": {
     "ARG": [
-      148,
-      149,
-      149,
       149,
       149,
       150,
       150,
       150,
-      151,
+      150,
       151,
       151,
       151,
@@ -1488,7 +1485,7 @@
       158,
       158,
       158,
-      159,
+      158,
       159,
       159,
       159,
@@ -1499,7 +1496,10 @@
       161,
       161,
       161,
-      161
+      161,
+      162,
+      162,
+      162
     ],
     "CHL": [
       65,
@@ -4007,7 +4007,7 @@
     "epidemio": 21,
     "polymarket": 6,
     "kalshi": 25,
-    "max_andes_r0": 1.25,
+    "max_andes_r0": 1.31,
     "avg_other_r0": 0.64,
     "continents": [
       "Americas",
@@ -4015,12 +4015,12 @@
       "Europe"
     ],
     "emergency_count": 0,
-    "outbreak_count": 6
+    "outbreak_count": 5
   },
   "signal_summary": {
-    "ARG": 4,
+    "ARG": 5,
     "PAN": 1,
-    "FRA": 3
+    "FRA": 4
   },
   "events": [
     {
@@ -4078,6 +4078,20 @@
       "t": "2026-05-22T14:47:10Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUm5wVnpaNFJOTzJkTjlXWkFDS0N3ZHp1ckVwekhwbjhZSkJaemYySTdra2NrcVdSWDQ5RE80M2F4eHpKVnFCRUtWR3pnUC1VS0Ftb3gxRXZZZzFsc2RESmlsVlZISENfSGxvbHRFM3RxMTh2WUNVdE9GZExiRl9nTlBTdmNLNFB0TlU1empUOTVmenphSnRzcTFKa1NyMEEwbng2RmdIUzUxZFBmSkdEckd3Q0VjNGF2SThsdmNTdUlsaWptNS0xMHBTTEZ5aWhja091bEZtTW1LZw?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - France 24",
+      "t": "2026-05-18T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVlhuUG82VktZUi1sOWRpclRTZU9HUVZmQjRwaS0tVml5bXhuakthM0xHYUhXYzJEbGFMR200NUF0QnlfMnV4SzkyaXRURzRWcnM3bTBJQjdkSnlrMGhSVENkMUxjRzNrNW1JNVJvUlZaV3JCdzdZbmZQLXYwUTVmR2x6bFZVXy1EX3FBTk9uRXFIVHhwOS1ucXRZVGNwSERTdTRqYzFVbHdyTXh5SjJ5bXZVc2NEaGNPczZsbF9saFd0R0VMQU9ac19FbjlNd0VhTjd0cWx1WGJCMW5tLWVUdk1Tbw?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - France 24",
+      "t": "2026-05-18T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVlhuUG82VktZUi1sOWRpclRTZU9HUVZmQjRwaS0tVml5bXhuakthM0xHYUhXYzJEbGFMR200NUF0QnlfMnV4SzkyaXRURzRWcnM3bTBJQjdkSnlrMGhSVENkMUxjRzNrNW1JNVJvUlZaV3JCdzdZbmZQLXYwUTVmR2x6bFZVXy1EX3FBTk9uRXFIVHhwOS1ucXRZVGNwSERTdTRqYzFVbHdyTXh5SjJ5bXZVc2NEaGNPczZsbF9saFd0R0VMQU9ac19FbjlNd0VhTjd0cWx1WGJCMW5tLWVUdk1Tbw?oc=5"
     }
   ],
   "maritime_events": [
@@ -4096,8 +4110,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-30T10:00:14Z",
-      "signals": 3,
+      "last_update": "2026-05-30T10:05:13Z",
+      "signals": 4,
       "recent": [
         {
           "title": "Brote de hantavirus en el crucero MV Hondius: suben los casos y la OMS sigue el rastro del \u201cpaciente cero\u201d en Argentina - Los Primeros TV",
@@ -4108,6 +4122,11 @@
           "title": "Sin nuevos casos de hantavirus en Argentina, pero sigue la investigaci\u00f3n por el brote en un crucero \u2014 ACTUALIDAD - Opinando San Nicol\u00e1s",
           "t": "2026-05-27T12:50:25Z",
           "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOU15bTQ3R24xejJwTDJxTzV0Z2hzbnZ3QkczWkpyc3ZoMlFHME5NdTVqNmVIbmZEQjViRW1tY1l5NlV4MHBEREhsTDFVUWtTQjZwbmYwa3NWMjNKbS1pbXAwUWQ1WlZQUG0xTVRDUElESG1CdGpRLUlYUXRsR2pyam5sQlM0d3FYUWxyY3QwXzNiXzRjckNNODJpTWJ2LXJTX3BodzRjZ0tWMnFmbnMtLVp1TVNSU2owSEw5X3JoSGI0SDdnRDNtWkxSbTBaSGFvYWRUX2ZCX0o?oc=5"
+        },
+        {
+          "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - France 24",
+          "t": "2026-05-18T07:00:00Z",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVlhuUG82VktZUi1sOWRpclRTZU9HUVZmQjRwaS0tVml5bXhuakthM0xHYUhXYzJEbGFMR200NUF0QnlfMnV4SzkyaXRURzRWcnM3bTBJQjdkSnlrMGhSVENkMUxjRzNrNW1JNVJvUlZaV3JCdzdZbmZQLXYwUTVmR2x6bFZVXy1EX3FBTk9uRXFIVHhwOS1ucXRZVGNwSERTdTRqYzFVbHdyTXh5SjJ5bXZVc2NEaGNPczZsbF9saFd0R0VMQU9ac19FbjlNd0VhTjd0cWx1WGJCMW5tLWVUdk1Tbw?oc=5"
         },
         {
           "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
