@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-30T08:25:12.834649Z",
-  "next_update": "2026-05-30T08:30:00Z",
+  "generated": "2026-05-30T08:30:01.561055Z",
+  "next_update": "2026-05-30T08:35:00Z",
   "days_active": 22,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,7 +85,7 @@
       "ytd": 22,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 19,
+      "var_pct": 20,
       "strain": "hps",
       "new_today": 2,
       "r0": 3.5,
@@ -252,7 +252,7 @@
       "cfr": 0.3,
       "var_pct": 4,
       "strain": "puumala",
-      "new_today": 2,
+      "new_today": 1,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -467,7 +467,7 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2103,
+      "ytd": 2104,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 12,
@@ -536,7 +536,7 @@
       "ytd": 3469,
       "alert": "brote",
       "cfr": 1.2,
-      "var_pct": 47,
+      "var_pct": 46,
       "strain": "hantaan",
       "new_today": 0,
       "r0": 5.0,
@@ -913,7 +913,7 @@
       234,
       237,
       248,
-      258,
+      259,
       268,
       277,
       286,
@@ -932,7 +932,7 @@
       45,
       45,
       45,
-      45,
+      46,
       47
     ],
     "NOR": [
@@ -1250,10 +1250,10 @@
       1872,
       1872,
       1872,
-      1891,
+      1892,
       1968,
-      2038,
-      2103
+      2039,
+      2104
     ],
     "BLR": [
       34,
@@ -1343,7 +1343,7 @@
       2341,
       2341,
       2368,
-      2480,
+      2481,
       2586,
       2685,
       2776,
@@ -4089,7 +4089,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-30T08:25:12Z",
+      "last_update": "2026-05-30T08:30:01Z",
       "signals": 3,
       "recent": [
         {
