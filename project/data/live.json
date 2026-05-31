@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-31T12:40:05.310846Z",
-  "next_update": "2026-05-31T12:45:00Z",
+  "generated": "2026-05-31T12:45:15.061790Z",
+  "next_update": "2026-05-31T12:50:00Z",
   "days_active": 23,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -472,7 +472,7 @@
       "cfr": 0.9,
       "var_pct": 16,
       "strain": "puumala",
-      "new_today": 59,
+      "new_today": 58,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -876,7 +876,7 @@
       312,
       312,
       323,
-      339,
+      340,
       355,
       370,
       384,
@@ -1251,8 +1251,8 @@
       1872,
       1905,
       1981,
-      2050,
-      2114,
+      2051,
+      2115,
       2173
     ],
     "BLR": [
@@ -1341,10 +1341,10 @@
       2341,
       2341,
       2341,
-      2388,
+      2389,
       2500,
       2604,
-      2701,
+      2702,
       2791,
       3511,
       3488,
@@ -4006,7 +4006,7 @@
     "composite": 15,
     "epidemio": 17,
     "polymarket": 6,
-    "kalshi": 19,
+    "kalshi": 21,
     "max_andes_r0": 0.66,
     "avg_other_r0": 0.67,
     "continents": [
@@ -4026,7 +4026,7 @@
   "events": [
     {
       "iso": "USA",
-      "title": "Ebola, hantavirus and the warning America should not ignore | Opinion - The Portland Press Herald",
+      "title": "Ebola, hantavirus and the warning America should not ignore | Opinion - Portland Press Herald - Maine Sunday Telegram",
       "t": "2026-05-31T08:34:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5SjJaV28yai1CQTRQM1MwU1lscGpmOWctWklHeVdGaHJjQU50ZE1sR1MwSExDQmxDb3NjLUVJT3hoMFpZeGZMU2NoYVBQMGM?oc=5"
@@ -4090,7 +4090,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-31T12:40:05Z",
+      "last_update": "2026-05-31T12:45:15Z",
       "signals": 4,
       "recent": [
         {
