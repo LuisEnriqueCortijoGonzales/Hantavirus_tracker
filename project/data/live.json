@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-31T08:35:15.841533Z",
-  "next_update": "2026-05-31T08:40:00Z",
+  "generated": "2026-05-31T08:40:09.803767Z",
+  "next_update": "2026-05-31T08:45:00Z",
   "days_active": 23,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 23,
       "alert": "vigilancia",
       "cfr": 36.0,
-      "var_pct": 27,
+      "var_pct": 28,
       "strain": "hps",
       "new_today": 1,
       "r0": 3.5,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2163,
+      "ytd": 2164,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 16,
       "strain": "puumala",
-      "new_today": 59,
+      "new_today": 60,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -575,7 +575,7 @@
       100,
       108,
       116,
-      124,
+      125,
       132,
       140,
       148,
@@ -897,7 +897,7 @@
       145,
       150,
       155,
-      160,
+      161,
       165,
       202,
       201,
@@ -1253,7 +1253,7 @@
       1968,
       2039,
       2104,
-      2163
+      2164
     ],
     "BLR": [
       34,
@@ -1344,8 +1344,8 @@
       2369,
       2481,
       2587,
-      2685,
-      2776,
+      2686,
+      2777,
       2860,
       3492,
       3469,
@@ -1807,8 +1807,6 @@
       20,
       20,
       20,
-      20,
-      20,
       21,
       21,
       21,
@@ -1843,6 +1841,8 @@
       22,
       22,
       22,
+      23,
+      23,
       23,
       23,
       23,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 14,
     "epidemio": 17,
     "polymarket": 6,
-    "kalshi": 22,
+    "kalshi": 16,
     "max_andes_r0": 0.63,
     "avg_other_r0": 0.67,
     "continents": [
@@ -4018,11 +4018,19 @@
     "outbreak_count": 5
   },
   "signal_summary": {
+    "USA": 1,
     "ARG": 4,
     "PAN": 1,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "Ebola, hantavirus and the warning America should not ignore | Opinion - Sun Journal",
+      "t": "2026-05-31T08:34:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM052bTY2ZVVMZGdLZEt1bEVFNlJ4TE9KeE14MkR3LXJ3QURxc1NRVnJ0dWRqdS00UGJyUzhMaURBWml1S3VBRDEyUEZQb3pYVzRvTXZyVVhBNk93NzBNaENlSnFoT1lOY3lMMFJUbHZLc2E3dElVVDlnUlZMSW9SNDVPdl9zSUVMMTkwaVFDZHF0VlpRdk9ORldiSE01V3NGdkQ0alJMdjM?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Hantavirus: el crucero MV Hondius volver\u00e1 a navegar en junio tras el brote iniciado en Argentina - La Voz del Interior",
@@ -4082,7 +4090,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-31T08:35:15Z",
+      "last_update": "2026-05-31T08:40:09Z",
       "signals": 4,
       "recent": [
         {
