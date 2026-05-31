@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-31T23:05:11.311896Z",
-  "next_update": "2026-05-31T23:10:00Z",
+  "generated": "2026-05-31T23:10:05.289564Z",
+  "next_update": "2026-05-31T23:15:00Z",
   "days_active": 23,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -217,7 +217,7 @@
       "ytd": 480,
       "alert": "brote",
       "cfr": 0.1,
-      "var_pct": 28,
+      "var_pct": 27,
       "strain": "puumala",
       "new_today": 0,
       "r0": 3.41,
@@ -472,7 +472,7 @@
       "cfr": 0.9,
       "var_pct": 17,
       "strain": "puumala",
-      "new_today": 57,
+      "new_today": 56,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -549,7 +549,7 @@
       "cfr": 1.5,
       "var_pct": 9,
       "strain": "hantaan",
-      "new_today": 3,
+      "new_today": 2,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -876,7 +876,7 @@
       312,
       313,
       330,
-      346,
+      347,
       362,
       376,
       390,
@@ -911,7 +911,7 @@
       234,
       234,
       244,
-      254,
+      255,
       265,
       274,
       283,
@@ -1250,9 +1250,9 @@
       1872,
       1872,
       1939,
-      2011,
+      2012,
       2079,
-      2140,
+      2141,
       2197
     ],
     "BLR": [
@@ -1341,9 +1341,9 @@
       2341,
       2341,
       2341,
-      2437,
+      2438,
       2546,
-      2647,
+      2648,
       2741,
       2828,
       3501,
@@ -1364,7 +1364,7 @@
       89,
       89,
       92,
-      94,
+      95,
       97
     ],
     "JPN": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 17,
     "polymarket": 6,
-    "kalshi": 22,
+    "kalshi": 20,
     "max_andes_r0": 0.79,
     "avg_other_r0": 0.74,
     "continents": [
@@ -4104,7 +4104,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-31T23:05:11Z",
+      "last_update": "2026-05-31T23:10:05Z",
       "signals": 4,
       "recent": [
         {
