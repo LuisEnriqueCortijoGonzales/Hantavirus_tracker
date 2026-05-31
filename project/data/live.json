@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-31T20:30:11.525242Z",
-  "next_update": "2026-05-31T20:35:00Z",
+  "generated": "2026-05-31T20:35:12.795957Z",
+  "next_update": "2026-05-31T20:40:00Z",
   "days_active": 23,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,7 +8,7 @@
       "ytd": 172,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 46,
+      "var_pct": 45,
       "strain": "andes",
       "new_today": 6,
       "r0": 0.79,
@@ -239,7 +239,7 @@
       "ytd": 348,
       "alert": "vigilancia",
       "cfr": 0.2,
-      "var_pct": 44,
+      "var_pct": 43,
       "strain": "puumala",
       "new_today": 0,
       "r0": 5.0,
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3436,
+      "ytd": 3435,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 36,
@@ -690,7 +690,7 @@
       18,
       18,
       18,
-      19,
+      20,
       21,
       22,
       24
@@ -1249,7 +1249,7 @@
       1872,
       1872,
       1872,
-      1930,
+      1931,
       2004,
       2072,
       2134,
@@ -1341,15 +1341,15 @@
       2341,
       2341,
       2341,
-      2425,
-      2534,
+      2426,
+      2535,
       2637,
-      2731,
+      2732,
       2819,
       3503,
       3480,
       3458,
-      3436
+      3435
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 17,
     "polymarket": 6,
-    "kalshi": 19,
+    "kalshi": 17,
     "max_andes_r0": 0.79,
     "avg_other_r0": 0.67,
     "continents": [
@@ -4026,7 +4026,7 @@
   "events": [
     {
       "iso": "USA",
-      "title": "Ebola, hantavirus and the warning America should not ignore | Opinion - Portland Press Herald - Maine Sunday Telegram",
+      "title": "Ebola, hantavirus and the warning America should not ignore | Opinion - The Portland Press Herald",
       "t": "2026-05-31T08:34:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5SjJaV28yai1CQTRQM1MwU1lscGpmOWctWklHeVdGaHJjQU50ZE1sR1MwSExDQmxDb3NjLUVJT3hoMFpZeGZMU2NoYVBQMGM?oc=5"
@@ -4111,7 +4111,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-31T20:30:11Z",
+      "last_update": "2026-05-31T20:35:12Z",
       "signals": 5,
       "recent": [
         {
