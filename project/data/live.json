@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-31T15:25:12.056918Z",
-  "next_update": "2026-05-31T15:30:00Z",
+  "generated": "2026-05-31T15:30:11.322131Z",
+  "next_update": "2026-05-31T15:35:00Z",
   "days_active": 23,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -10,7 +10,7 @@
       "cfr": 37.3,
       "var_pct": 47,
       "strain": "andes",
-      "new_today": 7,
+      "new_today": 6,
       "r0": 0.75,
       "signals": 6,
       "gov_alert": false
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "CHE": {
@@ -472,7 +472,7 @@
       "cfr": 0.9,
       "var_pct": 16,
       "strain": "puumala",
-      "new_today": 58,
+      "new_today": 57,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -580,14 +580,14 @@
       144,
       151,
       158,
-      164,
+      165,
       171
     ],
     "CHL": [
       36,
       39,
       42,
-      45,
+      46,
       49,
       52,
       55,
@@ -1252,7 +1252,7 @@
       1914,
       1989,
       2058,
-      2121,
+      2122,
       2179
     ],
     "BLR": [
@@ -1341,7 +1341,7 @@
       2341,
       2341,
       2341,
-      2401,
+      2402,
       2512,
       2616,
       2712,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 17,
     "polymarket": 6,
-    "kalshi": 20,
+    "kalshi": 16,
     "max_andes_r0": 0.75,
     "avg_other_r0": 0.67,
     "continents": [
@@ -4021,7 +4021,7 @@
     "USA": 1,
     "ARG": 6,
     "PAN": 1,
-    "FRA": 2
+    "FRA": 3
   },
   "events": [
     {
@@ -4081,6 +4081,13 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
     },
     {
+      "iso": "FRA",
+      "title": "El operador niega que el crucero sea el origen del brote de hantavirus - France 24",
+      "t": "2026-05-20T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR3lPWGxjMm53TjUtak50TXJxYUpWTkh0ajN6TkdGOE5HSm9ibUF3SUR0bVZjRHd4NGE0QUk4OEw0al9LOXFWTnhrWTlMcktzNzRRTFNNNTZUek5helEyMW9WREVfVi1Zd2xHQmhmQk5IXzdoR2hwS3RpR2EwNE5GUEpCRXVhS0VfV0hOekxXNTBJS1lCR2lpdXB4WUpvVXduY3U1bEhIVjNtb0t6RDAzTTZyQl9KV3pfWXNpYmNmVTk?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "Argentina: cient\u00edficos investigan si brote de hantavirus del crucero MV Hondius empez\u00f3 en Ushuaia - France 24",
       "t": "2026-05-18T07:00:00Z",
@@ -4111,8 +4118,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-31T15:25:12Z",
-      "signals": 5,
+      "last_update": "2026-05-31T15:30:11Z",
+      "signals": 6,
       "recent": [
         {
           "title": "Salud. Hantavirus: el crucero MV Hondius volver\u00e1 a navegar en junio tras el brote iniciado en Argentina - La Voz del Interior",
