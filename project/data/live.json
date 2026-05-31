@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-31T14:30:04.540905Z",
-  "next_update": "2026-05-31T14:35:00Z",
+  "generated": "2026-05-31T14:35:14.302162Z",
+  "next_update": "2026-05-31T14:40:00Z",
   "days_active": 23,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -1251,7 +1251,7 @@
       1872,
       1911,
       1986,
-      2055,
+      2056,
       2119,
       2177
     ],
@@ -1344,7 +1344,7 @@
       2397,
       2508,
       2612,
-      2708,
+      2709,
       2798,
       3509,
       3486,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 17,
     "polymarket": 6,
-    "kalshi": 19,
+    "kalshi": 23,
     "max_andes_r0": 0.72,
     "avg_other_r0": 0.67,
     "continents": [
@@ -4026,7 +4026,7 @@
   "events": [
     {
       "iso": "USA",
-      "title": "Ebola, hantavirus and the warning America should not ignore | Opinion - Portland Press Herald - Maine Sunday Telegram",
+      "title": "Ebola, hantavirus and the warning America should not ignore | Opinion - The Portland Press Herald",
       "t": "2026-05-31T08:34:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5SjJaV28yai1CQTRQM1MwU1lscGpmOWctWklHeVdGaHJjQU50ZE1sR1MwSExDQmxDb3NjLUVJT3hoMFpZeGZMU2NoYVBQMGM?oc=5"
@@ -4118,7 +4118,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-31T14:30:04Z",
+      "last_update": "2026-05-31T14:35:14Z",
       "signals": 5,
       "recent": [
         {
