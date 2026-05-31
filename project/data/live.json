@@ -1,18 +1,18 @@
 {
-  "generated": "2026-05-31T10:10:06.827030Z",
-  "next_update": "2026-05-31T10:15:00Z",
+  "generated": "2026-05-31T10:15:06.042524Z",
+  "next_update": "2026-05-31T10:20:00Z",
   "days_active": 23,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 168,
+      "ytd": 167,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 46,
       "strain": "andes",
       "new_today": 6,
-      "r0": 0.66,
-      "signals": 4,
+      "r0": 0.63,
+      "signals": 3,
       "gov_alert": false
     },
     "CHL": {
@@ -250,7 +250,7 @@
       "ytd": 48,
       "alert": "vigilancia",
       "cfr": 0.3,
-      "var_pct": 7,
+      "var_pct": 8,
       "strain": "puumala",
       "new_today": 1,
       "r0": 3.5,
@@ -547,7 +547,7 @@
       "ytd": 96,
       "alert": "vigilancia",
       "cfr": 1.5,
-      "var_pct": 7,
+      "var_pct": 8,
       "strain": "hantaan",
       "new_today": 3,
       "r0": 3.5,
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      70,
+      69,
       77,
-      85,
+      84,
       92,
-      101,
-      109,
-      117,
-      125,
-      133,
-      141,
-      148,
-      155,
-      162,
-      168
+      100,
+      108,
+      116,
+      124,
+      132,
+      140,
+      147,
+      154,
+      161,
+      167
     ],
     "CHL": [
       35,
@@ -880,7 +880,7 @@
       354,
       369,
       383,
-      395,
+      396,
       496,
       492,
       489,
@@ -1251,7 +1251,7 @@
       1872,
       1897,
       1973,
-      2043,
+      2044,
       2108,
       2167
     ],
@@ -1341,9 +1341,9 @@
       2341,
       2341,
       2341,
-      2376,
-      2488,
-      2593,
+      2377,
+      2489,
+      2594,
       2692,
       2782,
       2865,
@@ -1452,8 +1452,11 @@
   ],
   "hourly_history": {
     "ARG": [
+      154,
       155,
       155,
+      155,
+      156,
       156,
       156,
       156,
@@ -1496,10 +1499,7 @@
       166,
       166,
       167,
-      167,
-      167,
-      167,
-      168
+      167
     ],
     "CHL": [
       68,
@@ -4007,7 +4007,7 @@
     "epidemio": 17,
     "polymarket": 6,
     "kalshi": 16,
-    "max_andes_r0": 0.66,
+    "max_andes_r0": 0.63,
     "avg_other_r0": 0.67,
     "continents": [
       "Americas",
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 1,
-    "ARG": 4,
+    "ARG": 3,
     "PAN": 1,
     "FRA": 1
   },
@@ -4054,13 +4054,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Sin nuevos casos de hantavirus en Argentina, pero sigue la investigaci\u00f3n por el brote en un crucero \u2014 ACTUALIDAD - Opinando San Nicol\u00e1s",
-      "t": "2026-05-27T12:50:25Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOU15bTQ3R24xejJwTDJxTzV0Z2hzbnZ3QkczWkpyc3ZoMlFHME5NdTVqNmVIbmZEQjViRW1tY1l5NlV4MHBEREhsTDFVUWtTQjZwbmYwa3NWMjNKbS1pbXAwUWQ1WlZQUG0xTVRDUElESG1CdGpRLUlYUXRsR2pyam5sQlM0d3FYUWxyY3QwXzNiXzRjckNNODJpTWJ2LXJTX3BodzRjZ0tWMnFmbnMtLVp1TVNSU2owSEw5X3JoSGI0SDdnRDNtWkxSbTBaSGFvYWRUX2ZCX0o?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Hantavirus: no se notificaron nuevos casos en Argentina - Agencia Noticias Argentinas",
       "t": "2026-05-27T10:50:11Z",
       "source": "GoogleNews-ES",
@@ -4090,8 +4083,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-31T10:10:06Z",
-      "signals": 4,
+      "last_update": "2026-05-31T10:15:06Z",
+      "signals": 3,
       "recent": [
         {
           "title": "Salud. Hantavirus: el crucero MV Hondius volver\u00e1 a navegar en junio tras el brote iniciado en Argentina - La Voz del Interior",
@@ -4102,11 +4095,6 @@
           "title": "Brote de hantavirus en el crucero MV Hondius: suben los casos y la OMS sigue el rastro del \u201cpaciente cero\u201d en Argentina - Los Primeros TV",
           "t": "2026-05-29T12:24:13Z",
           "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQVTFIbW9fU1pyZVJPZXVIMHhQQ2w4emdBNWpXUjFIcHVCNlBpYmFpU3Y2MDhOM3poSlhMV2ktaktOOUdGRW1pRnVITXZpemZ4UTNKS213VGh1WWdZUlQzbFhDWlgyZEVpZ29GR0JDZzJBZUtNUjE3VkhHZE9CTzlHOXpKNFVZRFdZenFJbi1jTEdiam1sUGh6cDZHWTNydFNFVnVWOEN6aXc5eF9tT2FMeFRFZVZnY0VMay04RVRsblRiV29vbUdQWVRPZ3JOU2N5aXNvdGJmNVA0RExZbWd6cEVVUHdKM2kxeHF3d0VPTjhfNFhNa0wwZXJ6TE1PODVKWUc0UjJyREpzZw?oc=5"
-        },
-        {
-          "title": "Sin nuevos casos de hantavirus en Argentina, pero sigue la investigaci\u00f3n por el brote en un crucero \u2014 ACTUALIDAD - Opinando San Nicol\u00e1s",
-          "t": "2026-05-27T12:50:25Z",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOU15bTQ3R24xejJwTDJxTzV0Z2hzbnZ3QkczWkpyc3ZoMlFHME5NdTVqNmVIbmZEQjViRW1tY1l5NlV4MHBEREhsTDFVUWtTQjZwbmYwa3NWMjNKbS1pbXAwUWQ1WlZQUG0xTVRDUElESG1CdGpRLUlYUXRsR2pyam5sQlM0d3FYUWxyY3QwXzNiXzRjckNNODJpTWJ2LXJTX3BodzRjZ0tWMnFmbnMtLVp1TVNSU2owSEw5X3JoSGI0SDdnRDNtWkxSbTBaSGFvYWRUX2ZCX0o?oc=5"
         },
         {
           "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
