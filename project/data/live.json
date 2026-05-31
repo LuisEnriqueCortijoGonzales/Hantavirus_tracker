@@ -1,6 +1,6 @@
 {
-  "generated": "2026-05-31T23:50:09.798341Z",
-  "next_update": "2026-05-31T23:55:00Z",
+  "generated": "2026-05-31T23:55:09.056923Z",
+  "next_update": "2026-06-01T00:00:00Z",
   "days_active": 23,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -472,7 +472,7 @@
       "cfr": 0.9,
       "var_pct": 17,
       "strain": "puumala",
-      "new_today": 56,
+      "new_today": 55,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3433,
+      "ytd": 3432,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 35,
@@ -1252,7 +1252,7 @@
       1941,
       2014,
       2081,
-      2142,
+      2143,
       2198
     ],
     "BLR": [
@@ -1343,13 +1343,13 @@
       2341,
       2441,
       2549,
-      2650,
+      2651,
       2744,
       2830,
       3500,
       3477,
-      3455,
-      3433
+      3454,
+      3432
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 17,
     "polymarket": 6,
-    "kalshi": 23,
+    "kalshi": 19,
     "max_andes_r0": 0.79,
     "avg_other_r0": 0.74,
     "continents": [
@@ -4026,7 +4026,7 @@
   "events": [
     {
       "iso": "USA",
-      "title": "Ebola, hantavirus and the warning America should not ignore | Opinion - Portland Press Herald - Maine Sunday Telegram",
+      "title": "Ebola, hantavirus and the warning America should not ignore | Opinion - The Portland Press Herald",
       "t": "2026-05-31T08:34:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5SjJaV28yai1CQTRQM1MwU1lscGpmOWctWklHeVdGaHJjQU50ZE1sR1MwSExDQmxDb3NjLUVJT3hoMFpZeGZMU2NoYVBQMGM?oc=5"
@@ -4104,7 +4104,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-05-31T23:50:09Z",
+      "last_update": "2026-05-31T23:55:09Z",
       "signals": 4,
       "recent": [
         {
