@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-01T05:20:12.822536Z",
-  "next_update": "2026-06-01T05:25:00Z",
+  "generated": "2026-06-01T05:25:01.566868Z",
+  "next_update": "2026-06-01T05:30:00Z",
   "days_active": 24,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 174,
+      "ytd": 173,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 44,
+      "var_pct": 43,
       "strain": "andes",
       "new_today": 6,
-      "r0": 0.63,
-      "signals": 6,
+      "r0": 0.6,
+      "signals": 5,
       "gov_alert": false
     },
     "CHL": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3428,
+      "ytd": 3427,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 33,
@@ -569,19 +569,19 @@
   "history": {
     "ARG": [
       76,
-      84,
-      92,
-      100,
+      83,
+      91,
+      99,
       108,
       116,
-      125,
-      133,
+      124,
+      132,
       140,
-      148,
-      155,
-      162,
-      168,
-      174
+      147,
+      154,
+      161,
+      167,
+      173
     ],
     "CHL": [
       38,
@@ -875,7 +875,7 @@
       312,
       312,
       318,
-      334,
+      335,
       351,
       366,
       380,
@@ -895,7 +895,7 @@
       145,
       145,
       149,
-      154,
+      155,
       160,
       165,
       202,
@@ -1251,7 +1251,7 @@
       1881,
       1958,
       2030,
-      2095,
+      2096,
       2156,
       2210
     ],
@@ -1341,15 +1341,15 @@
       2341,
       2341,
       2353,
-      2466,
+      2467,
       2573,
-      2672,
-      2764,
+      2673,
+      2765,
       2849,
       3495,
       3472,
       3449,
-      3428
+      3427
     ],
     "KOR": [
       89,
@@ -1452,8 +1452,11 @@
   ],
   "hourly_history": {
     "ARG": [
+      161,
+      161,
       162,
       162,
+      162,
       163,
       163,
       163,
@@ -1494,12 +1497,9 @@
       172,
       172,
       172,
+      172,
       173,
-      173,
-      173,
-      173,
-      174,
-      174
+      173
     ],
     "CHL": [
       69,
@@ -4006,8 +4006,8 @@
     "composite": 14,
     "epidemio": 17,
     "polymarket": 5,
-    "kalshi": 16,
-    "max_andes_r0": 0.63,
+    "kalshi": 17,
+    "max_andes_r0": 0.6,
     "avg_other_r0": 0.71,
     "continents": [
       "Americas",
@@ -4019,9 +4019,9 @@
   },
   "signal_summary": {
     "USA": 1,
-    "ARG": 6,
-    "PAN": 1,
-    "FRA": 2
+    "ARG": 5,
+    "FRA": 2,
+    "PAN": 1
   },
   "events": [
     {
@@ -4086,13 +4086,6 @@
       "t": "2026-05-22T14:47:10Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUm5wVnpaNFJOTzJkTjlXWkFDS0N3ZHp1ckVwekhwbjhZSkJaemYySTdra2NrcVdSWDQ5RE80M2F4eHpKVnFCRUtWR3pnUC1VS0Ftb3gxRXZZZzFsc2RESmlsVlZISENfSGxvbHRFM3RxMTh2WUNVdE9GZExiRl9nTlBTdmNLNFB0TlU1empUOTVmenphSnRzcTFKa1NyMEEwbng2RmdIUzUxZFBmSkdEckd3Q0VjNGF2SThsdmNTdUlsaWptNS0xMHBTTEZ5aWhja091bEZtTW1LZw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
-      "t": "2026-05-20T07:00:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ueUZSY2k1ZTcyQ1RCZWdnWU9JT1V3elpoTXZRb1V6eloxeG5NMWQ3dnFWQXNjb3dtc1lfZ0JDY21JUjYxa016b18ySGhBSlI2TnU0YTdMU2hYSE0wazNrdDRwNVlJa085ZkJCV2ViZ3lVdkI1b2pR?oc=5"
     }
   ],
   "maritime_events": [
@@ -4111,14 +4104,9 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-01T05:20:12Z",
-      "signals": 5,
+      "last_update": "2026-06-01T05:25:01Z",
+      "signals": 4,
       "recent": [
-        {
-          "title": "How Wet Weather in Argentina Helped Fuel the Cruise Ship Hantavirus Outbreak - WIRED",
-          "t": "2026-05-20T07:00:00Z",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ueUZSY2k1ZTcyQ1RCZWdnWU9JT1V3elpoTXZRb1V6eloxeG5NMWQ3dnFWQXNjb3dtc1lfZ0JDY21JUjYxa016b18ySGhBSlI2TnU0YTdMU2hYSE0wazNrdDRwNVlJa085ZkJCV2ViZ3lVdkI1b2pR?oc=5"
-        },
         {
           "title": "Salud. Hantavirus: el crucero MV Hondius volver\u00e1 a navegar en junio tras el brote iniciado en Argentina - La Voz del Interior",
           "t": "2026-05-30T21:42:46Z",
