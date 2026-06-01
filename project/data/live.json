@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-01T17:50:05.318885Z",
-  "next_update": "2026-06-01T17:55:00Z",
+  "generated": "2026-06-01T17:55:04.558920Z",
+  "next_update": "2026-06-01T18:00:00Z",
   "days_active": 24,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -874,7 +874,7 @@
     "FIN": [
       312,
       312,
-      326,
+      327,
       343,
       359,
       373,
@@ -1251,7 +1251,7 @@
       1922,
       1996,
       2065,
-      2127,
+      2128,
       2185,
       2237
     ],
@@ -1343,8 +1343,8 @@
       2413,
       2523,
       2626,
-      2721,
-      2809,
+      2722,
+      2810,
       3506,
       3483,
       3460,
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 16,
     "polymarket": 5,
-    "kalshi": 20,
+    "kalshi": 21,
     "max_andes_r0": 0.73,
     "avg_other_r0": 0.71,
     "continents": [
@@ -4029,17 +4029,17 @@
   "events": [
     {
       "iso": "CHL",
-      "title": "\u2018Higher than expected number of hantavirus cases\u2019: Canada issues new travel advice for Chile - Brampton Guardian",
+      "title": "\u2018Higher than expected number of hantavirus cases\u2019: Canada issues new travel advice for Chile - Inside Halton",
       "t": "2026-06-01T17:45:00Z",
       "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWWNlYnE0c295ZmlONVJxQjF3MlBfRDdjM1h6ZTNGZjZ6Ml90ZUYycWVNeUVudURsbmJLSEdKREs4WFJ0TS1YMkxmMXc0OHpDR0VobzFFRFo0dTNMYTNIdHdDTXhMT3gwTzdRNHFiUFBpOXhiandsTmEwS04wcTgzVWRTUXR3NEZFUGQ0VkZDVk1PWTNudzduM0g3OUt1TDFWNFY1cnQ0MVpieXpqSXgtcFNoaDVNQmN6U1FiMTIzRkYwdU02Qmx0Y09TTQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVXRKZ1RkakhPOHB0Mml0ZFRSbGdIdF9YZHF0UHo4bGlGSzBUNjluWU13c1NIUEVMNUVTMzFPX0Rqa01RQTBhekpMWFhKMHNNc3lMR3NHeVhwdXRrVU9PcDJ0MGI4TGxfdzNNUlowb0xDcmx2MmwydTQzYlY0cnJiZGZTLWJ0R3pEQ0szc2pSczFEODhodXI4THFobWJZeE9pdmhQcXZmUjVsTGc4MU03NnFyZHByQXZYR2h3UnE5TGFBMjlCdkE?oc=5"
     },
     {
       "iso": "CAN",
-      "title": "\u2018Higher than expected number of hantavirus cases\u2019: Canada issues new travel advice for Chile - Brampton Guardian",
+      "title": "\u2018Higher than expected number of hantavirus cases\u2019: Canada issues new travel advice for Chile - Inside Halton",
       "t": "2026-06-01T17:45:00Z",
       "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWWNlYnE0c295ZmlONVJxQjF3MlBfRDdjM1h6ZTNGZjZ6Ml90ZUYycWVNeUVudURsbmJLSEdKREs4WFJ0TS1YMkxmMXc0OHpDR0VobzFFRFo0dTNMYTNIdHdDTXhMT3gwTzdRNHFiUFBpOXhiandsTmEwS04wcTgzVWRTUXR3NEZFUGQ0VkZDVk1PWTNudzduM0g3OUt1TDFWNFY1cnQ0MVpieXpqSXgtcFNoaDVNQmN6U1FiMTIzRkYwdU02Qmx0Y09TTQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVXRKZ1RkakhPOHB0Mml0ZFRSbGdIdF9YZHF0UHo4bGlGSzBUNjluWU13c1NIUEVMNUVTMzFPX0Rqa01RQTBhekpMWFhKMHNNc3lMR3NHeVhwdXRrVU9PcDJ0MGI4TGxfdzNNUlowb0xDcmx2MmwydTQzYlY0cnJiZGZTLWJ0R3pEQ0szc2pSczFEODhodXI4THFobWJZeE9pdmhQcXZmUjVsTGc4MU03NnFyZHByQXZYR2h3UnE5TGFBMjlCdkE?oc=5"
     },
     {
       "iso": "USA",
@@ -4142,7 +4142,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-01T17:50:05Z",
+      "last_update": "2026-06-01T17:55:04Z",
       "signals": 5,
       "recent": [
         {
