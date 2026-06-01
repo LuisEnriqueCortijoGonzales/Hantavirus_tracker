@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-01T14:35:18.594821Z",
-  "next_update": "2026-06-01T14:40:00Z",
+  "generated": "2026-06-01T14:40:18.041984Z",
+  "next_update": "2026-06-01T14:45:00Z",
   "days_active": 24,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -472,7 +472,7 @@
       "cfr": 0.9,
       "var_pct": 19,
       "strain": "puumala",
-      "new_today": 53,
+      "new_today": 52,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -1248,11 +1248,11 @@
       1872,
       1872,
       1872,
-      1911,
-      1986,
+      1912,
+      1987,
       2056,
       2119,
-      2177,
+      2178,
       2230
     ],
     "BLR": [
@@ -1340,8 +1340,8 @@
       2341,
       2341,
       2341,
-      2397,
-      2508,
+      2398,
+      2509,
       2612,
       2709,
       2798,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 13,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 5,
-    "kalshi": 16,
+    "kalshi": 19,
     "max_andes_r0": 0.69,
     "avg_other_r0": 0.71,
     "continents": [
@@ -4018,6 +4018,7 @@
     "outbreak_count": 5
   },
   "signal_summary": {
+    "CAN": 1,
     "USA": 1,
     "GBR": 1,
     "ARG": 6,
@@ -4025,6 +4026,13 @@
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "Ship tied to hantavirus outbreak cleared to resume cruises - Yahoo Lifestyle Canada",
+      "t": "2026-06-01T14:34:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcjdaa09yWUJtTDhLZy1SVW5mRlBjVzBxeDVfV1R4eU0zbFNUWFJYUm9FRlk2NlVpSW5SNGxldGZzY2dwRTNSWjEtY3lMS1pFN19uT3o0UEhIY0w4MF9DdmlkVG4tOTVBeVc4M05Pbzg4OThlMVVDc0ttd3EyZHFHT2lGbkFEdw?oc=5"
+    },
     {
       "iso": "GBR",
       "title": "Hantavirus cruise ship to resume sailing after deadly outbreak - Yahoo News UK",
@@ -4112,7 +4120,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-01T14:35:18Z",
+      "last_update": "2026-06-01T14:40:18Z",
       "signals": 5,
       "recent": [
         {
