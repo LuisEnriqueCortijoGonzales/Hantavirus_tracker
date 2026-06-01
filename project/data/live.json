@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-01T06:50:15.061889Z",
-  "next_update": "2026-06-01T06:55:00Z",
+  "generated": "2026-06-01T06:55:09.057611Z",
+  "next_update": "2026-06-01T07:00:00Z",
   "days_active": 24,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 173,
+      "ytd": 174,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 43,
       "strain": "andes",
-      "new_today": 5,
-      "r0": 0.6,
-      "signals": 5,
+      "new_today": 6,
+      "r0": 0.63,
+      "signals": 6,
       "gov_alert": false
     },
     "CHL": {
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2213,
+      "ytd": 2214,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 18,
       "strain": "puumala",
-      "new_today": 54,
+      "new_today": 55,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      76,
+      77,
       84,
       92,
       100,
-      108,
-      116,
+      109,
+      117,
       125,
       133,
-      140,
+      141,
       148,
-      155,
-      161,
+      156,
+      162,
       168,
-      173
+      174
     ],
     "CHL": [
       38,
@@ -1251,9 +1251,9 @@
       1886,
       1963,
       2034,
-      2099,
+      2100,
       2159,
-      2213
+      2214
     ],
     "BLR": [
       34,
@@ -1340,10 +1340,10 @@
       2341,
       2341,
       2341,
-      2360,
+      2361,
       2473,
-      2579,
-      2678,
+      2580,
+      2679,
       2770,
       2854,
       3493,
@@ -1452,9 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      161,
-      162,
-      162,
       162,
       163,
       163,
@@ -1492,14 +1489,17 @@
       171,
       171,
       171,
-      172,
       172,
       172,
       172,
       172,
       173,
       173,
-      173
+      173,
+      173,
+      174,
+      174,
+      174
     ],
     "CHL": [
       70,
@@ -4003,11 +4003,11 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 17,
     "polymarket": 5,
-    "kalshi": 21,
-    "max_andes_r0": 0.6,
+    "kalshi": 17,
+    "max_andes_r0": 0.63,
     "avg_other_r0": 0.71,
     "continents": [
       "Americas",
@@ -4019,11 +4019,18 @@
   },
   "signal_summary": {
     "USA": 1,
-    "ARG": 5,
+    "ARG": 6,
     "FRA": 1,
     "PAN": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Hantavirus en Argentina: brote 2025-2026 duplica casos y preocupa - Foro3D",
+      "t": "2026-06-01T06:51:03Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOVNOQWJDekZIUjB6bTZqWURJckY5X2JVeXpvQXFjZGdQZU1FLTNRNUpIZmRXQ0FMeDQyOS1Ca3daUFdtX2t1N1VLbkNBcVVWZk1GMFpiVzVyRWdrVjM2c2kwX1ZMeTZaZXR5MnRFeDl1dGpObVo5ZFFLRlNWRmpQRjNoYTlhcGhTWG53ekw2d0lPZzVEWTRIRzYxN09JdmpC?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Ebola, hantavirus and the warning America should not ignore | Opinion - Portland Press Herald - Maine Sunday Telegram",
@@ -4097,7 +4104,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-01T06:50:15Z",
+      "last_update": "2026-06-01T06:55:09Z",
       "signals": 4,
       "recent": [
         {
