@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-01T17:45:11.304632Z",
-  "next_update": "2026-06-01T17:50:00Z",
+  "generated": "2026-06-01T17:50:05.318885Z",
+  "next_update": "2026-06-01T17:55:00Z",
   "days_active": 24,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -19,11 +19,11 @@
       "ytd": 74,
       "alert": "brote",
       "cfr": 35.5,
-      "var_pct": 27,
+      "var_pct": 28,
       "strain": "andes",
-      "new_today": 2,
+      "new_today": 1,
       "r0": 0.46,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "BRA": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2236,
+      "ytd": 2237,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 19,
       "strain": "puumala",
-      "new_today": 51,
+      "new_today": 52,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -584,19 +584,19 @@
       177
     ],
     "CHL": [
-      39,
+      40,
       43,
       46,
       49,
       52,
-      55,
-      58,
+      56,
+      59,
       61,
       64,
       66,
-      68,
-      70,
-      72,
+      69,
+      71,
+      73,
       74
     ],
     "BRA": [
@@ -1250,10 +1250,10 @@
       1872,
       1922,
       1996,
-      2064,
+      2065,
       2127,
       2185,
-      2236
+      2237
     ],
     "BLR": [
       34,
@@ -1340,9 +1340,9 @@
       2341,
       2341,
       2341,
-      2412,
-      2522,
-      2625,
+      2413,
+      2523,
+      2626,
       2721,
       2809,
       3506,
@@ -1502,7 +1502,6 @@
       176
     ],
     "CHL": [
-      70,
       71,
       71,
       71,
@@ -1512,9 +1511,6 @@
       71,
       71,
       71,
-      71,
-      71,
-      71,
       72,
       72,
       72,
@@ -1527,7 +1523,6 @@
       72,
       72,
       72,
-      72,
       73,
       73,
       73,
@@ -1542,6 +1537,11 @@
       73,
       73,
       73,
+      74,
+      74,
+      74,
+      74,
+      74,
       74,
       74,
       74,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 5,
-    "kalshi": 22,
+    "kalshi": 20,
     "max_andes_r0": 0.73,
     "avg_other_r0": 0.71,
     "continents": [
@@ -4020,11 +4020,27 @@
   "signal_summary": {
     "USA": 2,
     "GBR": 1,
+    "CHL": 1,
+    "CAN": 1,
     "ARG": 6,
     "PAN": 1,
     "FRA": 2
   },
   "events": [
+    {
+      "iso": "CHL",
+      "title": "\u2018Higher than expected number of hantavirus cases\u2019: Canada issues new travel advice for Chile - Brampton Guardian",
+      "t": "2026-06-01T17:45:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWWNlYnE0c295ZmlONVJxQjF3MlBfRDdjM1h6ZTNGZjZ6Ml90ZUYycWVNeUVudURsbmJLSEdKREs4WFJ0TS1YMkxmMXc0OHpDR0VobzFFRFo0dTNMYTNIdHdDTXhMT3gwTzdRNHFiUFBpOXhiandsTmEwS04wcTgzVWRTUXR3NEZFUGQ0VkZDVk1PWTNudzduM0g3OUt1TDFWNFY1cnQ0MVpieXpqSXgtcFNoaDVNQmN6U1FiMTIzRkYwdU02Qmx0Y09TTQ?oc=5"
+    },
+    {
+      "iso": "CAN",
+      "title": "\u2018Higher than expected number of hantavirus cases\u2019: Canada issues new travel advice for Chile - Brampton Guardian",
+      "t": "2026-06-01T17:45:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWWNlYnE0c295ZmlONVJxQjF3MlBfRDdjM1h6ZTNGZjZ6Ml90ZUYycWVNeUVudURsbmJLSEdKREs4WFJ0TS1YMkxmMXc0OHpDR0VobzFFRFo0dTNMYTNIdHdDTXhMT3gwTzdRNHFiUFBpOXhiandsTmEwS04wcTgzVWRTUXR3NEZFUGQ0VkZDVk1PWTNudzduM0g3OUt1TDFWNFY1cnQ0MVpieXpqSXgtcFNoaDVNQmN6U1FiMTIzRkYwdU02Qmx0Y09TTQ?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Ship tied to hantavirus outbreak cleared to resume cruises - USA Today",
@@ -4126,7 +4142,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-01T17:45:11Z",
+      "last_update": "2026-06-01T17:50:05Z",
       "signals": 5,
       "recent": [
         {
