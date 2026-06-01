@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-01T14:50:16.566911Z",
-  "next_update": "2026-06-01T14:55:00Z",
+  "generated": "2026-06-01T14:55:05.306970Z",
+  "next_update": "2026-06-01T15:00:00Z",
   "days_active": 24,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 25,
       "alert": "vigilancia",
       "cfr": 36.0,
-      "var_pct": 37,
+      "var_pct": 38,
       "strain": "hps",
       "new_today": 2,
       "r0": 3.5,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GTM": {
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2230,
+      "ytd": 2231,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 19,
       "strain": "puumala",
-      "new_today": 52,
+      "new_today": 53,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -576,7 +576,7 @@
       120,
       128,
       136,
-      143,
+      144,
       151,
       158,
       164,
@@ -877,7 +877,7 @@
       324,
       341,
       357,
-      371,
+      372,
       385,
       499,
       495,
@@ -1250,10 +1250,10 @@
       1872,
       1912,
       1987,
-      2056,
+      2057,
       2120,
       2178,
-      2230
+      2231
     ],
     "BLR": [
       34,
@@ -1340,8 +1340,8 @@
       2341,
       2341,
       2341,
-      2398,
-      2509,
+      2399,
+      2510,
       2613,
       2710,
       2799,
@@ -1809,8 +1809,6 @@
       22,
       22,
       22,
-      22,
-      22,
       23,
       23,
       23,
@@ -1847,6 +1845,8 @@
       24,
       24,
       24,
+      25,
+      25,
       25,
       25,
       25
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 16,
     "polymarket": 5,
-    "kalshi": 20,
+    "kalshi": 18,
     "max_andes_r0": 0.69,
     "avg_other_r0": 0.71,
     "continents": [
@@ -4018,8 +4018,7 @@
     "outbreak_count": 5
   },
   "signal_summary": {
-    "CAN": 1,
-    "USA": 1,
+    "USA": 2,
     "GBR": 1,
     "ARG": 6,
     "PAN": 1,
@@ -4027,11 +4026,11 @@
   },
   "events": [
     {
-      "iso": "CAN",
-      "title": "Ship tied to hantavirus outbreak cleared to resume cruises - Yahoo Lifestyle Canada",
+      "iso": "USA",
+      "title": "Ship tied to hantavirus outbreak cleared to resume cruises - USA Today",
       "t": "2026-06-01T14:34:00Z",
       "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcjdaa09yWUJtTDhLZy1SVW5mRlBjVzBxeDVfV1R4eU0zbFNUWFJYUm9FRlk2NlVpSW5SNGxldGZzY2dwRTNSWjEtY3lMS1pFN19uT3o0UEhIY0w4MF9DdmlkVG4tOTVBeVc4M05Pbzg4OThlMVVDc0ttd3EyZHFHT2lGbkFEdw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbTNQaWhQTVpwenVzZHhCNUxQMGhRZ29yaXFZakhZQzVzZmNEQkVqdC1GeHlTSEs3NkNPN3RLcWcxRHZiWUZCNmtiWWlFVEs1VnljcUs5a0FJY1ZDTHd2YWhVbkhPRUVWZVZSWXJTOU5ES1I2SS1oLVB2MWUwVnhfVEprSXlzd1FmbS1Vcmt1S2gwM010UzFIaFlPUFQ5RjREUmUxeURpZ2lqQ2gxQ19SdVJ5WQ?oc=5"
     },
     {
       "iso": "GBR",
@@ -4120,7 +4119,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-01T14:50:16Z",
+      "last_update": "2026-06-01T14:55:05Z",
       "signals": 5,
       "recent": [
         {
