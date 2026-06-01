@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-01T22:40:14.309215Z",
-  "next_update": "2026-06-01T22:45:00Z",
+  "generated": "2026-06-01T22:45:13.580877Z",
+  "next_update": "2026-06-01T22:50:00Z",
   "days_active": 24,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -228,7 +228,7 @@
       "ytd": 198,
       "alert": "vigilancia",
       "cfr": 0.1,
-      "var_pct": 30,
+      "var_pct": 29,
       "strain": "puumala",
       "new_today": 0,
       "r0": 5.0,
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2246,
-      "alert": "brote",
+      "ytd": 2247,
+      "alert": "vigilancia",
       "cfr": 0.9,
       "var_pct": 20,
       "strain": "puumala",
-      "new_today": 50,
+      "new_today": 51,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -878,7 +878,7 @@
       346,
       362,
       376,
-      389,
+      390,
       498,
       494,
       490,
@@ -913,7 +913,7 @@
       254,
       264,
       274,
-      282,
+      283,
       290,
       350,
       348,
@@ -1249,11 +1249,11 @@
       1872,
       1872,
       1937,
-      2010,
+      2011,
       2078,
-      2139,
+      2140,
       2196,
-      2246
+      2247
     ],
     "BLR": [
       34,
@@ -1340,9 +1340,9 @@
       2341,
       2341,
       2341,
-      2435,
+      2436,
       2544,
-      2645,
+      2646,
       2740,
       2826,
       3501,
@@ -4003,8 +4003,8 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
-    "epidemio": 16,
+    "composite": 14,
+    "epidemio": 15,
     "polymarket": 6,
     "kalshi": 21,
     "max_andes_r0": 0.63,
@@ -4015,7 +4015,7 @@
       "Europe"
     ],
     "emergency_count": 0,
-    "outbreak_count": 5
+    "outbreak_count": 4
   },
   "signal_summary": {
     "USA": 2,
@@ -4099,7 +4099,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-01T22:40:14Z",
+      "last_update": "2026-06-01T22:45:13Z",
       "signals": 4,
       "recent": [
         {
