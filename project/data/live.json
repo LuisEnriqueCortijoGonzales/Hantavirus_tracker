@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-01T16:45:09.800163Z",
-  "next_update": "2026-06-01T16:50:00Z",
+  "generated": "2026-06-01T16:50:09.059996Z",
+  "next_update": "2026-06-01T16:55:00Z",
   "days_active": 24,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "CHE": {
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2234,
+      "ytd": 2235,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 19,
       "strain": "puumala",
-      "new_today": 52,
+      "new_today": 53,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -1248,12 +1248,12 @@
       1872,
       1872,
       1872,
-      1918,
+      1919,
       1993,
       2062,
       2125,
       2182,
-      2234
+      2235
     ],
     "BLR": [
       34,
@@ -1344,7 +1344,7 @@
       2518,
       2621,
       2717,
-      2805,
+      2806,
       3507,
       3484,
       3461,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 13,
+    "composite": 14,
     "epidemio": 16,
     "polymarket": 5,
-    "kalshi": 15,
+    "kalshi": 18,
     "max_andes_r0": 0.69,
     "avg_other_r0": 0.71,
     "continents": [
@@ -4022,7 +4022,7 @@
     "GBR": 1,
     "ARG": 6,
     "PAN": 1,
-    "FRA": 1
+    "FRA": 2
   },
   "events": [
     {
@@ -4075,6 +4075,13 @@
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQVTFIbW9fU1pyZVJPZXVIMHhQQ2w4emdBNWpXUjFIcHVCNlBpYmFpU3Y2MDhOM3poSlhMV2ktaktOOUdGRW1pRnVITXZpemZ4UTNKS213VGh1WWdZUlQzbFhDWlgyZEVpZ29GR0JDZzJBZUtNUjE3VkhHZE9CTzlHOXpKNFVZRFdZenFJbi1jTEdiam1sUGh6cDZHWTNydFNFVnVWOEN6aXc5eF9tT2FMeFRFZVZnY0VMay04RVRsblRiV29vbUdQWVRPZ3JOU2N5aXNvdGJmNVA0RExZbWd6cEVVUHdKM2kxeHF3d0VPTjhfNFhNa0wwZXJ6TE1PODVKWUc0UjJyREpzZw?oc=5"
     },
     {
+      "iso": "FRA",
+      "title": "Espa\u00f1a, Francia y Pa\u00edses Bajos reciben un antiviral experimental japon\u00e9s contra el hantavirus - Infosalus",
+      "t": "2026-05-28T11:49:06Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZUY5UXA2R0lhci1IUms2bjQ3dVpoWU04TGFLSWpnS1BEaW5fSkJtSmNqMGJ5RVBtYmFaLXNrTVFILXBOek9zdTVXak1jekhJZVZKeV9Fbk1JT0tzbTlrajhybFdOUmdHbFpGdG9KY1JSdFE3Q2pUS2lZa21meFFwZjFwa0E3SFRfY1hXd0xkcTl5SkEyTEpXVEI3Zm5XS3pXYjhuVHdCMUVkeUVUN0hWTlMyTGQzM25tYnk1VUIzUk1nQWhGa2lCYlMzV2hJQnYwRXFQR2xrSmtsMzE5bjJZRElTV2N6UlNoNmtnWG1XWQ?oc=5"
+    },
+    {
       "iso": "PAN",
       "title": "Confirman en Panam\u00e1 la primera muerte este a\u00f1o por hantavirus - Infobae",
       "t": "2026-05-28T02:56:04Z",
@@ -4119,7 +4126,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-01T16:45:09Z",
+      "last_update": "2026-06-01T16:50:09Z",
       "signals": 5,
       "recent": [
         {
