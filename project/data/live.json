@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-01T21:40:02.324408Z",
-  "next_update": "2026-06-01T21:45:00Z",
+  "generated": "2026-06-01T21:45:17.311985Z",
+  "next_update": "2026-06-01T21:50:00Z",
   "days_active": 24,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 175,
+      "ytd": 176,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 38,
+      "var_pct": 39,
       "strain": "andes",
-      "new_today": 5,
-      "r0": 0.66,
-      "signals": 3,
+      "new_today": 6,
+      "r0": 0.69,
+      "signals": 4,
       "gov_alert": false
     },
     "CHL": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "CHE": {
@@ -382,7 +382,7 @@
       "ytd": 36,
       "alert": "vigilancia",
       "cfr": 1.5,
-      "var_pct": 4,
+      "var_pct": 5,
       "strain": "dobrava",
       "new_today": 2,
       "r0": 3.5,
@@ -467,7 +467,7 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2244,
+      "ytd": 2245,
       "alert": "brote",
       "cfr": 0.9,
       "var_pct": 20,
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      80,
+      81,
       88,
       96,
       104,
-      112,
-      120,
-      128,
-      136,
-      143,
+      113,
+      121,
+      129,
+      137,
+      144,
       151,
-      157,
-      164,
+      158,
+      165,
       170,
-      175
+      176
     ],
     "CHL": [
       40,
@@ -1249,11 +1249,11 @@
       1872,
       1872,
       1934,
-      2007,
+      2008,
       2075,
       2137,
-      2193,
-      2244
+      2194,
+      2245
     ],
     "BLR": [
       34,
@@ -1342,12 +1342,12 @@
       2341,
       2431,
       2540,
-      2641,
+      2642,
       2736,
       2823,
       3502,
       3479,
-      3457,
+      3456,
       3434,
       3413
     ],
@@ -1452,9 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      164,
-      164,
-      164,
       165,
       165,
       165,
@@ -1463,7 +1460,6 @@
       166,
       166,
       166,
-      167,
       167,
       167,
       167,
@@ -1480,7 +1476,7 @@
       170,
       170,
       170,
-      171,
+      170,
       171,
       171,
       171,
@@ -1499,7 +1495,11 @@
       174,
       174,
       175,
-      175
+      175,
+      175,
+      175,
+      175,
+      176
     ],
     "CHL": [
       71,
@@ -4003,11 +4003,11 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 13,
     "epidemio": 16,
     "polymarket": 5,
-    "kalshi": 18,
-    "max_andes_r0": 0.66,
+    "kalshi": 16,
+    "max_andes_r0": 0.69,
     "avg_other_r0": 0.71,
     "continents": [
       "Americas",
@@ -4019,12 +4019,12 @@
   },
   "signal_summary": {
     "USA": 2,
-    "ARG": 3,
+    "ARG": 4,
     "CHL": 1,
     "CAN": 1,
     "GBR": 1,
     "PAN": 1,
-    "FRA": 1
+    "FRA": 2
   },
   "events": [
     {
@@ -4054,6 +4054,13 @@
       "t": "2026-06-01T11:55:53Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQUhNNmlvYmhXbkYtV3JqX2tXczdid3l6S3cwVlN5VVNLaXdQeTl6YnJrQU8yU0tSZWZTRFpkMzRBMnBVS1VfT0UwSmpQRndwelFHM19RalhXUml0MFNJRk5XYkI5NVdGY0htVUFCQU1ISEl4VHdGN2o0YnZMZE5sV3J5dF8?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus en Argentina: brote 2025-2026 duplica casos y preocupa - Foro3D",
+      "t": "2026-06-01T06:50:39Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOVNOQWJDekZIUjB6bTZqWURJckY5X2JVeXpvQXFjZGdQZU1FLTNRNUpIZmRXQ0FMeDQyOS1Ca3daUFdtX2t1N1VLbkNBcVVWZk1GMFpiVzVyRWdrVjM2c2kwX1ZMeTZaZXR5MnRFeDl1dGpObVo5ZFFLRlNWRmpQRjNoYTlhcGhTWG53ekw2d0lPZzVEWTRIRzYxN09JdmpC?oc=5"
     },
     {
       "iso": "USA",
@@ -4096,6 +4103,13 @@
       "t": "2026-05-25T22:40:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "El paciente con nuevo caso de hantavirus ingres\u00f3 en un hospital de Pa\u00edses Bajos - France 24",
+      "t": "2026-05-22T14:47:10Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUm5wVnpaNFJOTzJkTjlXWkFDS0N3ZHp1ckVwekhwbjhZSkJaemYySTdra2NrcVdSWDQ5RE80M2F4eHpKVnFCRUtWR3pnUC1VS0Ftb3gxRXZZZzFsc2RESmlsVlZISENfSGxvbHRFM3RxMTh2WUNVdE9GZExiRl9nTlBTdmNLNFB0TlU1empUOTVmenphSnRzcTFKa1NyMEEwbng2RmdIUzUxZFBmSkdEckd3Q0VjNGF2SThsdmNTdUlsaWptNS0xMHBTTEZ5aWhja091bEZtTW1LZw?oc=5"
     }
   ],
   "maritime_events": [
@@ -4114,7 +4128,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-01T21:40:02Z",
+      "last_update": "2026-06-01T21:45:17Z",
       "signals": 5,
       "recent": [
         {
