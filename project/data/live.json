@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-01T22:00:15.031378Z",
-  "next_update": "2026-06-01T22:05:00Z",
+  "generated": "2026-06-01T22:05:14.296687Z",
+  "next_update": "2026-06-01T22:10:00Z",
   "days_active": 24,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 175,
+      "ytd": 176,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 38,
+      "var_pct": 39,
       "strain": "andes",
-      "new_today": 5,
-      "r0": 0.66,
-      "signals": 3,
+      "new_today": 6,
+      "r0": 0.69,
+      "signals": 4,
       "gov_alert": false
     },
     "CHL": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3413,
+      "ytd": 3412,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 29,
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      80,
+      81,
       88,
       96,
-      104,
-      112,
-      120,
-      128,
-      136,
+      105,
+      113,
+      121,
+      129,
+      137,
       144,
       151,
-      157,
-      164,
+      158,
+      165,
       170,
-      175
+      176
     ],
     "CHL": [
       40,
@@ -1249,7 +1249,7 @@
       1872,
       1872,
       1935,
-      2008,
+      2009,
       2076,
       2138,
       2194,
@@ -1340,7 +1340,7 @@
       2341,
       2341,
       2341,
-      2432,
+      2433,
       2541,
       2643,
       2737,
@@ -1349,7 +1349,7 @@
       3479,
       3456,
       3434,
-      3413
+      3412
     ],
     "KOR": [
       89,
@@ -1452,9 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      164,
-      164,
-      165,
       165,
       165,
       165,
@@ -1462,7 +1459,6 @@
       166,
       166,
       166,
-      167,
       167,
       167,
       167,
@@ -1479,7 +1475,7 @@
       170,
       170,
       170,
-      171,
+      170,
       171,
       171,
       171,
@@ -1499,7 +1495,11 @@
       174,
       175,
       175,
-      175
+      175,
+      175,
+      175,
+      176,
+      176
     ],
     "CHL": [
       71,
@@ -4003,11 +4003,11 @@
     ]
   },
   "pandemic": {
-    "composite": 13,
+    "composite": 15,
     "epidemio": 16,
     "polymarket": 6,
-    "kalshi": 15,
-    "max_andes_r0": 0.66,
+    "kalshi": 23,
+    "max_andes_r0": 0.69,
     "avg_other_r0": 0.71,
     "continents": [
       "Americas",
@@ -4019,9 +4019,10 @@
   },
   "signal_summary": {
     "USA": 2,
-    "ARG": 3,
+    "ARG": 4,
     "CHL": 1,
     "CAN": 1,
+    "GBR": 1,
     "PAN": 1,
     "FRA": 1
   },
@@ -4046,6 +4047,20 @@
       "t": "2026-06-01T17:45:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVXRKZ1RkakhPOHB0Mml0ZFRSbGdIdF9YZHF0UHo4bGlGSzBUNjluWU13c1NIUEVMNUVTMzFPX0Rqa01RQTBhekpMWFhKMHNNc3lMR3NHeVhwdXRrVU9PcDJ0MGI4TGxfdzNNUlowb0xDcmx2MmwydTQzYlY0cnJiZGZTLWJ0R3pEQ0szc2pSczFEODhodXI4THFobWJZeE9pdmhQcXZmUjVsTGc4MU03NnFyZHByQXZYR2h3UnE5TGFBMjlCdkE?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "Hantavirus cruise ship to resume sailing after deadly outbreak - Yahoo News UK",
+      "t": "2026-06-01T11:55:53Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQUhNNmlvYmhXbkYtV3JqX2tXczdid3l6S3cwVlN5VVNLaXdQeTl6YnJrQU8yU0tSZWZTRFpkMzRBMnBVS1VfT0UwSmpQRndwelFHM19RalhXUml0MFNJRk5XYkI5NVdGY0htVUFCQU1ISEl4VHdGN2o0YnZMZE5sV3J5dF8?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus en Argentina: brote 2025-2026 duplica casos y preocupa - Foro3D",
+      "t": "2026-06-01T06:50:39Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOVNOQWJDekZIUjB6bTZqWURJckY5X2JVeXpvQXFjZGdQZU1FLTNRNUpIZmRXQ0FMeDQyOS1Ca3daUFdtX2t1N1VLbkNBcVVWZk1GMFpiVzVyRWdrVjM2c2kwX1ZMeTZaZXR5MnRFeDl1dGpObVo5ZFFLRlNWRmpQRjNoYTlhcGhTWG53ekw2d0lPZzVEWTRIRzYxN09JdmpC?oc=5"
     },
     {
       "iso": "USA",
@@ -4106,8 +4121,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-01T22:00:15Z",
-      "signals": 4,
+      "last_update": "2026-06-01T22:05:14Z",
+      "signals": 5,
       "recent": [
         {
           "title": "Cruise ship tied to hantavirus cleared to sail: Where it\u2019s headed - USA Today",
@@ -4123,6 +4138,11 @@
           "title": "Brote de hantavirus en el crucero MV Hondius: suben los casos y la OMS sigue el rastro del \u201cpaciente cero\u201d en Argentina - Los Primeros TV",
           "t": "2026-05-29T12:24:13Z",
           "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQVTFIbW9fU1pyZVJPZXVIMHhQQ2w4emdBNWpXUjFIcHVCNlBpYmFpU3Y2MDhOM3poSlhMV2ktaktOOUdGRW1pRnVITXZpemZ4UTNKS213VGh1WWdZUlQzbFhDWlgyZEVpZ29GR0JDZzJBZUtNUjE3VkhHZE9CTzlHOXpKNFVZRFdZenFJbi1jTEdiam1sUGh6cDZHWTNydFNFVnVWOEN6aXc5eF9tT2FMeFRFZVZnY0VMay04RVRsblRiV29vbUdQWVRPZ3JOU2N5aXNvdGJmNVA0RExZbWd6cEVVUHdKM2kxeHF3d0VPTjhfNFhNa0wwZXJ6TE1PODVKWUc0UjJyREpzZw?oc=5"
+        },
+        {
+          "title": "Hantavirus cruise ship to resume sailing after deadly outbreak - Yahoo News UK",
+          "t": "2026-06-01T11:55:53Z",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQUhNNmlvYmhXbkYtV3JqX2tXczdid3l6S3cwVlN5VVNLaXdQeTl6YnJrQU8yU0tSZWZTRFpkMzRBMnBVS1VfT0UwSmpQRndwelFHM19RalhXUml0MFNJRk5XYkI5NVdGY0htVUFCQU1ISEl4VHdGN2o0YnZMZE5sV3J5dF8?oc=5"
         },
         {
           "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
