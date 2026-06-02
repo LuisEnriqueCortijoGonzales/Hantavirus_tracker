@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-02T13:25:18.047873Z",
-  "next_update": "2026-06-02T13:30:00Z",
+  "generated": "2026-06-02T13:30:01.552387Z",
+  "next_update": "2026-06-02T13:35:00Z",
   "days_active": 25,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 177,
+      "ytd": 178,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 35,
+      "var_pct": 36,
       "strain": "andes",
       "new_today": 5,
-      "r0": 0.62,
-      "signals": 2,
+      "r0": 0.65,
+      "signals": 3,
       "gov_alert": false
     },
     "CHL": {
@@ -472,7 +472,7 @@
       "cfr": 0.9,
       "var_pct": 40,
       "strain": "puumala",
-      "new_today": 393,
+      "new_today": 392,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -573,15 +573,15 @@
       101,
       109,
       117,
-      125,
+      126,
       133,
-      140,
-      147,
-      154,
-      161,
-      167,
-      172,
-      177
+      141,
+      148,
+      155,
+      162,
+      168,
+      173,
+      178
     ],
     "CHL": [
       42,
@@ -1249,10 +1249,10 @@
       1872,
       1908,
       1983,
-      2052,
-      2116,
+      2053,
+      2117,
       2175,
-      2227,
+      2228,
       2620
     ],
     "BLR": [
@@ -1341,8 +1341,8 @@
       2341,
       2392,
       2503,
-      2607,
-      2704,
+      2608,
+      2705,
       2794,
       3510,
       3487,
@@ -1452,14 +1452,10 @@
   ],
   "hourly_history": {
     "ARG": [
-      167,
-      167,
-      167,
       168,
       168,
       168,
       168,
-      169,
       169,
       169,
       169,
@@ -1472,7 +1468,7 @@
       171,
       171,
       171,
-      172,
+      171,
       172,
       172,
       172,
@@ -1499,7 +1495,11 @@
       177,
       177,
       177,
-      177
+      177,
+      178,
+      178,
+      178,
+      178
     ],
     "CHL": [
       72,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 19,
     "polymarket": 6,
-    "kalshi": 19,
+    "kalshi": 17,
     "max_andes_r0": 1.29,
     "avg_other_r0": 0.64,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 2,
-    "ARG": 2,
+    "ARG": 3,
     "PAN": 1,
     "FRA": 1
   },
@@ -4065,6 +4065,13 @@
       "t": "2026-05-25T22:40:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina refuerza vigilancia sanitaria ante brote de hantavirus en crucero - Cadena 3 Argentina",
+      "t": "2026-05-22T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcV9rcm5uT2ljTUliODV3aTU3TnI1MWhQcXd5UU9OaTBQVmYxbDVENWVwQlFDdnlTb2QzRV84THUyUlJPcWFFMzFYMEJTRG1IX0JKUDg3YnIzbGhoZXpGU09RN05UZm1UQzI0OXlKR3NhRFpuVzY4czRJV0pvOFhpaXVLbDNCNUpxUzAzd1pRSGZlZ2U2dVNaSGdETFgwbWp2LUdJWS1jLXQxdWJMSWJoRUN0MEc5ZG5lOWZPZG10TnjSAcYBQVVfeXFMTjlhQmduNHFPUHVWaklxdDdyVjFjTmtzUGY1cXQyemszSDhETVRaNTlGb0pOcXZJelFBbG9ud3VnRnRXQlhrZjM5bm9rNk51eVhOaXBFemVKM0xCaWVfemdtUG11V1dVWHBYV1BILWtIN2ZuSUdSNVlrOTNSUXBiZnEwNUdXUVI5azE5OHVTTVdMQ1dEUmc4T3J2dDAtVDhucy0yRXNuY1lkY1drUmpwcnIzaVlIXzlWQXNoTHdxbnBFR3pBUUpB?oc=5"
     }
   ],
   "maritime_events": [
@@ -4083,8 +4090,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-02T13:25:18Z",
-      "signals": 4,
+      "last_update": "2026-06-02T13:30:01Z",
+      "signals": 5,
       "recent": [
         {
           "title": "Cruise ship tied to hantavirus cleared to sail: Where it\u2019s headed - USA Today",
@@ -4100,6 +4107,11 @@
           "title": "Brote de hantavirus en el crucero MV Hondius: suben los casos y la OMS sigue el rastro del \u201cpaciente cero\u201d en Argentina - Los Primeros TV",
           "t": "2026-05-29T12:24:13Z",
           "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQVTFIbW9fU1pyZVJPZXVIMHhQQ2w4emdBNWpXUjFIcHVCNlBpYmFpU3Y2MDhOM3poSlhMV2ktaktOOUdGRW1pRnVITXZpemZ4UTNKS213VGh1WWdZUlQzbFhDWlgyZEVpZ29GR0JDZzJBZUtNUjE3VkhHZE9CTzlHOXpKNFVZRFdZenFJbi1jTEdiam1sUGh6cDZHWTNydFNFVnVWOEN6aXc5eF9tT2FMeFRFZVZnY0VMay04RVRsblRiV29vbUdQWVRPZ3JOU2N5aXNvdGJmNVA0RExZbWd6cEVVUHdKM2kxeHF3d0VPTjhfNFhNa0wwZXJ6TE1PODVKWUc0UjJyREpzZw?oc=5"
+        },
+        {
+          "title": "Argentina refuerza vigilancia sanitaria ante brote de hantavirus en crucero - Cadena 3 Argentina",
+          "t": "2026-05-22T07:00:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcV9rcm5uT2ljTUliODV3aTU3TnI1MWhQcXd5UU9OaTBQVmYxbDVENWVwQlFDdnlTb2QzRV84THUyUlJPcWFFMzFYMEJTRG1IX0JKUDg3YnIzbGhoZXpGU09RN05UZm1UQzI0OXlKR3NhRFpuVzY4czRJV0pvOFhpaXVLbDNCNUpxUzAzd1pRSGZlZ2U2dVNaSGdETFgwbWp2LUdJWS1jLXQxdWJMSWJoRUN0MEc5ZG5lOWZPZG10TnjSAcYBQVVfeXFMTjlhQmduNHFPUHVWaklxdDdyVjFjTmtzUGY1cXQyemszSDhETVRaNTlGb0pOcXZJelFBbG9ud3VnRnRXQlhrZjM5bm9rNk51eVhOaXBFemVKM0xCaWVfemdtUG11V1dVWHBYV1BILWtIN2ZuSUdSNVlrOTNSUXBiZnEwNUdXUVI5azE5OHVTTVdMQ1dEUmc4T3J2dDAtVDhucy0yRXNuY1lkY1drUmpwcnIzaVlIXzlWQXNoTHdxbnBFR3pBUUpB?oc=5"
         },
         {
           "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
