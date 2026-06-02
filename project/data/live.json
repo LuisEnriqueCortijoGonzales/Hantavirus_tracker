@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-02T17:25:13.587974Z",
-  "next_update": "2026-06-02T17:30:00Z",
+  "generated": "2026-06-02T17:30:12.804144Z",
+  "next_update": "2026-06-02T17:35:00Z",
   "days_active": 25,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 178,
+      "ytd": 179,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 34,
+      "var_pct": 35,
       "strain": "andes",
       "new_today": 5,
-      "r0": 0.65,
-      "signals": 2,
+      "r0": 0.68,
+      "signals": 3,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      86,
+      87,
       94,
-      102,
-      110,
-      118,
-      126,
-      134,
-      141,
+      103,
+      111,
+      119,
+      127,
+      135,
+      142,
       149,
-      155,
-      162,
-      168,
-      173,
-      178
+      156,
+      163,
+      169,
+      174,
+      179
     ],
     "CHL": [
       43,
@@ -881,7 +881,7 @@
       498,
       495,
       491,
-      488,
+      487,
       484,
       481,
       477,
@@ -1249,8 +1249,8 @@
       1872,
       1921,
       1995,
-      2063,
-      2126,
+      2064,
+      2127,
       2184,
       2236,
       2617
@@ -1346,7 +1346,7 @@
       2808,
       3506,
       3483,
-      3461,
+      3460,
       3438,
       3417,
       3395
@@ -1452,10 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      168,
-      168,
-      168,
-      169,
       169,
       169,
       169,
@@ -1468,7 +1464,7 @@
       171,
       171,
       171,
-      172,
+      171,
       172,
       172,
       172,
@@ -1492,14 +1488,18 @@
       176,
       176,
       176,
-      177,
       177,
       177,
       177,
       177,
       178,
       178,
-      178
+      178,
+      178,
+      178,
+      179,
+      179,
+      179
     ],
     "CHL": [
       72,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 17,
     "epidemio": 19,
     "polymarket": 6,
-    "kalshi": 22,
+    "kalshi": 23,
     "max_andes_r0": 1.29,
     "avg_other_r0": 0.64,
     "continents": [
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 2,
-    "ARG": 2,
+    "ARG": 3,
     "PAN": 1,
     "FRA": 1
   },
@@ -4065,6 +4065,13 @@
       "t": "2026-05-25T22:40:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus en Argentina: hay 45 contagios confirmados en el pa\u00eds y alerta internacional por la cepa Andes - La Voz del Interior",
+      "t": "2026-05-20T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUGhmdHVmbkhmLUV3Wk9tdnhObDBKT0JET1J1SHJORkFwNkVZU0xpUlZUOVdnczRXWlcybXFsaXlRNXJtMThfdWJOTWh5eHBYY18wVWVEczFDSjFEOUpGU2RPRzR0ekZKb1hjYm9NYTF5U1hQd0FpZE4ySWtZLXJmbzA2Uk9mMVRzbXZtalVkUDhzR3ItNFVLal9FVkpyc05SNnZPS0RMN3lYN21WY09LTmY1WGlVUzUyZEZjbXhoVXBEWkVXVzFzVnFyTm1PTDQ3eEE?oc=5"
     }
   ],
   "maritime_events": [
@@ -4083,7 +4090,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-02T17:25:13Z",
+      "last_update": "2026-06-02T17:30:12Z",
       "signals": 4,
       "recent": [
         {
