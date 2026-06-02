@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-02T10:30:07.567675Z",
-  "next_update": "2026-06-02T10:35:00Z",
+  "generated": "2026-06-02T10:35:12.062004Z",
+  "next_update": "2026-06-02T10:40:00Z",
   "days_active": 25,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2269,
+      "ytd": 2270,
       "alert": "vigilancia",
       "cfr": 0.9,
       "var_pct": 21,
       "strain": "puumala",
-      "new_today": 48,
+      "new_today": 49,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -913,7 +913,7 @@
       259,
       269,
       278,
-      286,
+      287,
       294,
       349,
       347,
@@ -1253,7 +1253,7 @@
       2109,
       2168,
       2221,
-      2269
+      2270
     ],
     "BLR": [
       34,
@@ -1343,7 +1343,7 @@
       2490,
       2595,
       2693,
-      2783,
+      2784,
       2866,
       3490,
       3467,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 12,
+    "composite": 14,
     "epidemio": 15,
     "polymarket": 6,
-    "kalshi": 14,
+    "kalshi": 20,
     "max_andes_r0": 0.62,
     "avg_other_r0": 0.64,
     "continents": [
@@ -4018,11 +4018,19 @@
     "outbreak_count": 4
   },
   "signal_summary": {
+    "CAN": 1,
     "ARG": 2,
     "PAN": 1,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "Cruise ship tied to hantavirus cleared to sail: Where it\u2019s headed - Yahoo Lifestyle Canada",
+      "t": "2026-06-01T14:34:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcjdaa09yWUJtTDhLZy1SVW5mRlBjVzBxeDVfV1R4eU0zbFNUWFJYUm9FRlk2NlVpSW5SNGxldGZzY2dwRTNSWjEtY3lMS1pFN19uT3o0UEhIY0w4MF9DdmlkVG4tOTVBeVc4M05Pbzg4OThlMVVDc0ttd3EyZHFHT2lGbkFEdw?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Salud. Hantavirus: el crucero MV Hondius volver\u00e1 a navegar en junio tras el brote iniciado en Argentina - La Voz del Interior",
@@ -4068,9 +4076,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-02T10:30:07Z",
-      "signals": 3,
+      "last_update": "2026-06-02T10:35:12Z",
+      "signals": 4,
       "recent": [
+        {
+          "title": "Cruise ship tied to hantavirus cleared to sail: Where it\u2019s headed - Yahoo Lifestyle Canada",
+          "t": "2026-06-01T14:34:00Z",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcjdaa09yWUJtTDhLZy1SVW5mRlBjVzBxeDVfV1R4eU0zbFNUWFJYUm9FRlk2NlVpSW5SNGxldGZzY2dwRTNSWjEtY3lMS1pFN19uT3o0UEhIY0w4MF9DdmlkVG4tOTVBeVc4M05Pbzg4OThlMVVDc0ttd3EyZHFHT2lGbkFEdw?oc=5"
+        },
         {
           "title": "Salud. Hantavirus: el crucero MV Hondius volver\u00e1 a navegar en junio tras el brote iniciado en Argentina - La Voz del Interior",
           "t": "2026-05-30T21:42:46Z",
