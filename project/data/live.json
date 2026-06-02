@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-02T04:45:17.320435Z",
-  "next_update": "2026-06-02T04:50:00Z",
+  "generated": "2026-06-02T04:50:06.035957Z",
+  "next_update": "2026-06-02T04:55:00Z",
   "days_active": 25,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,7 +8,7 @@
       "ytd": 176,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 37,
+      "var_pct": 36,
       "strain": "andes",
       "new_today": 6,
       "r0": 0.59,
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2258,
+      "ytd": 2259,
       "alert": "vigilancia",
       "cfr": 0.9,
       "var_pct": 21,
       "strain": "puumala",
-      "new_today": 49,
+      "new_today": 50,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3407,
+      "ytd": 3406,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 28,
@@ -587,7 +587,7 @@
       41,
       44,
       47,
-      50,
+      51,
       54,
       57,
       60,
@@ -1248,12 +1248,12 @@
       1872,
       1872,
       1879,
-      1956,
+      1957,
       2028,
       2094,
       2154,
       2209,
-      2258
+      2259
     ],
     "BLR": [
       34,
@@ -1341,15 +1341,15 @@
       2341,
       2350,
       2464,
-      2570,
+      2571,
       2670,
-      2762,
+      2763,
       2847,
       3495,
       3472,
       3450,
       3428,
-      3407
+      3406
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 13,
+    "composite": 14,
     "epidemio": 15,
     "polymarket": 6,
-    "kalshi": 17,
+    "kalshi": 19,
     "max_andes_r0": 0.59,
     "avg_other_r0": 0.64,
     "continents": [
@@ -4083,7 +4083,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-02T04:45:17Z",
+      "last_update": "2026-06-02T04:50:06Z",
       "signals": 4,
       "recent": [
         {
