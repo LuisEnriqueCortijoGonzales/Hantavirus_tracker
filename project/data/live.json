@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-02T00:10:11.312617Z",
-  "next_update": "2026-06-02T00:15:00Z",
+  "generated": "2026-06-02T00:15:05.301325Z",
+  "next_update": "2026-06-02T00:20:00Z",
   "days_active": 25,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -16,14 +16,14 @@
       "gov_alert": false
     },
     "CHL": {
-      "ytd": 74,
+      "ytd": 75,
       "alert": "brote",
       "cfr": 35.5,
-      "var_pct": 26,
+      "var_pct": 27,
       "strain": "andes",
-      "new_today": 1,
-      "r0": 0.3,
-      "signals": 0,
+      "new_today": 2,
+      "r0": 0.35,
+      "signals": 1,
       "gov_alert": false
     },
     "BRA": {
@@ -85,11 +85,11 @@
       "ytd": 25,
       "alert": "vigilancia",
       "cfr": 36.0,
-      "var_pct": 40,
+      "var_pct": 41,
       "strain": "hps",
       "new_today": 1,
       "r0": 3.5,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2249,
+      "ytd": 2250,
       "alert": "vigilancia",
       "cfr": 0.9,
       "var_pct": 20,
       "strain": "puumala",
-      "new_today": 50,
+      "new_today": 51,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -585,19 +585,19 @@
     ],
     "CHL": [
       40,
-      43,
+      44,
       47,
       50,
       53,
       56,
       59,
       62,
-      64,
+      65,
       67,
       69,
       71,
       73,
-      74
+      75
     ],
     "BRA": [
       89,
@@ -1253,7 +1253,7 @@
       2082,
       2143,
       2199,
-      2249
+      2250
     ],
     "BLR": [
       34,
@@ -1340,11 +1340,11 @@
       2341,
       2341,
       2341,
-      2442,
-      2550,
+      2443,
+      2551,
       2652,
-      2745,
-      2831,
+      2746,
+      2832,
       3500,
       3477,
       3454,
@@ -1504,10 +1504,6 @@
     "CHL": [
       71,
       71,
-      71,
-      71,
-      71,
-      71,
       72,
       72,
       72,
@@ -1520,7 +1516,6 @@
       72,
       72,
       72,
-      72,
       73,
       73,
       73,
@@ -1549,7 +1544,12 @@
       74,
       74,
       74,
-      74
+      75,
+      75,
+      75,
+      75,
+      75,
+      75
     ],
     "BRA": [
       89,
@@ -1817,8 +1817,6 @@
       23,
       23,
       23,
-      23,
-      23,
       24,
       24,
       24,
@@ -1837,6 +1835,8 @@
       24,
       24,
       24,
+      25,
+      25,
       25,
       25,
       25,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 13,
     "epidemio": 15,
     "polymarket": 6,
-    "kalshi": 20,
+    "kalshi": 16,
     "max_andes_r0": 0.56,
     "avg_other_r0": 0.64,
     "continents": [
@@ -4018,7 +4018,9 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "USA": 1,
+    "USA": 2,
+    "CHL": 1,
+    "CAN": 1,
     "ARG": 2,
     "PAN": 1,
     "FRA": 1
@@ -4030,6 +4032,27 @@
       "t": "2026-06-01T20:25:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbTNQaWhQTVpwenVzZHhCNUxQMGhRZ29yaXFZakhZQzVzZmNEQkVqdC1GeHlTSEs3NkNPN3RLcWcxRHZiWUZCNmtiWWlFVEs1VnljcUs5a0FJY1ZDTHd2YWhVbkhPRUVWZVZSWXJTOU5ES1I2SS1oLVB2MWUwVnhfVEprSXlzd1FmbS1Vcmt1S2gwM010UzFIaFlPUFQ5RjREUmUxeURpZ2lqQ2gxQ19SdVJ5WQ?oc=5"
+    },
+    {
+      "iso": "CHL",
+      "title": "\u2018Higher than expected number of hantavirus cases\u2019: Canada issues new travel advice for Chile - Inside Halton",
+      "t": "2026-06-01T17:45:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVXRKZ1RkakhPOHB0Mml0ZFRSbGdIdF9YZHF0UHo4bGlGSzBUNjluWU13c1NIUEVMNUVTMzFPX0Rqa01RQTBhekpMWFhKMHNNc3lMR3NHeVhwdXRrVU9PcDJ0MGI4TGxfdzNNUlowb0xDcmx2MmwydTQzYlY0cnJiZGZTLWJ0R3pEQ0szc2pSczFEODhodXI4THFobWJZeE9pdmhQcXZmUjVsTGc4MU03NnFyZHByQXZYR2h3UnE5TGFBMjlCdkE?oc=5"
+    },
+    {
+      "iso": "CAN",
+      "title": "\u2018Higher than expected number of hantavirus cases\u2019: Canada issues new travel advice for Chile - Inside Halton",
+      "t": "2026-06-01T17:45:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVXRKZ1RkakhPOHB0Mml0ZFRSbGdIdF9YZHF0UHo4bGlGSzBUNjluWU13c1NIUEVMNUVTMzFPX0Rqa01RQTBhekpMWFhKMHNNc3lMR3NHeVhwdXRrVU9PcDJ0MGI4TGxfdzNNUlowb0xDcmx2MmwydTQzYlY0cnJiZGZTLWJ0R3pEQ0szc2pSczFEODhodXI4THFobWJZeE9pdmhQcXZmUjVsTGc4MU03NnFyZHByQXZYR2h3UnE5TGFBMjlCdkE?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Ebola, hantavirus and the warning America should not ignore | Opinion - The Portland Press Herald",
+      "t": "2026-05-31T08:34:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB5SjJaV28yai1CQTRQM1MwU1lscGpmOWctWklHeVdGaHJjQU50ZE1sR1MwSExDQmxDb3NjLUVJT3hoMFpZeGZMU2NoYVBQMGM?oc=5"
     },
     {
       "iso": "ARG",
@@ -4076,7 +4099,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-02T00:10:11Z",
+      "last_update": "2026-06-02T00:15:05Z",
       "signals": 4,
       "recent": [
         {
