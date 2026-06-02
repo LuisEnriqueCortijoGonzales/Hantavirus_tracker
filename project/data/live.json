@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-02T15:40:13.568481Z",
-  "next_update": "2026-06-02T15:45:00Z",
+  "generated": "2026-06-02T15:45:12.794425Z",
+  "next_update": "2026-06-02T15:50:00Z",
   "days_active": 25,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -467,12 +467,12 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2619,
+      "ytd": 2618,
       "alert": "vigilancia",
       "cfr": 0.9,
       "var_pct": 40,
       "strain": "puumala",
-      "new_today": 387,
+      "new_today": 386,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -1253,7 +1253,7 @@
       2122,
       2180,
       2232,
-      2619
+      2618
     ],
     "BLR": [
       34,
@@ -1339,7 +1339,7 @@
       2341,
       2341,
       2341,
-      2402,
+      2403,
       2513,
       2617,
       2713,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 19,
     "polymarket": 6,
-    "kalshi": 18,
+    "kalshi": 17,
     "max_andes_r0": 1.29,
     "avg_other_r0": 0.64,
     "continents": [
@@ -4019,6 +4019,7 @@
   },
   "signal_summary": {
     "USA": 2,
+    "GBR": 1,
     "ARG": 3,
     "PAN": 1,
     "FRA": 1
@@ -4027,9 +4028,16 @@
     {
       "iso": "USA",
       "title": "5 Americans exposed to hantavirus return home after weeks in quarantine - USA Today",
-      "t": "2026-06-02T11:37:00Z",
+      "t": "2026-06-02T14:57:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVENqNThZRWxXS3gyNlFUeHo4NWNKdFVsRzBNMmxqMk1tcTlqYnZXWnFFUTNiR24xRUM2YTdoMVpFV21mMy1zQTVsZVN4M2xnaVhxMnJwN1hGMVRwcWZ1YVd5blMxbGp0dzB5QlpfVGVqSlJGa193NFVBc19KeDdIMEwtejJYa2ZacnhpSHdZR01vS1NhbTFkMjNYTE9kdTZscTZzcUVDbjdVcHlIckFaOENESWFjRWZJSUE?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "5 Americans exposed to hantavirus return home after weeks in quarantine - Yahoo News UK",
+      "t": "2026-06-02T11:37:27Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZ3puZlZiMnFMN0J5Z0M2QVp3aU8zYml4MXBHVDRXc0pXVzBXVWRad1V2MTdEVUMzSzdtVFRnNG9GSWU3dHBxRjBIUzhhcDdXU09tWGdYSzd0OVpDTllBUzh5bGhQX1hCN25yWmJRYWpFRWdfdm9rdUZjNUpnTE1wWmdpZzY?oc=5"
     },
     {
       "iso": "USA",
@@ -4090,7 +4098,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-02T15:40:13Z",
+      "last_update": "2026-06-02T15:45:12Z",
       "signals": 5,
       "recent": [
         {
