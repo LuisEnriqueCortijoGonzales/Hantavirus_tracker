@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-02T02:55:18.091708Z",
-  "next_update": "2026-06-02T03:00:00Z",
+  "generated": "2026-06-02T03:00:06.805661Z",
+  "next_update": "2026-06-02T03:05:00Z",
   "days_active": 25,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -217,7 +217,7 @@
       "ytd": 476,
       "alert": "brote",
       "cfr": 0.1,
-      "var_pct": 22,
+      "var_pct": 21,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.3,
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "CHE": {
@@ -1341,9 +1341,9 @@
       2341,
       2341,
       2455,
-      2562,
+      2563,
       2663,
-      2755,
+      2756,
       2841,
       3497,
       3474,
@@ -1401,7 +1401,6 @@
     "2026-06-02T12:00Z"
   ],
   "hourly_dates": [
-    "2026-05-31T03:00:00Z",
     "2026-05-31T04:00:00Z",
     "2026-05-31T05:00:00Z",
     "2026-05-31T06:00:00Z",
@@ -1448,11 +1447,11 @@
     "2026-06-01T23:00:00Z",
     "2026-06-02T00:00:00Z",
     "2026-06-02T01:00:00Z",
-    "2026-06-02T02:00:00Z"
+    "2026-06-02T02:00:00Z",
+    "2026-06-02T03:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      165,
       165,
       166,
       166,
@@ -1499,13 +1498,13 @@
       175,
       175,
       176,
+      176,
       176
     ],
     "CHL": [
       71,
       71,
       71,
-      71,
       72,
       72,
       72,
@@ -1548,6 +1547,7 @@
       74,
       74,
       74,
+      75,
       75,
       75
     ],
@@ -1816,7 +1816,6 @@
       23,
       23,
       23,
-      23,
       24,
       24,
       24,
@@ -1835,6 +1834,7 @@
       24,
       24,
       24,
+      25,
       25,
       25,
       25,
@@ -2403,7 +2403,6 @@
     ],
     "FIN": [
       483,
-      483,
       482,
       482,
       482,
@@ -2447,6 +2446,7 @@
       477,
       477,
       477,
+      476,
       476,
       476,
       476
@@ -2463,7 +2463,6 @@
       200,
       200,
       200,
-      200,
       199,
       199,
       199,
@@ -2486,6 +2485,7 @@
       199,
       199,
       199,
+      198,
       198,
       198,
       198,
@@ -2502,7 +2502,6 @@
       198
     ],
     "DEU": [
-      350,
       349,
       349,
       349,
@@ -2545,6 +2544,7 @@
       346,
       346,
       346,
+      345,
       345,
       345,
       345,
@@ -2561,7 +2561,6 @@
       48,
       48,
       48,
-      48,
       49,
       49,
       49,
@@ -2582,6 +2581,7 @@
       49,
       49,
       49,
+      50,
       50,
       50,
       50,
@@ -3172,7 +3172,6 @@
       34,
       34,
       34,
-      34,
       35,
       35,
       35,
@@ -3194,6 +3193,7 @@
       35,
       35,
       35,
+      36,
       36,
       36,
       36,
@@ -3552,7 +3552,6 @@
       4
     ],
     "RUS": [
-      2150,
       2152,
       2155,
       2157,
@@ -3599,7 +3598,8 @@
       2247,
       2249,
       2251,
-      2253
+      2253,
+      2255
     ],
     "BLR": [
       34,
@@ -3852,7 +3852,6 @@
       23
     ],
     "CHN": [
-      3452,
       3451,
       3450,
       3449,
@@ -3899,7 +3898,8 @@
       3412,
       3411,
       3410,
-      3409
+      3409,
+      3408
     ],
     "KOR": [
       95,
@@ -3907,7 +3907,6 @@
       95,
       95,
       95,
-      95,
       96,
       96,
       96,
@@ -3949,7 +3948,8 @@
       99,
       99,
       99,
-      99
+      99,
+      100
     ],
     "JPN": [
       12,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 13,
+    "composite": 14,
     "epidemio": 15,
     "polymarket": 6,
-    "kalshi": 15,
+    "kalshi": 20,
     "max_andes_r0": 0.59,
     "avg_other_r0": 0.64,
     "continents": [
@@ -4021,7 +4021,7 @@
     "USA": 1,
     "ARG": 3,
     "PAN": 1,
-    "FRA": 2
+    "FRA": 1
   },
   "events": [
     {
@@ -4053,25 +4053,18 @@
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQVTFIbW9fU1pyZVJPZXVIMHhQQ2w4emdBNWpXUjFIcHVCNlBpYmFpU3Y2MDhOM3poSlhMV2ktaktOOUdGRW1pRnVITXZpemZ4UTNKS213VGh1WWdZUlQzbFhDWlgyZEVpZ29GR0JDZzJBZUtNUjE3VkhHZE9CTzlHOXpKNFVZRFdZenFJbi1jTEdiam1sUGh6cDZHWTNydFNFVnVWOEN6aXc5eF9tT2FMeFRFZVZnY0VMay04RVRsblRiV29vbUdQWVRPZ3JOU2N5aXNvdGJmNVA0RExZbWd6cEVVUHdKM2kxeHF3d0VPTjhfNFhNa0wwZXJ6TE1PODVKWUc0UjJyREpzZw?oc=5"
     },
     {
+      "iso": "FRA",
+      "title": "Espa\u00f1a, Francia y Pa\u00edses Bajos reciben un antiviral experimental japon\u00e9s contra el hantavirus - Infosalus",
+      "t": "2026-05-28T11:49:06Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZUY5UXA2R0lhci1IUms2bjQ3dVpoWU04TGFLSWpnS1BEaW5fSkJtSmNqMGJ5RVBtYmFaLXNrTVFILXBOek9zdTVXak1jekhJZVZKeV9Fbk1JT0tzbTlrajhybFdOUmdHbFpGdG9KY1JSdFE3Q2pUS2lZa21meFFwZjFwa0E3SFRfY1hXd0xkcTl5SkEyTEpXVEI3Zm5XS3pXYjhuVHdCMUVkeUVUN0hWTlMyTGQzM25tYnk1VUIzUk1nQWhGa2lCYlMzV2hJQnYwRXFQR2xrSmtsMzE5bjJZRElTV2N6UlNoNmtnWG1XWQ?oc=5"
+    },
+    {
       "iso": "PAN",
       "title": "Confirman en Panam\u00e1 la primera muerte este a\u00f1o por hantavirus - Infobae",
       "t": "2026-05-28T02:56:04Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV3ZUZktsRlY2Z2V6b1RKcDd1SWlNYTJ2RkRzQjRZXzlwemZ4eWk2OEo1MWt2cWgyaGZNRDZDTmxKRmdlXzQxTW9xOTZZNk05OUVnUzZqWDJ5dUxRX0J5RmxEV0diV25xeWtBeU1QdlpvY3cwR3ZPdEdiSFE3MHNOYjIwYUhsMnZsQ1p2b2pzWEpCRnMxY2hWZDI5QmxKZnU0a211MnhXONIBwgFBVV95cUxNcktVZ1hyb3JFdGNyaHpPMVhBel9xOElJWmI2cVdDZDJEZHczZGVRdTBUeFdiZ05hVnNRUjFiV0p0TVBDQzdGcHZNNFREMnM4eWJBVkN3bzNndXVMbld4RDdsYl80UXpxZWJIc094R0ZUbW5nenM1M3lhUzhLM1dfa05tcndIQUlpSWgyWUhnN2FaSTZ1cjdXbVY3VlA4dmhoOG5WZlpRbUtGcU1ONXlhNEdqc1RZNjd2Wk5ELWctaHdxQQ?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
-      "t": "2026-05-25T22:40:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "El paciente con nuevo caso de hantavirus ingres\u00f3 en un hospital de Pa\u00edses Bajos - France 24",
-      "t": "2026-05-22T14:47:10Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUm5wVnpaNFJOTzJkTjlXWkFDS0N3ZHp1ckVwekhwbjhZSkJaemYySTdra2NrcVdSWDQ5RE80M2F4eHpKVnFCRUtWR3pnUC1VS0Ftb3gxRXZZZzFsc2RESmlsVlZISENfSGxvbHRFM3RxMTh2WUNVdE9GZExiRl9nTlBTdmNLNFB0TlU1empUOTVmenphSnRzcTFKa1NyMEEwbng2RmdIUzUxZFBmSkdEckd3Q0VjNGF2SThsdmNTdUlsaWptNS0xMHBTTEZ5aWhja091bEZtTW1LZw?oc=5"
     }
   ],
   "maritime_events": [
@@ -4090,8 +4083,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-02T02:55:18Z",
-      "signals": 4,
+      "last_update": "2026-06-02T03:00:06Z",
+      "signals": 3,
       "recent": [
         {
           "title": "Cruise ship tied to hantavirus cleared to sail: Where it\u2019s headed - USA Today",
@@ -4107,11 +4100,6 @@
           "title": "Brote de hantavirus en el crucero MV Hondius: suben los casos y la OMS sigue el rastro del \u201cpaciente cero\u201d en Argentina - Los Primeros TV",
           "t": "2026-05-29T12:24:13Z",
           "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQVTFIbW9fU1pyZVJPZXVIMHhQQ2w4emdBNWpXUjFIcHVCNlBpYmFpU3Y2MDhOM3poSlhMV2ktaktOOUdGRW1pRnVITXZpemZ4UTNKS213VGh1WWdZUlQzbFhDWlgyZEVpZ29GR0JDZzJBZUtNUjE3VkhHZE9CTzlHOXpKNFVZRFdZenFJbi1jTEdiam1sUGh6cDZHWTNydFNFVnVWOEN6aXc5eF9tT2FMeFRFZVZnY0VMay04RVRsblRiV29vbUdQWVRPZ3JOU2N5aXNvdGJmNVA0RExZbWd6cEVVUHdKM2kxeHF3d0VPTjhfNFhNa0wwZXJ6TE1PODVKWUc0UjJyREpzZw?oc=5"
-        },
-        {
-          "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
-          "t": "2026-05-25T22:40:00Z",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
         }
       ]
     }
