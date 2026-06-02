@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-02T09:45:03.828714Z",
-  "next_update": "2026-06-02T09:50:00Z",
+  "generated": "2026-06-02T09:50:11.460908Z",
+  "next_update": "2026-06-02T09:55:00Z",
   "days_active": 25,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -10,9 +10,9 @@
       "cfr": 37.3,
       "var_pct": 36,
       "strain": "andes",
-      "new_today": 5,
+      "new_today": 6,
       "r0": 0.62,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "CHL": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "CHE": {
@@ -569,18 +569,18 @@
   "history": {
     "ARG": [
       84,
-      92,
-      100,
+      91,
+      99,
       108,
       116,
       124,
       132,
-      140,
-      147,
-      154,
-      161,
-      167,
-      172,
+      139,
+      146,
+      153,
+      160,
+      166,
+      171,
       177
     ],
     "CHL": [
@@ -875,7 +875,7 @@
       312,
       321,
       338,
-      353,
+      354,
       368,
       382,
       395,
@@ -1339,16 +1339,16 @@
       2341,
       2341,
       2341,
-      2374,
-      2486,
+      2375,
+      2487,
       2592,
       2690,
-      2780,
+      2781,
       2864,
       3490,
       3468,
       3445,
-      3424,
+      3423,
       3402
     ],
     "KOR": [
@@ -1452,6 +1452,9 @@
   ],
   "hourly_history": {
     "ARG": [
+      166,
+      166,
+      166,
       167,
       167,
       167,
@@ -1464,6 +1467,7 @@
       169,
       169,
       169,
+      169,
       170,
       170,
       170,
@@ -1472,7 +1476,7 @@
       171,
       171,
       171,
-      171,
+      172,
       172,
       172,
       172,
@@ -1495,11 +1499,7 @@
       176,
       176,
       176,
-      176,
-      177,
-      177,
-      177,
-      177
+      176
     ],
     "CHL": [
       72,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 13,
+    "composite": 14,
     "epidemio": 15,
     "polymarket": 6,
-    "kalshi": 15,
+    "kalshi": 18,
     "max_andes_r0": 0.62,
     "avg_other_r0": 0.64,
     "continents": [
@@ -4019,8 +4019,9 @@
   },
   "signal_summary": {
     "USA": 1,
-    "ARG": 3,
-    "PAN": 1
+    "ARG": 2,
+    "PAN": 1,
+    "FRA": 1
   },
   "events": [
     {
@@ -4029,13 +4030,6 @@
       "t": "2026-06-01T20:25:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbTNQaWhQTVpwenVzZHhCNUxQMGhRZ29yaXFZakhZQzVzZmNEQkVqdC1GeHlTSEs3NkNPN3RLcWcxRHZiWUZCNmtiWWlFVEs1VnljcUs5a0FJY1ZDTHd2YWhVbkhPRUVWZVZSWXJTOU5ES1I2SS1oLVB2MWUwVnhfVEprSXlzd1FmbS1Vcmt1S2gwM010UzFIaFlPUFQ5RjREUmUxeURpZ2lqQ2gxQ19SdVJ5WQ?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus en Argentina: brote 2025-2026 duplica casos y preocupa - Foro3D",
-      "t": "2026-06-01T06:50:39Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOVNOQWJDekZIUjB6bTZqWURJckY5X2JVeXpvQXFjZGdQZU1FLTNRNUpIZmRXQ0FMeDQyOS1Ca3daUFdtX2t1N1VLbkNBcVVWZk1GMFpiVzVyRWdrVjM2c2kwX1ZMeTZaZXR5MnRFeDl1dGpObVo5ZFFLRlNWRmpQRjNoYTlhcGhTWG53ekw2d0lPZzVEWTRIRzYxN09JdmpC?oc=5"
     },
     {
       "iso": "ARG",
@@ -4057,6 +4051,13 @@
       "t": "2026-05-28T02:56:04Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV3ZUZktsRlY2Z2V6b1RKcDd1SWlNYTJ2RkRzQjRZXzlwemZ4eWk2OEo1MWt2cWgyaGZNRDZDTmxKRmdlXzQxTW9xOTZZNk05OUVnUzZqWDJ5dUxRX0J5RmxEV0diV25xeWtBeU1QdlpvY3cwR3ZPdEdiSFE3MHNOYjIwYUhsMnZsQ1p2b2pzWEpCRnMxY2hWZDI5QmxKZnU0a211MnhXONIBwgFBVV95cUxNcktVZ1hyb3JFdGNyaHpPMVhBel9xOElJWmI2cVdDZDJEZHczZGVRdTBUeFdiZ05hVnNRUjFiV0p0TVBDQzdGcHZNNFREMnM4eWJBVkN3bzNndXVMbld4RDdsYl80UXpxZWJIc094R0ZUbW5nenM1M3lhUzhLM1dfa05tcndIQUlpSWgyWUhnN2FaSTZ1cjdXbVY3VlA4dmhoOG5WZlpRbUtGcU1ONXlhNEdqc1RZNjd2Wk5ELWctaHdxQQ?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
+      "t": "2026-05-25T22:40:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
     }
   ],
   "maritime_events": [
@@ -4075,8 +4076,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-02T09:45:03Z",
-      "signals": 3,
+      "last_update": "2026-06-02T09:50:11Z",
+      "signals": 4,
       "recent": [
         {
           "title": "Cruise ship tied to hantavirus cleared to sail: Where it\u2019s headed - USA Today",
@@ -4092,6 +4093,11 @@
           "title": "Brote de hantavirus en el crucero MV Hondius: suben los casos y la OMS sigue el rastro del \u201cpaciente cero\u201d en Argentina - Los Primeros TV",
           "t": "2026-05-29T12:24:13Z",
           "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQVTFIbW9fU1pyZVJPZXVIMHhQQ2w4emdBNWpXUjFIcHVCNlBpYmFpU3Y2MDhOM3poSlhMV2ktaktOOUdGRW1pRnVITXZpemZ4UTNKS213VGh1WWdZUlQzbFhDWlgyZEVpZ29GR0JDZzJBZUtNUjE3VkhHZE9CTzlHOXpKNFVZRFdZenFJbi1jTEdiam1sUGh6cDZHWTNydFNFVnVWOEN6aXc5eF9tT2FMeFRFZVZnY0VMay04RVRsblRiV29vbUdQWVRPZ3JOU2N5aXNvdGJmNVA0RExZbWd6cEVVUHdKM2kxeHF3d0VPTjhfNFhNa0wwZXJ6TE1PODVKWUc0UjJyREpzZw?oc=5"
+        },
+        {
+          "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
+          "t": "2026-05-25T22:40:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
         }
       ]
     }
