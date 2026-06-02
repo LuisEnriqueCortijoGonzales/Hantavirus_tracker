@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-02T14:50:10.570844Z",
-  "next_update": "2026-06-02T14:55:00Z",
+  "generated": "2026-06-02T14:55:09.812701Z",
+  "next_update": "2026-06-02T15:00:00Z",
   "days_active": 25,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 178,
+      "ytd": 179,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 35,
       "strain": "andes",
-      "new_today": 5,
-      "r0": 0.65,
+      "new_today": 6,
+      "r0": 0.68,
       "signals": 3,
       "gov_alert": false
     },
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -472,7 +472,7 @@
       "cfr": 0.9,
       "var_pct": 40,
       "strain": "puumala",
-      "new_today": 389,
+      "new_today": 388,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -581,7 +581,7 @@
       162,
       168,
       173,
-      178
+      179
     ],
     "CHL": [
       42,
@@ -876,7 +876,7 @@
       324,
       341,
       357,
-      371,
+      372,
       385,
       499,
       495,
@@ -1249,10 +1249,10 @@
       1872,
       1912,
       1987,
-      2056,
+      2057,
       2120,
       2178,
-      2230,
+      2231,
       2619
     ],
     "BLR": [
@@ -1339,8 +1339,8 @@
       2341,
       2341,
       2341,
-      2398,
-      2509,
+      2399,
+      2510,
       2613,
       2710,
       2799,
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 19,
     "polymarket": 6,
-    "kalshi": 19,
+    "kalshi": 22,
     "max_andes_r0": 1.29,
     "avg_other_r0": 0.64,
     "continents": [
@@ -4019,11 +4019,19 @@
   },
   "signal_summary": {
     "USA": 2,
+    "GBR": 1,
     "ARG": 3,
     "PAN": 1,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "GBR",
+      "title": "Five US passengers from hantavirus-hit ship return to home states - Yahoo News UK",
+      "t": "2026-06-02T13:57:38Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4UTRDVV9LZllyX0NFTmxDV0lyOTREWHpHMnNTNW5meXZJU1puNzM4YWVya2k4b19wNDJZNEx4RWkwVUUtelRqT0t3R1JUWDhTSldUWDRGNjdsUnloUGJNWG04NkgzbmJjT09oVHdLSW5FR1ZJT3JDXzBjdVZ4aU0?oc=5"
+    },
     {
       "iso": "USA",
       "title": "5 Americans exposed to hantavirus return home after weeks in quarantine - USA Today",
@@ -4090,7 +4098,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-02T14:50:10Z",
+      "last_update": "2026-06-02T14:55:09Z",
       "signals": 5,
       "recent": [
         {
