@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-02T11:40:02.289089Z",
-  "next_update": "2026-06-02T11:45:00Z",
+  "generated": "2026-06-02T11:45:12.060524Z",
+  "next_update": "2026-06-02T11:50:00Z",
   "days_active": 25,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 26,
       "alert": "vigilancia",
       "cfr": 36.0,
-      "var_pct": 43,
+      "var_pct": 44,
       "strain": "hps",
       "new_today": 1,
       "r0": 3.5,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -588,11 +588,11 @@
       45,
       48,
       51,
-      54,
+      55,
       57,
       60,
       63,
-      65,
+      66,
       68,
       70,
       72,
@@ -689,7 +689,7 @@
       18,
       18,
       19,
-      20,
+      21,
       22,
       23,
       25,
@@ -877,7 +877,7 @@
       339,
       355,
       370,
-      383,
+      384,
       396,
       496,
       492,
@@ -1248,8 +1248,8 @@
       1872,
       1872,
       1902,
-      1977,
-      2047,
+      1978,
+      2048,
       2112,
       2171,
       2224,
@@ -1339,11 +1339,11 @@
       2341,
       2341,
       2341,
-      2383,
+      2384,
       2495,
       2600,
-      2697,
-      2787,
+      2698,
+      2788,
       2870,
       3489,
       3466,
@@ -1806,8 +1806,6 @@
       23,
       23,
       23,
-      23,
-      23,
       24,
       24,
       24,
@@ -1844,7 +1842,9 @@
       25,
       25,
       25,
-      25,
+      26,
+      26,
+      26,
       26,
       26,
       26,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 13,
     "epidemio": 15,
     "polymarket": 6,
-    "kalshi": 19,
+    "kalshi": 16,
     "max_andes_r0": 0.62,
     "avg_other_r0": 0.64,
     "continents": [
@@ -4018,12 +4018,19 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "USA": 1,
+    "USA": 2,
     "ARG": 2,
     "PAN": 1,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "5 Americans exposed to hantavirus return home after weeks in quarantine - USA Today",
+      "t": "2026-06-02T11:37:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVENqNThZRWxXS3gyNlFUeHo4NWNKdFVsRzBNMmxqMk1tcTlqYnZXWnFFUTNiR24xRUM2YTdoMVpFV21mMy1zQTVsZVN4M2xnaVhxMnJwN1hGMVRwcWZ1YVd5blMxbGp0dzB5QlpfVGVqSlJGa193NFVBc19KeDdIMEwtejJYa2ZacnhpSHdZR01vS1NhbTFkMjNYTE9kdTZscTZzcUVDbjdVcHlIckFaOENESWFjRWZJSUE?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Cruise ship tied to hantavirus cleared to sail: Where it\u2019s headed - USA Today",
@@ -4076,7 +4083,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-02T11:40:02Z",
+      "last_update": "2026-06-02T11:45:12Z",
       "signals": 4,
       "recent": [
         {
