@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-03T12:45:07.577688Z",
-  "next_update": "2026-06-03T12:50:00Z",
+  "generated": "2026-06-03T12:50:17.310336Z",
+  "next_update": "2026-06-03T12:55:00Z",
   "days_active": 26,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 183,
+      "ytd": 182,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 32,
+      "var_pct": 31,
       "strain": "andes",
       "new_today": 5,
-      "r0": 0.6,
-      "signals": 3,
+      "r0": 0.57,
+      "signals": 2,
       "gov_alert": false
     },
     "CHL": {
@@ -258,13 +258,13 @@
       "gov_alert": false
     },
     "NOR": {
-      "ytd": 67,
+      "ytd": 68,
       "alert": "endemico",
       "cfr": 0.2,
       "var_pct": 1,
       "strain": "puumala",
-      "new_today": 0,
-      "r0": 0.0,
+      "new_today": 1,
+      "r0": 3.5,
       "signals": 0,
       "gov_alert": false
     },
@@ -467,7 +467,7 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2606,
+      "ytd": 2605,
       "alert": "vigilancia",
       "cfr": 0.9,
       "var_pct": 37,
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      93,
-      101,
+      92,
+      100,
       109,
       117,
       125,
-      133,
-      141,
-      148,
-      155,
+      132,
+      140,
+      147,
+      154,
       161,
       167,
-      173,
-      178,
-      183
+      172,
+      177,
+      182
     ],
     "CHL": [
       45,
@@ -949,7 +949,7 @@
       67,
       67,
       67,
-      67
+      68
     ],
     "FRA": [
       23,
@@ -1246,14 +1246,14 @@
       1872,
       1872,
       1872,
-      1905,
+      1906,
       1981,
       2051,
       2115,
       2173,
       2226,
       2620,
-      2606
+      2605
     ],
     "BLR": [
       34,
@@ -1340,9 +1340,9 @@
       2341,
       2389,
       2500,
-      2604,
+      2605,
       2702,
-      2791,
+      2792,
       3511,
       3488,
       3465,
@@ -1452,9 +1452,13 @@
   ],
   "hourly_history": {
     "ARG": [
+      172,
+      172,
       173,
       173,
       173,
+      173,
+      173,
       174,
       174,
       174,
@@ -1473,6 +1477,7 @@
       177,
       177,
       177,
+      177,
       178,
       178,
       178,
@@ -1488,18 +1493,13 @@
       180,
       180,
       180,
-      180,
       181,
       181,
       181,
       181,
       181,
-      182,
-      182,
-      182,
-      182,
-      182,
-      183
+      181,
+      182
     ],
     "CHL": [
       74,
@@ -4003,12 +4003,12 @@
     ]
   },
   "pandemic": {
-    "composite": 16,
+    "composite": 15,
     "epidemio": 18,
     "polymarket": 7,
-    "kalshi": 19,
+    "kalshi": 17,
     "max_andes_r0": 1.21,
-    "avg_other_r0": 0.59,
+    "avg_other_r0": 0.66,
     "continents": [
       "Americas",
       "Asia",
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 1,
     "FRA": 2,
-    "ARG": 3
+    "ARG": 2
   },
   "events": [
     {
@@ -4057,13 +4057,6 @@
       "t": "2026-05-25T22:40:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Una infect\u00f3loga explic\u00f3 por qu\u00e9 aumentaron los casos de Hantavirus en la Argentina y advirti\u00f3 qu\u00e9 hay que hacer ante un contagio - La Naci\u00f3n",
-      "t": "2026-05-22T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQ2hsV3lYXzF5ZW9sWUtvb1BpQnBYaHJhQmtsb0wyU3I5cEo4aDc4YjJ3bVV6OE1oZUxfUXlRV0ZrTVlmRTBERVBqbndHclhqSEJkSm1CMkd5cEJHTjBvTEd4U3drMVp6QjlmT2xCZlFfX0YwaDE5aFduOFUzTFluU3FvZklFMEtPeDFZMDhiU0ZLQlZrSUN6YnJjSTlZWFBLNTU0NWg5Yk9HSzl0RlBjbjlhdUQ1Mzg0eFFFMGVKM0dUY2RZLXlNd3lLNXJSWGZBa2tCdmNpZ1FuUy1tUV81cA?oc=5"
     }
   ],
   "maritime_events": [
@@ -4082,7 +4075,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-03T12:45:07Z",
+      "last_update": "2026-06-03T12:50:17Z",
       "signals": 2,
       "recent": [
         {
