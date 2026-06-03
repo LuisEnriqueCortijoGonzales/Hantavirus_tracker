@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-03T11:50:05.308137Z",
-  "next_update": "2026-06-03T11:55:00Z",
+  "generated": "2026-06-03T11:55:09.785316Z",
+  "next_update": "2026-06-03T12:00:00Z",
   "days_active": 26,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 183,
+      "ytd": 182,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 32,
+      "var_pct": 31,
       "strain": "andes",
       "new_today": 5,
-      "r0": 0.6,
-      "signals": 3,
+      "r0": 0.57,
+      "signals": 2,
       "gov_alert": false
     },
     "CHL": {
@@ -568,27 +568,27 @@
   },
   "history": {
     "ARG": [
-      93,
-      101,
-      109,
-      117,
-      125,
-      133,
+      92,
+      100,
+      108,
+      116,
+      124,
+      132,
       140,
-      148,
-      155,
-      161,
-      167,
-      173,
-      178,
-      183
+      147,
+      154,
+      160,
+      166,
+      172,
+      177,
+      182
     ],
     "CHL": [
       45,
       48,
       51,
       55,
-      57,
+      58,
       60,
       63,
       66,
@@ -908,7 +908,7 @@
       234,
       234,
       238,
-      249,
+      250,
       260,
       270,
       279,
@@ -1246,7 +1246,7 @@
       1872,
       1872,
       1872,
-      1902,
+      1903,
       1978,
       2048,
       2112,
@@ -1338,12 +1338,12 @@
     "CHN": [
       2341,
       2341,
-      2384,
+      2385,
       2496,
       2601,
       2698,
       2788,
-      2870,
+      2871,
       3488,
       3466,
       3443,
@@ -1452,6 +1452,10 @@
   ],
   "hourly_history": {
     "ARG": [
+      172,
+      172,
+      172,
+      173,
       173,
       173,
       173,
@@ -1474,6 +1478,7 @@
       177,
       177,
       177,
+      177,
       178,
       178,
       178,
@@ -1489,17 +1494,12 @@
       180,
       180,
       180,
-      180,
       181,
       181,
       181,
       181,
       181,
-      182,
-      182,
-      182,
-      182,
-      182
+      181
     ],
     "CHL": [
       74,
@@ -4020,16 +4020,9 @@
   "signal_summary": {
     "USA": 1,
     "FRA": 2,
-    "ARG": 3
+    "ARG": 2
   },
   "events": [
-    {
-      "iso": "ARG",
-      "title": "Confirmaron nuevos casos de hantavirus en Argentina: ya son 47 los contagios - El Litoral",
-      "t": "2026-06-03T10:24:55Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcDZFMi1NNzI3bWFsR1J0eGpxakdRZXd2cEQ3ZTRvS1RCd2FSM2JJYkJuUEphalhPRWM4TEZubVQ3ZmNjRzBEQzVBNDVqLVZ3TTB0NUt5MDNCM1N0aEMxc255X0JhZlI0T1VRc3ZqZ0w1R3ZtZjdiVGlrS0k4WjlQWElRRERSRlA0N2VwTm5xSGxhd3U5QS1INE5tV2I4TjdLUndDSnBSd1dlbzkxeF9vSWE4SEtPU0dI?oc=5"
-    },
     {
       "iso": "FRA",
       "title": "France confirms hantavirus in cruise outbreak is not new or more transmissible - Scripps News",
@@ -4082,7 +4075,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-03T11:50:05Z",
+      "last_update": "2026-06-03T11:55:09Z",
       "signals": 2,
       "recent": [
         {
