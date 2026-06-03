@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-03T02:45:13.533120Z",
-  "next_update": "2026-06-03T02:50:00Z",
+  "generated": "2026-06-03T02:50:18.055521Z",
+  "next_update": "2026-06-03T02:55:00Z",
   "days_active": 26,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -78,7 +78,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "USA": {
@@ -472,7 +472,7 @@
       "cfr": 0.9,
       "var_pct": 39,
       "strain": "puumala",
-      "new_today": 358,
+      "new_today": 357,
       "r0": 5.0,
       "signals": 0,
       "gov_alert": false
@@ -1246,13 +1246,13 @@
       1872,
       1872,
       1872,
-      1872,
+      1873,
       1950,
       2022,
       2089,
-      2149,
+      2150,
       2205,
-      2254,
+      2255,
       2612
     ],
     "BLR": [
@@ -1339,7 +1339,7 @@
       2341,
       2341,
       2341,
-      2454,
+      2455,
       2562,
       2662,
       2755,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 18,
     "polymarket": 6,
-    "kalshi": 17,
+    "kalshi": 21,
     "max_andes_r0": 1.21,
     "avg_other_r0": 0.59,
     "continents": [
@@ -4020,9 +4020,17 @@
   "signal_summary": {
     "FRA": 2,
     "USA": 2,
-    "ARG": 1
+    "ARG": 1,
+    "MEX": 1
   },
   "events": [
+    {
+      "iso": "MEX",
+      "title": "Confirman primera muerte por hantavirus en condado de Mohave, Arizona - El Sol de M\u00e9xico",
+      "t": "2026-06-03T00:56:15Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNV2hQQVcxQ0xvSmN2NGFRcUwtT0U2V3VwQWtlNm5SRTBnYW9fOHRzdHo2b1V5MUtJeWMxUWs5RWZqeF9tMzhCVHpTaXphT25Rb2h2Y2ZVWnNZR1pTd0Y0OWUzd3lKcWdtaHZfSTB6dVV4YmpoNF9yNFEtalRwVlJWeWFkRDhETl9XbmdUS21Eb0FPVXZPd1hzaDRUclBaUUZTd21vdF9lbmtSSGRBTll5NjNqajNLVHc1M0JZ?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "France confirms hantavirus in cruise outbreak is not new or more transmissible - Scripps News",
@@ -4075,7 +4083,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-03T02:45:13Z",
+      "last_update": "2026-06-03T02:50:18Z",
       "signals": 3,
       "recent": [
         {
