@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-03T03:55:18.607278Z",
-  "next_update": "2026-06-03T04:00:00Z",
+  "generated": "2026-06-03T04:00:07.571627Z",
+  "next_update": "2026-06-03T04:05:00Z",
   "days_active": 26,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -78,7 +78,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "USA": {
@@ -907,7 +907,7 @@
       234,
       234,
       234,
-      234,
+      235,
       246,
       257,
       267,
@@ -1246,7 +1246,7 @@
       1872,
       1872,
       1872,
-      1876,
+      1877,
       1954,
       2026,
       2092,
@@ -1401,7 +1401,6 @@
     "2026-06-03T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-01T04:00:00Z",
     "2026-06-01T05:00:00Z",
     "2026-06-01T06:00:00Z",
     "2026-06-01T07:00:00Z",
@@ -1448,11 +1447,11 @@
     "2026-06-03T00:00:00Z",
     "2026-06-03T01:00:00Z",
     "2026-06-03T02:00:00Z",
-    "2026-06-03T03:00:00Z"
+    "2026-06-03T03:00:00Z",
+    "2026-06-03T04:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      169,
       170,
       170,
       170,
@@ -1496,6 +1495,7 @@
       178,
       178,
       178,
+      179,
       179,
       179,
       179,
@@ -1507,7 +1507,6 @@
       73,
       73,
       73,
-      73,
       74,
       74,
       74,
@@ -1541,6 +1540,7 @@
       87,
       87,
       87,
+      86,
       86,
       86,
       86,
@@ -1807,7 +1807,6 @@
       24,
       24,
       24,
-      24,
       25,
       25,
       25,
@@ -1846,6 +1845,7 @@
       26,
       26,
       26,
+      27,
       27,
       27,
       27,
@@ -2406,7 +2406,6 @@
       479,
       479,
       479,
-      479,
       478,
       478,
       478,
@@ -2444,6 +2443,7 @@
       474,
       474,
       474,
+      473,
       473,
       473,
       473,
@@ -2460,7 +2460,6 @@
       199,
       199,
       199,
-      199,
       198,
       198,
       198,
@@ -2484,6 +2483,7 @@
       198,
       198,
       198,
+      197,
       197,
       197,
       197,
@@ -2509,7 +2509,6 @@
       347,
       347,
       347,
-      347,
       346,
       346,
       346,
@@ -2542,6 +2541,7 @@
       344,
       344,
       344,
+      343,
       343,
       343,
       343,
@@ -2556,7 +2556,6 @@
       49,
       49,
       49,
-      49,
       50,
       50,
       50,
@@ -2585,6 +2584,7 @@
       51,
       51,
       51,
+      58,
       58,
       58,
       58,
@@ -3168,7 +3168,6 @@
       35,
       35,
       35,
-      35,
       36,
       36,
       36,
@@ -3193,6 +3192,7 @@
       36,
       36,
       36,
+      37,
       37,
       37,
       37,
@@ -3552,7 +3552,6 @@
       4
     ],
     "RUS": [
-      2207,
       2210,
       2212,
       2214,
@@ -3599,6 +3598,7 @@
       2613,
       2613,
       2612,
+      2611,
       2611
     ],
     "BLR": [
@@ -3852,7 +3852,6 @@
       23
     ],
     "CHN": [
-      3429,
       3428,
       3427,
       3426,
@@ -3899,10 +3898,10 @@
       3390,
       3389,
       3388,
-      3387
+      3387,
+      3386
     ],
     "KOR": [
-      97,
       98,
       98,
       98,
@@ -3944,6 +3943,7 @@
       116,
       116,
       116,
+      115,
       115,
       115,
       115,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 18,
     "polymarket": 6,
-    "kalshi": 18,
+    "kalshi": 20,
     "max_andes_r0": 1.21,
     "avg_other_r0": 0.59,
     "continents": [
@@ -4020,17 +4020,9 @@
   "signal_summary": {
     "FRA": 2,
     "USA": 2,
-    "ARG": 1,
-    "MEX": 1
+    "ARG": 1
   },
   "events": [
-    {
-      "iso": "MEX",
-      "title": "Confirman primera muerte por hantavirus en condado de Mohave, Arizona - El Sol de M\u00e9xico",
-      "t": "2026-06-03T00:56:15Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNV2hQQVcxQ0xvSmN2NGFRcUwtT0U2V3VwQWtlNm5SRTBnYW9fOHRzdHo2b1V5MUtJeWMxUWs5RWZqeF9tMzhCVHpTaXphT25Rb2h2Y2ZVWnNZR1pTd0Y0OWUzd3lKcWdtaHZfSTB6dVV4YmpoNF9yNFEtalRwVlJWeWFkRDhETl9XbmdUS21Eb0FPVXZPd1hzaDRUclBaUUZTd21vdF9lbmtSSGRBTll5NjNqajNLVHc1M0JZ?oc=5"
-    },
     {
       "iso": "FRA",
       "title": "France confirms hantavirus in cruise outbreak is not new or more transmissible - Scripps News",
@@ -4083,7 +4075,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-03T03:55:18Z",
+      "last_update": "2026-06-03T04:00:07Z",
       "signals": 3,
       "recent": [
         {
