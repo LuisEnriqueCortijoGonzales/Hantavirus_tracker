@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-03T00:55:14.297016Z",
-  "next_update": "2026-06-03T01:00:00Z",
+  "generated": "2026-06-03T01:00:13.576660Z",
+  "next_update": "2026-06-03T01:05:00Z",
   "days_active": 26,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 179,
+      "ytd": 180,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 32,
+      "var_pct": 33,
       "strain": "andes",
       "new_today": 5,
-      "r0": 0.48,
-      "signals": 1,
+      "r0": 0.51,
+      "signals": 2,
       "gov_alert": false
     },
     "CHL": {
@@ -78,7 +78,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "USA": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      88,
+      89,
       96,
-      104,
-      112,
-      120,
-      128,
+      105,
+      113,
+      121,
+      129,
       136,
-      143,
-      150,
-      157,
-      163,
+      144,
+      151,
+      158,
+      164,
       169,
-      174,
-      179
+      175,
+      180
     ],
     "CHL": [
       44,
@@ -908,7 +908,7 @@
       234,
       234,
       234,
-      244,
+      245,
       255,
       265,
       275,
@@ -1247,7 +1247,7 @@
       1872,
       1872,
       1872,
-      1944,
+      1945,
       2017,
       2084,
       2145,
@@ -1346,8 +1346,8 @@
       2834,
       3499,
       3476,
-      3454,
-      3432,
+      3453,
+      3431,
       3410,
       3389
     ],
@@ -1401,7 +1401,6 @@
     "2026-06-03T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-01T01:00:00Z",
     "2026-06-01T02:00:00Z",
     "2026-06-01T03:00:00Z",
     "2026-06-01T04:00:00Z",
@@ -1448,15 +1447,11 @@
     "2026-06-02T21:00:00Z",
     "2026-06-02T22:00:00Z",
     "2026-06-02T23:00:00Z",
-    "2026-06-03T00:00:00Z"
+    "2026-06-03T00:00:00Z",
+    "2026-06-03T01:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      169,
-      169,
-      169,
-      169,
-      170,
       170,
       170,
       170,
@@ -1499,7 +1494,12 @@
       178,
       178,
       178,
-      179
+      179,
+      179,
+      179,
+      179,
+      179,
+      180
     ],
     "CHL": [
       73,
@@ -1510,7 +1510,6 @@
       73,
       73,
       73,
-      73,
       74,
       74,
       74,
@@ -1544,6 +1543,7 @@
       87,
       87,
       87,
+      86,
       86,
       86,
       86,
@@ -1810,7 +1810,6 @@
       24,
       24,
       24,
-      24,
       25,
       25,
       25,
@@ -1849,6 +1848,7 @@
       26,
       26,
       26,
+      27,
       27
     ],
     "PRY": [
@@ -2402,7 +2402,6 @@
       1
     ],
     "FIN": [
-      480,
       479,
       479,
       479,
@@ -2447,6 +2446,7 @@
       474,
       474,
       474,
+      473,
       473,
       473,
       473
@@ -2463,7 +2463,6 @@
       199,
       199,
       199,
-      199,
       198,
       198,
       198,
@@ -2487,6 +2486,7 @@
       198,
       198,
       198,
+      197,
       197,
       197,
       197,
@@ -2512,7 +2512,6 @@
       347,
       347,
       347,
-      347,
       346,
       346,
       346,
@@ -2545,6 +2544,7 @@
       344,
       344,
       344,
+      343,
       343,
       343,
       343,
@@ -2559,7 +2559,6 @@
       49,
       49,
       49,
-      49,
       50,
       50,
       50,
@@ -2588,6 +2587,7 @@
       51,
       51,
       51,
+      58,
       58,
       58,
       58,
@@ -3171,7 +3171,6 @@
       35,
       35,
       35,
-      35,
       36,
       36,
       36,
@@ -3196,6 +3195,7 @@
       36,
       36,
       36,
+      37,
       37,
       37,
       37,
@@ -3552,7 +3552,6 @@
       4
     ],
     "RUS": [
-      2201,
       2203,
       2205,
       2207,
@@ -3599,6 +3598,7 @@
       2615,
       2615,
       2614,
+      2613,
       2613
     ],
     "BLR": [
@@ -3853,7 +3853,6 @@
     ],
     "CHN": [
       3431,
-      3431,
       3430,
       3429,
       3428,
@@ -3899,13 +3898,13 @@
       3392,
       3391,
       3390,
-      3390
+      3390,
+      3389
     ],
     "KOR": [
       97,
       97,
       97,
-      97,
       98,
       98,
       98,
@@ -3947,6 +3946,7 @@
       116,
       116,
       116,
+      115,
       115,
       115,
       115
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 15,
     "epidemio": 18,
     "polymarket": 6,
-    "kalshi": 16,
+    "kalshi": 18,
     "max_andes_r0": 1.21,
     "avg_other_r0": 0.59,
     "continents": [
@@ -4020,8 +4020,7 @@
   "signal_summary": {
     "FRA": 2,
     "USA": 2,
-    "ARG": 1,
-    "MEX": 1
+    "ARG": 2
   },
   "events": [
     {
@@ -4060,11 +4059,11 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
     },
     {
-      "iso": "MEX",
-      "title": "Hantavirus de los Andes: qu\u00e9 tan peligroso es y por qu\u00e9 M\u00e9xico emiti\u00f3 un aviso epidemiol\u00f3gico - Infobae",
-      "t": "2026-05-23T07:00:00Z",
+      "iso": "ARG",
+      "title": "Hantavirus en Argentina: hay 45 contagios confirmados en el pa\u00eds y alerta internacional por la cepa Andes - La Voz del Interior",
+      "t": "2026-05-20T07:00:00Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQXhsUW5wYkt1X2FHaUZLcXNXMEQxRmlTeUN1RmZ1SFZKNWhKTzNwS29MYWlHdlZoNm1hS2MwUDctaHhXUWQwZUFZUzZNUndpX3hzb0ZsOFNpcXhWakFkalVmQjc1MVd1X1NVWUdNM1NmalAyUk1QbW9aNkhqTENHSmZ4aEphQmNHNEw0RHFWY2cyT1IyQmhyQmluMEFKc09rS0lna1o0U2d6NnJrZHViM0FNTm5PTElaeFJVaF94TDZoNWVHN19GSE9lcjZBZEI20gHrAUFVX3lxTE8ybU42dWhCRVNXaXFUVEFEOENqYTBIMHVYbXppNHlHcEtHSHhRVlJsTHltbUFZQ0JYWHNvYXBha05mZVlXVHBNUG1QbERsZ0lRQTZxUEdDeFBQd0lCV1FzYV9ZRFZDZmZzOVoxTXVaWUJDUk1YeUVfaWdZcmNhVlM0ZHloYkpjc2o4SDVLLXZzZkw3cUd2ZF9sT1JMaXZoWEhwc0tUYTBUM0ZnYzdSd1ZHNXhiOXpsRHJFaFdfRDNtN1JiajAxVVZ3SnNWNTBjX3FLQ0NoQUY5dnRMMlF6TUNTRFAzOGZ4SDd1S1U?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUGhmdHVmbkhmLUV3Wk9tdnhObDBKT0JET1J1SHJORkFwNkVZU0xpUlZUOVdnczRXWlcybXFsaXlRNXJtMThfdWJOTWh5eHBYY18wVWVEczFDSjFEOUpGU2RPRzR0ekZKb1hjYm9NYTF5U1hQd0FpZE4ySWtZLXJmbzA2Uk9mMVRzbXZtalVkUDhzR3ItNFVLal9FVkpyc05SNnZPS0RMN3lYN21WY09LTmY1WGlVUzUyZEZjbXhoVXBEWkVXVzFzVnFyTm1PTDQ3eEE?oc=5"
     }
   ],
   "maritime_events": [
@@ -4083,7 +4082,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-03T00:55:14Z",
+      "last_update": "2026-06-03T01:00:13Z",
       "signals": 3,
       "recent": [
         {
