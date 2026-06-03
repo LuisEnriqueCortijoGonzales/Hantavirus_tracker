@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-03T10:30:06.796474Z",
-  "next_update": "2026-06-03T10:35:00Z",
+  "generated": "2026-06-03T10:35:16.555820Z",
+  "next_update": "2026-06-03T10:40:00Z",
   "days_active": 26,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 180,
+      "ytd": 181,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 31,
       "strain": "andes",
       "new_today": 4,
-      "r0": 0.51,
-      "signals": 1,
+      "r0": 0.54,
+      "signals": 2,
       "gov_alert": false
     },
     "CHL": {
@@ -472,7 +472,7 @@
       "cfr": 0.9,
       "var_pct": 37,
       "strain": "puumala",
-      "new_today": 338,
+      "new_today": 337,
       "r0": 5.0,
       "signals": 0,
       "gov_alert": false
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      91,
-      99,
-      107,
-      115,
-      123,
-      131,
+      92,
+      100,
+      108,
+      116,
+      124,
+      132,
       139,
-      146,
-      153,
-      159,
-      165,
-      171,
-      176,
-      180
+      147,
+      154,
+      160,
+      166,
+      172,
+      177,
+      181
     ],
     "CHL": [
       45,
@@ -912,7 +912,7 @@
       259,
       269,
       278,
-      286,
+      287,
       294,
       349,
       347,
@@ -1252,7 +1252,7 @@
       2109,
       2168,
       2221,
-      2269,
+      2270,
       2607
     ],
     "BLR": [
@@ -1342,7 +1342,7 @@
       2490,
       2595,
       2693,
-      2783,
+      2784,
       2866,
       3490,
       3467,
@@ -1452,10 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      171,
-      171,
-      171,
-      172,
       172,
       172,
       172,
@@ -1494,12 +1490,16 @@
       179,
       179,
       179,
-      179,
       180,
       180,
       180,
       180,
-      180
+      180,
+      181,
+      181,
+      181,
+      181,
+      181
     ],
     "CHL": [
       74,
@@ -4006,7 +4006,7 @@
     "composite": 16,
     "epidemio": 18,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 22,
     "max_andes_r0": 1.21,
     "avg_other_r0": 0.59,
     "continents": [
@@ -4020,7 +4020,7 @@
   "signal_summary": {
     "USA": 1,
     "FRA": 2,
-    "ARG": 1
+    "ARG": 2
   },
   "events": [
     {
@@ -4050,6 +4050,13 @@
       "t": "2026-05-25T22:40:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Una infect\u00f3loga explic\u00f3 por qu\u00e9 aumentaron los casos de Hantavirus en la Argentina y advirti\u00f3 qu\u00e9 hay que hacer ante un contagio - La Naci\u00f3n",
+      "t": "2026-05-22T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQ2hsV3lYXzF5ZW9sWUtvb1BpQnBYaHJhQmtsb0wyU3I5cEo4aDc4YjJ3bVV6OE1oZUxfUXlRV0ZrTVlmRTBERVBqbndHclhqSEJkSm1CMkd5cEJHTjBvTEd4U3drMVp6QjlmT2xCZlFfX0YwaDE5aFduOFUzTFluU3FvZklFMEtPeDFZMDhiU0ZLQlZrSUN6YnJjSTlZWFBLNTU0NWg5Yk9HSzl0RlBjbjlhdUQ1Mzg0eFFFMGVKM0dUY2RZLXlNd3lLNXJSWGZBa2tCdmNpZ1FuUy1tUV81cA?oc=5"
     }
   ],
   "maritime_events": [
@@ -4068,7 +4075,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-03T10:30:06Z",
+      "last_update": "2026-06-03T10:35:16Z",
       "signals": 2,
       "recent": [
         {
