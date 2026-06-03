@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-03T16:10:08.295852Z",
-  "next_update": "2026-06-03T16:15:00Z",
+  "generated": "2026-06-03T16:15:18.041493Z",
+  "next_update": "2026-06-03T16:20:00Z",
   "days_active": 26,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -122,7 +122,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "CRI": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3376,
+      "ytd": 3375,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 20,
@@ -1339,17 +1339,17 @@
       2341,
       2341,
       2405,
-      2515,
+      2516,
       2619,
       2715,
-      2803,
+      2804,
       3507,
       3484,
       3462,
-      3440,
+      3439,
       3418,
       3396,
-      3376
+      3375
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 15,
+    "composite": 16,
     "epidemio": 18,
     "polymarket": 7,
-    "kalshi": 17,
+    "kalshi": 23,
     "max_andes_r0": 1.21,
     "avg_other_r0": 0.66,
     "continents": [
@@ -4020,7 +4020,8 @@
   "signal_summary": {
     "USA": 1,
     "FRA": 2,
-    "ARG": 1
+    "ARG": 1,
+    "PAN": 1
   },
   "events": [
     {
@@ -4043,6 +4044,13 @@
       "t": "2026-05-30T21:42:46Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMzk3OHBGaklNZ3hkcnlXWV9pa3hiTEJZVTl6TnFJbXlzS3dhTWpoQ05GYWgzMmd5VWRKcTl1V2hJTW1CVUtQZXdlY0ZMbnFQbTdhNVVncXowSzE5WTVUMTZiRGstY0RQX0d2T293Tk8xZlZtOWNYTVNiVFRybWY1V3ROc3N0VVcxMUF0SFF1ZGdwZHhsd3VnY1NsbUVqUUFZb3ZzMmNKQUZIMUhPX0VSQURjRUEyam9aWTNkaDVyRmlQN28?oc=5"
+    },
+    {
+      "iso": "PAN",
+      "title": "Confirman en Panam\u00e1 la primera muerte este a\u00f1o por hantavirus - Infobae",
+      "t": "2026-05-28T02:56:04Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV3ZUZktsRlY2Z2V6b1RKcDd1SWlNYTJ2RkRzQjRZXzlwemZ4eWk2OEo1MWt2cWgyaGZNRDZDTmxKRmdlXzQxTW9xOTZZNk05OUVnUzZqWDJ5dUxRX0J5RmxEV0diV25xeWtBeU1QdlpvY3cwR3ZPdEdiSFE3MHNOYjIwYUhsMnZsQ1p2b2pzWEpCRnMxY2hWZDI5QmxKZnU0a211MnhXONIBwgFBVV95cUxNcktVZ1hyb3JFdGNyaHpPMVhBel9xOElJWmI2cVdDZDJEZHczZGVRdTBUeFdiZ05hVnNRUjFiV0p0TVBDQzdGcHZNNFREMnM4eWJBVkN3bzNndXVMbld4RDdsYl80UXpxZWJIc094R0ZUbW5nenM1M3lhUzhLM1dfa05tcndIQUlpSWgyWUhnN2FaSTZ1cjdXbVY3VlA4dmhoOG5WZlpRbUtGcU1ONXlhNEdqc1RZNjd2Wk5ELWctaHdxQQ?oc=5"
     },
     {
       "iso": "FRA",
@@ -4068,7 +4076,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-03T16:10:08Z",
+      "last_update": "2026-06-03T16:15:18Z",
       "signals": 2,
       "recent": [
         {
