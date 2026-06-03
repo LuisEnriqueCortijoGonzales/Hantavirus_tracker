@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-03T16:45:08.280462Z",
-  "next_update": "2026-06-03T16:50:00Z",
+  "generated": "2026-06-03T16:50:12.778005Z",
+  "next_update": "2026-06-03T16:55:00Z",
   "days_active": 26,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -78,7 +78,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "USA": {
@@ -576,7 +576,7 @@
       133,
       141,
       148,
-      154,
+      155,
       161,
       167,
       172,
@@ -1246,12 +1246,12 @@
       1872,
       1872,
       1872,
-      1918,
+      1919,
       1993,
       2062,
       2125,
       2182,
-      2234,
+      2235,
       2618,
       2603
     ],
@@ -1342,7 +1342,7 @@
       2518,
       2621,
       2717,
-      2805,
+      2806,
       3507,
       3484,
       3461,
@@ -4020,9 +4020,17 @@
   "signal_summary": {
     "USA": 1,
     "FRA": 2,
-    "ARG": 1
+    "ARG": 1,
+    "MEX": 1
   },
   "events": [
+    {
+      "iso": "MEX",
+      "title": "Residente de Arizona muere por variante de hantavirus tan letal como la cepa del crucero - Forbes M\u00e9xico",
+      "t": "2026-06-03T16:10:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLUNCMjFELXM1SEV6Nm5tM0tmWmx0b3VNSHZuLTAyVVRtWmZoQ09PUnd4X2hsN0IzaFE1VDJ1Rk1sT3plc25ndmdZem4tZVlfd05ER0Z3eXFyY0NLMmZtZjgyci1LeFQyT0FTX0hFOGtDcUpDd1QyZUdQeDNIQnVvUDZQY2xMYm9PdUNWTjZCRFlFR3czRmlUOXBVNHlvZ2hzcHh5UUhCbWZQakFwYUd4Ug?oc=5"
+    },
     {
       "iso": "FRA",
       "title": "France confirms hantavirus in cruise outbreak is not new or more transmissible - Scripps News",
@@ -4068,8 +4076,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-03T16:45:08Z",
-      "signals": 2,
+      "last_update": "2026-06-03T16:50:12Z",
+      "signals": 3,
       "recent": [
         {
           "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
@@ -4080,6 +4088,11 @@
           "title": "Salud. Hantavirus: el crucero MV Hondius volver\u00e1 a navegar en junio tras el brote iniciado en Argentina - La Voz del Interior",
           "t": "2026-05-30T21:42:46Z",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMzk3OHBGaklNZ3hkcnlXWV9pa3hiTEJZVTl6TnFJbXlzS3dhTWpoQ05GYWgzMmd5VWRKcTl1V2hJTW1CVUtQZXdlY0ZMbnFQbTdhNVVncXowSzE5WTVUMTZiRGstY0RQX0d2T293Tk8xZlZtOWNYTVNiVFRybWY1V3ROc3N0VVcxMUF0SFF1ZGdwZHhsd3VnY1NsbUVqUUFZb3ZzMmNKQUZIMUhPX0VSQURjRUEyam9aWTNkaDVyRmlQN28?oc=5"
+        },
+        {
+          "title": "Residente de Arizona muere por variante de hantavirus tan letal como la cepa del crucero - Forbes M\u00e9xico",
+          "t": "2026-06-03T16:10:00Z",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLUNCMjFELXM1SEV6Nm5tM0tmWmx0b3VNSHZuLTAyVVRtWmZoQ09PUnd4X2hsN0IzaFE1VDJ1Rk1sT3plc25ndmdZem4tZVlfd05ER0Z3eXFyY0NLMmZtZjgyci1LeFQyT0FTX0hFOGtDcUpDd1QyZUdQeDNIQnVvUDZQY2xMYm9PdUNWTjZCRFlFR3czRmlUOXBVNHlvZ2hzcHh5UUhCbWZQakFwYUd4Ug?oc=5"
         }
       ]
     }
