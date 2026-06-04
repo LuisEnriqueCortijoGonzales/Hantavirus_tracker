@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-04T19:10:17.288148Z",
-  "next_update": "2026-06-04T19:15:00Z",
+  "generated": "2026-06-04T19:15:16.560719Z",
+  "next_update": "2026-06-04T19:20:00Z",
   "days_active": 27,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -19,11 +19,11 @@
       "ytd": 86,
       "alert": "brote",
       "cfr": 35.5,
-      "var_pct": 30,
+      "var_pct": 29,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.9,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "BRA": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3353,
+      "ytd": 3352,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": -4,
@@ -544,7 +544,7 @@
       "gov_alert": false
     },
     "KOR": {
-      "ytd": 115,
+      "ytd": 114,
       "alert": "vigilancia",
       "cfr": 1.5,
       "var_pct": 29,
@@ -586,15 +586,15 @@
     "CHL": [
       50,
       53,
-      57,
-      60,
+      56,
+      59,
       62,
       65,
-      68,
+      67,
       70,
       72,
       74,
-      76,
+      75,
       88,
       87,
       86
@@ -873,7 +873,7 @@
     ],
     "FIN": [
       344,
-      359,
+      360,
       374,
       388,
       498,
@@ -1340,16 +1340,16 @@
       2419,
       2529,
       2631,
-      2726,
+      2727,
       2814,
-      3505,
+      3504,
       3481,
       3459,
       3437,
       3415,
       3394,
       3373,
-      3353
+      3352
     ],
     "KOR": [
       89,
@@ -1365,7 +1365,7 @@
       99,
       116,
       115,
-      115
+      114
     ],
     "JPN": [
       12,
@@ -1507,16 +1507,6 @@
       88,
       88,
       88,
-      88,
-      88,
-      88,
-      88,
-      88,
-      88,
-      88,
-      88,
-      88,
-      88,
       87,
       87,
       87,
@@ -1538,6 +1528,16 @@
       87,
       87,
       87,
+      87,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
       86,
       86,
       86,
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 11,
     "polymarket": 6,
-    "kalshi": 13,
+    "kalshi": 12,
     "max_andes_r0": 0.9,
     "avg_other_r0": 0.62,
     "continents": [
@@ -4018,7 +4018,7 @@
   },
   "signal_summary": {
     "USA": 1,
-    "CHL": 4,
+    "CHL": 3,
     "FRA": 1
   },
   "events": [
@@ -4035,13 +4035,6 @@
       "t": "2026-06-03T22:31:17Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWkxvYWV3ZHR0WklfVy1MSE5iYWc4UXh1SmViSi1PVHhBYVNxbU9LMTFZV3FUdFFWaGJiSHZfc3dqN21hdEdWaE1tTUk3ellUWFVxaXJIVEVJa1pxaVY4N2VoWURoVzlCZTBIdXVFVVBKeXY3YkxDdVp1ZF9kMDBXUTMyR2NNOUFrYVVXXy0wOGlZa3A0YVh3Mk9fcklqTjVEaV9FbW9mNDlLRTVrSm5mREpNLTlrLVVwY1RvOGw2ZXNESkJFeWc?oc=5"
-    },
-    {
-      "iso": "CHL",
-      "title": "Chile Hantavirus Research - dailyrecordnews.com",
-      "t": "2026-06-03T22:31:16Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTFB6SjUxSDhmTHNYcThSbWRNMjNheFdTY09YdEZjMVNxeVVESWFqZXgyX1R3OVlzWG1YS3lkSEhPMEd2MFNjbFBuc1U0b1Q2LUtuc0hpOGdITTdiVXNQdUs1RmRLOE5aa3dfU2pEb19BMkFSS04xbXlReGViNHJGTmdTQzRJaWxDM25la0RrRzZ1a1ZIRGh1a2RSWHhUMFZkcHFtYXp1YVgxNjlOTU55a0F0bGwyeFhRNTRnOENYVHVjRFRpZ0E?oc=5"
     },
     {
       "iso": "CHL",
@@ -4081,7 +4074,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-04T19:10:17Z",
+      "last_update": "2026-06-04T19:15:16Z",
       "signals": 1,
       "recent": [
         {
