@@ -1,29 +1,29 @@
 {
-  "generated": "2026-06-04T03:30:06.053657Z",
-  "next_update": "2026-06-04T03:35:00Z",
+  "generated": "2026-06-04T03:35:15.797753Z",
+  "next_update": "2026-06-04T03:40:00Z",
   "days_active": 27,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 183,
+      "ytd": 184,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 28,
       "strain": "andes",
-      "new_today": 4,
-      "r0": 0.46,
+      "new_today": 5,
+      "r0": 0.49,
       "signals": 1,
       "gov_alert": false
     },
     "CHL": {
-      "ytd": 85,
+      "ytd": 86,
       "alert": "brote",
       "cfr": 35.5,
-      "var_pct": 32,
+      "var_pct": 33,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.9,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "BRA": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -573,7 +573,7 @@
       113,
       121,
       129,
-      136,
+      137,
       144,
       151,
       157,
@@ -581,23 +581,23 @@
       169,
       174,
       179,
-      183
+      184
     ],
     "CHL": [
-      47,
+      48,
       51,
       54,
       57,
       60,
-      62,
+      63,
       65,
-      67,
+      68,
       70,
       72,
-      73,
+      74,
       75,
       87,
-      85
+      86
     ],
     "BRA": [
       89,
@@ -1246,8 +1246,8 @@
       1872,
       1872,
       1875,
-      1952,
-      2024,
+      1953,
+      2025,
       2091,
       2151,
       2206,
@@ -1348,7 +1348,7 @@
       3451,
       3429,
       3408,
-      3387,
+      3386,
       3366
     ],
     "KOR": [
@@ -1503,14 +1503,17 @@
     ],
     "CHL": [
       75,
-      75,
-      75,
-      75,
-      75,
-      75,
       76,
       76,
       76,
+      76,
+      76,
+      76,
+      76,
+      76,
+      88,
+      88,
+      88,
       87,
       87,
       87,
@@ -1526,6 +1529,13 @@
       87,
       87,
       87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
+      87,
       86,
       86,
       86,
@@ -1539,17 +1549,7 @@
       86,
       86,
       86,
-      86,
-      86,
-      86,
-      86,
-      86,
-      86,
-      86,
-      86,
-      86,
-      85,
-      85
+      86
     ],
     "BRA": [
       89,
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 15,
     "polymarket": 7,
-    "kalshi": 21,
+    "kalshi": 19,
     "max_andes_r0": 0.9,
     "avg_other_r0": 0.62,
     "continents": [
@@ -4019,11 +4019,26 @@
   },
   "signal_summary": {
     "USA": 1,
-    "CHL": 1,
+    "CHL": 2,
+    "CAN": 1,
     "FRA": 2,
     "ARG": 1
   },
   "events": [
+    {
+      "iso": "CHL",
+      "title": "Researchers in Chile hope for further funding for their hantavirus treatment trials - Yahoo News Canada",
+      "t": "2026-06-04T03:13:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ2poTWo0QS1Pd3hEMk5oOG1LRTZhX18tWGxCUFoxQkhnUW5WZ0kxQTFsSndSMDNSWFFaVnBqeTFXMHNBb29XbGVXb1FJNi0tLWR4LVlwUS1SUW1zeWRmQXVRc21MdkY5cmxLVllNT0xPb3VtbGhSQjlJUmx0ektSbkYxcWswdw?oc=5"
+    },
+    {
+      "iso": "CAN",
+      "title": "Researchers in Chile hope for further funding for their hantavirus treatment trials - Yahoo News Canada",
+      "t": "2026-06-04T03:13:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ2poTWo0QS1Pd3hEMk5oOG1LRTZhX18tWGxCUFoxQkhnUW5WZ0kxQTFsSndSMDNSWFFaVnBqeTFXMHNBb29XbGVXb1FJNi0tLWR4LVlwUS1SUW1zeWRmQXVRc21MdkY5cmxLVllNT0xPb3VtbGhSQjlJUmx0ektSbkYxcWswdw?oc=5"
+    },
     {
       "iso": "CHL",
       "title": "Chile Hantavirus Research - dailyrecordnews.com",
@@ -4076,7 +4091,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-04T03:30:06Z",
+      "last_update": "2026-06-04T03:35:15Z",
       "signals": 2,
       "recent": [
         {
