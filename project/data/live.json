@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-04T22:05:17.298581Z",
-  "next_update": "2026-06-04T22:10:00Z",
+  "generated": "2026-06-04T22:10:06.052245Z",
+  "next_update": "2026-06-04T22:15:00Z",
   "days_active": 27,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "CHE": {
@@ -573,7 +573,7 @@
       119,
       126,
       134,
-      141,
+      142,
       149,
       155,
       161,
@@ -1245,13 +1245,13 @@
       1872,
       1872,
       1872,
-      1935,
+      1936,
       2009,
       2076,
       2138,
       2194,
       2245,
-      2615,
+      2614,
       2600,
       2585
     ],
@@ -1338,9 +1338,9 @@
     "CHN": [
       2341,
       2433,
-      2541,
+      2542,
       2643,
-      2737,
+      2738,
       2824,
       3502,
       3479,
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 11,
     "polymarket": 6,
-    "kalshi": 13,
+    "kalshi": 12,
     "max_andes_r0": 0.9,
     "avg_other_r0": 0.62,
     "continents": [
@@ -4018,7 +4018,8 @@
   },
   "signal_summary": {
     "USA": 1,
-    "CHL": 1
+    "CHL": 1,
+    "FRA": 1
   },
   "events": [
     {
@@ -4034,6 +4035,13 @@
       "t": "2026-06-02T14:57:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVENqNThZRWxXS3gyNlFUeHo4NWNKdFVsRzBNMmxqMk1tcTlqYnZXWnFFUTNiR24xRUM2YTdoMVpFV21mMy1zQTVsZVN4M2xnaVhxMnJwN1hGMVRwcWZ1YVd5blMxbGp0dzB5QlpfVGVqSlJGa193NFVBc19KeDdIMEwtejJYa2ZacnhpSHdZR01vS1NhbTFkMjNYTE9kdTZscTZzcUVDbjdVcHlIckFaOENESWFjRWZJSUE?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
+      "t": "2026-05-26T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
     }
   ],
   "maritime_events": [
@@ -4052,9 +4060,15 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-04T22:05:17Z",
-      "signals": 0,
-      "recent": []
+      "last_update": "2026-06-04T22:10:06Z",
+      "signals": 1,
+      "recent": [
+        {
+          "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
+          "t": "2026-05-26T07:00:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
+        }
+      ]
     }
   ]
 }
