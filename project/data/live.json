@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-04T19:35:08.276370Z",
-  "next_update": "2026-06-04T19:40:00Z",
+  "generated": "2026-06-04T19:40:07.559934Z",
+  "next_update": "2026-06-04T19:45:00Z",
   "days_active": 27,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -23,7 +23,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": 0.9,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "BRA": {
@@ -575,7 +575,7 @@
       133,
       141,
       148,
-      154,
+      155,
       161,
       167,
       172,
@@ -1245,9 +1245,9 @@
       1872,
       1872,
       1872,
-      1927,
+      1928,
       2001,
-      2069,
+      2070,
       2132,
       2189,
       2240,
@@ -1338,13 +1338,13 @@
     "CHN": [
       2341,
       2421,
-      2530,
+      2531,
       2633,
       2728,
-      2815,
+      2816,
       3504,
       3481,
-      3459,
+      3458,
       3436,
       3415,
       3393,
@@ -1510,16 +1510,6 @@
       87,
       87,
       87,
-      87,
-      87,
-      87,
-      87,
-      87,
-      87,
-      87,
-      87,
-      87,
-      87,
       86,
       86,
       86,
@@ -1542,6 +1532,16 @@
       86,
       86,
       86,
+      85,
+      85,
+      85,
+      85,
+      85,
+      85,
+      85,
+      85,
+      85,
+      85,
       85,
       85,
       85,
@@ -4018,7 +4018,7 @@
   },
   "signal_summary": {
     "USA": 1,
-    "CHL": 2,
+    "CHL": 1,
     "FRA": 1
   },
   "events": [
@@ -4028,13 +4028,6 @@
       "t": "2026-06-04T03:16:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUHdmRjJNSTkwN1VuTDVROGVZcnZCbFcyTTZwRUFCU3hJem5EbGF1LVNwdkt4WjNxdVNFUlVNbUR5VlhFaHNUa0hYR05YWHdVODhpeVhIT19hTURyMnlwdWlzS2pEM3p1YVloUnZYTVNuWlpSRDBJOS0xaWN0SFJpYlJsa01LM1ZRaG1SclBMeERDb2c4Zzh3OFhsMFRrU000M21tUFozNDFHUGxSZzhTR2FSd1FrVVNWN2pBYnpfVGJwOW1Gb3gwVUl6eDVXV2xwNGt3U0RUZGw?oc=5"
-    },
-    {
-      "iso": "CHL",
-      "title": "Chile Hantavirus Research - dailyrecordnews.com",
-      "t": "2026-06-03T22:31:17Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWkxvYWV3ZHR0WklfVy1MSE5iYWc4UXh1SmViSi1PVHhBYVNxbU9LMTFZV3FUdFFWaGJiSHZfc3dqN21hdEdWaE1tTUk3ellUWFVxaXJIVEVJa1pxaVY4N2VoWURoVzlCZTBIdXVFVVBKeXY3YkxDdVp1ZF9kMDBXUTMyR2NNOUFrYVVXXy0wOGlZa3A0YVh3Mk9fcklqTjVEaV9FbW9mNDlLRTVrSm5mREpNLTlrLVVwY1RvOGw2ZXNESkJFeWc?oc=5"
     },
     {
       "iso": "USA",
@@ -4067,7 +4060,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-04T19:35:08Z",
+      "last_update": "2026-06-04T19:40:07Z",
       "signals": 1,
       "recent": [
         {
