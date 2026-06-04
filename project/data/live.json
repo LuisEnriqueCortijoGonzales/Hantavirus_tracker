@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-04T23:15:06.812351Z",
-  "next_update": "2026-06-04T23:20:00Z",
+  "generated": "2026-06-04T23:20:11.309858Z",
+  "next_update": "2026-06-04T23:25:00Z",
   "days_active": 27,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -395,7 +395,7 @@
       "cfr": 1.2,
       "var_pct": 4,
       "strain": "dobrava",
-      "new_today": 1,
+      "new_today": 0,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -572,14 +572,14 @@
       111,
       119,
       127,
-      134,
+      135,
       142,
       149,
-      155,
+      156,
       162,
       167,
       173,
-      177,
+      178,
       182,
       186
     ],
@@ -893,7 +893,7 @@
       147,
       153,
       159,
-      163,
+      164,
       202,
       201,
       200,
@@ -1140,7 +1140,7 @@
       28,
       28,
       28,
-      28,
+      29,
       29
     ],
     "SVN": [
@@ -1338,11 +1338,11 @@
     "CHN": [
       2341,
       2438,
-      2546,
+      2547,
       2648,
       2742,
       2828,
-      3501,
+      3500,
       3478,
       3455,
       3433,
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 11,
     "polymarket": 6,
-    "kalshi": 13,
+    "kalshi": 12,
     "max_andes_r0": 0.9,
     "avg_other_r0": 0.62,
     "continents": [
@@ -4060,7 +4060,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-04T23:15:06Z",
+      "last_update": "2026-06-04T23:20:11Z",
       "signals": 1,
       "recent": [
         {
