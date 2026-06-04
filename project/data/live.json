@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-04T20:55:17.334616Z",
-  "next_update": "2026-06-04T21:00:00Z",
+  "generated": "2026-06-04T21:00:06.043931Z",
+  "next_update": "2026-06-04T21:05:00Z",
   "days_active": 27,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "CHE": {
@@ -1122,8 +1122,8 @@
       34,
       34,
       34,
-      35,
       36,
+      37,
       37,
       38
     ],
@@ -1252,7 +1252,7 @@
       2192,
       2243,
       2615,
-      2601,
+      2600,
       2586
     ],
     "BLR": [
@@ -1337,16 +1337,16 @@
     ],
     "CHN": [
       2341,
-      2427,
-      2536,
-      2638,
+      2428,
+      2537,
+      2639,
       2733,
       2820,
       3503,
       3480,
       3457,
       3435,
-      3414,
+      3413,
       3392,
       3371,
       3351
@@ -1401,7 +1401,6 @@
     "2026-06-04T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-02T21:00:00Z",
     "2026-06-02T22:00:00Z",
     "2026-06-02T23:00:00Z",
     "2026-06-03T00:00:00Z",
@@ -1448,13 +1447,13 @@
     "2026-06-04T17:00:00Z",
     "2026-06-04T18:00:00Z",
     "2026-06-04T19:00:00Z",
-    "2026-06-04T20:00:00Z"
+    "2026-06-04T20:00:00Z",
+    "2026-06-04T21:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
       177,
       177,
-      177,
       178,
       178,
       178,
@@ -1495,6 +1494,7 @@
       184,
       184,
       184,
+      185,
       185,
       185,
       185,
@@ -1508,7 +1508,6 @@
       87,
       87,
       87,
-      87,
       86,
       86,
       86,
@@ -1531,6 +1530,7 @@
       86,
       86,
       86,
+      85,
       85,
       85,
       85,
@@ -1806,7 +1806,6 @@
       26,
       26,
       26,
-      26,
       27,
       27,
       27,
@@ -1849,6 +1848,7 @@
       28,
       28,
       28,
+      29,
       29
     ],
     "PRY": [
@@ -2402,7 +2402,6 @@
       1
     ],
     "FIN": [
-      474,
       473,
       473,
       473,
@@ -2449,6 +2448,7 @@
       468,
       468,
       467,
+      467,
       467
     ],
     "SWE": [
@@ -2465,7 +2465,6 @@
       197,
       197,
       197,
-      197,
       196,
       196,
       196,
@@ -2490,6 +2489,7 @@
       196,
       196,
       196,
+      195,
       195,
       195,
       195,
@@ -2511,7 +2511,6 @@
       343,
       343,
       343,
-      343,
       342,
       342,
       342,
@@ -2546,6 +2545,7 @@
       340,
       340,
       340,
+      339,
       339,
       339,
       339,
@@ -2617,7 +2617,6 @@
       67,
       67,
       67,
-      67,
       68,
       68,
       68,
@@ -2649,7 +2648,8 @@
       69,
       69,
       69,
-      69
+      69,
+      70
     ],
     "FRA": [
       23,
@@ -3178,7 +3178,7 @@
       37,
       37,
       37,
-      37,
+      38,
       38,
       38,
       38,
@@ -3228,7 +3228,7 @@
       28,
       28,
       28,
-      28,
+      29,
       29,
       29,
       29,
@@ -3553,7 +3553,6 @@
     ],
     "RUS": [
       2615,
-      2615,
       2614,
       2613,
       2613,
@@ -3599,7 +3598,8 @@
       2588,
       2588,
       2587,
-      2587
+      2587,
+      2586
     ],
     "BLR": [
       34,
@@ -3852,7 +3852,6 @@
       23
     ],
     "CHN": [
-      3392,
       3391,
       3390,
       3390,
@@ -3899,10 +3898,10 @@
       3354,
       3354,
       3353,
-      3352
+      3352,
+      3351
     ],
     "KOR": [
-      116,
       115,
       115,
       115,
@@ -3949,6 +3948,7 @@
       115,
       115,
       115,
+      114,
       114
     ],
     "JPN": [
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 11,
     "polymarket": 6,
-    "kalshi": 12,
+    "kalshi": 13,
     "max_andes_r0": 0.9,
     "avg_other_r0": 0.62,
     "continents": [
@@ -4018,7 +4018,8 @@
   },
   "signal_summary": {
     "USA": 1,
-    "CHL": 1
+    "CHL": 1,
+    "FRA": 1
   },
   "events": [
     {
@@ -4034,6 +4035,13 @@
       "t": "2026-06-02T14:57:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVENqNThZRWxXS3gyNlFUeHo4NWNKdFVsRzBNMmxqMk1tcTlqYnZXWnFFUTNiR24xRUM2YTdoMVpFV21mMy1zQTVsZVN4M2xnaVhxMnJwN1hGMVRwcWZ1YVd5blMxbGp0dzB5QlpfVGVqSlJGa193NFVBc19KeDdIMEwtejJYa2ZacnhpSHdZR01vS1NhbTFkMjNYTE9kdTZscTZzcUVDbjdVcHlIckFaOENESWFjRWZJSUE?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
+      "t": "2026-05-26T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
     }
   ],
   "maritime_events": [
@@ -4052,9 +4060,15 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-04T20:55:17Z",
-      "signals": 0,
-      "recent": []
+      "last_update": "2026-06-04T21:00:06Z",
+      "signals": 1,
+      "recent": [
+        {
+          "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
+          "t": "2026-05-26T07:00:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
+        }
+      ]
     }
   ]
 }
