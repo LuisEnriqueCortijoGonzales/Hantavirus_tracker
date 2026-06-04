@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-04T03:50:08.337634Z",
-  "next_update": "2026-06-04T03:55:00Z",
+  "generated": "2026-06-04T03:55:07.571831Z",
+  "next_update": "2026-06-04T04:00:00Z",
   "days_active": 27,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -239,7 +239,7 @@
       "ytd": 341,
       "alert": "vigilancia",
       "cfr": 0.2,
-      "var_pct": 24,
+      "var_pct": 23,
       "strain": "puumala",
       "new_today": 0,
       "r0": 1.87,
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3366,
+      "ytd": 3365,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 18,
@@ -576,10 +576,10 @@
       137,
       144,
       151,
-      157,
+      158,
       164,
       169,
-      174,
+      175,
       179,
       184
     ],
@@ -872,14 +872,14 @@
       1
     ],
     "FIN": [
-      333,
+      334,
       350,
       365,
       379,
       392,
       497,
       493,
-      490,
+      489,
       486,
       483,
       479,
@@ -893,7 +893,7 @@
       145,
       148,
       154,
-      159,
+      160,
       164,
       202,
       201,
@@ -1246,9 +1246,9 @@
       1872,
       1872,
       1876,
-      1953,
+      1954,
       2025,
-      2091,
+      2092,
       2152,
       2207,
       2257,
@@ -1338,9 +1338,9 @@
     "CHN": [
       2341,
       2346,
-      2459,
-      2566,
-      2666,
+      2460,
+      2567,
+      2667,
       2759,
       2844,
       3496,
@@ -1349,7 +1349,7 @@
       3429,
       3407,
       3386,
-      3366
+      3365
     ],
     "KOR": [
       89,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 13,
+    "composite": 14,
     "epidemio": 15,
     "polymarket": 6,
-    "kalshi": 17,
+    "kalshi": 19,
     "max_andes_r0": 0.9,
     "avg_other_r0": 0.62,
     "continents": [
@@ -4091,7 +4091,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-04T03:50:08Z",
+      "last_update": "2026-06-04T03:55:07Z",
       "signals": 2,
       "recent": [
         {
