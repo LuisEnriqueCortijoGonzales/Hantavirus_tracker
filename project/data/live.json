@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-04T15:10:11.306861Z",
-  "next_update": "2026-06-04T15:15:00Z",
+  "generated": "2026-06-04T15:15:15.789987Z",
+  "next_update": "2026-06-04T15:20:00Z",
   "days_active": 27,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -16,14 +16,14 @@
       "gov_alert": false
     },
     "CHL": {
-      "ytd": 86,
+      "ytd": 87,
       "alert": "brote",
       "cfr": 35.5,
       "var_pct": 31,
       "strain": "andes",
       "new_today": 0,
-      "r0": 0.9,
-      "signals": 4,
+      "r0": 1.0,
+      "signals": 5,
       "gov_alert": false
     },
     "BRA": {
@@ -467,7 +467,7 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2590,
+      "ytd": 2589,
       "alert": "vigilancia",
       "cfr": 0.9,
       "var_pct": 30,
@@ -591,13 +591,13 @@
       62,
       65,
       67,
-      69,
+      70,
       72,
       74,
-      75,
+      76,
+      89,
       88,
-      87,
-      86
+      87
     ],
     "BRA": [
       89,
@@ -1245,7 +1245,7 @@
       1872,
       1872,
       1872,
-      1913,
+      1914,
       1988,
       2057,
       2121,
@@ -1253,7 +1253,7 @@
       2231,
       2619,
       2604,
-      2590
+      2589
     ],
     "BLR": [
       34,
@@ -1362,7 +1362,7 @@
       91,
       94,
       96,
-      98,
+      99,
       116,
       115,
       115
@@ -1502,6 +1502,12 @@
       185
     ],
     "CHL": [
+      89,
+      89,
+      89,
+      89,
+      89,
+      89,
       88,
       88,
       88,
@@ -1521,6 +1527,9 @@
       88,
       88,
       88,
+      88,
+      88,
+      88,
       87,
       87,
       87,
@@ -1540,16 +1549,7 @@
       87,
       87,
       87,
-      87,
-      87,
-      86,
-      86,
-      86,
-      86,
-      86,
-      86,
-      86,
-      86
+      87
     ],
     "BRA": [
       89,
@@ -4006,8 +4006,8 @@
     "composite": 11,
     "epidemio": 11,
     "polymarket": 6,
-    "kalshi": 17,
-    "max_andes_r0": 0.9,
+    "kalshi": 16,
+    "max_andes_r0": 1.0,
     "avg_other_r0": 0.62,
     "continents": [
       "Americas",
@@ -4018,11 +4018,18 @@
   },
   "signal_summary": {
     "USA": 1,
-    "CHL": 4,
+    "CHL": 5,
     "ARG": 1,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "CHL",
+      "title": "Researchers in Chile hope for further funding for their hantavirus treatment trials - thecanadianpressnews.ca",
+      "t": "2026-06-04T03:32:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQenZyajlUNllMdk04VTUtNzdZV1l3a0JRRDhTUWkxSnBwLUtQaGRGUXlUZW1KVDBoVTdOSUU3aGtGVDlDWE5Ba2RtZlhvclhZN0ZmbU1tNWU1MVpucGVEM2poNEFwVUZlakNJQTN1UngtQXRZRzZuOXg0ZThJdVdPbjNEbUdyd3RORVg0cG5UWi15SndfNmFsVmJpU1pQM3JHQmJhaTBUZ1c5aXV2OFZYYWtoMUZ3SFk1YmtQdlBKVnUyYlNuZnpSVG9zOTNYY2xZZUl4WEk4QkVya2o3SFNCUkg4UC03MzMyV0d2bDNiRUJNeTBfQllUVGZXbw?oc=5"
+    },
     {
       "iso": "CHL",
       "title": "Researchers in Chile hope for further funding for their hantavirus treatment trials - AP News",
@@ -4089,7 +4096,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-04T15:10:11Z",
+      "last_update": "2026-06-04T15:15:15Z",
       "signals": 2,
       "recent": [
         {
