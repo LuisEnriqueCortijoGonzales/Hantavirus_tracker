@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-04T18:35:01.547033Z",
-  "next_update": "2026-06-04T18:40:00Z",
+  "generated": "2026-06-04T18:40:16.576922Z",
+  "next_update": "2026-06-04T18:45:00Z",
   "days_active": 27,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -214,7 +214,7 @@
       "gov_alert": false
     },
     "FIN": {
-      "ytd": 468,
+      "ytd": 467,
       "alert": "vigilancia",
       "cfr": 0.1,
       "var_pct": -5,
@@ -467,7 +467,7 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2588,
+      "ytd": 2587,
       "alert": "vigilancia",
       "cfr": 0.9,
       "var_pct": 29,
@@ -576,7 +576,7 @@
       140,
       148,
       154,
-      160,
+      161,
       166,
       172,
       177,
@@ -872,7 +872,7 @@
       1
     ],
     "FIN": [
-      343,
+      344,
       359,
       374,
       387,
@@ -885,7 +885,7 @@
       477,
       474,
       471,
-      468
+      467
     ],
     "SWE": [
       145,
@@ -907,7 +907,7 @@
       234,
       234,
       242,
-      252,
+      253,
       263,
       272,
       281,
@@ -1245,15 +1245,15 @@
       1872,
       1872,
       1872,
-      1924,
+      1925,
       1998,
       2067,
-      2129,
-      2186,
+      2130,
+      2187,
       2238,
       2617,
       2602,
-      2588
+      2587
     ],
     "BLR": [
       34,
@@ -1337,7 +1337,7 @@
     ],
     "CHN": [
       2341,
-      2416,
+      2417,
       2526,
       2629,
       2724,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 11,
+    "composite": 10,
     "epidemio": 11,
     "polymarket": 6,
-    "kalshi": 15,
+    "kalshi": 13,
     "max_andes_r0": 0.9,
     "avg_other_r0": 0.62,
     "continents": [
@@ -4081,7 +4081,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-04T18:35:01Z",
+      "last_update": "2026-06-04T18:40:16Z",
       "signals": 1,
       "recent": [
         {
