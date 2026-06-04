@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-04T08:30:13.546638Z",
-  "next_update": "2026-06-04T08:35:00Z",
+  "generated": "2026-06-04T08:35:07.533319Z",
+  "next_update": "2026-06-04T08:40:00Z",
   "days_active": 27,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -467,7 +467,7 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2594,
+      "ytd": 2593,
       "alert": "vigilancia",
       "cfr": 0.9,
       "var_pct": 32,
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3362,
+      "ytd": 3361,
       "alert": "brote",
       "cfr": 1.2,
       "var_pct": 18,
@@ -910,7 +910,7 @@
       248,
       259,
       268,
-      277,
+      278,
       286,
       293,
       349,
@@ -1253,7 +1253,7 @@
       2217,
       2266,
       2608,
-      2594
+      2593
     ],
     "BLR": [
       34,
@@ -1337,19 +1337,19 @@
     ],
     "CHN": [
       2341,
-      2368,
+      2369,
       2481,
-      2586,
+      2587,
       2685,
       2776,
-      2859,
+      2860,
       3492,
       3469,
-      3447,
+      3446,
       3425,
       3403,
       3382,
-      3362
+      3361
     ],
     "KOR": [
       89,
@@ -1361,7 +1361,7 @@
       89,
       90,
       93,
-      95,
+      96,
       98,
       100,
       115,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 13,
+    "composite": 14,
     "epidemio": 15,
     "polymarket": 6,
-    "kalshi": 17,
+    "kalshi": 20,
     "max_andes_r0": 0.9,
     "avg_other_r0": 0.62,
     "continents": [
@@ -4105,7 +4105,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-04T08:30:13Z",
+      "last_update": "2026-06-04T08:35:07Z",
       "signals": 2,
       "recent": [
         {
