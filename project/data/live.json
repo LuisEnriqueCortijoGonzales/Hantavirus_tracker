@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-04T07:40:10.552474Z",
-  "next_update": "2026-06-04T07:45:00Z",
+  "generated": "2026-06-04T07:45:15.085946Z",
+  "next_update": "2026-06-04T07:50:00Z",
   "days_active": 27,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -16,13 +16,13 @@
       "gov_alert": false
     },
     "CHL": {
-      "ytd": 87,
+      "ytd": 86,
       "alert": "brote",
       "cfr": 35.5,
       "var_pct": 33,
       "strain": "andes",
       "new_today": 0,
-      "r0": 1.0,
+      "r0": 0.9,
       "signals": 4,
       "gov_alert": false
     },
@@ -576,7 +576,7 @@
       138,
       145,
       152,
-      158,
+      159,
       165,
       170,
       175,
@@ -597,7 +597,7 @@
       75,
       76,
       88,
-      87
+      86
     ],
     "BRA": [
       89,
@@ -878,7 +878,7 @@
       381,
       394,
       496,
-      493,
+      492,
       489,
       485,
       482,
@@ -1246,7 +1246,7 @@
       1872,
       1872,
       1889,
-      1965,
+      1966,
       2036,
       2102,
       2161,
@@ -1337,7 +1337,7 @@
     ],
     "CHN": [
       2341,
-      2364,
+      2365,
       2477,
       2583,
       2682,
@@ -4003,11 +4003,11 @@
     ]
   },
   "pandemic": {
-    "composite": 13,
+    "composite": 14,
     "epidemio": 15,
     "polymarket": 6,
-    "kalshi": 17,
-    "max_andes_r0": 1.0,
+    "kalshi": 21,
+    "max_andes_r0": 0.9,
     "avg_other_r0": 0.62,
     "continents": [
       "Americas",
@@ -4105,7 +4105,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-04T07:40:10Z",
+      "last_update": "2026-06-04T07:45:15Z",
       "signals": 2,
       "recent": [
         {
