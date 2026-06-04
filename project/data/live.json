@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-04T05:10:01.580987Z",
-  "next_update": "2026-06-04T05:15:00Z",
+  "generated": "2026-06-04T05:15:06.050678Z",
+  "next_update": "2026-06-04T05:20:00Z",
   "days_active": 27,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -10,20 +10,20 @@
       "cfr": 37.3,
       "var_pct": 28,
       "strain": "andes",
-      "new_today": 5,
+      "new_today": 4,
       "r0": 0.49,
       "signals": 1,
       "gov_alert": false
     },
     "CHL": {
-      "ytd": 86,
+      "ytd": 87,
       "alert": "brote",
       "cfr": 35.5,
-      "var_pct": 33,
+      "var_pct": 34,
       "strain": "andes",
       "new_today": 0,
-      "r0": 0.9,
-      "signals": 3,
+      "r0": 1.0,
+      "signals": 4,
       "gov_alert": false
     },
     "BRA": {
@@ -467,7 +467,7 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2596,
+      "ytd": 2595,
       "alert": "vigilancia",
       "cfr": 0.9,
       "var_pct": 33,
@@ -580,24 +580,24 @@
       164,
       170,
       175,
-      179,
+      180,
       184
     ],
     "CHL": [
       48,
-      51,
-      54,
+      52,
+      55,
       58,
-      60,
-      63,
+      61,
+      64,
       66,
-      68,
-      70,
-      72,
-      74,
+      69,
+      71,
+      73,
+      75,
       76,
-      87,
-      86
+      88,
+      87
     ],
     "BRA": [
       89,
@@ -873,7 +873,7 @@
     ],
     "FIN": [
       334,
-      350,
+      351,
       366,
       380,
       393,
@@ -1253,7 +1253,7 @@
       2210,
       2259,
       2610,
-      2596
+      2595
     ],
     "BLR": [
       34,
@@ -1338,11 +1338,11 @@
     "CHN": [
       2341,
       2352,
-      2465,
-      2572,
+      2466,
+      2573,
       2672,
       2764,
-      2848,
+      2849,
       3495,
       3472,
       3450,
@@ -1504,11 +1504,11 @@
     "CHL": [
       76,
       76,
-      76,
-      76,
-      76,
-      76,
-      76,
+      77,
+      77,
+      77,
+      77,
+      77,
       88,
       88,
       88,
@@ -1521,6 +1521,16 @@
       88,
       88,
       88,
+      88,
+      88,
+      88,
+      88,
+      88,
+      88,
+      88,
+      88,
+      88,
+      88,
       87,
       87,
       87,
@@ -1539,17 +1549,7 @@
       87,
       87,
       87,
-      87,
-      87,
-      87,
-      87,
-      86,
-      86,
-      86,
-      86,
-      86,
-      86,
-      86
+      87
     ],
     "BRA": [
       89,
@@ -4003,11 +4003,11 @@
     ]
   },
   "pandemic": {
-    "composite": 13,
+    "composite": 14,
     "epidemio": 15,
     "polymarket": 6,
-    "kalshi": 16,
-    "max_andes_r0": 0.9,
+    "kalshi": 18,
+    "max_andes_r0": 1.0,
     "avg_other_r0": 0.62,
     "continents": [
       "Americas",
@@ -4019,7 +4019,7 @@
   },
   "signal_summary": {
     "USA": 1,
-    "CHL": 3,
+    "CHL": 4,
     "CAN": 1,
     "FRA": 2,
     "ARG": 1
@@ -4052,6 +4052,13 @@
       "t": "2026-06-03T22:31:16Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTFB6SjUxSDhmTHNYcThSbWRNMjNheFdTY09YdEZjMVNxeVVESWFqZXgyX1R3OVlzWG1YS3lkSEhPMEd2MFNjbFBuc1U0b1Q2LUtuc0hpOGdITTdiVXNQdUs1RmRLOE5aa3dfU2pEb19BMkFSS04xbXlReGViNHJGTmdTQzRJaWxDM25la0RrRzZ1a1ZIRGh1a2RSWHhUMFZkcHFtYXp1YVgxNjlOTU55a0F0bGwyeFhRNTRnOENYVHVjRFRpZ0E?oc=5"
+    },
+    {
+      "iso": "CHL",
+      "title": "Chile Hantavirus Research - dailyrecordnews.com",
+      "t": "2026-06-03T22:31:15Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTTQydWczLTR0c1BGSXFnb0VRUFVESlZXUm1RRHUtdVRjY1Fvb3hWWUhXQjhSOE44MjVQRjJHeWFzbWVTVkNJbXBOYUNwemhDSkNDbUVTZFdaajVvNzJMSUVHd1kwVGZ6TnlubVNuckNqd0JtcGJCTF9pNWVZaW9yd3RfZ0oySkVyQ3djUDlTSHowNjJYT2MwWlE3NEhEQ0JHd01QTFEyblV2d3g2Wnlkamd0TDBMZlgwT09sdnkzYjlmWF9qRkE?oc=5"
     },
     {
       "iso": "FRA",
@@ -4098,7 +4105,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-04T05:10:01Z",
+      "last_update": "2026-06-04T05:15:06Z",
       "signals": 2,
       "recent": [
         {
