@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-04T13:45:08.301573Z",
-  "next_update": "2026-06-04T13:50:00Z",
+  "generated": "2026-06-04T13:50:07.550945Z",
+  "next_update": "2026-06-04T13:55:00Z",
   "days_active": 27,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -23,7 +23,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": 0.9,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "BRA": {
@@ -85,7 +85,7 @@
       "ytd": 28,
       "alert": "vigilancia",
       "cfr": 36.0,
-      "var_pct": 49,
+      "var_pct": 48,
       "strain": "hps",
       "new_today": 1,
       "r0": 5.0,
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GTM": {
@@ -578,21 +578,21 @@
       154,
       160,
       166,
-      171,
+      172,
       177,
       181,
       185
     ],
     "CHL": [
       49,
-      53,
+      52,
       56,
       59,
-      62,
+      61,
       64,
       67,
       69,
-      72,
+      71,
       73,
       75,
       88,
@@ -883,7 +883,7 @@
       485,
       481,
       478,
-      475,
+      474,
       471,
       468
     ],
@@ -1247,9 +1247,9 @@
       1872,
       1909,
       1984,
-      2053,
+      2054,
       2117,
-      2175,
+      2176,
       2228,
       2620,
       2605,
@@ -1337,17 +1337,17 @@
     ],
     "CHN": [
       2341,
-      2393,
-      2504,
+      2394,
+      2505,
       2609,
-      2705,
+      2706,
       2795,
       3510,
       3487,
       3464,
       3442,
       3420,
-      3399,
+      3398,
       3378,
       3357
     ],
@@ -1513,16 +1513,6 @@
       88,
       88,
       88,
-      88,
-      88,
-      88,
-      88,
-      88,
-      88,
-      88,
-      88,
-      88,
-      88,
       87,
       87,
       87,
@@ -1544,6 +1534,16 @@
       87,
       87,
       87,
+      87,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
+      86,
       86,
       86,
       86,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 13,
+    "composite": 14,
     "epidemio": 15,
     "polymarket": 6,
-    "kalshi": 17,
+    "kalshi": 18,
     "max_andes_r0": 0.9,
     "avg_other_r0": 0.62,
     "continents": [
@@ -4019,26 +4019,11 @@
   },
   "signal_summary": {
     "USA": 1,
-    "CHL": 4,
-    "CAN": 1,
+    "CHL": 3,
     "ARG": 1,
     "FRA": 1
   },
   "events": [
-    {
-      "iso": "CHL",
-      "title": "Researchers in Chile hope for further funding for their hantavirus treatment trials - Yahoo News Canada",
-      "t": "2026-06-04T03:13:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ2poTWo0QS1Pd3hEMk5oOG1LRTZhX18tWGxCUFoxQkhnUW5WZ0kxQTFsSndSMDNSWFFaVnBqeTFXMHNBb29XbGVXb1FJNi0tLWR4LVlwUS1SUW1zeWRmQXVRc21MdkY5cmxLVllNT0xPb3VtbGhSQjlJUmx0ektSbkYxcWswdw?oc=5"
-    },
-    {
-      "iso": "CAN",
-      "title": "Researchers in Chile hope for further funding for their hantavirus treatment trials - Yahoo News Canada",
-      "t": "2026-06-04T03:13:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ2poTWo0QS1Pd3hEMk5oOG1LRTZhX18tWGxCUFoxQkhnUW5WZ0kxQTFsSndSMDNSWFFaVnBqeTFXMHNBb29XbGVXb1FJNi0tLWR4LVlwUS1SUW1zeWRmQXVRc21MdkY5cmxLVllNT0xPb3VtbGhSQjlJUmx0ektSbkYxcWswdw?oc=5"
-    },
     {
       "iso": "CHL",
       "title": "Chile Hantavirus Research - dailyrecordnews.com",
@@ -4098,7 +4083,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-04T13:45:08Z",
+      "last_update": "2026-06-04T13:50:07Z",
       "signals": 2,
       "recent": [
         {
