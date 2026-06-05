@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-05T23:25:04.555827Z",
-  "next_update": "2026-06-05T23:30:00Z",
+  "generated": "2026-06-05T23:30:14.301047Z",
+  "next_update": "2026-06-05T23:35:00Z",
   "days_active": 28,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 192,
+      "ytd": 193,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 24,
       "strain": "andes",
       "new_today": 3,
-      "r0": 0.42,
-      "signals": 3,
+      "r0": 0.44,
+      "signals": 4,
       "gov_alert": false
     },
     "CHL": {
@@ -467,7 +467,7 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2571,
+      "ytd": 2570,
       "alert": "vigilancia",
       "cfr": 0.9,
       "var_pct": 24,
@@ -572,16 +572,16 @@
       121,
       129,
       137,
-      144,
-      151,
-      158,
-      164,
-      170,
-      175,
-      180,
-      185,
-      189,
-      192
+      145,
+      152,
+      159,
+      165,
+      171,
+      176,
+      181,
+      186,
+      190,
+      193
     ],
     "CHL": [
       53,
@@ -1245,7 +1245,7 @@
       1872,
       1872,
       1940,
-      2012,
+      2013,
       2080,
       2141,
       2197,
@@ -1253,7 +1253,7 @@
       2614,
       2599,
       2585,
-      2571
+      2570
     ],
     "BLR": [
       34,
@@ -1337,9 +1337,9 @@
     ],
     "CHN": [
       2439,
-      2547,
+      2548,
       2649,
-      2742,
+      2743,
       2829,
       3500,
       3477,
@@ -1452,11 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      185,
-      185,
-      185,
-      185,
-      185,
       186,
       186,
       186,
@@ -1468,14 +1463,13 @@
       187,
       187,
       187,
-      187,
       188,
       188,
       188,
       188,
       188,
       188,
-      189,
+      188,
       189,
       189,
       189,
@@ -1499,7 +1493,13 @@
       192,
       192,
       192,
-      192
+      192,
+      192,
+      192,
+      193,
+      193,
+      193,
+      193
     ],
     "CHL": [
       86,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 11,
+    "composite": 12,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 13,
+    "kalshi": 16,
     "max_andes_r0": 0.8,
     "avg_other_r0": 0.73,
     "continents": [
@@ -4017,12 +4017,19 @@
     "outbreak_count": 4
   },
   "signal_summary": {
+    "ARG": 4,
     "USA": 1,
-    "ARG": 3,
     "CHL": 1,
     "FRA": 2
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - WTOP",
+      "t": "2026-06-05T23:28:54Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNS0pTaDQ1NkMySXdNSEM5dWk1d0ZXbmR2NFZvME4yZVpEN202d2tCSjktVzY2d1RjRFFyNDVHcVhpT0dlbW9fR3h0R09OZ0xhSTIxQXFnTnQ4QkpYcHEtUE13SW1CR1hJbWFkZGRYUkcxejdteWpybl9ad0FKVVBRNms0V2RzRDBRYWFCakpuTFVURVJKV1FHSWNwNnFRNS14TnE3ZlJnV0QyTEhFTFRuZDg3SQ?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina ampl\u00eda a otra provincia el estudio de roedores por hantavirus - El Nacional",
@@ -4032,10 +4039,10 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina to expand hantavirus search to a second province - Macau Business",
-      "t": "2026-06-05T22:19:17Z",
+      "title": "Argentina to expand hantavirus search to a second province - CTV News",
+      "t": "2026-06-05T22:13:41Z",
       "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPX3lwQzROSEhaQUhHd3ZkNklOU3ZONU9xTUVhT1B1VUhORkJGekpWODBoa2xzejMtdENTYUJaZDlDdGZKQjN1YW9KbzFvTkNhN1F1SDRPMGpXWnBQdVFwZ2FiVkZNTVdCNS02aXZiSnMyMWlYTml5aFI1aHFiRTJEek9udTczalFnYTdNczVR?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPM043dzl0anJCUDBWUlNCVTktTGUxTmdiczcyZlc1NmpMVVpNb3ZQRFZJdGVBVWdPNkt2UDlkaUNnM1Fua0ZxRi1YTVFqTmhGNzBqQUZIdGxydzlfOGRUb3NtNmRVbXk0VmU5ZVJrTnNieTI3bjdKNWxpZnA2eGJIZ0hBejF3NjZIdXFOb2IwalNCNk1vN1Q4ZFpNUmQ?oc=5"
     },
     {
       "iso": "ARG",
@@ -4089,7 +4096,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-05T23:25:04Z",
+      "last_update": "2026-06-05T23:30:14Z",
       "signals": 2,
       "recent": [
         {
