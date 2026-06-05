@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-05T23:35:18.605527Z",
-  "next_update": "2026-06-05T23:40:00Z",
+  "generated": "2026-06-05T23:40:18.035967Z",
+  "next_update": "2026-06-05T23:45:00Z",
   "days_active": 28,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "CHE": {
@@ -1252,7 +1252,7 @@
       2248,
       2614,
       2599,
-      2585,
+      2584,
       2570
     ],
     "BLR": [
@@ -1338,9 +1338,9 @@
     "CHN": [
       2440,
       2548,
-      2649,
+      2650,
       2743,
-      2829,
+      2830,
       3500,
       3477,
       3455,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 11,
+    "composite": 12,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 13,
+    "kalshi": 18,
     "max_andes_r0": 0.8,
     "avg_other_r0": 0.73,
     "continents": [
@@ -4020,7 +4020,7 @@
     "ARG": 6,
     "USA": 1,
     "CHL": 1,
-    "FRA": 1
+    "FRA": 2
   },
   "events": [
     {
@@ -4039,10 +4039,10 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - InformNNY.com",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - FOX 44",
       "t": "2026-06-05T23:27:32Z",
       "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQW5mWHdSZ3kxVGx1VTdHQWp6WFlBS0hkdmRJVDdaWmt6dW9QMjNXT0NpdHpIUHBwTmNiYWpta2w3ekZQTFA2SzV0OHVnbEhkeUZLQ3lkZGVtaTJ3T0xMMjJnWk1WU3RkYjNkb0FQOE5YVWZmSlpNUjNXOGYxdEZJX24zbVNYMjRNOGp4MHBNQ0dOQ3RjRHJrOWlyeWtjUHlQUE5WcmVSWnhhNVNKb2tqaUg0RklPX05ua09oWlBlWk8yTEZmLS0w0gHMAUFVX3lxTFBwWUxqdjA4VzNWSkliLXViTm5TSXdTNkNRS1c1LXJJZndvWmlIcEpBX0JBdFRyb2JUVDlXZFdaQ2JIVGhyRTRiMnotbF9oUFFjOW8yR0o1Xzc1WVdWdGxTcE5DazNqa3VISXBXNk5zazIwbjM1TmhzMHQ0TnliTkZzdjVrR2JrYWUyOHJQZ0VRaktES2J2QUVyVVN2dnBoV0dsbU8wLXJJcXNSNlJuTFlpYzRkSVExVi1hWnhKLWJzRDFadGZneDd4MUNJRQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMjI3VGlKR2hXWVdOSThVb2Y1eVMySWFJMEpISlFWb1NZd2toRmVZNWYwUHdydjBUZ0NqQWJrbFFKc2ZqU1k5Y3F2S1RFUGJjbGFsMEJjOHAtZWhOanNDdDZjWmdJbXk3bk9Zdk9ITEhNYUNKZ3VOZDJ1UHVCaHRfY1ZkaFJYWWpXc3ZFMHlLOTBWWFBzWGxuMGVrdTZWNEFCTVotdG52SjJqOVdIa0k2WFJFc3R0TmfSAbwBQVVfeXFMT0lJeWZkRzhxRHUyS0U5MGdRVUtiWV9sNFluNUwwWXVCQUF3X2VWdzRnZWQ3TDBOYjhpRTNkb050M3ExbUFVUlVqbUpHNzNDT0Z3WmFvOW13a0U4bDB2Ujctd0JMMWM3OUNWQW5fcGtGOTk1ZFplS3BoZ1p3OXJSZDlvalczM3NyZTJkU1JKUVRxdGRZeC1KcngyaTgyRXhkT1IxMmlYUzAyWFpmWGJrQ0xrTlMwdk9DdjkwbkI?oc=5"
     },
     {
       "iso": "ARG",
@@ -4081,6 +4081,13 @@
     },
     {
       "iso": "FRA",
+      "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
+      "t": "2026-06-01T12:19:10Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSV9HXzZldFVsQXU4NXplR0M1RE9VbjNDcTBuZENibldCbWVTRGVxQ0xDY2xnSG1SanVQWThzdTd6RGstRHdSWXpWNlZ3QnFuN0FDRy1nUFpkTFhIRTVucGt4bFR4Wi1VRGNUVXl3UU5TTUp6WDdXZ2RKaXR1bXBqMEViQm5YYlhPU2tOdjl5Ui12Y2pRZmJtVnhFWDRRV0p5VHoyb2pfSGVvRFFNdkpzYzdPa0JfZDdMcGRyOVVPSzc5b1dMX0hmUGxOdk5fMzRoVkpRZ2dMMA?oc=5"
+    },
+    {
+      "iso": "FRA",
       "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
       "t": "2026-05-26T07:00:00Z",
       "source": "GoogleNews-ES",
@@ -4103,9 +4110,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-05T23:35:18Z",
-      "signals": 1,
+      "last_update": "2026-06-05T23:40:18Z",
+      "signals": 2,
       "recent": [
+        {
+          "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
+          "t": "2026-06-01T12:19:10Z",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSV9HXzZldFVsQXU4NXplR0M1RE9VbjNDcTBuZENibldCbWVTRGVxQ0xDY2xnSG1SanVQWThzdTd6RGstRHdSWXpWNlZ3QnFuN0FDRy1nUFpkTFhIRTVucGt4bFR4Wi1VRGNUVXl3UU5TTUp6WDdXZ2RKaXR1bXBqMEViQm5YYlhPU2tOdjl5Ui12Y2pRZmJtVnhFWDRRV0p5VHoyb2pfSGVvRFFNdkpzYzdPa0JfZDdMcGRyOVVPSzc5b1dMX0hmUGxOdk5fMzRoVkpRZ2dMMA?oc=5"
+        },
         {
           "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
           "t": "2026-05-26T07:00:00Z",
