@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-05T19:15:15.805746Z",
-  "next_update": "2026-06-05T19:20:00Z",
+  "generated": "2026-06-05T19:20:09.804931Z",
+  "next_update": "2026-06-05T19:25:00Z",
   "days_active": 28,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -82,12 +82,12 @@
       "gov_alert": false
     },
     "USA": {
-      "ytd": 29,
+      "ytd": 30,
       "alert": "brote",
       "cfr": 36.0,
       "var_pct": 42,
       "strain": "hps",
-      "new_today": 1,
+      "new_today": 2,
       "r0": 5.0,
       "signals": 1,
       "gov_alert": false
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "CHE": {
@@ -693,7 +693,7 @@
       26,
       27,
       28,
-      29
+      30
     ],
     "PRY": [
       8,
@@ -1244,14 +1244,14 @@
       1872,
       1872,
       1872,
-      1926,
+      1927,
       2000,
-      2068,
+      2069,
       2131,
       2188,
-      2239,
+      2240,
       2616,
-      2602,
+      2601,
       2587,
       2573
     ],
@@ -1336,11 +1336,11 @@
       23
     ],
     "CHN": [
-      2419,
+      2420,
       2529,
-      2631,
+      2632,
       2727,
-      2814,
+      2815,
       3504,
       3481,
       3459,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 10,
+    "composite": 11,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 12,
+    "kalshi": 13,
     "max_andes_r0": 0.8,
     "avg_other_r0": 0.73,
     "continents": [
@@ -4019,7 +4019,7 @@
   "signal_summary": {
     "USA": 1,
     "CHL": 1,
-    "FRA": 3
+    "FRA": 2
   },
   "events": [
     {
@@ -4045,13 +4045,6 @@
     },
     {
       "iso": "FRA",
-      "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
-      "t": "2026-06-01T12:19:10Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSV9HXzZldFVsQXU4NXplR0M1RE9VbjNDcTBuZENibldCbWVTRGVxQ0xDY2xnSG1SanVQWThzdTd6RGstRHdSWXpWNlZ3QnFuN0FDRy1nUFpkTFhIRTVucGt4bFR4Wi1VRGNUVXl3UU5TTUp6WDdXZ2RKaXR1bXBqMEViQm5YYlhPU2tOdjl5Ui12Y2pRZmJtVnhFWDRRV0p5VHoyb2pfSGVvRFFNdkpzYzdPa0JfZDdMcGRyOVVPSzc5b1dMX0hmUGxOdk5fMzRoVkpRZ2dMMA?oc=5"
-    },
-    {
-      "iso": "FRA",
       "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
       "t": "2026-05-26T07:00:00Z",
       "source": "GoogleNews-ES",
@@ -4074,14 +4067,9 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-05T19:15:15Z",
-      "signals": 2,
+      "last_update": "2026-06-05T19:20:09Z",
+      "signals": 1,
       "recent": [
-        {
-          "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
-          "t": "2026-06-01T12:19:10Z",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSV9HXzZldFVsQXU4NXplR0M1RE9VbjNDcTBuZENibldCbWVTRGVxQ0xDY2xnSG1SanVQWThzdTd6RGstRHdSWXpWNlZ3QnFuN0FDRy1nUFpkTFhIRTVucGt4bFR4Wi1VRGNUVXl3UU5TTUp6WDdXZ2RKaXR1bXBqMEViQm5YYlhPU2tOdjl5Ui12Y2pRZmJtVnhFWDRRV0p5VHoyb2pfSGVvRFFNdkpzYzdPa0JfZDdMcGRyOVVPSzc5b1dMX0hmUGxOdk5fMzRoVkpRZ2dMMA?oc=5"
-        },
         {
           "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
           "t": "2026-05-26T07:00:00Z",
