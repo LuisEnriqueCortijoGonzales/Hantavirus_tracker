@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-05T23:40:18.035967Z",
-  "next_update": "2026-06-05T23:45:00Z",
+  "generated": "2026-06-05T23:45:12.057060Z",
+  "next_update": "2026-06-05T23:50:00Z",
   "days_active": 28,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 195,
+      "ytd": 196,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 25,
+      "var_pct": 26,
       "strain": "andes",
       "new_today": 4,
-      "r0": 0.5,
-      "signals": 6,
+      "r0": 0.53,
+      "signals": 7,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      114,
+      115,
       123,
       131,
       139,
-      146,
-      153,
-      160,
+      147,
+      154,
+      161,
       167,
       173,
-      178,
-      183,
-      187,
-      191,
-      195
+      179,
+      184,
+      188,
+      192,
+      196
     ],
     "CHL": [
       53,
@@ -687,7 +687,7 @@
       18,
       20,
       21,
-      22,
+      23,
       24,
       25,
       26,
@@ -1244,12 +1244,12 @@
       1872,
       1872,
       1872,
-      1940,
+      1941,
       2013,
-      2080,
+      2081,
       2142,
       2198,
-      2248,
+      2249,
       2614,
       2599,
       2584,
@@ -1337,9 +1337,9 @@
     ],
     "CHN": [
       2440,
-      2548,
+      2549,
       2650,
-      2743,
+      2744,
       2830,
       3500,
       3477,
@@ -1452,13 +1452,8 @@
   ],
   "hourly_history": {
     "ARG": [
-      187,
       188,
-      188,
-      188,
-      188,
-      188,
-      188,
+      189,
       189,
       189,
       189,
@@ -1476,7 +1471,6 @@
       191,
       191,
       191,
-      191,
       192,
       192,
       192,
@@ -1489,7 +1483,7 @@
       193,
       193,
       193,
-      193,
+      194,
       194,
       194,
       194,
@@ -1499,7 +1493,13 @@
       195,
       195,
       195,
-      195
+      195,
+      195,
+      195,
+      195,
+      196,
+      196,
+      196
     ],
     "CHL": [
       86,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 12,
+    "composite": 11,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 18,
+    "kalshi": 13,
     "max_andes_r0": 0.8,
     "avg_other_r0": 0.73,
     "continents": [
@@ -4017,7 +4017,7 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "ARG": 6,
+    "ARG": 7,
     "USA": 1,
     "CHL": 1,
     "FRA": 2
@@ -4025,10 +4025,10 @@
   "events": [
     {
       "iso": "ARG",
-      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - Toronto Star",
-      "t": "2026-06-05T23:28:43Z",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - News-Times",
+      "t": "2026-06-05T23:37:30Z",
       "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxObmd2Z29Ca3ZjS0M0cFNfbWRKVmloTl81TVQ2bFk2S29PREJxQnFaT1BySmFpcGJMWkZvTG9wZVRHOEhkZ1AxV3lHZ204ZS16UWZuQ1g4a3dsZVZSeFNGVHFKTzVHSzJycF9EMkJ1Z1RhRFgzR21kZHRGcnpMUVZCYV9QQlVYcGRTaTdxYUxMcGlvYUYxTEFTN3FBZW1QNXpnVWRtMWV5akxORVVoNm1xRHpkOEgwX1F6aDRwZTVpSzZUMUo1WHBPdjFaSU1LcUE5ejQxQlR0UFpCb1dMS21VOHMtMEV0X3pwd1Rwb2hXcVhuMWREVWFqRlBn?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUmdLS3dPeEZZOUtNWXgwSHVxd1lrS0ctOHRBN3VScWxITEVLcmphWTNqXzhvSEN0cjVLVHpVbGlhaEFCSnVRNDdqTWh1b1NPWmgybXk0NWtGZG9TRkJMdHUtamtNSTlOY21OYTZCbFVGcE1GeTBwNmlsMTlqc044Ujd0eXlMR1hnZmhhMld1UktTUWVIbDR0eC13NzNUQm0zSEo5SG1WdXNrUQ?oc=5"
     },
     {
       "iso": "ARG",
@@ -4039,10 +4039,17 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - FOX 44",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - Temple Daily Telegram",
       "t": "2026-06-05T23:27:32Z",
       "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMjI3VGlKR2hXWVdOSThVb2Y1eVMySWFJMEpISlFWb1NZd2toRmVZNWYwUHdydjBUZ0NqQWJrbFFKc2ZqU1k5Y3F2S1RFUGJjbGFsMEJjOHAtZWhOanNDdDZjWmdJbXk3bk9Zdk9ITEhNYUNKZ3VOZDJ1UHVCaHRfY1ZkaFJYWWpXc3ZFMHlLOTBWWFBzWGxuMGVrdTZWNEFCTVotdG52SjJqOVdIa0k2WFJFc3R0TmfSAbwBQVVfeXFMT0lJeWZkRzhxRHUyS0U5MGdRVUtiWV9sNFluNUwwWXVCQUF3X2VWdzRnZWQ3TDBOYjhpRTNkb050M3ExbUFVUlVqbUpHNzNDT0Z3WmFvOW13a0U4bDB2Ujctd0JMMWM3OUNWQW5fcGtGOTk1ZFplS3BoZ1p3OXJSZDlvalczM3NyZTJkU1JKUVRxdGRZeC1KcngyaTgyRXhkT1IxMmlYUzAyWFpmWGJrQ0xrTlMwdk9DdjkwbkI?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcldpbHBDTHVoMVoxbVNZb0Nta2FPazVYem44VmhXLXdjM1ltRVZJR2hQeks3SGtuLTN2bkJOVFp2RVZFNGR4ajhRaHVPTU9LLXFBaGhNQ2tiQkFPQUthZlRTcW5OS1NXc2pUTDNlal8yd3Y5MWNuRVJmYm5uek40SmJPY2YxaERRVllPT0dhelpGSDg1U2c?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - Goshen News",
+      "t": "2026-06-05T23:27:32Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNa2RBN2s3Y09Pb2tuc1VVM1NLUVdHUmxGY0U5OGVYWTZlUUEyV1NCb1Z1NUZUc3RQMW5wZFJMMW1Xbk1GamdPakVqcDdmTkJyQ2pLMktaemU5WF9CN2JyOFZJWVN0RHduc0EtVGgyZ0tyckVrRDM4RTVlV1R4dXpaOHFfYUtDRmtBaVZSRHRPbnFDeURENkpQcTZQem42V3JnQUhRZmw0QlRILU52c2VKQWVwcGtQSkJqYWl0eTFzS1VmNUlGVFpMSFhkd1hCXzdZZkUxRXVfRlBkLUk5TXFUYmlFc0NZRWtnMm5FWmpYNUx0UFlUTUFYcmV3OXptWU85ZEZVSDB3Skg?oc=5"
     },
     {
       "iso": "ARG",
@@ -4110,7 +4117,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-05T23:40:18Z",
+      "last_update": "2026-06-05T23:45:12Z",
       "signals": 2,
       "recent": [
         {
