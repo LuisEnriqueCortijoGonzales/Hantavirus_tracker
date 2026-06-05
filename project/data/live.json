@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-05T22:10:05.320683Z",
-  "next_update": "2026-06-05T22:15:00Z",
+  "generated": "2026-06-05T22:15:09.802910Z",
+  "next_update": "2026-06-05T22:20:00Z",
   "days_active": 28,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 189,
+      "ytd": 190,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 22,
       "strain": "andes",
       "new_today": 3,
-      "r0": 0.35,
-      "signals": 0,
+      "r0": 0.37,
+      "signals": 1,
       "gov_alert": false
     },
     "CHL": {
@@ -570,18 +570,18 @@
     "ARG": [
       111,
       119,
-      126,
-      134,
+      127,
+      135,
       142,
       149,
-      155,
-      161,
-      167,
-      172,
-      177,
-      182,
-      186,
-      189
+      156,
+      162,
+      168,
+      173,
+      178,
+      183,
+      187,
+      190
     ],
     "CHL": [
       53,
@@ -691,7 +691,7 @@
       24,
       25,
       26,
-      27,
+      28,
       29,
       30
     ],
@@ -1246,10 +1246,10 @@
       1872,
       1936,
       2009,
-      2076,
+      2077,
       2138,
-      2194,
-      2245,
+      2195,
+      2246,
       2614,
       2600,
       2585,
@@ -1338,9 +1338,9 @@
     "CHN": [
       2433,
       2542,
-      2643,
+      2644,
       2738,
-      2824,
+      2825,
       3502,
       3479,
       3456,
@@ -1452,12 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      182,
-      182,
-      182,
-      182,
-      182,
-      183,
       183,
       183,
       183,
@@ -1499,7 +1493,13 @@
       189,
       189,
       189,
-      189
+      189,
+      189,
+      190,
+      190,
+      190,
+      190,
+      190
     ],
     "CHL": [
       86,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 11,
+    "composite": 12,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 13,
+    "kalshi": 16,
     "max_andes_r0": 0.8,
     "avg_other_r0": 0.73,
     "continents": [
@@ -4019,9 +4019,17 @@
   "signal_summary": {
     "USA": 1,
     "CHL": 1,
+    "ARG": 1,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Expertos ampl\u00edan a otra provincia de Argentina el estudio de roedores por hantavirus - El Economista",
+      "t": "2026-06-05T22:01:24Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTEV1Nm5EVnZCM2oteUxneHRwNFpEWHJkVl8yWVBqYXZBeWNpRm9tXzF3TWlDU014ZktoQlpLWWFLZk1BMGN1WVFfcWkzbVRyTHAtU2dwSzFrU1Flb19HbXJhNGsxRjUta1k3eGxuRnVpTTQ5Vy10elJwc2xfV05PblNpSkZBY3gwWkVoMlpjeVRZVXRQVmhycVA3TlNxRi1QQjJyRFdjUjVYTnhqWEQ1OVhGNGl2c1gxQVFUWklpWjNJMHhQRW9HTTZXTWlPd9IB0wFBVV95cUxQdkxPa3lPTWw4ZGNjZDYzdzJ4eXpoSV93VlZLUGJ1aTFGanZ3VHBmWnhla2c0VGZBa2ZXR3RFa2tiZnBNNWNWVjJyQUxfUk5zR0p0ejI1VW4zdElJNWVzR0Nudmh6N1lydGdIUWc5Z2pvYTdZU0JLTUU0MFQ3aWk5YTA4ZmJSQXdTeXB4Wkp0TXprMmUtVGU5Y0lQOFJBZk1tTGNXUGRaUDVRbWgybWY3SndtdG9DWEs4c0dvcmdJalNsZ3hESmplQlBNWW56WkZxcFlv?oc=5"
+    },
     {
       "iso": "CHL",
       "title": "Researchers in Chile hope for further funding for their hantavirus treatment trials - AP News",
@@ -4060,7 +4068,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-05T22:10:05Z",
+      "last_update": "2026-06-05T22:15:09Z",
       "signals": 1,
       "recent": [
         {
