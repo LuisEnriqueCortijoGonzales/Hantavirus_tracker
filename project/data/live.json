@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-05T22:15:09.802910Z",
-  "next_update": "2026-06-05T22:20:00Z",
+  "generated": "2026-06-05T22:20:14.301403Z",
+  "next_update": "2026-06-05T22:25:00Z",
   "days_active": 28,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 190,
+      "ytd": 191,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 22,
+      "var_pct": 23,
       "strain": "andes",
-      "new_today": 3,
-      "r0": 0.37,
-      "signals": 1,
+      "new_today": 4,
+      "r0": 0.39,
+      "signals": 2,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      111,
-      119,
-      127,
-      135,
-      142,
-      149,
-      156,
-      162,
-      168,
-      173,
-      178,
-      183,
+      112,
+      120,
+      128,
+      136,
+      143,
+      150,
+      157,
+      163,
+      169,
+      174,
+      179,
+      184,
       187,
-      190
+      191
     ],
     "CHL": [
       53,
@@ -1247,7 +1247,7 @@
       1936,
       2009,
       2077,
-      2138,
+      2139,
       2195,
       2246,
       2614,
@@ -1336,13 +1336,13 @@
       23
     ],
     "CHN": [
-      2433,
+      2434,
       2542,
       2644,
       2738,
       2825,
-      3502,
-      3479,
+      3501,
+      3478,
       3456,
       3434,
       3412,
@@ -1452,11 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      183,
-      183,
-      183,
-      183,
-      183,
       184,
       184,
       184,
@@ -1481,14 +1476,13 @@
       187,
       187,
       187,
-      187,
       188,
       188,
       188,
       188,
       188,
       188,
-      188,
+      189,
       189,
       189,
       189,
@@ -1499,7 +1493,13 @@
       190,
       190,
       190,
-      190
+      190,
+      190,
+      190,
+      191,
+      191,
+      191,
+      191
     ],
     "CHL": [
       86,
@@ -4006,7 +4006,7 @@
     "composite": 12,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 16,
+    "kalshi": 17,
     "max_andes_r0": 0.8,
     "avg_other_r0": 0.73,
     "continents": [
@@ -4018,11 +4018,18 @@
   },
   "signal_summary": {
     "USA": 1,
+    "ARG": 2,
     "CHL": 1,
-    "ARG": 1,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Argentina to expand hantavirus search to a second province - Macau Business",
+      "t": "2026-06-05T22:19:24Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPX3lwQzROSEhaQUhHd3ZkNklOU3ZONU9xTUVhT1B1VUhORkJGekpWODBoa2xzejMtdENTYUJaZDlDdGZKQjN1YW9KbzFvTkNhN1F1SDRPMGpXWnBQdVFwZ2FiVkZNTVdCNS02aXZiSnMyMWlYTml5aFI1aHFiRTJEek9udTczalFnYTdNczVR?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Expertos ampl\u00edan a otra provincia de Argentina el estudio de roedores por hantavirus - El Economista",
@@ -4068,7 +4075,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-05T22:15:09Z",
+      "last_update": "2026-06-05T22:20:14Z",
       "signals": 1,
       "recent": [
         {
