@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-05T13:15:17.294970Z",
-  "next_update": "2026-06-05T13:20:00Z",
+  "generated": "2026-06-05T13:20:11.336038Z",
+  "next_update": "2026-06-05T13:25:00Z",
   "days_active": 28,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -78,7 +78,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "USA": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "CHE": {
@@ -1245,7 +1245,7 @@
       1872,
       1872,
       1907,
-      1982,
+      1983,
       2052,
       2116,
       2174,
@@ -1337,7 +1337,7 @@
     ],
     "CHN": [
       2391,
-      2502,
+      2503,
       2607,
       2704,
       2793,
@@ -1348,7 +1348,7 @@
       3420,
       3399,
       3378,
-      3358,
+      3357,
       3337
     ],
     "KOR": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 11,
+    "composite": 10,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 15,
+    "kalshi": 12,
     "max_andes_r0": 0.8,
     "avg_other_r0": 0.66,
     "continents": [
@@ -4019,7 +4019,8 @@
   "signal_summary": {
     "USA": 1,
     "CHL": 1,
-    "FRA": 2
+    "FRA": 1,
+    "MEX": 1
   },
   "events": [
     {
@@ -4028,6 +4029,13 @@
       "t": "2026-06-04T03:16:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUHdmRjJNSTkwN1VuTDVROGVZcnZCbFcyTTZwRUFCU3hJem5EbGF1LVNwdkt4WjNxdVNFUlVNbUR5VlhFaHNUa0hYR05YWHdVODhpeVhIT19hTURyMnlwdWlzS2pEM3p1YVloUnZYTVNuWlpSRDBJOS0xaWN0SFJpYlJsa01LM1ZRaG1SclBMeERDb2c4Zzh3OFhsMFRrU000M21tUFozNDFHUGxSZzhTR2FSd1FrVVNWN2pBYnpfVGJwOW1Gb3gwVUl6eDVXV2xwNGt3U0RUZGw?oc=5"
+    },
+    {
+      "iso": "MEX",
+      "title": "Residente de Arizona muere por variante de hantavirus tan letal como la cepa del crucero - Forbes M\u00e9xico",
+      "t": "2026-06-03T16:10:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLUNCMjFELXM1SEV6Nm5tM0tmWmx0b3VNSHZuLTAyVVRtWmZoQ09PUnd4X2hsN0IzaFE1VDJ1Rk1sT3plc25ndmdZem4tZVlfd05ER0Z3eXFyY0NLMmZtZjgyci1LeFQyT0FTX0hFOGtDcUpDd1QyZUdQeDNIQnVvUDZQY2xMYm9PdUNWTjZCRFlFR3czRmlUOXBVNHlvZ2hzcHh5UUhCbWZQakFwYUd4Ug?oc=5"
     },
     {
       "iso": "USA",
@@ -4042,13 +4050,6 @@
       "t": "2026-06-01T18:43:19Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPY2NKV0lNaEcyRk9obTVpV2Y1b0pOTmd0UVFxWDBEMHE0Y3c2aEdXOFZ3VGVMZldSR25sUmtIWjRNei1wZk0tUkdkbWlwcF9oNmEyQWRpdUpkaWFPRWxfZ1NuZVR3Y3F3M3FPQm5VcXNNTXUtMEpCd3g0ZXBtODNQVlZTRFV5V1FjOHN0S2ZMOHpuaTBuN3IzVlphZWxabF9hekxqRWtVNkt6OEVEb2xXbG5Hek92d1NtaTN6RXE1TFhudm01RV9sQ0FyblM0TVVPUy1jQkV1THZhSHZ2RnZjX2tfYllsSXdHOTY2ZWNhQQ?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
-      "t": "2026-05-26T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
     }
   ],
   "maritime_events": [
@@ -4067,13 +4068,13 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-05T13:15:17Z",
+      "last_update": "2026-06-05T13:20:11Z",
       "signals": 1,
       "recent": [
         {
-          "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
-          "t": "2026-05-26T07:00:00Z",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
+          "title": "Residente de Arizona muere por variante de hantavirus tan letal como la cepa del crucero - Forbes M\u00e9xico",
+          "t": "2026-06-03T16:10:00Z",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLUNCMjFELXM1SEV6Nm5tM0tmWmx0b3VNSHZuLTAyVVRtWmZoQ09PUnd4X2hsN0IzaFE1VDJ1Rk1sT3plc25ndmdZem4tZVlfd05ER0Z3eXFyY0NLMmZtZjgyci1LeFQyT0FTX0hFOGtDcUpDd1QyZUdQeDNIQnVvUDZQY2xMYm9PdUNWTjZCRFlFR3czRmlUOXBVNHlvZ2hzcHh5UUhCbWZQakFwYUd4Ug?oc=5"
         }
       ]
     }
