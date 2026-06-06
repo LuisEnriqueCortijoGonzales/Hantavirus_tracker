@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-06T19:20:14.340561Z",
-  "next_update": "2026-06-06T19:25:00Z",
+  "generated": "2026-06-06T19:25:08.305940Z",
+  "next_update": "2026-06-06T19:30:00Z",
   "days_active": 29,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 205,
+      "ytd": 204,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 28,
+      "var_pct": 27,
       "strain": "andes",
       "new_today": 3,
-      "r0": 0.62,
-      "signals": 14,
+      "r0": 0.58,
+      "signals": 13,
       "gov_alert": false
     },
     "CHL": {
@@ -568,25 +568,25 @@
   },
   "history": {
     "ARG": [
-      126,
+      125,
       134,
-      143,
-      151,
-      158,
-      165,
-      172,
-      178,
-      184,
-      189,
-      194,
-      198,
-      202,
-      205
+      142,
+      150,
+      157,
+      164,
+      171,
+      177,
+      183,
+      188,
+      193,
+      197,
+      201,
+      204
     ],
     "CHL": [
       56,
       59,
-      61,
+      62,
       64,
       67,
       69,
@@ -1244,7 +1244,7 @@
       1872,
       1872,
       1927,
-      2000,
+      2001,
       2069,
       2131,
       2188,
@@ -1336,7 +1336,7 @@
       24
     ],
     "CHN": [
-      2529,
+      2530,
       2632,
       2727,
       2815,
@@ -1452,6 +1452,12 @@
   ],
   "hourly_history": {
     "ARG": [
+      197,
+      197,
+      198,
+      198,
+      198,
+      198,
       198,
       198,
       199,
@@ -1479,6 +1485,7 @@
       202,
       202,
       202,
+      202,
       203,
       203,
       203,
@@ -1492,14 +1499,7 @@
       204,
       204,
       204,
-      204,
-      205,
-      205,
-      205,
-      205,
-      205,
-      205,
-      205
+      204
     ],
     "CHL": [
       85,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 11,
+    "composite": 12,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 13,
+    "kalshi": 18,
     "max_andes_r0": 0.62,
     "avg_other_r0": 0.73,
     "continents": [
@@ -4017,7 +4017,7 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "ARG": 14,
+    "ARG": 13,
     "CHL": 1,
     "FRA": 2
   },
@@ -4087,13 +4087,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - The Daily Gazette",
-      "t": "2026-06-05T23:27:32Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPR1ZEMkZDUWhOZU9aekZXWXNiYjk3Z1RocTdhd1FTenFidFF6NFM3ZVNZWmJBamZzUzJEbnlHNmx4RUM2aFIxV3d1eXBGVlI5MDFNYkJtY203SEtWMTYxeXllaU1VRVdoZ2s1NXZIdE1NeEs5dkNhWkxDbmthMjNpcXMzZDg0ZDlQRVQ0TDlBUEdJQzdMX2pnS3lRaVE0WGZ2eFdxSXlDY3hISlc3Ykc0SGVBOUd5clNteVRaU1g2MnAwc2Q2ZHlObnM1ZU52WnRveHo1M3kyMkdsaXFIRlZDZnpiQk5UNGFLYnQxZl9DbHpWSDJrTDExcXZvWmlidw?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - AP News",
       "t": "2026-06-05T23:27:00Z",
       "source": "GoogleNews-EN",
@@ -4158,7 +4151,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-06T19:20:14Z",
+      "last_update": "2026-06-06T19:25:08Z",
       "signals": 4,
       "recent": [
         {
