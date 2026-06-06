@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-06T05:15:18.626939Z",
-  "next_update": "2026-06-06T05:20:00Z",
+  "generated": "2026-06-06T05:20:18.586656Z",
+  "next_update": "2026-06-06T05:25:00Z",
   "days_active": 29,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -570,11 +570,11 @@
     "ARG": [
       120,
       128,
-      136,
+      137,
       145,
       152,
       160,
-      166,
+      167,
       173,
       179,
       184,
@@ -905,7 +905,7 @@
     ],
     "DEU": [
       235,
-      246,
+      247,
       257,
       267,
       276,
@@ -1245,11 +1245,11 @@
       1872,
       1881,
       1958,
-      2029,
+      2030,
       2095,
-      2155,
+      2156,
       2210,
-      2259,
+      2260,
       2610,
       2595,
       2581,
@@ -1343,7 +1343,7 @@
       2849,
       3495,
       3472,
-      3450,
+      3449,
       3428,
       3406,
       3385,
@@ -1358,7 +1358,7 @@
       89,
       89,
       90,
-      92,
+      93,
       95,
       98,
       100,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 12,
+    "composite": 11,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 20,
+    "kalshi": 13,
     "max_andes_r0": 0.62,
     "avg_other_r0": 0.73,
     "continents": [
@@ -4024,10 +4024,10 @@
   "events": [
     {
       "iso": "ARG",
-      "title": "Hantavirus: Argentina Expands Probe to Trace Outbreak Source - Tempo.co English",
-      "t": "2026-06-06T03:59:33Z",
+      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW",
+      "t": "2026-06-06T03:30:52Z",
       "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQalhMOUY5OFRoU1hWdlF4SVFrcGFJZkw5d2NpcFJaRDF1VWFYX1hhREV6NFBDbFV6TzBtZjBrUDUtWGFFc0RPOVFPd3ZBLThBbmtTV3VSUmFWOFlzUDJtY3JLd0lyWFZVY1NTc1VrNm9GLWZKVUgxNWFsbGNkaHllTGl5cFBMZ1d1LV9YeGE2c3EwOHVwZmRz?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE0?oc=5"
     },
     {
       "iso": "ARG",
@@ -4144,7 +4144,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-06T05:15:18Z",
+      "last_update": "2026-06-06T05:20:18Z",
       "signals": 2,
       "recent": [
         {
