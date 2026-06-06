@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-06T04:05:09.814176Z",
-  "next_update": "2026-06-06T04:10:00Z",
+  "generated": "2026-06-06T04:10:09.041852Z",
+  "next_update": "2026-06-06T04:15:00Z",
   "days_active": 29,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -522,13 +522,13 @@
       "gov_alert": false
     },
     "KAZ": {
-      "ytd": 23,
+      "ytd": 24,
       "alert": "vigilancia",
       "cfr": 0.8,
       "var_pct": 2,
       "strain": "hantaan",
-      "new_today": 0,
-      "r0": 0.0,
+      "new_today": 1,
+      "r0": 3.5,
       "signals": 0,
       "gov_alert": false
     },
@@ -573,7 +573,7 @@
       135,
       143,
       151,
-      158,
+      159,
       165,
       172,
       178,
@@ -879,7 +879,7 @@
       493,
       489,
       486,
-      483,
+      482,
       479,
       476,
       473,
@@ -1333,12 +1333,12 @@
       23,
       23,
       23,
-      23
+      24
     ],
     "CHN": [
-      2460,
-      2567,
-      2667,
+      2461,
+      2568,
+      2668,
       2760,
       2845,
       3496,
@@ -4006,9 +4006,9 @@
     "composite": 12,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 20,
+    "kalshi": 19,
     "max_andes_r0": 0.62,
-    "avg_other_r0": 0.66,
+    "avg_other_r0": 0.73,
     "continents": [
       "Americas",
       "Asia"
@@ -4095,7 +4095,7 @@
     {
       "iso": "ARG",
       "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - Toronto Star",
-      "t": "2026-06-05T05:30:02Z",
+      "t": "2026-06-05T03:30:02Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxObmd2Z29Ca3ZjS0M0cFNfbWRKVmloTl81TVQ2bFk2S29PREJxQnFaT1BySmFpcGJMWkZvTG9wZVRHOEhkZ1AxV3lHZ204ZS16UWZuQ1g4a3dsZVZSeFNGVHFKTzVHSzJycF9EMkJ1Z1RhRFgzR21kZHRGcnpMUVZCYV9QQlVYcGRTaTdxYUxMcGlvYUYxTEFTN3FBZW1QNXpnVWRtMWV5akxORVVoNm1xRHpkOEgwX1F6aDRwZTVpSzZUMUo1WHBPdjFaSU1LcUE5ejQxQlR0UFpCb1dMS21VOHMtMEV0X3pwd1Rwb2hXcVhuMWREVWFqRlBn?oc=5"
     },
@@ -4137,7 +4137,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-06T04:05:09Z",
+      "last_update": "2026-06-06T04:10:09Z",
       "signals": 2,
       "recent": [
         {
