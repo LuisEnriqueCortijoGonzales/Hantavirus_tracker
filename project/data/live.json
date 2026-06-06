@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-06T00:05:09.094272Z",
-  "next_update": "2026-06-06T00:10:00Z",
+  "generated": "2026-06-06T00:10:01.514399Z",
+  "next_update": "2026-06-06T00:15:00Z",
   "days_active": 29,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -1245,8 +1245,8 @@
       1872,
       1872,
       1942,
-      2014,
-      2081,
+      2015,
+      2082,
       2143,
       2199,
       2249,
@@ -1338,7 +1338,7 @@
     "CHN": [
       2442,
       2550,
-      2651,
+      2652,
       2745,
       2831,
       3500,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 12,
+    "composite": 10,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 17,
+    "kalshi": 12,
     "max_andes_r0": 0.62,
     "avg_other_r0": 0.66,
     "continents": [
@@ -4032,17 +4032,17 @@
     },
     {
       "iso": "ARG",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - WOWK 13 News",
+      "t": "2026-06-05T23:27:32Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQT3lTZFVORlNhUEN5T0NyRU9rdnhJa1ZycjZ1YXNicFBRWTRCM2lRZjNJRmdVNEdUOXZ5SkVwODFNSEgtRjNIam9GSkFONjVUaTcyUlNpOFhEYnlXaGxRdFZhSmJadnVzSEtOa1pHU0ZsZzNUTkplcDhlaWpnZjVDTFZwWWI2NndXU3pLYkpBTktuc1FjTWJ5UV82QUQ4TDFfeHpWLXUyTTkxaGJOdWtjZjV5cy1sZ0RiTms5T21sMkjSAcYBQVVfeXFMTmZwYU9INWN0ZWphMTZmZkRTZW1vcThVOWtUb3BOLUJLbVd4a3AyRnEySGQ3dTlYVVFtb04xUmdEVjQwd2o2bTZOdzdqdi1PYjJFVGFyMk9tODNldGUwcG1ZdVZjb3lBR3BjSHhGWXRfOUhwRkYyTzBXcG90dVVncFRLTWM5MnJnZGVLNU9vVWpGWWZOanJpbXdHVFplUkRmeHB5NktJQXAwbDctT0Z3dVdOMU11bUllUUNqSkQydXJ2OGtIb2dn?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - Ottumwa Courier",
       "t": "2026-06-05T23:27:32Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPRU4tWFJOWDRGMmlzdExYRGhtMEU4UC1ob0hyVUlJMldlcl9CTllIY3VnLUlEMmpXaS1wZjBuVTRielFzamtaZ09Ca3FROXF2cXNLSE5LRWlKVjVOX2psSDJpdHR5SmVGdE9rSm1LLWs4UDUwdDEtNTFudXl6ZzlzTFNjYmg5aE1mUndGV1loS3Bva1RDYkJPcHNJNmlpdFFsbmxNMW5mLVFFd3h4Nk1rNjk3TlRkSkpKYjBOQklOYUlNR3RxZll5SEIxQjVBSnF2WldfZXY1N1czWnN2WTJYNENQZHNBdEVUbmRfZ1BuQUZtZ01UNFdYRExMSkJ2X2FNSnRzNjIycGJHQlB1TEE?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - FOX 44",
-      "t": "2026-06-05T23:27:32Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMjI3VGlKR2hXWVdOSThVb2Y1eVMySWFJMEpISlFWb1NZd2toRmVZNWYwUHdydjBUZ0NqQWJrbFFKc2ZqU1k5Y3F2S1RFUGJjbGFsMEJjOHAtZWhOanNDdDZjWmdJbXk3bk9Zdk9ITEhNYUNKZ3VOZDJ1UHVCaHRfY1ZkaFJYWWpXc3ZFMHlLOTBWWFBzWGxuMGVrdTZWNEFCTVotdG52SjJqOVdIa0k2WFJFc3R0TmfSAbwBQVVfeXFMT0lJeWZkRzhxRHUyS0U5MGdRVUtiWV9sNFluNUwwWXVCQUF3X2VWdzRnZWQ3TDBOYjhpRTNkb050M3ExbUFVUlVqbUpHNzNDT0Z3WmFvOW13a0U4bDB2Ujctd0JMMWM3OUNWQW5fcGtGOTk1ZFplS3BoZ1p3OXJSZDlvalczM3NyZTJkU1JKUVRxdGRZeC1KcngyaTgyRXhkT1IxMmlYUzAyWFpmWGJrQ0xrTlMwdk9DdjkwbkI?oc=5"
     },
     {
       "iso": "ARG",
@@ -4124,7 +4124,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-06T00:05:09Z",
+      "last_update": "2026-06-06T00:10:01Z",
       "signals": 2,
       "recent": [
         {
