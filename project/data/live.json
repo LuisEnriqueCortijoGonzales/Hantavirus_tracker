@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-06T05:30:07.553850Z",
-  "next_update": "2026-06-06T05:35:00Z",
+  "generated": "2026-06-06T05:35:17.340926Z",
+  "next_update": "2026-06-06T05:40:00Z",
   "days_active": 29,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -910,7 +910,7 @@
       267,
       276,
       285,
-      292,
+      293,
       349,
       347,
       345,
@@ -1340,8 +1340,8 @@
       2574,
       2673,
       2765,
-      2849,
-      3495,
+      2850,
+      3494,
       3472,
       3449,
       3427,
@@ -4006,7 +4006,7 @@
     "composite": 11,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 14,
+    "kalshi": 13,
     "max_andes_r0": 0.62,
     "avg_other_r0": 0.73,
     "continents": [
@@ -4042,6 +4042,13 @@
       "t": "2026-06-06T00:59:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOR1kwcDBJQWhwTXo3dFlhQXNmOUt1UGlCUDdnWlFzcjJjUm5RMzNVTjZtV0ZBTmZoQ25WUlUwRVc1M2FsXzhnUl9nYlFteURPQzh0SHFLRmRCc3g1dEVleGxzdjRGblJURktteHl6MkZrWlpJRlBEOFh1NGVOQXdMNlZHSjl5S3d5cHo3d2U5cUk5MS1fWWJ6T2JHNnh4MDEzd0RJRVpTcHZrNGxpQTN5ZVM1NTYzRkw5dm1KSHlialkyXzUyTHVSYzBHYkI?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - Toronto Star",
+      "t": "2026-06-05T23:28:43Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxObmd2Z29Ca3ZjS0M0cFNfbWRKVmloTl81TVQ2bFk2S29PREJxQnFaT1BySmFpcGJMWkZvTG9wZVRHOEhkZ1AxV3lHZ204ZS16UWZuQ1g4a3dsZVZSeFNGVHFKTzVHSzJycF9EMkJ1Z1RhRFgzR21kZHRGcnpMUVZCYV9QQlVYcGRTaTdxYUxMcGlvYUYxTEFTN3FBZW1QNXpnVWRtMWV5akxORVVoNm1xRHpkOEgwX1F6aDRwZTVpSzZUMUo1WHBPdjFaSU1LcUE5ejQxQlR0UFpCb1dMS21VOHMtMEV0X3pwd1Rwb2hXcVhuMWREVWFqRlBn?oc=5"
     },
     {
       "iso": "ARG",
@@ -4100,13 +4107,6 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTEV1Nm5EVnZCM2oteUxneHRwNFpEWHJkVl8yWVBqYXZBeWNpRm9tXzF3TWlDU014ZktoQlpLWWFLZk1BMGN1WVFfcWkzbVRyTHAtU2dwSzFrU1Flb19HbXJhNGsxRjUta1k3eGxuRnVpTTQ5Vy10elJwc2xfV05PblNpSkZBY3gwWkVoMlpjeVRZVXRQVmhycVA3TlNxRi1QQjJyRFdjUjVYTnhqWEQ1OVhGNGl2c1gxQVFUWklpWjNJMHhQRW9HTTZXTWlPd9IB0wFBVV95cUxQdkxPa3lPTWw4ZGNjZDYzdzJ4eXpoSV93VlZLUGJ1aTFGanZ3VHBmWnhla2c0VGZBa2ZXR3RFa2tiZnBNNWNWVjJyQUxfUk5zR0p0ejI1VW4zdElJNWVzR0Nudmh6N1lydGdIUWc5Z2pvYTdZU0JLTUU0MFQ3aWk5YTA4ZmJSQXdTeXB4Wkp0TXprMmUtVGU5Y0lQOFJBZk1tTGNXUGRaUDVRbWgybWY3SndtdG9DWEs4c0dvcmdJalNsZ3hESmplQlBNWW56WkZxcFlv?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - Toronto Star",
-      "t": "2026-06-05T03:30:02Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxObmd2Z29Ca3ZjS0M0cFNfbWRKVmloTl81TVQ2bFk2S29PREJxQnFaT1BySmFpcGJMWkZvTG9wZVRHOEhkZ1AxV3lHZ204ZS16UWZuQ1g4a3dsZVZSeFNGVHFKTzVHSzJycF9EMkJ1Z1RhRFgzR21kZHRGcnpMUVZCYV9QQlVYcGRTaTdxYUxMcGlvYUYxTEFTN3FBZW1QNXpnVWRtMWV5akxORVVoNm1xRHpkOEgwX1F6aDRwZTVpSzZUMUo1WHBPdjFaSU1LcUE5ejQxQlR0UFpCb1dMS21VOHMtMEV0X3pwd1Rwb2hXcVhuMWREVWFqRlBn?oc=5"
-    },
-    {
       "iso": "CHL",
       "title": "Researchers in Chile hope for further funding for their hantavirus treatment trials - AP News",
       "t": "2026-06-04T03:16:00Z",
@@ -4144,7 +4144,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-06T05:30:07Z",
+      "last_update": "2026-06-06T05:35:17Z",
       "signals": 2,
       "recent": [
         {
