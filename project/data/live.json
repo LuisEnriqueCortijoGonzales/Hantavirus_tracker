@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-06T00:25:16.576720Z",
-  "next_update": "2026-06-06T00:30:00Z",
+  "generated": "2026-06-06T00:30:10.567253Z",
+  "next_update": "2026-06-06T00:35:00Z",
   "days_active": 29,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 198,
+      "ytd": 199,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 27,
+      "var_pct": 28,
       "strain": "andes",
       "new_today": 4,
-      "r0": 0.42,
-      "signals": 9,
+      "r0": 0.44,
+      "signals": 10,
       "gov_alert": false
     },
     "CHL": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "CHE": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      116,
+      117,
       125,
-      133,
-      141,
+      134,
+      142,
       149,
-      156,
-      163,
-      169,
-      175,
-      181,
-      186,
-      190,
-      194,
-      198
+      157,
+      164,
+      170,
+      176,
+      182,
+      187,
+      191,
+      195,
+      199
     ],
     "CHL": [
       53,
@@ -908,11 +908,11 @@
       244,
       255,
       265,
-      274,
+      275,
       283,
       291,
       350,
-      348,
+      347,
       345,
       343,
       341,
@@ -1245,10 +1245,10 @@
       1872,
       1872,
       1943,
-      2015,
-      2082,
+      2016,
+      2083,
       2144,
-      2199,
+      2200,
       2250,
       2613,
       2598,
@@ -1336,13 +1336,13 @@
       23
     ],
     "CHN": [
-      2443,
+      2444,
       2552,
       2653,
       2746,
       2832,
       3499,
-      3477,
+      3476,
       3454,
       3432,
       3410,
@@ -1452,11 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      190,
-      191,
-      191,
-      191,
-      191,
       191,
       191,
       192,
@@ -1465,7 +1460,6 @@
       192,
       192,
       192,
-      193,
       193,
       193,
       193,
@@ -1490,7 +1484,6 @@
       196,
       196,
       196,
-      197,
       197,
       197,
       197,
@@ -1499,7 +1492,14 @@
       197,
       198,
       198,
-      198
+      198,
+      198,
+      198,
+      198,
+      198,
+      199,
+      199,
+      199
     ],
     "CHL": [
       86,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 10,
+    "composite": 11,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 12,
+    "kalshi": 14,
     "max_andes_r0": 0.62,
     "avg_other_r0": 0.66,
     "continents": [
@@ -4017,17 +4017,24 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "ARG": 9,
+    "ARG": 10,
     "CHL": 1,
-    "FRA": 1
+    "FRA": 2
   },
   "events": [
     {
       "iso": "ARG",
-      "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus; env\u00eda equipos a atrapar y analizar ratas en Mendoza - Seattlepi.com",
-      "t": "2026-06-06T00:22:44Z",
+      "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus; env\u00eda equipos a atrapar y analizar ratas en Mendoza - Telemundo Delmarva",
+      "t": "2026-06-06T00:13:36Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTExTUVlOUTB4TW9zUmZkbDVvczRBU0ZoY3lVR2E5dnBtN3NEWEUzdngwLWZsaGdaV2ZMRGRkU3A4cXJCeDdOWXNCS19YZkFuWW1rdlBJVkh5QV81RHktR2FWRkpVMThQWDB3OW5uSEItcnAtZktYaE5OZGE1aXhwV2QyNmJrZGpsbkZaOVl1OWFrS0M2ZXdR?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQRTlCOC03X3FhdGZtOVY3ZVNzZ1Z6UDJzZ1l1bVhiQk0weFM5M3VLa29HbzBSeGZENDlLNm9OSjRmXzBGbWdYVXNNeTNHZ2U1QmRkY1pZamxsdEotOFVFRmtsalg3R3V0UklscEdvc2d2b0k2SnI3VVVyazZIeGRremN5ekN5dV9ua2d1TXZvc010YnRfWXNsZVlyTlBLMS1yZDZvdFdWcnB0OW04LURFX3AwbzJ2dnhidkRYUmJUUVF3eXZ0MUxzdTFqX1FEeUREM01hNk1kM290Yk5KV3VJZ0ZxZlExZ3BySjRTMnBwcUMwZmJVekl0Vm1LUUFlZWxWVlNVNEV3aDdqd2M4Z1A0bnpVb2UtZmNSamZaMFhMQQ?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - The Spec",
+      "t": "2026-06-05T23:28:43Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQT1NXQXFfeER6N0ZLZkU1b1RoZERMMjBkSUNKeDZ5YlpzNnNqRmdieUVOR1Zib1R0bGpHd2Q4ZVB6VURXZWZIQlYycmZFVFNNaUt4bGI1M2Z1TFRjb2JWRkJBYzZTVkNjLVZ3ZHJOUlVCUmNScEs4ZDBCdlFUOGM3WS1GdXVMUGFxUUhudVFfVi0wbjA3WWNjWGx1dDBrd19PS0daNGlmS0RPVGFHSUkwdndRa0dUbzMxTm9CMGdMdWdXMXhwSDdyYzdZNnVWS2xPZzgwc0NLeVl0UVZfRHlMTGZFekZKdW9hajJWR3p1TGR2SElhNWp1aHlZTER1SUw2bHU3QnFqOA?oc=5"
     },
     {
       "iso": "ARG",
@@ -4035,6 +4042,13 @@
       "t": "2026-06-05T23:28:43Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUEpnY0IyTS1Rd3R3cS1aNkxDU1psZHpmRlRMUXRjSENfZnJmTnlXLUFXM2d5TmlDVWIzcDNmUmYtZjdxM3VxcGRqRGNTb3JGX3NEak5oVTBUZllIXy1FNFRUdlRkX3Zuc3NYM1BTdU9GSWJZOXpRelFOa29nM2ZjUzVJUEVfSDRxQXVLZGNrS2c5bTY0YWRwOUZ0RG5uLTU3RU9nSkdnc1VWbk0tWkFYWHFLY29VZEpQS0NPVXVTdF85YVVzVnBNajR0NHRLV3NUeWFEV0ptVUtCWnJvNlVBQlZQTjRtS1U?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - Springfield News-Sun",
+      "t": "2026-06-05T23:27:32Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPc1VTSGV6MEJaaUk5by16Y1B5NmhpdDRtMTZVS0lERElvVnlUWnhpY2Y2MFFCclZ5QTlnZ2loV3B1QUt0dlR5NnZWdi14QnF1QlRUWjRRTVp4eWQxcUtQVDdxRFhGNUJHUDJDS1lOcHJtMVF0RDdIM2ZKcWNMMktpLW9yd0xmWE50M25JOF9ETDNESHdLT2ZqSmNJb1A4OWk3N29sMVRzQmlRRmhEWWlYNFprRks2Y3lQY1Y2OGRFWVlERi1LMEEwX0QxbUduZDFRVnBTT0RzUlVLRkNLcmc4TXZRRXNKYVZwNnZkNE14QzJldW1GME0yazVtaGlOM1VmRTlZdWNRRjdiSG8?oc=5"
     },
     {
       "iso": "ARG",
@@ -4056,13 +4070,6 @@
       "t": "2026-06-05T23:27:32Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcldpbHBDTHVoMVoxbVNZb0Nta2FPazVYem44VmhXLXdjM1ltRVZJR2hQeks3SGtuLTN2bkJOVFp2RVZFNGR4ajhRaHVPTU9LLXFBaGhNQ2tiQkFPQUthZlRTcW5OS1NXc2pUTDNlal8yd3Y5MWNuRVJmYm5uek40SmJPY2YxaERRVllPT0dhelpGSDg1U2c?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - 10TV",
-      "t": "2026-06-05T23:27:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOWGRVWnprTEU3ZDZkWV91Q0RRVlNMcUZQS1JfMjE4WFh5QUx4V21MdXEtLW51NXpZZVRQR1c5MzRXMkFYN215TXI4RDRwNF9ZdUZoLU1DS3RDbGNSeV9LVy1QWFlnaUlGd0xFZ3FEVTVfZ0Y5d1JpbmpmdEhDLU1kOHRzVWJvLVc3TzZGUWtIamlxUmdrTjI2aEpCeFlWS0xTMXEwdGUtampKY0s5WHl4ZExLUDRYQmQtZngxeTA3ckYtUjdYSl9HTUZrb2RBSjlpZUdHZFZVeWRZaXc0RWRfcndsY3RySEpRQVRRU1R5N21PbW1mcm9zOE5KMVc4d1hGaXEtdHpTdlE2LTQ?oc=5"
     },
     {
       "iso": "ARG",
@@ -4094,6 +4101,13 @@
     },
     {
       "iso": "FRA",
+      "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
+      "t": "2026-06-01T12:19:10Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSV9HXzZldFVsQXU4NXplR0M1RE9VbjNDcTBuZENibldCbWVTRGVxQ0xDY2xnSG1SanVQWThzdTd6RGstRHdSWXpWNlZ3QnFuN0FDRy1nUFpkTFhIRTVucGt4bFR4Wi1VRGNUVXl3UU5TTUp6WDdXZ2RKaXR1bXBqMEViQm5YYlhPU2tOdjl5Ui12Y2pRZmJtVnhFWDRRV0p5VHoyb2pfSGVvRFFNdkpzYzdPa0JfZDdMcGRyOVVPSzc5b1dMX0hmUGxOdk5fMzRoVkpRZ2dMMA?oc=5"
+    },
+    {
+      "iso": "FRA",
       "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
       "t": "2026-05-26T07:00:00Z",
       "source": "GoogleNews-ES",
@@ -4116,9 +4130,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-06T00:25:16Z",
-      "signals": 1,
+      "last_update": "2026-06-06T00:30:10Z",
+      "signals": 2,
       "recent": [
+        {
+          "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
+          "t": "2026-06-01T12:19:10Z",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSV9HXzZldFVsQXU4NXplR0M1RE9VbjNDcTBuZENibldCbWVTRGVxQ0xDY2xnSG1SanVQWThzdTd6RGstRHdSWXpWNlZ3QnFuN0FDRy1nUFpkTFhIRTVucGt4bFR4Wi1VRGNUVXl3UU5TTUp6WDdXZ2RKaXR1bXBqMEViQm5YYlhPU2tOdjl5Ui12Y2pRZmJtVnhFWDRRV0p5VHoyb2pfSGVvRFFNdkpzYzdPa0JfZDdMcGRyOVVPSzc5b1dMX0hmUGxOdk5fMzRoVkpRZ2dMMA?oc=5"
+        },
         {
           "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
           "t": "2026-05-26T07:00:00Z",
