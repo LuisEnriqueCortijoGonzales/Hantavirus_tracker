@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-06T16:45:06.052081Z",
-  "next_update": "2026-06-06T16:50:00Z",
+  "generated": "2026-06-06T16:50:10.551439Z",
+  "next_update": "2026-06-06T16:55:00Z",
   "days_active": 29,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -470,7 +470,7 @@
       "ytd": 2560,
       "alert": "vigilancia",
       "cfr": 0.9,
-      "var_pct": 21,
+      "var_pct": 20,
       "strain": "puumala",
       "new_today": 0,
       "r0": 3.04,
@@ -1243,12 +1243,12 @@
       1872,
       1872,
       1872,
-      1918,
+      1919,
       1993,
       2062,
       2125,
       2182,
-      2234,
+      2235,
       2618,
       2603,
       2589,
@@ -1339,7 +1339,7 @@
       2518,
       2621,
       2717,
-      2805,
+      2806,
       3507,
       3484,
       3461,
@@ -1347,7 +1347,7 @@
       3417,
       3396,
       3375,
-      3355,
+      3354,
       3334,
       3315
     ],
@@ -4006,7 +4006,7 @@
     "composite": 12,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 19,
+    "kalshi": 20,
     "max_andes_r0": 0.62,
     "avg_other_r0": 0.73,
     "continents": [
@@ -4035,13 +4035,6 @@
       "t": "2026-06-06T12:33:45Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeFpXUTVFaXhnaWNidmxuT3F3b1R5ZDJNRHZySjhtQVBGdFlIVURQM0VXTkdCeXk1VVJvd3JVVlFndFZvdnZQOEJyVkpjX1lBeER4QzVSeDFlYjRwUG1LQ0VORU1GZENYTFlnU2ZFTEgtTW12S3MwSmdzQWE1czZvQXprb3Qwdw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Scientists retrace steps of Dutch tourists as Argentina expands hantavirus probe - The Independent",
-      "t": "2026-06-06T09:31:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTnJ6OTVXbDg2QnhrZFFBMXlCcHFWTllCR2d1LUN1cjJSQ0lDRjNHOHEwSFE3eEJpZ1RKbDFodklzVGZjY3FEMXJmMDVJMkdUYUFiZUtvcVJRMndOZFVwQnpSSEJVekhYQ1JVVElrMkRka1UyMXBFQndmbjNpcWtRRF9sY0IyQmlpcTNmTE5aWXdCeGFXSFlSb05DSFNxQWM?oc=5"
     },
     {
       "iso": "ARG",
@@ -4101,6 +4094,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - AP News",
+      "t": "2026-06-05T23:27:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYV9WYXctbkRkNHQxeTVCd2VsSHRfRTI0UEJVYVJNOERaVVpBOFg3SDZIdEpvaG42S3RNZ3R2NzVlcTNRd1NPeExsUzNnQmlLLVpyVnd3QTV0V0hiNjVFaU1mTGJXTDA0ZzZWRjRDSWtSOElBS042RmZKZnQtZEJuV0ZpX01SMXFFYURtcFRQYnAxT3piX3V4aldNZHBRbUdUUXlvTV9XdldvUmFGX1F2ME13VFg?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Argentina ampl\u00eda a otra provincia el estudio de roedores por hantavirus - El Nacional",
       "t": "2026-06-05T23:09:37Z",
       "source": "GoogleNews-ES",
@@ -4151,7 +4151,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-06T16:45:06Z",
+      "last_update": "2026-06-06T16:50:10Z",
       "signals": 4,
       "recent": [
         {
