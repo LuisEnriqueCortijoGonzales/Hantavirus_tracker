@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-06T22:40:15.811955Z",
-  "next_update": "2026-06-06T22:45:00Z",
+  "generated": "2026-06-06T22:45:04.566503Z",
+  "next_update": "2026-06-06T22:50:00Z",
   "days_active": 29,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 23,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 2,
       "gov_alert": false
     },
     "CHE": {
@@ -596,7 +596,7 @@
       87,
       86,
       85,
-      84,
+      83,
       82
     ],
     "BRA": [
@@ -873,7 +873,7 @@
     ],
     "FIN": [
       376,
-      389,
+      390,
       498,
       494,
       490,
@@ -908,7 +908,7 @@
       254,
       264,
       274,
-      282,
+      283,
       290,
       350,
       348,
@@ -1244,11 +1244,11 @@
       1872,
       1872,
       1937,
-      2010,
+      2011,
       2078,
-      2139,
+      2140,
       2196,
-      2246,
+      2247,
       2614,
       2599,
       2585,
@@ -1337,7 +1337,7 @@
     ],
     "CHN": [
       2544,
-      2645,
+      2646,
       2740,
       2826,
       3501,
@@ -4006,7 +4006,7 @@
     "composite": 12,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 16,
+    "kalshi": 17,
     "max_andes_r0": 0.62,
     "avg_other_r0": 0.73,
     "continents": [
@@ -4018,7 +4018,8 @@
   },
   "signal_summary": {
     "ARG": 12,
-    "CHL": 1
+    "CHL": 1,
+    "FRA": 2
   },
   "events": [
     {
@@ -4051,7 +4052,7 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW.com",
+      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW",
       "t": "2026-06-06T03:56:33Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
@@ -4111,6 +4112,20 @@
       "t": "2026-06-04T03:16:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUHdmRjJNSTkwN1VuTDVROGVZcnZCbFcyTTZwRUFCU3hJem5EbGF1LVNwdkt4WjNxdVNFUlVNbUR5VlhFaHNUa0hYR05YWHdVODhpeVhIT19hTURyMnlwdWlzS2pEM3p1YVloUnZYTVNuWlpSRDBJOS0xaWN0SFJpYlJsa01LM1ZRaG1SclBMeERDb2c4Zzh3OFhsMFRrU000M21tUFozNDFHUGxSZzhTR2FSd1FrVVNWN2pBYnpfVGJwOW1Gb3gwVUl6eDVXV2xwNGt3U0RUZGw?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
+      "t": "2026-06-01T12:19:10Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSV9HXzZldFVsQXU4NXplR0M1RE9VbjNDcTBuZENibldCbWVTRGVxQ0xDY2xnSG1SanVQWThzdTd6RGstRHdSWXpWNlZ3QnFuN0FDRy1nUFpkTFhIRTVucGt4bFR4Wi1VRGNUVXl3UU5TTUp6WDdXZ2RKaXR1bXBqMEViQm5YYlhPU2tOdjl5Ui12Y2pRZmJtVnhFWDRRV0p5VHoyb2pfSGVvRFFNdkpzYzdPa0JfZDdMcGRyOVVPSzc5b1dMX0hmUGxOdk5fMzRoVkpRZ2dMMA?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
+      "t": "2026-05-26T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
     }
   ],
   "maritime_events": [
@@ -4129,8 +4144,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-06T22:40:15Z",
-      "signals": 2,
+      "last_update": "2026-06-06T22:45:04Z",
+      "signals": 4,
       "recent": [
         {
           "title": "Scientists testing rodents for hantavirus in Argentina\u2019s famous wine region of Mendoza after cruise ship outbreak - AOL.com",
@@ -4141,6 +4156,16 @@
           "title": "Argentina to expand hantavirus search to second province as probe on cruise ship outbreak widens - The Straits Times",
           "t": "2026-06-06T07:50:00Z",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYTQ0a0daSVdOdnFseFg3dnh6dFBVTkxiTHdmUHByaVlTZmZ2di1jWjR5NVZaV29MY21ub0VTb3RTSWwxNUJkR2VvdjJ6WVdTRkdRNTVaamNVR19tbHNBcHlEYXpGLVVjNXkyQ3phVmFzczEyNDY3cmVuLUM3M2stNzNqRVRTb1drN1NrMkM3czdpRVFLOHY5OA?oc=5"
+        },
+        {
+          "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
+          "t": "2026-06-01T12:19:10Z",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSV9HXzZldFVsQXU4NXplR0M1RE9VbjNDcTBuZENibldCbWVTRGVxQ0xDY2xnSG1SanVQWThzdTd6RGstRHdSWXpWNlZ3QnFuN0FDRy1nUFpkTFhIRTVucGt4bFR4Wi1VRGNUVXl3UU5TTUp6WDdXZ2RKaXR1bXBqMEViQm5YYlhPU2tOdjl5Ui12Y2pRZmJtVnhFWDRRV0p5VHoyb2pfSGVvRFFNdkpzYzdPa0JfZDdMcGRyOVVPSzc5b1dMX0hmUGxOdk5fMzRoVkpRZ2dMMA?oc=5"
+        },
+        {
+          "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
+          "t": "2026-05-26T07:00:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
         }
       ]
     }
