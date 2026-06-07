@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-07T18:45:13.258573Z",
-  "next_update": "2026-06-07T18:50:00Z",
+  "generated": "2026-06-07T18:50:15.578947Z",
+  "next_update": "2026-06-07T18:55:00Z",
   "days_active": 30,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -269,14 +269,14 @@
       "gov_alert": false
     },
     "FRA": {
-      "ytd": 25,
+      "ytd": 26,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 10,
+      "var_pct": 11,
       "strain": "puumala",
-      "new_today": 2,
+      "new_today": 3,
       "r0": 3.5,
-      "signals": 0,
+      "signals": 2,
       "gov_alert": false
     },
     "CHE": {
@@ -611,7 +611,7 @@
       89,
       89,
       89,
-      89,
+      90,
       96,
       102
     ],
@@ -965,7 +965,7 @@
       23,
       23,
       23,
-      25
+      26
     ],
     "CHE": [
       8,
@@ -1247,7 +1247,7 @@
       2067,
       2130,
       2187,
-      2238,
+      2239,
       2617,
       2602,
       2587,
@@ -1336,7 +1336,7 @@
       25
     ],
     "CHN": [
-      2629,
+      2630,
       2725,
       2813,
       3505,
@@ -2694,12 +2694,12 @@
       23,
       23,
       23,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
     ],
     "CHE": [
       8,
@@ -4006,7 +4006,7 @@
     "composite": 14,
     "epidemio": 15,
     "polymarket": 6,
-    "kalshi": 18,
+    "kalshi": 20,
     "max_andes_r0": 1.22,
     "avg_other_r0": 1.03,
     "continents": [
@@ -4019,7 +4019,8 @@
   "signal_summary": {
     "ARG": 10,
     "NOR": 1,
-    "CHL": 1
+    "CHL": 1,
+    "FRA": 2
   },
   "events": [
     {
@@ -4105,6 +4106,20 @@
       "t": "2026-06-04T03:16:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUHdmRjJNSTkwN1VuTDVROGVZcnZCbFcyTTZwRUFCU3hJem5EbGF1LVNwdkt4WjNxdVNFUlVNbUR5VlhFaHNUa0hYR05YWHdVODhpeVhIT19hTURyMnlwdWlzS2pEM3p1YVloUnZYTVNuWlpSRDBJOS0xaWN0SFJpYlJsa01LM1ZRaG1SclBMeERDb2c4Zzh3OFhsMFRrU000M21tUFozNDFHUGxSZzhTR2FSd1FrVVNWN2pBYnpfVGJwOW1Gb3gwVUl6eDVXV2xwNGt3U0RUZGw?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
+      "t": "2026-06-01T12:19:10Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSV9HXzZldFVsQXU4NXplR0M1RE9VbjNDcTBuZENibldCbWVTRGVxQ0xDY2xnSG1SanVQWThzdTd6RGstRHdSWXpWNlZ3QnFuN0FDRy1nUFpkTFhIRTVucGt4bFR4Wi1VRGNUVXl3UU5TTUp6WDdXZ2RKaXR1bXBqMEViQm5YYlhPU2tOdjl5Ui12Y2pRZmJtVnhFWDRRV0p5VHoyb2pfSGVvRFFNdkpzYzdPa0JfZDdMcGRyOVVPSzc5b1dMX0hmUGxOdk5fMzRoVkpRZ2dMMA?oc=5"
+    },
+    {
+      "iso": "FRA",
+      "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
+      "t": "2026-05-26T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
     }
   ],
   "maritime_events": [
@@ -4123,13 +4138,23 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-07T18:45:13Z",
-      "signals": 1,
+      "last_update": "2026-06-07T18:50:15Z",
+      "signals": 3,
       "recent": [
         {
           "title": "Cruise ship Hondius departs Rotterdam for Norway after deadly hantavirus outbreak - NL Times",
           "t": "2026-06-07T11:55:00Z",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMjE2MFRzQWppM2h2NUQ5SXVocUd3SGdrS290eU1rejAxVGhMZHVUZGNzNWdyWU04TF9LMXRSZ3otdDJUaHpLVjJ2UGdvOWY2aDcyTTY2eUNDZ2RkcDhoa2dIallmSmdOcG9uZkEzU3JVd2FCNnpvVWRjT2htNm9lY1pXTUlPNFhQdUJLSEZYV2xMZzdfaEp4aVdxWXA0OUZpY19B?oc=5"
+        },
+        {
+          "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
+          "t": "2026-06-01T12:19:10Z",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSV9HXzZldFVsQXU4NXplR0M1RE9VbjNDcTBuZENibldCbWVTRGVxQ0xDY2xnSG1SanVQWThzdTd6RGstRHdSWXpWNlZ3QnFuN0FDRy1nUFpkTFhIRTVucGt4bFR4Wi1VRGNUVXl3UU5TTUp6WDdXZ2RKaXR1bXBqMEViQm5YYlhPU2tOdjl5Ui12Y2pRZmJtVnhFWDRRV0p5VHoyb2pfSGVvRFFNdkpzYzdPa0JfZDdMcGRyOVVPSzc5b1dMX0hmUGxOdk5fMzRoVkpRZ2dMMA?oc=5"
+        },
+        {
+          "title": "Espa\u00f1a: otro caso positivo de hantavirus en un ciudadano evacuado del crucero - France 24",
+          "t": "2026-05-26T07:00:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTlueGxBeUpKRWtYb2Q3UFZKRmJnVS1iQTFGSG5CS1lSLW5PQTJSbmNPRVY1SEpMclVSYkdUR2NFY1JLNlRJa0phUUdLTzN4RVZOLXBJMWZVMTYzZjZjQmxtUTctdGpXZTBJX2I0Q1FJZlltQWo3U1lHQWg1TmhiS1Z2aG9nTGZqTzRVcXBVcHk5c0tsUmJ1eEt1RElmZzRSd0E2eGVOOWl1TmZCWWNnOFh3OFVBdHFpbHNaY0tkd3lYN0U?oc=5"
         }
       ]
     }
