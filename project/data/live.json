@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-07T08:20:07.507569Z",
-  "next_update": "2026-06-07T08:25:00Z",
+  "generated": "2026-06-07T08:25:13.267616Z",
+  "next_update": "2026-06-07T08:30:00Z",
   "days_active": 30,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -571,7 +571,7 @@
       129,
       137,
       145,
-      152,
+      153,
       160,
       167,
       173,
@@ -888,7 +888,7 @@
       460
     ],
     "SWE": [
-      149,
+      150,
       155,
       160,
       165,
@@ -932,7 +932,7 @@
       58,
       58,
       58,
-      58,
+      57,
       57
     ],
     "NOR": [
@@ -1243,12 +1243,12 @@
       1872,
       1872,
       1891,
-      1967,
+      1968,
       2038,
       2103,
       2163,
       2217,
-      2265,
+      2266,
       2608,
       2594,
       2579,
@@ -1337,8 +1337,8 @@
     ],
     "CHN": [
       2586,
-      2684,
-      2775,
+      2685,
+      2776,
       2859,
       3492,
       3469,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 12,
+    "composite": 11,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 19,
+    "kalshi": 14,
     "max_andes_r0": 0.58,
     "avg_other_r0": 0.68,
     "continents": [
@@ -4045,7 +4045,7 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus: Argentina expands probe to trace outbreak source - dw.com",
+      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW.com",
       "t": "2026-06-06T03:56:33Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
@@ -4137,7 +4137,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-07T08:20:07Z",
+      "last_update": "2026-06-07T08:25:13Z",
       "signals": 3,
       "recent": [
         {
