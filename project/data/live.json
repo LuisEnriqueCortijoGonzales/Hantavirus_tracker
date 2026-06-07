@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-07T22:00:10.542836Z",
-  "next_update": "2026-06-07T22:05:00Z",
+  "generated": "2026-06-07T22:05:04.548184Z",
+  "next_update": "2026-06-07T22:10:00Z",
   "days_active": 30,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 224,
+      "ytd": 223,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 34,
+      "var_pct": 33,
       "strain": "andes",
       "new_today": 22,
-      "r0": 1.22,
-      "signals": 10,
+      "r0": 1.18,
+      "signals": 9,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      133,
-      141,
-      149,
-      156,
-      163,
+      132,
+      140,
+      148,
+      155,
+      162,
       169,
       175,
-      181,
-      186,
-      191,
-      195,
-      199,
-      202,
-      224
+      180,
+      185,
+      190,
+      194,
+      198,
+      201,
+      223
     ],
     "CHL": [
       59,
@@ -1243,7 +1243,7 @@
       1872,
       1872,
       1935,
-      2008,
+      2009,
       2076,
       2138,
       2194,
@@ -1343,9 +1343,9 @@
       3479,
       3456,
       3434,
-      3413,
+      3412,
       3391,
-      3371,
+      3370,
       3350,
       3330,
       3311,
@@ -1452,12 +1452,19 @@
   ],
   "hourly_history": {
     "ARG": [
+      198,
+      198,
+      198,
+      198,
+      198,
+      198,
       199,
       199,
       199,
       199,
       199,
       199,
+      199,
       200,
       200,
       200,
@@ -1472,6 +1479,7 @@
       201,
       201,
       201,
+      201,
       202,
       202,
       202,
@@ -1482,24 +1490,16 @@
       202,
       203,
       203,
-      203,
-      203,
-      203,
-      203,
-      203,
-      203,
-      204,
-      204,
-      225,
-      225,
-      225,
-      225,
       224,
       224,
       224,
       224,
-      224,
-      224
+      223,
+      223,
+      223,
+      223,
+      223,
+      223
     ],
     "CHL": [
       83,
@@ -4003,11 +4003,11 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
-    "epidemio": 15,
+    "composite": 13,
+    "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 20,
-    "max_andes_r0": 1.22,
+    "kalshi": 17,
+    "max_andes_r0": 1.18,
     "avg_other_r0": 1.11,
     "continents": [
       "Americas",
@@ -4017,7 +4017,7 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "ARG": 10,
+    "ARG": 9,
     "NOR": 1,
     "CHL": 1,
     "FRA": 2
@@ -4057,13 +4057,6 @@
       "t": "2026-06-06T01:18:39Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeFdnUzlLQTRFOUpGa0E3Y1ljR0dfLVR1NVBER1ZWRFNmOEc1bzdaZ2x6Ui1lRWg3eUs3eE1SbnQzX2Fac1NHanBYajh6bkI3cDEtdGxiaXlwNExicnhBYVl3NTZLR1VsVXUwdmtZajEwdkZzeGdETjlBN3B0UFptTHhTYS1Sc21JTlhnc3RsT19ObTR5UkVSMXpOcE9VdDIzWGRaQlk0ZjLSAa4BQVVfeXFMTTBoWm1HaHoxZnpmejhpcURLOGladUZsZngxamc1WllnMnZqbTQ2Rl95YzU1cHEzRWFidGV5T1dMM2ItXzR5WEw3SG14V0JLUTVNenktWkdZZC01czBQd3FMVENtWThMRkxPMmFCUVNEZ0xzcUV2R19rLUt1bDJUbkhkdDJDeUJuWHhxaWtrYUpjVi15ZE5FSFhxaFdEVzBpRjZrRGVqYW1nNjlCZkxn?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - Toronto Star",
-      "t": "2026-06-05T23:28:43Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxObmd2Z29Ca3ZjS0M0cFNfbWRKVmloTl81TVQ2bFk2S29PREJxQnFaT1BySmFpcGJMWkZvTG9wZVRHOEhkZ1AxV3lHZ204ZS16UWZuQ1g4a3dsZVZSeFNGVHFKTzVHSzJycF9EMkJ1Z1RhRFgzR21kZHRGcnpMUVZCYV9QQlVYcGRTaTdxYUxMcGlvYUYxTEFTN3FBZW1QNXpnVWRtMWV5akxORVVoNm1xRHpkOEgwX1F6aDRwZTVpSzZUMUo1WHBPdjFaSU1LcUE5ejQxQlR0UFpCb1dMS21VOHMtMEV0X3pwd1Rwb2hXcVhuMWREVWFqRlBn?oc=5"
     },
     {
       "iso": "ARG",
@@ -4138,7 +4131,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-07T22:00:10Z",
+      "last_update": "2026-06-07T22:05:04Z",
       "signals": 3,
       "recent": [
         {
