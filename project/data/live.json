@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-07T09:40:06.082174Z",
-  "next_update": "2026-06-07T09:45:00Z",
+  "generated": "2026-06-07T09:45:05.278412Z",
+  "next_update": "2026-06-07T09:50:00Z",
   "days_active": 30,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -889,7 +889,7 @@
     ],
     "SWE": [
       150,
-      155,
+      156,
       161,
       166,
       202,
@@ -904,7 +904,7 @@
       193
     ],
     "DEU": [
-      248,
+      249,
       259,
       269,
       278,
@@ -1242,8 +1242,8 @@
     "RUS": [
       1872,
       1872,
-      1895,
-      1971,
+      1896,
+      1972,
       2042,
       2107,
       2166,
@@ -1336,17 +1336,17 @@
       24
     ],
     "CHN": [
-      2591,
+      2592,
       2690,
       2780,
-      2863,
-      3491,
+      2864,
+      3490,
       3468,
       3445,
       3424,
       3402,
       3381,
-      3361,
+      3360,
       3340,
       3321,
       3301
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 12,
+    "composite": 11,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 16,
+    "kalshi": 14,
     "max_andes_r0": 0.58,
     "avg_other_r0": 0.68,
     "continents": [
@@ -4038,6 +4038,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - Medical Xpress",
+      "t": "2026-06-06T12:20:02Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUFFyTkNJTUl0eS1maEo3NUduc3RvdmtsWFFrVURXdWtqcmpxd1BfMUZkQll0bjhyU1dhaVJBSmtoRFFkUjNHNjJjSkotb3ZPTEo3RXBuNmJZMEpnbVh3dzVybnpEcHBUR0hTRmM5a2FMc2RxNG1ManoyTm9DZWMtS21RWVVzM3Fa?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Scientists retrace steps of Dutch tourists as Argentina expands hantavirus probe - The Independent",
       "t": "2026-06-06T09:31:00Z",
       "source": "GoogleNews-EN",
@@ -4046,7 +4053,7 @@
     {
       "iso": "ARG",
       "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW.com",
-      "t": "2026-06-06T03:56:33Z",
+      "t": "2026-06-06T03:30:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
     },
@@ -4070,13 +4077,6 @@
       "t": "2026-06-05T23:27:32Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOc1A2YjJMdjdZUldERm1iaUoxSUs5X3hZNXdlMFpqSVdoMHR1V3YxT3c0c0dYVTQ2dnpxYkxUaEVaal9GQ1hzS0NzUUZYdEgxbzZZdGM0TnN3WHg1VkJUa3hGVFFMSlZMM0d2N2VuU3BtdUZ5a0dCVUdadkF0Snh5eE5McDNqVXZlQmx4dm0yLU5MRE1ZdFJvUE9qSnRQOWg0LWJxS1h4N0lkdFE5di1VLUJtTlV5dzJSNTZwSTZvT2o3dXNxb1dMaE5VTmk5U2VablFlWW1lR0JLb2ZldVZ5TUF2cXIzdnFTTnBSN1dpdkI4TlNJanRFeWtyNUhaZW80TnJ4SFdfYw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - AP News",
-      "t": "2026-06-05T23:27:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYV9WYXctbkRkNHQxeTVCd2VsSHRfRTI0UEJVYVJNOERaVVpBOFg3SDZIdEpvaG42S3RNZ3R2NzVlcTNRd1NPeExsUzNnQmlLLVpyVnd3QTV0V0hiNjVFaU1mTGJXTDA0ZzZWRjRDSWtSOElBS042RmZKZnQtZEJuV0ZpX01SMXFFYURtcFRQYnAxT3piX3V4aldNZHBRbUdUUXlvTV9XdldvUmFGX1F2ME13VFg?oc=5"
     },
     {
       "iso": "ARG",
@@ -4137,7 +4137,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-07T09:40:06Z",
+      "last_update": "2026-06-07T09:45:05Z",
       "signals": 3,
       "recent": [
         {
