@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-07T07:15:06.799521Z",
-  "next_update": "2026-06-07T07:20:00Z",
+  "generated": "2026-06-07T07:20:06.058569Z",
+  "next_update": "2026-06-07T07:25:00Z",
   "days_active": 30,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 203,
+      "ytd": 204,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 24,
+      "var_pct": 25,
       "strain": "andes",
       "new_today": 3,
-      "r0": 0.44,
-      "signals": 10,
+      "r0": 0.46,
+      "signals": 11,
       "gov_alert": false
     },
     "CHL": {
@@ -569,19 +569,19 @@
   "history": {
     "ARG": [
       128,
-      136,
-      144,
-      151,
+      137,
+      145,
+      152,
       159,
-      165,
-      172,
-      178,
-      183,
-      188,
-      192,
-      196,
-      200,
-      203
+      166,
+      173,
+      179,
+      184,
+      189,
+      193,
+      197,
+      201,
+      204
     ],
     "CHL": [
       57,
@@ -1242,12 +1242,12 @@
     "RUS": [
       1872,
       1872,
-      1887,
+      1888,
       1964,
       2035,
-      2100,
+      2101,
       2160,
-      2214,
+      2215,
       2263,
       2609,
       2594,
@@ -1338,8 +1338,8 @@
     "CHN": [
       2581,
       2680,
-      2771,
-      2855,
+      2772,
+      2856,
       3493,
       3470,
       3448,
@@ -1348,7 +1348,7 @@
       3383,
       3363,
       3342,
-      3323,
+      3322,
       3303
     ],
     "KOR": [
@@ -1452,12 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      196,
-      197,
-      197,
-      197,
-      197,
-      197,
       197,
       198,
       198,
@@ -1466,7 +1460,6 @@
       198,
       198,
       198,
-      199,
       199,
       199,
       199,
@@ -1499,7 +1492,14 @@
       203,
       203,
       203,
-      203
+      203,
+      203,
+      203,
+      204,
+      204,
+      204,
+      204,
+      204
     ],
     "CHL": [
       84,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 11,
+    "composite": 12,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 13,
+    "kalshi": 19,
     "max_andes_r0": 0.58,
     "avg_other_r0": 0.68,
     "continents": [
@@ -4017,7 +4017,7 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "ARG": 10,
+    "ARG": 11,
     "CHL": 1,
     "FRA": 2
   },
@@ -4035,6 +4035,13 @@
       "t": "2026-06-06T12:33:45Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeFpXUTVFaXhnaWNidmxuT3F3b1R5ZDJNRHZySjhtQVBGdFlIVURQM0VXTkdCeXk1VVJvd3JVVlFndFZvdnZQOEJyVkpjX1lBeER4QzVSeDFlYjRwUG1LQ0VORU1GZENYTFlnU2ZFTEgtTW12S3MwSmdzQWE1czZvQXprb3Qwdw?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Scientists retrace steps of Dutch tourists as Argentina expands hantavirus probe - The Independent",
+      "t": "2026-06-06T09:31:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTnJ6OTVXbDg2QnhrZFFBMXlCcHFWTllCR2d1LUN1cjJSQ0lDRjNHOHEwSFE3eEJpZ1RKbDFodklzVGZjY3FEMXJmMDVJMkdUYUFiZUtvcVJRMndOZFVwQnpSSEJVekhYQ1JVVElrMkRka1UyMXBFQndmbjNpcWtRRF9sY0IyQmlpcTNmTE5aWXdCeGFXSFlSb05DSFNxQWM?oc=5"
     },
     {
       "iso": "ARG",
@@ -4130,7 +4137,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-07T07:15:06Z",
+      "last_update": "2026-06-07T07:20:06Z",
       "signals": 3,
       "recent": [
         {
