@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-07T22:35:10.503536Z",
-  "next_update": "2026-06-07T22:40:00Z",
+  "generated": "2026-06-07T22:40:15.066980Z",
+  "next_update": "2026-06-07T22:45:00Z",
   "days_active": 30,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 223,
+      "ytd": 224,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 33,
+      "var_pct": 34,
       "strain": "andes",
       "new_today": 22,
-      "r0": 1.18,
-      "signals": 9,
+      "r0": 1.22,
+      "signals": 10,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      132,
-      140,
-      148,
-      155,
-      162,
-      169,
-      175,
-      180,
-      185,
-      190,
-      194,
-      198,
-      201,
-      223
+      133,
+      141,
+      149,
+      156,
+      163,
+      170,
+      176,
+      181,
+      186,
+      191,
+      195,
+      199,
+      202,
+      224
     ],
     "CHL": [
       59,
@@ -1244,12 +1244,12 @@
       1872,
       1937,
       2010,
-      2077,
+      2078,
       2139,
-      2195,
+      2196,
       2246,
       2614,
-      2600,
+      2599,
       2585,
       2571,
       2557,
@@ -1337,7 +1337,7 @@
     ],
     "CHN": [
       2645,
-      2739,
+      2740,
       2826,
       3501,
       3478,
@@ -1452,13 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      198,
-      198,
-      198,
-      198,
-      198,
-      198,
-      199,
       199,
       199,
       199,
@@ -1472,7 +1465,6 @@
       200,
       200,
       200,
-      201,
       201,
       201,
       201,
@@ -1490,16 +1482,24 @@
       202,
       203,
       203,
+      203,
+      203,
+      203,
+      203,
+      203,
+      203,
+      204,
+      204,
+      225,
+      225,
+      225,
+      225,
       224,
       224,
       224,
       224,
-      223,
-      223,
-      223,
-      223,
-      223,
-      223
+      224,
+      224
     ],
     "CHL": [
       83,
@@ -4004,10 +4004,10 @@
   },
   "pandemic": {
     "composite": 13,
-    "epidemio": 14,
+    "epidemio": 15,
     "polymarket": 6,
-    "kalshi": 17,
-    "max_andes_r0": 1.18,
+    "kalshi": 16,
+    "max_andes_r0": 1.22,
     "avg_other_r0": 1.11,
     "continents": [
       "Americas",
@@ -4017,7 +4017,7 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "ARG": 9,
+    "ARG": 10,
     "NOR": 1,
     "CHL": 1,
     "FRA": 2
@@ -4057,6 +4057,13 @@
       "t": "2026-06-06T01:18:39Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeFdnUzlLQTRFOUpGa0E3Y1ljR0dfLVR1NVBER1ZWRFNmOEc1bzdaZ2x6Ui1lRWg3eUs3eE1SbnQzX2Fac1NHanBYajh6bkI3cDEtdGxiaXlwNExicnhBYVl3NTZLR1VsVXUwdmtZajEwdkZzeGdETjlBN3B0UFptTHhTYS1Sc21JTlhnc3RsT19ObTR5UkVSMXpOcE9VdDIzWGRaQlk0ZjLSAa4BQVVfeXFMTTBoWm1HaHoxZnpmejhpcURLOGladUZsZngxamc1WllnMnZqbTQ2Rl95YzU1cHEzRWFidGV5T1dMM2ItXzR5WEw3SG14V0JLUTVNenktWkdZZC01czBQd3FMVENtWThMRkxPMmFCUVNEZ0xzcUV2R19rLUt1bDJUbkhkdDJDeUJuWHhxaWtrYUpjVi15ZE5FSFhxaFdEVzBpRjZrRGVqYW1nNjlCZkxn?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - Toronto Star",
+      "t": "2026-06-05T23:28:43Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxObmd2Z29Ca3ZjS0M0cFNfbWRKVmloTl81TVQ2bFk2S29PREJxQnFaT1BySmFpcGJMWkZvTG9wZVRHOEhkZ1AxV3lHZ204ZS16UWZuQ1g4a3dsZVZSeFNGVHFKTzVHSzJycF9EMkJ1Z1RhRFgzR21kZHRGcnpMUVZCYV9QQlVYcGRTaTdxYUxMcGlvYUYxTEFTN3FBZW1QNXpnVWRtMWV5akxORVVoNm1xRHpkOEgwX1F6aDRwZTVpSzZUMUo1WHBPdjFaSU1LcUE5ejQxQlR0UFpCb1dMS21VOHMtMEV0X3pwd1Rwb2hXcVhuMWREVWFqRlBn?oc=5"
     },
     {
       "iso": "ARG",
@@ -4131,7 +4138,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-07T22:35:10Z",
+      "last_update": "2026-06-07T22:40:15Z",
       "signals": 3,
       "recent": [
         {
