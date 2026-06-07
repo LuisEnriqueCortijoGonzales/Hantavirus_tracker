@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-07T11:35:04.526961Z",
-  "next_update": "2026-06-07T11:40:00Z",
+  "generated": "2026-06-07T11:40:13.291482Z",
+  "next_update": "2026-06-07T11:45:00Z",
   "days_active": 30,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -30,7 +30,7 @@
       "ytd": 100,
       "alert": "vigilancia",
       "cfr": 41.6,
-      "var_pct": 12,
+      "var_pct": 13,
       "strain": "hps",
       "new_today": 6,
       "r0": 3.5,
@@ -225,7 +225,7 @@
       "gov_alert": false
     },
     "SWE": {
-      "ytd": 193,
+      "ytd": 192,
       "alert": "vigilancia",
       "cfr": 0.1,
       "var_pct": -4,
@@ -901,7 +901,7 @@
       195,
       194,
       193,
-      193
+      192
     ],
     "DEU": [
       249,
@@ -1246,7 +1246,7 @@
       1977,
       2047,
       2112,
-      2170,
+      2171,
       2224,
       2272,
       2606,
@@ -1336,7 +1336,7 @@
       24
     ],
     "CHN": [
-      2599,
+      2600,
       2697,
       2787,
       2870,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 12,
+    "composite": 10,
     "epidemio": 12,
     "polymarket": 6,
-    "kalshi": 19,
+    "kalshi": 12,
     "max_andes_r0": 0.58,
     "avg_other_r0": 0.68,
     "continents": [
@@ -4031,6 +4031,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Hantavirus: Argentina expands probe to trace outbreak source - dw.com",
+      "t": "2026-06-06T12:56:10Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - Medical Xpress",
       "t": "2026-06-06T12:20:02Z",
       "source": "GoogleNews-EN",
@@ -4042,13 +4049,6 @@
       "t": "2026-06-06T09:31:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTnJ6OTVXbDg2QnhrZFFBMXlCcHFWTllCR2d1LUN1cjJSQ0lDRjNHOHEwSFE3eEJpZ1RKbDFodklzVGZjY3FEMXJmMDVJMkdUYUFiZUtvcVJRMndOZFVwQnpSSEJVekhYQ1JVVElrMkRka1UyMXBFQndmbjNpcWtRRF9sY0IyQmlpcTNmTE5aWXdCeGFXSFlSb05DSFNxQWM?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus: Argentina expands probe to trace outbreak source - dw.com",
-      "t": "2026-06-06T03:30:52Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4130,7 +4130,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-07T11:35:04Z",
+      "last_update": "2026-06-07T11:40:13Z",
       "signals": 2,
       "recent": [
         {
