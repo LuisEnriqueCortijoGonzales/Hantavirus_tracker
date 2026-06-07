@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-07T05:15:14.305965Z",
-  "next_update": "2026-06-07T05:20:00Z",
+  "generated": "2026-06-07T05:20:13.552862Z",
+  "next_update": "2026-06-07T05:25:00Z",
   "days_active": 30,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -27,12 +27,12 @@
       "gov_alert": false
     },
     "BRA": {
-      "ytd": 98,
+      "ytd": 99,
       "alert": "vigilancia",
       "cfr": 41.6,
       "var_pct": 11,
       "strain": "hps",
-      "new_today": 6,
+      "new_today": 7,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -41,7 +41,7 @@
       "ytd": 14,
       "alert": "vigilancia",
       "cfr": 40.0,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
@@ -613,7 +613,7 @@
       89,
       89,
       92,
-      98
+      99
     ],
     "BOL": [
       14,
@@ -904,7 +904,7 @@
       193
     ],
     "DEU": [
-      246,
+      247,
       257,
       267,
       276,
@@ -1244,11 +1244,11 @@
       1872,
       1881,
       1958,
-      2029,
+      2030,
       2095,
-      2155,
+      2156,
       2210,
-      2259,
+      2260,
       2610,
       2595,
       2581,
@@ -1342,7 +1342,7 @@
       2849,
       3495,
       3472,
-      3450,
+      3449,
       3428,
       3406,
       3385,
@@ -1357,7 +1357,7 @@
       89,
       89,
       90,
-      92,
+      93,
       95,
       98,
       100,
@@ -4130,7 +4130,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-07T05:15:14Z",
+      "last_update": "2026-06-07T05:20:13Z",
       "signals": 3,
       "recent": [
         {
