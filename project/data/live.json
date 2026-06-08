@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-08T12:35:11.652340Z",
-  "next_update": "2026-06-08T12:40:00Z",
+  "generated": "2026-06-08T12:40:10.908977Z",
+  "next_update": "2026-06-08T12:45:00Z",
   "days_active": 31,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 1,
       "r0": 1.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -686,7 +686,7 @@
       20,
       22,
       23,
-      24,
+      25,
       26,
       27,
       28,
@@ -925,7 +925,7 @@
       45,
       46,
       47,
-      48,
+      49,
       50,
       58,
       58,
@@ -1242,7 +1242,7 @@
     "RUS": [
       1872,
       1905,
-      1980,
+      1981,
       2050,
       2114,
       2173,
@@ -1810,10 +1810,6 @@
       30,
       30,
       30,
-      30,
-      30,
-      30,
-      30,
       31,
       31,
       31,
@@ -1842,7 +1838,11 @@
       31,
       31,
       31,
-      31,
+      32,
+      32,
+      32,
+      32,
+      32,
       32,
       32,
       32,
@@ -4018,6 +4018,7 @@
   },
   "signal_summary": {
     "ARG": 9,
+    "USA": 1,
     "NOR": 1,
     "CHL": 1,
     "FRA": 2
@@ -4094,6 +4095,13 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTEV1Nm5EVnZCM2oteUxneHRwNFpEWHJkVl8yWVBqYXZBeWNpRm9tXzF3TWlDU014ZktoQlpLWWFLZk1BMGN1WVFfcWkzbVRyTHAtU2dwSzFrU1Flb19HbXJhNGsxRjUta1k3eGxuRnVpTTQ5Vy10elJwc2xfV05PblNpSkZBY3gwWkVoMlpjeVRZVXRQVmhycVA3TlNxRi1QQjJyRFdjUjVYTnhqWEQ1OVhGNGl2c1gxQVFUWklpWjNJMHhQRW9HTTZXTWlPd9IB0wFBVV95cUxQdkxPa3lPTWw4ZGNjZDYzdzJ4eXpoSV93VlZLUGJ1aTFGanZ3VHBmWnhla2c0VGZBa2ZXR3RFa2tiZnBNNWNWVjJyQUxfUk5zR0p0ejI1VW4zdElJNWVzR0Nudmh6N1lydGdIUWc5Z2pvYTdZU0JLTUU0MFQ3aWk5YTA4ZmJSQXdTeXB4Wkp0TXprMmUtVGU5Y0lQOFJBZk1tTGNXUGRaUDVRbWgybWY3SndtdG9DWEs4c0dvcmdJalNsZ3hESmplQlBNWW56WkZxcFlv?oc=5"
     },
     {
+      "iso": "USA",
+      "title": "Should you cancel your cruise as deadly hantavirus emerges? - INQUIRER.net USA",
+      "t": "2026-06-05T14:38:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSXFMTEdVVFhjcjJjNjBjTFkzSFJDc25jU0tZcERxbUQtMTB6aV80cE42bnUzVkdERkc4b0N4TEtuTVVWNTg2NUNROS1IVjJpWVFRVjBNalZKdHBXWDdNa1pfMDc3UDFhNGJHRnh2d1RXcm0teFBUN1JUd3c5aGpoSzBHbDdRcjAzMGROenlpUlZpZzlf?oc=5"
+    },
+    {
       "iso": "CHL",
       "title": "Researchers in Chile hope for further funding for their hantavirus treatment trials - AP News",
       "t": "2026-06-04T03:16:00Z",
@@ -4131,7 +4139,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-08T12:35:11Z",
+      "last_update": "2026-06-08T12:40:10Z",
       "signals": 3,
       "recent": [
         {
