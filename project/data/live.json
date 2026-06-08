@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-08T11:10:13.902421Z",
-  "next_update": "2026-06-08T11:15:00Z",
+  "generated": "2026-06-08T11:15:18.436427Z",
+  "next_update": "2026-06-08T11:20:00Z",
   "days_active": 31,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -74,7 +74,7 @@
       "ytd": 8,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 1,
+      "var_pct": 2,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
@@ -382,7 +382,7 @@
       "ytd": 44,
       "alert": "vigilancia",
       "cfr": 1.5,
-      "var_pct": 26,
+      "var_pct": 25,
       "strain": "dobrava",
       "new_today": 4,
       "r0": 5.0,
@@ -579,7 +579,7 @@
       188,
       192,
       196,
-      199,
+      200,
       203,
       221
     ],
@@ -877,7 +877,7 @@
       492,
       488,
       485,
-      482,
+      481,
       478,
       475,
       472,
@@ -1241,11 +1241,11 @@
     ],
     "RUS": [
       1872,
-      1900,
+      1901,
       1976,
       2046,
       2111,
-      2169,
+      2170,
       2223,
       2271,
       2606,
@@ -1336,7 +1336,7 @@
       25
     ],
     "CHN": [
-      2695,
+      2696,
       2786,
       2868,
       3489,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 14,
+    "composite": 13,
     "epidemio": 14,
     "polymarket": 6,
-    "kalshi": 20,
+    "kalshi": 19,
     "max_andes_r0": 1.19,
     "avg_other_r0": 1.06,
     "continents": [
@@ -4033,7 +4033,7 @@
     {
       "iso": "ARG",
       "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus y env\u00eda equipos a atrapar y analizar ratas en Mendoza - Noticias de Puerto Rico hoy",
-      "t": "2026-06-06T21:17:49Z",
+      "t": "2026-06-07T02:28:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWWJhRl81VFBRc0dBalB5UXZZcjVRNEhqZU9MUU4ycm5scnV0V3pQVXhHdDJET3lTZ2UyQ1FFc2dsRVRETkFMMHpBdkJQWnk5NW13ZU9YU3Vid3JseTRuT0d3c3ZmM2FZMzlfNmhDM2pSSGN6dkR1dUVFR05zRGMwMHNBMjJlUFpnSVhVYmlPSUNXWG1FaV9aaGJBejBQdjEtS1l6czhhWTVTdFhmRlNQLTk2dmVUT3QzTnVzVk9IakprT3F3STh3UVNwdUFVbzl6MVdYNW5SMDdHaFhRQTIyRjhR?oc=5"
     },
@@ -4131,7 +4131,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-08T11:10:13Z",
+      "last_update": "2026-06-08T11:15:18Z",
       "signals": 3,
       "recent": [
         {
