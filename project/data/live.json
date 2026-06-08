@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-08T09:05:01.162036Z",
-  "next_update": "2026-06-08T09:10:00Z",
+  "generated": "2026-06-08T09:10:05.648491Z",
+  "next_update": "2026-06-08T09:15:00Z",
   "days_active": 31,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,7 +8,7 @@
       "ytd": 221,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 31,
+      "var_pct": 30,
       "strain": "andes",
       "new_today": 19,
       "r0": 1.19,
@@ -23,7 +23,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": 0.64,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "BRA": {
@@ -586,11 +586,11 @@
     "CHL": [
       60,
       63,
-      65,
+      66,
       68,
       70,
       72,
-      73,
+      74,
       75,
       86,
       85,
@@ -1241,11 +1241,11 @@
     ],
     "RUS": [
       1872,
-      1893,
+      1894,
       1970,
       2040,
       2105,
-      2164,
+      2165,
       2218,
       2267,
       2608,
@@ -1336,9 +1336,9 @@
       25
     ],
     "CHN": [
-      2687,
+      2688,
       2778,
-      2861,
+      2862,
       3491,
       3468,
       3446,
@@ -1505,6 +1505,15 @@
       83,
       83,
       83,
+      83,
+      83,
+      83,
+      83,
+      83,
+      83,
+      83,
+      83,
+      83,
       82,
       82,
       82,
@@ -1528,16 +1537,7 @@
       82,
       82,
       82,
-      81,
-      81,
-      81,
-      81,
-      81,
-      81,
-      81,
-      81,
-      81,
-      81,
+      82,
       81,
       81,
       81,
@@ -4019,6 +4019,7 @@
   "signal_summary": {
     "ARG": 9,
     "NOR": 1,
+    "CHL": 1,
     "FRA": 2
   },
   "events": [
@@ -4093,6 +4094,13 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTEV1Nm5EVnZCM2oteUxneHRwNFpEWHJkVl8yWVBqYXZBeWNpRm9tXzF3TWlDU014ZktoQlpLWWFLZk1BMGN1WVFfcWkzbVRyTHAtU2dwSzFrU1Flb19HbXJhNGsxRjUta1k3eGxuRnVpTTQ5Vy10elJwc2xfV05PblNpSkZBY3gwWkVoMlpjeVRZVXRQVmhycVA3TlNxRi1QQjJyRFdjUjVYTnhqWEQ1OVhGNGl2c1gxQVFUWklpWjNJMHhQRW9HTTZXTWlPd9IB0wFBVV95cUxQdkxPa3lPTWw4ZGNjZDYzdzJ4eXpoSV93VlZLUGJ1aTFGanZ3VHBmWnhla2c0VGZBa2ZXR3RFa2tiZnBNNWNWVjJyQUxfUk5zR0p0ejI1VW4zdElJNWVzR0Nudmh6N1lydGdIUWc5Z2pvYTdZU0JLTUU0MFQ3aWk5YTA4ZmJSQXdTeXB4Wkp0TXprMmUtVGU5Y0lQOFJBZk1tTGNXUGRaUDVRbWgybWY3SndtdG9DWEs4c0dvcmdJalNsZ3hESmplQlBNWW56WkZxcFlv?oc=5"
     },
     {
+      "iso": "CHL",
+      "title": "Researchers in Chile hope for further funding for their hantavirus treatment trials - AP News",
+      "t": "2026-06-04T03:16:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUHdmRjJNSTkwN1VuTDVROGVZcnZCbFcyTTZwRUFCU3hJem5EbGF1LVNwdkt4WjNxdVNFUlVNbUR5VlhFaHNUa0hYR05YWHdVODhpeVhIT19hTURyMnlwdWlzS2pEM3p1YVloUnZYTVNuWlpSRDBJOS0xaWN0SFJpYlJsa01LM1ZRaG1SclBMeERDb2c4Zzh3OFhsMFRrU000M21tUFozNDFHUGxSZzhTR2FSd1FrVVNWN2pBYnpfVGJwOW1Gb3gwVUl6eDVXV2xwNGt3U0RUZGw?oc=5"
+    },
+    {
       "iso": "FRA",
       "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
       "t": "2026-06-01T12:19:10Z",
@@ -4123,7 +4131,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-08T09:05:01Z",
+      "last_update": "2026-06-08T09:10:05Z",
       "signals": 3,
       "recent": [
         {
