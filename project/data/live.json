@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-09T12:55:13.145063Z",
-  "next_update": "2026-06-09T13:00:00Z",
+  "generated": "2026-06-09T13:00:07.146848Z",
+  "next_update": "2026-06-09T13:05:00Z",
   "days_active": 32,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "GRC": {
@@ -1241,11 +1241,11 @@
     ],
     "RUS": [
       1906,
-      1981,
+      1982,
       2051,
       2115,
-      2173,
-      2226,
+      2174,
+      2227,
       2620,
       2605,
       2591,
@@ -1401,7 +1401,6 @@
     "2026-06-09T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-07T13:00:00Z",
     "2026-06-07T14:00:00Z",
     "2026-06-07T15:00:00Z",
     "2026-06-07T16:00:00Z",
@@ -1448,14 +1447,14 @@
     "2026-06-09T09:00:00Z",
     "2026-06-09T10:00:00Z",
     "2026-06-09T11:00:00Z",
-    "2026-06-09T12:00:00Z"
+    "2026-06-09T12:00:00Z",
+    "2026-06-09T13:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
       224,
       224,
       224,
-      224,
       223,
       223,
       223,
@@ -1496,6 +1495,7 @@
       219,
       219,
       219,
+      218,
       218,
       218,
       218,
@@ -1524,7 +1524,6 @@
       81,
       81,
       81,
-      81,
       80,
       80,
       80,
@@ -1549,10 +1548,10 @@
       80,
       80,
       80,
-      80
+      80,
+      79
     ],
     "BRA": [
-      100,
       101,
       101,
       101,
@@ -1597,6 +1596,7 @@
       111,
       111,
       111,
+      112,
       112,
       112,
       112
@@ -1609,7 +1609,6 @@
       14,
       14,
       14,
-      14,
       15,
       15,
       15,
@@ -1647,6 +1646,7 @@
       15,
       15,
       15,
+      16,
       16,
       16,
       16
@@ -1717,7 +1717,7 @@
       6,
       6,
       6,
-      6,
+      7,
       7,
       7,
       7,
@@ -1818,7 +1818,7 @@
       31,
       31,
       31,
-      31,
+      32,
       32,
       32,
       32,
@@ -2407,7 +2407,6 @@
       459,
       459,
       459,
-      459,
       458,
       458,
       458,
@@ -2449,6 +2448,7 @@
       454,
       454,
       454,
+      453,
       453
     ],
     "SWE": [
@@ -2476,7 +2476,7 @@
       192,
       192,
       192,
-      192,
+      191,
       191,
       191,
       191,
@@ -2503,7 +2503,6 @@
     ],
     "DEU": [
       334,
-      334,
       333,
       333,
       333,
@@ -2541,6 +2540,7 @@
       331,
       331,
       331,
+      330,
       330,
       330,
       330,
@@ -3222,7 +3222,7 @@
       34,
       34,
       34,
-      34,
+      33,
       33,
       33,
       33,
@@ -3552,7 +3552,6 @@
       4
     ],
     "RUS": [
-      2549,
       2548,
       2548,
       2547,
@@ -3599,7 +3598,8 @@
       2525,
       2524,
       2524,
-      2523
+      2523,
+      2522
     ],
     "BLR": [
       37,
@@ -3802,7 +3802,6 @@
       5
     ],
     "KAZ": [
-      24,
       25,
       25,
       25,
@@ -3843,6 +3842,7 @@
       25,
       25,
       25,
+      26,
       26,
       26,
       26,
@@ -3852,7 +3852,6 @@
       26
     ],
     "CHN": [
-      3299,
       3298,
       3297,
       3296,
@@ -3899,7 +3898,8 @@
       3264,
       3263,
       3263,
-      3262
+      3262,
+      3261
     ],
     "KOR": [
       113,
@@ -3934,7 +3934,7 @@
       113,
       113,
       113,
-      113,
+      112,
       112,
       112,
       112,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 10,
     "epidemio": 9,
     "polymarket": 6,
-    "kalshi": 12,
+    "kalshi": 17,
     "max_andes_r0": 1.05,
     "avg_other_r0": 0.93,
     "continents": [
@@ -4016,11 +4016,18 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "GBR": 1,
+    "GBR": 2,
     "ARG": 9,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "GBR",
+      "title": "HMS Medway helps prevent Hantavirus outbreak on UK's most remote overseas territory - Forces News",
+      "t": "2026-06-09T12:55:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPamVnQlgtZ2ZyMkFLend5U3BHaEo3UkYza3ZQNFhVbkdGaXBPRWhvS0s1OFRwcnpZcWkzVVhQUHVNZTNkSG9qZl8yOFZZTk5acGFMNkRIUVJ3LXBwWDB3NnotTVlZSG1SY0o0MVA5OXdMWTBqR2hPNmxzR3pIUEpzOWtqRUxMenNIc1pxWkIxcFVnMDNmbGczUmtoTXBVd2RGTlNSdWg2aFhoN2ZXdk9qeTNRX0ZRcE55Q3hiWg?oc=5"
+    },
     {
       "iso": "GBR",
       "title": "Defence Medics parachute into Tristan da Cunha to treat hantavirus patient - GOV.UK",
@@ -4115,7 +4122,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-09T12:55:13Z",
+      "last_update": "2026-06-09T13:00:07Z",
       "signals": 2,
       "recent": [
         {
