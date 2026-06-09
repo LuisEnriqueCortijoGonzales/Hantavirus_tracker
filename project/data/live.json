@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-09T08:05:19.877664Z",
-  "next_update": "2026-06-09T08:10:00Z",
+  "generated": "2026-06-09T08:10:08.637527Z",
+  "next_update": "2026-06-09T08:15:00Z",
   "days_active": 32,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -1242,7 +1242,7 @@
     "RUS": [
       1890,
       1967,
-      2037,
+      2038,
       2103,
       2162,
       2216,
@@ -1336,14 +1336,14 @@
       26
     ],
     "CHN": [
-      2774,
+      2775,
       2858,
       3492,
       3469,
       3447,
       3425,
-      3404,
-      3383,
+      3403,
+      3382,
       3362,
       3342,
       3322,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 10,
+    "composite": 9,
     "epidemio": 9,
     "polymarket": 6,
-    "kalshi": 15,
+    "kalshi": 12,
     "max_andes_r0": 1.05,
     "avg_other_r0": 0.93,
     "continents": [
@@ -4017,11 +4017,19 @@
   },
   "signal_summary": {
     "ARG": 9,
+    "CAN": 1,
     "GBR": 1,
     "USA": 1,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "In the news today: MPs plan Taiwan trip, B.C. hantavirus recovery, Energy show begins - Yahoo News Canada",
+      "t": "2026-06-09T08:03:26Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1BRE9RXzlCM2FQT0dkcmFXQjdab3RHZFM5VGc3VXdOX2NLMGJvZUJpV1RzUlZENXd1Rl9BSE5MSlgzRFJEdVk5eTJjR2dsRlU4Si1BV09SNm93S1Uyc195ZWF5TzNzMzJsUWFXOWVfcUhlc3dmTkE?oc=5"
+    },
     {
       "iso": "GBR",
       "title": "Defence Medics parachute into Tristan da Cunha to treat hantavirus patient - GOV.UK",
@@ -4123,7 +4131,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-09T08:05:19Z",
+      "last_update": "2026-06-09T08:10:08Z",
       "signals": 2,
       "recent": [
         {
