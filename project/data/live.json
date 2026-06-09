@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-09T12:15:13.933155Z",
-  "next_update": "2026-06-09T12:20:00Z",
+  "generated": "2026-06-09T12:20:13.157300Z",
+  "next_update": "2026-06-09T12:25:00Z",
   "days_active": 32,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -82,14 +82,14 @@
       "gov_alert": false
     },
     "USA": {
-      "ytd": 33,
+      "ytd": 32,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 27,
+      "var_pct": 26,
       "strain": "hps",
-      "new_today": 1,
-      "r0": 0.44,
-      "signals": 1,
+      "new_today": 0,
+      "r0": 0.31,
+      "signals": 0,
       "gov_alert": false
     },
     "PRY": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3262,
+      "ytd": 3261,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": -4,
@@ -685,7 +685,7 @@
       20,
       22,
       23,
-      25,
+      24,
       26,
       27,
       28,
@@ -693,7 +693,7 @@
       30,
       31,
       32,
-      33
+      32
     ],
     "PRY": [
       8,
@@ -1241,9 +1241,9 @@
     ],
     "RUS": [
       1904,
-      1979,
+      1980,
       2049,
-      2113,
+      2114,
       2172,
       2225,
       2621,
@@ -1336,7 +1336,7 @@
       26
     ],
     "CHN": [
-      2789,
+      2790,
       3511,
       3488,
       3465,
@@ -1349,7 +1349,7 @@
       3318,
       3299,
       3280,
-      3262
+      3261
     ],
     "KOR": [
       89,
@@ -1814,6 +1814,11 @@
       31,
       31,
       31,
+      31,
+      31,
+      31,
+      31,
+      31,
       32,
       32,
       32,
@@ -1844,12 +1849,7 @@
       32,
       32,
       32,
-      32,
-      32,
-      33,
-      33,
-      33,
-      33
+      32
     ],
     "PRY": [
       8,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 10,
+    "composite": 9,
     "epidemio": 9,
     "polymarket": 6,
-    "kalshi": 16,
+    "kalshi": 12,
     "max_andes_r0": 1.05,
     "avg_other_r0": 0.93,
     "continents": [
@@ -4018,7 +4018,6 @@
   "signal_summary": {
     "ARG": 9,
     "GBR": 1,
-    "USA": 1,
     "FRA": 1
   },
   "events": [
@@ -4093,13 +4092,6 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTEV1Nm5EVnZCM2oteUxneHRwNFpEWHJkVl8yWVBqYXZBeWNpRm9tXzF3TWlDU014ZktoQlpLWWFLZk1BMGN1WVFfcWkzbVRyTHAtU2dwSzFrU1Flb19HbXJhNGsxRjUta1k3eGxuRnVpTTQ5Vy10elJwc2xfV05PblNpSkZBY3gwWkVoMlpjeVRZVXRQVmhycVA3TlNxRi1QQjJyRFdjUjVYTnhqWEQ1OVhGNGl2c1gxQVFUWklpWjNJMHhQRW9HTTZXTWlPd9IB0wFBVV95cUxQdkxPa3lPTWw4ZGNjZDYzdzJ4eXpoSV93VlZLUGJ1aTFGanZ3VHBmWnhla2c0VGZBa2ZXR3RFa2tiZnBNNWNWVjJyQUxfUk5zR0p0ejI1VW4zdElJNWVzR0Nudmh6N1lydGdIUWc5Z2pvYTdZU0JLTUU0MFQ3aWk5YTA4ZmJSQXdTeXB4Wkp0TXprMmUtVGU5Y0lQOFJBZk1tTGNXUGRaUDVRbWgybWY3SndtdG9DWEs4c0dvcmdJalNsZ3hESmplQlBNWW56WkZxcFlv?oc=5"
     },
     {
-      "iso": "USA",
-      "title": "Should you cancel your cruise as deadly hantavirus emerges? - INQUIRER.net USA",
-      "t": "2026-06-05T14:38:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSXFMTEdVVFhjcjJjNjBjTFkzSFJDc25jU0tZcERxbUQtMTB6aV80cE42bnUzVkdERkc4b0N4TEtuTVVWNTg2NUNROS1IVjJpWVFRVjBNalZKdHBXWDdNa1pfMDc3UDFhNGJHRnh2d1RXcm0teFBUN1JUd3c5aGpoSzBHbDdRcjAzMGROenlpUlZpZzlf?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
       "t": "2026-06-01T12:19:10Z",
@@ -4123,7 +4115,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-09T12:15:13Z",
+      "last_update": "2026-06-09T12:20:13Z",
       "signals": 2,
       "recent": [
         {
