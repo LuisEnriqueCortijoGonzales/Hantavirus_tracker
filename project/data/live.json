@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-09T21:00:13.899600Z",
-  "next_update": "2026-06-09T21:05:00Z",
+  "generated": "2026-06-09T21:05:07.930738Z",
+  "next_update": "2026-06-09T21:10:00Z",
   "days_active": 32,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -1241,9 +1241,9 @@
     ],
     "RUS": [
       1932,
-      2005,
+      2006,
       2073,
-      2135,
+      2136,
       2192,
       2243,
       2615,
@@ -1336,7 +1336,7 @@
       26
     ],
     "CHN": [
-      2820,
+      2821,
       3503,
       3480,
       3457,
@@ -1358,7 +1358,7 @@
       94,
       97,
       99,
-      116,
+      115,
       115,
       114,
       114,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 10,
     "epidemio": 9,
     "polymarket": 6,
-    "kalshi": 12,
+    "kalshi": 15,
     "max_andes_r0": 1.05,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4017,10 +4017,18 @@
   },
   "signal_summary": {
     "ARG": 6,
+    "CAN": 1,
     "GBR": 2,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "Health Matters: Canadian who tested positive for hantavirus has recovered - Yahoo News Canada",
+      "t": "2026-06-09T16:08:56Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYnlUWUc2dFB2cy02OHhvMTZqM19FZjlDME53U180eGptSXhUTG9xSzd4UXVqOVpRa2dkUXhoLThNSGwtRTZwM001X2tJUktiQnhOMkVGZnJfWnVVZUZ2S0ZqRjZGUzBPUmNuTUZFXzQ4M2VKUEh2RDBsd04wWnJNaHo0Vlk2LVE?oc=5"
+    },
     {
       "iso": "GBR",
       "title": "HMS Medway helps prevent hantavirus outbreak on UK's most remote overseas territory - Forces News",
@@ -4101,7 +4109,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-09T21:00:13Z",
+      "last_update": "2026-06-09T21:05:07Z",
       "signals": 1,
       "recent": [
         {
