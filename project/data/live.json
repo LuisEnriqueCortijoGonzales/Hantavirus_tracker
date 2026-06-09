@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-09T08:10:08.637527Z",
-  "next_update": "2026-06-09T08:15:00Z",
+  "generated": "2026-06-09T08:15:13.182298Z",
+  "next_update": "2026-06-09T08:20:00Z",
   "days_active": 32,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GTM": {
@@ -1240,12 +1240,12 @@
       4
     ],
     "RUS": [
-      1890,
+      1891,
       1967,
       2038,
       2103,
-      2162,
-      2216,
+      2163,
+      2217,
       2265,
       2608,
       2594,
@@ -1337,7 +1337,7 @@
     ],
     "CHN": [
       2775,
-      2858,
+      2859,
       3492,
       3469,
       3447,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 10,
     "epidemio": 9,
     "polymarket": 6,
-    "kalshi": 12,
+    "kalshi": 14,
     "max_andes_r0": 1.05,
     "avg_other_r0": 0.93,
     "continents": [
@@ -4017,19 +4017,11 @@
   },
   "signal_summary": {
     "ARG": 9,
-    "CAN": 1,
     "GBR": 1,
     "USA": 1,
     "FRA": 1
   },
   "events": [
-    {
-      "iso": "CAN",
-      "title": "In the news today: MPs plan Taiwan trip, B.C. hantavirus recovery, Energy show begins - Yahoo News Canada",
-      "t": "2026-06-09T08:03:26Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1BRE9RXzlCM2FQT0dkcmFXQjdab3RHZFM5VGc3VXdOX2NLMGJvZUJpV1RzUlZENXd1Rl9BSE5MSlgzRFJEdVk5eTJjR2dsRlU4Si1BV09SNm93S1Uyc195ZWF5TzNzMzJsUWFXOWVfcUhlc3dmTkE?oc=5"
-    },
     {
       "iso": "GBR",
       "title": "Defence Medics parachute into Tristan da Cunha to treat hantavirus patient - GOV.UK",
@@ -4060,7 +4052,7 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW.com",
+      "title": "Hantavirus: Argentina expands probe to trace outbreak source - dw.com",
       "t": "2026-06-06T03:30:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
@@ -4131,7 +4123,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-09T08:10:08Z",
+      "last_update": "2026-06-09T08:15:13Z",
       "signals": 2,
       "recent": [
         {
