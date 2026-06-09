@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-09T17:05:07.152028Z",
-  "next_update": "2026-06-09T17:10:00Z",
+  "generated": "2026-06-09T17:10:11.679640Z",
+  "next_update": "2026-06-09T17:15:00Z",
   "days_active": 32,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 214,
+      "ytd": 215,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 22,
       "strain": "andes",
       "new_today": 0,
       "r0": 1.05,
-      "signals": 6,
+      "signals": 7,
       "gov_alert": false
     },
     "CHL": {
@@ -32,7 +32,7 @@
       "cfr": 41.6,
       "var_pct": 27,
       "strain": "hps",
-      "new_today": 6,
+      "new_today": 5,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      144,
+      145,
       152,
-      158,
-      165,
-      171,
+      159,
+      166,
+      172,
       177,
       182,
-      186,
-      190,
-      194,
-      197,
-      220,
-      217,
-      214
+      187,
+      191,
+      195,
+      198,
+      221,
+      218,
+      215
     ],
     "CHL": [
       64,
@@ -612,7 +612,7 @@
       89,
       95,
       102,
-      107,
+      108,
       113
     ],
     "BOL": [
@@ -907,7 +907,7 @@
       272,
       281,
       289,
-      351,
+      350,
       348,
       346,
       344,
@@ -1240,7 +1240,7 @@
       4
     ],
     "RUS": [
-      1919,
+      1920,
       1994,
       2063,
       2126,
@@ -1337,7 +1337,7 @@
     ],
     "CHN": [
       2807,
-      3507,
+      3506,
       3483,
       3461,
       3439,
@@ -1346,7 +1346,7 @@
       3375,
       3354,
       3334,
-      3315,
+      3314,
       3295,
       3276,
       3258
@@ -1452,11 +1452,20 @@
   ],
   "hourly_history": {
     "ARG": [
+      221,
+      221,
+      221,
+      221,
+      221,
+      221,
       220,
       220,
       220,
       220,
       220,
+      220,
+      220,
+      220,
       219,
       219,
       219,
@@ -1490,16 +1499,7 @@
       216,
       216,
       215,
-      215,
-      215,
-      215,
-      215,
-      215,
-      215,
-      215,
-      215,
-      214,
-      214
+      215
     ],
     "CHL": [
       81,
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 9,
     "polymarket": 6,
-    "kalshi": 14,
+    "kalshi": 17,
     "max_andes_r0": 1.05,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4016,7 +4016,7 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "ARG": 6,
+    "ARG": 7,
     "GBR": 2,
     "FRA": 1
   },
@@ -4065,6 +4065,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - Bozeman Daily Chronicle",
+      "t": "2026-06-05T23:27:32Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPYVUtVHBhc0JHUUE3WlNQRlhfQXVqMTd6YVJGMUQ1Q1RodFpPSHFNVjA2QUtRYVRqVVVHTWtZNFQ3dFVaUDRGME93R3J2akhOVW1hZHVETmJ5SUlMWnBPWnM1anlPVGgxcDh0TkZOQ2hwb0JRWUh6NXRwRURDcFY0NGtTVmI0ME80RUtnLXdDVWNYSjRLU3NiWERsaFRUZjAydnBwU2ZESkNZeUdHSVpkTE04c3hITGhoRW1XMFFtbmZ5SE9tbE9FeGx3TzFTRW1jc0o3TkZ5ZjdOWkszc28xR21tMERSNC1LdnFUaFBicUJ0RzNIeVRhSm9WdjhzZDJzSjBVY2FGa3NyeVhxb1Nack9KejV3eFAyTVA0?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Argentina ampl\u00eda a otra provincia el estudio de roedores por hantavirus - El Nacional",
       "t": "2026-06-05T23:09:37Z",
       "source": "GoogleNews-ES",
@@ -4101,7 +4108,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-09T17:05:07Z",
+      "last_update": "2026-06-09T17:10:11Z",
       "signals": 1,
       "recent": [
         {
