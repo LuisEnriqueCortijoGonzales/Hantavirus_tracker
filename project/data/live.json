@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-09T20:40:16.895717Z",
-  "next_update": "2026-06-09T20:45:00Z",
+  "generated": "2026-06-09T20:45:10.903046Z",
+  "next_update": "2026-06-09T20:50:00Z",
   "days_active": 32,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 33,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 26,
+      "var_pct": 25,
       "strain": "hps",
       "new_today": 1,
       "r0": 0.44,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "PRY": {
@@ -681,15 +681,15 @@
     ],
     "USA": [
       18,
-      20,
+      19,
       21,
       22,
       24,
       25,
       26,
       27,
+      28,
       29,
-      30,
       30,
       31,
       32,
@@ -1241,11 +1241,11 @@
     ],
     "RUS": [
       1931,
-      2004,
-      2072,
+      2005,
+      2073,
       2135,
       2191,
-      2242,
+      2243,
       2615,
       2601,
       2586,
@@ -1339,7 +1339,7 @@
       2819,
       3503,
       3480,
-      3458,
+      3457,
       3435,
       3414,
       3392,
@@ -1806,6 +1806,11 @@
       31,
       31,
       31,
+      31,
+      31,
+      31,
+      31,
+      31,
       32,
       32,
       32,
@@ -1838,12 +1843,7 @@
       32,
       32,
       32,
-      33,
-      33,
-      33,
-      33,
-      33,
-      33,
+      32,
       33,
       33,
       33,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 10,
+    "composite": 9,
     "epidemio": 9,
     "polymarket": 6,
-    "kalshi": 16,
+    "kalshi": 12,
     "max_andes_r0": 1.05,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4016,19 +4016,11 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "USA": 1,
     "ARG": 6,
     "GBR": 2,
     "FRA": 1
   },
   "events": [
-    {
-      "iso": "USA",
-      "title": "3 more US hantavirus cruise passengers return home after weeks at quarantine facility - USA Today",
-      "t": "2026-06-09T18:05:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcEtzLU4zTUZ4WnRZUEFITDVWWnFLd1A5RE5aSXZZVF9sQlg2RzVIQzlDZGtTMy1ZTVp2OUphUHQ5SWV2aFJCSHpjT1dNUnlKTXBxQmY5Xzhidk15MVNHSUxCSkMzcWs5N1hqM0lmcmt3VjZ5WlJJczF4RW9fVUpXNWJqcVJ5cTkyMm1VSHNkM3RKaXVZSHgybzd1TGthd0VaSnhSZ0lBeC1yeFYxdXVoVGF0OTJIQ21fRHZtY05kOA?oc=5"
-    },
     {
       "iso": "GBR",
       "title": "HMS Medway helps prevent hantavirus outbreak on UK's most remote overseas territory - Forces News",
@@ -4109,7 +4101,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-09T20:40:16Z",
+      "last_update": "2026-06-09T20:45:10Z",
       "signals": 1,
       "recent": [
         {
