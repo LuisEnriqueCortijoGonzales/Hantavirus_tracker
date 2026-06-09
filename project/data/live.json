@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-09T15:25:11.645106Z",
-  "next_update": "2026-06-09T15:30:00Z",
+  "generated": "2026-06-09T15:30:16.167385Z",
+  "next_update": "2026-06-09T15:35:00Z",
   "days_active": 32,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 217,
+      "ytd": 215,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 23,
+      "var_pct": 22,
       "strain": "andes",
       "new_today": 0,
       "r0": 1.05,
-      "signals": 8,
+      "signals": 7,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      145,
+      144,
       152,
       159,
-      166,
-      172,
-      178,
-      183,
-      188,
-      192,
-      196,
-      199,
-      223,
-      220,
-      217
+      165,
+      171,
+      177,
+      182,
+      187,
+      191,
+      195,
+      198,
+      221,
+      218,
+      215
     ],
     "CHL": [
       63,
@@ -1243,7 +1243,7 @@
       1914,
       1989,
       2058,
-      2121,
+      2122,
       2179,
       2232,
       2619,
@@ -1452,14 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      222,
-      222,
-      222,
-      222,
-      222,
-      222,
-      222,
-      222,
       221,
       221,
       221,
@@ -1499,7 +1491,15 @@
       217,
       217,
       217,
-      217
+      217,
+      216,
+      216,
+      216,
+      216,
+      216,
+      216,
+      216,
+      216
     ],
     "CHL": [
       81,
@@ -4016,7 +4016,7 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "ARG": 8,
+    "ARG": 7,
     "GBR": 2,
     "FRA": 1
   },
@@ -4072,13 +4072,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - The Killeen Daily Herald",
-      "t": "2026-06-05T23:27:32Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQd3VmS0JZd21HbTI1ek9iWWNXNzN3RVlwYnJqY0RLdW9lMGFYRU00bVV4WTN3aE84aDlwRkM3eXAxeUJZZFBjRWtJYjNEZTFTMFA3Y2s1NHFfYWYzbzdKWUdiQmZaSFIzbW4zRW1pTGltQU5wYzh2dF96RTgzU3dFaDhvMUlDRHc0THk5MWJwc1kwMjBhNngtYnZWRnhpYTVYdF93czA0Wk9QZzRLakpXVnU4amZTOWxaQm5tRUVYa3RuYThFcllZanBvUlc3UGhmTkt6emVNQ1ByUkg1WEo2Z0czaEItRURhUFFHemRNd3BJVl9s?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Argentina ampl\u00eda a otra provincia el estudio de roedores por hantavirus - El Nacional",
       "t": "2026-06-05T23:09:37Z",
       "source": "GoogleNews-ES",
@@ -4115,7 +4108,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-09T15:25:11Z",
+      "last_update": "2026-06-09T15:30:16Z",
       "signals": 1,
       "recent": [
         {
