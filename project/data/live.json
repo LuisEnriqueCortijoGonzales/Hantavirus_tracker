@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-09T11:55:11.654541Z",
-  "next_update": "2026-06-09T12:00:00Z",
+  "generated": "2026-06-09T12:00:15.629877Z",
+  "next_update": "2026-06-09T12:05:00Z",
   "days_active": 32,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -19,7 +19,7 @@
       "ytd": 80,
       "alert": "brote",
       "cfr": 35.5,
-      "var_pct": 6,
+      "var_pct": -8,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.3,
@@ -82,14 +82,14 @@
       "gov_alert": false
     },
     "USA": {
-      "ytd": 33,
+      "ytd": 32,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 27,
+      "var_pct": 26,
       "strain": "hps",
-      "new_today": 1,
-      "r0": 0.44,
-      "signals": 1,
+      "new_today": 0,
+      "r0": 0.31,
+      "signals": 0,
       "gov_alert": false
     },
     "PRY": {
@@ -250,7 +250,7 @@
       "ytd": 57,
       "alert": "vigilancia",
       "cfr": 0.3,
-      "var_pct": 12,
+      "var_pct": -3,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.3,
@@ -276,7 +276,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "CHE": {
@@ -470,7 +470,7 @@
       "ytd": 2523,
       "alert": "vigilancia",
       "cfr": 0.9,
-      "var_pct": 11,
+      "var_pct": -4,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.3,
@@ -547,7 +547,7 @@
       "ytd": 112,
       "alert": "vigilancia",
       "cfr": 1.5,
-      "var_pct": 12,
+      "var_pct": -3,
       "strain": "hantaan",
       "new_today": 0,
       "r0": 0.3,
@@ -579,7 +579,7 @@
       192,
       196,
       200,
-      203,
+      224,
       221,
       218
     ],
@@ -590,7 +590,7 @@
       70,
       72,
       74,
-      75,
+      87,
       86,
       85,
       84,
@@ -685,7 +685,7 @@
       20,
       22,
       23,
-      25,
+      24,
       26,
       27,
       28,
@@ -693,7 +693,7 @@
       30,
       31,
       32,
-      33
+      32
     ],
     "PRY": [
       8,
@@ -872,7 +872,7 @@
       1
     ],
     "FIN": [
-      496,
+      495,
       492,
       488,
       485,
@@ -889,7 +889,7 @@
     ],
     "SWE": [
       161,
-      166,
+      203,
       202,
       201,
       200,
@@ -907,7 +907,7 @@
       270,
       279,
       287,
-      294,
+      351,
       349,
       346,
       344,
@@ -926,7 +926,7 @@
       47,
       48,
       50,
-      51,
+      58,
       58,
       58,
       58,
@@ -947,7 +947,7 @@
       69,
       70,
       72,
-      73,
+      80,
       80,
       80
     ],
@@ -963,7 +963,7 @@
       23,
       23,
       23,
-      23,
+      25,
       25,
       25
     ],
@@ -1027,7 +1027,7 @@
       8,
       8,
       8,
-      8,
+      9,
       9,
       9
     ],
@@ -1123,7 +1123,7 @@
       38,
       39,
       39,
-      40,
+      44,
       44,
       44
     ],
@@ -1139,7 +1139,7 @@
       29,
       29,
       30,
-      30,
+      34,
       33,
       33
     ],
@@ -1243,10 +1243,10 @@
       1903,
       1978,
       2048,
-      2112,
+      2113,
       2171,
       2224,
-      2272,
+      2621,
       2606,
       2591,
       2577,
@@ -1267,7 +1267,7 @@
       34,
       34,
       34,
-      34,
+      37,
       37,
       37
     ],
@@ -1283,7 +1283,7 @@
       18,
       18,
       18,
-      18,
+      20,
       20,
       20
     ],
@@ -1336,8 +1336,8 @@
       26
     ],
     "CHN": [
-      2788,
-      2871,
+      2789,
+      3511,
       3488,
       3466,
       3443,
@@ -1345,7 +1345,7 @@
       3400,
       3379,
       3359,
-      3339,
+      3338,
       3319,
       3299,
       3280,
@@ -1358,7 +1358,7 @@
       93,
       96,
       98,
-      100,
+      116,
       115,
       115,
       114,
@@ -1379,7 +1379,7 @@
       12,
       12,
       12,
-      12,
+      13,
       13,
       13
     ]
@@ -1401,7 +1401,6 @@
     "2026-06-09T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-07T12:00:00Z",
     "2026-06-07T13:00:00Z",
     "2026-06-07T14:00:00Z",
     "2026-06-07T15:00:00Z",
@@ -1448,11 +1447,11 @@
     "2026-06-09T08:00:00Z",
     "2026-06-09T09:00:00Z",
     "2026-06-09T10:00:00Z",
-    "2026-06-09T11:00:00Z"
+    "2026-06-09T11:00:00Z",
+    "2026-06-09T12:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      203,
       224,
       224,
       224,
@@ -1497,6 +1496,7 @@
       219,
       219,
       219,
+      218,
       218,
       218,
       218
@@ -1525,7 +1525,7 @@
       81,
       81,
       81,
-      81,
+      80,
       80,
       80,
       80,
@@ -1552,7 +1552,6 @@
       80
     ],
     "BRA": [
-      100,
       100,
       101,
       101,
@@ -1599,6 +1598,7 @@
       111,
       111,
       112,
+      112,
       112
     ],
     "BOL": [
@@ -1610,7 +1610,6 @@
       14,
       14,
       14,
-      14,
       15,
       15,
       15,
@@ -1648,6 +1647,7 @@
       15,
       15,
       15,
+      16,
       16,
       16
     ],
@@ -1718,7 +1718,7 @@
       6,
       6,
       6,
-      6,
+      7,
       7,
       7,
       7,
@@ -1815,6 +1815,10 @@
       31,
       31,
       31,
+      31,
+      31,
+      31,
+      31,
       32,
       32,
       32,
@@ -1845,11 +1849,7 @@
       32,
       32,
       32,
-      32,
-      32,
-      33,
-      33,
-      33
+      32
     ],
     "PRY": [
       8,
@@ -2408,7 +2408,6 @@
       459,
       459,
       459,
-      459,
       458,
       458,
       458,
@@ -2449,7 +2448,8 @@
       454,
       454,
       454,
-      454
+      454,
+      453
     ],
     "SWE": [
       192,
@@ -2477,7 +2477,7 @@
       192,
       192,
       192,
-      192,
+      191,
       191,
       191,
       191,
@@ -2504,7 +2504,6 @@
     "DEU": [
       334,
       334,
-      334,
       333,
       333,
       333,
@@ -2542,6 +2541,7 @@
       331,
       331,
       331,
+      330,
       330,
       330,
       330,
@@ -2602,7 +2602,7 @@
       57
     ],
     "NOR": [
-      73,
+      80,
       80,
       80,
       80,
@@ -2652,7 +2652,7 @@
       80
     ],
     "FRA": [
-      23,
+      25,
       25,
       25,
       25,
@@ -2852,7 +2852,7 @@
       3
     ],
     "LTU": [
-      8,
+      9,
       9,
       9,
       9,
@@ -3152,7 +3152,7 @@
       6
     ],
     "ROU": [
-      40,
+      44,
       44,
       44,
       44,
@@ -3202,7 +3202,6 @@
       44
     ],
     "HUN": [
-      30,
       34,
       34,
       34,
@@ -3224,6 +3223,7 @@
       34,
       34,
       34,
+      33,
       33,
       33,
       33,
@@ -3552,7 +3552,6 @@
       4
     ],
     "RUS": [
-      2550,
       2549,
       2548,
       2548,
@@ -3599,10 +3598,11 @@
       2525,
       2525,
       2524,
-      2524
+      2524,
+      2523
     ],
     "BLR": [
-      34,
+      37,
       37,
       37,
       37,
@@ -3652,7 +3652,7 @@
       37
     ],
     "UKR": [
-      18,
+      20,
       20,
       20,
       20,
@@ -3803,7 +3803,6 @@
     ],
     "KAZ": [
       24,
-      24,
       25,
       25,
       25,
@@ -3844,6 +3843,7 @@
       25,
       25,
       25,
+      26,
       26,
       26,
       26,
@@ -3852,7 +3852,6 @@
       26
     ],
     "CHN": [
-      3299,
       3299,
       3298,
       3297,
@@ -3899,7 +3898,8 @@
       3265,
       3264,
       3263,
-      3263
+      3263,
+      3262
     ],
     "KOR": [
       113,
@@ -3935,7 +3935,7 @@
       113,
       113,
       113,
-      113,
+      112,
       112,
       112,
       112,
@@ -3952,7 +3952,7 @@
       112
     ],
     "JPN": [
-      12,
+      13,
       13,
       13,
       13,
@@ -4018,7 +4018,7 @@
   "signal_summary": {
     "ARG": 9,
     "GBR": 1,
-    "USA": 1
+    "FRA": 1
   },
   "events": [
     {
@@ -4092,11 +4092,11 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTEV1Nm5EVnZCM2oteUxneHRwNFpEWHJkVl8yWVBqYXZBeWNpRm9tXzF3TWlDU014ZktoQlpLWWFLZk1BMGN1WVFfcWkzbVRyTHAtU2dwSzFrU1Flb19HbXJhNGsxRjUta1k3eGxuRnVpTTQ5Vy10elJwc2xfV05PblNpSkZBY3gwWkVoMlpjeVRZVXRQVmhycVA3TlNxRi1QQjJyRFdjUjVYTnhqWEQ1OVhGNGl2c1gxQVFUWklpWjNJMHhQRW9HTTZXTWlPd9IB0wFBVV95cUxQdkxPa3lPTWw4ZGNjZDYzdzJ4eXpoSV93VlZLUGJ1aTFGanZ3VHBmWnhla2c0VGZBa2ZXR3RFa2tiZnBNNWNWVjJyQUxfUk5zR0p0ejI1VW4zdElJNWVzR0Nudmh6N1lydGdIUWc5Z2pvYTdZU0JLTUU0MFQ3aWk5YTA4ZmJSQXdTeXB4Wkp0TXprMmUtVGU5Y0lQOFJBZk1tTGNXUGRaUDVRbWgybWY3SndtdG9DWEs4c0dvcmdJalNsZ3hESmplQlBNWW56WkZxcFlv?oc=5"
     },
     {
-      "iso": "USA",
-      "title": "Should you cancel your cruise as deadly hantavirus emerges? - INQUIRER.net USA",
-      "t": "2026-06-05T14:38:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSXFMTEdVVFhjcjJjNjBjTFkzSFJDc25jU0tZcERxbUQtMTB6aV80cE42bnUzVkdERkc4b0N4TEtuTVVWNTg2NUNROS1IVjJpWVFRVjBNalZKdHBXWDdNa1pfMDc3UDFhNGJHRnh2d1RXcm0teFBUN1JUd3c5aGpoSzBHbDdRcjAzMGROenlpUlZpZzlf?oc=5"
+      "iso": "FRA",
+      "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
+      "t": "2026-06-01T12:19:10Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSV9HXzZldFVsQXU4NXplR0M1RE9VbjNDcTBuZENibldCbWVTRGVxQ0xDY2xnSG1SanVQWThzdTd6RGstRHdSWXpWNlZ3QnFuN0FDRy1nUFpkTFhIRTVucGt4bFR4Wi1VRGNUVXl3UU5TTUp6WDdXZ2RKaXR1bXBqMEViQm5YYlhPU2tOdjl5Ui12Y2pRZmJtVnhFWDRRV0p5VHoyb2pfSGVvRFFNdkpzYzdPa0JfZDdMcGRyOVVPSzc5b1dMX0hmUGxOdk5fMzRoVkpRZ2dMMA?oc=5"
     }
   ],
   "maritime_events": [
@@ -4115,13 +4115,18 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-09T11:55:11Z",
-      "signals": 1,
+      "last_update": "2026-06-09T12:00:15Z",
+      "signals": 2,
       "recent": [
         {
           "title": "Scientists testing rodents for hantavirus in Argentina\u2019s famous wine region of Mendoza after cruise ship outbreak - AOL.com",
           "t": "2026-06-08T15:25:47Z",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeFpXUTVFaXhnaWNidmxuT3F3b1R5ZDJNRHZySjhtQVBGdFlIVURQM0VXTkdCeXk1VVJvd3JVVlFndFZvdnZQOEJyVkpjX1lBeER4QzVSeDFlYjRwUG1LQ0VORU1GZENYTFlnU2ZFTEgtTW12S3MwSmdzQWE1czZvQXprb3Qwdw?oc=5"
+        },
+        {
+          "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
+          "t": "2026-06-01T12:19:10Z",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSV9HXzZldFVsQXU4NXplR0M1RE9VbjNDcTBuZENibldCbWVTRGVxQ0xDY2xnSG1SanVQWThzdTd6RGstRHdSWXpWNlZ3QnFuN0FDRy1nUFpkTFhIRTVucGt4bFR4Wi1VRGNUVXl3UU5TTUp6WDdXZ2RKaXR1bXBqMEViQm5YYlhPU2tOdjl5Ui12Y2pRZmJtVnhFWDRRV0p5VHoyb2pfSGVvRFFNdkpzYzdPa0JfZDdMcGRyOVVPSzc5b1dMX0hmUGxOdk5fMzRoVkpRZ2dMMA?oc=5"
         }
       ]
     }
