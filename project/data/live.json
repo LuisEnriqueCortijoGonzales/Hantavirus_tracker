@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-09T08:20:12.448787Z",
-  "next_update": "2026-06-09T08:25:00Z",
+  "generated": "2026-06-09T08:25:11.668176Z",
+  "next_update": "2026-06-09T08:30:00Z",
   "days_active": 32,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 218,
+      "ytd": 219,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 25,
+      "var_pct": 26,
       "strain": "andes",
       "new_today": 0,
-      "r0": 1.05,
-      "signals": 9,
+      "r0": 1.1,
+      "signals": 10,
       "gov_alert": false
     },
     "CHL": {
@@ -85,7 +85,7 @@
       "ytd": 32,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 28,
+      "var_pct": 27,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.31,
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3265,
+      "ytd": 3264,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": -4,
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      143,
-      151,
-      158,
-      165,
-      171,
-      177,
-      182,
-      187,
-      192,
-      196,
-      199,
-      202,
-      221,
-      218
+      144,
+      152,
+      159,
+      166,
+      172,
+      178,
+      183,
+      188,
+      193,
+      197,
+      200,
+      203,
+      223,
+      219
     ],
     "CHL": [
       63,
@@ -930,7 +930,7 @@
       58,
       58,
       58,
-      58,
+      57,
       57,
       57,
       57
@@ -1241,12 +1241,12 @@
     ],
     "RUS": [
       1891,
-      1967,
+      1968,
       2038,
       2103,
       2163,
       2217,
-      2265,
+      2266,
       2608,
       2594,
       2579,
@@ -1336,7 +1336,7 @@
       26
     ],
     "CHN": [
-      2775,
+      2776,
       2859,
       3492,
       3469,
@@ -1349,7 +1349,7 @@
       3322,
       3302,
       3283,
-      3265
+      3264
     ],
     "KOR": [
       89,
@@ -1452,10 +1452,18 @@
   ],
   "hourly_history": {
     "ARG": [
-      202,
-      202,
       203,
       203,
+      204,
+      204,
+      225,
+      225,
+      225,
+      225,
+      224,
+      224,
+      224,
+      224,
       224,
       224,
       224,
@@ -1483,6 +1491,7 @@
       221,
       221,
       221,
+      221,
       220,
       220,
       220,
@@ -1490,16 +1499,7 @@
       220,
       220,
       220,
-      220,
-      219,
-      219,
-      219,
-      219,
-      219,
-      219,
-      219,
-      219,
-      219
+      220
     ],
     "CHL": [
       82,
@@ -4003,11 +4003,11 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
-    "epidemio": 9,
+    "composite": 11,
+    "epidemio": 10,
     "polymarket": 6,
-    "kalshi": 13,
-    "max_andes_r0": 1.05,
+    "kalshi": 17,
+    "max_andes_r0": 1.1,
     "avg_other_r0": 0.93,
     "continents": [
       "Americas"
@@ -4016,7 +4016,7 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "ARG": 9,
+    "ARG": 10,
     "GBR": 1,
     "USA": 1,
     "FRA": 1
@@ -4073,6 +4073,13 @@
     },
     {
       "iso": "ARG",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - The Killeen Daily Herald",
+      "t": "2026-06-05T23:27:32Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQd3VmS0JZd21HbTI1ek9iWWNXNzN3RVlwYnJqY0RLdW9lMGFYRU00bVV4WTN3aE84aDlwRkM3eXAxeUJZZFBjRWtJYjNEZTFTMFA3Y2s1NHFfYWYzbzdKWUdiQmZaSFIzbW4zRW1pTGltQU5wYzh2dF96RTgzU3dFaDhvMUlDRHc0THk5MWJwc1kwMjBhNngtYnZWRnhpYTVYdF93czA0Wk9QZzRLakpXVnU4amZTOWxaQm5tRUVYa3RuYThFcllZanBvUlc3UGhmTkt6emVNQ1ByUkg1WEo2Z0czaEItRURhUFFHemRNd3BJVl9s?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Argentina Expands Hantavirus Probe, Sending Teams to Trap and Test Rats in Mendoza - U.S. News & World Report",
       "t": "2026-06-05T23:27:00Z",
       "source": "GoogleNews-EN",
@@ -4123,7 +4130,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-09T08:20:12Z",
+      "last_update": "2026-06-09T08:25:11Z",
       "signals": 2,
       "recent": [
         {
