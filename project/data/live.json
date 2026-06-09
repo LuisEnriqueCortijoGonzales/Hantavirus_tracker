@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-09T02:20:08.636697Z",
-  "next_update": "2026-06-09T02:25:00Z",
+  "generated": "2026-06-09T02:25:07.903881Z",
+  "next_update": "2026-06-09T02:30:00Z",
   "days_active": 32,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GTM": {
@@ -610,7 +610,7 @@
       89,
       89,
       89,
-      91,
+      92,
       98,
       104,
       110
@@ -881,10 +881,10 @@
       476,
       473,
       470,
-      467,
+      466,
       463,
       460,
-      458,
+      457,
       455
     ],
     "SWE": [
@@ -1243,8 +1243,8 @@
       1872,
       1949,
       2021,
-      2087,
-      2148,
+      2088,
+      2149,
       2204,
       2254,
       2612,
@@ -1336,14 +1336,14 @@
       25
     ],
     "CHN": [
-      2753,
+      2754,
       2839,
       3498,
       3475,
       3452,
       3430,
       3409,
-      3388,
+      3387,
       3367,
       3346,
       3327,
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 10,
     "polymarket": 6,
-    "kalshi": 14,
+    "kalshi": 12,
     "max_andes_r0": 1.1,
     "avg_other_r0": 0.93,
     "continents": [
@@ -4016,20 +4016,12 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "CAN": 1,
     "ARG": 9,
     "USA": 1,
     "NOR": 1,
     "FRA": 2
   },
   "events": [
-    {
-      "iso": "CAN",
-      "title": "Canadian cruise passenger who tested positive for hantavirus has recovered, health officials say - Yahoo News Canada",
-      "t": "2026-06-09T01:06:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOTRhVTg0TWl0aWNMeDhveEpBbkxMWVY4RkRsSC0wSEJLajB1MHBEYWdiREp6d0hXY2t5WXBjanJIajRCYnJoU2Q2V2JJeHRtQkRtTFpHNU5vSWFDbUtlNDJpa1F4T3IwMVlLYmpTYi0xMHYycTc4TVhPQXBTWUNnM1daWDY2M2JMY2c?oc=5"
-    },
     {
       "iso": "ARG",
       "title": "Scientists testing rodents for hantavirus in Argentina\u2019s famous wine region of Mendoza after cruise ship outbreak - AOL.com",
@@ -4138,7 +4130,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-09T02:20:08Z",
+      "last_update": "2026-06-09T02:25:07Z",
       "signals": 4,
       "recent": [
         {
