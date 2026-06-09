@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-09T19:30:11.660036Z",
-  "next_update": "2026-06-09T19:35:00Z",
+  "generated": "2026-06-09T19:35:05.672598Z",
+  "next_update": "2026-06-09T19:40:00Z",
   "days_active": 32,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 215,
+      "ytd": 214,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 22,
+      "var_pct": 21,
       "strain": "andes",
       "new_today": 0,
       "r0": 1.05,
-      "signals": 7,
+      "signals": 6,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      146,
-      153,
-      160,
+      145,
+      152,
+      159,
       166,
       172,
-      178,
-      183,
-      188,
-      192,
-      195,
-      199,
-      221,
-      218,
-      215
+      177,
+      182,
+      187,
+      191,
+      194,
+      198,
+      220,
+      217,
+      214
     ],
     "CHL": [
       64,
@@ -1342,7 +1342,7 @@
       3459,
       3436,
       3415,
-      3394,
+      3393,
       3373,
       3352,
       3332,
@@ -1452,15 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      221,
-      221,
-      221,
-      221,
-      220,
-      220,
-      220,
-      220,
-      220,
       220,
       220,
       220,
@@ -1499,7 +1490,16 @@
       215,
       215,
       215,
-      215
+      215,
+      215,
+      215,
+      215,
+      215,
+      215,
+      214,
+      214,
+      214,
+      214
     ],
     "CHL": [
       81,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 10,
     "epidemio": 9,
     "polymarket": 6,
-    "kalshi": 12,
+    "kalshi": 14,
     "max_andes_r0": 1.05,
     "avg_other_r0": 1.0,
     "continents": [
@@ -4017,7 +4017,7 @@
   },
   "signal_summary": {
     "USA": 1,
-    "ARG": 7,
+    "ARG": 6,
     "GBR": 2,
     "FRA": 1
   },
@@ -4073,13 +4073,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - Bozeman Daily Chronicle",
-      "t": "2026-06-05T23:27:32Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPYVUtVHBhc0JHUUE3WlNQRlhfQXVqMTd6YVJGMUQ1Q1RodFpPSHFNVjA2QUtRYVRqVVVHTWtZNFQ3dFVaUDRGME93R3J2akhOVW1hZHVETmJ5SUlMWnBPWnM1anlPVGgxcDh0TkZOQ2hwb0JRWUh6NXRwRURDcFY0NGtTVmI0ME80RUtnLXdDVWNYSjRLU3NiWERsaFRUZjAydnBwU2ZESkNZeUdHSVpkTE04c3hITGhoRW1XMFFtbmZ5SE9tbE9FeGx3TzFTRW1jc0o3TkZ5ZjdOWkszc28xR21tMERSNC1LdnFUaFBicUJ0RzNIeVRhSm9WdjhzZDJzSjBVY2FGa3NyeVhxb1Nack9KejV3eFAyTVA0?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Argentina ampl\u00eda a otra provincia el estudio de roedores por hantavirus - El Nacional",
       "t": "2026-06-05T23:09:37Z",
       "source": "GoogleNews-ES",
@@ -4116,7 +4109,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-09T19:30:11Z",
+      "last_update": "2026-06-09T19:35:05Z",
       "signals": 1,
       "recent": [
         {
