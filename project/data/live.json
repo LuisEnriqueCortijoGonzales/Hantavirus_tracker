@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-09T01:20:17.649489Z",
-  "next_update": "2026-06-09T01:25:00Z",
+  "generated": "2026-06-09T01:25:11.668728Z",
+  "next_update": "2026-06-09T01:30:00Z",
   "days_active": 32,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 218,
+      "ytd": 219,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 26,
+      "var_pct": 27,
       "strain": "andes",
       "new_today": 0,
-      "r0": 1.05,
-      "signals": 8,
+      "r0": 1.1,
+      "signals": 9,
       "gov_alert": false
     },
     "CHL": {
@@ -569,19 +569,19 @@
   "history": {
     "ARG": [
       141,
-      148,
-      155,
-      162,
-      169,
+      149,
+      156,
+      163,
+      170,
       175,
-      180,
-      185,
-      189,
+      181,
+      186,
+      190,
       194,
-      197,
-      200,
-      221,
-      218
+      198,
+      201,
+      222,
+      219
     ],
     "CHL": [
       62,
@@ -611,7 +611,7 @@
       89,
       89,
       91,
-      97,
+      98,
       104,
       110
     ],
@@ -1247,7 +1247,7 @@
       2146,
       2202,
       2252,
-      2613,
+      2612,
       2598,
       2583,
       2569,
@@ -1337,12 +1337,12 @@
     ],
     "CHN": [
       2750,
-      2835,
-      3499,
+      2836,
+      3498,
       3476,
       3453,
       3431,
-      3410,
+      3409,
       3388,
       3368,
       3347,
@@ -1452,20 +1452,29 @@
   ],
   "hourly_history": {
     "ARG": [
-      200,
-      201,
-      201,
-      201,
-      201,
-      201,
-      201,
-      201,
       201,
       202,
       202,
+      202,
+      202,
+      202,
+      202,
+      202,
+      202,
+      203,
+      203,
+      224,
+      224,
+      224,
+      224,
       223,
       223,
       223,
+      223,
+      223,
+      223,
+      223,
+      223,
       222,
       222,
       222,
@@ -1474,7 +1483,6 @@
       222,
       222,
       222,
-      221,
       221,
       221,
       221,
@@ -1491,15 +1499,7 @@
       220,
       220,
       219,
-      219,
-      219,
-      219,
-      219,
-      219,
-      219,
-      219,
-      218,
-      218
+      219
     ],
     "CHL": [
       82,
@@ -4004,10 +4004,10 @@
   },
   "pandemic": {
     "composite": 10,
-    "epidemio": 9,
+    "epidemio": 10,
     "polymarket": 6,
     "kalshi": 16,
-    "max_andes_r0": 1.05,
+    "max_andes_r0": 1.1,
     "avg_other_r0": 0.93,
     "continents": [
       "Americas"
@@ -4016,12 +4016,19 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "ARG": 8,
+    "ARG": 9,
     "USA": 1,
     "NOR": 1,
     "FRA": 2
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Scientists testing rodents for hantavirus in Argentina\u2019s famous wine region of Mendoza after cruise ship outbreak - AOL.com",
+      "t": "2026-06-08T15:25:47Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeFpXUTVFaXhnaWNidmxuT3F3b1R5ZDJNRHZySjhtQVBGdFlIVURQM0VXTkdCeXk1VVJvd3JVVlFndFZvdnZQOEJyVkpjX1lBeER4QzVSeDFlYjRwUG1LQ0VORU1GZENYTFlnU2ZFTEgtTW12S3MwSmdzQWE1czZvQXprb3Qwdw?oc=5"
+    },
     {
       "iso": "NOR",
       "title": "Cruise ship Hondius departs Rotterdam for Norway after deadly hantavirus outbreak - NL Times",
@@ -4123,9 +4130,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-09T01:20:17Z",
-      "signals": 3,
+      "last_update": "2026-06-09T01:25:11Z",
+      "signals": 4,
       "recent": [
+        {
+          "title": "Scientists testing rodents for hantavirus in Argentina\u2019s famous wine region of Mendoza after cruise ship outbreak - AOL.com",
+          "t": "2026-06-08T15:25:47Z",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeFpXUTVFaXhnaWNidmxuT3F3b1R5ZDJNRHZySjhtQVBGdFlIVURQM0VXTkdCeXk1VVJvd3JVVlFndFZvdnZQOEJyVkpjX1lBeER4QzVSeDFlYjRwUG1LQ0VORU1GZENYTFlnU2ZFTEgtTW12S3MwSmdzQWE1czZvQXprb3Qwdw?oc=5"
+        },
         {
           "title": "Cruise ship Hondius departs Rotterdam for Norway after deadly hantavirus outbreak - NL Times",
           "t": "2026-06-07T11:55:00Z",
