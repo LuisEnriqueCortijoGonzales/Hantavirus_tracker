@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-09T04:55:11.631523Z",
-  "next_update": "2026-06-09T05:00:00Z",
+  "generated": "2026-06-09T05:00:05.691848Z",
+  "next_update": "2026-06-09T05:05:00Z",
   "days_active": 32,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 219,
+      "ytd": 220,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 26,
       "strain": "andes",
       "new_today": 0,
-      "r0": 1.1,
-      "signals": 9,
+      "r0": 1.14,
+      "signals": 10,
       "gov_alert": false
     },
     "CHL": {
@@ -32,7 +32,7 @@
       "cfr": 41.6,
       "var_pct": 24,
       "strain": "hps",
-      "new_today": 6,
+      "new_today": 5,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      142,
-      150,
-      157,
-      164,
-      170,
-      176,
-      182,
-      187,
-      191,
-      195,
-      199,
-      202,
-      222,
-      219
+      143,
+      151,
+      158,
+      165,
+      171,
+      177,
+      183,
+      188,
+      192,
+      196,
+      200,
+      203,
+      223,
+      220
     ],
     "CHL": [
       62,
@@ -612,7 +612,7 @@
       89,
       92,
       98,
-      104,
+      105,
       110
     ],
     "BOL": [
@@ -1242,10 +1242,10 @@
     "RUS": [
       1880,
       1957,
-      2028,
-      2094,
+      2029,
+      2095,
       2155,
-      2209,
+      2210,
       2259,
       2610,
       2596,
@@ -1337,7 +1337,7 @@
     ],
     "CHN": [
       2763,
-      2847,
+      2848,
       3495,
       3472,
       3450,
@@ -1401,7 +1401,6 @@
     "2026-06-09T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-07T05:00:00Z",
     "2026-06-07T06:00:00Z",
     "2026-06-07T07:00:00Z",
     "2026-06-07T08:00:00Z",
@@ -1448,18 +1447,26 @@
     "2026-06-09T01:00:00Z",
     "2026-06-09T02:00:00Z",
     "2026-06-09T03:00:00Z",
-    "2026-06-09T04:00:00Z"
+    "2026-06-09T04:00:00Z",
+    "2026-06-09T05:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      202,
-      202,
-      202,
-      202,
-      202,
-      202,
       203,
       203,
+      203,
+      203,
+      203,
+      204,
+      204,
+      225,
+      225,
+      225,
+      225,
+      224,
+      224,
+      224,
+      224,
       224,
       224,
       224,
@@ -1487,19 +1494,12 @@
       221,
       221,
       221,
+      221,
       220,
       220,
       220,
       220,
-      220,
-      220,
-      220,
-      220,
-      219,
-      219,
-      219,
-      219,
-      219
+      220
     ],
     "CHL": [
       82,
@@ -1508,7 +1508,6 @@
       82,
       82,
       82,
-      82,
       81,
       81,
       81,
@@ -1533,6 +1532,7 @@
       81,
       81,
       81,
+      80,
       80,
       80,
       80,
@@ -1552,7 +1552,6 @@
       80
     ],
     "BRA": [
-      98,
       99,
       99,
       99,
@@ -1597,6 +1596,7 @@
       109,
       109,
       109,
+      110,
       110,
       110,
       110
@@ -1617,7 +1617,7 @@
       14,
       14,
       14,
-      14,
+      15,
       15,
       15,
       15,
@@ -1725,7 +1725,7 @@
       6,
       6,
       6,
-      6,
+      7,
       7,
       7,
       7,
@@ -1821,7 +1821,7 @@
       31,
       31,
       31,
-      31,
+      32,
       32,
       32,
       32,
@@ -2407,7 +2407,6 @@
       460,
       460,
       460,
-      460,
       459,
       459,
       459,
@@ -2449,6 +2448,7 @@
       455,
       455,
       455,
+      454,
       454
     ],
     "SWE": [
@@ -2458,7 +2458,6 @@
       193,
       193,
       193,
-      193,
       192,
       192,
       192,
@@ -2485,6 +2484,7 @@
       192,
       192,
       192,
+      191,
       191,
       191,
       191,
@@ -2511,7 +2511,6 @@
       334,
       334,
       334,
-      334,
       333,
       333,
       333,
@@ -2549,6 +2548,7 @@
       331,
       331,
       331,
+      330,
       330
     ],
     "POL": [
@@ -2603,13 +2603,13 @@
     ],
     "NOR": [
       72,
-      72,
       73,
       73,
       73,
       73,
       73,
       73,
+      80,
       80,
       80,
       80,
@@ -2659,7 +2659,6 @@
       23,
       23,
       23,
-      23,
       26,
       26,
       26,
@@ -2687,6 +2686,7 @@
       26,
       26,
       26,
+      25,
       25,
       25,
       25,
@@ -2859,7 +2859,7 @@
       8,
       8,
       8,
-      8,
+      9,
       9,
       9,
       9,
@@ -3159,7 +3159,7 @@
       40,
       40,
       40,
-      40,
+      44,
       44,
       44,
       44,
@@ -3209,7 +3209,6 @@
       30,
       30,
       30,
-      30,
       34,
       34,
       34,
@@ -3231,6 +3230,7 @@
       34,
       34,
       34,
+      33,
       33,
       33,
       33,
@@ -3552,7 +3552,6 @@
       4
     ],
     "RUS": [
-      2554,
       2553,
       2552,
       2552,
@@ -3599,6 +3598,7 @@
       2529,
       2528,
       2528,
+      2527,
       2527
     ],
     "BLR": [
@@ -3609,7 +3609,7 @@
       34,
       34,
       34,
-      34,
+      37,
       37,
       37,
       37,
@@ -3659,7 +3659,7 @@
       18,
       18,
       18,
-      18,
+      20,
       20,
       20,
       20,
@@ -3810,7 +3810,7 @@
       24,
       24,
       24,
-      24,
+      25,
       25,
       25,
       25,
@@ -3852,7 +3852,6 @@
       25
     ],
     "CHN": [
-      3305,
       3304,
       3303,
       3303,
@@ -3899,7 +3898,8 @@
       3270,
       3269,
       3269,
-      3268
+      3268,
+      3267
     ],
     "KOR": [
       113,
@@ -3942,7 +3942,7 @@
       113,
       113,
       113,
-      113,
+      112,
       112,
       112,
       112,
@@ -3959,7 +3959,7 @@
       12,
       12,
       12,
-      12,
+      13,
       13,
       13,
       13,
@@ -4006,8 +4006,8 @@
     "composite": 10,
     "epidemio": 10,
     "polymarket": 6,
-    "kalshi": 13,
-    "max_andes_r0": 1.1,
+    "kalshi": 12,
+    "max_andes_r0": 1.14,
     "avg_other_r0": 0.93,
     "continents": [
       "Americas"
@@ -4016,7 +4016,7 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "ARG": 9,
+    "ARG": 10,
     "USA": 1,
     "FRA": 2
   },
@@ -4055,6 +4055,13 @@
       "t": "2026-06-05T23:27:32Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPYVUtVHBhc0JHUUE3WlNQRlhfQXVqMTd6YVJGMUQ1Q1RodFpPSHFNVjA2QUtRYVRqVVVHTWtZNFQ3dFVaUDRGME93R3J2akhOVW1hZHVETmJ5SUlMWnBPWnM1anlPVGgxcDh0TkZOQ2hwb0JRWUh6NXRwRURDcFY0NGtTVmI0ME80RUtnLXdDVWNYSjRLU3NiWERsaFRUZjAydnBwU2ZESkNZeUdHSVpkTE04c3hITGhoRW1XMFFtbmZ5SE9tbE9FeGx3TzFTRW1jc0o3TkZ5ZjdOWkszc28xR21tMERSNC1LdnFUaFBicUJ0RzNIeVRhSm9WdjhzZDJzSjBVY2FGa3NyeVhxb1Nack9KejV3eFAyTVA0?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - Oskaloosa Herald",
+      "t": "2026-06-05T23:27:32Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOc1A2YjJMdjdZUldERm1iaUoxSUs5X3hZNXdlMFpqSVdoMHR1V3YxT3c0c0dYVTQ2dnpxYkxUaEVaal9GQ1hzS0NzUUZYdEgxbzZZdGM0TnN3WHg1VkJUa3hGVFFMSlZMM0d2N2VuU3BtdUZ5a0dCVUdadkF0Snh5eE5McDNqVXZlQmx4dm0yLU5MRE1ZdFJvUE9qSnRQOWg0LWJxS1h4N0lkdFE5di1VLUJtTlV5dzJSNTZwSTZvT2o3dXNxb1dMaE5VTmk5U2VablFlWW1lR0JLb2ZldVZ5TUF2cXIzdnFTTnBSN1dpdkI4TlNJanRFeWtyNUhaZW80TnJ4SFdfYw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4122,7 +4129,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-09T04:55:11Z",
+      "last_update": "2026-06-09T05:00:05Z",
       "signals": 3,
       "recent": [
         {
