@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-09T02:15:04.205822Z",
-  "next_update": "2026-06-09T02:20:00Z",
+  "generated": "2026-06-09T02:20:08.636697Z",
+  "next_update": "2026-06-09T02:25:00Z",
   "days_active": 32,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -63,7 +63,7 @@
       "ytd": 7,
       "alert": "vigilancia",
       "cfr": 33.0,
-      "var_pct": 11,
+      "var_pct": 12,
       "strain": "hps",
       "new_today": 1,
       "r0": 3.5,
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -946,7 +946,7 @@
       67,
       69,
       70,
-      71,
+      72,
       73,
       81,
       80
@@ -1241,7 +1241,7 @@
     ],
     "RUS": [
       1872,
-      1948,
+      1949,
       2021,
       2087,
       2148,
@@ -1252,7 +1252,7 @@
       2583,
       2569,
       2555,
-      2542,
+      2541,
       2528
     ],
     "BLR": [
@@ -1337,7 +1337,7 @@
     ],
     "CHN": [
       2753,
-      2838,
+      2839,
       3498,
       3475,
       3452,
@@ -1345,7 +1345,7 @@
       3409,
       3388,
       3367,
-      3347,
+      3346,
       3327,
       3307,
       3288,
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 10,
     "polymarket": 6,
-    "kalshi": 16,
+    "kalshi": 14,
     "max_andes_r0": 1.1,
     "avg_other_r0": 0.93,
     "continents": [
@@ -4016,12 +4016,20 @@
     "outbreak_count": 3
   },
   "signal_summary": {
+    "CAN": 1,
     "ARG": 9,
     "USA": 1,
     "NOR": 1,
     "FRA": 2
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "Canadian cruise passenger who tested positive for hantavirus has recovered, health officials say - Yahoo News Canada",
+      "t": "2026-06-09T01:06:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOTRhVTg0TWl0aWNMeDhveEpBbkxMWVY4RkRsSC0wSEJLajB1MHBEYWdiREp6d0hXY2t5WXBjanJIajRCYnJoU2Q2V2JJeHRtQkRtTFpHNU5vSWFDbUtlNDJpa1F4T3IwMVlLYmpTYi0xMHYycTc4TVhPQXBTWUNnM1daWDY2M2JMY2c?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Scientists testing rodents for hantavirus in Argentina\u2019s famous wine region of Mendoza after cruise ship outbreak - AOL.com",
@@ -4130,7 +4138,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-09T02:15:04Z",
+      "last_update": "2026-06-09T02:20:08Z",
       "signals": 4,
       "recent": [
         {
