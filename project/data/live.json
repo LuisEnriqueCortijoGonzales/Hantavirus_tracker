@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-10T17:00:12.406289Z",
-  "next_update": "2026-06-10T17:05:00Z",
+  "generated": "2026-06-10T17:05:06.398728Z",
+  "next_update": "2026-06-10T17:10:00Z",
   "days_active": 33,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -54,7 +54,7 @@
       "cfr": 39.0,
       "var_pct": 8,
       "strain": "hps",
-      "new_today": 1,
+      "new_today": 0,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -236,7 +236,7 @@
       "gov_alert": false
     },
     "DEU": {
-      "ytd": 328,
+      "ytd": 327,
       "alert": "vigilancia",
       "cfr": 0.2,
       "var_pct": -4,
@@ -610,7 +610,7 @@
       89,
       89,
       95,
-      101,
+      102,
       107,
       113,
       119
@@ -644,7 +644,7 @@
       11,
       11,
       11,
-      11,
+      12,
       12
     ],
     "COL": [
@@ -917,7 +917,7 @@
       333,
       331,
       329,
-      328
+      327
     ],
     "POL": [
       45,
@@ -1241,8 +1241,8 @@
     ],
     "RUS": [
       1994,
-      2062,
-      2125,
+      2063,
+      2126,
       2183,
       2235,
       2618,
@@ -1337,7 +1337,7 @@
     ],
     "CHN": [
       3507,
-      3484,
+      3483,
       3461,
       3439,
       3417,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 10,
     "epidemio": 10,
     "polymarket": 5,
-    "kalshi": 12,
+    "kalshi": 16,
     "max_andes_r0": 1.11,
     "avg_other_r0": 1.08,
     "continents": [
@@ -4024,10 +4024,10 @@
   "events": [
     {
       "iso": "GBR",
-      "title": "Reino Unido confirma un caso positivo de hantavirus - Noticias de Gipuzkoa",
-      "t": "2026-06-10T14:37:09Z",
+      "title": "Reino Unido confirma un caso positivo de hantavirus - Deia",
+      "t": "2026-06-10T14:37:07Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN3VwY0dUdFNOQlRmTWQ3a2NIcHJlTWMwWmlscEthNl83cWVVLVpvNG44djR1bW1jTGZhRnFXT1VPZDFtYXY1NlNZLS02UC0zdnJZRlpWUzU3TlJyblZKcVdlNFA3cDN2S1hyS2RNYVhlYld3VGVlZzQ5UzR0Nm5rVktNZlpFRTdqN0lWSW14emxIUDdBYWE2ZnBwbzJYVDYtZkHSAacBQVVfeXFMT0JaTUlZbUxzZ2w1RGZtbWViSktGTFRhX1hyRGdWamJnemZvbzhfazlURkJfeVlJaXRiNEJ0VGZwRnV6dVhLdWtOUk1Rd1JZeGpOYXp2UlFYMnVNRU9rcGprdGFjUDdLcHZ3V295NTY2RVhETEROVkVnYUdVbGtCY2REV2I0b0xJTkZ5ZzZvMnpQNW5BZTVNYUlxVU5rX3B5dTh1U202WG8?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOLXJ4cHZIZmsyS3N5Y0RVVDYzWlFlU1FMQTlidkVpQy0zdi1YR1J2c0tEWlNGd3Q1cFJFVVZTTF9qWE9sQ2RmdjctcDRUSmdCZjkzTHowbXlQT3l6aFNkTUkwUHJzU1phdGMzRzBmN0hRWHFZQ0VhbV9QRno5Q2pYYm5Na0xzR1FOb0R2OUdVONIBlAFBVV95cUxNVElYLVRqLVlwUHdOellXUi1IREtya2tSTFc4MlNhWFQ0bzlzUXJmWDRFVUFRdFl6RF8xZ3pJMjQzOXgxeHlHa2hsS29fbUNPLWkwZGFPSVpuelhuMmt6RFEzdkVpY01FaktWQUQ1MDhjcUVQT1dGeTZEaEI1YkRTblZldXM2emJETmF6R0g5R2hYNENX?oc=5"
     },
     {
       "iso": "GBR",
@@ -4088,7 +4088,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-10T17:00:12Z",
+      "last_update": "2026-06-10T17:05:06Z",
       "signals": 2,
       "recent": [
         {
