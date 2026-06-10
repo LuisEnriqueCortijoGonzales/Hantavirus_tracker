@@ -1,29 +1,29 @@
 {
-  "generated": "2026-06-10T14:25:19.874799Z",
-  "next_update": "2026-06-10T14:30:00Z",
+  "generated": "2026-06-10T14:30:13.907682Z",
+  "next_update": "2026-06-10T14:35:00Z",
   "days_active": 33,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 215,
+      "ytd": 211,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 19,
+      "var_pct": 17,
       "strain": "andes",
       "new_today": 0,
-      "r0": 1.28,
-      "signals": 9,
+      "r0": 1.11,
+      "signals": 5,
       "gov_alert": false
     },
     "CHL": {
-      "ytd": 79,
+      "ytd": 78,
       "alert": "brote",
       "cfr": 35.5,
       "var_pct": -8,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "BRA": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GTM": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 3,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -568,36 +568,36 @@
   },
   "history": {
     "ARG": [
-      153,
-      160,
-      167,
-      173,
-      178,
-      184,
-      188,
+      150,
+      157,
+      163,
+      170,
+      175,
+      180,
+      185,
+      189,
       193,
-      197,
-      200,
-      224,
-      221,
-      218,
-      215
+      196,
+      219,
+      216,
+      214,
+      211
     ],
     "CHL": [
       66,
       68,
-      71,
+      70,
       72,
       74,
       87,
       86,
       85,
-      84,
       83,
       82,
       81,
       80,
-      79
+      79,
+      78
     ],
     "BRA": [
       89,
@@ -1343,7 +1343,7 @@
       3419,
       3398,
       3377,
-      3357,
+      3356,
       3336,
       3317,
       3297,
@@ -1452,40 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      221,
-      220,
-      220,
-      220,
-      220,
-      220,
-      220,
-      220,
-      220,
-      219,
-      219,
-      219,
-      219,
-      219,
-      219,
-      219,
-      219,
-      219,
-      218,
-      218,
-      218,
-      218,
-      218,
-      218,
-      218,
-      218,
-      217,
-      217,
-      217,
-      217,
-      217,
-      217,
-      217,
-      217,
       216,
       216,
       216,
@@ -1499,19 +1465,43 @@
       215,
       215,
       215,
-      215
+      215,
+      215,
+      215,
+      214,
+      214,
+      214,
+      214,
+      214,
+      214,
+      214,
+      214,
+      213,
+      213,
+      213,
+      213,
+      213,
+      213,
+      213,
+      213,
+      213,
+      212,
+      212,
+      212,
+      212,
+      212,
+      212,
+      212,
+      212,
+      211,
+      211,
+      211,
+      211,
+      211,
+      211,
+      211
     ],
     "CHL": [
-      81,
-      81,
-      81,
-      81,
-      81,
-      81,
-      81,
-      80,
-      80,
-      80,
       80,
       80,
       80,
@@ -1549,7 +1539,17 @@
       79,
       79,
       79,
-      79
+      79,
+      79,
+      79,
+      79,
+      79,
+      79,
+      79,
+      79,
+      79,
+      79,
+      78
     ],
     "BRA": [
       107,
@@ -4004,10 +4004,10 @@
   },
   "pandemic": {
     "composite": 10,
-    "epidemio": 12,
+    "epidemio": 10,
     "polymarket": 6,
     "kalshi": 12,
-    "max_andes_r0": 1.28,
+    "max_andes_r0": 1.11,
     "avg_other_r0": 1.08,
     "continents": [
       "Americas"
@@ -4016,11 +4016,9 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "GBR": 3,
-    "ARG": 9,
+    "GBR": 1,
+    "ARG": 5,
     "NOR": 1,
-    "CAN": 1,
-    "CHL": 1,
     "FRA": 1
   },
   "events": [
@@ -4030,41 +4028,6 @@
       "t": "2026-06-10T13:37:35Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOMU9CVTVndjZCNFZUc1VrcTltWktLdnR6MVJLMGt1MGw3TFZMX1pnNDNVeGhaX2RDakRhTGZZa3BldUp1aDZ5b3VXbUw4OExiZXdzYzZRdXZ5Ul9pakoyUktDSzdtNnl5MVFqVzc3b3JqWEZqQl9nUXNRcTAzU3A3WXllSFVIVWozODFoSzFDODVEUHVJTG1wY01HTWZ4MTJHcGh1MUVLemM0bDZzSlhwS2k0NzdxQjJjcXdSRExRSF9rT09VZnhlcURzb21FSmc2b1VXXzYzNWVLWGZoNVMwN2tuMHByck55cjd4ZEw0cGRvYUMyME5iTkR1eWVpendESHc?oc=5"
-    },
-    {
-      "iso": "CHL",
-      "title": "Hantavirus: Chile Offers Rapid Testing Kits as Scientists Race to Improve Early Detection - Ilglobo.com",
-      "t": "2026-06-10T00:18:47Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdm9ZMlFDZGk2N0pycVJBeG80Vzh2SGpZSGlueHVIOTg4QWlFazhpLVBkX3RHbTBIdGJpX3JpS2R4ajVLcmpsT3Z0QkxqYWdKZTFiOUtheEdMaDJndkJEOUF6ZnVKWVhQeW8tLVBWa0xzMXFqaksyZ1I4Y2VTZ2lhWnFscEhaaHFqOU1KaGx4d3BHQUQxMzNnNm5KdEozOHhYOVhuVHQ1dDNvNTJPZlpaa3gzaGVBTEVLOWFndDRUOVgwUQ?oc=5"
-    },
-    {
-      "iso": "CAN",
-      "title": "Health Matters: Canadian who tested positive for hantavirus has recovered - Yahoo News Canada",
-      "t": "2026-06-09T16:08:56Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYnlUWUc2dFB2cy02OHhvMTZqM19FZjlDME53U180eGptSXhUTG9xSzd4UXVqOVpRa2dkUXhoLThNSGwtRTZwM001X2tJUktiQnhOMkVGZnJfWnVVZUZ2S0ZqRjZGUzBPUmNuTUZFXzQ4M2VKUEh2RDBsd04wWnJNaHo0Vlk2LVE?oc=5"
-    },
-    {
-      "iso": "GBR",
-      "title": "HMS Medway helps prevent hantavirus outbreak on UK's most remote overseas territory - Forces News",
-      "t": "2026-06-09T12:55:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPamVnQlgtZ2ZyMkFLend5U3BHaEo3UkYza3ZQNFhVbkdGaXBPRWhvS0s1OFRwcnpZcWkzVVhQUHVNZTNkSG9qZl8yOFZZTk5acGFMNkRIUVJ3LXBwWDB3NnotTVlZSG1SY0o0MVA5OXdMWTBqR2hPNmxzR3pIUEpzOWtqRUxMenNIc1pxWkIxcFVnMDNmbGczUmtoTXBVd2RGTlNSdWg2aFhoN2ZXdk9qeTNRX0ZRcE55Q3hiWg?oc=5"
-    },
-    {
-      "iso": "GBR",
-      "title": "Defence Medics parachute into Tristan da Cunha to treat hantavirus patient - GOV.UK",
-      "t": "2026-06-09T08:00:01Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLXNOVl9GemNERVZncV95eDZHVFNDNHdKUjVTUUxSMVRkTnpmWGdVQ1VuZnU5a2xmaEhfeGh1aWxaeWhtMVFIWHRjVGlyY1RCc2NqQUN4d1p2czNLcEVpQ0g4VmRqX2NmZkZjSVJhbkxfWml4bU9seGtfMExlcVd6OUVBOWN0b21iOE5ranhJVWttR1hJcFBkdUs5a3RORWRRcFVJTlNUN2xjajVsZWc?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Scientists testing rodents for hantavirus in Argentina\u2019s famous wine region of Mendoza after cruise ship outbreak - AOL.com",
-      "t": "2026-06-08T15:25:47Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeFpXUTVFaXhnaWNidmxuT3F3b1R5ZDJNRHZySjhtQVBGdFlIVURQM0VXTkdCeXk1VVJvd3JVVlFndFZvdnZQOEJyVkpjX1lBeER4QzVSeDFlYjRwUG1LQ0VORU1GZENYTFlnU2ZFTEgtTW12S3MwSmdzQWE1czZvQXprb3Qwdw?oc=5"
     },
     {
       "iso": "NOR",
@@ -4089,13 +4052,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina to expand hantavirus search to a second province - The Standard (HK)",
-      "t": "2026-06-06T07:19:38Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcVdFTmFHMVhfYWd2ZWdXVktiZGpLNWVWNGl4RzhWb2Z6eXY4TFpfX1NzQ2M0b0toTnZEMjA2MW1ScFh4MFlsUjFYRmRhRHhzNU1oaGowa3duYXdaZXFYLTd5OGY5NW1IbUsxbTc1ZFM2ODJSclpKbjMwaVhjakRndDhpX2ZYRGt2UmFQVnNvQWpodVgxQ1hMZDlSbEpuc2pScjk3ejJ2WU95T2VCSHlJ?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW.com",
       "t": "2026-06-06T03:30:52Z",
       "source": "GoogleNews-EN",
@@ -4107,20 +4063,6 @@
       "t": "2026-06-05T23:40:42Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYV9WYXctbkRkNHQxeTVCd2VsSHRfRTI0UEJVYVJNOERaVVpBOFg3SDZIdEpvaG42S3RNZ3R2NzVlcTNRd1NPeExsUzNnQmlLLVpyVnd3QTV0V0hiNjVFaU1mTGJXTDA0ZzZWRjRDSWtSOElBS042RmZKZnQtZEJuV0ZpX01SMXFFYURtcFRQYnAxT3piX3V4aldNZHBRbUdUUXlvTV9XdldvUmFGX1F2ME13VFg?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - The Lufkin Daily News",
-      "t": "2026-06-05T23:27:32Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPX2ZKa3E1QnVoOHZjNUdzcWlEWUV6dXlJdlVNazhTYWJfZG11TnNVbjZPSmR3akNEVk91VjBYcU5rNFR2bFBTbEhhcVVmeG1hSmVoLXdIVzdDTlI0em5nWEhTNFJDWThGcTJxMGllRWdYazRNUnkzYTlvQnNEa0RnX2xxTm5nenk3YXpnZHNCakxaZEpObXh1NTFTcndLU1pHN2YzSG03dnhMTktKeUNXSVJDcFJXbUpSSFFBNmpLY2drV3hOZkhFZkZsSjZFTWZ6OXdxd1VKV1lPazl1S04wMHdsTFZiMWx3bktKcWVRcVNJckdJdDVsX0otSGdvRm9YcjFlTzdzSm9vQQ?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - The Killeen Daily Herald",
-      "t": "2026-06-05T23:27:32Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQd3VmS0JZd21HbTI1ek9iWWNXNzN3RVlwYnJqY0RLdW9lMGFYRU00bVV4WTN3aE84aDlwRkM3eXAxeUJZZFBjRWtJYjNEZTFTMFA3Y2s1NHFfYWYzbzdKWUdiQmZaSFIzbW4zRW1pTGltQU5wYzh2dF96RTgzU3dFaDhvMUlDRHc0THk5MWJwc1kwMjBhNngtYnZWRnhpYTVYdF93czA0Wk9QZzRLakpXVnU4amZTOWxaQm5tRUVYa3RuYThFcllZanBvUlc3UGhmTkt6emVNQ1ByUkg1WEo2Z0czaEItRURhUFFHemRNd3BJVl9s?oc=5"
     },
     {
       "iso": "ARG",
@@ -4153,14 +4095,9 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-10T14:25:19Z",
-      "signals": 3,
+      "last_update": "2026-06-10T14:30:13Z",
+      "signals": 2,
       "recent": [
-        {
-          "title": "Scientists testing rodents for hantavirus in Argentina\u2019s famous wine region of Mendoza after cruise ship outbreak - AOL.com",
-          "t": "2026-06-08T15:25:47Z",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeFpXUTVFaXhnaWNidmxuT3F3b1R5ZDJNRHZySjhtQVBGdFlIVURQM0VXTkdCeXk1VVJvd3JVVlFndFZvdnZQOEJyVkpjX1lBeER4QzVSeDFlYjRwUG1LQ0VORU1GZENYTFlnU2ZFTEgtTW12S3MwSmdzQWE1czZvQXprb3Qwdw?oc=5"
-        },
         {
           "title": "Cruise ship Hondius departs Rotterdam for Norway after deadly hantavirus outbreak - NL Times",
           "t": "2026-06-07T11:55:00Z",
