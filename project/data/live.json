@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-10T07:45:06.410366Z",
-  "next_update": "2026-06-10T07:50:00Z",
+  "generated": "2026-06-10T07:50:16.183255Z",
+  "next_update": "2026-06-10T07:55:00Z",
   "days_active": 33,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -23,7 +23,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "BRA": {
@@ -585,10 +585,10 @@
     ],
     "CHL": [
       65,
-      68,
+      67,
       70,
       72,
-      74,
+      73,
       75,
       86,
       85,
@@ -1241,10 +1241,10 @@
     ],
     "RUS": [
       1966,
-      2036,
+      2037,
       2102,
-      2161,
-      2215,
+      2162,
+      2216,
       2264,
       2609,
       2594,
@@ -1506,16 +1506,6 @@
       81,
       81,
       81,
-      81,
-      81,
-      81,
-      81,
-      81,
-      81,
-      81,
-      81,
-      81,
-      81,
       80,
       80,
       80,
@@ -1541,6 +1531,16 @@
       80,
       80,
       80,
+      79,
+      79,
+      79,
+      79,
+      79,
+      79,
+      79,
+      79,
+      79,
+      79,
       79,
       79,
       79,
@@ -4019,17 +4019,9 @@
     "ARG": 6,
     "CAN": 1,
     "GBR": 1,
-    "CHL": 1,
     "FRA": 1
   },
   "events": [
-    {
-      "iso": "CHL",
-      "title": "Hantavirus: Chile Offers Rapid Testing Kits as Scientists Race to Improve Early Detection - Ilglobo.com",
-      "t": "2026-06-10T00:18:47Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdm9ZMlFDZGk2N0pycVJBeG80Vzh2SGpZSGlueHVIOTg4QWlFazhpLVBkX3RHbTBIdGJpX3JpS2R4ajVLcmpsT3Z0QkxqYWdKZTFiOUtheEdMaDJndkJEOUF6ZnVKWVhQeW8tLVBWa0xzMXFqaksyZ1I4Y2VTZ2lhWnFscEhaaHFqOU1KaGx4d3BHQUQxMzNnNm5KdEozOHhYOVhuVHQ1dDNvNTJPZlpaa3gzaGVBTEVLOWFndDRUOVgwUQ?oc=5"
-    },
     {
       "iso": "CAN",
       "title": "Health Matters: Canadian who tested positive for hantavirus has recovered - Yahoo News Canada",
@@ -4110,7 +4102,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-10T07:45:06Z",
+      "last_update": "2026-06-10T07:50:16Z",
       "signals": 1,
       "recent": [
         {
