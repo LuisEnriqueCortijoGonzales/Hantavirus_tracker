@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-10T00:25:19.900437Z",
-  "next_update": "2026-06-10T00:30:00Z",
+  "generated": "2026-06-10T00:30:08.650631Z",
+  "next_update": "2026-06-10T00:35:00Z",
   "days_active": 33,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -23,7 +23,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "BRA": {
@@ -584,14 +584,14 @@
       212
     ],
     "CHL": [
-      64,
+      65,
       67,
       69,
       71,
       73,
       75,
+      87,
       86,
-      85,
       84,
       83,
       82,
@@ -904,11 +904,11 @@
       190
     ],
     "DEU": [
-      274,
+      275,
       283,
       291,
       350,
-      348,
+      347,
       345,
       343,
       341,
@@ -1241,10 +1241,10 @@
     ],
     "RUS": [
       1943,
-      2015,
-      2082,
+      2016,
+      2083,
       2144,
-      2199,
+      2200,
       2250,
       2613,
       2598,
@@ -1338,7 +1338,7 @@
     "CHN": [
       2832,
       3499,
-      3477,
+      3476,
       3454,
       3432,
       3410,
@@ -1513,6 +1513,16 @@
       81,
       81,
       81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
       80,
       80,
       80,
@@ -1538,16 +1548,6 @@
       80,
       80,
       80,
-      79,
-      79,
-      79,
-      79,
-      79,
-      79,
-      79,
-      79,
-      79,
-      79,
       79,
       79
     ],
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 10,
     "polymarket": 6,
-    "kalshi": 13,
+    "kalshi": 16,
     "max_andes_r0": 1.11,
     "avg_other_r0": 1.08,
     "continents": [
@@ -4019,9 +4019,17 @@
     "ARG": 5,
     "GBR": 2,
     "CAN": 1,
+    "CHL": 1,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "CHL",
+      "title": "Hantavirus: Chile Offers Rapid Testing Kits as Scientists Race to Improve Early Detection - Ilglobo.com",
+      "t": "2026-06-10T00:18:47Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdm9ZMlFDZGk2N0pycVJBeG80Vzh2SGpZSGlueHVIOTg4QWlFazhpLVBkX3RHbTBIdGJpX3JpS2R4ajVLcmpsT3Z0QkxqYWdKZTFiOUtheEdMaDJndkJEOUF6ZnVKWVhQeW8tLVBWa0xzMXFqaksyZ1I4Y2VTZ2lhWnFscEhaaHFqOU1KaGx4d3BHQUQxMzNnNm5KdEozOHhYOVhuVHQ1dDNvNTJPZlpaa3gzaGVBTEVLOWFndDRUOVgwUQ?oc=5"
+    },
     {
       "iso": "CAN",
       "title": "Health Matters: Canadian who tested positive for hantavirus has recovered - Yahoo News Canada",
@@ -4102,7 +4110,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-10T00:25:19Z",
+      "last_update": "2026-06-10T00:30:08Z",
       "signals": 1,
       "recent": [
         {
