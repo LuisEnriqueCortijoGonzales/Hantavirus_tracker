@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-10T05:25:16.892348Z",
-  "next_update": "2026-06-10T05:30:00Z",
+  "generated": "2026-06-10T05:30:16.138661Z",
+  "next_update": "2026-06-10T05:35:00Z",
   "days_active": 33,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -23,7 +23,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "BRA": {
@@ -32,7 +32,7 @@
       "cfr": 41.6,
       "var_pct": 30,
       "strain": "hps",
-      "new_today": 6,
+      "new_today": 5,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -585,10 +585,10 @@
     ],
     "CHL": [
       65,
-      67,
-      69,
-      71,
-      73,
+      68,
+      70,
+      72,
+      74,
       75,
       86,
       85,
@@ -612,7 +612,7 @@
       92,
       99,
       105,
-      110,
+      111,
       116
     ],
     "BOL": [
@@ -1240,11 +1240,11 @@
       4
     ],
     "RUS": [
-      1958,
+      1959,
       2030,
       2096,
       2156,
-      2210,
+      2211,
       2260,
       2610,
       2595,
@@ -1347,7 +1347,7 @@
       3344,
       3324,
       3305,
-      3286,
+      3285,
       3267,
       3248
     ],
@@ -1508,6 +1508,16 @@
       81,
       81,
       81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
+      81,
       80,
       80,
       80,
@@ -1533,16 +1543,6 @@
       80,
       80,
       80,
-      79,
-      79,
-      79,
-      79,
-      79,
-      79,
-      79,
-      79,
-      79,
-      79,
       79,
       79,
       79,
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 10,
     "polymarket": 6,
-    "kalshi": 12,
+    "kalshi": 15,
     "max_andes_r0": 1.16,
     "avg_other_r0": 1.08,
     "continents": [
@@ -4019,9 +4019,17 @@
     "ARG": 6,
     "CAN": 1,
     "GBR": 2,
+    "CHL": 1,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "CHL",
+      "title": "Hantavirus: Chile Offers Rapid Testing Kits as Scientists Race to Improve Early Detection - Ilglobo.com",
+      "t": "2026-06-10T00:18:47Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdm9ZMlFDZGk2N0pycVJBeG80Vzh2SGpZSGlueHVIOTg4QWlFazhpLVBkX3RHbTBIdGJpX3JpS2R4ajVLcmpsT3Z0QkxqYWdKZTFiOUtheEdMaDJndkJEOUF6ZnVKWVhQeW8tLVBWa0xzMXFqaksyZ1I4Y2VTZ2lhWnFscEhaaHFqOU1KaGx4d3BHQUQxMzNnNm5KdEozOHhYOVhuVHQ1dDNvNTJPZlpaa3gzaGVBTEVLOWFndDRUOVgwUQ?oc=5"
+    },
     {
       "iso": "CAN",
       "title": "Health Matters: Canadian who tested positive for hantavirus has recovered - Yahoo News Canada",
@@ -4109,7 +4117,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-10T05:25:16Z",
+      "last_update": "2026-06-10T05:30:16Z",
       "signals": 1,
       "recent": [
         {
