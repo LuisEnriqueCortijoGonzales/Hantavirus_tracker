@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-10T16:50:13.925969Z",
-  "next_update": "2026-06-10T16:55:00Z",
+  "generated": "2026-06-10T16:55:18.411564Z",
+  "next_update": "2026-06-10T17:00:00Z",
   "days_active": 33,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 209,
+      "ytd": 208,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 16,
+      "var_pct": 15,
       "strain": "andes",
       "new_today": 0,
       "r0": 1.11,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "CHL": {
@@ -467,7 +467,7 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2508,
+      "ytd": 2507,
       "alert": "vigilancia",
       "cfr": 0.9,
       "var_pct": -4,
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      150,
-      157,
-      163,
-      169,
-      175,
-      180,
-      184,
+      149,
+      156,
+      162,
+      168,
+      174,
+      179,
+      183,
       188,
-      192,
+      191,
       195,
-      218,
-      215,
-      212,
-      209
+      217,
+      214,
+      211,
+      208
     ],
     "CHL": [
       66,
@@ -890,7 +890,7 @@
     "SWE": [
       203,
       202,
-      201,
+      200,
       199,
       198,
       197,
@@ -1243,17 +1243,17 @@
       1993,
       2062,
       2125,
-      2182,
+      2183,
       2235,
       2618,
       2603,
-      2589,
+      2588,
       2574,
       2560,
       2547,
       2533,
       2520,
-      2508
+      2507
     ],
     "BLR": [
       34,
@@ -1452,15 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      215,
-      215,
-      215,
-      215,
-      215,
-      214,
-      214,
-      214,
-      214,
       214,
       214,
       214,
@@ -1482,7 +1473,7 @@
       212,
       212,
       212,
-      211,
+      212,
       211,
       211,
       211,
@@ -1499,7 +1490,16 @@
       210,
       210,
       210,
-      209
+      209,
+      209,
+      209,
+      209,
+      209,
+      209,
+      209,
+      209,
+      209,
+      208
     ],
     "CHL": [
       80,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 10,
+    "composite": 9,
     "epidemio": 10,
     "polymarket": 5,
-    "kalshi": 14,
+    "kalshi": 12,
     "max_andes_r0": 1.11,
     "avg_other_r0": 1.08,
     "continents": [
@@ -4017,17 +4017,17 @@
   },
   "signal_summary": {
     "GBR": 2,
-    "ARG": 4,
+    "ARG": 3,
     "NOR": 1,
     "FRA": 1
   },
   "events": [
     {
       "iso": "GBR",
-      "title": "Reino Unido confirma un caso positivo de hantavirus - Deia",
-      "t": "2026-06-10T14:37:07Z",
+      "title": "Reino Unido confirma un caso positivo de hantavirus - Noticias de Gipuzkoa",
+      "t": "2026-06-10T14:37:09Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOLXJ4cHZIZmsyS3N5Y0RVVDYzWlFlU1FMQTlidkVpQy0zdi1YR1J2c0tEWlNGd3Q1cFJFVVZTTF9qWE9sQ2RmdjctcDRUSmdCZjkzTHowbXlQT3l6aFNkTUkwUHJzU1phdGMzRzBmN0hRWHFZQ0VhbV9QRno5Q2pYYm5Na0xzR1FOb0R2OUdVONIBlAFBVV95cUxNVElYLVRqLVlwUHdOellXUi1IREtya2tSTFc4MlNhWFQ0bzlzUXJmWDRFVUFRdFl6RF8xZ3pJMjQzOXgxeHlHa2hsS29fbUNPLWkwZGFPSVpuelhuMmt6RFEzdkVpY01FaktWQUQ1MDhjcUVQT1dGeTZEaEI1YkRTblZldXM2emJETmF6R0g5R2hYNENX?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN3VwY0dUdFNOQlRmTWQ3a2NIcHJlTWMwWmlscEthNl83cWVVLVpvNG44djR1bW1jTGZhRnFXT1VPZDFtYXY1NlNZLS02UC0zdnJZRlpWUzU3TlJyblZKcVdlNFA3cDN2S1hyS2RNYVhlYld3VGVlZzQ5UzR0Nm5rVktNZlpFRTdqN0lWSW14emxIUDdBYWE2ZnBwbzJYVDYtZkHSAacBQVVfeXFMT0JaTUlZbUxzZ2w1RGZtbWViSktGTFRhX1hyRGdWamJnemZvbzhfazlURkJfeVlJaXRiNEJ0VGZwRnV6dVhLdWtOUk1Rd1JZeGpOYXp2UlFYMnVNRU9rcGprdGFjUDdLcHZ3V295NTY2RVhETEROVkVnYUdVbGtCY2REV2I0b0xJTkZ5ZzZvMnpQNW5BZTVNYUlxVU5rX3B5dTh1U202WG8?oc=5"
     },
     {
       "iso": "GBR",
@@ -4049,13 +4049,6 @@
       "t": "2026-06-07T02:28:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQWWJhRl81VFBRc0dBalB5UXZZcjVRNEhqZU9MUU4ycm5scnV0V3pQVXhHdDJET3lTZ2UyQ1FFc2dsRVRETkFMMHpBdkJQWnk5NW13ZU9YU3Vid3JseTRuT0d3c3ZmM2FZMzlfNmhDM2pSSGN6dkR1dUVFR05zRGMwMHNBMjJlUFpnSVhVYmlPSUNXWG1FaV9aaGJBejBQdjEtS1l6czhhWTVTdFhmRlNQLTk2dmVUT3QzTnVzVk9IakprT3F3STh3UVNwdUFVbzl6MVdYNW5SMDdHaFhRQTIyRjhR?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Del laboratorio en Nueva York al Instituto Leloir en Argentina para ganarle la batalla al hantavirus - Diario R\u00edo Negro",
-      "t": "2026-06-06T11:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTE5yZUFSb0FwTXkwY1JYdlNCeVFVa2VrWUZxd19XM2lkcjJVek5LLXdEZEVRaXBmOC1WYUJXWEdPUFdBTlpSUVNNWXN2ZmNqN3F6QkQzWXJkSnJobi1vaTFETGVjU2JLUFQxVzVxSFh5d3JJYVd1M3R1RHVkcEVjREFhaTFSSTdXVkZ0R3BFYS1WdTR1d1JxcVJSclE0Uk1CeTJCTWRLNGZXZGhJajFVT3k1Ry1HZ2RVTjQwZmlYQ1hGWWdaSHFUR3NrNnNIeVRZcUN0eNIB3AFBVV95cUxNUEE1N0cyaU9mMjk4a1ctbnpRV3F3S0g2Q0lrUXlmenh6a0NyWWowdVA4OWJfdEVISkF4V0laeWw3ZjlDN2NjRF8xNDVuUVFPSVFlcnk5SVc3UzFIdFJtWFNhVUlMOWFGZEZQelg2Z052M3BpTXhmTFJRczdXSXZLTUlxQ0FFNUZJOW9GX3hPZkZMdU0yMXNidzM2RlE1Y0lLZ3d3bGdja25xMzNSdFRWRXhXZ2NGN2hsS3NKV1NQaDRjX1RyMmhvNFZ5MGs2RVZOVldRY2x2YmtuX2lG?oc=5"
     },
     {
       "iso": "ARG",
@@ -4095,7 +4088,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-10T16:50:13Z",
+      "last_update": "2026-06-10T16:55:18Z",
       "signals": 2,
       "recent": [
         {
