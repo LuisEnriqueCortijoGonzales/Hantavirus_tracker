@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-10T10:30:18.413835Z",
-  "next_update": "2026-06-10T10:35:00Z",
+  "generated": "2026-06-10T10:35:12.383923Z",
+  "next_update": "2026-06-10T10:40:00Z",
   "days_active": 33,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GRC": {
@@ -905,7 +905,7 @@
     ],
     "DEU": [
       278,
-      286,
+      287,
       294,
       349,
       347,
@@ -1245,7 +1245,7 @@
       2109,
       2168,
       2221,
-      2269,
+      2270,
       2607,
       2592,
       2578,
@@ -1346,8 +1346,8 @@
       3360,
       3340,
       3320,
-      3301,
-      3282,
+      3300,
+      3281,
       3263,
       3245
     ],
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 10,
     "polymarket": 6,
-    "kalshi": 12,
+    "kalshi": 15,
     "max_andes_r0": 1.11,
     "avg_other_r0": 1.08,
     "continents": [
@@ -4018,7 +4018,6 @@
   "signal_summary": {
     "ARG": 6,
     "CAN": 1,
-    "GBR": 1,
     "FRA": 1
   },
   "events": [
@@ -4028,13 +4027,6 @@
       "t": "2026-06-09T16:08:56Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYnlUWUc2dFB2cy02OHhvMTZqM19FZjlDME53U180eGptSXhUTG9xSzd4UXVqOVpRa2dkUXhoLThNSGwtRTZwM001X2tJUktiQnhOMkVGZnJfWnVVZUZ2S0ZqRjZGUzBPUmNuTUZFXzQ4M2VKUEh2RDBsd04wWnJNaHo0Vlk2LVE?oc=5"
-    },
-    {
-      "iso": "GBR",
-      "title": "HMS Medway helps prevent hantavirus outbreak on UK's most remote overseas territory - Forces News",
-      "t": "2026-06-09T12:55:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPamVnQlgtZ2ZyMkFLend5U3BHaEo3UkYza3ZQNFhVbkdGaXBPRWhvS0s1OFRwcnpZcWkzVVhQUHVNZTNkSG9qZl8yOFZZTk5acGFMNkRIUVJ3LXBwWDB3NnotTVlZSG1SY0o0MVA5OXdMWTBqR2hPNmxzR3pIUEpzOWtqRUxMenNIc1pxWkIxcFVnMDNmbGczUmtoTXBVd2RGTlNSdWg2aFhoN2ZXdk9qeTNRX0ZRcE55Q3hiWg?oc=5"
     },
     {
       "iso": "ARG",
@@ -4102,7 +4094,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-10T10:30:18Z",
+      "last_update": "2026-06-10T10:35:12Z",
       "signals": 1,
       "recent": [
         {
