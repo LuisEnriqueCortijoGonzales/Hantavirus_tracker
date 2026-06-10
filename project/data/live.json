@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-10T14:40:01.867781Z",
-  "next_update": "2026-06-10T14:45:00Z",
+  "generated": "2026-06-10T14:45:16.896793Z",
+  "next_update": "2026-06-10T14:50:00Z",
   "days_active": 33,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "GRC": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3242,
+      "ytd": 3241,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": -4,
@@ -570,7 +570,7 @@
     "ARG": [
       150,
       157,
-      163,
+      164,
       170,
       175,
       180,
@@ -891,7 +891,7 @@
       203,
       202,
       201,
-      200,
+      199,
       198,
       197,
       196,
@@ -1242,8 +1242,8 @@
     "RUS": [
       1987,
       2056,
-      2119,
-      2177,
+      2120,
+      2178,
       2230,
       2619,
       2604,
@@ -1252,7 +1252,7 @@
       2562,
       2548,
       2535,
-      2522,
+      2521,
       2509
     ],
     "BLR": [
@@ -1345,11 +1345,11 @@
       3377,
       3356,
       3336,
-      3317,
+      3316,
       3297,
       3278,
       3260,
-      3242
+      3241
     ],
     "KOR": [
       89,
@@ -4003,9 +4003,9 @@
     ]
   },
   "pandemic": {
-    "composite": 10,
+    "composite": 9,
     "epidemio": 10,
-    "polymarket": 6,
+    "polymarket": 5,
     "kalshi": 12,
     "max_andes_r0": 1.11,
     "avg_other_r0": 1.08,
@@ -4016,12 +4016,19 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "GBR": 1,
+    "GBR": 2,
     "ARG": 5,
     "NOR": 1,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "GBR",
+      "title": "Reino Unido confirma un caso positivo de hantavirus - Deia",
+      "t": "2026-06-10T14:37:07Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOLXJ4cHZIZmsyS3N5Y0RVVDYzWlFlU1FMQTlidkVpQy0zdi1YR1J2c0tEWlNGd3Q1cFJFVVZTTF9qWE9sQ2RmdjctcDRUSmdCZjkzTHowbXlQT3l6aFNkTUkwUHJzU1phdGMzRzBmN0hRWHFZQ0VhbV9QRno5Q2pYYm5Na0xzR1FOb0R2OUdVONIBlAFBVV95cUxNVElYLVRqLVlwUHdOellXUi1IREtya2tSTFc4MlNhWFQ0bzlzUXJmWDRFVUFRdFl6RF8xZ3pJMjQzOXgxeHlHa2hsS29fbUNPLWkwZGFPSVpuelhuMmt6RFEzdkVpY01FaktWQUQ1MDhjcUVQT1dGeTZEaEI1YkRTblZldXM2emJETmF6R0g5R2hYNENX?oc=5"
+    },
     {
       "iso": "GBR",
       "title": "UKHSA Says No Change To Public Health Risk To The UK Population From Hantavirus, Which Remains Very Low - TradingView",
@@ -4052,7 +4059,7 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW.com",
+      "title": "Hantavirus: Argentina expands probe to trace outbreak source - dw.com",
       "t": "2026-06-06T03:30:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
@@ -4095,7 +4102,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-10T14:40:01Z",
+      "last_update": "2026-06-10T14:45:16Z",
       "signals": 2,
       "recent": [
         {
