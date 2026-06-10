@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-10T23:25:12.395316Z",
-  "next_update": "2026-06-10T23:30:00Z",
+  "generated": "2026-06-10T23:30:06.399931Z",
+  "next_update": "2026-06-10T23:35:00Z",
   "days_active": 33,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 208,
+      "ytd": 210,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 14,
+      "var_pct": 15,
       "strain": "andes",
       "new_today": 0,
       "r0": 1.11,
-      "signals": 3,
+      "signals": 5,
       "gov_alert": false
     },
     "CHL": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 1,
+      "var_pct": 2,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 3,
+      "signals": 4,
       "gov_alert": false
     },
     "GRC": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      151,
-      158,
-      164,
-      170,
-      175,
-      180,
-      185,
-      189,
-      192,
-      195,
-      216,
-      213,
-      210,
-      208
+      153,
+      159,
+      166,
+      172,
+      177,
+      182,
+      186,
+      190,
+      194,
+      197,
+      218,
+      215,
+      212,
+      210
     ],
     "CHL": [
       67,
@@ -1240,7 +1240,7 @@
       4
     ],
     "RUS": [
-      2012,
+      2013,
       2080,
       2141,
       2197,
@@ -1248,7 +1248,7 @@
       2614,
       2599,
       2585,
-      2571,
+      2570,
       2557,
       2543,
       2530,
@@ -1452,13 +1452,30 @@
   ],
   "hourly_history": {
     "ARG": [
+      215,
+      215,
+      215,
+      215,
+      215,
+      215,
+      215,
+      214,
+      214,
+      214,
+      214,
+      214,
+      214,
+      214,
+      214,
       213,
       213,
       213,
       213,
       213,
       213,
-      212,
+      213,
+      213,
+      213,
       212,
       212,
       212,
@@ -1482,24 +1499,7 @@
       210,
       210,
       210,
-      210,
-      209,
-      209,
-      209,
-      209,
-      209,
-      209,
-      209,
-      209,
-      209,
-      208,
-      208,
-      208,
-      208,
-      208,
-      208,
-      208,
-      208
+      210
     ],
     "CHL": [
       80,
@@ -4017,8 +4017,8 @@
   },
   "signal_summary": {
     "USA": 1,
-    "ARG": 3,
-    "GBR": 3,
+    "ARG": 5,
+    "GBR": 4,
     "NOR": 1,
     "FRA": 1,
     "MEX": 1
@@ -4060,6 +4060,13 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcEtzLU4zTUZ4WnRZUEFITDVWWnFLd1A5RE5aSXZZVF9sQlg2RzVIQzlDZGtTMy1ZTVp2OUphUHQ5SWV2aFJCSHpjT1dNUnlKTXBxQmY5Xzhidk15MVNHSUxCSkMzcWs5N1hqM0lmcmt3VjZ5WlJJczF4RW9fVUpXNWJqcVJ5cTkyMm1VSHNkM3RKaXVZSHgybzd1TGthd0VaSnhSZ0lBeC1yeFYxdXVoVGF0OTJIQ21fRHZtY05kOA?oc=5"
     },
     {
+      "iso": "GBR",
+      "title": "HMS Medway helps prevent hantavirus outbreak on UK's most remote overseas territory - Forces News",
+      "t": "2026-06-09T12:55:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPamVnQlgtZ2ZyMkFLend5U3BHaEo3UkYza3ZQNFhVbkdGaXBPRWhvS0s1OFRwcnpZcWkzVVhQUHVNZTNkSG9qZl8yOFZZTk5acGFMNkRIUVJ3LXBwWDB3NnotTVlZSG1SY0o0MVA5OXdMWTBqR2hPNmxzR3pIUEpzOWtqRUxMenNIc1pxWkIxcFVnMDNmbGczUmtoTXBVd2RGTlNSdWg2aFhoN2ZXdk9qeTNRX0ZRcE55Q3hiWg?oc=5"
+    },
+    {
       "iso": "NOR",
       "title": "Cruise ship Hondius departs Rotterdam for Norway after deadly hantavirus outbreak - NL Times",
       "t": "2026-06-07T11:55:00Z",
@@ -4068,7 +4075,7 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus: Argentina expands probe to trace outbreak source - dw.com",
+      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW.com",
       "t": "2026-06-06T03:30:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
@@ -4086,6 +4093,20 @@
       "t": "2026-06-05T23:40:42Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYV9WYXctbkRkNHQxeTVCd2VsSHRfRTI0UEJVYVJNOERaVVpBOFg3SDZIdEpvaG42S3RNZ3R2NzVlcTNRd1NPeExsUzNnQmlLLVpyVnd3QTV0V0hiNjVFaU1mTGJXTDA0ZzZWRjRDSWtSOElBS042RmZKZnQtZEJuV0ZpX01SMXFFYURtcFRQYnAxT3piX3V4aldNZHBRbUdUUXlvTV9XdldvUmFGX1F2ME13VFg?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - The Lufkin Daily News",
+      "t": "2026-06-05T23:27:32Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPX2ZKa3E1QnVoOHZjNUdzcWlEWUV6dXlJdlVNazhTYWJfZG11TnNVbjZPSmR3akNEVk91VjBYcU5rNFR2bFBTbEhhcVVmeG1hSmVoLXdIVzdDTlI0em5nWEhTNFJDWThGcTJxMGllRWdYazRNUnkzYTlvQnNEa0RnX2xxTm5nenk3YXpnZHNCakxaZEpObXh1NTFTcndLU1pHN2YzSG03dnhMTktKeUNXSVJDcFJXbUpSSFFBNmpLY2drV3hOZkhFZkZsSjZFTWZ6OXdxd1VKV1lPazl1S04wMHdsTFZiMWx3bktKcWVRcVNJckdJdDVsX0otSGdvRm9YcjFlTzdzSm9vQQ?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - The Killeen Daily Herald",
+      "t": "2026-06-05T23:27:32Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQd3VmS0JZd21HbTI1ek9iWWNXNzN3RVlwYnJqY0RLdW9lMGFYRU00bVV4WTN3aE84aDlwRkM3eXAxeUJZZFBjRWtJYjNEZTFTMFA3Y2s1NHFfYWYzbzdKWUdiQmZaSFIzbW4zRW1pTGltQU5wYzh2dF96RTgzU3dFaDhvMUlDRHc0THk5MWJwc1kwMjBhNngtYnZWRnhpYTVYdF93czA0Wk9QZzRLakpXVnU4amZTOWxaQm5tRUVYa3RuYThFcllZanBvUlc3UGhmTkt6emVNQ1ByUkg1WEo2Z0czaEItRURhUFFHemRNd3BJVl9s?oc=5"
     },
     {
       "iso": "FRA",
@@ -4111,7 +4132,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-10T23:25:12Z",
+      "last_update": "2026-06-10T23:30:06Z",
       "signals": 3,
       "recent": [
         {
