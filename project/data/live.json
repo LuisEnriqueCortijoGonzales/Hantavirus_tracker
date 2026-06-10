@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-10T16:40:10.169899Z",
-  "next_update": "2026-06-10T16:45:00Z",
+  "generated": "2026-06-10T16:45:09.427643Z",
+  "next_update": "2026-06-10T16:50:00Z",
   "days_active": 33,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 210,
+      "ytd": 209,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 16,
       "strain": "andes",
       "new_today": 0,
       "r0": 1.11,
-      "signals": 5,
+      "signals": 4,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      151,
-      158,
-      164,
-      170,
-      176,
-      181,
-      185,
-      189,
-      193,
-      196,
-      219,
-      216,
-      213,
-      210
+      150,
+      157,
+      163,
+      169,
+      175,
+      180,
+      184,
+      188,
+      192,
+      195,
+      218,
+      215,
+      212,
+      209
     ],
     "CHL": [
       66,
@@ -905,7 +905,7 @@
     ],
     "DEU": [
       280,
-      288,
+      289,
       351,
       348,
       346,
@@ -1241,7 +1241,7 @@
     ],
     "RUS": [
       1993,
-      2061,
+      2062,
       2125,
       2182,
       2234,
@@ -1249,7 +1249,7 @@
       2603,
       2589,
       2574,
-      2561,
+      2560,
       2547,
       2534,
       2520,
@@ -1344,7 +1344,7 @@
       3396,
       3375,
       3355,
-      3335,
+      3334,
       3315,
       3296,
       3277,
@@ -1452,15 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      216,
-      216,
-      216,
-      216,
-      216,
-      216,
-      215,
-      215,
-      215,
       215,
       215,
       215,
@@ -1474,7 +1465,7 @@
       214,
       214,
       214,
-      213,
+      214,
       213,
       213,
       213,
@@ -1499,7 +1490,16 @@
       211,
       211,
       211,
-      210
+      211,
+      210,
+      210,
+      210,
+      210,
+      210,
+      210,
+      210,
+      210,
+      209
     ],
     "CHL": [
       80,
@@ -4017,7 +4017,7 @@
   },
   "signal_summary": {
     "GBR": 2,
-    "ARG": 5,
+    "ARG": 4,
     "NOR": 1,
     "FRA": 1
   },
@@ -4059,7 +4059,7 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus: Argentina expands probe to trace outbreak source - dw.com",
+      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW.com",
       "t": "2026-06-06T03:30:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
@@ -4070,13 +4070,6 @@
       "t": "2026-06-05T23:40:42Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYV9WYXctbkRkNHQxeTVCd2VsSHRfRTI0UEJVYVJNOERaVVpBOFg3SDZIdEpvaG42S3RNZ3R2NzVlcTNRd1NPeExsUzNnQmlLLVpyVnd3QTV0V0hiNjVFaU1mTGJXTDA0ZzZWRjRDSWtSOElBS042RmZKZnQtZEJuV0ZpX01SMXFFYURtcFRQYnAxT3piX3V4aldNZHBRbUdUUXlvTV9XdldvUmFGX1F2ME13VFg?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina ampl\u00eda a otra provincia el estudio de roedores por hantavirus - El Nacional",
-      "t": "2026-06-05T23:09:37Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaXBrbUZqWFN6SnpWUmJ1dnFnZ0cxb3dkTHBjUWIyVy1EeWlTTjBQdDZkeHktaFg4WU5oSEJHa2pYOENhOVl5MHFmcG9HaGdCR2Y4T3RnbHBjdDdNeUFFVDFTRTNaR29TRDJ2LVV0b3hISmRYZl9VTzRIc0dMOHo1M2NQYlkzVnFTTTJMSnpPZTJrN0xNZDh6UFlOT19kblZweEw3VWFfQ3FLWDQ?oc=5"
     },
     {
       "iso": "FRA",
@@ -4102,7 +4095,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-10T16:40:10Z",
+      "last_update": "2026-06-10T16:45:09Z",
       "signals": 2,
       "recent": [
         {
