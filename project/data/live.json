@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-10T22:00:14.646043Z",
-  "next_update": "2026-06-10T22:05:00Z",
+  "generated": "2026-06-10T22:05:19.197052Z",
+  "next_update": "2026-06-10T22:10:00Z",
   "days_active": 33,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,7 +85,7 @@
       "ytd": 34,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 23,
+      "var_pct": 22,
       "strain": "hps",
       "new_today": 1,
       "r0": 0.36,
@@ -272,11 +272,11 @@
       "ytd": 25,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 10,
+      "var_pct": 9,
       "strain": "puumala",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "CHE": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 4,
+      "signals": 5,
       "gov_alert": false
     },
     "GRC": {
@@ -1240,7 +1240,7 @@
       4
     ],
     "RUS": [
-      2008,
+      2009,
       2076,
       2138,
       2194,
@@ -1340,14 +1340,14 @@
       3479,
       3456,
       3434,
-      3413,
+      3412,
       3391,
-      3371,
+      3370,
       3350,
       3330,
-      3311,
+      3310,
       3291,
-      3273,
+      3272,
       3254,
       3236
     ],
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 10,
     "epidemio": 10,
     "polymarket": 5,
-    "kalshi": 12,
+    "kalshi": 14,
     "max_andes_r0": 1.11,
     "avg_other_r0": 1.08,
     "continents": [
@@ -4018,10 +4018,9 @@
   "signal_summary": {
     "USA": 1,
     "ARG": 3,
-    "GBR": 4,
+    "GBR": 5,
     "NOR": 1,
-    "MEX": 1,
-    "FRA": 1
+    "MEX": 1
   },
   "events": [
     {
@@ -4030,6 +4029,13 @@
       "t": "2026-06-10T18:32:54Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSGxJRWdqa2tDWWs1TFY5N2Z4MFM3R2Q1OFExZmo1QmdleHN1a29QZGdfQ0tqY05MSktTdG1lOW52SGVPaTM1UTluay1Zc3Vla01WbXlHLVdoR2pQVjMzWV9zUEQybDBRWEF1NmpEYUk0bWZ1N25sSmZkbEd3OW5iMF9uUUxvY0NaeTRjY2o4S2xHMHFnWl9FcUVyYTRuUHBBZlBJX2t1TUZaREJXZWw4VTRwRENOUDF3TUdYN2lOSG5LRUdNX1E?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "Inglaterra confirma un caso de hantavirus, dice jefe de OMS - Imagen Poblana",
+      "t": "2026-06-10T18:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM1hua2JnNHhuanROWGFldGd5b2d3WmNlX1ZMX3diWk1mNzVRVElGWl82UEF5OW9UWVNURXA5UjF0aHpYNUVWc1dzcUl4dml6M3VMaVdkSjcwY0FuRUk1dGtldWozRHU0cmcxZWpqeVYxSDM3cURHZzNueFQ4T21tQVZQVFpkMU1MenNZTFlDRjJKRlhPSHVCZWYzTWY?oc=5"
     },
     {
       "iso": "GBR",
@@ -4093,13 +4099,6 @@
       "t": "2026-06-05T23:40:42Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYV9WYXctbkRkNHQxeTVCd2VsSHRfRTI0UEJVYVJNOERaVVpBOFg3SDZIdEpvaG42S3RNZ3R2NzVlcTNRd1NPeExsUzNnQmlLLVpyVnd3QTV0V0hiNjVFaU1mTGJXTDA0ZzZWRjRDSWtSOElBS042RmZKZnQtZEJuV0ZpX01SMXFFYURtcFRQYnAxT3piX3V4aldNZHBRbUdUUXlvTV9XdldvUmFGX1F2ME13VFg?oc=5"
-    },
-    {
-      "iso": "FRA",
-      "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
-      "t": "2026-06-01T12:19:10Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSV9HXzZldFVsQXU4NXplR0M1RE9VbjNDcTBuZENibldCbWVTRGVxQ0xDY2xnSG1SanVQWThzdTd6RGstRHdSWXpWNlZ3QnFuN0FDRy1nUFpkTFhIRTVucGt4bFR4Wi1VRGNUVXl3UU5TTUp6WDdXZ2RKaXR1bXBqMEViQm5YYlhPU2tOdjl5Ui12Y2pRZmJtVnhFWDRRV0p5VHoyb2pfSGVvRFFNdkpzYzdPa0JfZDdMcGRyOVVPSzc5b1dMX0hmUGxOdk5fMzRoVkpRZ2dMMA?oc=5"
     }
   ],
   "maritime_events": [
@@ -4118,8 +4117,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-10T22:00:14Z",
-      "signals": 3,
+      "last_update": "2026-06-10T22:05:19Z",
+      "signals": 2,
       "recent": [
         {
           "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - El Heraldo de M\u00e9xico",
@@ -4130,11 +4129,6 @@
           "title": "Cruise ship Hondius departs Rotterdam for Norway after deadly hantavirus outbreak - NL Times",
           "t": "2026-06-07T11:55:00Z",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMjE2MFRzQWppM2h2NUQ5SXVocUd3SGdrS290eU1rejAxVGhMZHVUZGNzNWdyWU04TF9LMXRSZ3otdDJUaHpLVjJ2UGdvOWY2aDcyTTY2eUNDZ2RkcDhoa2dIallmSmdOcG9uZkEzU3JVd2FCNnpvVWRjT2htNm9lY1pXTUlPNFhQdUJLSEZYV2xMZzdfaEp4aVdxWXA0OUZpY19B?oc=5"
-        },
-        {
-          "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
-          "t": "2026-06-01T12:19:10Z",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSV9HXzZldFVsQXU4NXplR0M1RE9VbjNDcTBuZENibldCbWVTRGVxQ0xDY2xnSG1SanVQWThzdTd6RGstRHdSWXpWNlZ3QnFuN0FDRy1nUFpkTFhIRTVucGt4bFR4Wi1VRGNUVXl3UU5TTUp6WDdXZ2RKaXR1bXBqMEViQm5YYlhPU2tOdjl5Ui12Y2pRZmJtVnhFWDRRV0p5VHoyb2pfSGVvRFFNdkpzYzdPa0JfZDdMcGRyOVVPSzc5b1dMX0hmUGxOdk5fMzRoVkpRZ2dMMA?oc=5"
         }
       ]
     }
