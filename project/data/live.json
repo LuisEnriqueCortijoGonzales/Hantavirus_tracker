@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-10T13:00:11.671251Z",
-  "next_update": "2026-06-10T13:05:00Z",
+  "generated": "2026-06-10T13:05:16.151553Z",
+  "next_update": "2026-06-10T13:10:00Z",
   "days_active": 33,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -265,7 +265,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 5.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "FRA": {
@@ -611,7 +611,7 @@
       89,
       94,
       100,
-      106,
+      107,
       112,
       118
     ],
@@ -944,10 +944,10 @@
       67,
       68,
       69,
-      70,
+      71,
       72,
-      80,
-      80,
+      81,
+      81,
       80,
       80
     ],
@@ -1336,7 +1336,7 @@
       26
     ],
     "CHN": [
-      3511,
+      3510,
       3487,
       3465,
       3442,
@@ -1346,8 +1346,8 @@
       3358,
       3338,
       3318,
-      3299,
-      3280,
+      3298,
+      3279,
       3261,
       3243
     ],
@@ -2602,8 +2602,8 @@
       56
     ],
     "NOR": [
-      80,
-      80,
+      81,
+      81,
       80,
       80,
       80,
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 10,
     "polymarket": 6,
-    "kalshi": 13,
+    "kalshi": 12,
     "max_andes_r0": 1.11,
     "avg_other_r0": 1.08,
     "continents": [
@@ -4017,9 +4017,17 @@
   },
   "signal_summary": {
     "ARG": 5,
+    "NOR": 1,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "NOR",
+      "title": "Cruise ship Hondius departs Rotterdam for Norway after deadly hantavirus outbreak - NL Times",
+      "t": "2026-06-07T11:55:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMjE2MFRzQWppM2h2NUQ5SXVocUd3SGdrS290eU1rejAxVGhMZHVUZGNzNWdyWU04TF9LMXRSZ3otdDJUaHpLVjJ2UGdvOWY2aDcyTTY2eUNDZ2RkcDhoa2dIallmSmdOcG9uZkEzU3JVd2FCNnpvVWRjT2htNm9lY1pXTUlPNFhQdUJLSEZYV2xMZzdfaEp4aVdxWXA0OUZpY19B?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus y env\u00eda equipos a atrapar y analizar ratas en Mendoza - Noticias de Puerto Rico hoy",
@@ -4079,9 +4087,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-10T13:00:11Z",
-      "signals": 1,
+      "last_update": "2026-06-10T13:05:16Z",
+      "signals": 2,
       "recent": [
+        {
+          "title": "Cruise ship Hondius departs Rotterdam for Norway after deadly hantavirus outbreak - NL Times",
+          "t": "2026-06-07T11:55:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMjE2MFRzQWppM2h2NUQ5SXVocUd3SGdrS290eU1rejAxVGhMZHVUZGNzNWdyWU04TF9LMXRSZ3otdDJUaHpLVjJ2UGdvOWY2aDcyTTY2eUNDZ2RkcDhoa2dIallmSmdOcG9uZkEzU3JVd2FCNnpvVWRjT2htNm9lY1pXTUlPNFhQdUJLSEZYV2xMZzdfaEp4aVdxWXA0OUZpY19B?oc=5"
+        },
         {
           "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
           "t": "2026-06-01T12:19:10Z",
