@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-10T18:40:18.403807Z",
-  "next_update": "2026-06-10T18:45:00Z",
+  "generated": "2026-06-10T18:45:07.167414Z",
+  "next_update": "2026-06-10T18:50:00Z",
   "days_active": 33,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 1,
+      "var_pct": 2,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 3,
+      "signals": 4,
       "gov_alert": false
     },
     "GRC": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3239,
+      "ytd": 3238,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": -4,
@@ -1240,7 +1240,7 @@
       4
     ],
     "RUS": [
-      1998,
+      1999,
       2067,
       2130,
       2187,
@@ -1340,7 +1340,7 @@
       3482,
       3459,
       3437,
-      3416,
+      3415,
       3394,
       3373,
       3353,
@@ -1349,7 +1349,7 @@
       3294,
       3275,
       3257,
-      3239
+      3238
     ],
     "KOR": [
       89,
@@ -4016,13 +4016,20 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "GBR": 3,
+    "GBR": 4,
     "ARG": 3,
     "NOR": 1,
     "MEX": 1,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "GBR",
+      "title": "Confirman caso de Hantavirus en Reino Unido; OMS actualiza cifra - adn40.mx",
+      "t": "2026-06-10T18:32:54Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSGxJRWdqa2tDWWs1TFY5N2Z4MFM3R2Q1OFExZmo1QmdleHN1a29QZGdfQ0tqY05MSktTdG1lOW52SGVPaTM1UTluay1Zc3Vla01WbXlHLVdoR2pQVjMzWV9zUEQybDBRWEF1NmpEYUk0bWZ1N25sSmZkbEd3OW5iMF9uUUxvY0NaeTRjY2o4S2xHMHFnWl9FcUVyYTRuUHBBZlBJX2t1TUZaREJXZWw4VTRwRENOUDF3TUdYN2lOSG5LRUdNX1E?oc=5"
+    },
     {
       "iso": "GBR",
       "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - El Heraldo de M\u00e9xico",
@@ -4039,10 +4046,10 @@
     },
     {
       "iso": "GBR",
-      "title": "Reino Unido confirma un caso positivo de hantavirus - Noticias de Gipuzkoa",
-      "t": "2026-06-10T14:37:09Z",
+      "title": "Reino Unido confirma un caso positivo de hantavirus - Deia",
+      "t": "2026-06-10T14:37:07Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN3VwY0dUdFNOQlRmTWQ3a2NIcHJlTWMwWmlscEthNl83cWVVLVpvNG44djR1bW1jTGZhRnFXT1VPZDFtYXY1NlNZLS02UC0zdnJZRlpWUzU3TlJyblZKcVdlNFA3cDN2S1hyS2RNYVhlYld3VGVlZzQ5UzR0Nm5rVktNZlpFRTdqN0lWSW14emxIUDdBYWE2ZnBwbzJYVDYtZkHSAacBQVVfeXFMT0JaTUlZbUxzZ2w1RGZtbWViSktGTFRhX1hyRGdWamJnemZvbzhfazlURkJfeVlJaXRiNEJ0VGZwRnV6dVhLdWtOUk1Rd1JZeGpOYXp2UlFYMnVNRU9rcGprdGFjUDdLcHZ3V295NTY2RVhETEROVkVnYUdVbGtCY2REV2I0b0xJTkZ5ZzZvMnpQNW5BZTVNYUlxVU5rX3B5dTh1U202WG8?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOLXJ4cHZIZmsyS3N5Y0RVVDYzWlFlU1FMQTlidkVpQy0zdi1YR1J2c0tEWlNGd3Q1cFJFVVZTTF9qWE9sQ2RmdjctcDRUSmdCZjkzTHowbXlQT3l6aFNkTUkwUHJzU1phdGMzRzBmN0hRWHFZQ0VhbV9QRno5Q2pYYm5Na0xzR1FOb0R2OUdVONIBlAFBVV95cUxNVElYLVRqLVlwUHdOellXUi1IREtya2tSTFc4MlNhWFQ0bzlzUXJmWDRFVUFRdFl6RF8xZ3pJMjQzOXgxeHlHa2hsS29fbUNPLWkwZGFPSVpuelhuMmt6RFEzdkVpY01FaktWQUQ1MDhjcUVQT1dGeTZEaEI1YkRTblZldXM2emJETmF6R0g5R2hYNENX?oc=5"
     },
     {
       "iso": "GBR",
@@ -4103,7 +4110,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-10T18:40:18Z",
+      "last_update": "2026-06-10T18:45:07Z",
       "signals": 3,
       "recent": [
         {
