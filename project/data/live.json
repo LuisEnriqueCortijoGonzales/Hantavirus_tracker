@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-10T13:50:14.693342Z",
-  "next_update": "2026-06-10T13:55:00Z",
+  "generated": "2026-06-10T13:55:03.466176Z",
+  "next_update": "2026-06-10T14:00:00Z",
   "days_active": 33,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -32,7 +32,7 @@
       "cfr": 41.6,
       "var_pct": 33,
       "strain": "hps",
-      "new_today": 6,
+      "new_today": 5,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -612,7 +612,7 @@
       95,
       101,
       107,
-      112,
+      113,
       118
     ],
     "BOL": [
@@ -1242,7 +1242,7 @@
     "RUS": [
       1984,
       2054,
-      2117,
+      2118,
       2176,
       2228,
       2620,
@@ -1250,7 +1250,7 @@
       2590,
       2576,
       2562,
-      2549,
+      2548,
       2535,
       2522,
       2509
@@ -1337,12 +1337,12 @@
     ],
     "CHN": [
       3510,
-      3487,
+      3486,
       3464,
       3442,
       3420,
       3398,
-      3378,
+      3377,
       3357,
       3337,
       3317,
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 10,
     "polymarket": 6,
-    "kalshi": 13,
+    "kalshi": 16,
     "max_andes_r0": 1.11,
     "avg_other_r0": 1.08,
     "continents": [
@@ -4016,11 +4016,19 @@
     "outbreak_count": 3
   },
   "signal_summary": {
+    "GBR": 1,
     "ARG": 5,
     "NOR": 1,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "GBR",
+      "title": "UKHSA Says No Change To Public Health Risk To The UK Population From Hantavirus, Which Remains Very Low - TradingView",
+      "t": "2026-06-10T13:37:35Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOMU9CVTVndjZCNFZUc1VrcTltWktLdnR6MVJLMGt1MGw3TFZMX1pnNDNVeGhaX2RDakRhTGZZa3BldUp1aDZ5b3VXbUw4OExiZXdzYzZRdXZ5Ul9pakoyUktDSzdtNnl5MVFqVzc3b3JqWEZqQl9nUXNRcTAzU3A3WXllSFVIVWozODFoSzFDODVEUHVJTG1wY01HTWZ4MTJHcGh1MUVLemM0bDZzSlhwS2k0NzdxQjJjcXdSRExRSF9rT09VZnhlcURzb21FSmc2b1VXXzYzNWVLWGZoNVMwN2tuMHByck55cjd4ZEw0cGRvYUMyME5iTkR1eWVpendESHc?oc=5"
+    },
     {
       "iso": "NOR",
       "title": "Cruise ship Hondius departs Rotterdam for Norway after deadly hantavirus outbreak - NL Times",
@@ -4087,7 +4095,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-10T13:50:14Z",
+      "last_update": "2026-06-10T13:55:03Z",
       "signals": 2,
       "recent": [
         {
