@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-10T22:50:07.166949Z",
-  "next_update": "2026-06-10T22:55:00Z",
+  "generated": "2026-06-10T22:55:06.415731Z",
+  "next_update": "2026-06-10T23:00:00Z",
   "days_active": 33,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 2,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "GRC": {
@@ -575,7 +575,7 @@
       175,
       180,
       185,
-      188,
+      189,
       192,
       195,
       216,
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 10,
     "polymarket": 5,
-    "kalshi": 17,
+    "kalshi": 14,
     "max_andes_r0": 1.11,
     "avg_other_r0": 1.08,
     "continents": [
@@ -4018,19 +4018,12 @@
   "signal_summary": {
     "USA": 1,
     "ARG": 3,
-    "GBR": 4,
+    "GBR": 3,
     "NOR": 1,
     "MEX": 1,
     "FRA": 1
   },
   "events": [
-    {
-      "iso": "GBR",
-      "title": "Confirman caso de Hantavirus en Reino Unido; OMS actualiza cifra - adn40.mx",
-      "t": "2026-06-10T18:32:54Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSGxJRWdqa2tDWWs1TFY5N2Z4MFM3R2Q1OFExZmo1QmdleHN1a29QZGdfQ0tqY05MSktTdG1lOW52SGVPaTM1UTluay1Zc3Vla01WbXlHLVdoR2pQVjMzWV9zUEQybDBRWEF1NmpEYUk0bWZ1N25sSmZkbEd3OW5iMF9uUUxvY0NaeTRjY2o4S2xHMHFnWl9FcUVyYTRuUHBBZlBJX2t1TUZaREJXZWw4VTRwRENOUDF3TUdYN2lOSG5LRUdNX1E?oc=5"
-    },
     {
       "iso": "GBR",
       "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - El Heraldo de M\u00e9xico",
@@ -4118,7 +4111,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-10T22:50:07Z",
+      "last_update": "2026-06-10T22:55:06Z",
       "signals": 3,
       "recent": [
         {
