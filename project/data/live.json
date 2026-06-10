@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-10T17:25:08.643154Z",
-  "next_update": "2026-06-10T17:30:00Z",
+  "generated": "2026-06-10T17:30:13.174029Z",
+  "next_update": "2026-06-10T17:35:00Z",
   "days_active": 33,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -74,11 +74,11 @@
       "ytd": 9,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 8,
+      "var_pct": 9,
       "strain": "hps",
       "new_today": 1,
       "r0": 3.5,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "USA": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "GRC": {
@@ -873,7 +873,7 @@
     ],
     "FIN": [
       491,
-      488,
+      487,
       484,
       481,
       477,
@@ -1241,8 +1241,8 @@
     ],
     "RUS": [
       1995,
-      2063,
-      2126,
+      2064,
+      2127,
       2184,
       2236,
       2617,
@@ -1338,7 +1338,7 @@
     "CHN": [
       3506,
       3483,
-      3461,
+      3460,
       3438,
       3417,
       3395,
@@ -1778,10 +1778,10 @@
       8,
       8,
       8,
-      8,
-      8,
-      8,
-      8,
+      9,
+      9,
+      9,
+      9,
       9,
       9,
       9,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 10,
     "epidemio": 10,
     "polymarket": 5,
-    "kalshi": 12,
+    "kalshi": 16,
     "max_andes_r0": 1.11,
     "avg_other_r0": 1.08,
     "continents": [
@@ -4016,12 +4016,27 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "GBR": 2,
+    "GBR": 3,
     "ARG": 3,
     "NOR": 1,
+    "MEX": 1,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "GBR",
+      "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - El Heraldo de M\u00e9xico",
+      "t": "2026-06-10T17:21:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSnBUWXEyWUN4Y2p1QUdNNDV0Rno4T19WZlFkUm1ZbGcxaHBXT292WUxUX0FMYUM1SHU0V2M0Q2pJZGktaWlLWXQ2Ym1walFnbkJ0Y3AxYktvQ3lwNzVQRkVHZmtMSEdCQ3JYSXUxTk4xM0JNV3Z1bW5WSXVDVGd3XzMyZFpybEkxSjRXaFhKVER6enZVWXJ5b2pxd2lueVY5NkxnbXFZR0NwblFRSlpwZVJOMUo0WU9xanRhM0dSbHRvRFhaR3FVRnhhU2Z4TV9YYTdZbNIB2gFBVV95cUxOMHFQLVFHOHZyWFBCOHRTekxJV1FneVp2dGx2UV9ZOHJ1OTVGYy1DVkVsMEVyaXJEVWRweFUzS1hpYmlYc2VmMHliOWZ1QjFOWUs1OVhUSzhMZEdUZVZnaW1nblNHVW5RTkZvUTdTeS1rSEpSVlFxTlFLTUN2Wm9VaGVvT1JwVmpabjlJOTlvUndNRmZRY2gxSkIwaVRtaEo0WnNrWm10VUh4WldKNnFpWlVuMThiSGdPd0RFSDlaVkZCVEgxbjlQYmpzRTVSV3NSMktzel8ySnJidw?oc=5"
+    },
+    {
+      "iso": "MEX",
+      "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - El Heraldo de M\u00e9xico",
+      "t": "2026-06-10T17:21:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSnBUWXEyWUN4Y2p1QUdNNDV0Rno4T19WZlFkUm1ZbGcxaHBXT292WUxUX0FMYUM1SHU0V2M0Q2pJZGktaWlLWXQ2Ym1walFnbkJ0Y3AxYktvQ3lwNzVQRkVHZmtMSEdCQ3JYSXUxTk4xM0JNV3Z1bW5WSXVDVGd3XzMyZFpybEkxSjRXaFhKVER6enZVWXJ5b2pxd2lueVY5NkxnbXFZR0NwblFRSlpwZVJOMUo0WU9xanRhM0dSbHRvRFhaR3FVRnhhU2Z4TV9YYTdZbNIB2gFBVV95cUxOMHFQLVFHOHZyWFBCOHRTekxJV1FneVp2dGx2UV9ZOHJ1OTVGYy1DVkVsMEVyaXJEVWRweFUzS1hpYmlYc2VmMHliOWZ1QjFOWUs1OVhUSzhMZEdUZVZnaW1nblNHVW5RTkZvUTdTeS1rSEpSVlFxTlFLTUN2Wm9VaGVvT1JwVmpabjlJOTlvUndNRmZRY2gxSkIwaVRtaEo0WnNrWm10VUh4WldKNnFpWlVuMThiSGdPd0RFSDlaVkZCVEgxbjlQYmpzRTVSV3NSMktzel8ySnJidw?oc=5"
+    },
     {
       "iso": "GBR",
       "title": "Reino Unido confirma un caso positivo de hantavirus - Noticias de Gipuzkoa",
@@ -4088,9 +4103,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-10T17:25:08Z",
-      "signals": 2,
+      "last_update": "2026-06-10T17:30:13Z",
+      "signals": 3,
       "recent": [
+        {
+          "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - El Heraldo de M\u00e9xico",
+          "t": "2026-06-10T17:21:00Z",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSnBUWXEyWUN4Y2p1QUdNNDV0Rno4T19WZlFkUm1ZbGcxaHBXT292WUxUX0FMYUM1SHU0V2M0Q2pJZGktaWlLWXQ2Ym1walFnbkJ0Y3AxYktvQ3lwNzVQRkVHZmtMSEdCQ3JYSXUxTk4xM0JNV3Z1bW5WSXVDVGd3XzMyZFpybEkxSjRXaFhKVER6enZVWXJ5b2pxd2lueVY5NkxnbXFZR0NwblFRSlpwZVJOMUo0WU9xanRhM0dSbHRvRFhaR3FVRnhhU2Z4TV9YYTdZbNIB2gFBVV95cUxOMHFQLVFHOHZyWFBCOHRTekxJV1FneVp2dGx2UV9ZOHJ1OTVGYy1DVkVsMEVyaXJEVWRweFUzS1hpYmlYc2VmMHliOWZ1QjFOWUs1OVhUSzhMZEdUZVZnaW1nblNHVW5RTkZvUTdTeS1rSEpSVlFxTlFLTUN2Wm9VaGVvT1JwVmpabjlJOTlvUndNRmZRY2gxSkIwaVRtaEo0WnNrWm10VUh4WldKNnFpWlVuMThiSGdPd0RFSDlaVkZCVEgxbjlQYmpzRTVSV3NSMktzel8ySnJidw?oc=5"
+        },
         {
           "title": "Cruise ship Hondius departs Rotterdam for Norway after deadly hantavirus outbreak - NL Times",
           "t": "2026-06-07T11:55:00Z",
