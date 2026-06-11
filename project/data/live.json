@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-11T19:40:03.367351Z",
-  "next_update": "2026-06-11T19:45:00Z",
+  "generated": "2026-06-11T19:45:18.419254Z",
+  "next_update": "2026-06-11T19:50:00Z",
   "days_active": 34,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "GRC": {
@@ -571,7 +571,7 @@
       157,
       163,
       169,
-      174,
+      175,
       179,
       184,
       188,
@@ -586,7 +586,7 @@
     "CHL": [
       69,
       71,
-      72,
+      73,
       74,
       86,
       85,
@@ -877,7 +877,7 @@
       480,
       477,
       474,
-      471,
+      470,
       467,
       464,
       461,
@@ -1341,7 +1341,7 @@
       3436,
       3415,
       3393,
-      3373,
+      3372,
       3352,
       3332,
       3312,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 10,
+    "composite": 9,
     "epidemio": 10,
     "polymarket": 5,
-    "kalshi": 15,
+    "kalshi": 12,
     "max_andes_r0": 1.12,
     "avg_other_r0": 1.07,
     "continents": [
@@ -4018,7 +4018,7 @@
   "signal_summary": {
     "ARG": 3,
     "USA": 1,
-    "GBR": 1,
+    "GBR": 2,
     "FRA": 1
   },
   "events": [
@@ -4037,11 +4037,11 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcEtzLU4zTUZ4WnRZUEFITDVWWnFLd1A5RE5aSXZZVF9sQlg2RzVIQzlDZGtTMy1ZTVp2OUphUHQ5SWV2aFJCSHpjT1dNUnlKTXBxQmY5Xzhidk15MVNHSUxCSkMzcWs5N1hqM0lmcmt3VjZ5WlJJczF4RW9fVUpXNWJqcVJ5cTkyMm1VSHNkM3RKaXVZSHgybzd1TGthd0VaSnhSZ0lBeC1yeFYxdXVoVGF0OTJIQ21fRHZtY05kOA?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus; env\u00eda equipos a atrapar y analizar ratas en Mendoza - The Morning Call",
-      "t": "2026-06-06T04:55:15Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVnVhQ3FocGE0OHdYVlVPc2R1dXo3ZEFxNVRlUWFka19femw3ZlB4N1MwU2doczRBNU5Wd0ZCQk5xeklndXJid1ZYUXNsaU1GR0FWazBnbzNERUVyQ21KcGIyZ2dwdE9hdDdVSHdKaTJnRVFSR291NHg1WTdoOGNpU2RITUtWTnQ2U25aMUN3UkhtUHdSclpWRldITlg1NnlsSmZYSGdHbC1nT2dHbEIzWUR0QnZOVTVfeEFfVndKOVdOcTNmTUk4?oc=5"
+      "iso": "GBR",
+      "title": "Defence Medics parachute into Tristan da Cunha to treat hantavirus patient - GOV.UK",
+      "t": "2026-06-09T08:00:01Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLXNOVl9GemNERVZncV95eDZHVFNDNHdKUjVTUUxSMVRkTnpmWGdVQ1VuZnU5a2xmaEhfeGh1aWxaeWhtMVFIWHRjVGlyY1RCc2NqQUN4d1p2czNLcEVpQ0g4VmRqX2NmZkZjSVJhbkxfWml4bU9seGtfMExlcVd6OUVBOWN0b21iOE5ranhJVWttR1hJcFBkdUs5a3RORWRRcFVJTlNUN2xjajVsZWc?oc=5"
     },
     {
       "iso": "ARG",
@@ -4049,6 +4049,13 @@
       "t": "2026-06-06T03:30:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus; env\u00eda equipos a atrapar y analizar ratas en Mendoza - Hartford Courant",
+      "t": "2026-06-06T00:35:03Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWENGZjBwVkc5cEFvSnN4eWt0WVdBMmVCNFFwTXg3NURMR0xvWGNobGJLNnRxM2pVZ2gwX1hXR0hQU1Zyb21XUjZ4elA2NFZwNWhDVGV0VHZUTVlLQW93THl4U1lqTWxESlFjN0hjLVFjMm5kdlFha1VYRjFGTGlfbkVkMGJkLTJLQmdDUnphbmxYdjItZ2tXcTRBclhhZndtek9YV1JiZUw2UHBWd0JtQl9qbU5SOVN4OU9aVHU4cENHT0QyaGNEMUdR?oc=5"
     },
     {
       "iso": "ARG",
@@ -4081,7 +4088,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-11T19:40:03Z",
+      "last_update": "2026-06-11T19:45:18Z",
       "signals": 1,
       "recent": [
         {
