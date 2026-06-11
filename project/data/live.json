@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-11T10:50:09.442350Z",
-  "next_update": "2026-06-11T10:55:00Z",
+  "generated": "2026-06-11T10:55:19.138593Z",
+  "next_update": "2026-06-11T11:00:00Z",
   "days_active": 34,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3227,
+      "ytd": 3226,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": -4,
@@ -1339,17 +1339,17 @@
       3489,
       3467,
       3444,
-      3423,
+      3422,
       3401,
       3380,
-      3360,
+      3359,
       3339,
       3320,
       3300,
       3281,
       3263,
       3244,
-      3227
+      3226
     ],
     "KOR": [
       90,
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 10,
     "polymarket": 5,
-    "kalshi": 13,
+    "kalshi": 15,
     "max_andes_r0": 1.12,
     "avg_other_r0": 1.07,
     "continents": [
@@ -4019,17 +4019,10 @@
     "USA": 1,
     "ARG": 3,
     "NOR": 1,
-    "GBR": 2,
-    "FRA": 1
+    "FRA": 1,
+    "GBR": 1
   },
   "events": [
-    {
-      "iso": "GBR",
-      "title": "Hantavirus: UK Reports Confirmed Case in Tristan da Cunha, Says WHO Chief - Health and Me",
-      "t": "2026-06-11T07:30:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZFJydEtpdXpFazcxN3lMbDBzV3FrcXdHRkh5YU5hYUhiUGZxaDlBLVBnY0dQZU5pbEk0dXdfa2NIRnhiSF9TeFZVaFBFTEozRVJTcFpYdDFhVjBULXFueWhIVW5OeF9TSGJBX2RTQ0lFUER6YlU5eWRKT1dxcFh2a1JpSk1iWUxoQWpOUnY1bGpjQWJ2X19wS0UyTUhPWnpuNlBYMlRHUV80bC1rdk5penNCN0RtaThreUxhY2U4eDlpWEEwdlladg?oc=5"
-    },
     {
       "iso": "GBR",
       "title": "Reino Unido confirma un caso positivo de hantavirus - Noticias de Gipuzkoa",
@@ -4096,7 +4089,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-11T10:50:09Z",
+      "last_update": "2026-06-11T10:55:19Z",
       "signals": 2,
       "recent": [
         {
