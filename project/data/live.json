@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-11T20:40:04.923926Z",
-  "next_update": "2026-06-11T20:45:00Z",
+  "generated": "2026-06-11T20:45:09.401356Z",
+  "next_update": "2026-06-11T20:50:00Z",
   "days_active": 34,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 205,
+      "ytd": 204,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 11,
+      "var_pct": 10,
       "strain": "andes",
       "new_today": 0,
       "r0": 1.12,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "CHL": {
@@ -32,7 +32,7 @@
       "cfr": 41.6,
       "var_pct": 40,
       "strain": "hps",
-      "new_today": 6,
+      "new_today": 5,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 1,
+      "var_pct": 2,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 3,
+      "signals": 5,
       "gov_alert": false
     },
     "GRC": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      157,
+      156,
       163,
-      169,
-      175,
-      180,
-      184,
-      188,
-      192,
-      195,
-      217,
-      214,
-      211,
-      208,
-      205
+      168,
+      174,
+      179,
+      183,
+      187,
+      191,
+      194,
+      215,
+      213,
+      210,
+      207,
+      204
     ],
     "CHL": [
       69,
@@ -612,7 +612,7 @@
       102,
       108,
       114,
-      119,
+      120,
       125
     ],
     "BOL": [
@@ -688,7 +688,7 @@
       27,
       29,
       30,
-      30,
+      31,
       31,
       32,
       33,
@@ -1240,10 +1240,10 @@
       4
     ],
     "RUS": [
-      2072,
+      2073,
       2135,
       2191,
-      2242,
+      2243,
       2615,
       2601,
       2586,
@@ -1337,7 +1337,7 @@
     ],
     "CHN": [
       3480,
-      3458,
+      3457,
       3435,
       3414,
       3392,
@@ -1452,17 +1452,8 @@
   ],
   "hourly_history": {
     "ARG": [
-      211,
-      211,
       210,
       210,
-      210,
-      210,
-      210,
-      210,
-      210,
-      210,
-      209,
       209,
       209,
       209,
@@ -1499,7 +1490,16 @@
       206,
       205,
       205,
-      205
+      205,
+      205,
+      205,
+      205,
+      205,
+      205,
+      205,
+      204,
+      204,
+      204
     ],
     "CHL": [
       79,
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 10,
     "polymarket": 5,
-    "kalshi": 14,
+    "kalshi": 15,
     "max_andes_r0": 1.12,
     "avg_other_r0": 1.07,
     "continents": [
@@ -4016,8 +4016,8 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "GBR": 3,
-    "ARG": 3,
+    "GBR": 5,
+    "ARG": 2,
     "USA": 1,
     "FRA": 1
   },
@@ -4028,6 +4028,13 @@
       "t": "2026-06-11T20:25:43Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOS2ttV0M5VXRzdDBKbGhJRENPMGRnZkt3VWtGSFBBM25HbDRIaFR1b1ZJQW5ZZEM3WjJKci1jclJOVzFoeHBUWmJ2aEVVNkw5Q1JmU2U1VXVBTXZ4N3UxX2VIclNKcEZ1WXhYZWpvVGZvRmtFOUdhX0M1UVp4dmt1em1B?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "Hantavirus: UK Reports Confirmed Case in Tristan da Cunha, Says WHO Chief - Health and Me",
+      "t": "2026-06-11T07:30:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZFJydEtpdXpFazcxN3lMbDBzV3FrcXdHRkh5YU5hYUhiUGZxaDlBLVBnY0dQZU5pbEk0dXdfa2NIRnhiSF9TeFZVaFBFTEozRVJTcFpYdDFhVjBULXFueWhIVW5OeF9TSGJBX2RTQ0lFUER6YlU5eWRKT1dxcFh2a1JpSk1iWUxoQWpOUnY1bGpjQWJ2X19wS0UyTUhPWnpuNlBYMlRHUV80bC1rdk5penNCN0RtaThreUxhY2U4eDlpWEEwdlladg?oc=5"
     },
     {
       "iso": "GBR",
@@ -4045,17 +4052,17 @@
     },
     {
       "iso": "GBR",
+      "title": "HMS Medway helps prevent hantavirus outbreak on UK's most remote overseas territory - Forces News",
+      "t": "2026-06-09T12:55:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPamVnQlgtZ2ZyMkFLend5U3BHaEo3UkYza3ZQNFhVbkdGaXBPRWhvS0s1OFRwcnpZcWkzVVhQUHVNZTNkSG9qZl8yOFZZTk5acGFMNkRIUVJ3LXBwWDB3NnotTVlZSG1SY0o0MVA5OXdMWTBqR2hPNmxzR3pIUEpzOWtqRUxMenNIc1pxWkIxcFVnMDNmbGczUmtoTXBVd2RGTlNSdWg2aFhoN2ZXdk9qeTNRX0ZRcE55Q3hiWg?oc=5"
+    },
+    {
+      "iso": "GBR",
       "title": "Defence Medics parachute into Tristan da Cunha to treat hantavirus patient - GOV.UK",
       "t": "2026-06-09T08:00:01Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLXNOVl9GemNERVZncV95eDZHVFNDNHdKUjVTUUxSMVRkTnpmWGdVQ1VuZnU5a2xmaEhfeGh1aWxaeWhtMVFIWHRjVGlyY1RCc2NqQUN4d1p2czNLcEVpQ0g4VmRqX2NmZkZjSVJhbkxfWml4bU9seGtfMExlcVd6OUVBOWN0b21iOE5ranhJVWttR1hJcFBkdUs5a3RORWRRcFVJTlNUN2xjajVsZWc?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW",
-      "t": "2026-06-06T03:30:52Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4095,7 +4102,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-11T20:40:04Z",
+      "last_update": "2026-06-11T20:45:09Z",
       "signals": 1,
       "recent": [
         {
