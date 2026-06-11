@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-11T07:35:07.157340Z",
-  "next_update": "2026-06-11T07:40:00Z",
+  "generated": "2026-06-11T07:40:06.415017Z",
+  "next_update": "2026-06-11T07:45:00Z",
   "days_active": 34,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -1241,7 +1241,7 @@
     ],
     "RUS": [
       2036,
-      2101,
+      2102,
       2161,
       2215,
       2264,
@@ -1336,7 +1336,7 @@
       27
     ],
     "CHN": [
-      3493,
+      3492,
       3470,
       3447,
       3425,
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 10,
     "polymarket": 5,
-    "kalshi": 15,
+    "kalshi": 13,
     "max_andes_r0": 1.12,
     "avg_other_r0": 1.07,
     "continents": [
@@ -4047,10 +4047,10 @@
     },
     {
       "iso": "GBR",
-      "title": "Reino Unido confirma un caso positivo de hantavirus - Noticias de Gipuzkoa",
-      "t": "2026-06-10T14:37:09Z",
+      "title": "Reino Unido confirma un caso positivo de hantavirus - Deia",
+      "t": "2026-06-10T14:37:07Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN3VwY0dUdFNOQlRmTWQ3a2NIcHJlTWMwWmlscEthNl83cWVVLVpvNG44djR1bW1jTGZhRnFXT1VPZDFtYXY1NlNZLS02UC0zdnJZRlpWUzU3TlJyblZKcVdlNFA3cDN2S1hyS2RNYVhlYld3VGVlZzQ5UzR0Nm5rVktNZlpFRTdqN0lWSW14emxIUDdBYWE2ZnBwbzJYVDYtZkHSAacBQVVfeXFMT0JaTUlZbUxzZ2w1RGZtbWViSktGTFRhX1hyRGdWamJnemZvbzhfazlURkJfeVlJaXRiNEJ0VGZwRnV6dVhLdWtOUk1Rd1JZeGpOYXp2UlFYMnVNRU9rcGprdGFjUDdLcHZ3V295NTY2RVhETEROVkVnYUdVbGtCY2REV2I0b0xJTkZ5ZzZvMnpQNW5BZTVNYUlxVU5rX3B5dTh1U202WG8?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOLXJ4cHZIZmsyS3N5Y0RVVDYzWlFlU1FMQTlidkVpQy0zdi1YR1J2c0tEWlNGd3Q1cFJFVVZTTF9qWE9sQ2RmdjctcDRUSmdCZjkzTHowbXlQT3l6aFNkTUkwUHJzU1phdGMzRzBmN0hRWHFZQ0VhbV9QRno5Q2pYYm5Na0xzR1FOb0R2OUdVONIBlAFBVV95cUxNVElYLVRqLVlwUHdOellXUi1IREtya2tSTFc4MlNhWFQ0bzlzUXJmWDRFVUFRdFl6RF8xZ3pJMjQzOXgxeHlHa2hsS29fbUNPLWkwZGFPSVpuelhuMmt6RFEzdkVpY01FaktWQUQ1MDhjcUVQT1dGeTZEaEI1YkRTblZldXM2emJETmF6R0g5R2hYNENX?oc=5"
     },
     {
       "iso": "GBR",
@@ -4075,7 +4075,7 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus: Argentina expands probe to trace outbreak source - dw.com",
+      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW.com",
       "t": "2026-06-06T03:30:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
@@ -4118,7 +4118,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-11T07:35:07Z",
+      "last_update": "2026-06-11T07:40:06Z",
       "signals": 4,
       "recent": [
         {
