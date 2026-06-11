@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-11T08:55:10.886947Z",
-  "next_update": "2026-06-11T09:00:00Z",
+  "generated": "2026-06-11T09:00:04.913012Z",
+  "next_update": "2026-06-11T09:05:00Z",
   "days_active": 34,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "GRC": {
@@ -570,7 +570,7 @@
     "ARG": [
       154,
       160,
-      166,
+      167,
       172,
       177,
       182,
@@ -610,7 +610,7 @@
       89,
       93,
       99,
-      105,
+      106,
       111,
       117,
       122
@@ -1244,7 +1244,7 @@
       2105,
       2164,
       2218,
-      2266,
+      2267,
       2608,
       2593,
       2579,
@@ -1401,7 +1401,6 @@
     "2026-06-11T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-09T09:00:00Z",
     "2026-06-09T10:00:00Z",
     "2026-06-09T11:00:00Z",
     "2026-06-09T12:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-06-11T05:00:00Z",
     "2026-06-11T06:00:00Z",
     "2026-06-11T07:00:00Z",
-    "2026-06-11T08:00:00Z"
+    "2026-06-11T08:00:00Z",
+    "2026-06-11T09:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -1457,7 +1457,6 @@
       212,
       212,
       212,
-      212,
       211,
       211,
       211,
@@ -1499,13 +1498,13 @@
       207,
       207,
       207,
-      207
+      207,
+      206
     ],
     "CHL": [
       80,
       80,
       80,
-      80,
       79,
       79,
       79,
@@ -1531,6 +1530,7 @@
       79,
       79,
       79,
+      78,
       78,
       78,
       78,
@@ -1552,7 +1552,6 @@
       78
     ],
     "BRA": [
-      111,
       112,
       112,
       112,
@@ -1597,12 +1596,12 @@
       121,
       121,
       121,
+      122,
       122,
       122,
       122
     ],
     "BOL": [
-      15,
       16,
       16,
       16,
@@ -1645,6 +1644,7 @@
       16,
       16,
       16,
+      17,
       17,
       17,
       17,
@@ -1660,7 +1660,7 @@
       11,
       11,
       11,
-      11,
+      12,
       12,
       12,
       12,
@@ -1762,7 +1762,7 @@
       8,
       8,
       8,
-      8,
+      9,
       9,
       9,
       9,
@@ -1838,7 +1838,7 @@
       33,
       33,
       33,
-      33,
+      34,
       34,
       34,
       34,
@@ -2404,7 +2404,6 @@
     "FIN": [
       454,
       454,
-      454,
       453,
       453,
       453,
@@ -2449,6 +2448,7 @@
       449,
       449,
       449,
+      448,
       448
     ],
     "SWE": [
@@ -2458,7 +2458,6 @@
       191,
       191,
       191,
-      191,
       190,
       190,
       190,
@@ -2485,6 +2484,7 @@
       190,
       190,
       190,
+      189,
       189,
       189,
       189,
@@ -2508,7 +2508,6 @@
       330,
       330,
       330,
-      330,
       329,
       329,
       329,
@@ -2547,6 +2546,7 @@
       327,
       327,
       327,
+      326,
       326,
       326,
       326
@@ -2579,7 +2579,7 @@
       57,
       57,
       57,
-      57,
+      56,
       56,
       56,
       56,
@@ -3192,7 +3192,7 @@
       44,
       44,
       44,
-      44,
+      43,
       43,
       43,
       43,
@@ -3552,7 +3552,6 @@
       4
     ],
     "RUS": [
-      2525,
       2524,
       2524,
       2523,
@@ -3599,7 +3598,8 @@
       2501,
       2501,
       2500,
-      2500
+      2500,
+      2499
     ],
     "BLR": [
       37,
@@ -3845,14 +3845,13 @@
       26,
       26,
       26,
-      26,
+      27,
       27,
       27,
       27,
       27
     ],
     "CHN": [
-      3264,
       3263,
       3263,
       3262,
@@ -3899,7 +3898,8 @@
       3231,
       3230,
       3229,
-      3229
+      3229,
+      3228
     ],
     "KOR": [
       112,
@@ -3942,7 +3942,7 @@
       112,
       112,
       112,
-      112,
+      111,
       111,
       111,
       111,
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 10,
     "polymarket": 5,
-    "kalshi": 17,
+    "kalshi": 14,
     "max_andes_r0": 1.12,
     "avg_other_r0": 1.07,
     "continents": [
@@ -4019,18 +4019,11 @@
     "USA": 1,
     "ARG": 3,
     "NOR": 1,
-    "GBR": 3,
+    "GBR": 2,
     "FRA": 1,
     "MEX": 1
   },
   "events": [
-    {
-      "iso": "GBR",
-      "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - Oaxaca Hoy",
-      "t": "2026-06-11T00:18:52Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcFpSQkk0OGtVcXhqZEF3UzVxNW0zRmJCSWRKTHZmcmkzQW1WMlNVT0dlZ193NWxCSWRrdUdib21oS2Jfd1MwVTJ2bDRnUVZnVURMU0lId05DUlMyckh1MEdxZXRrbjhISFdOMW54cEJ1bDd5cG96X0RsdzRlbS0xWi1FZ2VJNTFBU0VCQ3FCZGxpMVBiWUJRMkllVWZiQVhmNUhvRW1GOU1aNFJReW04?oc=5"
-    },
     {
       "iso": "GBR",
       "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - El Heraldo de M\u00e9xico",
@@ -4111,8 +4104,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-11T08:55:10Z",
-      "signals": 4,
+      "last_update": "2026-06-11T09:00:04Z",
+      "signals": 3,
       "recent": [
         {
           "title": "Cruise ship Hondius departs Rotterdam for Norway after deadly hantavirus outbreak - NL Times",
@@ -4123,11 +4116,6 @@
           "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - El Heraldo de M\u00e9xico",
           "t": "2026-06-10T17:21:00Z",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSnBUWXEyWUN4Y2p1QUdNNDV0Rno4T19WZlFkUm1ZbGcxaHBXT292WUxUX0FMYUM1SHU0V2M0Q2pJZGktaWlLWXQ2Ym1walFnbkJ0Y3AxYktvQ3lwNzVQRkVHZmtMSEdCQ3JYSXUxTk4xM0JNV3Z1bW5WSXVDVGd3XzMyZFpybEkxSjRXaFhKVER6enZVWXJ5b2pxd2lueVY5NkxnbXFZR0NwblFRSlpwZVJOMUo0WU9xanRhM0dSbHRvRFhaR3FVRnhhU2Z4TV9YYTdZbNIB2gFBVV95cUxOMHFQLVFHOHZyWFBCOHRTekxJV1FneVp2dGx2UV9ZOHJ1OTVGYy1DVkVsMEVyaXJEVWRweFUzS1hpYmlYc2VmMHliOWZ1QjFOWUs1OVhUSzhMZEdUZVZnaW1nblNHVW5RTkZvUTdTeS1rSEpSVlFxTlFLTUN2Wm9VaGVvT1JwVmpabjlJOTlvUndNRmZRY2gxSkIwaVRtaEo0WnNrWm10VUh4WldKNnFpWlVuMThiSGdPd0RFSDlaVkZCVEgxbjlQYmpzRTVSV3NSMktzel8ySnJidw?oc=5"
-        },
-        {
-          "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - Oaxaca Hoy",
-          "t": "2026-06-11T00:18:52Z",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcFpSQkk0OGtVcXhqZEF3UzVxNW0zRmJCSWRKTHZmcmkzQW1WMlNVT0dlZ193NWxCSWRrdUdib21oS2Jfd1MwVTJ2bDRnUVZnVURMU0lId05DUlMyckh1MEdxZXRrbjhISFdOMW54cEJ1bDd5cG96X0RsdzRlbS0xWi1FZ2VJNTFBU0VCQ3FCZGxpMVBiWUJRMkllVWZiQVhmNUhvRW1GOU1aNFJReW04?oc=5"
         },
         {
           "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
