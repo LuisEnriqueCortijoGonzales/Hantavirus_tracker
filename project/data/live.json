@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-11T10:10:15.399316Z",
-  "next_update": "2026-06-11T10:15:00Z",
+  "generated": "2026-06-11T10:15:09.441373Z",
+  "next_update": "2026-06-11T10:20:00Z",
   "days_active": 34,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "GRC": {
@@ -879,7 +879,7 @@
       475,
       472,
       469,
-      466,
+      465,
       462,
       459,
       457,
@@ -1240,13 +1240,13 @@
       4
     ],
     "RUS": [
-      2043,
+      2044,
       2108,
       2167,
       2221,
       2269,
       2607,
-      2593,
+      2592,
       2578,
       2564,
       2551,
@@ -4018,11 +4018,18 @@
   "signal_summary": {
     "USA": 1,
     "ARG": 3,
+    "GBR": 2,
     "NOR": 1,
-    "FRA": 1,
-    "GBR": 1
+    "FRA": 1
   },
   "events": [
+    {
+      "iso": "GBR",
+      "title": "Hantavirus: UK Reports Confirmed Case in Tristan da Cunha, Says WHO Chief - Health and Me",
+      "t": "2026-06-11T07:30:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZFJydEtpdXpFazcxN3lMbDBzV3FrcXdHRkh5YU5hYUhiUGZxaDlBLVBnY0dQZU5pbEk0dXdfa2NIRnhiSF9TeFZVaFBFTEozRVJTcFpYdDFhVjBULXFueWhIVW5OeF9TSGJBX2RTQ0lFUER6YlU5eWRKT1dxcFh2a1JpSk1iWUxoQWpOUnY1bGpjQWJ2X19wS0UyTUhPWnpuNlBYMlRHUV80bC1rdk5penNCN0RtaThreUxhY2U4eDlpWEEwdlladg?oc=5"
+    },
     {
       "iso": "GBR",
       "title": "Reino Unido confirma un caso positivo de hantavirus - Noticias de Gipuzkoa",
@@ -4089,7 +4096,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-11T10:10:15Z",
+      "last_update": "2026-06-11T10:15:09Z",
       "signals": 2,
       "recent": [
         {
