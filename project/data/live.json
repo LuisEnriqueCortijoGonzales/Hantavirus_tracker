@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-11T12:25:16.165059Z",
-  "next_update": "2026-06-11T12:30:00Z",
+  "generated": "2026-06-11T12:30:04.908938Z",
+  "next_update": "2026-06-11T12:35:00Z",
   "days_active": 34,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -258,14 +258,14 @@
       "gov_alert": false
     },
     "NOR": {
-      "ytd": 80,
+      "ytd": 79,
       "alert": "endemico",
       "cfr": 0.2,
-      "var_pct": 16,
+      "var_pct": 15,
       "strain": "puumala",
       "new_today": 0,
       "r0": 5.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "FRA": {
@@ -941,15 +941,15 @@
       67,
       67,
       67,
-      68,
+      67,
       69,
-      71,
+      70,
       72,
-      81,
-      81,
       80,
       80,
-      80
+      80,
+      80,
+      79
     ],
     "FRA": [
       23,
@@ -1243,8 +1243,8 @@
       2050,
       2114,
       2172,
-      2225,
-      2621,
+      2226,
+      2620,
       2606,
       2591,
       2577,
@@ -2637,19 +2637,19 @@
       80,
       80,
       80,
-      80,
-      80,
-      80,
-      80,
-      80,
-      80,
-      80,
-      80,
-      80,
-      80,
-      80,
-      80,
-      80
+      79,
+      79,
+      79,
+      79,
+      79,
+      79,
+      79,
+      79,
+      79,
+      79,
+      79,
+      79,
+      79
     ],
     "FRA": [
       25,
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 10,
     "polymarket": 5,
-    "kalshi": 17,
+    "kalshi": 16,
     "max_andes_r0": 1.12,
     "avg_other_r0": 1.07,
     "continents": [
@@ -4018,7 +4018,6 @@
   "signal_summary": {
     "USA": 1,
     "ARG": 3,
-    "NOR": 1,
     "FRA": 1,
     "GBR": 1
   },
@@ -4036,13 +4035,6 @@
       "t": "2026-06-09T18:05:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcEtzLU4zTUZ4WnRZUEFITDVWWnFLd1A5RE5aSXZZVF9sQlg2RzVIQzlDZGtTMy1ZTVp2OUphUHQ5SWV2aFJCSHpjT1dNUnlKTXBxQmY5Xzhidk15MVNHSUxCSkMzcWs5N1hqM0lmcmt3VjZ5WlJJczF4RW9fVUpXNWJqcVJ5cTkyMm1VSHNkM3RKaXVZSHgybzd1TGthd0VaSnhSZ0lBeC1yeFYxdXVoVGF0OTJIQ21fRHZtY05kOA?oc=5"
-    },
-    {
-      "iso": "NOR",
-      "title": "Cruise ship Hondius departs Rotterdam for Norway after deadly hantavirus outbreak - NL Times",
-      "t": "2026-06-07T11:55:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMjE2MFRzQWppM2h2NUQ5SXVocUd3SGdrS290eU1rejAxVGhMZHVUZGNzNWdyWU04TF9LMXRSZ3otdDJUaHpLVjJ2UGdvOWY2aDcyTTY2eUNDZ2RkcDhoa2dIallmSmdOcG9uZkEzU3JVd2FCNnpvVWRjT2htNm9lY1pXTUlPNFhQdUJLSEZYV2xMZzdfaEp4aVdxWXA0OUZpY19B?oc=5"
     },
     {
       "iso": "ARG",
@@ -4089,14 +4081,9 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-11T12:25:16Z",
-      "signals": 2,
+      "last_update": "2026-06-11T12:30:04Z",
+      "signals": 1,
       "recent": [
-        {
-          "title": "Cruise ship Hondius departs Rotterdam for Norway after deadly hantavirus outbreak - NL Times",
-          "t": "2026-06-07T11:55:00Z",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMjE2MFRzQWppM2h2NUQ5SXVocUd3SGdrS290eU1rejAxVGhMZHVUZGNzNWdyWU04TF9LMXRSZ3otdDJUaHpLVjJ2UGdvOWY2aDcyTTY2eUNDZ2RkcDhoa2dIallmSmdOcG9uZkEzU3JVd2FCNnpvVWRjT2htNm9lY1pXTUlPNFhQdUJLSEZYV2xMZzdfaEp4aVdxWXA0OUZpY19B?oc=5"
-        },
         {
           "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
           "t": "2026-06-01T12:19:10Z",
