@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-11T10:35:11.690690Z",
-  "next_update": "2026-06-11T10:40:00Z",
+  "generated": "2026-06-11T10:40:16.155378Z",
+  "next_update": "2026-06-11T10:45:00Z",
   "days_active": 34,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -27,12 +27,12 @@
       "gov_alert": false
     },
     "BRA": {
-      "ytd": 122,
+      "ytd": 123,
       "alert": "vigilancia",
       "cfr": 41.6,
       "var_pct": 38,
       "strain": "hps",
-      "new_today": 5,
+      "new_today": 6,
       "r0": 3.5,
       "signals": 0,
       "gov_alert": false
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -613,7 +613,7 @@
       106,
       112,
       117,
-      122
+      123
     ],
     "BOL": [
       14,
@@ -872,7 +872,7 @@
       1
     ],
     "FIN": [
-      489,
+      488,
       485,
       482,
       478,
@@ -893,10 +893,10 @@
       200,
       199,
       198,
-      197,
+      196,
       195,
       194,
-      194,
+      193,
       193,
       192,
       191,
@@ -1240,10 +1240,10 @@
       4
     ],
     "RUS": [
-      2044,
+      2045,
       2109,
       2168,
-      2221,
+      2222,
       2270,
       2607,
       2592,
@@ -4019,17 +4019,10 @@
     "USA": 1,
     "ARG": 3,
     "NOR": 1,
-    "GBR": 2,
-    "FRA": 1
+    "FRA": 1,
+    "GBR": 1
   },
   "events": [
-    {
-      "iso": "GBR",
-      "title": "Hantavirus: UK Reports Confirmed Case in Tristan da Cunha, Says WHO Chief - Health and Me",
-      "t": "2026-06-11T07:30:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZFJydEtpdXpFazcxN3lMbDBzV3FrcXdHRkh5YU5hYUhiUGZxaDlBLVBnY0dQZU5pbEk0dXdfa2NIRnhiSF9TeFZVaFBFTEozRVJTcFpYdDFhVjBULXFueWhIVW5OeF9TSGJBX2RTQ0lFUER6YlU5eWRKT1dxcFh2a1JpSk1iWUxoQWpOUnY1bGpjQWJ2X19wS0UyTUhPWnpuNlBYMlRHUV80bC1rdk5penNCN0RtaThreUxhY2U4eDlpWEEwdlladg?oc=5"
-    },
     {
       "iso": "GBR",
       "title": "Reino Unido confirma un caso positivo de hantavirus - Noticias de Gipuzkoa",
@@ -4096,7 +4089,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-11T10:35:11Z",
+      "last_update": "2026-06-11T10:40:16Z",
       "signals": 2,
       "recent": [
         {
