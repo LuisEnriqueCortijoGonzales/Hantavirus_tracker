@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-11T18:55:04.886543Z",
-  "next_update": "2026-06-11T19:00:00Z",
+  "generated": "2026-06-11T19:00:09.449766Z",
+  "next_update": "2026-06-11T19:05:00Z",
   "days_active": 34,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -236,7 +236,7 @@
       "gov_alert": false
     },
     "DEU": {
-      "ytd": 326,
+      "ytd": 325,
       "alert": "vigilancia",
       "cfr": 0.2,
       "var_pct": -4,
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "GRC": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3221,
+      "ytd": 3220,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": -4,
@@ -917,7 +917,7 @@
       331,
       329,
       327,
-      326
+      325
     ],
     "POL": [
       46,
@@ -1349,7 +1349,7 @@
       3275,
       3256,
       3238,
-      3221
+      3220
     ],
     "KOR": [
       91,
@@ -1401,7 +1401,6 @@
     "2026-06-11T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-09T19:00:00Z",
     "2026-06-09T20:00:00Z",
     "2026-06-09T21:00:00Z",
     "2026-06-09T22:00:00Z",
@@ -1448,14 +1447,14 @@
     "2026-06-11T15:00:00Z",
     "2026-06-11T16:00:00Z",
     "2026-06-11T17:00:00Z",
-    "2026-06-11T18:00:00Z"
+    "2026-06-11T18:00:00Z",
+    "2026-06-11T19:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
       211,
       211,
       211,
-      211,
       210,
       210,
       210,
@@ -1499,6 +1498,7 @@
       206,
       206,
       206,
+      205,
       205
     ],
     "CHL": [
@@ -1520,7 +1520,6 @@
       79,
       79,
       79,
-      79,
       78,
       78,
       78,
@@ -1546,6 +1545,7 @@
       78,
       78,
       78,
+      77,
       77,
       77,
       77,
@@ -1555,7 +1555,6 @@
       114,
       114,
       114,
-      114,
       115,
       115,
       115,
@@ -1597,6 +1596,7 @@
       123,
       123,
       123,
+      124,
       124,
       124,
       124
@@ -1634,7 +1634,7 @@
       16,
       16,
       16,
-      16,
+      17,
       17,
       17,
       17,
@@ -1756,7 +1756,7 @@
       8,
       8,
       8,
-      8,
+      9,
       9,
       9,
       9,
@@ -1828,7 +1828,7 @@
       33,
       33,
       33,
-      33,
+      34,
       34,
       34,
       34,
@@ -2403,7 +2403,6 @@
     ],
     "FIN": [
       453,
-      453,
       452,
       452,
       452,
@@ -2447,6 +2446,7 @@
       448,
       448,
       448,
+      447,
       447,
       447,
       447
@@ -2474,7 +2474,7 @@
       190,
       190,
       190,
-      190,
+      189,
       189,
       189,
       189,
@@ -2511,7 +2511,6 @@
       329,
       329,
       329,
-      329,
       328,
       328,
       328,
@@ -2537,6 +2536,7 @@
       327,
       327,
       327,
+      326,
       326,
       326,
       326,
@@ -2569,7 +2569,7 @@
       57,
       57,
       57,
-      57,
+      56,
       56,
       56,
       56,
@@ -2630,7 +2630,7 @@
       80,
       80,
       80,
-      80,
+      79,
       79,
       79,
       79,
@@ -3182,7 +3182,7 @@
       44,
       44,
       44,
-      44,
+      43,
       43,
       43,
       43,
@@ -3553,7 +3553,6 @@
     ],
     "RUS": [
       2519,
-      2519,
       2518,
       2518,
       2517,
@@ -3599,6 +3598,7 @@
       2496,
       2495,
       2495,
+      2494,
       2494
     ],
     "BLR": [
@@ -3835,7 +3835,7 @@
       26,
       26,
       26,
-      26,
+      27,
       27,
       27,
       27,
@@ -3852,7 +3852,6 @@
       27
     ],
     "CHN": [
-      3256,
       3256,
       3255,
       3254,
@@ -3899,7 +3898,8 @@
       3223,
       3223,
       3222,
-      3221
+      3221,
+      3220
     ],
     "KOR": [
       112,
@@ -3932,7 +3932,7 @@
       112,
       112,
       112,
-      112,
+      111,
       111,
       111,
       111,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 10,
+    "composite": 9,
     "epidemio": 10,
     "polymarket": 5,
-    "kalshi": 16,
+    "kalshi": 12,
     "max_andes_r0": 1.12,
     "avg_other_r0": 1.07,
     "continents": [
@@ -4018,8 +4018,8 @@
   "signal_summary": {
     "ARG": 3,
     "USA": 1,
-    "FRA": 1,
-    "GBR": 1
+    "GBR": 2,
+    "FRA": 1
   },
   "events": [
     {
@@ -4035,6 +4035,13 @@
       "t": "2026-06-09T18:05:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcEtzLU4zTUZ4WnRZUEFITDVWWnFLd1A5RE5aSXZZVF9sQlg2RzVIQzlDZGtTMy1ZTVp2OUphUHQ5SWV2aFJCSHpjT1dNUnlKTXBxQmY5Xzhidk15MVNHSUxCSkMzcWs5N1hqM0lmcmt3VjZ5WlJJczF4RW9fVUpXNWJqcVJ5cTkyMm1VSHNkM3RKaXVZSHgybzd1TGthd0VaSnhSZ0lBeC1yeFYxdXVoVGF0OTJIQ21fRHZtY05kOA?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "Defence Medics parachute into Tristan da Cunha to treat hantavirus patient - GOV.UK",
+      "t": "2026-06-09T08:00:01Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLXNOVl9GemNERVZncV95eDZHVFNDNHdKUjVTUUxSMVRkTnpmWGdVQ1VuZnU5a2xmaEhfeGh1aWxaeWhtMVFIWHRjVGlyY1RCc2NqQUN4d1p2czNLcEVpQ0g4VmRqX2NmZkZjSVJhbkxfWml4bU9seGtfMExlcVd6OUVBOWN0b21iOE5ranhJVWttR1hJcFBkdUs5a3RORWRRcFVJTlNUN2xjajVsZWc?oc=5"
     },
     {
       "iso": "ARG",
@@ -4081,7 +4088,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-11T18:55:04Z",
+      "last_update": "2026-06-11T19:00:09Z",
       "signals": 1,
       "recent": [
         {
