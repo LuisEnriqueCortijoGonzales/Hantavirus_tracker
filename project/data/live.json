@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-11T19:10:02.604748Z",
-  "next_update": "2026-06-11T19:15:00Z",
+  "generated": "2026-06-11T19:15:12.414636Z",
+  "next_update": "2026-06-11T19:20:00Z",
   "days_active": 34,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -584,7 +584,7 @@
       205
     ],
     "CHL": [
-      68,
+      69,
       71,
       72,
       74,
@@ -1249,7 +1249,7 @@
       2587,
       2573,
       2559,
-      2546,
+      2545,
       2532,
       2519,
       2506,
@@ -1342,7 +1342,7 @@
       3415,
       3394,
       3373,
-      3353,
+      3352,
       3332,
       3313,
       3294,
@@ -1358,9 +1358,9 @@
       99,
       116,
       115,
-      115,
       114,
       114,
+      113,
       113,
       113,
       112,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 10,
     "epidemio": 10,
     "polymarket": 5,
-    "kalshi": 12,
+    "kalshi": 16,
     "max_andes_r0": 1.12,
     "avg_other_r0": 1.07,
     "continents": [
@@ -4018,16 +4018,16 @@
   "signal_summary": {
     "ARG": 3,
     "USA": 1,
-    "FRA": 1,
-    "GBR": 1
+    "GBR": 1,
+    "FRA": 1
   },
   "events": [
     {
       "iso": "GBR",
-      "title": "Reino Unido confirma un caso positivo de hantavirus - Noticias de Gipuzkoa",
-      "t": "2026-06-10T14:37:09Z",
+      "title": "Reino Unido confirma un caso positivo de hantavirus en la remota isla de Trist\u00e1n de Acu\u00f1a - Infobae",
+      "t": "2026-06-10T14:50:22Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN3VwY0dUdFNOQlRmTWQ3a2NIcHJlTWMwWmlscEthNl83cWVVLVpvNG44djR1bW1jTGZhRnFXT1VPZDFtYXY1NlNZLS02UC0zdnJZRlpWUzU3TlJyblZKcVdlNFA3cDN2S1hyS2RNYVhlYld3VGVlZzQ5UzR0Nm5rVktNZlpFRTdqN0lWSW14emxIUDdBYWE2ZnBwbzJYVDYtZkHSAacBQVVfeXFMT0JaTUlZbUxzZ2w1RGZtbWViSktGTFRhX1hyRGdWamJnemZvbzhfazlURkJfeVlJaXRiNEJ0VGZwRnV6dVhLdWtOUk1Rd1JZeGpOYXp2UlFYMnVNRU9rcGprdGFjUDdLcHZ3V295NTY2RVhETEROVkVnYUdVbGtCY2REV2I0b0xJTkZ5ZzZvMnpQNW5BZTVNYUlxVU5rX3B5dTh1U202WG8?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPU3dhZnpWbkFpVUlMNGo2LXZ5QV9DSkcxQ09XaEZSX3Q3bkdabEg2T2NQVUNnNXJSbHhacW5LYXBvaEJuQ1FFZE9VSHdOY3QwYS05ejZPZElxWGV4bE9jNmNUdFZUaEJudlQ4TkRCRnhRS1FmU25OckpXUDg1Yk9Dc3Z2WlAwRFBGSmd3Z1ctM1BVNmxVZHVhZDhneldLMkk2TTlnVVlYQTJHU0wzR3o2UGljS0FRYnplQjVWekdMUXctUXFERktVblZBMGl0NEhQWkRZd2N3OWpvZ9IB9AFBVV95cUxPOVlDeHlNdWtxYXhBa21KUENLZ3dTc0xGYUdqZnhDVDVicF8zcktfcEZ0eGM4T1BZTklRNkh5V1VPV1kzYTliR3A2X083bXF3d0xYcjkxZHliZ3NfeTZSaG5aVlk2WElDNEI0UVV5RXlwNTZuUXpOWndNa0Nsai14cWo4RlQ5b3hDdG1RRHVsVmM1Ym5OSzhEbUJTRDNacTVha3FSNVJEbWNEbGYxTERVOGVKb3JDc2VEMnduV1pSQ3lXVF9YcHJ4aGJtekJ5MWVqVElodjJVQWZtV1NYUjV4b29OS3dqTEhzZ1VHZzU4NnVhaWFv?oc=5"
     },
     {
       "iso": "USA",
@@ -4038,17 +4038,17 @@
     },
     {
       "iso": "ARG",
+      "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus; env\u00eda equipos a atrapar y analizar ratas en Mendoza - The Morning Call",
+      "t": "2026-06-06T04:55:15Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVnVhQ3FocGE0OHdYVlVPc2R1dXo3ZEFxNVRlUWFka19femw3ZlB4N1MwU2doczRBNU5Wd0ZCQk5xeklndXJid1ZYUXNsaU1GR0FWazBnbzNERUVyQ21KcGIyZ2dwdE9hdDdVSHdKaTJnRVFSR291NHg1WTdoOGNpU2RITUtWTnQ2U25aMUN3UkhtUHdSclpWRldITlg1NnlsSmZYSGdHbC1nT2dHbEIzWUR0QnZOVTVfeEFfVndKOVdOcTNmTUk4?oc=5"
+    },
+    {
+      "iso": "ARG",
       "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW",
       "t": "2026-06-06T03:30:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus; env\u00eda equipos a atrapar y analizar ratas en Mendoza - Boston Herald",
-      "t": "2026-06-06T00:47:19Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdmFaQ05YVmR3NjJ2TFMxQ1d5WF9hZXVrRTQxV3ZhemtJcFIwWjJhaGxoc2ZUV1p6WkJQVVFFelhNNlRteUhZamNzSHRpTnh6dGhsdm1oX1ltaW5ucDNVdnZLVFBmUGRKclpNSVZHUHFHa2p2Q2JpRGRGRXl2MWtBTFRqWTlSam80akFURGkyNmk1cTYxcmlZbjAtdXFqN2huWU5zai1haXRxVHVVdHBYc0pYd3VuYzlMZXdLNHYtLVpMSjdSeDBFWlhrdFFZOWhp?oc=5"
     },
     {
       "iso": "ARG",
@@ -4081,7 +4081,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-11T19:10:02Z",
+      "last_update": "2026-06-11T19:15:12Z",
       "signals": 1,
       "recent": [
         {
