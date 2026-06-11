@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-11T08:35:13.893146Z",
-  "next_update": "2026-06-11T08:40:00Z",
+  "generated": "2026-06-11T08:40:13.153100Z",
+  "next_update": "2026-06-11T08:45:00Z",
   "days_active": 34,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 207,
+      "ytd": 206,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 13,
@@ -74,11 +74,11 @@
       "ytd": 9,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 10,
+      "var_pct": 11,
       "strain": "hps",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "USA": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 3,
       "gov_alert": false
     },
     "GRC": {
@@ -581,7 +581,7 @@
       215,
       212,
       209,
-      207
+      206
     ],
     "CHL": [
       68,
@@ -875,7 +875,7 @@
       489,
       485,
       482,
-      479,
+      478,
       475,
       472,
       469,
@@ -908,7 +908,7 @@
       293,
       349,
       347,
-      345,
+      344,
       342,
       340,
       338,
@@ -1242,7 +1242,7 @@
     "RUS": [
       2039,
       2104,
-      2163,
+      2164,
       2217,
       2266,
       2608,
@@ -1763,10 +1763,10 @@
       8,
       8,
       8,
-      8,
-      8,
-      8,
-      8,
+      9,
+      9,
+      9,
+      9,
       9,
       9,
       9,
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 10,
     "polymarket": 5,
-    "kalshi": 14,
+    "kalshi": 17,
     "max_andes_r0": 1.12,
     "avg_other_r0": 1.07,
     "continents": [
@@ -4019,10 +4019,32 @@
     "USA": 1,
     "ARG": 3,
     "NOR": 1,
-    "GBR": 1,
-    "FRA": 1
+    "GBR": 3,
+    "FRA": 1,
+    "MEX": 1
   },
   "events": [
+    {
+      "iso": "GBR",
+      "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - Oaxaca Hoy",
+      "t": "2026-06-11T00:18:52Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcFpSQkk0OGtVcXhqZEF3UzVxNW0zRmJCSWRKTHZmcmkzQW1WMlNVT0dlZ193NWxCSWRrdUdib21oS2Jfd1MwVTJ2bDRnUVZnVURMU0lId05DUlMyckh1MEdxZXRrbjhISFdOMW54cEJ1bDd5cG96X0RsdzRlbS0xWi1FZ2VJNTFBU0VCQ3FCZGxpMVBiWUJRMkllVWZiQVhmNUhvRW1GOU1aNFJReW04?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - El Heraldo de M\u00e9xico",
+      "t": "2026-06-10T17:21:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSnBUWXEyWUN4Y2p1QUdNNDV0Rno4T19WZlFkUm1ZbGcxaHBXT292WUxUX0FMYUM1SHU0V2M0Q2pJZGktaWlLWXQ2Ym1walFnbkJ0Y3AxYktvQ3lwNzVQRkVHZmtMSEdCQ3JYSXUxTk4xM0JNV3Z1bW5WSXVDVGd3XzMyZFpybEkxSjRXaFhKVER6enZVWXJ5b2pxd2lueVY5NkxnbXFZR0NwblFRSlpwZVJOMUo0WU9xanRhM0dSbHRvRFhaR3FVRnhhU2Z4TV9YYTdZbNIB2gFBVV95cUxOMHFQLVFHOHZyWFBCOHRTekxJV1FneVp2dGx2UV9ZOHJ1OTVGYy1DVkVsMEVyaXJEVWRweFUzS1hpYmlYc2VmMHliOWZ1QjFOWUs1OVhUSzhMZEdUZVZnaW1nblNHVW5RTkZvUTdTeS1rSEpSVlFxTlFLTUN2Wm9VaGVvT1JwVmpabjlJOTlvUndNRmZRY2gxSkIwaVRtaEo0WnNrWm10VUh4WldKNnFpWlVuMThiSGdPd0RFSDlaVkZCVEgxbjlQYmpzRTVSV3NSMktzel8ySnJidw?oc=5"
+    },
+    {
+      "iso": "MEX",
+      "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - El Heraldo de M\u00e9xico",
+      "t": "2026-06-10T17:21:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSnBUWXEyWUN4Y2p1QUdNNDV0Rno4T19WZlFkUm1ZbGcxaHBXT292WUxUX0FMYUM1SHU0V2M0Q2pJZGktaWlLWXQ2Ym1walFnbkJ0Y3AxYktvQ3lwNzVQRkVHZmtMSEdCQ3JYSXUxTk4xM0JNV3Z1bW5WSXVDVGd3XzMyZFpybEkxSjRXaFhKVER6enZVWXJ5b2pxd2lueVY5NkxnbXFZR0NwblFRSlpwZVJOMUo0WU9xanRhM0dSbHRvRFhaR3FVRnhhU2Z4TV9YYTdZbNIB2gFBVV95cUxOMHFQLVFHOHZyWFBCOHRTekxJV1FneVp2dGx2UV9ZOHJ1OTVGYy1DVkVsMEVyaXJEVWRweFUzS1hpYmlYc2VmMHliOWZ1QjFOWUs1OVhUSzhMZEdUZVZnaW1nblNHVW5RTkZvUTdTeS1rSEpSVlFxTlFLTUN2Wm9VaGVvT1JwVmpabjlJOTlvUndNRmZRY2gxSkIwaVRtaEo0WnNrWm10VUh4WldKNnFpWlVuMThiSGdPd0RFSDlaVkZCVEgxbjlQYmpzRTVSV3NSMktzel8ySnJidw?oc=5"
+    },
     {
       "iso": "GBR",
       "title": "Reino Unido confirma un caso positivo de hantavirus - Noticias de Gipuzkoa",
@@ -4089,13 +4111,23 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-11T08:35:13Z",
-      "signals": 2,
+      "last_update": "2026-06-11T08:40:13Z",
+      "signals": 4,
       "recent": [
         {
           "title": "Cruise ship Hondius departs Rotterdam for Norway after deadly hantavirus outbreak - NL Times",
           "t": "2026-06-07T11:55:00Z",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMjE2MFRzQWppM2h2NUQ5SXVocUd3SGdrS290eU1rejAxVGhMZHVUZGNzNWdyWU04TF9LMXRSZ3otdDJUaHpLVjJ2UGdvOWY2aDcyTTY2eUNDZ2RkcDhoa2dIallmSmdOcG9uZkEzU3JVd2FCNnpvVWRjT2htNm9lY1pXTUlPNFhQdUJLSEZYV2xMZzdfaEp4aVdxWXA0OUZpY19B?oc=5"
+        },
+        {
+          "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - El Heraldo de M\u00e9xico",
+          "t": "2026-06-10T17:21:00Z",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSnBUWXEyWUN4Y2p1QUdNNDV0Rno4T19WZlFkUm1ZbGcxaHBXT292WUxUX0FMYUM1SHU0V2M0Q2pJZGktaWlLWXQ2Ym1walFnbkJ0Y3AxYktvQ3lwNzVQRkVHZmtMSEdCQ3JYSXUxTk4xM0JNV3Z1bW5WSXVDVGd3XzMyZFpybEkxSjRXaFhKVER6enZVWXJ5b2pxd2lueVY5NkxnbXFZR0NwblFRSlpwZVJOMUo0WU9xanRhM0dSbHRvRFhaR3FVRnhhU2Z4TV9YYTdZbNIB2gFBVV95cUxOMHFQLVFHOHZyWFBCOHRTekxJV1FneVp2dGx2UV9ZOHJ1OTVGYy1DVkVsMEVyaXJEVWRweFUzS1hpYmlYc2VmMHliOWZ1QjFOWUs1OVhUSzhMZEdUZVZnaW1nblNHVW5RTkZvUTdTeS1rSEpSVlFxTlFLTUN2Wm9VaGVvT1JwVmpabjlJOTlvUndNRmZRY2gxSkIwaVRtaEo0WnNrWm10VUh4WldKNnFpWlVuMThiSGdPd0RFSDlaVkZCVEgxbjlQYmpzRTVSV3NSMktzel8ySnJidw?oc=5"
+        },
+        {
+          "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - Oaxaca Hoy",
+          "t": "2026-06-11T00:18:52Z",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcFpSQkk0OGtVcXhqZEF3UzVxNW0zRmJCSWRKTHZmcmkzQW1WMlNVT0dlZ193NWxCSWRrdUdib21oS2Jfd1MwVTJ2bDRnUVZnVURMU0lId05DUlMyckh1MEdxZXRrbjhISFdOMW54cEJ1bDd5cG96X0RsdzRlbS0xWi1FZ2VJNTFBU0VCQ3FCZGxpMVBiWUJRMkllVWZiQVhmNUhvRW1GOU1aNFJReW04?oc=5"
         },
         {
           "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
