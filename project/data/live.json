@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-11T23:25:06.412715Z",
-  "next_update": "2026-06-11T23:30:00Z",
+  "generated": "2026-06-11T23:30:10.921320Z",
+  "next_update": "2026-06-11T23:35:00Z",
   "days_active": 34,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -467,7 +467,7 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2492,
+      "ytd": 2491,
       "alert": "vigilancia",
       "cfr": 0.9,
       "var_pct": -4,
@@ -948,7 +948,7 @@
       80,
       80,
       80,
-      80,
+      79,
       79
     ],
     "FRA": [
@@ -1247,13 +1247,13 @@
       2614,
       2599,
       2585,
-      2571,
+      2570,
       2557,
       2543,
       2530,
       2517,
       2504,
-      2492
+      2491
     ],
     "BLR": [
       34,
@@ -4006,7 +4006,7 @@
     "composite": 9,
     "epidemio": 10,
     "polymarket": 4,
-    "kalshi": 13,
+    "kalshi": 12,
     "max_andes_r0": 1.12,
     "avg_other_r0": 1.07,
     "continents": [
@@ -4045,17 +4045,17 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus; env\u00eda equipos a atrapar y analizar ratas en Mendoza - The Morning Call",
-      "t": "2026-06-06T04:55:15Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVnVhQ3FocGE0OHdYVlVPc2R1dXo3ZEFxNVRlUWFka19femw3ZlB4N1MwU2doczRBNU5Wd0ZCQk5xeklndXJid1ZYUXNsaU1GR0FWazBnbzNERUVyQ21KcGIyZ2dwdE9hdDdVSHdKaTJnRVFSR291NHg1WTdoOGNpU2RITUtWTnQ2U25aMUN3UkhtUHdSclpWRldITlg1NnlsSmZYSGdHbC1nT2dHbEIzWUR0QnZOVTVfeEFfVndKOVdOcTNmTUk4?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW",
       "t": "2026-06-06T03:30:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus; env\u00eda equipos a atrapar y analizar ratas en Mendoza - Hartford Courant",
+      "t": "2026-06-06T00:35:03Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWENGZjBwVkc5cEFvSnN4eWt0WVdBMmVCNFFwTXg3NURMR0xvWGNobGJLNnRxM2pVZ2gwX1hXR0hQU1Zyb21XUjZ4elA2NFZwNWhDVGV0VHZUTVlLQW93THl4U1lqTWxESlFjN0hjLVFjMm5kdlFha1VYRjFGTGlfbkVkMGJkLTJLQmdDUnphbmxYdjItZ2tXcTRBclhhZndtek9YV1JiZUw2UHBWd0JtQl9qbU5SOVN4OU9aVHU4cENHT0QyaGNEMUdR?oc=5"
     },
     {
       "iso": "ARG",
@@ -4088,7 +4088,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-11T23:25:06Z",
+      "last_update": "2026-06-11T23:30:10Z",
       "signals": 1,
       "recent": [
         {
