@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-11T20:45:09.401356Z",
-  "next_update": "2026-06-11T20:50:00Z",
+  "generated": "2026-06-11T20:50:08.653438Z",
+  "next_update": "2026-06-11T20:55:00Z",
   "days_active": 34,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 5,
+      "signals": 4,
       "gov_alert": false
     },
     "GRC": {
@@ -525,7 +525,7 @@
       "ytd": 27,
       "alert": "vigilancia",
       "cfr": 0.8,
-      "var_pct": 16,
+      "var_pct": 17,
       "strain": "hantaan",
       "new_today": 1,
       "r0": 3.5,
@@ -570,7 +570,7 @@
     "ARG": [
       156,
       163,
-      168,
+      169,
       174,
       179,
       183,
@@ -1242,7 +1242,7 @@
     "RUS": [
       2073,
       2135,
-      2191,
+      2192,
       2243,
       2615,
       2601,
@@ -1346,13 +1346,13 @@
       3331,
       3312,
       3292,
-      3274,
+      3273,
       3255,
       3237,
       3219
     ],
     "KOR": [
-      91,
+      92,
       94,
       97,
       99,
@@ -4016,19 +4016,12 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "GBR": 5,
     "ARG": 2,
     "USA": 1,
+    "GBR": 4,
     "FRA": 1
   },
   "events": [
-    {
-      "iso": "GBR",
-      "title": "Prisoner at San Quentin may have hantavirus, authorities say - Yahoo News UK",
-      "t": "2026-06-11T20:25:43Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOS2ttV0M5VXRzdDBKbGhJRENPMGRnZkt3VWtGSFBBM25HbDRIaFR1b1ZJQW5ZZEM3WjJKci1jclJOVzFoeHBUWmJ2aEVVNkw5Q1JmU2U1VXVBTXZ4N3UxX2VIclNKcEZ1WXhYZWpvVGZvRmtFOUdhX0M1UVp4dmt1em1B?oc=5"
-    },
     {
       "iso": "GBR",
       "title": "Hantavirus: UK Reports Confirmed Case in Tristan da Cunha, Says WHO Chief - Health and Me",
@@ -4066,10 +4059,10 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus; env\u00eda equipos a atrapar y analizar ratas en Mendoza - Hartford Courant",
-      "t": "2026-06-06T00:35:03Z",
+      "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus; env\u00eda equipos a atrapar y analizar ratas en Mendoza - The Morning Call",
+      "t": "2026-06-06T04:55:15Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWENGZjBwVkc5cEFvSnN4eWt0WVdBMmVCNFFwTXg3NURMR0xvWGNobGJLNnRxM2pVZ2gwX1hXR0hQU1Zyb21XUjZ4elA2NFZwNWhDVGV0VHZUTVlLQW93THl4U1lqTWxESlFjN0hjLVFjMm5kdlFha1VYRjFGTGlfbkVkMGJkLTJLQmdDUnphbmxYdjItZ2tXcTRBclhhZndtek9YV1JiZUw2UHBWd0JtQl9qbU5SOVN4OU9aVHU4cENHT0QyaGNEMUdR?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVnVhQ3FocGE0OHdYVlVPc2R1dXo3ZEFxNVRlUWFka19femw3ZlB4N1MwU2doczRBNU5Wd0ZCQk5xeklndXJid1ZYUXNsaU1GR0FWazBnbzNERUVyQ21KcGIyZ2dwdE9hdDdVSHdKaTJnRVFSR291NHg1WTdoOGNpU2RITUtWTnQ2U25aMUN3UkhtUHdSclpWRldITlg1NnlsSmZYSGdHbC1nT2dHbEIzWUR0QnZOVTVfeEFfVndKOVdOcTNmTUk4?oc=5"
     },
     {
       "iso": "ARG",
@@ -4102,7 +4095,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-11T20:45:09Z",
+      "last_update": "2026-06-11T20:50:08Z",
       "signals": 1,
       "recent": [
         {
