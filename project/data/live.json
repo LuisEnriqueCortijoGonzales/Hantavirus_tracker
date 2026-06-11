@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-11T08:30:09.427172Z",
-  "next_update": "2026-06-11T08:35:00Z",
+  "generated": "2026-06-11T08:35:13.893146Z",
+  "next_update": "2026-06-11T08:40:00Z",
   "days_active": 34,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -74,11 +74,11 @@
       "ytd": 9,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 11,
+      "var_pct": 10,
       "strain": "hps",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "USA": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 2,
+      "var_pct": 0,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 4,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -691,7 +691,7 @@
       30,
       31,
       32,
-      32,
+      33,
       33,
       34
     ],
@@ -1246,10 +1246,10 @@
       2217,
       2266,
       2608,
-      2594,
+      2593,
       2579,
       2565,
-      2552,
+      2551,
       2538,
       2525,
       2512,
@@ -1338,13 +1338,13 @@
     "CHN": [
       3492,
       3469,
-      3447,
+      3446,
       3425,
       3403,
       3382,
-      3362,
+      3361,
       3341,
-      3322,
+      3321,
       3302,
       3283,
       3264,
@@ -1354,7 +1354,7 @@
     "KOR": [
       90,
       93,
-      95,
+      96,
       98,
       100,
       115,
@@ -1763,10 +1763,10 @@
       8,
       8,
       8,
-      9,
-      9,
-      9,
-      9,
+      8,
+      8,
+      8,
+      8,
       9,
       9,
       9,
@@ -4006,7 +4006,7 @@
     "composite": 10,
     "epidemio": 10,
     "polymarket": 5,
-    "kalshi": 13,
+    "kalshi": 14,
     "max_andes_r0": 1.12,
     "avg_other_r0": 1.07,
     "continents": [
@@ -4018,46 +4018,17 @@
   "signal_summary": {
     "USA": 1,
     "ARG": 3,
-    "GBR": 4,
     "NOR": 1,
-    "FRA": 1,
-    "MEX": 1
+    "GBR": 1,
+    "FRA": 1
   },
   "events": [
     {
       "iso": "GBR",
-      "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - Oaxaca Hoy",
-      "t": "2026-06-11T00:18:52Z",
+      "title": "Reino Unido confirma un caso positivo de hantavirus - Noticias de Gipuzkoa",
+      "t": "2026-06-10T14:37:09Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcFpSQkk0OGtVcXhqZEF3UzVxNW0zRmJCSWRKTHZmcmkzQW1WMlNVT0dlZ193NWxCSWRrdUdib21oS2Jfd1MwVTJ2bDRnUVZnVURMU0lId05DUlMyckh1MEdxZXRrbjhISFdOMW54cEJ1bDd5cG96X0RsdzRlbS0xWi1FZ2VJNTFBU0VCQ3FCZGxpMVBiWUJRMkllVWZiQVhmNUhvRW1GOU1aNFJReW04?oc=5"
-    },
-    {
-      "iso": "GBR",
-      "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - El Heraldo de M\u00e9xico",
-      "t": "2026-06-10T17:21:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSnBUWXEyWUN4Y2p1QUdNNDV0Rno4T19WZlFkUm1ZbGcxaHBXT292WUxUX0FMYUM1SHU0V2M0Q2pJZGktaWlLWXQ2Ym1walFnbkJ0Y3AxYktvQ3lwNzVQRkVHZmtMSEdCQ3JYSXUxTk4xM0JNV3Z1bW5WSXVDVGd3XzMyZFpybEkxSjRXaFhKVER6enZVWXJ5b2pxd2lueVY5NkxnbXFZR0NwblFRSlpwZVJOMUo0WU9xanRhM0dSbHRvRFhaR3FVRnhhU2Z4TV9YYTdZbNIB2gFBVV95cUxOMHFQLVFHOHZyWFBCOHRTekxJV1FneVp2dGx2UV9ZOHJ1OTVGYy1DVkVsMEVyaXJEVWRweFUzS1hpYmlYc2VmMHliOWZ1QjFOWUs1OVhUSzhMZEdUZVZnaW1nblNHVW5RTkZvUTdTeS1rSEpSVlFxTlFLTUN2Wm9VaGVvT1JwVmpabjlJOTlvUndNRmZRY2gxSkIwaVRtaEo0WnNrWm10VUh4WldKNnFpWlVuMThiSGdPd0RFSDlaVkZCVEgxbjlQYmpzRTVSV3NSMktzel8ySnJidw?oc=5"
-    },
-    {
-      "iso": "MEX",
-      "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - El Heraldo de M\u00e9xico",
-      "t": "2026-06-10T17:21:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSnBUWXEyWUN4Y2p1QUdNNDV0Rno4T19WZlFkUm1ZbGcxaHBXT292WUxUX0FMYUM1SHU0V2M0Q2pJZGktaWlLWXQ2Ym1walFnbkJ0Y3AxYktvQ3lwNzVQRkVHZmtMSEdCQ3JYSXUxTk4xM0JNV3Z1bW5WSXVDVGd3XzMyZFpybEkxSjRXaFhKVER6enZVWXJ5b2pxd2lueVY5NkxnbXFZR0NwblFRSlpwZVJOMUo0WU9xanRhM0dSbHRvRFhaR3FVRnhhU2Z4TV9YYTdZbNIB2gFBVV95cUxOMHFQLVFHOHZyWFBCOHRTekxJV1FneVp2dGx2UV9ZOHJ1OTVGYy1DVkVsMEVyaXJEVWRweFUzS1hpYmlYc2VmMHliOWZ1QjFOWUs1OVhUSzhMZEdUZVZnaW1nblNHVW5RTkZvUTdTeS1rSEpSVlFxTlFLTUN2Wm9VaGVvT1JwVmpabjlJOTlvUndNRmZRY2gxSkIwaVRtaEo0WnNrWm10VUh4WldKNnFpWlVuMThiSGdPd0RFSDlaVkZCVEgxbjlQYmpzRTVSV3NSMktzel8ySnJidw?oc=5"
-    },
-    {
-      "iso": "GBR",
-      "title": "Reino Unido confirma un caso positivo de hantavirus - Deia",
-      "t": "2026-06-10T14:37:07Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOLXJ4cHZIZmsyS3N5Y0RVVDYzWlFlU1FMQTlidkVpQy0zdi1YR1J2c0tEWlNGd3Q1cFJFVVZTTF9qWE9sQ2RmdjctcDRUSmdCZjkzTHowbXlQT3l6aFNkTUkwUHJzU1phdGMzRzBmN0hRWHFZQ0VhbV9QRno5Q2pYYm5Na0xzR1FOb0R2OUdVONIBlAFBVV95cUxNVElYLVRqLVlwUHdOellXUi1IREtya2tSTFc4MlNhWFQ0bzlzUXJmWDRFVUFRdFl6RF8xZ3pJMjQzOXgxeHlHa2hsS29fbUNPLWkwZGFPSVpuelhuMmt6RFEzdkVpY01FaktWQUQ1MDhjcUVQT1dGeTZEaEI1YkRTblZldXM2emJETmF6R0g5R2hYNENX?oc=5"
-    },
-    {
-      "iso": "GBR",
-      "title": "UKHSA Says No Change To Public Health Risk To The UK Population From Hantavirus, Which Remains Very Low - TradingView",
-      "t": "2026-06-10T13:37:35Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOMU9CVTVndjZCNFZUc1VrcTltWktLdnR6MVJLMGt1MGw3TFZMX1pnNDNVeGhaX2RDakRhTGZZa3BldUp1aDZ5b3VXbUw4OExiZXdzYzZRdXZ5Ul9pakoyUktDSzdtNnl5MVFqVzc3b3JqWEZqQl9nUXNRcTAzU3A3WXllSFVIVWozODFoSzFDODVEUHVJTG1wY01HTWZ4MTJHcGh1MUVLemM0bDZzSlhwS2k0NzdxQjJjcXdSRExRSF9rT09VZnhlcURzb21FSmc2b1VXXzYzNWVLWGZoNVMwN2tuMHByck55cjd4ZEw0cGRvYUMyME5iTkR1eWVpendESHc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN3VwY0dUdFNOQlRmTWQ3a2NIcHJlTWMwWmlscEthNl83cWVVLVpvNG44djR1bW1jTGZhRnFXT1VPZDFtYXY1NlNZLS02UC0zdnJZRlpWUzU3TlJyblZKcVdlNFA3cDN2S1hyS2RNYVhlYld3VGVlZzQ5UzR0Nm5rVktNZlpFRTdqN0lWSW14emxIUDdBYWE2ZnBwbzJYVDYtZkHSAacBQVVfeXFMT0JaTUlZbUxzZ2w1RGZtbWViSktGTFRhX1hyRGdWamJnemZvbzhfazlURkJfeVlJaXRiNEJ0VGZwRnV6dVhLdWtOUk1Rd1JZeGpOYXp2UlFYMnVNRU9rcGprdGFjUDdLcHZ3V295NTY2RVhETEROVkVnYUdVbGtCY2REV2I0b0xJTkZ5ZzZvMnpQNW5BZTVNYUlxVU5rX3B5dTh1U202WG8?oc=5"
     },
     {
       "iso": "USA",
@@ -4118,19 +4089,9 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-11T08:30:09Z",
-      "signals": 4,
+      "last_update": "2026-06-11T08:35:13Z",
+      "signals": 2,
       "recent": [
-        {
-          "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - El Heraldo de M\u00e9xico",
-          "t": "2026-06-10T17:21:00Z",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSnBUWXEyWUN4Y2p1QUdNNDV0Rno4T19WZlFkUm1ZbGcxaHBXT292WUxUX0FMYUM1SHU0V2M0Q2pJZGktaWlLWXQ2Ym1walFnbkJ0Y3AxYktvQ3lwNzVQRkVHZmtMSEdCQ3JYSXUxTk4xM0JNV3Z1bW5WSXVDVGd3XzMyZFpybEkxSjRXaFhKVER6enZVWXJ5b2pxd2lueVY5NkxnbXFZR0NwblFRSlpwZVJOMUo0WU9xanRhM0dSbHRvRFhaR3FVRnhhU2Z4TV9YYTdZbNIB2gFBVV95cUxOMHFQLVFHOHZyWFBCOHRTekxJV1FneVp2dGx2UV9ZOHJ1OTVGYy1DVkVsMEVyaXJEVWRweFUzS1hpYmlYc2VmMHliOWZ1QjFOWUs1OVhUSzhMZEdUZVZnaW1nblNHVW5RTkZvUTdTeS1rSEpSVlFxTlFLTUN2Wm9VaGVvT1JwVmpabjlJOTlvUndNRmZRY2gxSkIwaVRtaEo0WnNrWm10VUh4WldKNnFpWlVuMThiSGdPd0RFSDlaVkZCVEgxbjlQYmpzRTVSV3NSMktzel8ySnJidw?oc=5"
-        },
-        {
-          "title": "Reino Unido confirma paciente con hantavirus que viaj\u00f3 en el crucero MV Hondius - Oaxaca Hoy",
-          "t": "2026-06-11T00:18:52Z",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcFpSQkk0OGtVcXhqZEF3UzVxNW0zRmJCSWRKTHZmcmkzQW1WMlNVT0dlZ193NWxCSWRrdUdib21oS2Jfd1MwVTJ2bDRnUVZnVURMU0lId05DUlMyckh1MEdxZXRrbjhISFdOMW54cEJ1bDd5cG96X0RsdzRlbS0xWi1FZ2VJNTFBU0VCQ3FCZGxpMVBiWUJRMkllVWZiQVhmNUhvRW1GOU1aNFJReW04?oc=5"
-        },
         {
           "title": "Cruise ship Hondius departs Rotterdam for Norway after deadly hantavirus outbreak - NL Times",
           "t": "2026-06-07T11:55:00Z",
