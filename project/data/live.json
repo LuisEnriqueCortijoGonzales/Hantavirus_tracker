@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-12T01:35:07.897181Z",
-  "next_update": "2026-06-12T01:40:00Z",
+  "generated": "2026-06-12T01:40:07.150118Z",
+  "next_update": "2026-06-12T01:45:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 205,
+      "ytd": 204,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 10,
+      "var_pct": 9,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.53,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "CHL": {
@@ -261,7 +261,7 @@
       "ytd": 79,
       "alert": "endemico",
       "cfr": 0.2,
-      "var_pct": 14,
+      "var_pct": 13,
       "strain": "puumala",
       "new_today": 0,
       "r0": 5.0,
@@ -393,7 +393,7 @@
       "ytd": 33,
       "alert": "vigilancia",
       "cfr": 1.2,
-      "var_pct": 14,
+      "var_pct": 13,
       "strain": "dobrava",
       "new_today": 0,
       "r0": 4.0,
@@ -569,19 +569,19 @@
   "history": {
     "ARG": [
       158,
-      165,
+      164,
       170,
-      176,
-      181,
-      185,
-      189,
+      175,
+      180,
+      184,
+      188,
       192,
-      196,
-      216,
-      213,
-      210,
-      207,
-      205
+      195,
+      215,
+      212,
+      209,
+      206,
+      204
     ],
     "CHL": [
       69,
@@ -1240,7 +1240,7 @@
       4
     ],
     "RUS": [
-      2085,
+      2086,
       2147,
       2202,
       2252,
@@ -1345,7 +1345,7 @@
       3347,
       3327,
       3308,
-      3289,
+      3288,
       3270,
       3251,
       3233,
@@ -1452,15 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      210,
-      210,
-      210,
-      210,
-      210,
-      209,
-      209,
-      209,
-      209,
       209,
       209,
       209,
@@ -1499,7 +1490,16 @@
       205,
       205,
       205,
-      205
+      205,
+      205,
+      204,
+      204,
+      204,
+      204,
+      204,
+      204,
+      204,
+      204
     ],
     "CHL": [
       79,
@@ -4006,7 +4006,7 @@
     "composite": 8,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 12,
+    "kalshi": 13,
     "max_andes_r0": 0.53,
     "avg_other_r0": 1.05,
     "continents": [
@@ -4016,7 +4016,7 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "ARG": 3,
+    "ARG": 2,
     "USA": 1,
     "GBR": 1,
     "FRA": 1
@@ -4038,14 +4038,7 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus; env\u00eda equipos a atrapar y analizar ratas en Mendoza - The Morning Call",
-      "t": "2026-06-06T04:55:15Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVnVhQ3FocGE0OHdYVlVPc2R1dXo3ZEFxNVRlUWFka19femw3ZlB4N1MwU2doczRBNU5Wd0ZCQk5xeklndXJid1ZYUXNsaU1GR0FWazBnbzNERUVyQ21KcGIyZ2dwdE9hdDdVSHdKaTJnRVFSR291NHg1WTdoOGNpU2RITUtWTnQ2U25aMUN3UkhtUHdSclpWRldITlg1NnlsSmZYSGdHbC1nT2dHbEIzWUR0QnZOVTVfeEFfVndKOVdOcTNmTUk4?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW",
+      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW.com",
       "t": "2026-06-06T03:30:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
@@ -4081,7 +4074,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T01:35:07Z",
+      "last_update": "2026-06-12T01:40:07Z",
       "signals": 1,
       "recent": [
         {
