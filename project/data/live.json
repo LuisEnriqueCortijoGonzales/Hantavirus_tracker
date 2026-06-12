@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-12T00:25:13.151791Z",
-  "next_update": "2026-06-12T00:30:00Z",
+  "generated": "2026-06-12T00:30:07.161499Z",
+  "next_update": "2026-06-12T00:35:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 205,
+      "ytd": 204,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 10,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.53,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "CHL": {
@@ -85,7 +85,7 @@
       "ytd": 34,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 20,
+      "var_pct": 19,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.2,
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3217,
+      "ytd": 3216,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": -4,
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      158,
+      157,
       164,
-      170,
-      176,
+      169,
+      175,
       180,
-      185,
-      189,
-      192,
+      184,
+      188,
+      191,
       195,
-      216,
-      213,
-      210,
-      207,
-      205
+      215,
+      212,
+      209,
+      206,
+      204
     ],
     "CHL": [
       69,
@@ -906,7 +906,7 @@
     "DEU": [
       291,
       350,
-      348,
+      347,
       345,
       343,
       341,
@@ -1240,9 +1240,9 @@
       4
     ],
     "RUS": [
-      2082,
+      2083,
       2144,
-      2199,
+      2200,
       2250,
       2613,
       2598,
@@ -1252,7 +1252,7 @@
       2543,
       2529,
       2516,
-      2504,
+      2503,
       2491
     ],
     "BLR": [
@@ -1336,7 +1336,7 @@
       27
     ],
     "CHN": [
-      3477,
+      3476,
       3454,
       3432,
       3410,
@@ -1349,7 +1349,7 @@
       3271,
       3252,
       3234,
-      3217
+      3216
     ],
     "KOR": [
       92,
@@ -1452,15 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      210,
-      210,
-      210,
-      210,
-      210,
-      210,
-      209,
-      209,
-      209,
       209,
       209,
       209,
@@ -1499,7 +1490,16 @@
       205,
       205,
       205,
-      205
+      205,
+      205,
+      205,
+      204,
+      204,
+      204,
+      204,
+      204,
+      204,
+      204
     ],
     "CHL": [
       79,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
-    "epidemio": 9,
+    "composite": 8,
+    "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 15,
+    "kalshi": 13,
     "max_andes_r0": 0.53,
     "avg_other_r0": 1.05,
     "continents": [
@@ -4016,9 +4016,9 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "ARG": 3,
+    "ARG": 2,
     "USA": 1,
-    "GBR": 2,
+    "GBR": 1,
     "FRA": 1
   },
   "events": [
@@ -4035,20 +4035,6 @@
       "t": "2026-06-09T18:05:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcEtzLU4zTUZ4WnRZUEFITDVWWnFLd1A5RE5aSXZZVF9sQlg2RzVIQzlDZGtTMy1ZTVp2OUphUHQ5SWV2aFJCSHpjT1dNUnlKTXBxQmY5Xzhidk15MVNHSUxCSkMzcWs5N1hqM0lmcmt3VjZ5WlJJczF4RW9fVUpXNWJqcVJ5cTkyMm1VSHNkM3RKaXVZSHgybzd1TGthd0VaSnhSZ0lBeC1yeFYxdXVoVGF0OTJIQ21fRHZtY05kOA?oc=5"
-    },
-    {
-      "iso": "GBR",
-      "title": "Defence Medics parachute into Tristan da Cunha to treat hantavirus patient - GOV.UK",
-      "t": "2026-06-09T08:00:01Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLXNOVl9GemNERVZncV95eDZHVFNDNHdKUjVTUUxSMVRkTnpmWGdVQ1VuZnU5a2xmaEhfeGh1aWxaeWhtMVFIWHRjVGlyY1RCc2NqQUN4d1p2czNLcEVpQ0g4VmRqX2NmZkZjSVJhbkxfWml4bU9seGtfMExlcVd6OUVBOWN0b21iOE5ranhJVWttR1hJcFBkdUs5a3RORWRRcFVJTlNUN2xjajVsZWc?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus; env\u00eda equipos a atrapar y analizar ratas en Mendoza - The Morning Call",
-      "t": "2026-06-06T04:55:15Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVnVhQ3FocGE0OHdYVlVPc2R1dXo3ZEFxNVRlUWFka19femw3ZlB4N1MwU2doczRBNU5Wd0ZCQk5xeklndXJid1ZYUXNsaU1GR0FWazBnbzNERUVyQ21KcGIyZ2dwdE9hdDdVSHdKaTJnRVFSR291NHg1WTdoOGNpU2RITUtWTnQ2U25aMUN3UkhtUHdSclpWRldITlg1NnlsSmZYSGdHbC1nT2dHbEIzWUR0QnZOVTVfeEFfVndKOVdOcTNmTUk4?oc=5"
     },
     {
       "iso": "ARG",
@@ -4088,7 +4074,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T00:25:13Z",
+      "last_update": "2026-06-12T00:30:07Z",
       "signals": 1,
       "recent": [
         {
