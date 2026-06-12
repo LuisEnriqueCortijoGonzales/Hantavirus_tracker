@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-12T23:30:10.145883Z",
-  "next_update": "2026-06-12T23:35:00Z",
+  "generated": "2026-06-12T23:35:19.919507Z",
+  "next_update": "2026-06-12T23:40:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -569,7 +569,7 @@
   "history": {
     "ARG": [
       167,
-      172,
+      173,
       178,
       183,
       187,
@@ -1116,7 +1116,7 @@
       35,
       36,
       37,
-      37,
+      38,
       38,
       39,
       40,
@@ -1240,8 +1240,8 @@
       4
     ],
     "RUS": [
-      2141,
-      2197,
+      2142,
+      2198,
       2248,
       2614,
       2599,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 8,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 13,
+    "kalshi": 12,
     "max_andes_r0": 0.53,
     "avg_other_r0": 1.41,
     "continents": [
@@ -4018,6 +4018,7 @@
   "signal_summary": {
     "USA": 1,
     "ARG": 6,
+    "GBR": 1,
     "FRA": 1
   },
   "events": [
@@ -4034,6 +4035,13 @@
       "t": "2026-06-12T16:22:48Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdUFsbEtvOVo2bXg2X05Semc4bXRQZEtDd0RFNXZFUTEzMWFDWUpvU2VGOXVHOXR3dEFWa2lJc0NSSzF6anI4NDhOeERUTkRpUnpIYkdmeUpKcVNjTVZFRkhEbklGZHNxOXR5SVRkdDUwTjdla05IdXJFWmFLS1ZXRF9sdmdxUnJlbFlXU1pPbVRrOHJxNVNvX3FCbG1kaVpRLXdkc3JuMUdBOVlRUFpJdDJfTkJmWS1iT0HSAc4BQVVfeXFMT1VHMHJscVowUzV0N1hZT1U0SDQ3cTFaVlVQWVotcF80b3hvNnlPSzZvSlZxdUtPd19zWm1kN2pUTVc1eGhJeGczT1RvRHpiQmRBNTUzRDVqT29oQ2F5QlY5MnR0ajZPVHRIakdtVFdGSWhSSkh6bEVvU3J1Q29NbXN0ZzNVcE1rNXJSTHo4dndfMkhfZmRNQldLcG5uakpUWElmRXhYVjM5amc0ell2LXZyOW8xXzY1SUJhMElUMHlFdml4MUM1ekxxd00yOFE?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "Reino Unido confirma un caso positivo de hantavirus en la remota isla de Trist\u00e1n de Acu\u00f1a - Infobae",
+      "t": "2026-06-10T14:50:22Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPU3dhZnpWbkFpVUlMNGo2LXZ5QV9DSkcxQ09XaEZSX3Q3bkdabEg2T2NQVUNnNXJSbHhacW5LYXBvaEJuQ1FFZE9VSHdOY3QwYS05ejZPZElxWGV4bE9jNmNUdFZUaEJudlQ4TkRCRnhRS1FmU25OckpXUDg1Yk9Dc3Z2WlAwRFBGSmd3Z1ctM1BVNmxVZHVhZDhneldLMkk2TTlnVVlYQTJHU0wzR3o2UGljS0FRYnplQjVWekdMUXctUXFERktVblZBMGl0NEhQWkRZd2N3OWpvZ9IB9AFBVV95cUxPOVlDeHlNdWtxYXhBa21KUENLZ3dTc0xGYUdqZnhDVDVicF8zcktfcEZ0eGM4T1BZTklRNkh5V1VPV1kzYTliR3A2X083bXF3d0xYcjkxZHliZ3NfeTZSaG5aVlk2WElDNEI0UVV5RXlwNTZuUXpOWndNa0Nsai14cWo4RlQ5b3hDdG1RRHVsVmM1Ym5OSzhEbUJTRDNacTVha3FSNVJEbWNEbGYxTERVOGVKb3JDc2VEMnduV1pSQ3lXVF9YcHJ4aGJtekJ5MWVqVElodjJVQWZtV1NYUjV4b29OS3dqTEhzZ1VHZzU4NnVhaWFv?oc=5"
     },
     {
       "iso": "USA",
@@ -4094,7 +4102,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T23:30:10Z",
+      "last_update": "2026-06-12T23:35:19Z",
       "signals": 4,
       "recent": [
         {
