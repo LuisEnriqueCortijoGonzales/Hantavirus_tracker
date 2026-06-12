@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-12T11:55:14.666526Z",
-  "next_update": "2026-06-12T12:00:00Z",
+  "generated": "2026-06-12T12:00:08.661833Z",
+  "next_update": "2026-06-12T12:05:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 204,
+      "ytd": 203,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 9,
+      "var_pct": 8,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.53,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "CHL": {
@@ -368,13 +368,13 @@
       "gov_alert": false
     },
     "GRC": {
-      "ytd": 6,
+      "ytd": 7,
       "alert": "endemico",
       "cfr": 0.3,
-      "var_pct": 3,
+      "var_pct": 10,
       "strain": "dobrava",
-      "new_today": 0,
-      "r0": 0.0,
+      "new_today": 1,
+      "r0": 3.5,
       "signals": 0,
       "gov_alert": false
     },
@@ -401,35 +401,35 @@
       "gov_alert": false
     },
     "SVN": {
-      "ytd": 12,
+      "ytd": 13,
       "alert": "vigilancia",
       "cfr": 0.8,
-      "var_pct": 3,
+      "var_pct": 10,
       "strain": "dobrava",
-      "new_today": 0,
-      "r0": 0.0,
+      "new_today": 1,
+      "r0": 3.5,
       "signals": 0,
       "gov_alert": false
     },
     "SVK": {
-      "ytd": 9,
+      "ytd": 10,
       "alert": "vigilancia",
       "cfr": 0.5,
-      "var_pct": 3,
+      "var_pct": 10,
       "strain": "dobrava",
-      "new_today": 0,
-      "r0": 0.0,
+      "new_today": 1,
+      "r0": 3.5,
       "signals": 0,
       "gov_alert": false
     },
     "SRB": {
-      "ytd": 15,
+      "ytd": 16,
       "alert": "endemico",
       "cfr": 0.8,
-      "var_pct": 3,
+      "var_pct": 10,
       "strain": "dobrava",
-      "new_today": 0,
-      "r0": 0.0,
+      "new_today": 1,
+      "r0": 3.5,
       "signals": 0,
       "gov_alert": false
     },
@@ -445,13 +445,13 @@
       "gov_alert": false
     },
     "BGR": {
-      "ytd": 8,
+      "ytd": 9,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 3,
+      "var_pct": 10,
       "strain": "dobrava",
-      "new_today": 0,
-      "r0": 0.0,
+      "new_today": 1,
+      "r0": 3.5,
       "signals": 0,
       "gov_alert": false
     },
@@ -568,26 +568,26 @@
   },
   "history": {
     "ARG": [
-      162,
-      168,
-      174,
-      179,
+      161,
+      167,
+      173,
+      178,
       183,
-      188,
+      187,
       191,
-      195,
-      198,
-      216,
-      213,
-      210,
-      207,
-      204
+      194,
+      218,
+      215,
+      212,
+      209,
+      206,
+      203
     ],
     "CHL": [
       70,
       72,
       74,
-      75,
+      87,
       86,
       85,
       84,
@@ -904,7 +904,7 @@
       188
     ],
     "DEU": [
-      294,
+      351,
       349,
       346,
       344,
@@ -923,7 +923,7 @@
       47,
       48,
       50,
-      51,
+      58,
       58,
       58,
       58,
@@ -944,7 +944,7 @@
       69,
       70,
       72,
-      73,
+      80,
       80,
       80,
       80,
@@ -960,7 +960,7 @@
       23,
       23,
       23,
-      23,
+      25,
       25,
       25,
       25,
@@ -1024,7 +1024,7 @@
       8,
       8,
       8,
-      8,
+      9,
       9,
       9,
       9,
@@ -1109,7 +1109,7 @@
       6,
       6,
       6,
-      6
+      7
     ],
     "ROU": [
       34,
@@ -1120,7 +1120,7 @@
       38,
       39,
       39,
-      40,
+      44,
       44,
       44,
       44,
@@ -1136,7 +1136,7 @@
       29,
       29,
       30,
-      30,
+      34,
       33,
       33,
       33,
@@ -1157,7 +1157,7 @@
       12,
       12,
       12,
-      12
+      13
     ],
     "SVK": [
       9,
@@ -1173,7 +1173,7 @@
       9,
       9,
       9,
-      9
+      10
     ],
     "SRB": [
       15,
@@ -1189,7 +1189,7 @@
       15,
       15,
       15,
-      15
+      16
     ],
     "HRV": [
       6,
@@ -1221,7 +1221,7 @@
       8,
       8,
       8,
-      8
+      9
     ],
     "MKD": [
       4,
@@ -1240,10 +1240,10 @@
       4
     ],
     "RUS": [
-      2112,
+      2113,
       2171,
       2224,
-      2272,
+      2621,
       2606,
       2591,
       2577,
@@ -1264,7 +1264,7 @@
       34,
       34,
       34,
-      34,
+      37,
       37,
       37,
       37,
@@ -1280,7 +1280,7 @@
       18,
       18,
       18,
-      18,
+      20,
       20,
       20,
       20,
@@ -1342,7 +1342,7 @@
       3400,
       3379,
       3359,
-      3339,
+      3338,
       3319,
       3299,
       3280,
@@ -1355,7 +1355,7 @@
       93,
       96,
       98,
-      100,
+      116,
       115,
       115,
       114,
@@ -1376,7 +1376,7 @@
       12,
       12,
       12,
-      12,
+      13,
       13,
       13,
       13,
@@ -1401,7 +1401,6 @@
     "2026-06-12T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-10T12:00:00Z",
     "2026-06-10T13:00:00Z",
     "2026-06-10T14:00:00Z",
     "2026-06-10T15:00:00Z",
@@ -1448,20 +1447,11 @@
     "2026-06-12T08:00:00Z",
     "2026-06-12T09:00:00Z",
     "2026-06-12T10:00:00Z",
-    "2026-06-12T11:00:00Z"
+    "2026-06-12T11:00:00Z",
+    "2026-06-12T12:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      210,
-      210,
-      210,
-      210,
-      209,
-      209,
-      209,
-      209,
-      209,
-      209,
       209,
       209,
       209,
@@ -1473,7 +1463,7 @@
       208,
       208,
       208,
-      207,
+      208,
       207,
       207,
       207,
@@ -1499,11 +1489,20 @@
       205,
       205,
       205,
-      204
+      205,
+      204,
+      204,
+      204,
+      204,
+      204,
+      204,
+      204,
+      204,
+      203,
+      203
     ],
     "CHL": [
       79,
-      79,
       78,
       78,
       78,
@@ -1529,6 +1528,7 @@
       78,
       78,
       78,
+      77,
       77,
       77,
       77,
@@ -1556,7 +1556,6 @@
       118,
       118,
       118,
-      118,
       119,
       119,
       119,
@@ -1599,7 +1598,8 @@
       127,
       127,
       127,
-      127
+      127,
+      128
     ],
     "BOL": [
       16,
@@ -1617,7 +1617,7 @@
       16,
       16,
       16,
-      16,
+      17,
       17,
       17,
       17,
@@ -1693,7 +1693,7 @@
       12,
       12,
       12,
-      12,
+      13,
       13,
       13,
       13,
@@ -1811,7 +1811,7 @@
       33,
       33,
       33,
-      33,
+      34,
       34,
       34,
       34,
@@ -2403,7 +2403,6 @@
     ],
     "FIN": [
       451,
-      451,
       450,
       450,
       450,
@@ -2449,6 +2448,7 @@
       446,
       446,
       445,
+      445,
       445
     ],
     "SWE": [
@@ -2457,7 +2457,6 @@
       190,
       190,
       190,
-      190,
       189,
       189,
       189,
@@ -2486,6 +2485,7 @@
       189,
       189,
       189,
+      188,
       188,
       188,
       188,
@@ -2507,7 +2507,6 @@
       328,
       328,
       328,
-      328,
       327,
       327,
       327,
@@ -2547,12 +2546,13 @@
       325,
       325,
       325,
+      324,
       324,
       324,
       324
     ],
     "POL": [
-      57,
+      56,
       56,
       56,
       56,
@@ -2613,7 +2613,7 @@
       80,
       80,
       80,
-      80,
+      79,
       79,
       79,
       79,
@@ -3165,7 +3165,7 @@
       44,
       44,
       44,
-      44,
+      43,
       43,
       43,
       43,
@@ -3553,7 +3553,6 @@
     ],
     "RUS": [
       2510,
-      2510,
       2509,
       2508,
       2508,
@@ -3599,7 +3598,8 @@
       2487,
       2487,
       2486,
-      2486
+      2486,
+      2485
     ],
     "BLR": [
       37,
@@ -3818,7 +3818,7 @@
       26,
       26,
       26,
-      26,
+      27,
       27,
       27,
       27,
@@ -3852,7 +3852,6 @@
       27
     ],
     "CHN": [
-      3244,
       3243,
       3242,
       3241,
@@ -3899,7 +3898,8 @@
       3211,
       3210,
       3210,
-      3209
+      3209,
+      3208
     ],
     "KOR": [
       112,
@@ -3915,7 +3915,7 @@
       112,
       112,
       112,
-      112,
+      111,
       111,
       111,
       111,
@@ -4003,12 +4003,12 @@
     ]
   },
   "pandemic": {
-    "composite": 10,
+    "composite": 9,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 16,
+    "kalshi": 15,
     "max_andes_r0": 0.53,
-    "avg_other_r0": 1.05,
+    "avg_other_r0": 1.41,
     "continents": [
       "Americas"
     ],
@@ -4016,8 +4016,8 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "ARG": 4,
     "USA": 1,
+    "ARG": 3,
     "GBR": 1,
     "FRA": 1
   },
@@ -4042,13 +4042,6 @@
       "t": "2026-06-06T03:30:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus; env\u00eda equipos a atrapar y analizar ratas en Mendoza - Chicago Tribune",
-      "t": "2026-06-06T01:13:36Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcWNlVUNyUUJLdVoySFJ3VWhxYTctVXlxbW9OUnFpUWwySlhMMlBlajJ0UkRvb2hYN29RVnRySmIwUHpfaUVGNlhYd2NyX1E3Mm9wZDVPZTFoS0d2NDc3bDVFa3FVOWMxcm9RelBvelQ1NjFLVkE5cmUzUHc1Nmk0UV9ReklVd0dYem5PQkRaQ3U2Tl90TnM3ZV96MzBJMTFtT1IyVVRYZzN6aldUVE5hV1JseWFMaHNRbmRpbkhHQWZQal9ING5Cc19CaXR0VVlzWWpF?oc=5"
     },
     {
       "iso": "ARG",
@@ -4088,7 +4081,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T11:55:14Z",
+      "last_update": "2026-06-12T12:00:08Z",
       "signals": 2,
       "recent": [
         {
