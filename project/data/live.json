@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-12T19:25:04.929748Z",
-  "next_update": "2026-06-12T19:30:00Z",
+  "generated": "2026-06-12T19:30:04.170543Z",
+  "next_update": "2026-06-12T19:35:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 204,
+      "ytd": 202,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 8,
+      "var_pct": 7,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.53,
-      "signals": 4,
+      "signals": 2,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      164,
-      170,
-      175,
-      180,
-      185,
-      189,
-      193,
-      196,
-      218,
-      215,
-      212,
-      209,
-      206,
-      204
+      162,
+      168,
+      174,
+      179,
+      183,
+      187,
+      191,
+      194,
+      216,
+      213,
+      210,
+      207,
+      204,
+      202
     ],
     "CHL": [
       71,
@@ -907,7 +907,7 @@
       350,
       348,
       346,
-      344,
+      343,
       341,
       339,
       337,
@@ -1240,8 +1240,8 @@
       4
     ],
     "RUS": [
-      2131,
-      2188,
+      2132,
+      2189,
       2240,
       2616,
       2601,
@@ -1337,7 +1337,7 @@
     ],
     "CHN": [
       3459,
-      3437,
+      3436,
       3415,
       3394,
       3373,
@@ -1345,7 +1345,7 @@
       3332,
       3313,
       3293,
-      3275,
+      3274,
       3256,
       3238,
       3220,
@@ -1452,24 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      209,
-      209,
-      209,
-      209,
-      209,
-      208,
-      208,
-      208,
-      208,
-      208,
-      208,
-      208,
-      208,
-      207,
-      207,
-      207,
-      207,
-      207,
       207,
       207,
       207,
@@ -1491,6 +1473,7 @@
       205,
       205,
       205,
+      205,
       204,
       204,
       204,
@@ -1499,7 +1482,24 @@
       204,
       204,
       204,
-      204
+      204,
+      203,
+      203,
+      203,
+      203,
+      203,
+      203,
+      203,
+      203,
+      202,
+      202,
+      202,
+      202,
+      202,
+      202,
+      202,
+      202,
+      202
     ],
     "CHL": [
       78,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 10,
+    "composite": 8,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 17,
+    "kalshi": 12,
     "max_andes_r0": 0.53,
     "avg_other_r0": 1.41,
     "continents": [
@@ -4017,7 +4017,7 @@
   },
   "signal_summary": {
     "USA": 1,
-    "ARG": 4,
+    "ARG": 2,
     "PAN": 1,
     "FRA": 1
   },
@@ -4042,20 +4042,6 @@
       "t": "2026-06-07T17:07:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOakpZdGpBNUdoakpuLUhMTDVkYVNhZXVBQ1FQNDlMbjFjdUtyaE9NVVNkdzBJd2ZpOUpfSXZZUGFjN2VPZkhiZnZzdHpfQXJaSTQwY0dYVC1SaXZKTGdESXZLYlhaNVBBRmtEdzdVTkYtanBvaVA1NVBkN3JHWi1HdjQzQ2hRX1NvUjI3Vlg2Y2JOSzBZckxJcFBjZkVTX1FsZVJTX3RQR09DSW1ZZUlKeXl1aEx1bF9BVFJrdzIxUnJjRkx0TXpMbk4zblfSAecBQVVfeXFMTm95SnpIbHJNS1BRaWdlU3BCalNjdkNTWDQ2UmlDQ1FwNzUtZldnQnlGNFdjYndMX3pNcVdNT3ZyUFEtN1hfWWFkOVZUeWZKdmUwUnNCN3ROMTVpeXZrN1VOZGlFOEctSnBVT1ctQkU2Ym1zdTlGbUN2MVNBQzNJVHFzRUVVQUNNV1U1VUV2YVAyOGdBbjAydVBuSHF3dHItYjFMUVBfWXF5azMwd2ZBZmR6Y01HX0VjNWZ6RkRwdVFZRGMtdHRmc3B4anpEenlFZzZMTHVoQmJIMFA4YU1CelpBX1FNVW5n?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW.com",
-      "t": "2026-06-06T03:30:52Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - AP News",
-      "t": "2026-06-05T23:40:42Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYV9WYXctbkRkNHQxeTVCd2VsSHRfRTI0UEJVYVJNOERaVVpBOFg3SDZIdEpvaG42S3RNZ3R2NzVlcTNRd1NPeExsUzNnQmlLLVpyVnd3QTV0V0hiNjVFaU1mTGJXTDA0ZzZWRjRDSWtSOElBS042RmZKZnQtZEJuV0ZpX01SMXFFYURtcFRQYnAxT3piX3V4aldNZHBRbUdUUXlvTV9XdldvUmFGX1F2ME13VFg?oc=5"
     },
     {
       "iso": "FRA",
@@ -4088,7 +4074,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T19:25:04Z",
+      "last_update": "2026-06-12T19:30:04Z",
       "signals": 3,
       "recent": [
         {
