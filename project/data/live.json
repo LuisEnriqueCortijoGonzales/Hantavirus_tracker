@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-12T10:55:02.614989Z",
-  "next_update": "2026-06-12T11:00:00Z",
+  "generated": "2026-06-12T11:00:01.944218Z",
+  "next_update": "2026-06-12T11:05:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 205,
+      "ytd": 203,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 9,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.53,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      162,
-      168,
+      161,
+      167,
       173,
-      179,
-      183,
+      178,
+      182,
       187,
-      191,
-      195,
-      198,
-      216,
-      213,
-      210,
-      207,
-      205
+      190,
+      194,
+      197,
+      215,
+      212,
+      209,
+      206,
+      203
     ],
     "CHL": [
       70,
@@ -877,7 +877,7 @@
       478,
       475,
       472,
-      469,
+      468,
       465,
       462,
       459,
@@ -1341,9 +1341,9 @@
       3422,
       3401,
       3380,
-      3360,
+      3359,
       3339,
-      3320,
+      3319,
       3300,
       3281,
       3263,
@@ -1401,7 +1401,6 @@
     "2026-06-12T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-10T11:00:00Z",
     "2026-06-10T12:00:00Z",
     "2026-06-10T13:00:00Z",
     "2026-06-10T14:00:00Z",
@@ -1448,20 +1447,11 @@
     "2026-06-12T07:00:00Z",
     "2026-06-12T08:00:00Z",
     "2026-06-12T09:00:00Z",
-    "2026-06-12T10:00:00Z"
+    "2026-06-12T10:00:00Z",
+    "2026-06-12T11:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      210,
-      210,
-      210,
-      210,
-      210,
-      209,
-      209,
-      209,
-      209,
-      209,
       209,
       209,
       209,
@@ -1474,7 +1464,7 @@
       208,
       208,
       208,
-      207,
+      208,
       207,
       207,
       207,
@@ -1499,12 +1489,21 @@
       205,
       205,
       205,
-      205
+      205,
+      205,
+      204,
+      204,
+      204,
+      204,
+      204,
+      204,
+      204,
+      204,
+      203
     ],
     "CHL": [
       79,
       79,
-      79,
       78,
       78,
       78,
@@ -1530,6 +1529,7 @@
       78,
       78,
       78,
+      77,
       77,
       77,
       77,
@@ -1552,7 +1552,6 @@
       77
     ],
     "BRA": [
-      117,
       118,
       118,
       118,
@@ -1596,6 +1595,7 @@
       126,
       126,
       126,
+      127,
       127,
       127,
       127,
@@ -1618,7 +1618,7 @@
       16,
       16,
       16,
-      16,
+      17,
       17,
       17,
       17,
@@ -1694,7 +1694,7 @@
       12,
       12,
       12,
-      12,
+      13,
       13,
       13,
       13,
@@ -1812,7 +1812,7 @@
       33,
       33,
       33,
-      33,
+      34,
       34,
       34,
       34,
@@ -2404,7 +2404,6 @@
     "FIN": [
       451,
       451,
-      451,
       450,
       450,
       450,
@@ -2449,6 +2448,7 @@
       446,
       446,
       446,
+      445,
       445
     ],
     "SWE": [
@@ -2458,7 +2458,6 @@
       190,
       190,
       190,
-      190,
       189,
       189,
       189,
@@ -2487,6 +2486,7 @@
       189,
       189,
       189,
+      188,
       188,
       188,
       188,
@@ -2502,7 +2502,6 @@
       188
     ],
     "DEU": [
-      328,
       328,
       328,
       328,
@@ -2549,11 +2548,12 @@
       325,
       325,
       324,
+      324,
       324
     ],
     "POL": [
       57,
-      57,
+      56,
       56,
       56,
       56,
@@ -2614,7 +2614,7 @@
       80,
       80,
       80,
-      80,
+      79,
       79,
       79,
       79,
@@ -3166,7 +3166,7 @@
       44,
       44,
       44,
-      44,
+      43,
       43,
       43,
       43,
@@ -3552,7 +3552,6 @@
       4
     ],
     "RUS": [
-      2511,
       2510,
       2510,
       2509,
@@ -3599,6 +3598,7 @@
       2488,
       2487,
       2487,
+      2486,
       2486
     ],
     "BLR": [
@@ -3819,7 +3819,7 @@
       26,
       26,
       26,
-      26,
+      27,
       27,
       27,
       27,
@@ -3852,7 +3852,6 @@
       27
     ],
     "CHN": [
-      3244,
       3244,
       3243,
       3242,
@@ -3899,7 +3898,8 @@
       3212,
       3211,
       3210,
-      3210
+      3210,
+      3209
     ],
     "KOR": [
       112,
@@ -3916,7 +3916,7 @@
       112,
       112,
       112,
-      112,
+      111,
       111,
       111,
       111,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 10,
+    "composite": 8,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 17,
+    "kalshi": 12,
     "max_andes_r0": 0.53,
     "avg_other_r0": 1.05,
     "continents": [
@@ -4016,7 +4016,7 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "ARG": 4,
+    "ARG": 3,
     "USA": 1,
     "GBR": 1,
     "FRA": 1
@@ -4035,13 +4035,6 @@
       "t": "2026-06-09T18:05:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcEtzLU4zTUZ4WnRZUEFITDVWWnFLd1A5RE5aSXZZVF9sQlg2RzVIQzlDZGtTMy1ZTVp2OUphUHQ5SWV2aFJCSHpjT1dNUnlKTXBxQmY5Xzhidk15MVNHSUxCSkMzcWs5N1hqM0lmcmt3VjZ5WlJJczF4RW9fVUpXNWJqcVJ5cTkyMm1VSHNkM3RKaXVZSHgybzd1TGthd0VaSnhSZ0lBeC1yeFYxdXVoVGF0OTJIQ21fRHZtY05kOA?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus; env\u00eda equipos a atrapar y analizar ratas en Mendoza - The Morning Call",
-      "t": "2026-06-06T04:55:15Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVnVhQ3FocGE0OHdYVlVPc2R1dXo3ZEFxNVRlUWFka19femw3ZlB4N1MwU2doczRBNU5Wd0ZCQk5xeklndXJid1ZYUXNsaU1GR0FWazBnbzNERUVyQ21KcGIyZ2dwdE9hdDdVSHdKaTJnRVFSR291NHg1WTdoOGNpU2RITUtWTnQ2U25aMUN3UkhtUHdSclpWRldITlg1NnlsSmZYSGdHbC1nT2dHbEIzWUR0QnZOVTVfeEFfVndKOVdOcTNmTUk4?oc=5"
     },
     {
       "iso": "ARG",
@@ -4088,7 +4081,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T10:55:02Z",
+      "last_update": "2026-06-12T11:00:01Z",
       "signals": 2,
       "recent": [
         {
