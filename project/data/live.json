@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-12T12:15:06.403464Z",
-  "next_update": "2026-06-12T12:20:00Z",
+  "generated": "2026-06-12T12:20:16.145009Z",
+  "next_update": "2026-06-12T12:25:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 201,
+      "ytd": 203,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 7,
+      "var_pct": 8,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.53,
-      "signals": 1,
+      "signals": 3,
       "gov_alert": false
     },
     "CHL": {
@@ -30,7 +30,7 @@
       "ytd": 128,
       "alert": "vigilancia",
       "cfr": 41.6,
-      "var_pct": 43,
+      "var_pct": 44,
       "strain": "hps",
       "new_today": 5,
       "r0": 5.0,
@@ -52,7 +52,7 @@
       "ytd": 13,
       "alert": "vigilancia",
       "cfr": 39.0,
-      "var_pct": 14,
+      "var_pct": 15,
       "strain": "hps",
       "new_today": 1,
       "r0": 3.5,
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      160,
-      166,
-      171,
-      176,
-      181,
-      185,
-      189,
-      192,
+      161,
+      167,
+      173,
+      178,
+      183,
+      187,
+      191,
+      194,
+      218,
       215,
-      213,
-      210,
-      207,
-      204,
-      201
+      212,
+      209,
+      206,
+      203
     ],
     "CHL": [
       70,
@@ -594,7 +594,7 @@
       82,
       81,
       80,
-      80,
+      79,
       79,
       78,
       77
@@ -1240,7 +1240,7 @@
       4
     ],
     "RUS": [
-      2113,
+      2114,
       2172,
       2225,
       2621,
@@ -1346,7 +1346,7 @@
       3318,
       3299,
       3280,
-      3262,
+      3261,
       3243,
       3225,
       3208
@@ -1452,6 +1452,24 @@
   ],
   "hourly_history": {
     "ARG": [
+      209,
+      209,
+      209,
+      208,
+      208,
+      208,
+      208,
+      208,
+      208,
+      208,
+      208,
+      208,
+      207,
+      207,
+      207,
+      207,
+      207,
+      207,
       207,
       207,
       206,
@@ -1480,26 +1498,8 @@
       204,
       204,
       204,
-      204,
       203,
-      203,
-      203,
-      203,
-      203,
-      203,
-      203,
-      203,
-      202,
-      202,
-      202,
-      202,
-      202,
-      202,
-      202,
-      202,
-      202,
-      201,
-      201
+      203
     ],
     "CHL": [
       79,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 8,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 14,
+    "kalshi": 12,
     "max_andes_r0": 0.53,
     "avg_other_r0": 1.41,
     "continents": [
@@ -4017,8 +4017,8 @@
   },
   "signal_summary": {
     "USA": 1,
+    "ARG": 3,
     "FRA": 1,
-    "ARG": 1,
     "GBR": 1
   },
   "events": [
@@ -4035,6 +4035,20 @@
       "t": "2026-06-09T18:05:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcEtzLU4zTUZ4WnRZUEFITDVWWnFLd1A5RE5aSXZZVF9sQlg2RzVIQzlDZGtTMy1ZTVp2OUphUHQ5SWV2aFJCSHpjT1dNUnlKTXBxQmY5Xzhidk15MVNHSUxCSkMzcWs5N1hqM0lmcmt3VjZ5WlJJczF4RW9fVUpXNWJqcVJ5cTkyMm1VSHNkM3RKaXVZSHgybzd1TGthd0VaSnhSZ0lBeC1yeFYxdXVoVGF0OTJIQ21fRHZtY05kOA?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus: Argentina expands probe to trace outbreak source - dw.com",
+      "t": "2026-06-06T03:30:52Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - AP News",
+      "t": "2026-06-05T23:40:42Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYV9WYXctbkRkNHQxeTVCd2VsSHRfRTI0UEJVYVJNOERaVVpBOFg3SDZIdEpvaG42S3RNZ3R2NzVlcTNRd1NPeExsUzNnQmlLLVpyVnd3QTV0V0hiNjVFaU1mTGJXTDA0ZzZWRjRDSWtSOElBS042RmZKZnQtZEJuV0ZpX01SMXFFYURtcFRQYnAxT3piX3V4aldNZHBRbUdUUXlvTV9XdldvUmFGX1F2ME13VFg?oc=5"
     },
     {
       "iso": "FRA",
@@ -4067,18 +4081,18 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T12:15:06Z",
+      "last_update": "2026-06-12T12:20:16Z",
       "signals": 2,
       "recent": [
-        {
-          "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
-          "t": "2026-06-01T12:19:10Z",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSV9HXzZldFVsQXU4NXplR0M1RE9VbjNDcTBuZENibldCbWVTRGVxQ0xDY2xnSG1SanVQWThzdTd6RGstRHdSWXpWNlZ3QnFuN0FDRy1nUFpkTFhIRTVucGt4bFR4Wi1VRGNUVXl3UU5TTUp6WDdXZ2RKaXR1bXBqMEViQm5YYlhPU2tOdjl5Ui12Y2pRZmJtVnhFWDRRV0p5VHoyb2pfSGVvRFFNdkpzYzdPa0JfZDdMcGRyOVVPSzc5b1dMX0hmUGxOdk5fMzRoVkpRZ2dMMA?oc=5"
-        },
         {
           "title": "Hantavirus: el crucero MV Hondius volver\u00e1 a navegar en junio tras el brote iniciado en Argentina - La Voz del Interior",
           "t": "2026-05-30T07:00:00Z",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMzk3OHBGaklNZ3hkcnlXWV9pa3hiTEJZVTl6TnFJbXlzS3dhTWpoQ05GYWgzMmd5VWRKcTl1V2hJTW1CVUtQZXdlY0ZMbnFQbTdhNVVncXowSzE5WTVUMTZiRGstY0RQX0d2T293Tk8xZlZtOWNYTVNiVFRybWY1V3ROc3N0VVcxMUF0SFF1ZGdwZHhsd3VnY1NsbUVqUUFZb3ZzMmNKQUZIMUhPX0VSQURjRUEyam9aWTNkaDVyRmlQN28?oc=5"
+        },
+        {
+          "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
+          "t": "2026-06-01T12:19:10Z",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSV9HXzZldFVsQXU4NXplR0M1RE9VbjNDcTBuZENibldCbWVTRGVxQ0xDY2xnSG1SanVQWThzdTd6RGstRHdSWXpWNlZ3QnFuN0FDRy1nUFpkTFhIRTVucGt4bFR4Wi1VRGNUVXl3UU5TTUp6WDdXZ2RKaXR1bXBqMEViQm5YYlhPU2tOdjl5Ui12Y2pRZmJtVnhFWDRRV0p5VHoyb2pfSGVvRFFNdkpzYzdPa0JfZDdMcGRyOVVPSzc5b1dMX0hmUGxOdk5fMzRoVkpRZ2dMMA?oc=5"
         }
       ]
     }
