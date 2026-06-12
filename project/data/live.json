@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-12T14:50:14.687562Z",
-  "next_update": "2026-06-12T14:55:00Z",
+  "generated": "2026-06-12T14:55:13.897917Z",
+  "next_update": "2026-06-12T15:00:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 34,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 17,
+      "var_pct": 18,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.2,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -1242,11 +1242,11 @@
     "RUS": [
       2120,
       2178,
-      2230,
+      2231,
       2619,
       2604,
       2590,
-      2576,
+      2575,
       2562,
       2548,
       2535,
@@ -1348,7 +1348,7 @@
       3278,
       3260,
       3241,
-      3224,
+      3223,
       3206
     ],
     "KOR": [
@@ -1809,13 +1809,13 @@
       33,
       33,
       33,
-      33,
-      33,
-      33,
-      33,
-      33,
-      33,
-      33,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
       34,
       34,
       34,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 10,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 15,
+    "kalshi": 16,
     "max_andes_r0": 0.53,
     "avg_other_r0": 1.41,
     "continents": [
@@ -4016,11 +4016,19 @@
     "outbreak_count": 3
   },
   "signal_summary": {
+    "USA": 1,
     "ARG": 4,
     "PAN": 1,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "3 more US hantavirus cruise passengers return home after weeks at quarantine facility - USA Today",
+      "t": "2026-06-09T18:05:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcEtzLU4zTUZ4WnRZUEFITDVWWnFLd1A5RE5aSXZZVF9sQlg2RzVIQzlDZGtTMy1ZTVp2OUphUHQ5SWV2aFJCSHpjT1dNUnlKTXBxQmY5Xzhidk15MVNHSUxCSkMzcWs5N1hqM0lmcmt3VjZ5WlJJczF4RW9fVUpXNWJqcVJ5cTkyMm1VSHNkM3RKaXVZSHgybzd1TGthd0VaSnhSZ0lBeC1yeFYxdXVoVGF0OTJIQ21fRHZtY05kOA?oc=5"
+    },
     {
       "iso": "PAN",
       "title": "Un fallecido y 18 afectados con fiebre y s\u00edndrome cardiopulmonar por hantavirus en Panam\u00e1 - Infobae",
@@ -4080,7 +4088,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T14:50:14Z",
+      "last_update": "2026-06-12T14:55:13Z",
       "signals": 2,
       "recent": [
         {
