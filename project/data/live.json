@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-12T11:00:01.944218Z",
-  "next_update": "2026-06-12T11:05:00Z",
+  "generated": "2026-06-12T11:05:11.652159Z",
+  "next_update": "2026-06-12T11:10:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,7 +8,7 @@
       "ytd": 203,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 9,
+      "var_pct": 8,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.53,
@@ -41,7 +41,7 @@
       "ytd": 17,
       "alert": "vigilancia",
       "cfr": 40.0,
-      "var_pct": 22,
+      "var_pct": 23,
       "strain": "hps",
       "new_today": 0,
       "r0": 3.5,
@@ -906,7 +906,7 @@
     "DEU": [
       294,
       349,
-      347,
+      346,
       344,
       342,
       340,
@@ -1242,15 +1242,15 @@
     "RUS": [
       2110,
       2169,
-      2222,
-      2270,
+      2223,
+      2271,
       2607,
       2592,
       2578,
       2564,
       2550,
       2537,
-      2524,
+      2523,
       2511,
       2498,
       2486
@@ -1336,7 +1336,7 @@
       27
     ],
     "CHN": [
-      3467,
+      3466,
       3444,
       3422,
       3401,
@@ -1346,7 +1346,7 @@
       3319,
       3300,
       3281,
-      3263,
+      3262,
       3244,
       3226,
       3209
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 8,
+    "composite": 9,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 12,
+    "kalshi": 13,
     "max_andes_r0": 0.53,
     "avg_other_r0": 1.05,
     "continents": [
@@ -4038,7 +4038,7 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW.com",
+      "title": "Hantavirus: Argentina expands probe to trace outbreak source - dw.com",
       "t": "2026-06-06T03:30:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
@@ -4081,7 +4081,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T11:00:01Z",
+      "last_update": "2026-06-12T11:05:11Z",
       "signals": 2,
       "recent": [
         {
