@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-12T12:05:13.148936Z",
-  "next_update": "2026-06-12T12:10:00Z",
+  "generated": "2026-06-12T12:10:07.144520Z",
+  "next_update": "2026-06-12T12:15:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -876,7 +876,7 @@
       481,
       478,
       475,
-      472,
+      471,
       468,
       465,
       462,
@@ -1336,12 +1336,12 @@
       27
     ],
     "CHN": [
-      3466,
+      3465,
       3443,
       3421,
       3400,
       3379,
-      3359,
+      3358,
       3338,
       3319,
       3299,
@@ -4016,18 +4016,18 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "USA": 1,
     "ARG": 3,
-    "GBR": 1,
-    "FRA": 1
+    "USA": 1,
+    "FRA": 1,
+    "GBR": 1
   },
   "events": [
     {
       "iso": "GBR",
-      "title": "Reino Unido confirma un caso positivo de hantavirus en la remota isla de Trist\u00e1n de Acu\u00f1a - Infobae",
-      "t": "2026-06-10T14:50:22Z",
+      "title": "Reino Unido confirma un caso positivo de hantavirus - Noticias de Gipuzkoa",
+      "t": "2026-06-10T14:37:09Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPU3dhZnpWbkFpVUlMNGo2LXZ5QV9DSkcxQ09XaEZSX3Q3bkdabEg2T2NQVUNnNXJSbHhacW5LYXBvaEJuQ1FFZE9VSHdOY3QwYS05ejZPZElxWGV4bE9jNmNUdFZUaEJudlQ4TkRCRnhRS1FmU25OckpXUDg1Yk9Dc3Z2WlAwRFBGSmd3Z1ctM1BVNmxVZHVhZDhneldLMkk2TTlnVVlYQTJHU0wzR3o2UGljS0FRYnplQjVWekdMUXctUXFERktVblZBMGl0NEhQWkRZd2N3OWpvZ9IB9AFBVV95cUxPOVlDeHlNdWtxYXhBa21KUENLZ3dTc0xGYUdqZnhDVDVicF8zcktfcEZ0eGM4T1BZTklRNkh5V1VPV1kzYTliR3A2X083bXF3d0xYcjkxZHliZ3NfeTZSaG5aVlk2WElDNEI0UVV5RXlwNTZuUXpOWndNa0Nsai14cWo4RlQ5b3hDdG1RRHVsVmM1Ym5OSzhEbUJTRDNacTVha3FSNVJEbWNEbGYxTERVOGVKb3JDc2VEMnduV1pSQ3lXVF9YcHJ4aGJtekJ5MWVqVElodjJVQWZtV1NYUjV4b29OS3dqTEhzZ1VHZzU4NnVhaWFv?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN3VwY0dUdFNOQlRmTWQ3a2NIcHJlTWMwWmlscEthNl83cWVVLVpvNG44djR1bW1jTGZhRnFXT1VPZDFtYXY1NlNZLS02UC0zdnJZRlpWUzU3TlJyblZKcVdlNFA3cDN2S1hyS2RNYVhlYld3VGVlZzQ5UzR0Nm5rVktNZlpFRTdqN0lWSW14emxIUDdBYWE2ZnBwbzJYVDYtZkHSAacBQVVfeXFMT0JaTUlZbUxzZ2w1RGZtbWViSktGTFRhX1hyRGdWamJnemZvbzhfazlURkJfeVlJaXRiNEJ0VGZwRnV6dVhLdWtOUk1Rd1JZeGpOYXp2UlFYMnVNRU9rcGprdGFjUDdLcHZ3V295NTY2RVhETEROVkVnYUdVbGtCY2REV2I0b0xJTkZ5ZzZvMnpQNW5BZTVNYUlxVU5rX3B5dTh1U202WG8?oc=5"
     },
     {
       "iso": "USA",
@@ -4081,7 +4081,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T12:05:13Z",
+      "last_update": "2026-06-12T12:10:07Z",
       "signals": 2,
       "recent": [
         {
