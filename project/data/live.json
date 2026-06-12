@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-12T21:30:07.143689Z",
-  "next_update": "2026-06-12T21:35:00Z",
+  "generated": "2026-06-12T21:35:11.664996Z",
+  "next_update": "2026-06-12T21:40:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 204,
+      "ytd": 205,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 8,
+      "var_pct": 9,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.53,
-      "signals": 5,
+      "signals": 6,
       "gov_alert": false
     },
     "CHL": {
@@ -27,12 +27,12 @@
       "gov_alert": false
     },
     "BRA": {
-      "ytd": 129,
+      "ytd": 130,
       "alert": "vigilancia",
       "cfr": 41.6,
       "var_pct": 44,
       "strain": "hps",
-      "new_today": 4,
+      "new_today": 5,
       "r0": 5.0,
       "signals": 0,
       "gov_alert": false
@@ -236,7 +236,7 @@
       "gov_alert": false
     },
     "DEU": {
-      "ytd": 324,
+      "ytd": 323,
       "alert": "vigilancia",
       "cfr": 0.2,
       "var_pct": -4,
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      165,
-      171,
+      166,
+      172,
       177,
       182,
-      186,
-      190,
-      194,
-      197,
-      219,
-      216,
-      213,
-      210,
-      207,
-      204
+      187,
+      191,
+      195,
+      198,
+      220,
+      217,
+      214,
+      211,
+      208,
+      205
     ],
     "CHL": [
       71,
@@ -607,13 +607,13 @@
       89,
       89,
       90,
-      96,
+      97,
       103,
       109,
       114,
       120,
       125,
-      129
+      130
     ],
     "BOL": [
       14,
@@ -691,7 +691,7 @@
       31,
       32,
       33,
-      33,
+      34,
       34,
       35
     ],
@@ -917,7 +917,7 @@
       329,
       327,
       325,
-      324
+      323
     ],
     "POL": [
       48,
@@ -1252,7 +1252,7 @@
       2531,
       2518,
       2505,
-      2493,
+      2492,
       2480
     ],
     "BLR": [
@@ -1341,8 +1341,8 @@
       3413,
       3392,
       3371,
-      3351,
-      3331,
+      3350,
+      3330,
       3311,
       3292,
       3273,
@@ -1452,6 +1452,15 @@
   ],
   "hourly_history": {
     "ARG": [
+      211,
+      211,
+      211,
+      210,
+      210,
+      210,
+      210,
+      210,
+      210,
       210,
       210,
       210,
@@ -1480,7 +1489,6 @@
       207,
       207,
       207,
-      207,
       206,
       206,
       206,
@@ -1489,17 +1497,9 @@
       206,
       206,
       206,
+      206,
       205,
-      205,
-      205,
-      205,
-      205,
-      205,
-      205,
-      205,
-      205,
-      204,
-      204
+      205
     ],
     "CHL": [
       78,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 10,
+    "composite": 8,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 16,
+    "kalshi": 12,
     "max_andes_r0": 0.53,
     "avg_other_r0": 1.41,
     "continents": [
@@ -4017,7 +4017,7 @@
   },
   "signal_summary": {
     "USA": 1,
-    "ARG": 5,
+    "ARG": 6,
     "GBR": 1,
     "FRA": 1,
     "PAN": 1
@@ -4029,6 +4029,13 @@
       "t": "2026-06-12T18:52:36Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZGJtN1oxSUQ5R2xIazRlODJtM24zZ0NIdERLYXROcEVQODJrSWxEWlRIUnRidjNnb2VRR2VXQjBYdUE3MVplVmRSaVJPY2h6T1N2Q3l0SFJwVDRfcWptZUJwZE5xbWxuQmFKbFpKTzQwU0pCaWNfY213T2VvVXM0aWdGYTRZRDBIamdQd1EtR1RLMEducGFkRmJiWnA0WGotamo0d3NjYXNjOG0xYjlRMDRZWXFJQlFoNl9MV3NlNktXdTU3NHZUenlQMjd5SmdXc2ZHYkNR0gHbAUFVX3lxTE44clBNcjJ0M050NDlBa005MEJTTDRNb2tHZUVKUlk2ZzBIY3U5Ti1OMFZDSWxiSWd4WXFSMVQtWFl4ekxGSlZGOWJnRi1GNzVtQkdSeUVoeTRXb1FXUUFHZ1BnYjdNYllwUWZLYVJLQTNrODAtZWl6YzdjN3VwVTQwWXVTMjhaTlRUbTU4S0ZZNWV6R2xjOVdsQkdXZThGUDZkdktreG8wT1dCLUl1cTZfeGNWeTA1MFVxUjFEZDlLNDBVSURyMUk5OElMMWRqZHJhSEh2bXc3aUY1UQ?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus: cient\u00edficos no encontraron roedores con la cepa del crucero en Argentina - Caracol Radio",
+      "t": "2026-06-12T16:22:48Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdUFsbEtvOVo2bXg2X05Semc4bXRQZEtDd0RFNXZFUTEzMWFDWUpvU2VGOXVHOXR3dEFWa2lJc0NSSzF6anI4NDhOeERUTkRpUnpIYkdmeUpKcVNjTVZFRkhEbklGZHNxOXR5SVRkdDUwTjdla05IdXJFWmFLS1ZXRF9sdmdxUnJlbFlXU1pPbVRrOHJxNVNvX3FCbG1kaVpRLXdkc3JuMUdBOVlRUFpJdDJfTkJmWS1iT0HSAc4BQVVfeXFMT1VHMHJscVowUzV0N1hZT1U0SDQ3cTFaVlVQWVotcF80b3hvNnlPSzZvSlZxdUtPd19zWm1kN2pUTVc1eGhJeGczT1RvRHpiQmRBNTUzRDVqT29oQ2F5QlY5MnR0ajZPVHRIakdtVFdGSWhSSkh6bEVvU3J1Q29NbXN0ZzNVcE1rNXJSTHo4dndfMkhfZmRNQldLcG5uakpUWElmRXhYVjM5amc0ell2LXZyOW8xXzY1SUJhMElUMHlFdml4MUM1ekxxd00yOFE?oc=5"
     },
     {
       "iso": "USA",
@@ -4103,13 +4110,18 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T21:30:07Z",
-      "signals": 3,
+      "last_update": "2026-06-12T21:35:11Z",
+      "signals": 4,
       "recent": [
         {
           "title": "Argentina descarta presencia del roedor que transmite hantavirus tras brote en crucero - El Economista",
           "t": "2026-06-12T18:52:36Z",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZGJtN1oxSUQ5R2xIazRlODJtM24zZ0NIdERLYXROcEVQODJrSWxEWlRIUnRidjNnb2VRR2VXQjBYdUE3MVplVmRSaVJPY2h6T1N2Q3l0SFJwVDRfcWptZUJwZE5xbWxuQmFKbFpKTzQwU0pCaWNfY213T2VvVXM0aWdGYTRZRDBIamdQd1EtR1RLMEducGFkRmJiWnA0WGotamo0d3NjYXNjOG0xYjlRMDRZWXFJQlFoNl9MV3NlNktXdTU3NHZUenlQMjd5SmdXc2ZHYkNR0gHbAUFVX3lxTE44clBNcjJ0M050NDlBa005MEJTTDRNb2tHZUVKUlk2ZzBIY3U5Ti1OMFZDSWxiSWd4WXFSMVQtWFl4ekxGSlZGOWJnRi1GNzVtQkdSeUVoeTRXb1FXUUFHZ1BnYjdNYllwUWZLYVJLQTNrODAtZWl6YzdjN3VwVTQwWXVTMjhaTlRUbTU4S0ZZNWV6R2xjOVdsQkdXZThGUDZkdktreG8wT1dCLUl1cTZfeGNWeTA1MFVxUjFEZDlLNDBVSURyMUk5OElMMWRqZHJhSEh2bXc3aUY1UQ?oc=5"
+        },
+        {
+          "title": "Hantavirus: cient\u00edficos no encontraron roedores con la cepa del crucero en Argentina - Caracol Radio",
+          "t": "2026-06-12T16:22:48Z",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdUFsbEtvOVo2bXg2X05Semc4bXRQZEtDd0RFNXZFUTEzMWFDWUpvU2VGOXVHOXR3dEFWa2lJc0NSSzF6anI4NDhOeERUTkRpUnpIYkdmeUpKcVNjTVZFRkhEbklGZHNxOXR5SVRkdDUwTjdla05IdXJFWmFLS1ZXRF9sdmdxUnJlbFlXU1pPbVRrOHJxNVNvX3FCbG1kaVpRLXdkc3JuMUdBOVlRUFpJdDJfTkJmWS1iT0HSAc4BQVVfeXFMT1VHMHJscVowUzV0N1hZT1U0SDQ3cTFaVlVQWVotcF80b3hvNnlPSzZvSlZxdUtPd19zWm1kN2pUTVc1eGhJeGczT1RvRHpiQmRBNTUzRDVqT29oQ2F5QlY5MnR0ajZPVHRIakdtVFdGSWhSSkh6bEVvU3J1Q29NbXN0ZzNVcE1rNXJSTHo4dndfMkhfZmRNQldLcG5uakpUWElmRXhYVjM5amc0ell2LXZyOW8xXzY1SUJhMElUMHlFdml4MUM1ekxxd00yOFE?oc=5"
         },
         {
           "title": "Hantavirus: el crucero MV Hondius volver\u00e1 a navegar en junio tras el brote iniciado en Argentina - La Voz del Interior",
