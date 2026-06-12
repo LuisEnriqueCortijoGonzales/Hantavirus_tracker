@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-12T19:55:05.677954Z",
-  "next_update": "2026-06-12T20:00:00Z",
+  "generated": "2026-06-12T20:00:10.163644Z",
+  "next_update": "2026-06-12T20:05:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 203,
+      "ytd": 204,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 8,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.53,
-      "signals": 4,
+      "signals": 5,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      164,
-      170,
-      175,
-      180,
-      185,
-      189,
-      193,
-      196,
-      218,
-      215,
-      212,
-      209,
-      206,
-      203
+      165,
+      171,
+      176,
+      181,
+      186,
+      190,
+      194,
+      197,
+      219,
+      216,
+      213,
+      210,
+      207,
+      204
     ],
     "CHL": [
       71,
@@ -685,7 +685,7 @@
       25,
       26,
       27,
-      28,
+      29,
       30,
       30,
       31,
@@ -1241,7 +1241,7 @@
     ],
     "RUS": [
       2133,
-      2189,
+      2190,
       2241,
       2616,
       2601,
@@ -1401,7 +1401,6 @@
     "2026-06-12T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-10T20:00:00Z",
     "2026-06-10T21:00:00Z",
     "2026-06-10T22:00:00Z",
     "2026-06-10T23:00:00Z",
@@ -1448,15 +1447,23 @@
     "2026-06-12T16:00:00Z",
     "2026-06-12T17:00:00Z",
     "2026-06-12T18:00:00Z",
-    "2026-06-12T19:00:00Z"
+    "2026-06-12T19:00:00Z",
+    "2026-06-12T20:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
+      210,
+      210,
+      210,
+      210,
       209,
       209,
       209,
       209,
       209,
+      209,
+      209,
+      209,
       208,
       208,
       208,
@@ -1465,6 +1472,7 @@
       208,
       208,
       208,
+      208,
       207,
       207,
       207,
@@ -1474,7 +1482,6 @@
       207,
       207,
       207,
-      206,
       206,
       206,
       206,
@@ -1491,14 +1498,7 @@
       205,
       205,
       205,
-      204,
-      204,
-      204,
-      204,
-      204,
-      204,
-      204,
-      204,
+      205,
       204
     ],
     "CHL": [
@@ -1520,7 +1520,6 @@
       78,
       78,
       78,
-      78,
       77,
       77,
       77,
@@ -1547,12 +1546,12 @@
       77,
       77,
       77,
+      76,
       76,
       76,
       76
     ],
     "BRA": [
-      119,
       120,
       120,
       120,
@@ -1597,6 +1596,7 @@
       128,
       128,
       128,
+      129,
       129,
       129,
       129
@@ -1609,7 +1609,7 @@
       16,
       16,
       16,
-      16,
+      17,
       17,
       17,
       17,
@@ -1685,7 +1685,7 @@
       12,
       12,
       12,
-      12,
+      13,
       13,
       13,
       13,
@@ -1803,7 +1803,6 @@
     ],
     "USA": [
       33,
-      33,
       34,
       34,
       34,
@@ -1849,6 +1848,7 @@
       34,
       34,
       34,
+      35,
       35
     ],
     "PRY": [
@@ -2404,7 +2404,6 @@
     "FIN": [
       450,
       450,
-      450,
       449,
       449,
       449,
@@ -2449,6 +2448,7 @@
       445,
       445,
       445,
+      444,
       444
     ],
     "SWE": [
@@ -2477,7 +2477,7 @@
       189,
       189,
       189,
-      189,
+      188,
       188,
       188,
       188,
@@ -2511,7 +2511,6 @@
       327,
       327,
       327,
-      327,
       326,
       326,
       326,
@@ -2539,6 +2538,7 @@
       325,
       325,
       325,
+      324,
       324,
       324,
       324,
@@ -2605,7 +2605,7 @@
       80,
       80,
       80,
-      80,
+      79,
       79,
       79,
       79,
@@ -3142,7 +3142,7 @@
       6,
       6,
       6,
-      6,
+      7,
       7,
       7,
       7,
@@ -3157,7 +3157,7 @@
       44,
       44,
       44,
-      44,
+      43,
       43,
       43,
       43,
@@ -3292,7 +3292,7 @@
       12,
       12,
       12,
-      12,
+      13,
       13,
       13,
       13,
@@ -3342,7 +3342,7 @@
       9,
       9,
       9,
-      9,
+      10,
       10,
       10,
       10,
@@ -3392,7 +3392,7 @@
       15,
       15,
       15,
-      15,
+      16,
       16,
       16,
       16,
@@ -3492,7 +3492,7 @@
       8,
       8,
       8,
-      8,
+      9,
       9,
       9,
       9,
@@ -3552,7 +3552,6 @@
       4
     ],
     "RUS": [
-      2506,
       2505,
       2505,
       2504,
@@ -3599,6 +3598,7 @@
       2483,
       2483,
       2482,
+      2481,
       2481
     ],
     "BLR": [
@@ -3810,7 +3810,7 @@
       26,
       26,
       26,
-      26,
+      27,
       27,
       27,
       27,
@@ -3852,7 +3852,6 @@
       27
     ],
     "CHN": [
-      3238,
       3237,
       3236,
       3235,
@@ -3899,7 +3898,8 @@
       3205,
       3205,
       3204,
-      3203
+      3203,
+      3202
     ],
     "KOR": [
       112,
@@ -3907,7 +3907,7 @@
       112,
       112,
       112,
-      112,
+      111,
       111,
       111,
       111,
@@ -4006,7 +4006,7 @@
     "composite": 9,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 15,
+    "kalshi": 14,
     "max_andes_r0": 0.53,
     "avg_other_r0": 1.41,
     "continents": [
@@ -4017,9 +4017,9 @@
   },
   "signal_summary": {
     "USA": 1,
-    "ARG": 4,
-    "PAN": 1,
-    "FRA": 1
+    "ARG": 5,
+    "FRA": 1,
+    "PAN": 1
   },
   "events": [
     {
@@ -4049,6 +4049,13 @@
       "t": "2026-06-06T03:30:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus; env\u00eda equipos a atrapar y analizar ratas en Mendoza - Boston Herald",
+      "t": "2026-06-06T00:47:19Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdmFaQ05YVmR3NjJ2TFMxQ1d5WF9hZXVrRTQxV3ZhemtJcFIwWjJhaGxoc2ZUV1p6WkJQVVFFelhNNlRteUhZamNzSHRpTnh6dGhsdm1oX1ltaW5ucDNVdnZLVFBmUGRKclpNSVZHUHFHa2p2Q2JpRGRGRXl2MWtBTFRqWTlSam80akFURGkyNmk1cTYxcmlZbjAtdXFqN2huWU5zai1haXRxVHVVdHBYc0pYd3VuYzlMZXdLNHYtLVpMSjdSeDBFWlhrdFFZOWhp?oc=5"
     },
     {
       "iso": "ARG",
@@ -4088,7 +4095,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T19:55:05Z",
+      "last_update": "2026-06-12T20:00:10Z",
       "signals": 3,
       "recent": [
         {
