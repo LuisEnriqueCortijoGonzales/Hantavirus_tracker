@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-12T14:00:16.933392Z",
-  "next_update": "2026-06-12T14:05:00Z",
+  "generated": "2026-06-12T14:05:16.187128Z",
+  "next_update": "2026-06-12T14:10:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 203,
+      "ytd": 204,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 8,
+      "var_pct": 9,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.53,
-      "signals": 3,
+      "signals": 4,
       "gov_alert": false
     },
     "CHL": {
@@ -382,7 +382,7 @@
       "ytd": 43,
       "alert": "vigilancia",
       "cfr": 1.5,
-      "var_pct": 12,
+      "var_pct": 11,
       "strain": "dobrava",
       "new_today": 0,
       "r0": 1.0,
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      162,
-      168,
-      173,
-      178,
-      183,
-      187,
-      191,
-      194,
-      217,
-      214,
-      212,
-      209,
-      206,
-      203
+      163,
+      169,
+      174,
+      179,
+      184,
+      188,
+      192,
+      195,
+      218,
+      215,
+      213,
+      210,
+      207,
+      204
     ],
     "CHL": [
       70,
@@ -1243,7 +1243,7 @@
       2118,
       2176,
       2229,
-      2620,
+      2619,
       2605,
       2590,
       2576,
@@ -1352,7 +1352,7 @@
       3207
     ],
     "KOR": [
-      93,
+      94,
       96,
       98,
       116,
@@ -1452,6 +1452,15 @@
   ],
   "hourly_history": {
     "ARG": [
+      210,
+      209,
+      209,
+      209,
+      209,
+      209,
+      209,
+      209,
+      209,
       209,
       208,
       208,
@@ -1461,7 +1470,6 @@
       208,
       208,
       208,
-      208,
       207,
       207,
       207,
@@ -1470,6 +1478,7 @@
       207,
       207,
       207,
+      207,
       206,
       206,
       206,
@@ -1479,7 +1488,6 @@
       206,
       206,
       206,
-      205,
       205,
       205,
       205,
@@ -1491,15 +1499,7 @@
       204,
       204,
       204,
-      204,
-      204,
-      204,
-      204,
-      204,
-      203,
-      203,
-      203,
-      203
+      204
     ],
     "CHL": [
       78,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 10,
+    "composite": 9,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 16,
+    "kalshi": 14,
     "max_andes_r0": 0.53,
     "avg_other_r0": 1.41,
     "continents": [
@@ -4016,10 +4016,10 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "ARG": 3,
     "USA": 1,
-    "FRA": 1,
+    "ARG": 4,
     "PAN": 1,
+    "FRA": 1,
     "GBR": 1
   },
   "events": [
@@ -4050,6 +4050,13 @@
       "t": "2026-06-06T03:30:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus; env\u00eda equipos a atrapar y analizar ratas en Mendoza - Boston Herald",
+      "t": "2026-06-06T00:47:19Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdmFaQ05YVmR3NjJ2TFMxQ1d5WF9hZXVrRTQxV3ZhemtJcFIwWjJhaGxoc2ZUV1p6WkJQVVFFelhNNlRteUhZamNzSHRpTnh6dGhsdm1oX1ltaW5ucDNVdnZLVFBmUGRKclpNSVZHUHFHa2p2Q2JpRGRGRXl2MWtBTFRqWTlSam80akFURGkyNmk1cTYxcmlZbjAtdXFqN2huWU5zai1haXRxVHVVdHBYc0pYd3VuYzlMZXdLNHYtLVpMSjdSeDBFWlhrdFFZOWhp?oc=5"
     },
     {
       "iso": "ARG",
@@ -4089,7 +4096,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T14:00:16Z",
+      "last_update": "2026-06-12T14:05:16Z",
       "signals": 2,
       "recent": [
         {
