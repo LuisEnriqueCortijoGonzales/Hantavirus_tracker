@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-12T21:05:10.931473Z",
-  "next_update": "2026-06-12T21:10:00Z",
+  "generated": "2026-06-12T21:10:15.433848Z",
+  "next_update": "2026-06-12T21:15:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 1,
+      "var_pct": 0,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -571,7 +571,7 @@
       165,
       171,
       177,
-      181,
+      182,
       186,
       190,
       194,
@@ -872,7 +872,7 @@
       1
     ],
     "FIN": [
-      484,
+      483,
       480,
       477,
       474,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 10,
+    "composite": 9,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 16,
+    "kalshi": 15,
     "max_andes_r0": 0.53,
     "avg_other_r0": 1.41,
     "continents": [
@@ -4018,7 +4018,7 @@
   "signal_summary": {
     "USA": 1,
     "ARG": 5,
-    "GBR": 2,
+    "GBR": 1,
     "FRA": 1,
     "PAN": 1
   },
@@ -4029,13 +4029,6 @@
       "t": "2026-06-12T18:52:36Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZGJtN1oxSUQ5R2xIazRlODJtM24zZ0NIdERLYXROcEVQODJrSWxEWlRIUnRidjNnb2VRR2VXQjBYdUE3MVplVmRSaVJPY2h6T1N2Q3l0SFJwVDRfcWptZUJwZE5xbWxuQmFKbFpKTzQwU0pCaWNfY213T2VvVXM0aWdGYTRZRDBIamdQd1EtR1RLMEducGFkRmJiWnA0WGotamo0d3NjYXNjOG0xYjlRMDRZWXFJQlFoNl9MV3NlNktXdTU3NHZUenlQMjd5SmdXc2ZHYkNR0gHbAUFVX3lxTE44clBNcjJ0M050NDlBa005MEJTTDRNb2tHZUVKUlk2ZzBIY3U5Ti1OMFZDSWxiSWd4WXFSMVQtWFl4ekxGSlZGOWJnRi1GNzVtQkdSeUVoeTRXb1FXUUFHZ1BnYjdNYllwUWZLYVJLQTNrODAtZWl6YzdjN3VwVTQwWXVTMjhaTlRUbTU4S0ZZNWV6R2xjOVdsQkdXZThGUDZkdktreG8wT1dCLUl1cTZfeGNWeTA1MFVxUjFEZDlLNDBVSURyMUk5OElMMWRqZHJhSEh2bXc3aUY1UQ?oc=5"
-    },
-    {
-      "iso": "GBR",
-      "title": "Gathering of Eagles Meeting May 15, 2026: Hantavirus; Turmoil in the UK National Health Service; Ratio of Medical Directors to EMS Personnel - HMP Global Learning Network",
-      "t": "2026-06-10T16:27:44Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR0JqYkIzV0lzRUNzTm9TUE8wNmFsbm9vbkhPSFZXN3VYU3J6ZFpaLUJWUmF4RFB3YVVMZkZ3VnQzNmlkdVpjSFpEQmV3MGtPT09JeXlDNHp0Z1RGd2tJMHlGOVktbG5qWVhlbERveWxfa0kyeEZUbVNyWDdUSDFfcnV5MmtEUlA0amM4QXM0Q0xzRWFkQnc2SjZjYkFrSzA?oc=5"
     },
     {
       "iso": "USA",
@@ -4110,7 +4103,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T21:05:10Z",
+      "last_update": "2026-06-12T21:10:15Z",
       "signals": 3,
       "recent": [
         {
