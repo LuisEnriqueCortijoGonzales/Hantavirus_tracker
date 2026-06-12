@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-12T00:20:03.388416Z",
-  "next_update": "2026-06-12T00:25:00Z",
+  "generated": "2026-06-12T00:25:13.151791Z",
+  "next_update": "2026-06-12T00:30:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "GRC": {
@@ -571,7 +571,7 @@
       158,
       164,
       170,
-      175,
+      176,
       180,
       185,
       189,
@@ -1341,11 +1341,11 @@
       3432,
       3410,
       3389,
-      3369,
+      3368,
       3348,
       3328,
       3309,
-      3290,
+      3289,
       3271,
       3252,
       3234,
@@ -4006,7 +4006,7 @@
     "composite": 9,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 14,
+    "kalshi": 15,
     "max_andes_r0": 0.53,
     "avg_other_r0": 1.05,
     "continents": [
@@ -4018,7 +4018,7 @@
   "signal_summary": {
     "ARG": 3,
     "USA": 1,
-    "GBR": 1,
+    "GBR": 2,
     "FRA": 1
   },
   "events": [
@@ -4035,6 +4035,13 @@
       "t": "2026-06-09T18:05:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcEtzLU4zTUZ4WnRZUEFITDVWWnFLd1A5RE5aSXZZVF9sQlg2RzVIQzlDZGtTMy1ZTVp2OUphUHQ5SWV2aFJCSHpjT1dNUnlKTXBxQmY5Xzhidk15MVNHSUxCSkMzcWs5N1hqM0lmcmt3VjZ5WlJJczF4RW9fVUpXNWJqcVJ5cTkyMm1VSHNkM3RKaXVZSHgybzd1TGthd0VaSnhSZ0lBeC1yeFYxdXVoVGF0OTJIQ21fRHZtY05kOA?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "Defence Medics parachute into Tristan da Cunha to treat hantavirus patient - GOV.UK",
+      "t": "2026-06-09T08:00:01Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLXNOVl9GemNERVZncV95eDZHVFNDNHdKUjVTUUxSMVRkTnpmWGdVQ1VuZnU5a2xmaEhfeGh1aWxaeWhtMVFIWHRjVGlyY1RCc2NqQUN4d1p2czNLcEVpQ0g4VmRqX2NmZkZjSVJhbkxfWml4bU9seGtfMExlcVd6OUVBOWN0b21iOE5ranhJVWttR1hJcFBkdUs5a3RORWRRcFVJTlNUN2xjajVsZWc?oc=5"
     },
     {
       "iso": "ARG",
@@ -4081,7 +4088,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T00:20:03Z",
+      "last_update": "2026-06-12T00:25:13Z",
       "signals": 1,
       "recent": [
         {
