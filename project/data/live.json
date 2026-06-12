@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-12T11:10:16.162236Z",
-  "next_update": "2026-06-12T11:15:00Z",
+  "generated": "2026-06-12T11:15:04.923525Z",
+  "next_update": "2026-06-12T11:20:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -27,12 +27,12 @@
       "gov_alert": false
     },
     "BRA": {
-      "ytd": 127,
+      "ytd": 128,
       "alert": "vigilancia",
       "cfr": 41.6,
       "var_pct": 43,
       "strain": "hps",
-      "new_today": 4,
+      "new_today": 5,
       "r0": 5.0,
       "signals": 0,
       "gov_alert": false
@@ -261,7 +261,7 @@
       "ytd": 79,
       "alert": "endemico",
       "cfr": 0.2,
-      "var_pct": 13,
+      "var_pct": 12,
       "strain": "puumala",
       "new_today": 0,
       "r0": 5.0,
@@ -393,7 +393,7 @@
       "ytd": 33,
       "alert": "vigilancia",
       "cfr": 1.2,
-      "var_pct": 13,
+      "var_pct": 12,
       "strain": "dobrava",
       "new_today": 0,
       "r0": 4.0,
@@ -613,7 +613,7 @@
       112,
       117,
       123,
-      127
+      128
     ],
     "BOL": [
       14,
@@ -873,7 +873,7 @@
     ],
     "FIN": [
       485,
-      482,
+      481,
       478,
       475,
       472,
@@ -1241,7 +1241,7 @@
     ],
     "RUS": [
       2111,
-      2169,
+      2170,
       2223,
       2271,
       2606,
@@ -1251,7 +1251,7 @@
       2550,
       2537,
       2523,
-      2511,
+      2510,
       2498,
       2485
     ],
@@ -4088,7 +4088,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T11:10:16Z",
+      "last_update": "2026-06-12T11:15:04Z",
       "signals": 2,
       "recent": [
         {
