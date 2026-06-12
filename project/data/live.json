@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-12T22:35:07.938730Z",
-  "next_update": "2026-06-12T22:40:00Z",
+  "generated": "2026-06-12T22:40:12.435975Z",
+  "next_update": "2026-06-12T22:45:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 203,
+      "ytd": 205,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 7,
+      "var_pct": 8,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.53,
-      "signals": 4,
+      "signals": 6,
       "gov_alert": false
     },
     "CHL": {
@@ -122,7 +122,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "CRI": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3201,
+      "ytd": 3200,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": -4,
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      165,
-      171,
-      176,
-      181,
-      185,
-      189,
-      193,
-      196,
+      166,
+      172,
+      178,
+      183,
+      187,
+      191,
+      195,
+      198,
+      219,
       217,
       214,
-      212,
-      209,
-      206,
-      203
+      211,
+      208,
+      205
     ],
     "CHL": [
       71,
@@ -1241,10 +1241,10 @@
     ],
     "RUS": [
       2139,
-      2195,
+      2196,
       2246,
       2614,
-      2600,
+      2599,
       2585,
       2571,
       2557,
@@ -1349,7 +1349,7 @@
       3254,
       3236,
       3218,
-      3201
+      3200
     ],
     "KOR": [
       94,
@@ -1452,6 +1452,23 @@
   ],
   "hourly_history": {
     "ARG": [
+      211,
+      211,
+      210,
+      210,
+      210,
+      210,
+      210,
+      210,
+      210,
+      210,
+      210,
+      209,
+      209,
+      209,
+      209,
+      209,
+      209,
       209,
       209,
       208,
@@ -1462,7 +1479,7 @@
       208,
       208,
       208,
-      207,
+      208,
       207,
       207,
       207,
@@ -1482,24 +1499,7 @@
       206,
       205,
       205,
-      205,
-      205,
-      205,
-      205,
-      205,
-      205,
-      204,
-      204,
-      204,
-      204,
-      204,
-      204,
-      204,
-      204,
-      204,
-      203,
-      203,
-      203
+      205
     ],
     "CHL": [
       78,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 8,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 14,
+    "kalshi": 12,
     "max_andes_r0": 0.53,
     "avg_other_r0": 1.41,
     "continents": [
@@ -4017,9 +4017,8 @@
   },
   "signal_summary": {
     "USA": 1,
-    "ARG": 4,
-    "FRA": 1,
-    "PAN": 1
+    "ARG": 6,
+    "FRA": 1
   },
   "events": [
     {
@@ -4044,18 +4043,25 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcEtzLU4zTUZ4WnRZUEFITDVWWnFLd1A5RE5aSXZZVF9sQlg2RzVIQzlDZGtTMy1ZTVp2OUphUHQ5SWV2aFJCSHpjT1dNUnlKTXBxQmY5Xzhidk15MVNHSUxCSkMzcWs5N1hqM0lmcmt3VjZ5WlJJczF4RW9fVUpXNWJqcVJ5cTkyMm1VSHNkM3RKaXVZSHgybzd1TGthd0VaSnhSZ0lBeC1yeFYxdXVoVGF0OTJIQ21fRHZtY05kOA?oc=5"
     },
     {
-      "iso": "PAN",
-      "title": "Un fallecido y 18 afectados con fiebre y s\u00edndrome cardiopulmonar por hantavirus en Panam\u00e1 - Infobae",
-      "t": "2026-06-07T17:07:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOakpZdGpBNUdoakpuLUhMTDVkYVNhZXVBQ1FQNDlMbjFjdUtyaE9NVVNkdzBJd2ZpOUpfSXZZUGFjN2VPZkhiZnZzdHpfQXJaSTQwY0dYVC1SaXZKTGdESXZLYlhaNVBBRmtEdzdVTkYtanBvaVA1NVBkN3JHWi1HdjQzQ2hRX1NvUjI3Vlg2Y2JOSzBZckxJcFBjZkVTX1FsZVJTX3RQR09DSW1ZZUlKeXl1aEx1bF9BVFJrdzIxUnJjRkx0TXpMbk4zblfSAecBQVVfeXFMTm95SnpIbHJNS1BRaWdlU3BCalNjdkNTWDQ2UmlDQ1FwNzUtZldnQnlGNFdjYndMX3pNcVdNT3ZyUFEtN1hfWWFkOVZUeWZKdmUwUnNCN3ROMTVpeXZrN1VOZGlFOEctSnBVT1ctQkU2Ym1zdTlGbUN2MVNBQzNJVHFzRUVVQUNNV1U1VUV2YVAyOGdBbjAydVBuSHF3dHItYjFMUVBfWXF5azMwd2ZBZmR6Y01HX0VjNWZ6RkRwdVFZRGMtdHRmc3B4anpEenlFZzZMTHVoQmJIMFA4YU1CelpBX1FNVW5n?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus; env\u00eda equipos a atrapar y analizar ratas en Mendoza - The Morning Call",
       "t": "2026-06-06T04:55:15Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVnVhQ3FocGE0OHdYVlVPc2R1dXo3ZEFxNVRlUWFka19femw3ZlB4N1MwU2doczRBNU5Wd0ZCQk5xeklndXJid1ZYUXNsaU1GR0FWazBnbzNERUVyQ21KcGIyZ2dwdE9hdDdVSHdKaTJnRVFSR291NHg1WTdoOGNpU2RITUtWTnQ2U25aMUN3UkhtUHdSclpWRldITlg1NnlsSmZYSGdHbC1nT2dHbEIzWUR0QnZOVTVfeEFfVndKOVdOcTNmTUk4?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW.com",
+      "t": "2026-06-06T03:30:52Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - AP News",
+      "t": "2026-06-05T23:40:42Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYV9WYXctbkRkNHQxeTVCd2VsSHRfRTI0UEJVYVJNOERaVVpBOFg3SDZIdEpvaG42S3RNZ3R2NzVlcTNRd1NPeExsUzNnQmlLLVpyVnd3QTV0V0hiNjVFaU1mTGJXTDA0ZzZWRjRDSWtSOElBS042RmZKZnQtZEJuV0ZpX01SMXFFYURtcFRQYnAxT3piX3V4aldNZHBRbUdUUXlvTV9XdldvUmFGX1F2ME13VFg?oc=5"
     },
     {
       "iso": "FRA",
@@ -4088,7 +4094,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T22:35:07Z",
+      "last_update": "2026-06-12T22:40:12Z",
       "signals": 4,
       "recent": [
         {
