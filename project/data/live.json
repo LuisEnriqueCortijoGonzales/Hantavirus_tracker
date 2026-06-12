@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-12T00:35:06.425577Z",
-  "next_update": "2026-06-12T00:40:00Z",
+  "generated": "2026-06-12T00:40:16.180432Z",
+  "next_update": "2026-06-12T00:45:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 204,
+      "ytd": 202,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 10,
+      "var_pct": 8,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.53,
-      "signals": 2,
+      "signals": 0,
       "gov_alert": false
     },
     "CHL": {
@@ -360,11 +360,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 0.5,
-      "var_pct": 0,
+      "var_pct": 1,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "GRC": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      157,
-      164,
-      169,
-      175,
-      180,
-      184,
-      188,
-      191,
-      195,
-      215,
-      212,
-      209,
-      206,
-      204
+      156,
+      162,
+      168,
+      173,
+      178,
+      182,
+      186,
+      189,
+      193,
+      213,
+      210,
+      207,
+      204,
+      202
     ],
     "CHL": [
       69,
@@ -1346,7 +1346,7 @@
       3328,
       3308,
       3289,
-      3271,
+      3270,
       3252,
       3234,
       3216
@@ -1452,30 +1452,12 @@
   ],
   "hourly_history": {
     "ARG": [
-      209,
-      209,
-      209,
-      209,
-      209,
-      209,
-      208,
-      208,
-      208,
-      208,
-      208,
-      208,
-      208,
-      208,
-      208,
       207,
       207,
       207,
       207,
       207,
       207,
-      207,
-      207,
-      206,
       206,
       206,
       206,
@@ -1499,7 +1481,25 @@
       204,
       204,
       204,
-      204
+      204,
+      204,
+      204,
+      203,
+      203,
+      203,
+      203,
+      203,
+      203,
+      203,
+      203,
+      203,
+      202,
+      202,
+      202,
+      202,
+      202,
+      202,
+      202
     ],
     "CHL": [
       79,
@@ -4006,7 +4006,7 @@
     "composite": 8,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 13,
+    "kalshi": 12,
     "max_andes_r0": 0.53,
     "avg_other_r0": 1.05,
     "continents": [
@@ -4016,12 +4016,18 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "ARG": 2,
     "USA": 1,
-    "GBR": 1,
+    "GBR": 2,
     "FRA": 1
   },
   "events": [
+    {
+      "iso": "GBR",
+      "title": "Hantavirus: UK Reports Confirmed Case in Tristan da Cunha, Says WHO Chief - Health and Me",
+      "t": "2026-06-11T07:30:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZFJydEtpdXpFazcxN3lMbDBzV3FrcXdHRkh5YU5hYUhiUGZxaDlBLVBnY0dQZU5pbEk0dXdfa2NIRnhiSF9TeFZVaFBFTEozRVJTcFpYdDFhVjBULXFueWhIVW5OeF9TSGJBX2RTQ0lFUER6YlU5eWRKT1dxcFh2a1JpSk1iWUxoQWpOUnY1bGpjQWJ2X19wS0UyTUhPWnpuNlBYMlRHUV80bC1rdk5penNCN0RtaThreUxhY2U4eDlpWEEwdlladg?oc=5"
+    },
     {
       "iso": "GBR",
       "title": "Reino Unido confirma un caso positivo de hantavirus en la remota isla de Trist\u00e1n de Acu\u00f1a - Infobae",
@@ -4035,20 +4041,6 @@
       "t": "2026-06-09T18:05:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcEtzLU4zTUZ4WnRZUEFITDVWWnFLd1A5RE5aSXZZVF9sQlg2RzVIQzlDZGtTMy1ZTVp2OUphUHQ5SWV2aFJCSHpjT1dNUnlKTXBxQmY5Xzhidk15MVNHSUxCSkMzcWs5N1hqM0lmcmt3VjZ5WlJJczF4RW9fVUpXNWJqcVJ5cTkyMm1VSHNkM3RKaXVZSHgybzd1TGthd0VaSnhSZ0lBeC1yeFYxdXVoVGF0OTJIQ21fRHZtY05kOA?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW",
-      "t": "2026-06-06T03:30:52Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - AP News",
-      "t": "2026-06-05T23:40:42Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYV9WYXctbkRkNHQxeTVCd2VsSHRfRTI0UEJVYVJNOERaVVpBOFg3SDZIdEpvaG42S3RNZ3R2NzVlcTNRd1NPeExsUzNnQmlLLVpyVnd3QTV0V0hiNjVFaU1mTGJXTDA0ZzZWRjRDSWtSOElBS042RmZKZnQtZEJuV0ZpX01SMXFFYURtcFRQYnAxT3piX3V4aldNZHBRbUdUUXlvTV9XdldvUmFGX1F2ME13VFg?oc=5"
     },
     {
       "iso": "FRA",
@@ -4074,7 +4066,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T00:35:06Z",
+      "last_update": "2026-06-12T00:40:16Z",
       "signals": 1,
       "recent": [
         {
