@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-12T04:05:16.892262Z",
-  "next_update": "2026-06-12T04:10:00Z",
+  "generated": "2026-06-12T04:10:05.614320Z",
+  "next_update": "2026-06-12T04:15:00Z",
   "days_active": 35,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 205,
+      "ytd": 204,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 10,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.53,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      160,
-      166,
-      172,
-      177,
-      182,
-      186,
-      190,
-      194,
-      197,
-      217,
-      214,
-      211,
-      208,
-      205
+      159,
+      165,
+      171,
+      176,
+      181,
+      185,
+      189,
+      193,
+      196,
+      216,
+      213,
+      210,
+      207,
+      204
     ],
     "CHL": [
       69,
@@ -873,7 +873,7 @@
     ],
     "FIN": [
       486,
-      483,
+      482,
       479,
       476,
       473,
@@ -1249,7 +1249,7 @@
       2582,
       2568,
       2554,
-      2541,
+      2540,
       2527,
       2514,
       2502,
@@ -1327,7 +1327,7 @@
       23,
       23,
       23,
-      23,
+      24,
       24,
       25,
       25,
@@ -1345,7 +1345,7 @@
       3345,
       3325,
       3306,
-      3287,
+      3286,
       3268,
       3249,
       3231,
@@ -1452,15 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      211,
-      211,
-      211,
-      210,
-      210,
-      210,
-      210,
-      210,
-      210,
       210,
       210,
       209,
@@ -1480,7 +1471,7 @@
       208,
       208,
       208,
-      207,
+      208,
       207,
       207,
       207,
@@ -1499,7 +1490,16 @@
       206,
       206,
       205,
-      205
+      205,
+      205,
+      205,
+      205,
+      205,
+      205,
+      205,
+      205,
+      204,
+      204
     ],
     "CHL": [
       79,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 8,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 14,
+    "kalshi": 12,
     "max_andes_r0": 0.53,
     "avg_other_r0": 1.05,
     "continents": [
@@ -4016,7 +4016,7 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "ARG": 4,
+    "ARG": 3,
     "USA": 1,
     "GBR": 1,
     "FRA": 1
@@ -4038,14 +4038,7 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina ampl\u00eda investigaci\u00f3n por hantavirus; env\u00eda equipos a atrapar y analizar ratas en Mendoza - The Morning Call",
-      "t": "2026-06-06T04:55:15Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVnVhQ3FocGE0OHdYVlVPc2R1dXo3ZEFxNVRlUWFka19femw3ZlB4N1MwU2doczRBNU5Wd0ZCQk5xeklndXJid1ZYUXNsaU1GR0FWazBnbzNERUVyQ21KcGIyZ2dwdE9hdDdVSHdKaTJnRVFSR291NHg1WTdoOGNpU2RITUtWTnQ2U25aMUN3UkhtUHdSclpWRldITlg1NnlsSmZYSGdHbC1nT2dHbEIzWUR0QnZOVTVfeEFfVndKOVdOcTNmTUk4?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW.com",
+      "title": "Hantavirus: Argentina expands probe to trace outbreak source - dw.com",
       "t": "2026-06-06T03:30:52Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
@@ -4088,7 +4081,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-12T04:05:16Z",
+      "last_update": "2026-06-12T04:10:05Z",
       "signals": 2,
       "recent": [
         {
