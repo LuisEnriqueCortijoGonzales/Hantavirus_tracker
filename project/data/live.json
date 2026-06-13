@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-13T05:35:07.925011Z",
-  "next_update": "2026-06-13T05:40:00Z",
+  "generated": "2026-06-13T05:40:12.416918Z",
+  "next_update": "2026-06-13T05:45:00Z",
   "days_active": 36,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3196,
+      "ytd": 3195,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": -4,
@@ -568,7 +568,7 @@
   },
   "history": {
     "ARG": [
-      166,
+      167,
       172,
       177,
       182,
@@ -576,7 +576,7 @@
       190,
       194,
       197,
-      217,
+      216,
       214,
       211,
       208,
@@ -1117,7 +1117,7 @@
       36,
       37,
       38,
-      38,
+      39,
       39,
       40,
       44,
@@ -1250,7 +1250,7 @@
       2553,
       2540,
       2526,
-      2514,
+      2513,
       2501,
       2488,
       2476
@@ -1349,7 +1349,7 @@
       3248,
       3230,
       3213,
-      3196
+      3195
     ],
     "KOR": [
       95,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 10,
+    "composite": 8,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 17,
+    "kalshi": 12,
     "max_andes_r0": 0.3,
     "avg_other_r0": 1.39,
     "continents": [
@@ -4080,7 +4080,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-13T05:35:07Z",
+      "last_update": "2026-06-13T05:40:12Z",
       "signals": 3,
       "recent": [
         {
