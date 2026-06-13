@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-13T02:55:05.653134Z",
-  "next_update": "2026-06-13T03:00:00Z",
+  "generated": "2026-06-13T03:00:15.422825Z",
+  "next_update": "2026-06-13T03:05:00Z",
   "days_active": 36,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 203,
+      "ytd": 204,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 7,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.28,
-      "signals": 4,
+      "signals": 5,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      166,
+      167,
       172,
-      177,
-      182,
-      186,
-      190,
-      194,
-      197,
-      217,
-      214,
-      211,
-      208,
-      205,
-      203
+      178,
+      183,
+      187,
+      191,
+      195,
+      198,
+      218,
+      215,
+      212,
+      209,
+      206,
+      204
     ],
     "CHL": [
       71,
@@ -1243,9 +1243,9 @@
       2150,
       2205,
       2255,
-      2612,
+      2611,
       2597,
-      2583,
+      2582,
       2568,
       2555,
       2541,
@@ -1401,7 +1401,6 @@
     "2026-06-13T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-11T03:00:00Z",
     "2026-06-11T04:00:00Z",
     "2026-06-11T05:00:00Z",
     "2026-06-11T06:00:00Z",
@@ -1448,16 +1447,25 @@
     "2026-06-12T23:00:00Z",
     "2026-06-13T00:00:00Z",
     "2026-06-13T01:00:00Z",
-    "2026-06-13T02:00:00Z"
+    "2026-06-13T02:00:00Z",
+    "2026-06-13T03:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
+      209,
+      209,
+      209,
+      209,
+      209,
       208,
       208,
       208,
       208,
       208,
       208,
+      208,
+      208,
+      208,
       207,
       207,
       207,
@@ -1467,7 +1475,6 @@
       207,
       207,
       207,
-      206,
       206,
       206,
       206,
@@ -1484,6 +1491,7 @@
       205,
       205,
       205,
+      205,
       204,
       204,
       204,
@@ -1491,15 +1499,7 @@
       204,
       204,
       204,
-      204,
-      204,
-      203,
-      203,
-      203,
-      203,
-      203,
-      203,
-      203
+      204
     ],
     "CHL": [
       78,
@@ -1513,7 +1513,6 @@
       78,
       78,
       78,
-      78,
       77,
       77,
       77,
@@ -1540,6 +1539,7 @@
       77,
       77,
       77,
+      76,
       76,
       76,
       76,
@@ -1554,7 +1554,6 @@
     "BRA": [
       121,
       121,
-      121,
       122,
       122,
       122,
@@ -1599,10 +1598,11 @@
       130,
       130,
       130,
-      130
+      130,
+      131
     ],
     "BOL": [
-      16,
+      17,
       17,
       17,
       17,
@@ -1678,7 +1678,7 @@
       12,
       12,
       12,
-      12,
+      13,
       13,
       13,
       13,
@@ -1841,7 +1841,7 @@
       34,
       34,
       34,
-      34,
+      35,
       35,
       35,
       35,
@@ -2406,7 +2406,6 @@
       449,
       449,
       449,
-      449,
       448,
       448,
       448,
@@ -2442,6 +2441,7 @@
       445,
       445,
       445,
+      444,
       444,
       444,
       444,
@@ -2470,7 +2470,6 @@
       189,
       189,
       189,
-      189,
       188,
       188,
       188,
@@ -2499,12 +2498,12 @@
       188,
       188,
       188,
+      187,
       187
     ],
     "DEU": [
       327,
       327,
-      327,
       326,
       326,
       326,
@@ -2545,6 +2544,7 @@
       324,
       324,
       324,
+      323,
       323,
       323,
       323,
@@ -3135,7 +3135,7 @@
       6,
       6,
       6,
-      6,
+      7,
       7,
       7,
       7,
@@ -3285,7 +3285,7 @@
       12,
       12,
       12,
-      12,
+      13,
       13,
       13,
       13,
@@ -3335,7 +3335,7 @@
       9,
       9,
       9,
-      9,
+      10,
       10,
       10,
       10,
@@ -3385,7 +3385,7 @@
       15,
       15,
       15,
-      15,
+      16,
       16,
       16,
       16,
@@ -3485,7 +3485,7 @@
       8,
       8,
       8,
-      8,
+      9,
       9,
       9,
       9,
@@ -3553,7 +3553,6 @@
     ],
     "RUS": [
       2502,
-      2502,
       2501,
       2501,
       2500,
@@ -3599,7 +3598,8 @@
       2479,
       2479,
       2478,
-      2478
+      2478,
+      2477
     ],
     "BLR": [
       37,
@@ -3803,7 +3803,7 @@
     ],
     "KAZ": [
       26,
-      26,
+      27,
       27,
       27,
       27,
@@ -3853,7 +3853,6 @@
     ],
     "CHN": [
       3232,
-      3232,
       3231,
       3230,
       3229,
@@ -3899,7 +3898,8 @@
       3200,
       3199,
       3199,
-      3198
+      3198,
+      3197
     ],
     "KOR": [
       111,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 8,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 15,
+    "kalshi": 12,
     "max_andes_r0": 0.3,
     "avg_other_r0": 1.39,
     "continents": [
@@ -4017,7 +4017,7 @@
   },
   "signal_summary": {
     "USA": 1,
-    "ARG": 4,
+    "ARG": 5,
     "GBR": 1,
     "FRA": 1
   },
@@ -4049,6 +4049,13 @@
       "t": "2026-06-06T04:55:15Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVnVhQ3FocGE0OHdYVlVPc2R1dXo3ZEFxNVRlUWFka19femw3ZlB4N1MwU2doczRBNU5Wd0ZCQk5xeklndXJid1ZYUXNsaU1GR0FWazBnbzNERUVyQ21KcGIyZ2dwdE9hdDdVSHdKaTJnRVFSR291NHg1WTdoOGNpU2RITUtWTnQ2U25aMUN3UkhtUHdSclpWRldITlg1NnlsSmZYSGdHbC1nT2dHbEIzWUR0QnZOVTVfeEFfVndKOVdOcTNmTUk4?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW.com",
+      "t": "2026-06-06T03:30:52Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4088,7 +4095,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-13T02:55:05Z",
+      "last_update": "2026-06-13T03:00:15Z",
       "signals": 3,
       "recent": [
         {
