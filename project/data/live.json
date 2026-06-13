@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-13T11:10:15.421903Z",
-  "next_update": "2026-06-13T11:15:00Z",
+  "generated": "2026-06-13T11:15:14.661190Z",
+  "next_update": "2026-06-13T11:20:00Z",
   "days_active": 36,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -32,7 +32,7 @@
       "cfr": 41.6,
       "var_pct": 41,
       "strain": "hps",
-      "new_today": 5,
+      "new_today": 4,
       "r0": 5.0,
       "signals": 0,
       "gov_alert": false
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3192,
+      "ytd": 3191,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": -4,
@@ -612,7 +612,7 @@
       112,
       117,
       123,
-      127,
+      128,
       132
     ],
     "BOL": [
@@ -872,7 +872,7 @@
       1
     ],
     "FIN": [
-      482,
+      481,
       478,
       475,
       472,
@@ -1240,7 +1240,7 @@
       4
     ],
     "RUS": [
-      2169,
+      2170,
       2223,
       2271,
       2606,
@@ -1250,7 +1250,7 @@
       2550,
       2537,
       2523,
-      2511,
+      2510,
       2498,
       2485,
       2473
@@ -1349,7 +1349,7 @@
       3244,
       3226,
       3209,
-      3192
+      3191
     ],
     "KOR": [
       96,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 10,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 15,
+    "kalshi": 16,
     "max_andes_r0": 0.3,
     "avg_other_r0": 1.39,
     "continents": [
@@ -4026,7 +4026,7 @@
       "title": "Argentina descarta presencia del roedor que transmite hantavirus tras brote en crucero - El Economista",
       "t": "2026-06-12T18:52:36Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZGJtN1oxSUQ5R2xIazRlODJtM24zZ0NIdERLYXROcEVQODJrSWxEWlRIUnRidjNnb2VRR2VXQjBYdUE3MVplVmRSaVJPY2h6T1N2Q3l0SFJwVDRfcWptZUJwZE5xbWxuQmFKbFpKTzQwU0pCaWNfY213T2VvVXM0aWdGYTRZRDBIamdQd1EtR1RLMEducGFkRmJiWnA0WGotamo0d3NjYXNjOG0xYjlRMDRZWXFJQlFoNl9MV3NlNktXdTU3NHZUenlQMjd5SmdXc2ZHYkNR0gHbAUFVX3lxTE44clBNcjJ0M050NDlBa005MEJTTDRNb2tHZUVKUlk2ZzBIY3U5Ti1OMFZDSWxiSWd4WXFSMVQtWFl4ekxGSlZGOWJnRi1GNzVtQkdSeUVoeTRXb1FXUUFHZ1BnYjdNYllwUWZLYVJLQTNrODAtZWl6YzdjN3VwVTQwWXVTMjhaTlRUbTU4S0ZZNWV6R2xjOVdsQkdXZThGUDZkdktreG8wT1dCLUl1cTZfeGNWeTA1MFVxUjFEZDlLNDBVSURyMUk5OElMMWRqZHJhSEh2bXc3aUY1UQ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOHJQTXIydDNOdDQ5QWtNOTBCU0w0TW9rR2VFSlJZNmcwSGN1OU4tTjBWQ0lsYklneFlxUjFULVhZeHpMRkpWRjliZ0YtRjc1bUJHUnlFaHk0V29RV1FBR2dQZ2I3TWJZcFFmS2FSS0EzazgwLWVpemM3Yzd1cFU0MFl1UzI4Wk5UVG01OEtGWTVlekdsYzlXbEJHV2U4RlA2ZHZLa3hvME9XQi1JdXE2X3hjVnkwNTBVcVIxRGQ5SzQwVUlEcjFJOThJTDFkamRyYUhIdm13N2lGNVHSAdsBQVVfeXFMTjhyUE1yMnQzTnQ0OUFrTTkwQlNMNE1va0dlRUpSWTZnMEhjdTlOLU4wVkNJbGJJZ3hZcVIxVC1YWXh6TEZKVkY5YmdGLUY3NW1CR1J5RWh5NFdvUVdRQUdnUGdiN01iWXBRZkthUktBM2s4MC1laXpjN2M3dXBVNDBZdVMyOFpOVFRtNThLRlk1ZXpHbGM5V2xCR1dlOEZQNmR2S2t4bzBPV0ItSXVxNl94Y1Z5MDUwVXFSMURkOUs0MFVJRHIxSTk4SUwxZGpkcmFISHZtdzdpRjVR?oc=5"
     },
     {
       "iso": "GBR",
@@ -4066,13 +4066,13 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-13T11:10:15Z",
+      "last_update": "2026-06-13T11:15:14Z",
       "signals": 2,
       "recent": [
         {
           "title": "Argentina descarta presencia del roedor que transmite hantavirus tras brote en crucero - El Economista",
           "t": "2026-06-12T18:52:36Z",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZGJtN1oxSUQ5R2xIazRlODJtM24zZ0NIdERLYXROcEVQODJrSWxEWlRIUnRidjNnb2VRR2VXQjBYdUE3MVplVmRSaVJPY2h6T1N2Q3l0SFJwVDRfcWptZUJwZE5xbWxuQmFKbFpKTzQwU0pCaWNfY213T2VvVXM0aWdGYTRZRDBIamdQd1EtR1RLMEducGFkRmJiWnA0WGotamo0d3NjYXNjOG0xYjlRMDRZWXFJQlFoNl9MV3NlNktXdTU3NHZUenlQMjd5SmdXc2ZHYkNR0gHbAUFVX3lxTE44clBNcjJ0M050NDlBa005MEJTTDRNb2tHZUVKUlk2ZzBIY3U5Ti1OMFZDSWxiSWd4WXFSMVQtWFl4ekxGSlZGOWJnRi1GNzVtQkdSeUVoeTRXb1FXUUFHZ1BnYjdNYllwUWZLYVJLQTNrODAtZWl6YzdjN3VwVTQwWXVTMjhaTlRUbTU4S0ZZNWV6R2xjOVdsQkdXZThGUDZkdktreG8wT1dCLUl1cTZfeGNWeTA1MFVxUjFEZDlLNDBVSURyMUk5OElMMWRqZHJhSEh2bXc3aUY1UQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOHJQTXIydDNOdDQ5QWtNOTBCU0w0TW9rR2VFSlJZNmcwSGN1OU4tTjBWQ0lsYklneFlxUjFULVhZeHpMRkpWRjliZ0YtRjc1bUJHUnlFaHk0V29RV1FBR2dQZ2I3TWJZcFFmS2FSS0EzazgwLWVpemM3Yzd1cFU0MFl1UzI4Wk5UVG01OEtGWTVlekdsYzlXbEJHV2U4RlA2ZHZLa3hvME9XQi1JdXE2X3hjVnkwNTBVcVIxRGQ5SzQwVUlEcjFJOThJTDFkamRyYUhIdm13N2lGNVHSAdsBQVVfeXFMTjhyUE1yMnQzTnQ0OUFrTTkwQlNMNE1va0dlRUpSWTZnMEhjdTlOLU4wVkNJbGJJZ3hZcVIxVC1YWXh6TEZKVkY5YmdGLUY3NW1CR1J5RWh5NFdvUVdRQUdnUGdiN01iWXBRZkthUktBM2s4MC1laXpjN2M3dXBVNDBZdVMyOFpOVFRtNThLRlk1ZXpHbGM5V2xCR1dlOEZQNmR2S2t4bzBPV0ItSXVxNl94Y1Z5MDUwVXFSMURkOUs0MFVJRHIxSTk4SUwxZGpkcmFISHZtdzdpRjVR?oc=5"
         },
         {
           "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
