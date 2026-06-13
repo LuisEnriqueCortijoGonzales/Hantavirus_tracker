@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-13T03:35:10.156839Z",
-  "next_update": "2026-06-13T03:40:00Z",
+  "generated": "2026-06-13T03:40:14.679361Z",
+  "next_update": "2026-06-13T03:45:00Z",
   "days_active": 36,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 35,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": 17,
+      "var_pct": 16,
       "strain": "hps",
       "new_today": 1,
       "r0": 0.39,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "PRY": {
@@ -683,15 +683,15 @@
       23,
       24,
       25,
-      27,
+      26,
       28,
       29,
       30,
       31,
-      32,
+      31,
       32,
       33,
-      34,
+      33,
       34,
       35
     ],
@@ -1240,11 +1240,11 @@
       4
     ],
     "RUS": [
-      2151,
-      2206,
+      2152,
+      2207,
       2256,
       2611,
-      2597,
+      2596,
       2582,
       2568,
       2554,
@@ -1338,11 +1338,11 @@
     "CHN": [
       3451,
       3429,
-      3408,
+      3407,
       3386,
       3366,
       3345,
-      3326,
+      3325,
       3306,
       3287,
       3268,
@@ -1802,6 +1802,7 @@
       9
     ],
     "USA": [
+      33,
       34,
       34,
       34,
@@ -1841,15 +1842,14 @@
       34,
       34,
       34,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34
     ],
     "PRY": [
       8,
@@ -4006,7 +4006,7 @@
     "composite": 9,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 15,
+    "kalshi": 14,
     "max_andes_r0": 0.3,
     "avg_other_r0": 1.39,
     "continents": [
@@ -4016,7 +4016,6 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "USA": 1,
     "ARG": 4,
     "GBR": 1,
     "FRA": 1
@@ -4035,13 +4034,6 @@
       "t": "2026-06-10T14:50:22Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPU3dhZnpWbkFpVUlMNGo2LXZ5QV9DSkcxQ09XaEZSX3Q3bkdabEg2T2NQVUNnNXJSbHhacW5LYXBvaEJuQ1FFZE9VSHdOY3QwYS05ejZPZElxWGV4bE9jNmNUdFZUaEJudlQ4TkRCRnhRS1FmU25OckpXUDg1Yk9Dc3Z2WlAwRFBGSmd3Z1ctM1BVNmxVZHVhZDhneldLMkk2TTlnVVlYQTJHU0wzR3o2UGljS0FRYnplQjVWekdMUXctUXFERktVblZBMGl0NEhQWkRZd2N3OWpvZ9IB9AFBVV95cUxPOVlDeHlNdWtxYXhBa21KUENLZ3dTc0xGYUdqZnhDVDVicF8zcktfcEZ0eGM4T1BZTklRNkh5V1VPV1kzYTliR3A2X083bXF3d0xYcjkxZHliZ3NfeTZSaG5aVlk2WElDNEI0UVV5RXlwNTZuUXpOWndNa0Nsai14cWo4RlQ5b3hDdG1RRHVsVmM1Ym5OSzhEbUJTRDNacTVha3FSNVJEbWNEbGYxTERVOGVKb3JDc2VEMnduV1pSQ3lXVF9YcHJ4aGJtekJ5MWVqVElodjJVQWZtV1NYUjV4b29OS3dqTEhzZ1VHZzU4NnVhaWFv?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "3 more US hantavirus cruise passengers return home after weeks at quarantine facility - USA Today",
-      "t": "2026-06-09T18:05:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcEtzLU4zTUZ4WnRZUEFITDVWWnFLd1A5RE5aSXZZVF9sQlg2RzVIQzlDZGtTMy1ZTVp2OUphUHQ5SWV2aFJCSHpjT1dNUnlKTXBxQmY5Xzhidk15MVNHSUxCSkMzcWs5N1hqM0lmcmt3VjZ5WlJJczF4RW9fVUpXNWJqcVJ5cTkyMm1VSHNkM3RKaXVZSHgybzd1TGthd0VaSnhSZ0lBeC1yeFYxdXVoVGF0OTJIQ21fRHZtY05kOA?oc=5"
     },
     {
       "iso": "ARG",
@@ -4088,7 +4080,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-13T03:35:10Z",
+      "last_update": "2026-06-13T03:40:14Z",
       "signals": 3,
       "recent": [
         {
