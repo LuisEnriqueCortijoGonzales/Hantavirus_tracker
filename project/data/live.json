@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-13T06:15:12.416744Z",
-  "next_update": "2026-06-13T06:20:00Z",
+  "generated": "2026-06-13T06:20:06.442622Z",
+  "next_update": "2026-06-13T06:25:00Z",
   "days_active": 36,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 203,
+      "ytd": 202,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 7,
+      "var_pct": 6,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.28,
-      "signals": 5,
+      "signals": 4,
       "gov_alert": false
     },
     "CHL": {
@@ -569,19 +569,19 @@
   "history": {
     "ARG": [
       167,
-      173,
+      172,
       178,
-      183,
-      188,
-      192,
-      195,
-      198,
-      217,
-      215,
-      212,
-      209,
-      206,
-      203
+      182,
+      187,
+      191,
+      194,
+      197,
+      216,
+      213,
+      211,
+      208,
+      205,
+      202
     ],
     "CHL": [
       71,
@@ -1452,15 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      209,
-      209,
-      208,
-      208,
-      208,
-      208,
-      208,
-      208,
-      208,
       208,
       208,
       207,
@@ -1480,7 +1471,7 @@
       206,
       206,
       206,
-      205,
+      206,
       205,
       205,
       205,
@@ -1499,7 +1490,16 @@
       204,
       204,
       203,
-      203
+      203,
+      203,
+      203,
+      203,
+      203,
+      203,
+      203,
+      203,
+      202,
+      202
     ],
     "CHL": [
       78,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 8,
+    "composite": 9,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 12,
+    "kalshi": 15,
     "max_andes_r0": 0.3,
     "avg_other_r0": 1.39,
     "continents": [
@@ -4016,7 +4016,7 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "ARG": 5,
+    "ARG": 4,
     "GBR": 1,
     "FRA": 1
   },
@@ -4044,15 +4044,8 @@
     },
     {
       "iso": "ARG",
-      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW.com",
-      "t": "2026-06-06T03:30:52Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Argentina expands hantavirus probe, sending teams to trap and test rats in Mendoza - AP News",
-      "t": "2026-06-05T23:40:42Z",
+      "t": "2026-06-05T23:27:00Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYV9WYXctbkRkNHQxeTVCd2VsSHRfRTI0UEJVYVJNOERaVVpBOFg3SDZIdEpvaG42S3RNZ3R2NzVlcTNRd1NPeExsUzNnQmlLLVpyVnd3QTV0V0hiNjVFaU1mTGJXTDA0ZzZWRjRDSWtSOElBS042RmZKZnQtZEJuV0ZpX01SMXFFYURtcFRQYnAxT3piX3V4aldNZHBRbUdUUXlvTV9XdldvUmFGX1F2ME13VFg?oc=5"
     },
@@ -4087,7 +4080,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-13T06:15:12Z",
+      "last_update": "2026-06-13T06:20:06Z",
       "signals": 4,
       "recent": [
         {
