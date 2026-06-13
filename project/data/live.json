@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-13T02:00:08.671915Z",
-  "next_update": "2026-06-13T02:05:00Z",
+  "generated": "2026-06-13T02:05:07.894052Z",
+  "next_update": "2026-06-13T02:10:00Z",
   "days_active": 36,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 204,
+      "ytd": 203,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": 7,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.28,
-      "signals": 5,
+      "signals": 4,
       "gov_alert": false
     },
     "CHL": {
@@ -569,19 +569,19 @@
   "history": {
     "ARG": [
       166,
-      172,
-      178,
+      171,
+      177,
       182,
-      187,
-      191,
-      194,
-      198,
-      218,
-      215,
-      212,
-      209,
-      207,
-      204
+      186,
+      190,
+      193,
+      197,
+      217,
+      214,
+      211,
+      208,
+      206,
+      203
     ],
     "CHL": [
       71,
@@ -1336,8 +1336,8 @@
       27
     ],
     "CHN": [
-      3453,
-      3431,
+      3452,
+      3430,
       3409,
       3388,
       3367,
@@ -1452,15 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      209,
-      209,
-      209,
-      209,
-      209,
-      209,
-      208,
-      208,
-      208,
       208,
       208,
       208,
@@ -1484,7 +1475,7 @@
       206,
       206,
       206,
-      205,
+      206,
       205,
       205,
       205,
@@ -1499,7 +1490,16 @@
       204,
       204,
       204,
-      204
+      204,
+      204,
+      204,
+      203,
+      203,
+      203,
+      203,
+      203,
+      203,
+      203
     ],
     "CHL": [
       78,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 10,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 14,
+    "kalshi": 17,
     "max_andes_r0": 0.3,
     "avg_other_r0": 1.39,
     "continents": [
@@ -4017,7 +4017,7 @@
   },
   "signal_summary": {
     "USA": 1,
-    "ARG": 5,
+    "ARG": 4,
     "GBR": 1,
     "FRA": 1
   },
@@ -4049,13 +4049,6 @@
       "t": "2026-06-06T04:55:15Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVnVhQ3FocGE0OHdYVlVPc2R1dXo3ZEFxNVRlUWFka19femw3ZlB4N1MwU2doczRBNU5Wd0ZCQk5xeklndXJid1ZYUXNsaU1GR0FWazBnbzNERUVyQ21KcGIyZ2dwdE9hdDdVSHdKaTJnRVFSR291NHg1WTdoOGNpU2RITUtWTnQ2U25aMUN3UkhtUHdSclpWRldITlg1NnlsSmZYSGdHbC1nT2dHbEIzWUR0QnZOVTVfeEFfVndKOVdOcTNmTUk4?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus: Argentina expands probe to trace outbreak source - DW.com",
-      "t": "2026-06-06T03:30:52Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTDBwWmxyRnpKMzB1anREQUtvOWEwR0VJcnR4YWhHVWVNakVxZVNUQ3JMM3FyRG1HRUV3S01DSFZQX3VFSkxTS090THRTMmY2MV9GVzZrU1BGNXBPNkZhU3hjZ1FlVHZoMWdCZnNMQ1RMOGtjb1U0WExFakI1ZFpRbGc1dzc4TERMVWttRnFqZS1BZ1ZqQk11Z1VsNERfZkdRa2NjcDI1SE3SAagBQVVfeXFMTjN3cnRzSlpCbmRzbzQ3SHVtS3R4R1N2b1NFdmlzYjlodzlaVEJLZ0hMVjc5eVdvUElpX3J2UXhFXzJLc3VFUkVsYUFqcW5oUGlxeFZMSHctQjJ5bXlvUGdzU0R6S3AxcXFxaHZORWFQVWlzcVRvaGpVTkZPM2NQZ2JXY1lzeDZCRV93bldlQUVFWnJRWWFmb3MxQV9aQlNjd2NpdE9kVlpw?oc=5"
     },
     {
       "iso": "ARG",
@@ -4095,7 +4088,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-13T02:00:08Z",
+      "last_update": "2026-06-13T02:05:07Z",
       "signals": 3,
       "recent": [
         {
