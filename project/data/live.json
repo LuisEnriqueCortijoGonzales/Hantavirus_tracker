@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-13T13:35:04.160222Z",
-  "next_update": "2026-06-13T13:40:00Z",
+  "generated": "2026-06-13T14:55:13.157234Z",
+  "next_update": "2026-06-13T15:00:00Z",
   "days_active": 36,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,11 +8,11 @@
       "ytd": 200,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 4,
+      "var_pct": 5,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.28,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "CHL": {
@@ -27,12 +27,12 @@
       "gov_alert": false
     },
     "BRA": {
-      "ytd": 132,
+      "ytd": 133,
       "alert": "vigilancia",
       "cfr": 41.6,
       "var_pct": 40,
       "strain": "hps",
-      "new_today": 4,
+      "new_today": 5,
       "r0": 5.0,
       "signals": 0,
       "gov_alert": false
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -467,7 +467,7 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2472,
+      "ytd": 2471,
       "alert": "vigilancia",
       "cfr": 0.9,
       "var_pct": -4,
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3190,
+      "ytd": 3189,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": -4,
@@ -568,19 +568,19 @@
   },
   "history": {
     "ARG": [
-      167,
-      172,
-      177,
-      182,
-      186,
-      190,
-      193,
-      216,
-      213,
+      168,
+      173,
+      179,
+      183,
+      187,
+      191,
+      194,
+      217,
+      214,
       211,
-      208,
-      205,
-      202,
+      209,
+      206,
+      203,
       200
     ],
     "CHL": [
@@ -588,14 +588,14 @@
       74,
       87,
       86,
-      85,
+      84,
       83,
       82,
       81,
       80,
       79,
       78,
-      78,
+      77,
       77,
       76
     ],
@@ -606,14 +606,14 @@
       89,
       89,
       89,
-      94,
+      95,
       101,
       107,
-      112,
+      113,
       118,
       123,
       128,
-      132
+      133
     ],
     "BOL": [
       14,
@@ -681,7 +681,7 @@
     ],
     "USA": [
       23,
-      24,
+      25,
       26,
       27,
       28,
@@ -689,7 +689,7 @@
       30,
       31,
       32,
-      32,
+      33,
       33,
       34,
       34,
@@ -874,7 +874,7 @@
     "FIN": [
       481,
       478,
-      475,
+      474,
       471,
       468,
       465,
@@ -888,7 +888,7 @@
       442
     ],
     "SWE": [
-      200,
+      199,
       198,
       197,
       196,
@@ -904,15 +904,15 @@
       187
     ],
     "DEU": [
-      349,
+      348,
       346,
       344,
       342,
       340,
       338,
-      336,
-      334,
-      332,
+      335,
+      333,
+      331,
       330,
       328,
       326,
@@ -941,7 +941,7 @@
       67,
       68,
       69,
-      70,
+      71,
       72,
       80,
       80,
@@ -1240,20 +1240,20 @@
       4
     ],
     "RUS": [
-      2175,
-      2228,
-      2620,
-      2605,
+      2178,
+      2231,
+      2619,
+      2604,
       2590,
-      2576,
+      2575,
       2562,
-      2549,
+      2548,
       2535,
-      2522,
+      2521,
       2509,
-      2497,
+      2496,
       2484,
-      2472
+      2471
     ],
     "BLR": [
       34,
@@ -1327,7 +1327,7 @@
       23,
       23,
       24,
-      24,
+      25,
       25,
       26,
       26,
@@ -1336,20 +1336,20 @@
       27
     ],
     "CHN": [
-      3442,
-      3420,
-      3399,
-      3378,
-      3357,
-      3337,
-      3317,
-      3298,
-      3279,
-      3261,
-      3242,
-      3224,
-      3207,
-      3190
+      3441,
+      3419,
+      3398,
+      3377,
+      3356,
+      3336,
+      3316,
+      3297,
+      3278,
+      3260,
+      3241,
+      3223,
+      3206,
+      3189
     ],
     "KOR": [
       96,
@@ -1401,7 +1401,6 @@
     "2026-06-13T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-11T14:00:00Z",
     "2026-06-11T15:00:00Z",
     "2026-06-11T16:00:00Z",
     "2026-06-11T17:00:00Z",
@@ -1448,15 +1447,23 @@
     "2026-06-13T10:00:00Z",
     "2026-06-13T11:00:00Z",
     "2026-06-13T12:00:00Z",
-    "2026-06-13T13:00:00Z"
+    "2026-06-13T13:00:00Z",
+    "2026-06-13T14:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
+      206,
+      206,
+      206,
       205,
       205,
       205,
       205,
-      204,
+      205,
+      205,
+      205,
+      205,
+      205,
       204,
       204,
       204,
@@ -1473,6 +1480,7 @@
       203,
       203,
       203,
+      203,
       202,
       202,
       202,
@@ -1491,18 +1499,9 @@
       201,
       201,
       201,
-      200,
-      200,
-      200,
-      200,
-      200,
-      200,
-      200,
-      200,
       200
     ],
     "CHL": [
-      78,
       77,
       77,
       77,
@@ -1529,6 +1528,7 @@
       77,
       77,
       77,
+      76,
       76,
       76,
       76,
@@ -1553,7 +1553,6 @@
     ],
     "BRA": [
       123,
-      123,
       124,
       124,
       124,
@@ -1599,7 +1598,8 @@
       132,
       132,
       132,
-      132
+      132,
+      133
     ],
     "BOL": [
       17,
@@ -1641,7 +1641,7 @@
       17,
       17,
       17,
-      17,
+      18,
       18,
       18,
       18,
@@ -1667,7 +1667,7 @@
       12,
       12,
       12,
-      12,
+      13,
       13,
       13,
       13,
@@ -1839,7 +1839,7 @@
       34,
       34,
       34,
-      34,
+      35,
       35,
       35,
       35,
@@ -2403,7 +2403,6 @@
     ],
     "FIN": [
       448,
-      448,
       447,
       447,
       447,
@@ -2449,6 +2448,7 @@
       443,
       443,
       443,
+      442,
       442
     ],
     "SWE": [
@@ -2459,7 +2459,6 @@
       189,
       189,
       189,
-      189,
       188,
       188,
       188,
@@ -2488,6 +2487,7 @@
       188,
       188,
       188,
+      187,
       187,
       187,
       187,
@@ -2507,7 +2507,6 @@
       326,
       326,
       326,
-      326,
       325,
       325,
       325,
@@ -2548,6 +2547,7 @@
       323,
       323,
       323,
+      322,
       322,
       322
     ],
@@ -3124,7 +3124,7 @@
       6,
       6,
       6,
-      6,
+      7,
       7,
       7,
       7,
@@ -3274,7 +3274,7 @@
       12,
       12,
       12,
-      12,
+      13,
       13,
       13,
       13,
@@ -3324,7 +3324,7 @@
       9,
       9,
       9,
-      9,
+      10,
       10,
       10,
       10,
@@ -3374,7 +3374,7 @@
       15,
       15,
       15,
-      15,
+      16,
       16,
       16,
       16,
@@ -3474,7 +3474,7 @@
       8,
       8,
       8,
-      8,
+      9,
       9,
       9,
       9,
@@ -3553,7 +3553,6 @@
     ],
     "RUS": [
       2496,
-      2496,
       2495,
       2495,
       2494,
@@ -3599,6 +3598,7 @@
       2474,
       2473,
       2473,
+      2472,
       2472
     ],
     "BLR": [
@@ -3852,7 +3852,6 @@
       27
     ],
     "CHN": [
-      3224,
       3223,
       3223,
       3222,
@@ -3899,6 +3898,7 @@
       3192,
       3192,
       3191,
+      3190,
       3190
     ],
     "KOR": [
@@ -3943,7 +3943,7 @@
       111,
       111,
       111,
-      111,
+      110,
       110,
       110,
       110,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 10,
+    "composite": 9,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 16,
+    "kalshi": 14,
     "max_andes_r0": 0.3,
     "avg_other_r0": 1.39,
     "continents": [
@@ -4016,17 +4016,32 @@
     "outbreak_count": 3
   },
   "signal_summary": {
-    "ARG": 2,
-    "GBR": 1,
-    "FRA": 1
+    "CAN": 1,
+    "ARG": 3,
+    "FRA": 1,
+    "GBR": 1
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "Rodents can spread hantavirus and spark fires in your HVAC if left ignored. Here\u2019s how to protect your home - Yahoo! Finance Canada",
+      "t": "2026-06-13T13:30:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLVdNaVJrbDFTS1I4d080bko4eUJNMXg3eFI4Qy13dk56eHBkR3FwT0w4d1RCMm96b2ZSMTlWYm51U0VnRFRjbjJ6MlBiUnB5ZVRKOWVycVNWeEFURElNcWJGck83T3lHNTduVDB0T1Voc1hrNGZ4UWliQndiUFFnZmE2UkxQek1wMXBxZDYybw?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina descarta presencia del roedor que transmite hantavirus tras brote en crucero - El Economista",
       "t": "2026-06-12T18:52:36Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOHJQTXIydDNOdDQ5QWtNOTBCU0w0TW9rR2VFSlJZNmcwSGN1OU4tTjBWQ0lsYklneFlxUjFULVhZeHpMRkpWRjliZ0YtRjc1bUJHUnlFaHk0V29RV1FBR2dQZ2I3TWJZcFFmS2FSS0EzazgwLWVpemM3Yzd1cFU0MFl1UzI4Wk5UVG01OEtGWTVlekdsYzlXbEJHV2U4RlA2ZHZLa3hvME9XQi1JdXE2X3hjVnkwNTBVcVIxRGQ5SzQwVUlEcjFJOThJTDFkamRyYUhIdm13N2lGNVHSAdsBQVVfeXFMTjhyUE1yMnQzTnQ0OUFrTTkwQlNMNE1va0dlRUpSWTZnMEhjdTlOLU4wVkNJbGJJZ3hZcVIxVC1YWXh6TEZKVkY5YmdGLUY3NW1CR1J5RWh5NFdvUVdRQUdnUGdiN01iWXBRZkthUktBM2s4MC1laXpjN2M3dXBVNDBZdVMyOFpOVFRtNThLRlk1ZXpHbGM5V2xCR1dlOEZQNmR2S2t4bzBPV0ItSXVxNl94Y1Z5MDUwVXFSMURkOUs0MFVJRHIxSTk4SUwxZGpkcmFISHZtdzdpRjVR?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZGJtN1oxSUQ5R2xIazRlODJtM24zZ0NIdERLYXROcEVQODJrSWxEWlRIUnRidjNnb2VRR2VXQjBYdUE3MVplVmRSaVJPY2h6T1N2Q3l0SFJwVDRfcWptZUJwZE5xbWxuQmFKbFpKTzQwU0pCaWNfY213T2VvVXM0aWdGYTRZRDBIamdQd1EtR1RLMEducGFkRmJiWnA0WGotamo0d3NjYXNjOG0xYjlRMDRZWXFJQlFoNl9MV3NlNktXdTU3NHZUenlQMjd5SmdXc2ZHYkNR0gHbAUFVX3lxTE44clBNcjJ0M050NDlBa005MEJTTDRNb2tHZUVKUlk2ZzBIY3U5Ti1OMFZDSWxiSWd4WXFSMVQtWFl4ekxGSlZGOWJnRi1GNzVtQkdSeUVoeTRXb1FXUUFHZ1BnYjdNYllwUWZLYVJLQTNrODAtZWl6YzdjN3VwVTQwWXVTMjhaTlRUbTU4S0ZZNWV6R2xjOVdsQkdXZThGUDZkdktreG8wT1dCLUl1cTZfeGNWeTA1MFVxUjFEZDlLNDBVSURyMUk5OElMMWRqZHJhSEh2bXc3aUY1UQ?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Hantavirus: cient\u00edficos no encontraron roedores con la cepa del crucero en Argentina - Caracol Radio",
+      "t": "2026-06-12T16:22:48Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdUFsbEtvOVo2bXg2X05Semc4bXRQZEtDd0RFNXZFUTEzMWFDWUpvU2VGOXVHOXR3dEFWa2lJc0NSSzF6anI4NDhOeERUTkRpUnpIYkdmeUpKcVNjTVZFRkhEbklGZHNxOXR5SVRkdDUwTjdla05IdXJFWmFLS1ZXRF9sdmdxUnJlbFlXU1pPbVRrOHJxNVNvX3FCbG1kaVpRLXdkc3JuMUdBOVlRUFpJdDJfTkJmWS1iT0E?oc=5"
     },
     {
       "iso": "GBR",
@@ -4066,13 +4081,18 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-13T13:35:04Z",
-      "signals": 2,
+      "last_update": "2026-06-13T14:55:13Z",
+      "signals": 3,
       "recent": [
         {
           "title": "Argentina descarta presencia del roedor que transmite hantavirus tras brote en crucero - El Economista",
           "t": "2026-06-12T18:52:36Z",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOHJQTXIydDNOdDQ5QWtNOTBCU0w0TW9rR2VFSlJZNmcwSGN1OU4tTjBWQ0lsYklneFlxUjFULVhZeHpMRkpWRjliZ0YtRjc1bUJHUnlFaHk0V29RV1FBR2dQZ2I3TWJZcFFmS2FSS0EzazgwLWVpemM3Yzd1cFU0MFl1UzI4Wk5UVG01OEtGWTVlekdsYzlXbEJHV2U4RlA2ZHZLa3hvME9XQi1JdXE2X3hjVnkwNTBVcVIxRGQ5SzQwVUlEcjFJOThJTDFkamRyYUhIdm13N2lGNVHSAdsBQVVfeXFMTjhyUE1yMnQzTnQ0OUFrTTkwQlNMNE1va0dlRUpSWTZnMEhjdTlOLU4wVkNJbGJJZ3hZcVIxVC1YWXh6TEZKVkY5YmdGLUY3NW1CR1J5RWh5NFdvUVdRQUdnUGdiN01iWXBRZkthUktBM2s4MC1laXpjN2M3dXBVNDBZdVMyOFpOVFRtNThLRlk1ZXpHbGM5V2xCR1dlOEZQNmR2S2t4bzBPV0ItSXVxNl94Y1Z5MDUwVXFSMURkOUs0MFVJRHIxSTk4SUwxZGpkcmFISHZtdzdpRjVR?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZGJtN1oxSUQ5R2xIazRlODJtM24zZ0NIdERLYXROcEVQODJrSWxEWlRIUnRidjNnb2VRR2VXQjBYdUE3MVplVmRSaVJPY2h6T1N2Q3l0SFJwVDRfcWptZUJwZE5xbWxuQmFKbFpKTzQwU0pCaWNfY213T2VvVXM0aWdGYTRZRDBIamdQd1EtR1RLMEducGFkRmJiWnA0WGotamo0d3NjYXNjOG0xYjlRMDRZWXFJQlFoNl9MV3NlNktXdTU3NHZUenlQMjd5SmdXc2ZHYkNR0gHbAUFVX3lxTE44clBNcjJ0M050NDlBa005MEJTTDRNb2tHZUVKUlk2ZzBIY3U5Ti1OMFZDSWxiSWd4WXFSMVQtWFl4ekxGSlZGOWJnRi1GNzVtQkdSeUVoeTRXb1FXUUFHZ1BnYjdNYllwUWZLYVJLQTNrODAtZWl6YzdjN3VwVTQwWXVTMjhaTlRUbTU4S0ZZNWV6R2xjOVdsQkdXZThGUDZkdktreG8wT1dCLUl1cTZfeGNWeTA1MFVxUjFEZDlLNDBVSURyMUk5OElMMWRqZHJhSEh2bXc3aUY1UQ?oc=5"
+        },
+        {
+          "title": "Hantavirus: cient\u00edficos no encontraron roedores con la cepa del crucero en Argentina - Caracol Radio",
+          "t": "2026-06-12T16:22:48Z",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdUFsbEtvOVo2bXg2X05Semc4bXRQZEtDd0RFNXZFUTEzMWFDWUpvU2VGOXVHOXR3dEFWa2lJc0NSSzF6anI4NDhOeERUTkRpUnpIYkdmeUpKcVNjTVZFRkhEbklGZHNxOXR5SVRkdDUwTjdla05IdXJFWmFLS1ZXRF9sdmdxUnJlbFlXU1pPbVRrOHJxNVNvX3FCbG1kaVpRLXdkc3JuMUdBOVlRUFpJdDJfTkJmWS1iT0E?oc=5"
         },
         {
           "title": "Expertos argentinos consideran \"bastante controlado\" el brote de hantavirus en un crucero - France 24",
