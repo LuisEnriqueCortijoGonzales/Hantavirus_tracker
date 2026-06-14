@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-14T00:00:15.439244Z",
-  "next_update": "2026-06-14T00:05:00Z",
+  "generated": "2026-06-14T02:30:08.633757Z",
+  "next_update": "2026-06-14T02:35:00Z",
   "days_active": 37,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -8,7 +8,7 @@
       "ytd": 199,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": 4,
+      "var_pct": 3,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.3,
@@ -27,13 +27,13 @@
       "gov_alert": false
     },
     "BRA": {
-      "ytd": 134,
+      "ytd": 135,
       "alert": "vigilancia",
       "cfr": 41.6,
       "var_pct": 38,
       "strain": "hps",
-      "new_today": 4,
-      "r0": 4.9,
+      "new_today": 5,
+      "r0": 5.0,
       "signals": 0,
       "gov_alert": false
     },
@@ -41,7 +41,7 @@
       "ytd": 18,
       "alert": "vigilancia",
       "cfr": 40.0,
-      "var_pct": 27,
+      "var_pct": 28,
       "strain": "hps",
       "new_today": 1,
       "r0": 5.0,
@@ -151,7 +151,7 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 2,
+      "var_pct": 3,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
@@ -236,7 +236,7 @@
       "gov_alert": false
     },
     "DEU": {
-      "ytd": 322,
+      "ytd": 321,
       "alert": "vigilancia",
       "cfr": 0.2,
       "var_pct": -4,
@@ -467,7 +467,7 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2467,
+      "ytd": 2466,
       "alert": "vigilancia",
       "cfr": 0.9,
       "var_pct": -3,
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3182,
+      "ytd": 3181,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": -4,
@@ -568,24 +568,24 @@
   },
   "history": {
     "ARG": [
-      170,
-      175,
-      180,
+      171,
+      176,
+      181,
       185,
       189,
-      192,
-      195,
+      193,
+      196,
       216,
       213,
       210,
-      208,
-      205,
+      207,
+      204,
       202,
       199
     ],
     "CHL": [
       73,
-      74,
+      75,
       86,
       85,
       84,
@@ -605,15 +605,15 @@
       89,
       89,
       89,
-      91,
-      97,
-      103,
-      109,
+      92,
+      98,
+      104,
+      110,
       115,
-      120,
-      125,
+      121,
+      126,
       130,
-      134
+      135
     ],
     "BOL": [
       14,
@@ -683,10 +683,10 @@
       24,
       25,
       26,
-      27,
+      28,
       29,
       30,
-      30,
+      31,
       31,
       32,
       33,
@@ -872,18 +872,18 @@
       1
     ],
     "FIN": [
-      480,
+      479,
       476,
       473,
       470,
-      467,
-      464,
-      461,
-      458,
+      466,
+      463,
+      460,
+      457,
       455,
       452,
       449,
-      447,
+      446,
       444,
       441
     ],
@@ -900,24 +900,24 @@
       190,
       189,
       188,
-      188,
+      187,
       187
     ],
     "DEU": [
-      348,
+      347,
       345,
       343,
       341,
       339,
       337,
-      335,
+      334,
       333,
       331,
       329,
       327,
       325,
       323,
-      322
+      321
     ],
     "POL": [
       49,
@@ -1122,7 +1122,7 @@
       44,
       44,
       44,
-      44,
+      43,
       43,
       43,
       43
@@ -1240,20 +1240,20 @@
       4
     ],
     "RUS": [
-      2199,
-      2249,
-      2613,
-      2599,
-      2584,
-      2570,
-      2556,
-      2543,
-      2530,
-      2516,
-      2504,
-      2491,
-      2479,
-      2467
+      2204,
+      2254,
+      2612,
+      2597,
+      2583,
+      2569,
+      2555,
+      2541,
+      2528,
+      2515,
+      2502,
+      2490,
+      2478,
+      2466
     ],
     "BLR": [
       34,
@@ -1336,24 +1336,24 @@
       28
     ],
     "CHN": [
-      3432,
-      3411,
-      3390,
-      3369,
-      3348,
-      3329,
-      3309,
-      3290,
-      3271,
-      3253,
-      3235,
-      3217,
-      3199,
-      3182
+      3430,
+      3409,
+      3387,
+      3367,
+      3346,
+      3326,
+      3307,
+      3288,
+      3269,
+      3251,
+      3233,
+      3215,
+      3198,
+      3181
     ],
     "KOR": [
       97,
-      99,
+      100,
       115,
       115,
       114,
@@ -1362,7 +1362,7 @@
       113,
       112,
       112,
-      112,
+      111,
       111,
       111,
       110
@@ -1401,8 +1401,6 @@
     "2026-06-14T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-12T01:00:00Z",
-    "2026-06-12T02:00:00Z",
     "2026-06-12T03:00:00Z",
     "2026-06-12T04:00:00Z",
     "2026-06-12T05:00:00Z",
@@ -1448,12 +1446,12 @@
     "2026-06-13T21:00:00Z",
     "2026-06-13T22:00:00Z",
     "2026-06-13T23:00:00Z",
-    "2026-06-14T00:00:00Z"
+    "2026-06-14T00:00:00Z",
+    "2026-06-14T01:00:00Z",
+    "2026-06-14T02:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      205,
-      205,
       204,
       204,
       204,
@@ -1499,6 +1497,8 @@
       200,
       200,
       199,
+      199,
+      199,
       199
     ],
     "CHL": [
@@ -1516,8 +1516,6 @@
       77,
       77,
       77,
-      77,
-      77,
       76,
       76,
       76,
@@ -1545,6 +1543,8 @@
       76,
       76,
       76,
+      75,
+      75,
       75,
       75,
       75,
@@ -1552,8 +1552,6 @@
       75
     ],
     "BRA": [
-      125,
-      126,
       126,
       126,
       126,
@@ -1599,7 +1597,9 @@
       134,
       134,
       134,
-      134
+      134,
+      134,
+      135
     ],
     "BOL": [
       17,
@@ -1629,8 +1629,8 @@
       17,
       17,
       17,
-      17,
-      17,
+      18,
+      18,
       18,
       18,
       18,
@@ -1655,8 +1655,8 @@
       12,
       12,
       12,
-      12,
-      12,
+      13,
+      13,
       13,
       13,
       13,
@@ -1827,8 +1827,8 @@
       34,
       34,
       34,
-      34,
-      34,
+      35,
+      35,
       35,
       35,
       35,
@@ -2409,8 +2409,6 @@
       446,
       446,
       446,
-      446,
-      446,
       445,
       445,
       445,
@@ -2449,6 +2447,8 @@
       442,
       442,
       441,
+      441,
+      441,
       441
     ],
     "SWE": [
@@ -2475,8 +2475,8 @@
       188,
       188,
       188,
-      188,
-      188,
+      187,
+      187,
       187,
       187,
       187,
@@ -2508,8 +2508,6 @@
       325,
       325,
       325,
-      325,
-      325,
       324,
       324,
       324,
@@ -2549,7 +2547,9 @@
       322,
       322,
       322,
-      322
+      322,
+      321,
+      321
     ],
     "POL": [
       56,
@@ -3112,8 +3112,8 @@
       6,
       6,
       6,
-      6,
-      6,
+      7,
+      7,
       7,
       7,
       7,
@@ -3262,8 +3262,8 @@
       12,
       12,
       12,
-      12,
-      12,
+      13,
+      13,
       13,
       13,
       13,
@@ -3312,8 +3312,8 @@
       9,
       9,
       9,
-      9,
-      9,
+      10,
+      10,
       10,
       10,
       10,
@@ -3362,8 +3362,8 @@
       15,
       15,
       15,
-      15,
-      15,
+      16,
+      16,
       16,
       16,
       16,
@@ -3462,8 +3462,8 @@
       8,
       8,
       8,
-      8,
-      8,
+      9,
+      9,
       9,
       9,
       9,
@@ -3552,8 +3552,6 @@
       4
     ],
     "RUS": [
-      2491,
-      2490,
       2490,
       2489,
       2489,
@@ -3599,7 +3597,9 @@
       2468,
       2468,
       2467,
-      2467
+      2467,
+      2466,
+      2466
     ],
     "BLR": [
       37,
@@ -3842,8 +3842,8 @@
       27,
       27,
       27,
-      27,
-      27,
+      28,
+      28,
       28,
       28,
       28,
@@ -3852,8 +3852,6 @@
       28
     ],
     "CHN": [
-      3216,
-      3215,
       3215,
       3214,
       3213,
@@ -3899,7 +3897,9 @@
       3185,
       3184,
       3183,
-      3183
+      3183,
+      3182,
+      3181
     ],
     "KOR": [
       111,
@@ -3931,8 +3931,8 @@
       111,
       111,
       111,
-      111,
-      111,
+      110,
+      110,
       110,
       110,
       110,
@@ -4003,12 +4003,12 @@
     ]
   },
   "pandemic": {
-    "composite": 8,
+    "composite": 9,
     "epidemio": 9,
     "polymarket": 4,
-    "kalshi": 12,
+    "kalshi": 14,
     "max_andes_r0": 0.3,
-    "avg_other_r0": 0.89,
+    "avg_other_r0": 0.9,
     "continents": [
       "Americas"
     ],
@@ -4033,7 +4033,7 @@
       "title": "Argentina descarta presencia del roedor que transmite hantavirus tras brote en crucero - El Economista",
       "t": "2026-06-12T18:52:36Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOHJQTXIydDNOdDQ5QWtNOTBCU0w0TW9rR2VFSlJZNmcwSGN1OU4tTjBWQ0lsYklneFlxUjFULVhZeHpMRkpWRjliZ0YtRjc1bUJHUnlFaHk0V29RV1FBR2dQZ2I3TWJZcFFmS2FSS0EzazgwLWVpemM3Yzd1cFU0MFl1UzI4Wk5UVG01OEtGWTVlekdsYzlXbEJHV2U4RlA2ZHZLa3hvME9XQi1JdXE2X3hjVnkwNTBVcVIxRGQ5SzQwVUlEcjFJOThJTDFkamRyYUhIdm13N2lGNVHSAdsBQVVfeXFMTjhyUE1yMnQzTnQ0OUFrTTkwQlNMNE1va0dlRUpSWTZnMEhjdTlOLU4wVkNJbGJJZ3hZcVIxVC1YWXh6TEZKVkY5YmdGLUY3NW1CR1J5RWh5NFdvUVdRQUdnUGdiN01iWXBRZkthUktBM2s4MC1laXpjN2M3dXBVNDBZdVMyOFpOVFRtNThLRlk1ZXpHbGM5V2xCR1dlOEZQNmR2S2t4bzBPV0ItSXVxNl94Y1Z5MDUwVXFSMURkOUs0MFVJRHIxSTk4SUwxZGpkcmFISHZtdzdpRjVR?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZGJtN1oxSUQ5R2xIazRlODJtM24zZ0NIdERLYXROcEVQODJrSWxEWlRIUnRidjNnb2VRR2VXQjBYdUE3MVplVmRSaVJPY2h6T1N2Q3l0SFJwVDRfcWptZUJwZE5xbWxuQmFKbFpKTzQwU0pCaWNfY213T2VvVXM0aWdGYTRZRDBIamdQd1EtR1RLMEducGFkRmJiWnA0WGotamo0d3NjYXNjOG0xYjlRMDRZWXFJQlFoNl9MV3NlNktXdTU3NHZUenlQMjd5SmdXc2ZHYkNR0gHbAUFVX3lxTE44clBNcjJ0M050NDlBa005MEJTTDRNb2tHZUVKUlk2ZzBIY3U5Ti1OMFZDSWxiSWd4WXFSMVQtWFl4ekxGSlZGOWJnRi1GNzVtQkdSeUVoeTRXb1FXUUFHZ1BnYjdNYllwUWZLYVJLQTNrODAtZWl6YzdjN3VwVTQwWXVTMjhaTlRUbTU4S0ZZNWV6R2xjOVdsQkdXZThGUDZkdktreG8wT1dCLUl1cTZfeGNWeTA1MFVxUjFEZDlLNDBVSURyMUk5OElMMWRqZHJhSEh2bXc3aUY1UQ?oc=5"
     },
     {
       "iso": "ARG",
@@ -4073,13 +4073,13 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-14T00:00:15Z",
+      "last_update": "2026-06-14T02:30:08Z",
       "signals": 2,
       "recent": [
         {
           "title": "Argentina descarta presencia del roedor que transmite hantavirus tras brote en crucero - El Economista",
           "t": "2026-06-12T18:52:36Z",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOHJQTXIydDNOdDQ5QWtNOTBCU0w0TW9rR2VFSlJZNmcwSGN1OU4tTjBWQ0lsYklneFlxUjFULVhZeHpMRkpWRjliZ0YtRjc1bUJHUnlFaHk0V29RV1FBR2dQZ2I3TWJZcFFmS2FSS0EzazgwLWVpemM3Yzd1cFU0MFl1UzI4Wk5UVG01OEtGWTVlekdsYzlXbEJHV2U4RlA2ZHZLa3hvME9XQi1JdXE2X3hjVnkwNTBVcVIxRGQ5SzQwVUlEcjFJOThJTDFkamRyYUhIdm13N2lGNVHSAdsBQVVfeXFMTjhyUE1yMnQzTnQ0OUFrTTkwQlNMNE1va0dlRUpSWTZnMEhjdTlOLU4wVkNJbGJJZ3hZcVIxVC1YWXh6TEZKVkY5YmdGLUY3NW1CR1J5RWh5NFdvUVdRQUdnUGdiN01iWXBRZkthUktBM2s4MC1laXpjN2M3dXBVNDBZdVMyOFpOVFRtNThLRlk1ZXpHbGM5V2xCR1dlOEZQNmR2S2t4bzBPV0ItSXVxNl94Y1Z5MDUwVXFSMURkOUs0MFVJRHIxSTk4SUwxZGpkcmFISHZtdzdpRjVR?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZGJtN1oxSUQ5R2xIazRlODJtM24zZ0NIdERLYXROcEVQODJrSWxEWlRIUnRidjNnb2VRR2VXQjBYdUE3MVplVmRSaVJPY2h6T1N2Q3l0SFJwVDRfcWptZUJwZE5xbWxuQmFKbFpKTzQwU0pCaWNfY213T2VvVXM0aWdGYTRZRDBIamdQd1EtR1RLMEducGFkRmJiWnA0WGotamo0d3NjYXNjOG0xYjlRMDRZWXFJQlFoNl9MV3NlNktXdTU3NHZUenlQMjd5SmdXc2ZHYkNR0gHbAUFVX3lxTE44clBNcjJ0M050NDlBa005MEJTTDRNb2tHZUVKUlk2ZzBIY3U5Ti1OMFZDSWxiSWd4WXFSMVQtWFl4ekxGSlZGOWJnRi1GNzVtQkdSeUVoeTRXb1FXUUFHZ1BnYjdNYllwUWZLYVJLQTNrODAtZWl6YzdjN3VwVTQwWXVTMjhaTlRUbTU4S0ZZNWV6R2xjOVdsQkdXZThGUDZkdktreG8wT1dCLUl1cTZfeGNWeTA1MFVxUjFEZDlLNDBVSURyMUk5OElMMWRqZHJhSEh2bXc3aUY1UQ?oc=5"
         },
         {
           "title": "Hantavirus: cient\u00edficos no encontraron roedores con la cepa del crucero en Argentina - Caracol Radio",
