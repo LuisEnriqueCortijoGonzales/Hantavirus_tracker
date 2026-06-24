@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-24T18:20:10.877120Z",
-  "next_update": "2026-06-24T18:25:00Z",
+  "generated": "2026-06-24T18:25:15.358432Z",
+  "next_update": "2026-06-24T18:30:00Z",
   "days_active": 47,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 3020,
+      "ytd": 3019,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": -3,
@@ -1349,7 +1349,7 @@
       3061,
       3047,
       3033,
-      3020
+      3019
     ],
     "KOR": [
       111,
@@ -4006,7 +4006,7 @@
     "composite": 9,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 15,
+    "kalshi": 17,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.21,
     "continents": [
@@ -4025,7 +4025,7 @@
   "events": [
     {
       "iso": "CAN",
-      "title": "Hantavirus self-isolation complete for 34 Canadians, Health Canada says - Global News",
+      "title": "Hantavirus self-isolation complete for 34 Canadians, Health Canada says - National - Global News",
       "t": "2026-06-24T18:06:54Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
@@ -4082,7 +4082,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-24T18:20:10Z",
+      "last_update": "2026-06-24T18:25:15Z",
       "signals": 1,
       "recent": [
         {
