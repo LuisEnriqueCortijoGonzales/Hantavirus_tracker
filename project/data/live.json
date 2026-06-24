@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-24T18:10:07.139472Z",
-  "next_update": "2026-06-24T18:15:00Z",
+  "generated": "2026-06-24T18:15:11.663916Z",
+  "next_update": "2026-06-24T18:20:00Z",
   "days_active": 47,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -151,11 +151,11 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 6,
+      "var_pct": 7,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -1322,7 +1322,7 @@
     "KAZ": [
       27,
       27,
-      27,
+      28,
       28,
       28,
       28,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 8,
+    "composite": 9,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 13,
+    "kalshi": 16,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.21,
     "continents": [
@@ -4016,12 +4016,20 @@
     "outbreak_count": 4
   },
   "signal_summary": {
+    "CAN": 1,
     "GBR": 1,
     "USA": 1,
     "ARG": 2,
     "MEX": 1
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "Hantavirus self-isolation complete for 34 Canadians, Health Canada says - Global News",
+      "t": "2026-06-24T18:06:54Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
+    },
     {
       "iso": "MEX",
       "title": "OMS declarar\u00e1 el fin del brote de hantavirus el 2 de julio, si no hay m\u00e1s contagios - Diario De M\u00e9xico",
@@ -4074,7 +4082,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-24T18:10:07Z",
+      "last_update": "2026-06-24T18:15:11Z",
       "signals": 1,
       "recent": [
         {
