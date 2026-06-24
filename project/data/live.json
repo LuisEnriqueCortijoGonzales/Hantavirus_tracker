@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-24T21:35:07.893570Z",
-  "next_update": "2026-06-24T21:40:00Z",
+  "generated": "2026-06-24T21:40:07.126343Z",
+  "next_update": "2026-06-24T21:45:00Z",
   "days_active": 47,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -78,7 +78,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "USA": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -683,11 +683,11 @@
       34,
       35,
       35,
-      36,
+      35,
       36,
       36,
       38,
-      38,
+      37,
       37,
       37,
       36,
@@ -1346,7 +1346,7 @@
       3104,
       3089,
       3074,
-      3060,
+      3059,
       3045,
       3031,
       3018
@@ -1833,18 +1833,18 @@
       36,
       36,
       36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
       35,
       35,
       35,
@@ -4006,7 +4006,7 @@
     "composite": 8,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 14,
+    "kalshi": 13,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.21,
     "continents": [
@@ -4018,8 +4018,9 @@
   "signal_summary": {
     "CAN": 1,
     "GBR": 1,
-    "USA": 2,
-    "ARG": 1
+    "USA": 1,
+    "ARG": 1,
+    "MEX": 1
   },
   "events": [
     {
@@ -4028,6 +4029,13 @@
       "t": "2026-06-24T18:06:54Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
+    },
+    {
+      "iso": "MEX",
+      "title": "OMS declarar\u00e1 el fin del brote de hantavirus el 2 de julio, si no hay m\u00e1s contagios - Diario De M\u00e9xico",
+      "t": "2026-06-24T16:19:34Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ1B3NUdoMUlOLVVpOGFLT2dGYWVNS0xWcnN6LVE1dnNkVVB3MUNpOVR2ZnBycmtfRk84eVdTNm1kZ1BZbXpYR2hNRWtHQ19HYTVCNUNZUlhoaTVzV2d4Vjh4MmZWbnN4bmVia2hfald1WmpQZGFHU0toVnVWeDg1akVGYXp5a1E2TzU3c0FpQm83SW4tSnBzM1JjVDlTdzZYLTVFTHB30gGrAUFVX3lxTFAxZTVIVEhHam9LMXJFOUlSZ1hPdHcxblFKeHN5YlNpLXp2d2ZLWjBGTXlFMXF0NWc2dURvUFdlRG9ab1VpOHk2aEJnSWlQUUJzQVBCcFZqY25jWWRwZnMyLWpZN19nV1o2YVpNcDJ5WDFuRUpNXzBldl9pUFZWSmhTczY3MGIzU0xWWTc4UVp6ZlRnX0JBUlc1V1N2Wmw2TXFZSnpqSTJZaVdObw?oc=5"
     },
     {
       "iso": "GBR",
@@ -4049,13 +4057,6 @@
       "t": "2026-06-22T11:56:14Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORGFTOThfazJqS1RfM0gwQ1l5dlpUSVM0S0VUUVJFTlNmMFhhT1FHeEk5U2tpR0VpUWxiUmUzRDlfSUFTVFg3aWNfdDdNWXFiYU5NMmFxaVF0dFJGT24tdmdVNDRYQmVHbWRoeUNabWZfSnRYZTBCS1FiOXJiTmtXZTNWSzN3UktiTWRrZGlIQVNDYWw2VlNpVml1eWhKQl9FQkRkUkxES3lmQk96NTNDbVBTUFBqZXpOd3kwVmdrWTlSWXplOGc?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "RFK Jr. orders American exposed to hantavirus to stay quarantined against her will - USA Today",
-      "t": "2026-06-17T13:25:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVVhqUmxCUy01VGRRRTVRZjRXMEFZMHpFbGZiUzkwamxiNUVTOVhLVGtVenpIWlpMMWtPVHczMjRldWx1R1lMR2tSRkZQWFRIeDkzcEZPLWpSZ3FmYmZNQ1d5cC1MUXZsTWEtMHR5Yk1PbV9kQmo5ajg1aUx5WmdxeTkxNHpybk1KODVOREJBcEFidVA1MDVoY2tsZFNEdS1sR09CV25IWFdPaS1WUnV1OUI5NEJ4NERqNFEw?oc=5"
     }
   ],
   "maritime_events": [
@@ -4074,7 +4075,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-24T21:35:07Z",
+      "last_update": "2026-06-24T21:40:07Z",
       "signals": 1,
       "recent": [
         {
