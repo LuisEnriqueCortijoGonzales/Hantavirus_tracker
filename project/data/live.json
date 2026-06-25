@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-25T15:30:14.694482Z",
-  "next_update": "2026-06-25T15:35:00Z",
+  "generated": "2026-06-25T15:35:08.637558Z",
+  "next_update": "2026-06-25T15:40:00Z",
   "days_active": 48,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -287,7 +287,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "AUT": {
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 8,
+    "composite": 9,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 12,
+    "kalshi": 15,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.21,
     "continents": [
@@ -4017,18 +4017,10 @@
   },
   "signal_summary": {
     "GBR": 1,
-    "CHE": 1,
     "USA": 1,
     "ARG": 1
   },
   "events": [
-    {
-      "iso": "CHE",
-      "title": "GENEVA, Switzerland \u2014 The deadly hantavirus outbreak on a cruise ship, which sparked international alarm, should be formally declared over on July 2, the World Health Organization (WHO) announced Wednesday. - LinkedIn",
-      "t": "2026-06-24T21:58:18Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWXNSZ2swZHJNWmVrMjJEbnhBdVJDSXJZbGNBekdZYW8zS3pObENuN2lNdnJ5NEVHRV85N2hCYXpZQWxtQXN5dWc2dUxQdGw3a2NlTElvR1NKdXNyMU1QM0dQRmFaZ0RhdGI0dm9IaDg3cWVjTnlXLUVFOHZOTTdDYWlXNVR3M29yUks2Yi1aNHlWYVFwaWkzb1A0d05SWEZUVG56YS1yckFEblgwTU1EQkZ1Rl9TV2VUYkNqcnFEbw?oc=5"
-    },
     {
       "iso": "GBR",
       "title": "Hantavirus outbreak \"close to end\", says WHO director-general, after more than 80% of contacts have concluded quarantine - Gamereactor UK",
@@ -4067,14 +4059,9 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-25T15:30:14Z",
-      "signals": 2,
+      "last_update": "2026-06-25T15:35:08Z",
+      "signals": 1,
       "recent": [
-        {
-          "title": "GENEVA, Switzerland \u2014 The deadly hantavirus outbreak on a cruise ship, which sparked international alarm, should be formally declared over on July 2, the World Health Organization (WHO) announced Wednesday. - LinkedIn",
-          "t": "2026-06-24T21:58:18Z",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWXNSZ2swZHJNWmVrMjJEbnhBdVJDSXJZbGNBekdZYW8zS3pObENuN2lNdnJ5NEVHRV85N2hCYXpZQWxtQXN5dWc2dUxQdGw3a2NlTElvR1NKdXNyMU1QM0dQRmFaZ0RhdGI0dm9IaDg3cWVjTnlXLUVFOHZOTTdDYWlXNVR3M29yUks2Yi1aNHlWYVFwaWkzb1A0d05SWEZUVG56YS1yckFEblgwTU1EQkZ1Rl9TV2VUYkNqcnFEbw?oc=5"
-        },
         {
           "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
           "t": "2026-06-22T17:09:00Z",
