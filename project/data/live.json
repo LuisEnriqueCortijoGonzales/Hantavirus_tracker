@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-25T18:45:16.955772Z",
-  "next_update": "2026-06-25T18:50:00Z",
+  "generated": "2026-06-25T18:50:14.217784Z",
+  "next_update": "2026-06-25T18:55:00Z",
   "days_active": 48,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 169,
+      "ytd": 171,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": -8,
+      "var_pct": -7,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 2,
       "gov_alert": false
     },
     "CHL": {
@@ -85,11 +85,11 @@
       "ytd": 35,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": -7,
+      "var_pct": -6,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      200,
-      197,
+      202,
+      199,
+      196,
       194,
-      192,
+      191,
       189,
-      187,
-      185,
+      186,
+      184,
       182,
       180,
-      178,
-      176,
+      177,
+      175,
       173,
-      171,
-      169
+      171
     ],
     "CHL": [
       76,
@@ -680,7 +680,7 @@
       10
     ],
     "USA": [
-      34,
+      35,
       35,
       35,
       36,
@@ -691,7 +691,7 @@
       37,
       36,
       36,
-      35,
+      36,
       35,
       35
     ],
@@ -1452,6 +1452,25 @@
   ],
   "hourly_history": {
     "ARG": [
+      175,
+      175,
+      175,
+      175,
+      175,
+      175,
+      175,
+      175,
+      174,
+      174,
+      174,
+      174,
+      174,
+      174,
+      174,
+      174,
+      174,
+      174,
+      174,
       173,
       173,
       173,
@@ -1474,32 +1493,13 @@
       172,
       172,
       172,
+      172,
       171,
       171,
       171,
       171,
       171,
-      171,
-      171,
-      171,
-      171,
-      171,
-      171,
-      171,
-      170,
-      170,
-      170,
-      170,
-      170,
-      170,
-      170,
-      170,
-      170,
-      170,
-      170,
-      169,
-      169,
-      169
+      171
     ],
     "CHL": [
       67,
@@ -1802,16 +1802,16 @@
       10
     ],
     "USA": [
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
       35,
       35,
       35,
@@ -4016,7 +4016,9 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "GBR": 1
+    "GBR": 1,
+    "USA": 1,
+    "ARG": 2
   },
   "events": [
     {
@@ -4025,6 +4027,27 @@
       "t": "2026-06-23T11:49:13Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPQ0RkNGFVWm5KSmJ0Y1NQVUt0R1lKY1U1MVJPQ0o0eUhuc3NSVVBUZi1Bd01MdmhDZm1HSXFuYlBIcnk5cmkzWnM5Zmc0QXFQQ1RFcVRQRDNHMG96MVVGLWxMS2d6SW5aa3EzNXdMXy1URGpka3VJejlwUlp0d0Y5cnVuYXpzbElsY2hqRTZpSFJodDh2UnRfRVVJQmdhdl91Ukh6VTBsZkU2Yl90NE0wUTllUlZkMGNaRmt4NFhuUkdDZzdmYTMwUF9TVEl3RVZ3VmtqTUN4Zi13WC1JTno5RnF3eHZiQQ?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
+      "t": "2026-06-22T17:09:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzFvUTdYMWJhaHIwU0VtNndtM0Ffd1lMbDVMc09IVWE5TTExR0g3c1hUQjNUekhmelFibjBHM2FDaHpndGc4Mm9jR2hsYzZURWhJcGJNZWlQckphSmpCV3FwYWtiX1ZFaHRDc3ZFWW44YW9Yb1VPQmhiN3hyTU5FVVZiajcyRXFjZDBIejZHeGNtSkFnOUJxSWFHd29uaDJPZGxiX1pZX0xJdzR0V1RpNXE3VEMxZHdZX1RISkxmcVF0b1ZtYzVkdVFoZi1LRUsySmdRQjFBaW1mV3NVV1RPUDBKVdIB_gFBVV95cUxPWXZWdDFobXRPU2tSSUVKWGdZaWpKc2ZFbGtBRldyZDV5SkNmZWR5Uk1uWFdmRmEydWRlRkJqV1JNRW9rWWN5aTk3VUdpVmRnVjFEUFRtRFJtcmtMb2RDc2Q2TlZNZ2NfRWcwaEdtQ0RYLXlpQXduWWJqRm1oT3BfS3J4Z3ptU3ZGOXlfTk90SktFTUxXSXJfRmlfRkxTaGtBLTJVTzl2ZGNsRkI5QzctNzU4Zkx6UWgyWEhYUXg3REprYlp5dG41bXdsUVctLWM4a2M1ckZORzFDbGRkV0dBalpkTjhwQkVJUTBtSEtOMEFmRWg5NzVTb2FNNHllZw?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Confirman otro caso de hantavirus en Argentina y una mujer permanece en terapia intensiva - infodelestero.com",
+      "t": "2026-06-22T11:56:14Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORGFTOThfazJqS1RfM0gwQ1l5dlpUSVM0S0VUUVJFTlNmMFhhT1FHeEk5U2tpR0VpUWxiUmUzRDlfSUFTVFg3aWNfdDdNWXFiYU5NMmFxaVF0dFJGT24tdmdVNDRYQmVHbWRoeUNabWZfSnRYZTBCS1FiOXJiTmtXZTNWSzN3UktiTWRrZGlIQVNDYWw2VlNpVml1eWhKQl9FQkRkUkxES3lmQk96NTNDbVBTUFBqZXpOd3kwVmdrWTlSWXplOGc?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina descarta presencia del roedor que transmite hantavirus tras brote en crucero - El Economista",
+      "t": "2026-06-12T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZGJtN1oxSUQ5R2xIazRlODJtM24zZ0NIdERLYXROcEVQODJrSWxEWlRIUnRidjNnb2VRR2VXQjBYdUE3MVplVmRSaVJPY2h6T1N2Q3l0SFJwVDRfcWptZUJwZE5xbWxuQmFKbFpKTzQwU0pCaWNfY213T2VvVXM0aWdGYTRZRDBIamdQd1EtR1RLMEducGFkRmJiWnA0WGotamo0d3NjYXNjOG0xYjlRMDRZWXFJQlFoNl9MV3NlNktXdTU3NHZUenlQMjd5SmdXc2ZHYkNR0gHbAUFVX3lxTE44clBNcjJ0M050NDlBa005MEJTTDRNb2tHZUVKUlk2ZzBIY3U5Ti1OMFZDSWxiSWd4WXFSMVQtWFl4ekxGSlZGOWJnRi1GNzVtQkdSeUVoeTRXb1FXUUFHZ1BnYjdNYllwUWZLYVJLQTNrODAtZWl6YzdjN3VwVTQwWXVTMjhaTlRUbTU4S0ZZNWV6R2xjOVdsQkdXZThGUDZkdktreG8wT1dCLUl1cTZfeGNWeTA1MFVxUjFEZDlLNDBVSURyMUk5OElMMWRqZHJhSEh2bXc3aUY1UQ?oc=5"
     }
   ],
   "maritime_events": [
@@ -4043,9 +4066,20 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-25T18:45:16Z",
-      "signals": 0,
-      "recent": []
+      "last_update": "2026-06-25T18:50:14Z",
+      "signals": 2,
+      "recent": [
+        {
+          "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
+          "t": "2026-06-22T17:09:00Z",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzFvUTdYMWJhaHIwU0VtNndtM0Ffd1lMbDVMc09IVWE5TTExR0g3c1hUQjNUekhmelFibjBHM2FDaHpndGc4Mm9jR2hsYzZURWhJcGJNZWlQckphSmpCV3FwYWtiX1ZFaHRDc3ZFWW44YW9Yb1VPQmhiN3hyTU5FVVZiajcyRXFjZDBIejZHeGNtSkFnOUJxSWFHd29uaDJPZGxiX1pZX0xJdzR0V1RpNXE3VEMxZHdZX1RISkxmcVF0b1ZtYzVkdVFoZi1LRUsySmdRQjFBaW1mV3NVV1RPUDBKVdIB_gFBVV95cUxPWXZWdDFobXRPU2tSSUVKWGdZaWpKc2ZFbGtBRldyZDV5SkNmZWR5Uk1uWFdmRmEydWRlRkJqV1JNRW9rWWN5aTk3VUdpVmRnVjFEUFRtRFJtcmtMb2RDc2Q2TlZNZ2NfRWcwaEdtQ0RYLXlpQXduWWJqRm1oT3BfS3J4Z3ptU3ZGOXlfTk90SktFTUxXSXJfRmlfRkxTaGtBLTJVTzl2ZGNsRkI5QzctNzU4Zkx6UWgyWEhYUXg3REprYlp5dG41bXdsUVctLWM4a2M1ckZORzFDbGRkV0dBalpkTjhwQkVJUTBtSEtOMEFmRWg5NzVTb2FNNHllZw?oc=5"
+        },
+        {
+          "title": "Argentina descarta presencia del roedor que transmite hantavirus tras brote en crucero - El Economista",
+          "t": "2026-06-12T07:00:00Z",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZGJtN1oxSUQ5R2xIazRlODJtM24zZ0NIdERLYXROcEVQODJrSWxEWlRIUnRidjNnb2VRR2VXQjBYdUE3MVplVmRSaVJPY2h6T1N2Q3l0SFJwVDRfcWptZUJwZE5xbWxuQmFKbFpKTzQwU0pCaWNfY213T2VvVXM0aWdGYTRZRDBIamdQd1EtR1RLMEducGFkRmJiWnA0WGotamo0d3NjYXNjOG0xYjlRMDRZWXFJQlFoNl9MV3NlNktXdTU3NHZUenlQMjd5SmdXc2ZHYkNR0gHbAUFVX3lxTE44clBNcjJ0M050NDlBa005MEJTTDRNb2tHZUVKUlk2ZzBIY3U5Ti1OMFZDSWxiSWd4WXFSMVQtWFl4ekxGSlZGOWJnRi1GNzVtQkdSeUVoeTRXb1FXUUFHZ1BnYjdNYllwUWZLYVJLQTNrODAtZWl6YzdjN3VwVTQwWXVTMjhaTlRUbTU4S0ZZNWV6R2xjOVdsQkdXZThGUDZkdktreG8wT1dCLUl1cTZfeGNWeTA1MFVxUjFEZDlLNDBVSURyMUk5OElMMWRqZHJhSEh2bXc3aUY1UQ?oc=5"
+        }
+      ]
     }
   ]
 }
