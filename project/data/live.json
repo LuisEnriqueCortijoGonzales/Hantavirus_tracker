@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-25T14:05:11.650043Z",
-  "next_update": "2026-06-25T14:10:00Z",
+  "generated": "2026-06-25T14:10:05.600604Z",
+  "next_update": "2026-06-25T14:15:00Z",
   "days_active": 48,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 172,
+      "ytd": 171,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": -7,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      203,
-      200,
-      198,
-      195,
-      193,
-      190,
-      188,
+      202,
+      199,
+      197,
+      194,
+      192,
+      189,
+      187,
       185,
-      183,
-      181,
-      179,
+      182,
+      180,
+      178,
       176,
-      174,
-      172
+      173,
+      171
     ],
     "CHL": [
       77,
@@ -1248,7 +1248,7 @@
       2426,
       2415,
       2404,
-      2394,
+      2393,
       2383,
       2373,
       2363,
@@ -1343,7 +1343,7 @@
       3140,
       3124,
       3109,
-      3094,
+      3093,
       3079,
       3064,
       3050,
@@ -1453,15 +1453,6 @@
   "hourly_history": {
     "ARG": [
       176,
-      176,
-      176,
-      176,
-      176,
-      176,
-      176,
-      176,
-      176,
-      176,
       175,
       175,
       175,
@@ -1473,7 +1464,6 @@
       175,
       175,
       175,
-      174,
       174,
       174,
       174,
@@ -1499,7 +1489,17 @@
       172,
       172,
       172,
-      172
+      172,
+      172,
+      172,
+      172,
+      172,
+      172,
+      172,
+      172,
+      172,
+      171,
+      171
     ],
     "CHL": [
       68,
@@ -4020,7 +4020,7 @@
     "CHE": 1,
     "CAN": 1,
     "USA": 1,
-    "ARG": 3
+    "ARG": 2
   },
   "events": [
     {
@@ -4060,13 +4060,6 @@
     },
     {
       "iso": "ARG",
-      "title": "Nuevo caso de hantavirus en Bariloche: paciente internada en terapia intensiva - Cadena 3 Argentina",
-      "t": "2026-06-22T00:22:32Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeWUtSlgyTDJZcmlMTENLM3F1dVZ5RTl3NmFGekQwS19EaUZpb2FSeTlIOWZZb1hMNVp4SVdTaTl3NVpCbVZ5c2QyQTQ2cUgtV09INTRfVS1CRFdPUXF2T0lhNTBNNXN5Q09FaG0tc1lOY3JVVVROVE4yaklMejJyR2tpREtWM2lwa2kta0VSSklaYVh4dFMxak95MkV5dW9rMkdoR01ESUVyb0tCZkNpRm0zd0RjaVlPSGZsbkc1bXFyck3SAcgBQVVfeXFMTXNpY3BkdF9VQzRINFdsTlNsYXhOeUFlQUlHeWtral9xOWNxV1dTNTlNV1N6V2FHY0FodEw0aXJMeTkzTTNRMWNockwxSjFyTGlvbEdOX0FqVmlhUVBhWjdsRjJHNGNkUWpFRVZKT1puTUZVMERMbV9MVXlVTHlFNE9jbFB4ZUR5NGVkOGtWYVFhcWN3cW15TWtFeW44bEdoa3BVempINi1hZjRrbm03Wi1kMDM0MDZ3NS0tNkpjR0VRMWx3TWFReVU?oc=5"
-    },
-    {
-      "iso": "ARG",
       "title": "Argentina descarta presencia del roedor que transmite hantavirus tras brote en crucero - El Economista",
       "t": "2026-06-12T07:00:00Z",
       "source": "GoogleNews-ES",
@@ -4089,7 +4082,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-25T14:05:11Z",
+      "last_update": "2026-06-25T14:10:05Z",
       "signals": 3,
       "recent": [
         {
