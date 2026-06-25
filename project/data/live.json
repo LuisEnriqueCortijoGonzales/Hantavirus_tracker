@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-25T05:35:09.365986Z",
-  "next_update": "2026-06-25T05:40:00Z",
+  "generated": "2026-06-25T05:40:08.628363Z",
+  "next_update": "2026-06-25T05:45:00Z",
   "days_active": 48,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 170,
+      "ytd": 172,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": -8,
+      "var_pct": -7,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 2,
       "gov_alert": false
     },
     "CHL": {
@@ -74,22 +74,22 @@
       "ytd": 10,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 5,
+      "var_pct": 6,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "USA": {
       "ytd": 35,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": -7,
+      "var_pct": -6,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      201,
+      203,
+      200,
       198,
-      196,
+      195,
       193,
-      191,
+      190,
       188,
-      186,
-      184,
+      185,
+      183,
       181,
       179,
-      177,
-      175,
-      172,
-      170
+      176,
+      174,
+      172
     ],
     "CHL": [
       77,
@@ -683,13 +683,13 @@
       34,
       35,
       35,
-      35,
+      36,
       36,
       36,
       38,
       37,
       37,
-      36,
+      37,
       36,
       36,
       35,
@@ -883,7 +883,7 @@
       426,
       424,
       422,
-      420,
+      419,
       417,
       415
     ],
@@ -1337,7 +1337,7 @@
     ],
     "CHN": [
       3213,
-      3196,
+      3195,
       3179,
       3162,
       3146,
@@ -1452,6 +1452,26 @@
   ],
   "hourly_history": {
     "ARG": [
+      176,
+      176,
+      176,
+      176,
+      176,
+      176,
+      176,
+      176,
+      176,
+      176,
+      175,
+      175,
+      175,
+      175,
+      175,
+      175,
+      175,
+      175,
+      175,
+      175,
       175,
       174,
       174,
@@ -1464,7 +1484,6 @@
       174,
       174,
       174,
-      174,
       173,
       173,
       173,
@@ -1480,26 +1499,7 @@
       172,
       172,
       172,
-      172,
-      172,
-      172,
-      172,
-      172,
-      172,
-      172,
-      171,
-      171,
-      171,
-      171,
-      171,
-      171,
-      171,
-      171,
-      171,
-      171,
-      171,
-      171,
-      170
+      172
     ],
     "CHL": [
       68,
@@ -1813,18 +1813,18 @@
       36,
       36,
       36,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
       35,
       35,
       35,
@@ -4006,7 +4006,7 @@
     "composite": 8,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 13,
+    "kalshi": 12,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.28,
     "continents": [
@@ -4018,7 +4018,10 @@
   "signal_summary": {
     "CAN": 1,
     "CHE": 1,
-    "GBR": 1
+    "GBR": 1,
+    "USA": 1,
+    "ARG": 2,
+    "MEX": 1
   },
   "events": [
     {
@@ -4036,11 +4039,39 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
     },
     {
+      "iso": "MEX",
+      "title": "OMS declarar\u00e1 el fin del brote de hantavirus el 2 de julio, si no hay m\u00e1s contagios - Diario De M\u00e9xico",
+      "t": "2026-06-24T16:19:34Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ1B3NUdoMUlOLVVpOGFLT2dGYWVNS0xWcnN6LVE1dnNkVVB3MUNpOVR2ZnBycmtfRk84eVdTNm1kZ1BZbXpYR2hNRWtHQ19HYTVCNUNZUlhoaTVzV2d4Vjh4MmZWbnN4bmVia2hfald1WmpQZGFHU0toVnVWeDg1akVGYXp5a1E2TzU3c0FpQm83SW4tSnBzM1JjVDlTdzZYLTVFTHB30gGrAUFVX3lxTFAxZTVIVEhHam9LMXJFOUlSZ1hPdHcxblFKeHN5YlNpLXp2d2ZLWjBGTXlFMXF0NWc2dURvUFdlRG9ab1VpOHk2aEJnSWlQUUJzQVBCcFZqY25jWWRwZnMyLWpZN19nV1o2YVpNcDJ5WDFuRUpNXzBldl9pUFZWSmhTczY3MGIzU0xWWTc4UVp6ZlRnX0JBUlc1V1N2Wmw2TXFZSnpqSTJZaVdObw?oc=5"
+    },
+    {
       "iso": "GBR",
       "title": "Hantavirus outbreak \"close to end\", says WHO director-general, after more than 80% of contacts have concluded quarantine - Gamereactor UK",
       "t": "2026-06-23T11:49:13Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPQ0RkNGFVWm5KSmJ0Y1NQVUt0R1lKY1U1MVJPQ0o0eUhuc3NSVVBUZi1Bd01MdmhDZm1HSXFuYlBIcnk5cmkzWnM5Zmc0QXFQQ1RFcVRQRDNHMG96MVVGLWxMS2d6SW5aa3EzNXdMXy1URGpka3VJejlwUlp0d0Y5cnVuYXpzbElsY2hqRTZpSFJodDh2UnRfRVVJQmdhdl91Ukh6VTBsZkU2Yl90NE0wUTllUlZkMGNaRmt4NFhuUkdDZzdmYTMwUF9TVEl3RVZ3VmtqTUN4Zi13WC1JTno5RnF3eHZiQQ?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
+      "t": "2026-06-22T17:09:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzFvUTdYMWJhaHIwU0VtNndtM0Ffd1lMbDVMc09IVWE5TTExR0g3c1hUQjNUekhmelFibjBHM2FDaHpndGc4Mm9jR2hsYzZURWhJcGJNZWlQckphSmpCV3FwYWtiX1ZFaHRDc3ZFWW44YW9Yb1VPQmhiN3hyTU5FVVZiajcyRXFjZDBIejZHeGNtSkFnOUJxSWFHd29uaDJPZGxiX1pZX0xJdzR0V1RpNXE3VEMxZHdZX1RISkxmcVF0b1ZtYzVkdVFoZi1LRUsySmdRQjFBaW1mV3NVV1RPUDBKVdIB_gFBVV95cUxPWXZWdDFobXRPU2tSSUVKWGdZaWpKc2ZFbGtBRldyZDV5SkNmZWR5Uk1uWFdmRmEydWRlRkJqV1JNRW9rWWN5aTk3VUdpVmRnVjFEUFRtRFJtcmtMb2RDc2Q2TlZNZ2NfRWcwaEdtQ0RYLXlpQXduWWJqRm1oT3BfS3J4Z3ptU3ZGOXlfTk90SktFTUxXSXJfRmlfRkxTaGtBLTJVTzl2ZGNsRkI5QzctNzU4Zkx6UWgyWEhYUXg3REprYlp5dG41bXdsUVctLWM4a2M1ckZORzFDbGRkV0dBalpkTjhwQkVJUTBtSEtOMEFmRWg5NzVTb2FNNHllZw?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Confirman otro caso de hantavirus en Argentina y una mujer permanece en terapia intensiva - infodelestero.com",
+      "t": "2026-06-22T11:56:14Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORGFTOThfazJqS1RfM0gwQ1l5dlpUSVM0S0VUUVJFTlNmMFhhT1FHeEk5U2tpR0VpUWxiUmUzRDlfSUFTVFg3aWNfdDdNWXFiYU5NMmFxaVF0dFJGT24tdmdVNDRYQmVHbWRoeUNabWZfSnRYZTBCS1FiOXJiTmtXZTNWSzN3UktiTWRrZGlIQVNDYWw2VlNpVml1eWhKQl9FQkRkUkxES3lmQk96NTNDbVBTUFBqZXpOd3kwVmdrWTlSWXplOGc?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "Argentina descarta presencia del roedor que transmite hantavirus tras brote en crucero - El Economista",
+      "t": "2026-06-12T07:00:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZGJtN1oxSUQ5R2xIazRlODJtM24zZ0NIdERLYXROcEVQODJrSWxEWlRIUnRidjNnb2VRR2VXQjBYdUE3MVplVmRSaVJPY2h6T1N2Q3l0SFJwVDRfcWptZUJwZE5xbWxuQmFKbFpKTzQwU0pCaWNfY213T2VvVXM0aWdGYTRZRDBIamdQd1EtR1RLMEducGFkRmJiWnA0WGotamo0d3NjYXNjOG0xYjlRMDRZWXFJQlFoNl9MV3NlNktXdTU3NHZUenlQMjd5SmdXc2ZHYkNR0gHbAUFVX3lxTE44clBNcjJ0M050NDlBa005MEJTTDRNb2tHZUVKUlk2ZzBIY3U5Ti1OMFZDSWxiSWd4WXFSMVQtWFl4ekxGSlZGOWJnRi1GNzVtQkdSeUVoeTRXb1FXUUFHZ1BnYjdNYllwUWZLYVJLQTNrODAtZWl6YzdjN3VwVTQwWXVTMjhaTlRUbTU4S0ZZNWV6R2xjOVdsQkdXZThGUDZkdktreG8wT1dCLUl1cTZfeGNWeTA1MFVxUjFEZDlLNDBVSURyMUk5OElMMWRqZHJhSEh2bXc3aUY1UQ?oc=5"
     }
   ],
   "maritime_events": [
@@ -4059,13 +4090,23 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-25T05:35:09Z",
-      "signals": 1,
+      "last_update": "2026-06-25T05:40:08Z",
+      "signals": 3,
       "recent": [
         {
           "title": "GENEVA, Switzerland \u2014 The deadly hantavirus outbreak on a cruise ship, which sparked international alarm, should be formally declared over on July 2, the World Health Organization (WHO) announced Wednesday. - LinkedIn",
           "t": "2026-06-24T21:58:18Z",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWXNSZ2swZHJNWmVrMjJEbnhBdVJDSXJZbGNBekdZYW8zS3pObENuN2lNdnJ5NEVHRV85N2hCYXpZQWxtQXN5dWc2dUxQdGw3a2NlTElvR1NKdXNyMU1QM0dQRmFaZ0RhdGI0dm9IaDg3cWVjTnlXLUVFOHZOTTdDYWlXNVR3M29yUks2Yi1aNHlWYVFwaWkzb1A0d05SWEZUVG56YS1yckFEblgwTU1EQkZ1Rl9TV2VUYkNqcnFEbw?oc=5"
+        },
+        {
+          "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
+          "t": "2026-06-22T17:09:00Z",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzFvUTdYMWJhaHIwU0VtNndtM0Ffd1lMbDVMc09IVWE5TTExR0g3c1hUQjNUekhmelFibjBHM2FDaHpndGc4Mm9jR2hsYzZURWhJcGJNZWlQckphSmpCV3FwYWtiX1ZFaHRDc3ZFWW44YW9Yb1VPQmhiN3hyTU5FVVZiajcyRXFjZDBIejZHeGNtSkFnOUJxSWFHd29uaDJPZGxiX1pZX0xJdzR0V1RpNXE3VEMxZHdZX1RISkxmcVF0b1ZtYzVkdVFoZi1LRUsySmdRQjFBaW1mV3NVV1RPUDBKVdIB_gFBVV95cUxPWXZWdDFobXRPU2tSSUVKWGdZaWpKc2ZFbGtBRldyZDV5SkNmZWR5Uk1uWFdmRmEydWRlRkJqV1JNRW9rWWN5aTk3VUdpVmRnVjFEUFRtRFJtcmtMb2RDc2Q2TlZNZ2NfRWcwaEdtQ0RYLXlpQXduWWJqRm1oT3BfS3J4Z3ptU3ZGOXlfTk90SktFTUxXSXJfRmlfRkxTaGtBLTJVTzl2ZGNsRkI5QzctNzU4Zkx6UWgyWEhYUXg3REprYlp5dG41bXdsUVctLWM4a2M1ckZORzFDbGRkV0dBalpkTjhwQkVJUTBtSEtOMEFmRWg5NzVTb2FNNHllZw?oc=5"
+        },
+        {
+          "title": "Argentina descarta presencia del roedor que transmite hantavirus tras brote en crucero - El Economista",
+          "t": "2026-06-12T07:00:00Z",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZGJtN1oxSUQ5R2xIazRlODJtM24zZ0NIdERLYXROcEVQODJrSWxEWlRIUnRidjNnb2VRR2VXQjBYdUE3MVplVmRSaVJPY2h6T1N2Q3l0SFJwVDRfcWptZUJwZE5xbWxuQmFKbFpKTzQwU0pCaWNfY213T2VvVXM0aWdGYTRZRDBIamdQd1EtR1RLMEducGFkRmJiWnA0WGotamo0d3NjYXNjOG0xYjlRMDRZWXFJQlFoNl9MV3NlNktXdTU3NHZUenlQMjd5SmdXc2ZHYkNR0gHbAUFVX3lxTE44clBNcjJ0M050NDlBa005MEJTTDRNb2tHZUVKUlk2ZzBIY3U5Ti1OMFZDSWxiSWd4WXFSMVQtWFl4ekxGSlZGOWJnRi1GNzVtQkdSeUVoeTRXb1FXUUFHZ1BnYjdNYllwUWZLYVJLQTNrODAtZWl6YzdjN3VwVTQwWXVTMjhaTlRUbTU4S0ZZNWV6R2xjOVdsQkdXZThGUDZkdktreG8wT1dCLUl1cTZfeGNWeTA1MFVxUjFEZDlLNDBVSURyMUk5OElMMWRqZHJhSEh2bXc3aUY1UQ?oc=5"
         }
       ]
     }
