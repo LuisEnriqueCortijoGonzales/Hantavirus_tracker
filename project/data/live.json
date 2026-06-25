@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-25T11:05:12.453745Z",
-  "next_update": "2026-06-25T11:10:00Z",
+  "generated": "2026-06-25T11:10:11.741329Z",
+  "next_update": "2026-06-25T11:15:00Z",
   "days_active": 48,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -272,11 +272,11 @@
       "ytd": 25,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 0,
+      "var_pct": -1,
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "CHE": {
@@ -1240,7 +1240,7 @@
       4
     ],
     "RUS": [
-      2486,
+      2485,
       2473,
       2461,
       2450,
@@ -4006,7 +4006,7 @@
     "composite": 9,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 15,
+    "kalshi": 16,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.28,
     "continents": [
@@ -4019,18 +4019,10 @@
     "CAN": 1,
     "CHE": 1,
     "GBR": 1,
-    "FRA": 1,
     "USA": 1,
     "ARG": 2
   },
   "events": [
-    {
-      "iso": "FRA",
-      "title": "El brote de hantavirus deber\u00eda concluir oficialmente el 2 de julio, seg\u00fan la OMS - France 24",
-      "t": "2026-06-25T10:15:19Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMWxCWEFRSVZxRFNRQlBDdWt6U3NnTFhlcUtMZ2J4dVR2cG14VEhFNy1VaWY4QjVEX1J1d2xjZnRtS2dpVG5jd3RsUmZ3X2tCYjJkdmlQUzY3Y2ZwZkE1a3NMSGpRTGhtMHFNU05fbnRXNzVpZTE1Q1J5UFRzVXpXVndWZ0Jqb2F6S2MtWEdUWGdPU2RwUTJVLWM4SnIxT3ltbmVnSTBEcnlGYTdSVHhNTDh4cXM4MTZuLS1XUkhqbGZjWExTTmZfSXlBajh3X0wtcVpzNGJtYlJvdw?oc=5"
-    },
     {
       "iso": "CHE",
       "title": "GENEVA, Switzerland \u2014 The deadly hantavirus outbreak on a cruise ship, which sparked international alarm, should be formally declared over on July 2, the World Health Organization (WHO) announced Wednesday. - LinkedIn",
@@ -4090,7 +4082,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-25T11:05:12Z",
+      "last_update": "2026-06-25T11:10:11Z",
       "signals": 3,
       "recent": [
         {
