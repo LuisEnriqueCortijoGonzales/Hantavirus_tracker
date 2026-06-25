@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-25T22:35:08.611152Z",
-  "next_update": "2026-06-25T22:40:00Z",
+  "generated": "2026-06-25T22:40:13.139409Z",
+  "next_update": "2026-06-25T22:45:00Z",
   "days_active": 48,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -682,11 +682,11 @@
     "USA": [
       35,
       35,
-      36,
+      35,
       36,
       36,
       38,
-      38,
+      37,
       37,
       37,
       36,
@@ -877,7 +877,7 @@
       439,
       436,
       434,
-      432,
+      431,
       429,
       427,
       425,
@@ -1250,7 +1250,7 @@
       2400,
       2390,
       2380,
-      2370,
+      2369,
       2360,
       2350,
       2341
@@ -1336,7 +1336,7 @@
       29
     ],
     "CHN": [
-      3201,
+      3200,
       3183,
       3167,
       3150,
@@ -1808,18 +1808,18 @@
       36,
       36,
       36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
       35,
       35,
       35,
@@ -4017,7 +4017,7 @@
   },
   "signal_summary": {
     "GBR": 1,
-    "USA": 2,
+    "USA": 1,
     "ARG": 2
   },
   "events": [
@@ -4043,13 +4043,6 @@
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORGFTOThfazJqS1RfM0gwQ1l5dlpUSVM0S0VUUVJFTlNmMFhhT1FHeEk5U2tpR0VpUWxiUmUzRDlfSUFTVFg3aWNfdDdNWXFiYU5NMmFxaVF0dFJGT24tdmdVNDRYQmVHbWRoeUNabWZfSnRYZTBCS1FiOXJiTmtXZTNWSzN3UktiTWRrZGlIQVNDYWw2VlNpVml1eWhKQl9FQkRkUkxES3lmQk96NTNDbVBTUFBqZXpOd3kwVmdrWTlSWXplOGc?oc=5"
     },
     {
-      "iso": "USA",
-      "title": "RFK Jr. orders American exposed to hantavirus to stay quarantined against her will - USA Today",
-      "t": "2026-06-17T13:25:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVVhqUmxCUy01VGRRRTVRZjRXMEFZMHpFbGZiUzkwamxiNUVTOVhLVGtVenpIWlpMMWtPVHczMjRldWx1R1lMR2tSRkZQWFRIeDkzcEZPLWpSZ3FmYmZNQ1d5cC1MUXZsTWEtMHR5Yk1PbV9kQmo5ajg1aUx5WmdxeTkxNHpybk1KODVOREJBcEFidVA1MDVoY2tsZFNEdS1sR09CV25IWFdPaS1WUnV1OUI5NEJ4NERqNFEw?oc=5"
-    },
-    {
       "iso": "ARG",
       "title": "Argentina descarta presencia del roedor que transmite hantavirus tras brote en crucero - El Economista",
       "t": "2026-06-12T07:00:00Z",
@@ -4073,7 +4066,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-25T22:35:08Z",
+      "last_update": "2026-06-25T22:40:13Z",
       "signals": 2,
       "recent": [
         {
