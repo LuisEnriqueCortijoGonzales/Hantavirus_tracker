@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-25T13:50:13.989351Z",
-  "next_update": "2026-06-25T13:55:00Z",
+  "generated": "2026-06-25T13:55:07.929618Z",
+  "next_update": "2026-06-25T14:00:00Z",
   "days_active": 48,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -148,14 +148,14 @@
       "gov_alert": false
     },
     "CAN": {
-      "ytd": 3,
+      "ytd": 4,
       "alert": "endemico",
       "cfr": 29.0,
       "var_pct": 6,
       "strain": "hps",
-      "new_today": 0,
-      "r0": 0.0,
-      "signals": 0,
+      "new_today": 1,
+      "r0": 3.5,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -287,7 +287,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "AUT": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -601,7 +601,7 @@
     ],
     "BRA": [
       128,
-      132,
+      133,
       137,
       140,
       144,
@@ -789,7 +789,7 @@
       3,
       3,
       3,
-      3
+      4
     ],
     "GTM": [
       2,
@@ -909,7 +909,7 @@
       321,
       319,
       317,
-      316,
+      315,
       314,
       312,
       311,
@@ -1252,7 +1252,7 @@
       2383,
       2373,
       2363,
-      2354,
+      2353,
       2344
     ],
     "BLR": [
@@ -2139,17 +2139,17 @@
       3,
       3,
       3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
     ],
     "GTM": [
       2,
@@ -4006,9 +4006,9 @@
     "composite": 8,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 14,
+    "kalshi": 12,
     "max_andes_r0": 0.0,
-    "avg_other_r0": 0.21,
+    "avg_other_r0": 0.28,
     "continents": [
       "Americas"
     ],
@@ -4016,10 +4016,34 @@
     "outbreak_count": 4
   },
   "signal_summary": {
+    "GBR": 1,
+    "CAN": 1,
+    "CHE": 1,
     "USA": 1,
     "ARG": 3
   },
   "events": [
+    {
+      "iso": "CHE",
+      "title": "GENEVA, Switzerland \u2014 The deadly hantavirus outbreak on a cruise ship, which sparked international alarm, should be formally declared over on July 2, the World Health Organization (WHO) announced Wednesday. - LinkedIn",
+      "t": "2026-06-24T21:58:18Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWXNSZ2swZHJNWmVrMjJEbnhBdVJDSXJZbGNBekdZYW8zS3pObENuN2lNdnJ5NEVHRV85N2hCYXpZQWxtQXN5dWc2dUxQdGw3a2NlTElvR1NKdXNyMU1QM0dQRmFaZ0RhdGI0dm9IaDg3cWVjTnlXLUVFOHZOTTdDYWlXNVR3M29yUks2Yi1aNHlWYVFwaWkzb1A0d05SWEZUVG56YS1yckFEblgwTU1EQkZ1Rl9TV2VUYkNqcnFEbw?oc=5"
+    },
+    {
+      "iso": "CAN",
+      "title": "Hantavirus self-isolation complete for 34 Canadians, Health Canada says - National - Global News",
+      "t": "2026-06-24T18:06:54Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "Hantavirus outbreak \"close to end\", says WHO director-general, after more than 80% of contacts have concluded quarantine - Gamereactor UK",
+      "t": "2026-06-23T11:49:13Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPQ0RkNGFVWm5KSmJ0Y1NQVUt0R1lKY1U1MVJPQ0o0eUhuc3NSVVBUZi1Bd01MdmhDZm1HSXFuYlBIcnk5cmkzWnM5Zmc0QXFQQ1RFcVRQRDNHMG96MVVGLWxMS2d6SW5aa3EzNXdMXy1URGpka3VJejlwUlp0d0Y5cnVuYXpzbElsY2hqRTZpSFJodDh2UnRfRVVJQmdhdl91Ukh6VTBsZkU2Yl90NE0wUTllUlZkMGNaRmt4NFhuUkdDZzdmYTMwUF9TVEl3RVZ3VmtqTUN4Zi13WC1JTno5RnF3eHZiQQ?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
@@ -4065,9 +4089,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-25T13:50:13Z",
-      "signals": 2,
+      "last_update": "2026-06-25T13:55:07Z",
+      "signals": 3,
       "recent": [
+        {
+          "title": "GENEVA, Switzerland \u2014 The deadly hantavirus outbreak on a cruise ship, which sparked international alarm, should be formally declared over on July 2, the World Health Organization (WHO) announced Wednesday. - LinkedIn",
+          "t": "2026-06-24T21:58:18Z",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWXNSZ2swZHJNWmVrMjJEbnhBdVJDSXJZbGNBekdZYW8zS3pObENuN2lNdnJ5NEVHRV85N2hCYXpZQWxtQXN5dWc2dUxQdGw3a2NlTElvR1NKdXNyMU1QM0dQRmFaZ0RhdGI0dm9IaDg3cWVjTnlXLUVFOHZOTTdDYWlXNVR3M29yUks2Yi1aNHlWYVFwaWkzb1A0d05SWEZUVG56YS1yckFEblgwTU1EQkZ1Rl9TV2VUYkNqcnFEbw?oc=5"
+        },
         {
           "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
           "t": "2026-06-22T17:09:00Z",
