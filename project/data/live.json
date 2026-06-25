@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-25T06:55:13.179514Z",
-  "next_update": "2026-06-25T07:00:00Z",
+  "generated": "2026-06-25T07:00:07.164165Z",
+  "next_update": "2026-06-25T07:05:00Z",
   "days_active": 48,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -74,11 +74,11 @@
       "ytd": 10,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 6,
+      "var_pct": 5,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "USA": {
@@ -1242,7 +1242,7 @@
     "RUS": [
       2488,
       2475,
-      2464,
+      2463,
       2452,
       2440,
       2429,
@@ -1401,7 +1401,6 @@
     "2026-06-25T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-23T07:00:00Z",
     "2026-06-23T08:00:00Z",
     "2026-06-23T09:00:00Z",
     "2026-06-23T10:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-06-25T03:00:00Z",
     "2026-06-25T04:00:00Z",
     "2026-06-25T05:00:00Z",
-    "2026-06-25T06:00:00Z"
+    "2026-06-25T06:00:00Z",
+    "2026-06-25T07:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -1460,7 +1460,6 @@
       176,
       176,
       176,
-      176,
       175,
       175,
       175,
@@ -1494,6 +1493,7 @@
       173,
       173,
       173,
+      172,
       172,
       172,
       172,
@@ -1512,7 +1512,6 @@
       68,
       68,
       68,
-      68,
       67,
       67,
       67,
@@ -1546,6 +1545,7 @@
       67,
       67,
       67,
+      66,
       66,
       66,
       66,
@@ -1562,7 +1562,6 @@
       159,
       159,
       159,
-      159,
       160,
       160,
       160,
@@ -1582,6 +1581,7 @@
       160,
       160,
       160,
+      161,
       161,
       161,
       161,
@@ -1823,7 +1823,7 @@
       36,
       36,
       36,
-      36,
+      35,
       35,
       35,
       35,
@@ -1906,7 +1906,7 @@
       5,
       5,
       5,
-      5,
+      6,
       6,
       6,
       6,
@@ -2145,7 +2145,7 @@
       3,
       3,
       3,
-      3,
+      4,
       4,
       4,
       4,
@@ -2411,7 +2411,6 @@
       419,
       419,
       419,
-      419,
       418,
       418,
       418,
@@ -2447,6 +2446,7 @@
       416,
       416,
       416,
+      415,
       415,
       415,
       415
@@ -2456,7 +2456,6 @@
       180,
       180,
       180,
-      180,
       179,
       179,
       179,
@@ -2492,6 +2491,7 @@
       179,
       179,
       179,
+      178,
       178,
       178,
       178,
@@ -2505,7 +2505,6 @@
       307,
       307,
       307,
-      307,
       306,
       306,
       306,
@@ -2539,6 +2538,7 @@
       305,
       305,
       305,
+      304,
       304,
       304,
       304,
@@ -2635,7 +2635,7 @@
       77,
       77,
       77,
-      77,
+      76,
       76,
       76,
       76,
@@ -3553,7 +3553,6 @@
     ],
     "RUS": [
       2366,
-      2366,
       2365,
       2365,
       2364,
@@ -3598,6 +3597,7 @@
       2349,
       2348,
       2348,
+      2347,
       2347,
       2347
     ],
@@ -3852,7 +3852,6 @@
       29
     ],
     "CHN": [
-      3040,
       3039,
       3039,
       3038,
@@ -3899,7 +3898,8 @@
       3015,
       3014,
       3014,
-      3013
+      3013,
+      3012
     ],
     "KOR": [
       107,
@@ -3909,7 +3909,7 @@
       107,
       107,
       107,
-      107,
+      106,
       106,
       106,
       106,
@@ -4006,7 +4006,7 @@
     "composite": 8,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 13,
+    "kalshi": 12,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.28,
     "continents": [
@@ -4020,8 +4020,7 @@
     "CHE": 1,
     "GBR": 1,
     "USA": 1,
-    "ARG": 2,
-    "MEX": 1
+    "ARG": 2
   },
   "events": [
     {
@@ -4037,13 +4036,6 @@
       "t": "2026-06-24T18:06:54Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
-    },
-    {
-      "iso": "MEX",
-      "title": "OMS declarar\u00e1 el fin del brote de hantavirus el 2 de julio, si no hay m\u00e1s contagios - Diario De M\u00e9xico",
-      "t": "2026-06-24T16:19:34Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ1B3NUdoMUlOLVVpOGFLT2dGYWVNS0xWcnN6LVE1dnNkVVB3MUNpOVR2ZnBycmtfRk84eVdTNm1kZ1BZbXpYR2hNRWtHQ19HYTVCNUNZUlhoaTVzV2d4Vjh4MmZWbnN4bmVia2hfald1WmpQZGFHU0toVnVWeDg1akVGYXp5a1E2TzU3c0FpQm83SW4tSnBzM1JjVDlTdzZYLTVFTHB30gGrAUFVX3lxTFAxZTVIVEhHam9LMXJFOUlSZ1hPdHcxblFKeHN5YlNpLXp2d2ZLWjBGTXlFMXF0NWc2dURvUFdlRG9ab1VpOHk2aEJnSWlQUUJzQVBCcFZqY25jWWRwZnMyLWpZN19nV1o2YVpNcDJ5WDFuRUpNXzBldl9pUFZWSmhTczY3MGIzU0xWWTc4UVp6ZlRnX0JBUlc1V1N2Wmw2TXFZSnpqSTJZaVdObw?oc=5"
     },
     {
       "iso": "GBR",
@@ -4090,7 +4082,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-25T06:55:13Z",
+      "last_update": "2026-06-25T07:00:07Z",
       "signals": 3,
       "recent": [
         {
