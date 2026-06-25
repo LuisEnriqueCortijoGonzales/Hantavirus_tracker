@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-25T23:50:18.369632Z",
-  "next_update": "2026-06-25T23:55:00Z",
+  "generated": "2026-06-25T23:55:17.634867Z",
+  "next_update": "2026-06-26T00:00:00Z",
   "days_active": 48,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -1252,7 +1252,7 @@
       2379,
       2369,
       2359,
-      2350,
+      2349,
       2340
     ],
     "BLR": [
@@ -1342,7 +1342,7 @@
       3150,
       3134,
       3118,
-      3103,
+      3102,
       3087,
       3073,
       3058,
@@ -4006,7 +4006,7 @@
     "composite": 8,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 12,
+    "kalshi": 14,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.21,
     "continents": [
@@ -4016,10 +4016,18 @@
     "outbreak_count": 4
   },
   "signal_summary": {
+    "GBR": 1,
     "USA": 1,
     "ARG": 2
   },
   "events": [
+    {
+      "iso": "GBR",
+      "title": "Hantavirus outbreak \"close to end\", says WHO director-general, after more than 80% of contacts have concluded quarantine - Gamereactor UK",
+      "t": "2026-06-23T11:49:13Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPQ0RkNGFVWm5KSmJ0Y1NQVUt0R1lKY1U1MVJPQ0o0eUhuc3NSVVBUZi1Bd01MdmhDZm1HSXFuYlBIcnk5cmkzWnM5Zmc0QXFQQ1RFcVRQRDNHMG96MVVGLWxMS2d6SW5aa3EzNXdMXy1URGpka3VJejlwUlp0d0Y5cnVuYXpzbElsY2hqRTZpSFJodDh2UnRfRVVJQmdhdl91Ukh6VTBsZkU2Yl90NE0wUTllUlZkMGNaRmt4NFhuUkdDZzdmYTMwUF9TVEl3RVZ3VmtqTUN4Zi13WC1JTno5RnF3eHZiQQ?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
@@ -4058,7 +4066,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-25T23:50:18Z",
+      "last_update": "2026-06-25T23:55:17Z",
       "signals": 2,
       "recent": [
         {
