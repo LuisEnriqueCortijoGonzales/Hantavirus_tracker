@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-25T00:05:06.372645Z",
-  "next_update": "2026-06-25T00:10:00Z",
+  "generated": "2026-06-25T00:10:16.155451Z",
+  "next_update": "2026-06-25T00:15:00Z",
   "days_active": 48,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -151,11 +151,11 @@
       "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 6,
+      "var_pct": 7,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -287,7 +287,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "AUT": {
@@ -364,7 +364,7 @@
       "strain": "puumala",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GRC": {
@@ -1345,7 +1345,7 @@
       3118,
       3102,
       3087,
-      3073,
+      3072,
       3058,
       3044,
       3030,
@@ -4006,7 +4006,7 @@
     "composite": 20,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 25,
+    "kalshi": 26,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.21,
     "continents": [
@@ -4016,10 +4016,34 @@
     "outbreak_count": 4
   },
   "signal_summary": {
+    "CAN": 1,
+    "CHE": 1,
+    "GBR": 1,
     "USA": 1,
     "ARG": 2
   },
   "events": [
+    {
+      "iso": "CHE",
+      "title": "GENEVA, Switzerland \u2014 The deadly hantavirus outbreak on a cruise ship, which sparked international alarm, should be formally declared over on July 2, the World Health Organization (WHO) announced Wednesday. - LinkedIn",
+      "t": "2026-06-24T21:58:18Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWXNSZ2swZHJNWmVrMjJEbnhBdVJDSXJZbGNBekdZYW8zS3pObENuN2lNdnJ5NEVHRV85N2hCYXpZQWxtQXN5dWc2dUxQdGw3a2NlTElvR1NKdXNyMU1QM0dQRmFaZ0RhdGI0dm9IaDg3cWVjTnlXLUVFOHZOTTdDYWlXNVR3M29yUks2Yi1aNHlWYVFwaWkzb1A0d05SWEZUVG56YS1yckFEblgwTU1EQkZ1Rl9TV2VUYkNqcnFEbw?oc=5"
+    },
+    {
+      "iso": "CAN",
+      "title": "Hantavirus self-isolation complete for 34 Canadians, Health Canada says - National - Global News",
+      "t": "2026-06-24T18:06:54Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
+    },
+    {
+      "iso": "GBR",
+      "title": "Hantavirus outbreak \"close to end\", says WHO director-general, after more than 80% of contacts have concluded quarantine - Gamereactor UK",
+      "t": "2026-06-23T11:49:13Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPQ0RkNGFVWm5KSmJ0Y1NQVUt0R1lKY1U1MVJPQ0o0eUhuc3NSVVBUZi1Bd01MdmhDZm1HSXFuYlBIcnk5cmkzWnM5Zmc0QXFQQ1RFcVRQRDNHMG96MVVGLWxMS2d6SW5aa3EzNXdMXy1URGpka3VJejlwUlp0d0Y5cnVuYXpzbElsY2hqRTZpSFJodDh2UnRfRVVJQmdhdl91Ukh6VTBsZkU2Yl90NE0wUTllUlZkMGNaRmt4NFhuUkdDZzdmYTMwUF9TVEl3RVZ3VmtqTUN4Zi13WC1JTno5RnF3eHZiQQ?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
@@ -4058,9 +4082,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-25T00:05:06Z",
-      "signals": 1,
+      "last_update": "2026-06-25T00:10:16Z",
+      "signals": 2,
       "recent": [
+        {
+          "title": "GENEVA, Switzerland \u2014 The deadly hantavirus outbreak on a cruise ship, which sparked international alarm, should be formally declared over on July 2, the World Health Organization (WHO) announced Wednesday. - LinkedIn",
+          "t": "2026-06-24T21:58:18Z",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWXNSZ2swZHJNWmVrMjJEbnhBdVJDSXJZbGNBekdZYW8zS3pObENuN2lNdnJ5NEVHRV85N2hCYXpZQWxtQXN5dWc2dUxQdGw3a2NlTElvR1NKdXNyMU1QM0dQRmFaZ0RhdGI0dm9IaDg3cWVjTnlXLUVFOHZOTTdDYWlXNVR3M29yUks2Yi1aNHlWYVFwaWkzb1A0d05SWEZUVG56YS1yckFEblgwTU1EQkZ1Rl9TV2VUYkNqcnFEbw?oc=5"
+        },
         {
           "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
           "t": "2026-06-22T17:09:00Z",
