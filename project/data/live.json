@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-25T02:00:04.892182Z",
-  "next_update": "2026-06-25T02:05:00Z",
+  "generated": "2026-06-25T02:05:04.152244Z",
+  "next_update": "2026-06-25T02:10:00Z",
   "days_active": 48,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -148,14 +148,14 @@
       "gov_alert": false
     },
     "CAN": {
-      "ytd": 4,
+      "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
       "var_pct": 7,
       "strain": "hps",
-      "new_today": 1,
-      "r0": 3.5,
-      "signals": 2,
+      "new_today": 0,
+      "r0": 0.0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -789,7 +789,7 @@
       3,
       3,
       3,
-      4
+      3
     ],
     "GTM": [
       2,
@@ -1342,7 +1342,7 @@
       3164,
       3148,
       3132,
-      3117,
+      3116,
       3101,
       3086,
       3071,
@@ -2127,29 +2127,29 @@
       3,
       3,
       3,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
     ],
     "GTM": [
       2,
@@ -4008,7 +4008,7 @@
     "polymarket": 4,
     "kalshi": 12,
     "max_andes_r0": 0.0,
-    "avg_other_r0": 0.28,
+    "avg_other_r0": 0.21,
     "continents": [
       "Americas"
     ],
@@ -4016,7 +4016,7 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "CAN": 2,
+    "CAN": 1,
     "CHE": 1,
     "GBR": 1,
     "USA": 1,
@@ -4037,13 +4037,6 @@
       "t": "2026-06-24T21:58:18Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWXNSZ2swZHJNWmVrMjJEbnhBdVJDSXJZbGNBekdZYW8zS3pObENuN2lNdnJ5NEVHRV85N2hCYXpZQWxtQXN5dWc2dUxQdGw3a2NlTElvR1NKdXNyMU1QM0dQRmFaZ0RhdGI0dm9IaDg3cWVjTnlXLUVFOHZOTTdDYWlXNVR3M29yUks2Yi1aNHlWYVFwaWkzb1A0d05SWEZUVG56YS1yckFEblgwTU1EQkZ1Rl9TV2VUYkNqcnFEbw?oc=5"
-    },
-    {
-      "iso": "CAN",
-      "title": "US ends its hantavirus response as quarantines expire and threat wanes - Yahoo News Canada",
-      "t": "2026-06-24T18:23:44Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMDlvck9sZURmaS1nWmQtMjhmdF9aZU14Wm56MXdwMG1GejlhZ2NMWDE1c1ZzSERFUlFqVGJuQ0wwMmdXMUhVV2pDRjdMNnRPY3ExeFBRaW9reUFZWmlwcFRZTUZzeXFXMjEzVm9qMG1vZ1d2RmpvdGdlVmI4TmlnRHJkc054YVE?oc=5"
     },
     {
       "iso": "CAN",
@@ -4090,7 +4083,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-25T02:00:04Z",
+      "last_update": "2026-06-25T02:05:04Z",
       "signals": 2,
       "recent": [
         {
