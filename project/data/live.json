@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-25T00:40:11.656143Z",
-  "next_update": "2026-06-25T00:45:00Z",
+  "generated": "2026-06-25T00:45:05.671966Z",
+  "next_update": "2026-06-25T00:50:00Z",
   "days_active": 48,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 173,
+      "ytd": 172,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": -7,
+      "var_pct": -8,
       "strain": "andes",
       "new_today": 0,
-      "r0": 3.5,
-      "signals": 2,
+      "r0": 0.0,
+      "signals": 1,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      204,
-      201,
-      198,
-      196,
-      193,
-      191,
-      188,
-      186,
-      184,
-      181,
-      179,
-      177,
-      175,
-      173
+      203,
+      200,
+      197,
+      195,
+      192,
+      190,
+      187,
+      185,
+      183,
+      180,
+      178,
+      176,
+      174,
+      172
     ],
     "CHL": [
       77,
@@ -641,7 +641,7 @@
       14,
       14,
       14,
-      14,
+      15,
       15,
       15,
       15,
@@ -872,7 +872,7 @@
       1
     ],
     "FIN": [
-      447,
+      446,
       444,
       441,
       439,
@@ -1452,16 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      177,
-      177,
-      177,
-      176,
-      176,
-      176,
-      176,
-      176,
-      176,
-      176,
       176,
       176,
       176,
@@ -1499,7 +1489,17 @@
       173,
       173,
       173,
-      173
+      173,
+      173,
+      172,
+      172,
+      172,
+      172,
+      172,
+      172,
+      172,
+      172,
+      172
     ],
     "CHL": [
       68,
@@ -4003,11 +4003,11 @@
     ]
   },
   "pandemic": {
-    "composite": 20,
-    "epidemio": 26,
+    "composite": 9,
+    "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 25,
-    "max_andes_r0": 3.5,
+    "kalshi": 15,
+    "max_andes_r0": 0.0,
     "avg_other_r0": 0.21,
     "continents": [
       "Americas"
@@ -4021,7 +4021,7 @@
     "GBR": 1,
     "USA": 1,
     "PRY": 1,
-    "ARG": 2
+    "ARG": 1
   },
   "events": [
     {
@@ -4065,13 +4065,6 @@
       "t": "2026-06-22T11:56:14Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORGFTOThfazJqS1RfM0gwQ1l5dlpUSVM0S0VUUVJFTlNmMFhhT1FHeEk5U2tpR0VpUWxiUmUzRDlfSUFTVFg3aWNfdDdNWXFiYU5NMmFxaVF0dFJGT24tdmdVNDRYQmVHbWRoeUNabWZfSnRYZTBCS1FiOXJiTmtXZTNWSzN3UktiTWRrZGlIQVNDYWw2VlNpVml1eWhKQl9FQkRkUkxES3lmQk96NTNDbVBTUFBqZXpOd3kwVmdrWTlSWXplOGc?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Nuevo caso de hantavirus en Bariloche: paciente internada en terapia intensiva - Cadena 3 Argentina",
-      "t": "2026-06-22T00:22:32Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeWUtSlgyTDJZcmlMTENLM3F1dVZ5RTl3NmFGekQwS19EaUZpb2FSeTlIOWZZb1hMNVp4SVdTaTl3NVpCbVZ5c2QyQTQ2cUgtV09INTRfVS1CRFdPUXF2T0lhNTBNNXN5Q09FaG0tc1lOY3JVVVROVE4yaklMejJyR2tpREtWM2lwa2kta0VSSklaYVh4dFMxak95MkV5dW9rMkdoR01ESUVyb0tCZkNpRm0zd0RjaVlPSGZsbkc1bXFyck3SAcgBQVVfeXFMTXNpY3BkdF9VQzRINFdsTlNsYXhOeUFlQUlHeWtral9xOWNxV1dTNTlNV1N6V2FHY0FodEw0aXJMeTkzTTNRMWNockwxSjFyTGlvbEdOX0FqVmlhUVBhWjdsRjJHNGNkUWpFRVZKT1puTUZVMERMbV9MVXlVTHlFNE9jbFB4ZUR5NGVkOGtWYVFhcWN3cW15TWtFeW44bEdoa3BVempINi1hZjRrbm03Wi1kMDM0MDZ3NS0tNkpjR0VRMWx3TWFReVU?oc=5"
     }
   ],
   "maritime_events": [
@@ -4090,7 +4083,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-25T00:40:11Z",
+      "last_update": "2026-06-25T00:45:05Z",
       "signals": 2,
       "recent": [
         {
