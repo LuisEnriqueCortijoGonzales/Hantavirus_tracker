@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-25T14:45:10.924908Z",
-  "next_update": "2026-06-25T14:50:00Z",
+  "generated": "2026-06-25T14:50:14.256139Z",
+  "next_update": "2026-06-25T14:55:00Z",
   "days_active": 48,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -148,14 +148,14 @@
       "gov_alert": false
     },
     "CAN": {
-      "ytd": 4,
+      "ytd": 3,
       "alert": "endemico",
       "cfr": 29.0,
       "var_pct": 6,
       "strain": "hps",
-      "new_today": 1,
-      "r0": 3.5,
-      "signals": 1,
+      "new_today": 0,
+      "r0": 0.0,
+      "signals": 0,
       "gov_alert": false
     },
     "GTM": {
@@ -214,7 +214,7 @@
       "gov_alert": false
     },
     "FIN": {
-      "ytd": 415,
+      "ytd": 414,
       "alert": "vigilancia",
       "cfr": 0.1,
       "var_pct": -4,
@@ -789,7 +789,7 @@
       3,
       3,
       3,
-      4
+      3
     ],
     "GTM": [
       2,
@@ -885,7 +885,7 @@
       421,
       419,
       417,
-      415
+      414
     ],
     "SWE": [
       188,
@@ -1105,7 +1105,7 @@
       7,
       7,
       7,
-      7,
+      6,
       6,
       6,
       6,
@@ -1116,7 +1116,7 @@
       43,
       43,
       43,
-      43,
+      42,
       42,
       42,
       42,
@@ -1276,7 +1276,7 @@
       20,
       20,
       20,
-      20,
+      19,
       19,
       19,
       19,
@@ -1348,7 +1348,7 @@
       3064,
       3049,
       3035,
-      3022,
+      3021,
       3008
     ],
     "KOR": [
@@ -2138,18 +2138,18 @@
       3,
       3,
       3,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      4
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
     ],
     "GTM": [
       2,
@@ -4006,9 +4006,9 @@
     "composite": 8,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 13,
+    "kalshi": 12,
     "max_andes_r0": 0.0,
-    "avg_other_r0": 0.28,
+    "avg_other_r0": 0.21,
     "continents": [
       "Americas"
     ],
@@ -4018,7 +4018,6 @@
   "signal_summary": {
     "GBR": 1,
     "CHE": 1,
-    "CAN": 1,
     "USA": 1,
     "ARG": 1
   },
@@ -4029,13 +4028,6 @@
       "t": "2026-06-24T21:58:18Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWXNSZ2swZHJNWmVrMjJEbnhBdVJDSXJZbGNBekdZYW8zS3pObENuN2lNdnJ5NEVHRV85N2hCYXpZQWxtQXN5dWc2dUxQdGw3a2NlTElvR1NKdXNyMU1QM0dQRmFaZ0RhdGI0dm9IaDg3cWVjTnlXLUVFOHZOTTdDYWlXNVR3M29yUks2Yi1aNHlWYVFwaWkzb1A0d05SWEZUVG56YS1yckFEblgwTU1EQkZ1Rl9TV2VUYkNqcnFEbw?oc=5"
-    },
-    {
-      "iso": "CAN",
-      "title": "Hantavirus self-isolation complete for 34 Canadians, Health Canada says - National - Global News",
-      "t": "2026-06-24T18:06:54Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
     },
     {
       "iso": "GBR",
@@ -4075,7 +4067,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-25T14:45:10Z",
+      "last_update": "2026-06-25T14:50:14Z",
       "signals": 2,
       "recent": [
         {
