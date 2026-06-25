@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-25T00:25:08.625681Z",
-  "next_update": "2026-06-25T00:30:00Z",
+  "generated": "2026-06-25T00:30:02.612662Z",
+  "next_update": "2026-06-25T00:35:00Z",
   "days_active": 48,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -100,7 +100,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "URY": {
@@ -705,7 +705,7 @@
       8,
       8,
       8,
-      8,
+      9,
       9,
       9,
       9,
@@ -1336,13 +1336,13 @@
       29
     ],
     "CHN": [
-      3217,
+      3216,
       3199,
       3182,
-      3166,
+      3165,
       3149,
       3133,
-      3118,
+      3117,
       3102,
       3087,
       3072,
@@ -4006,7 +4006,7 @@
     "composite": 21,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 29,
+    "kalshi": 28,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.21,
     "continents": [
@@ -4020,9 +4020,17 @@
     "CHE": 1,
     "GBR": 1,
     "USA": 1,
+    "PRY": 1,
     "ARG": 2
   },
   "events": [
+    {
+      "iso": "PRY",
+      "title": "Brote de hantavirus deber\u00eda concluir oficialmente el 2 de julio, seg\u00fan OMS - Diario HOY \u2013 En Paraguay y el Mundo",
+      "t": "2026-06-25T00:22:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZnVkdmMzRzZROXBDYzl4N0xGdjdlTy1uSjFhU0ZRZFlWd0lyNkU0RWlTTWJzaW9qQnZWWHJQandFTklqNER2QWZjbk95d1NENnZEYmFvWnFQMVR3WHR0VklsdEdpUUk4UF9XUUVKckhEVmNXd0p5SmxtdDkwZ0hfX3g0UlhiZ1RfT2Q1d1R3TmNNQkF6Umd1OEJVOGRlWDgybEItRW5CQTc0TFBkZVFvQkpOOA?oc=5"
+    },
     {
       "iso": "CHE",
       "title": "GENEVA, Switzerland \u2014 The deadly hantavirus outbreak on a cruise ship, which sparked international alarm, should be formally declared over on July 2, the World Health Organization (WHO) announced Wednesday. - LinkedIn",
@@ -4082,7 +4090,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-25T00:25:08Z",
+      "last_update": "2026-06-25T00:30:02Z",
       "signals": 2,
       "recent": [
         {
