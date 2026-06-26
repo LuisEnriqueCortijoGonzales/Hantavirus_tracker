@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-26T14:55:08.625915Z",
-  "next_update": "2026-06-26T15:00:00Z",
+  "generated": "2026-06-26T15:00:02.625361Z",
+  "next_update": "2026-06-26T15:05:00Z",
   "days_active": 49,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 35,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": -5,
+      "var_pct": -6,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -681,12 +681,12 @@
     ],
     "USA": [
       35,
-      36,
+      35,
       36,
       36,
       38,
       38,
-      38,
+      37,
       37,
       37,
       36,
@@ -1339,12 +1339,12 @@
       3189,
       3172,
       3156,
-      3140,
+      3139,
       3124,
       3108,
       3093,
       3078,
-      3064,
+      3063,
       3049,
       3035,
       3021,
@@ -1362,7 +1362,7 @@
       108,
       107,
       107,
-      107,
+      106,
       106,
       106,
       105
@@ -1401,7 +1401,6 @@
     "2026-06-26T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-24T15:00:00Z",
     "2026-06-24T16:00:00Z",
     "2026-06-24T17:00:00Z",
     "2026-06-24T18:00:00Z",
@@ -1448,12 +1447,12 @@
     "2026-06-26T11:00:00Z",
     "2026-06-26T12:00:00Z",
     "2026-06-26T13:00:00Z",
-    "2026-06-26T14:00:00Z"
+    "2026-06-26T14:00:00Z",
+    "2026-06-26T15:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
       172,
-      172,
       171,
       171,
       171,
@@ -1489,6 +1488,7 @@
       169,
       169,
       169,
+      168,
       168,
       168,
       168,
@@ -1502,7 +1502,6 @@
       168
     ],
     "CHL": [
-      67,
       67,
       67,
       67,
@@ -1549,6 +1548,7 @@
       66,
       66,
       65,
+      65,
       65
     ],
     "BRA": [
@@ -1570,7 +1570,6 @@
       161,
       161,
       161,
-      161,
       162,
       162,
       162,
@@ -1594,6 +1593,7 @@
       162,
       162,
       162,
+      163,
       163,
       163,
       163,
@@ -1803,19 +1803,19 @@
     ],
     "USA": [
       36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
-      36,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
       35,
       35,
       35,
@@ -2113,7 +2113,7 @@
       3,
       3,
       3,
-      3,
+      4,
       4,
       4,
       4,
@@ -2402,7 +2402,6 @@
       1
     ],
     "FIN": [
-      417,
       416,
       416,
       416,
@@ -2449,7 +2448,8 @@
       413,
       413,
       413,
-      413
+      413,
+      412
     ],
     "SWE": [
       179,
@@ -2459,7 +2459,6 @@
       179,
       179,
       179,
-      179,
       178,
       178,
       178,
@@ -2497,6 +2496,7 @@
       178,
       178,
       178,
+      177,
       177,
       177,
       177
@@ -2506,7 +2506,6 @@
       305,
       305,
       305,
-      305,
       304,
       304,
       304,
@@ -2542,6 +2541,7 @@
       303,
       303,
       303,
+      302,
       302,
       302,
       302,
@@ -2576,7 +2576,7 @@
       54,
       54,
       54,
-      54,
+      53,
       53,
       53,
       53,
@@ -2603,7 +2603,7 @@
     ],
     "NOR": [
       77,
-      77,
+      76,
       76,
       76,
       76,
@@ -3553,7 +3553,6 @@
     ],
     "RUS": [
       2353,
-      2353,
       2352,
       2352,
       2351,
@@ -3599,7 +3598,8 @@
       2336,
       2335,
       2335,
-      2335
+      2335,
+      2334
     ],
     "BLR": [
       36,
@@ -3853,7 +3853,6 @@
     ],
     "CHN": [
       3021,
-      3021,
       3020,
       3020,
       3019,
@@ -3899,6 +3898,7 @@
       2997,
       2996,
       2996,
+      2995,
       2995
     ],
     "KOR": [
@@ -3948,7 +3948,7 @@
       106,
       106,
       106,
-      106,
+      105,
       105
     ],
     "JPN": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 8,
+    "composite": 9,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 14,
+    "kalshi": 15,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.27,
     "continents": [
@@ -4016,7 +4016,7 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "USA": 3,
+    "USA": 2,
     "CAN": 1
   },
   "events": [
@@ -4040,13 +4040,6 @@
       "t": "2026-06-22T17:09:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzFvUTdYMWJhaHIwU0VtNndtM0Ffd1lMbDVMc09IVWE5TTExR0g3c1hUQjNUekhmelFibjBHM2FDaHpndGc4Mm9jR2hsYzZURWhJcGJNZWlQckphSmpCV3FwYWtiX1ZFaHRDc3ZFWW44YW9Yb1VPQmhiN3hyTU5FVVZiajcyRXFjZDBIejZHeGNtSkFnOUJxSWFHd29uaDJPZGxiX1pZX0xJdzR0V1RpNXE3VEMxZHdZX1RISkxmcVF0b1ZtYzVkdVFoZi1LRUsySmdRQjFBaW1mV3NVV1RPUDBKVdIB_gFBVV95cUxPWXZWdDFobXRPU2tSSUVKWGdZaWpKc2ZFbGtBRldyZDV5SkNmZWR5Uk1uWFdmRmEydWRlRkJqV1JNRW9rWWN5aTk3VUdpVmRnVjFEUFRtRFJtcmtMb2RDc2Q2TlZNZ2NfRWcwaEdtQ0RYLXlpQXduWWJqRm1oT3BfS3J4Z3ptU3ZGOXlfTk90SktFTUxXSXJfRmlfRkxTaGtBLTJVTzl2ZGNsRkI5QzctNzU4Zkx6UWgyWEhYUXg3REprYlp5dG41bXdsUVctLWM4a2M1ckZORzFDbGRkV0dBalpkTjhwQkVJUTBtSEtOMEFmRWg5NzVTb2FNNHllZw?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "RFK Jr. orders American exposed to hantavirus to stay quarantined against her will - USA Today",
-      "t": "2026-06-17T07:00:00Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVVhqUmxCUy01VGRRRTVRZjRXMEFZMHpFbGZiUzkwamxiNUVTOVhLVGtVenpIWlpMMWtPVHczMjRldWx1R1lMR2tSRkZQWFRIeDkzcEZPLWpSZ3FmYmZNQ1d5cC1MUXZsTWEtMHR5Yk1PbV9kQmo5ajg1aUx5WmdxeTkxNHpybk1KODVOREJBcEFidVA1MDVoY2tsZFNEdS1sR09CV25IWFdPaS1WUnV1OUI5NEJ4NERqNFEw?oc=5"
     }
   ],
   "maritime_events": [
@@ -4065,7 +4058,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-26T14:55:08Z",
+      "last_update": "2026-06-26T15:00:02Z",
       "signals": 1,
       "recent": [
         {
