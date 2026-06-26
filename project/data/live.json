@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-26T14:50:09.380310Z",
-  "next_update": "2026-06-26T14:55:00Z",
+  "generated": "2026-06-26T14:55:08.625915Z",
+  "next_update": "2026-06-26T15:00:00Z",
   "days_active": 49,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 35,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": -6,
+      "var_pct": -5,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 2,
+      "signals": 3,
       "gov_alert": false
     },
     "PRY": {
@@ -681,12 +681,12 @@
     ],
     "USA": [
       35,
-      35,
+      36,
       36,
       36,
       38,
       38,
-      37,
+      38,
       37,
       37,
       36,
@@ -1240,7 +1240,7 @@
       4
     ],
     "RUS": [
-      2472,
+      2471,
       2460,
       2448,
       2437,
@@ -1804,18 +1804,18 @@
     "USA": [
       36,
       36,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
       35,
       35,
       35,
@@ -4006,7 +4006,7 @@
     "composite": 8,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 13,
+    "kalshi": 14,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.27,
     "continents": [
@@ -4016,7 +4016,7 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "USA": 2,
+    "USA": 3,
     "CAN": 1
   },
   "events": [
@@ -4040,6 +4040,13 @@
       "t": "2026-06-22T17:09:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzFvUTdYMWJhaHIwU0VtNndtM0Ffd1lMbDVMc09IVWE5TTExR0g3c1hUQjNUekhmelFibjBHM2FDaHpndGc4Mm9jR2hsYzZURWhJcGJNZWlQckphSmpCV3FwYWtiX1ZFaHRDc3ZFWW44YW9Yb1VPQmhiN3hyTU5FVVZiajcyRXFjZDBIejZHeGNtSkFnOUJxSWFHd29uaDJPZGxiX1pZX0xJdzR0V1RpNXE3VEMxZHdZX1RISkxmcVF0b1ZtYzVkdVFoZi1LRUsySmdRQjFBaW1mV3NVV1RPUDBKVdIB_gFBVV95cUxPWXZWdDFobXRPU2tSSUVKWGdZaWpKc2ZFbGtBRldyZDV5SkNmZWR5Uk1uWFdmRmEydWRlRkJqV1JNRW9rWWN5aTk3VUdpVmRnVjFEUFRtRFJtcmtMb2RDc2Q2TlZNZ2NfRWcwaEdtQ0RYLXlpQXduWWJqRm1oT3BfS3J4Z3ptU3ZGOXlfTk90SktFTUxXSXJfRmlfRkxTaGtBLTJVTzl2ZGNsRkI5QzctNzU4Zkx6UWgyWEhYUXg3REprYlp5dG41bXdsUVctLWM4a2M1ckZORzFDbGRkV0dBalpkTjhwQkVJUTBtSEtOMEFmRWg5NzVTb2FNNHllZw?oc=5"
+    },
+    {
+      "iso": "USA",
+      "title": "RFK Jr. orders American exposed to hantavirus to stay quarantined against her will - USA Today",
+      "t": "2026-06-17T07:00:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVVhqUmxCUy01VGRRRTVRZjRXMEFZMHpFbGZiUzkwamxiNUVTOVhLVGtVenpIWlpMMWtPVHczMjRldWx1R1lMR2tSRkZQWFRIeDkzcEZPLWpSZ3FmYmZNQ1d5cC1MUXZsTWEtMHR5Yk1PbV9kQmo5ajg1aUx5WmdxeTkxNHpybk1KODVOREJBcEFidVA1MDVoY2tsZFNEdS1sR09CV25IWFdPaS1WUnV1OUI5NEJ4NERqNFEw?oc=5"
     }
   ],
   "maritime_events": [
@@ -4058,7 +4065,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-26T14:50:09Z",
+      "last_update": "2026-06-26T14:55:08Z",
       "signals": 1,
       "recent": [
         {
