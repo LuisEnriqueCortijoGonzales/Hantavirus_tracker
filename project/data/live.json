@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-26T12:55:10.866339Z",
-  "next_update": "2026-06-26T13:00:00Z",
+  "generated": "2026-06-26T13:00:15.387383Z",
+  "next_update": "2026-06-26T13:05:00Z",
   "days_active": 49,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -16,7 +16,7 @@
       "gov_alert": false
     },
     "CHL": {
-      "ytd": 66,
+      "ytd": 65,
       "alert": "brote",
       "cfr": 35.5,
       "var_pct": -7,
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -153,9 +153,9 @@
       "cfr": 29.0,
       "var_pct": 5,
       "strain": "hps",
-      "new_today": 1,
+      "new_today": 0,
       "r0": 3.5,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -597,7 +597,7 @@
       68,
       67,
       66,
-      66
+      65
     ],
     "BRA": [
       132,
@@ -688,10 +688,10 @@
       38,
       37,
       37,
+      37,
       36,
       36,
       36,
-      35,
       35,
       35
     ],
@@ -788,7 +788,7 @@
       3,
       3,
       3,
-      3,
+      4,
       4
     ],
     "GTM": [
@@ -872,7 +872,7 @@
       1
     ],
     "FIN": [
-      443,
+      442,
       440,
       437,
       435,
@@ -1401,7 +1401,6 @@
     "2026-06-26T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-24T13:00:00Z",
     "2026-06-24T14:00:00Z",
     "2026-06-24T15:00:00Z",
     "2026-06-24T16:00:00Z",
@@ -1448,14 +1447,14 @@
     "2026-06-26T09:00:00Z",
     "2026-06-26T10:00:00Z",
     "2026-06-26T11:00:00Z",
-    "2026-06-26T12:00:00Z"
+    "2026-06-26T12:00:00Z",
+    "2026-06-26T13:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
       172,
       172,
       172,
-      172,
       171,
       171,
       171,
@@ -1491,6 +1490,7 @@
       169,
       169,
       169,
+      168,
       168,
       168,
       168,
@@ -1515,7 +1515,6 @@
       67,
       67,
       67,
-      67,
       66,
       66,
       66,
@@ -1549,7 +1548,8 @@
       66,
       66,
       66,
-      66
+      66,
+      65
     ],
     "BRA": [
       161,
@@ -1572,7 +1572,6 @@
       161,
       161,
       161,
-      161,
       162,
       162,
       162,
@@ -1596,6 +1595,7 @@
       162,
       162,
       162,
+      163,
       163,
       163,
       163,
@@ -1802,9 +1802,9 @@
       10
     ],
     "USA": [
-      35,
-      35,
-      35,
+      36,
+      36,
+      36,
       35,
       35,
       35,
@@ -2115,33 +2115,33 @@
       3,
       3,
       3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
       4,
       4,
       4,
@@ -2404,7 +2404,6 @@
     "FIN": [
       417,
       417,
-      417,
       416,
       416,
       416,
@@ -2440,6 +2439,7 @@
       414,
       414,
       414,
+      413,
       413,
       413,
       413,
@@ -2461,7 +2461,6 @@
       179,
       179,
       179,
-      179,
       178,
       178,
       178,
@@ -2499,6 +2498,7 @@
       178,
       178,
       178,
+      177,
       177
     ],
     "DEU": [
@@ -2508,7 +2508,6 @@
       305,
       305,
       305,
-      305,
       304,
       304,
       304,
@@ -2544,6 +2543,7 @@
       303,
       303,
       303,
+      302,
       302,
       302,
       302,
@@ -2578,7 +2578,7 @@
       54,
       54,
       54,
-      54,
+      53,
       53,
       53,
       53,
@@ -2605,7 +2605,7 @@
       77,
       77,
       77,
-      77,
+      76,
       76,
       76,
       76,
@@ -3552,7 +3552,6 @@
       4
     ],
     "RUS": [
-      2354,
       2353,
       2353,
       2353,
@@ -3599,6 +3598,7 @@
       2337,
       2336,
       2336,
+      2335,
       2335
     ],
     "BLR": [
@@ -3852,7 +3852,6 @@
       29
     ],
     "CHN": [
-      3023,
       3022,
       3021,
       3021,
@@ -3899,6 +3898,7 @@
       2998,
       2997,
       2997,
+      2996,
       2996
     ],
     "KOR": [
@@ -4006,7 +4006,7 @@
     "composite": 8,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 12,
+    "kalshi": 14,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.27,
     "continents": [
@@ -4016,9 +4016,24 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "USA": 1
+    "USA": 2,
+    "CAN": 1
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "Hantavirus Reveals Latin America Is Unprepared, Warns The Lancet Commentary - AIDS Healthcare Foundation",
+      "t": "2026-06-25T22:30:06Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORlk0TG5hbmwxai00eXlFWElTVm9CVjFaWHF0aDFYNmFURmNhc0NzcklFekdiQ0RJcnJlR294MEJzNTJzN3N5a3l5UEVxeHZkb19LYjB3bFc2dzU2eEIwQUlPcE50LVRSQnFKOFZFdnZkV1d5VS1Nck54MGhocU90S2pia1RHWDJlWllWbkN3N2RIZlBIMjE0V0RuNjRSTzgxU3NEM0szTUl3SVh5SVFF?oc=5"
+    },
+    {
+      "iso": "CAN",
+      "title": "Hantavirus self-isolation complete for 34 Canadians, Health Canada says - National - Global News",
+      "t": "2026-06-24T18:06:54Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
@@ -4043,7 +4058,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-26T12:55:10Z",
+      "last_update": "2026-06-26T13:00:15Z",
       "signals": 1,
       "recent": [
         {
