@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-26T01:10:11.632557Z",
-  "next_update": "2026-06-26T01:15:00Z",
+  "generated": "2026-06-26T01:15:16.131232Z",
+  "next_update": "2026-06-26T01:20:00Z",
   "days_active": 49,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -575,7 +575,7 @@
       191,
       188,
       186,
-      184,
+      183,
       181,
       179,
       177,
@@ -601,7 +601,7 @@
     ],
     "BRA": [
       130,
-      134,
+      135,
       138,
       142,
       145,
@@ -682,11 +682,11 @@
     "USA": [
       35,
       35,
-      35,
+      36,
       36,
       36,
       38,
-      37,
+      38,
       37,
       37,
       36,
@@ -1805,18 +1805,18 @@
       36,
       36,
       36,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
+      36,
       35,
       35,
       35,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 8,
+    "composite": 9,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 12,
+    "kalshi": 16,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.27,
     "continents": [
@@ -4016,9 +4016,9 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "CAN": 1,
     "GBR": 1,
-    "USA": 1,
+    "CAN": 1,
+    "USA": 2,
     "ARG": 2
   },
   "events": [
@@ -4051,6 +4051,13 @@
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORGFTOThfazJqS1RfM0gwQ1l5dlpUSVM0S0VUUVJFTlNmMFhhT1FHeEk5U2tpR0VpUWxiUmUzRDlfSUFTVFg3aWNfdDdNWXFiYU5NMmFxaVF0dFJGT24tdmdVNDRYQmVHbWRoeUNabWZfSnRYZTBCS1FiOXJiTmtXZTNWSzN3UktiTWRrZGlIQVNDYWw2VlNpVml1eWhKQl9FQkRkUkxES3lmQk96NTNDbVBTUFBqZXpOd3kwVmdrWTlSWXplOGc?oc=5"
     },
     {
+      "iso": "USA",
+      "title": "RFK Jr. orders American exposed to hantavirus to stay quarantined against her will - USA Today",
+      "t": "2026-06-17T13:25:00Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVVhqUmxCUy01VGRRRTVRZjRXMEFZMHpFbGZiUzkwamxiNUVTOVhLVGtVenpIWlpMMWtPVHczMjRldWx1R1lMR2tSRkZQWFRIeDkzcEZPLWpSZ3FmYmZNQ1d5cC1MUXZsTWEtMHR5Yk1PbV9kQmo5ajg1aUx5WmdxeTkxNHpybk1KODVOREJBcEFidVA1MDVoY2tsZFNEdS1sR09CV25IWFdPaS1WUnV1OUI5NEJ4NERqNFEw?oc=5"
+    },
+    {
       "iso": "ARG",
       "title": "Argentina descarta presencia del roedor que transmite hantavirus tras brote en crucero - El Economista",
       "t": "2026-06-12T07:00:00Z",
@@ -4074,7 +4081,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-26T01:10:11Z",
+      "last_update": "2026-06-26T01:15:16Z",
       "signals": 2,
       "recent": [
         {
