@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-26T03:20:07.870719Z",
-  "next_update": "2026-06-26T03:25:00Z",
+  "generated": "2026-06-26T03:25:17.645422Z",
+  "next_update": "2026-06-26T03:30:00Z",
   "days_active": 49,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 171,
+      "ytd": 170,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": -7,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      202,
-      199,
-      196,
-      194,
-      191,
-      189,
-      187,
-      184,
-      182,
-      180,
+      201,
+      198,
+      195,
+      193,
+      190,
+      188,
+      186,
+      183,
+      181,
+      179,
       177,
-      175,
-      173,
-      171
+      174,
+      172,
+      170
     ],
     "CHL": [
       76,
@@ -1338,13 +1338,13 @@
     "CHN": [
       3197,
       3180,
-      3164,
+      3163,
       3147,
       3131,
       3116,
       3100,
       3085,
-      3071,
+      3070,
       3056,
       3042,
       3028,
@@ -1452,16 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      175,
-      175,
-      175,
-      175,
-      175,
-      175,
-      175,
-      175,
-      174,
-      174,
       174,
       174,
       174,
@@ -1499,7 +1489,17 @@
       171,
       171,
       171,
-      171
+      171,
+      171,
+      171,
+      171,
+      171,
+      171,
+      171,
+      171,
+      170,
+      170,
+      170
     ],
     "CHL": [
       67,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 8,
+    "composite": 9,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 14,
+    "kalshi": 17,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.27,
     "continents": [
@@ -4019,7 +4019,7 @@
     "CAN": 1,
     "GBR": 1,
     "USA": 1,
-    "ARG": 3
+    "ARG": 2
   },
   "events": [
     {
@@ -4042,13 +4042,6 @@
       "t": "2026-06-22T17:09:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzFvUTdYMWJhaHIwU0VtNndtM0Ffd1lMbDVMc09IVWE5TTExR0g3c1hUQjNUekhmelFibjBHM2FDaHpndGc4Mm9jR2hsYzZURWhJcGJNZWlQckphSmpCV3FwYWtiX1ZFaHRDc3ZFWW44YW9Yb1VPQmhiN3hyTU5FVVZiajcyRXFjZDBIejZHeGNtSkFnOUJxSWFHd29uaDJPZGxiX1pZX0xJdzR0V1RpNXE3VEMxZHdZX1RISkxmcVF0b1ZtYzVkdVFoZi1LRUsySmdRQjFBaW1mV3NVV1RPUDBKVdIB_gFBVV95cUxPWXZWdDFobXRPU2tSSUVKWGdZaWpKc2ZFbGtBRldyZDV5SkNmZWR5Uk1uWFdmRmEydWRlRkJqV1JNRW9rWWN5aTk3VUdpVmRnVjFEUFRtRFJtcmtMb2RDc2Q2TlZNZ2NfRWcwaEdtQ0RYLXlpQXduWWJqRm1oT3BfS3J4Z3ptU3ZGOXlfTk90SktFTUxXSXJfRmlfRkxTaGtBLTJVTzl2ZGNsRkI5QzctNzU4Zkx6UWgyWEhYUXg3REprYlp5dG41bXdsUVctLWM4a2M1ckZORzFDbGRkV0dBalpkTjhwQkVJUTBtSEtOMEFmRWg5NzVTb2FNNHllZw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Confirman otro caso de hantavirus en Argentina y una mujer permanece en terapia intensiva - infodelestero.com",
-      "t": "2026-06-22T11:56:14Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORGFTOThfazJqS1RfM0gwQ1l5dlpUSVM0S0VUUVJFTlNmMFhhT1FHeEk5U2tpR0VpUWxiUmUzRDlfSUFTVFg3aWNfdDdNWXFiYU5NMmFxaVF0dFJGT24tdmdVNDRYQmVHbWRoeUNabWZfSnRYZTBCS1FiOXJiTmtXZTNWSzN3UktiTWRrZGlIQVNDYWw2VlNpVml1eWhKQl9FQkRkUkxES3lmQk96NTNDbVBTUFBqZXpOd3kwVmdrWTlSWXplOGc?oc=5"
     },
     {
       "iso": "ARG",
@@ -4081,7 +4074,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-26T03:20:07Z",
+      "last_update": "2026-06-26T03:25:17Z",
       "signals": 2,
       "recent": [
         {
