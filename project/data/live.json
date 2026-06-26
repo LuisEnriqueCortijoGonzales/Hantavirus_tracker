@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-26T01:05:07.141734Z",
-  "next_update": "2026-06-26T01:10:00Z",
+  "generated": "2026-06-26T01:10:11.632557Z",
+  "next_update": "2026-06-26T01:15:00Z",
   "days_active": 49,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -148,14 +148,14 @@
       "gov_alert": false
     },
     "CAN": {
-      "ytd": 3,
+      "ytd": 4,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 5,
+      "var_pct": 6,
       "strain": "hps",
-      "new_today": 0,
-      "r0": 0.0,
-      "signals": 0,
+      "new_today": 1,
+      "r0": 3.5,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -789,7 +789,7 @@
       3,
       3,
       3,
-      3
+      4
     ],
     "GTM": [
       2,
@@ -888,7 +888,7 @@
       414
     ],
     "SWE": [
-      188,
+      187,
       187,
       186,
       185,
@@ -897,7 +897,7 @@
       183,
       182,
       181,
-      181,
+      180,
       180,
       179,
       178,
@@ -1249,7 +1249,7 @@
       2410,
       2399,
       2389,
-      2379,
+      2378,
       2368,
       2359,
       2349,
@@ -2127,29 +2127,29 @@
       3,
       3,
       3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
     ],
     "GTM": [
       2,
@@ -4003,12 +4003,12 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 8,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 16,
+    "kalshi": 12,
     "max_andes_r0": 0.0,
-    "avg_other_r0": 0.2,
+    "avg_other_r0": 0.27,
     "continents": [
       "Americas"
     ],
@@ -4016,11 +4016,19 @@
     "outbreak_count": 4
   },
   "signal_summary": {
+    "CAN": 1,
     "GBR": 1,
     "USA": 1,
     "ARG": 2
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "Hantavirus self-isolation complete for 34 Canadians, Health Canada says - National - Global News",
+      "t": "2026-06-24T18:06:54Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
+    },
     {
       "iso": "GBR",
       "title": "Hantavirus outbreak \"close to end\", says WHO director-general, after more than 80% of contacts have concluded quarantine - Gamereactor UK",
@@ -4066,7 +4074,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-26T01:05:07Z",
+      "last_update": "2026-06-26T01:10:11Z",
       "signals": 2,
       "recent": [
         {
