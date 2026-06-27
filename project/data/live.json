@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-27T13:55:11.651505Z",
-  "next_update": "2026-06-27T14:00:00Z",
+  "generated": "2026-06-27T14:00:10.907192Z",
+  "next_update": "2026-06-27T14:05:00Z",
   "days_active": 50,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -82,14 +82,14 @@
       "gov_alert": false
     },
     "USA": {
-      "ytd": 35,
+      "ytd": 34,
       "alert": "brote",
       "cfr": 36.0,
       "var_pct": -6,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -687,13 +687,13 @@
       38,
       37,
       37,
-      37,
       36,
       36,
       36,
       35,
       35,
-      35
+      35,
+      34
     ],
     "PRY": [
       8,
@@ -1347,7 +1347,7 @@
       3050,
       3036,
       3022,
-      3009,
+      3008,
       2995,
       2982
     ],
@@ -1401,7 +1401,6 @@
     "2026-06-27T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-25T14:00:00Z",
     "2026-06-25T15:00:00Z",
     "2026-06-25T16:00:00Z",
     "2026-06-25T17:00:00Z",
@@ -1448,12 +1447,12 @@
     "2026-06-27T10:00:00Z",
     "2026-06-27T11:00:00Z",
     "2026-06-27T12:00:00Z",
-    "2026-06-27T13:00:00Z"
+    "2026-06-27T13:00:00Z",
+    "2026-06-27T14:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
       170,
-      170,
       169,
       169,
       169,
@@ -1490,6 +1489,7 @@
       167,
       167,
       167,
+      166,
       166,
       166,
       166,
@@ -1524,7 +1524,7 @@
       66,
       66,
       66,
-      66,
+      65,
       65,
       65,
       65,
@@ -1552,7 +1552,6 @@
       65
     ],
     "BRA": [
-      162,
       162,
       162,
       162,
@@ -1599,6 +1598,7 @@
       163,
       163,
       164,
+      164,
       164
     ],
     "BOL": [
@@ -1642,7 +1642,7 @@
       20,
       20,
       20,
-      20,
+      21,
       21,
       21,
       21,
@@ -1839,17 +1839,17 @@
       35,
       35,
       35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34
     ],
     "PRY": [
       9,
@@ -2402,7 +2402,6 @@
       1
     ],
     "FIN": [
-      415,
       414,
       414,
       414,
@@ -2439,6 +2438,7 @@
       412,
       412,
       412,
+      411,
       411,
       411,
       411,
@@ -2473,7 +2473,7 @@
       178,
       178,
       178,
-      178,
+      177,
       177,
       177,
       177,
@@ -2518,7 +2518,6 @@
       303,
       303,
       303,
-      303,
       302,
       302,
       302,
@@ -2537,6 +2536,7 @@
       302,
       302,
       302,
+      301,
       301,
       301,
       301,
@@ -2553,7 +2553,7 @@
     ],
     "POL": [
       54,
-      54,
+      53,
       53,
       53,
       53,
@@ -3553,7 +3553,6 @@
     ],
     "RUS": [
       2344,
-      2344,
       2343,
       2343,
       2342,
@@ -3599,7 +3598,8 @@
       2327,
       2327,
       2326,
-      2326
+      2326,
+      2325
     ],
     "BLR": [
       36,
@@ -3853,7 +3853,6 @@
     ],
     "CHN": [
       3008,
-      3008,
       3007,
       3007,
       3006,
@@ -3899,7 +3898,8 @@
       2984,
       2984,
       2983,
-      2983
+      2983,
+      2982
     ],
     "KOR": [
       106,
@@ -3925,7 +3925,7 @@
       106,
       106,
       106,
-      106,
+      105,
       105,
       105,
       105,
@@ -4006,7 +4006,7 @@
     "composite": 8,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 13,
+    "kalshi": 14,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.27,
     "continents": [
@@ -4016,7 +4016,7 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "USA": 2,
+    "USA": 1,
     "CAN": 1
   },
   "events": [
@@ -4033,13 +4033,6 @@
       "t": "2026-06-24T18:06:54Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
-      "t": "2026-06-22T17:09:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzFvUTdYMWJhaHIwU0VtNndtM0Ffd1lMbDVMc09IVWE5TTExR0g3c1hUQjNUekhmelFibjBHM2FDaHpndGc4Mm9jR2hsYzZURWhJcGJNZWlQckphSmpCV3FwYWtiX1ZFaHRDc3ZFWW44YW9Yb1VPQmhiN3hyTU5FVVZiajcyRXFjZDBIejZHeGNtSkFnOUJxSWFHd29uaDJPZGxiX1pZX0xJdzR0V1RpNXE3VEMxZHdZX1RISkxmcVF0b1ZtYzVkdVFoZi1LRUsySmdRQjFBaW1mV3NVV1RPUDBKVdIB_gFBVV95cUxPWXZWdDFobXRPU2tSSUVKWGdZaWpKc2ZFbGtBRldyZDV5SkNmZWR5Uk1uWFdmRmEydWRlRkJqV1JNRW9rWWN5aTk3VUdpVmRnVjFEUFRtRFJtcmtMb2RDc2Q2TlZNZ2NfRWcwaEdtQ0RYLXlpQXduWWJqRm1oT3BfS3J4Z3ptU3ZGOXlfTk90SktFTUxXSXJfRmlfRkxTaGtBLTJVTzl2ZGNsRkI5QzctNzU4Zkx6UWgyWEhYUXg3REprYlp5dG41bXdsUVctLWM4a2M1ckZORzFDbGRkV0dBalpkTjhwQkVJUTBtSEtOMEFmRWg5NzVTb2FNNHllZw?oc=5"
     }
   ],
   "maritime_events": [
@@ -4058,15 +4051,9 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-27T13:55:11Z",
-      "signals": 1,
-      "recent": [
-        {
-          "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
-          "t": "2026-06-22T17:09:00Z",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzFvUTdYMWJhaHIwU0VtNndtM0Ffd1lMbDVMc09IVWE5TTExR0g3c1hUQjNUekhmelFibjBHM2FDaHpndGc4Mm9jR2hsYzZURWhJcGJNZWlQckphSmpCV3FwYWtiX1ZFaHRDc3ZFWW44YW9Yb1VPQmhiN3hyTU5FVVZiajcyRXFjZDBIejZHeGNtSkFnOUJxSWFHd29uaDJPZGxiX1pZX0xJdzR0V1RpNXE3VEMxZHdZX1RISkxmcVF0b1ZtYzVkdVFoZi1LRUsySmdRQjFBaW1mV3NVV1RPUDBKVdIB_gFBVV95cUxPWXZWdDFobXRPU2tSSUVKWGdZaWpKc2ZFbGtBRldyZDV5SkNmZWR5Uk1uWFdmRmEydWRlRkJqV1JNRW9rWWN5aTk3VUdpVmRnVjFEUFRtRFJtcmtMb2RDc2Q2TlZNZ2NfRWcwaEdtQ0RYLXlpQXduWWJqRm1oT3BfS3J4Z3ptU3ZGOXlfTk90SktFTUxXSXJfRmlfRkxTaGtBLTJVTzl2ZGNsRkI5QzctNzU4Zkx6UWgyWEhYUXg3REprYlp5dG41bXdsUVctLWM4a2M1ckZORzFDbGRkV0dBalpkTjhwQkVJUTBtSEtOMEFmRWg5NzVTb2FNNHllZw?oc=5"
-        }
-      ]
+      "last_update": "2026-06-27T14:00:10Z",
+      "signals": 0,
+      "recent": []
     }
   ]
 }
