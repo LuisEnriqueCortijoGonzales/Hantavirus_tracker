@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-27T00:15:08.647539Z",
-  "next_update": "2026-06-27T00:20:00Z",
+  "generated": "2026-06-27T00:20:02.640235Z",
+  "next_update": "2026-06-27T00:25:00Z",
   "days_active": 50,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 167,
+      "ytd": 168,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": -8,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      196,
-      194,
-      191,
-      189,
-      186,
-      184,
-      182,
-      179,
-      177,
-      175,
-      173,
-      171,
-      169,
-      167
+      197,
+      195,
+      192,
+      190,
+      187,
+      185,
+      183,
+      180,
+      178,
+      176,
+      174,
+      172,
+      170,
+      168
     ],
     "CHL": [
       75,
@@ -1452,6 +1452,16 @@
   ],
   "hourly_history": {
     "ARG": [
+      172,
+      172,
+      171,
+      171,
+      171,
+      171,
+      171,
+      171,
+      171,
+      171,
       171,
       171,
       171,
@@ -1489,17 +1499,7 @@
       168,
       168,
       168,
-      168,
-      168,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167
+      168
     ],
     "CHL": [
       67,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 8,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 17,
+    "kalshi": 14,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.27,
     "continents": [
@@ -4017,9 +4017,17 @@
   },
   "signal_summary": {
     "USA": 2,
-    "CAN": 1
+    "CAN": 1,
+    "ARG": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Ireland Joins Argentina, Cape Verde, Spain, the Netherlands and Tenerife as Hantavirus Cruise Outbreak Ends with Irish Passengers Safely Released After Forty-Two-Day Quarantine Raising New Focus on Travel Health Security - Travel And Tour World",
+      "t": "2026-06-26T12:06:15Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8zb2RTSnc2YjZ6dU1iWXl2eGdFWkt0aW43Y0RCS1o3bjBPeHVhYjdBWk9aNFItWHdIRmJ5dmZTWWNtZFktVlBuaEpvQWJCeS1oWHZyQnVFaWhHcThzanA3bUtEQUIza0RPM1o3Qmtn?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Hantavirus Reveals Latin America Is Unprepared, Warns The Lancet Commentary - AIDS Healthcare Foundation",
@@ -4058,7 +4066,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-27T00:15:08Z",
+      "last_update": "2026-06-27T00:20:02Z",
       "signals": 1,
       "recent": [
         {
