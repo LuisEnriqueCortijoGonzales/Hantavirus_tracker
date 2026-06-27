@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-27T04:55:08.628532Z",
-  "next_update": "2026-06-27T05:00:00Z",
+  "generated": "2026-06-27T05:00:13.119381Z",
+  "next_update": "2026-06-27T05:05:00Z",
   "days_active": 50,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 167,
+      "ytd": 166,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": -8,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      197,
-      194,
-      192,
-      189,
-      187,
-      185,
-      182,
-      180,
-      178,
-      176,
+      196,
+      193,
+      191,
+      188,
+      186,
+      184,
+      181,
+      179,
+      177,
+      175,
       173,
-      171,
-      169,
-      167
+      170,
+      168,
+      166
     ],
     "CHL": [
       75,
@@ -1240,18 +1240,18 @@
       4
     ],
     "RUS": [
-      2465,
+      2464,
       2453,
       2441,
       2430,
       2419,
       2408,
-      2398,
+      2397,
       2387,
       2377,
       2367,
       2357,
-      2348,
+      2347,
       2338,
       2329
     ],
@@ -1401,7 +1401,6 @@
     "2026-06-27T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-25T05:00:00Z",
     "2026-06-25T06:00:00Z",
     "2026-06-25T07:00:00Z",
     "2026-06-25T08:00:00Z",
@@ -1448,21 +1447,11 @@
     "2026-06-27T01:00:00Z",
     "2026-06-27T02:00:00Z",
     "2026-06-27T03:00:00Z",
-    "2026-06-27T04:00:00Z"
+    "2026-06-27T04:00:00Z",
+    "2026-06-27T05:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
-      171,
-      171,
-      171,
-      171,
-      171,
-      171,
-      171,
-      171,
-      171,
-      171,
-      170,
       170,
       170,
       170,
@@ -1499,7 +1488,18 @@
       168,
       167,
       167,
-      167
+      167,
+      167,
+      167,
+      167,
+      167,
+      167,
+      167,
+      167,
+      167,
+      167,
+      166,
+      166
     ],
     "CHL": [
       66,
@@ -1533,7 +1533,7 @@
       66,
       66,
       66,
-      66,
+      65,
       65,
       65,
       65,
@@ -1556,7 +1556,6 @@
       161,
       161,
       161,
-      161,
       162,
       162,
       162,
@@ -1580,6 +1579,7 @@
       162,
       162,
       162,
+      163,
       163,
       163,
       163,
@@ -2411,7 +2411,6 @@
       415,
       415,
       415,
-      415,
       414,
       414,
       414,
@@ -2449,6 +2448,7 @@
       412,
       412,
       411,
+      411,
       411
     ],
     "SWE": [
@@ -2482,7 +2482,7 @@
       178,
       178,
       178,
-      178,
+      177,
       177,
       177,
       177,
@@ -2510,7 +2510,6 @@
       304,
       304,
       304,
-      304,
       303,
       303,
       303,
@@ -2546,6 +2545,7 @@
       302,
       302,
       302,
+      301,
       301,
       301,
       301,
@@ -2562,7 +2562,7 @@
       54,
       54,
       54,
-      54,
+      53,
       53,
       53,
       53,
@@ -3554,7 +3554,6 @@
     "RUS": [
       2347,
       2347,
-      2347,
       2346,
       2346,
       2345,
@@ -3599,6 +3598,7 @@
       2330,
       2330,
       2330,
+      2329,
       2329
     ],
     "BLR": [
@@ -3852,7 +3852,6 @@
       29
     ],
     "CHN": [
-      3014,
       3013,
       3012,
       3012,
@@ -3899,7 +3898,8 @@
       2989,
       2989,
       2988,
-      2988
+      2988,
+      2987
     ],
     "KOR": [
       106,
@@ -3934,7 +3934,7 @@
       106,
       106,
       106,
-      106,
+      105,
       105,
       105,
       105,
@@ -4017,17 +4017,9 @@
   },
   "signal_summary": {
     "USA": 2,
-    "CAN": 1,
-    "ARG": 1
+    "CAN": 1
   },
   "events": [
-    {
-      "iso": "ARG",
-      "title": "Ireland Joins Argentina, Cape Verde, Spain, the Netherlands and Tenerife as Hantavirus Cruise Outbreak Ends with Irish Passengers Safely Released After Forty-Two-Day Quarantine Raising New Focus on Travel Health Security - Travel And Tour World",
-      "t": "2026-06-26T12:06:15Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8zb2RTSnc2YjZ6dU1iWXl2eGdFWkt0aW43Y0RCS1o3bjBPeHVhYjdBWk9aNFItWHdIRmJ5dmZTWWNtZFktVlBuaEpvQWJCeS1oWHZyQnVFaWhHcThzanA3bUtEQUIza0RPM1o3Qmtn?oc=5"
-    },
     {
       "iso": "USA",
       "title": "Hantavirus Reveals Latin America Is Unprepared, Warns The Lancet Commentary - AIDS Healthcare Foundation",
@@ -4066,7 +4058,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-27T04:55:08Z",
+      "last_update": "2026-06-27T05:00:13Z",
       "signals": 1,
       "recent": [
         {
