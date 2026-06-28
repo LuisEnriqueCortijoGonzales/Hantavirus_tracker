@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-28T16:10:06.369487Z",
-  "next_update": "2026-06-28T16:15:00Z",
+  "generated": "2026-06-28T16:15:05.636296Z",
+  "next_update": "2026-06-28T16:20:00Z",
   "days_active": 51,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -149,13 +149,13 @@
     },
     "CAN": {
       "ytd": 4,
-      "alert": "vigilancia",
+      "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 6,
+      "var_pct": 5,
       "strain": "hps",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GTM": {
@@ -786,7 +786,7 @@
       3,
       3,
       3,
-      4,
+      3,
       4,
       4,
       4
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 8,
+    "composite": 9,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 12,
+    "kalshi": 16,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.18,
     "continents": [
@@ -4016,8 +4016,7 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "USA": 2,
-    "CAN": 1
+    "USA": 2
   },
   "events": [
     {
@@ -4026,13 +4025,6 @@
       "t": "2026-06-25T22:30:06Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORlk0TG5hbmwxai00eXlFWElTVm9CVjFaWHF0aDFYNmFURmNhc0NzcklFekdiQ0RJcnJlR294MEJzNTJzN3N5a3l5UEVxeHZkb19LYjB3bFc2dzU2eEIwQUlPcE50LVRSQnFKOFZFdnZkV1d5VS1Nck54MGhocU90S2pia1RHWDJlWllWbkN3N2RIZlBIMjE0V0RuNjRSTzgxU3NEM0szTUl3SVh5SVFF?oc=5"
-    },
-    {
-      "iso": "CAN",
-      "title": "Hantavirus self-isolation complete for 34 Canadians, Health Canada says - National - Global News",
-      "t": "2026-06-24T18:06:54Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
     },
     {
       "iso": "USA",
@@ -4058,7 +4050,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-28T16:10:06Z",
+      "last_update": "2026-06-28T16:15:05Z",
       "signals": 1,
       "recent": [
         {
