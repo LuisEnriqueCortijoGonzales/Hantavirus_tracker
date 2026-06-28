@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-28T17:55:01.124767Z",
-  "next_update": "2026-06-28T18:00:00Z",
+  "generated": "2026-06-28T18:00:16.164517Z",
+  "next_update": "2026-06-28T18:05:00Z",
   "days_active": 51,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -149,13 +149,13 @@
     },
     "CAN": {
       "ytd": 4,
-      "alert": "endemico",
+      "alert": "vigilancia",
       "cfr": 29.0,
-      "var_pct": 5,
+      "var_pct": 6,
       "strain": "hps",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -683,10 +683,10 @@
       36,
       36,
       38,
-      38,
       37,
       37,
       37,
+      36,
       36,
       36,
       35,
@@ -786,7 +786,7 @@
       3,
       3,
       3,
-      3,
+      4,
       4,
       4,
       4
@@ -916,7 +916,7 @@
       305,
       303,
       302,
-      301,
+      300,
       299
     ],
     "POL": [
@@ -1240,7 +1240,7 @@
       4
     ],
     "RUS": [
-      2447,
+      2446,
       2435,
       2424,
       2413,
@@ -1337,7 +1337,7 @@
     ],
     "CHN": [
       3154,
-      3138,
+      3137,
       3122,
       3106,
       3091,
@@ -1401,7 +1401,6 @@
     "2026-06-28T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-26T18:00:00Z",
     "2026-06-26T19:00:00Z",
     "2026-06-26T20:00:00Z",
     "2026-06-26T21:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-06-28T14:00:00Z",
     "2026-06-28T15:00:00Z",
     "2026-06-28T16:00:00Z",
-    "2026-06-28T17:00:00Z"
+    "2026-06-28T17:00:00Z",
+    "2026-06-28T18:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -1461,7 +1461,6 @@
       167,
       167,
       167,
-      167,
       166,
       166,
       166,
@@ -1499,6 +1498,7 @@
       164,
       164,
       164,
+      163,
       163
     ],
     "CHL": [
@@ -1532,7 +1532,7 @@
       65,
       65,
       65,
-      65,
+      64,
       64,
       64,
       64,
@@ -1569,7 +1569,7 @@
       163,
       163,
       163,
-      163,
+      164,
       164,
       164,
       164,
@@ -1614,7 +1614,7 @@
       20,
       20,
       20,
-      20,
+      21,
       21,
       21,
       21,
@@ -1811,19 +1811,19 @@
       35,
       35,
       35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
       34,
       34,
       34,
@@ -2410,7 +2410,6 @@
       412,
       412,
       412,
-      412,
       411,
       411,
       411,
@@ -2449,6 +2448,7 @@
       409,
       409,
       408,
+      408,
       408
     ],
     "SWE": [
@@ -2482,7 +2482,7 @@
       177,
       177,
       177,
-      177,
+      176,
       176,
       176,
       176,
@@ -2508,7 +2508,6 @@
       302,
       302,
       302,
-      302,
       301,
       301,
       301,
@@ -2545,6 +2544,7 @@
       300,
       300,
       300,
+      299,
       299,
       299,
       299,
@@ -3553,7 +3553,6 @@
     ],
     "RUS": [
       2333,
-      2333,
       2332,
       2332,
       2331,
@@ -3599,6 +3598,7 @@
       2316,
       2316,
       2316,
+      2315,
       2315
     ],
     "BLR": [
@@ -3853,7 +3853,6 @@
     ],
     "CHN": [
       2993,
-      2993,
       2992,
       2991,
       2991,
@@ -3899,6 +3898,7 @@
       2970,
       2969,
       2969,
+      2968,
       2968
     ],
     "KOR": [
@@ -4016,15 +4016,16 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "USA": 2
+    "CAN": 1,
+    "USA": 1
   },
   "events": [
     {
-      "iso": "USA",
-      "title": "Hantavirus Reveals Latin America Is Unprepared, Warns The Lancet Commentary - AIDS Healthcare Foundation",
-      "t": "2026-06-25T22:30:06Z",
+      "iso": "CAN",
+      "title": "Hantavirus self-isolation complete for 34 Canadians, Health Canada says - National - Global News",
+      "t": "2026-06-24T18:06:54Z",
       "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORlk0TG5hbmwxai00eXlFWElTVm9CVjFaWHF0aDFYNmFURmNhc0NzcklFekdiQ0RJcnJlR294MEJzNTJzN3N5a3l5UEVxeHZkb19LYjB3bFc2dzU2eEIwQUlPcE50LVRSQnFKOFZFdnZkV1d5VS1Nck54MGhocU90S2pia1RHWDJlWllWbkN3N2RIZlBIMjE0V0RuNjRSTzgxU3NEM0szTUl3SVh5SVFF?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
     },
     {
       "iso": "USA",
@@ -4050,7 +4051,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-28T17:55:01Z",
+      "last_update": "2026-06-28T18:00:16Z",
       "signals": 1,
       "recent": [
         {
