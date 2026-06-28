@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-28T04:00:10.882708Z",
-  "next_update": "2026-06-28T04:05:00Z",
+  "generated": "2026-06-28T04:05:15.386016Z",
+  "next_update": "2026-06-28T04:10:00Z",
   "days_active": 51,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -149,13 +149,13 @@
     },
     "CAN": {
       "ytd": 4,
-      "alert": "endemico",
+      "alert": "vigilancia",
       "cfr": 29.0,
       "var_pct": 6,
       "strain": "hps",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -603,7 +603,7 @@
       139,
       142,
       146,
-      148,
+      149,
       151,
       153,
       155,
@@ -680,11 +680,11 @@
       10
     ],
     "USA": [
-      35,
+      36,
       36,
       36,
       38,
-      37,
+      38,
       37,
       37,
       36,
@@ -692,7 +692,7 @@
       36,
       35,
       35,
-      34,
+      35,
       34
     ],
     "PRY": [
@@ -786,8 +786,8 @@
       3,
       3,
       3,
-      3,
-      3,
+      4,
+      4,
       4,
       4
     ],
@@ -1244,7 +1244,7 @@
       2442,
       2430,
       2419,
-      2409,
+      2408,
       2398,
       2387,
       2377,
@@ -1344,7 +1344,7 @@
       3085,
       3070,
       3056,
-      3042,
+      3041,
       3028,
       3014,
       3001,
@@ -1825,18 +1825,18 @@
       35,
       35,
       35,
-      34,
-      34,
-      34,
-      34,
-      34,
-      34,
-      34,
-      34,
-      34,
-      34,
-      34,
-      34,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
+      35,
       34,
       34,
       34,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 8,
+    "composite": 9,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 14,
+    "kalshi": 16,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.18,
     "continents": [
@@ -4016,9 +4016,24 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "USA": 1
+    "USA": 2,
+    "CAN": 1
   },
   "events": [
+    {
+      "iso": "USA",
+      "title": "Hantavirus Reveals Latin America Is Unprepared, Warns The Lancet Commentary - AIDS Healthcare Foundation",
+      "t": "2026-06-25T22:30:06Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORlk0TG5hbmwxai00eXlFWElTVm9CVjFaWHF0aDFYNmFURmNhc0NzcklFekdiQ0RJcnJlR294MEJzNTJzN3N5a3l5UEVxeHZkb19LYjB3bFc2dzU2eEIwQUlPcE50LVRSQnFKOFZFdnZkV1d5VS1Nck54MGhocU90S2pia1RHWDJlWllWbkN3N2RIZlBIMjE0V0RuNjRSTzgxU3NEM0szTUl3SVh5SVFF?oc=5"
+    },
+    {
+      "iso": "CAN",
+      "title": "Hantavirus self-isolation complete for 34 Canadians, Health Canada says - National - Global News",
+      "t": "2026-06-24T18:06:54Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
@@ -4043,7 +4058,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-28T04:00:10Z",
+      "last_update": "2026-06-28T04:05:15Z",
       "signals": 1,
       "recent": [
         {
