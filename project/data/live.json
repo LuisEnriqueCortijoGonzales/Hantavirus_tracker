@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-28T03:50:14.167761Z",
-  "next_update": "2026-06-28T03:55:00Z",
+  "generated": "2026-06-28T03:55:06.357823Z",
+  "next_update": "2026-06-28T04:00:00Z",
   "days_active": 51,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -78,7 +78,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "USA": {
@@ -570,7 +570,7 @@
     "ARG": [
       193,
       191,
-      189,
+      188,
       186,
       184,
       181,
@@ -1242,7 +1242,7 @@
     "RUS": [
       2453,
       2442,
-      2431,
+      2430,
       2419,
       2409,
       2398,
@@ -1251,7 +1251,7 @@
       2367,
       2358,
       2348,
-      2339,
+      2338,
       2329,
       2320
     ],
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 8,
+    "composite": 9,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 13,
+    "kalshi": 16,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.18,
     "continents": [
@@ -4017,7 +4017,8 @@
   },
   "signal_summary": {
     "USA": 2,
-    "CAN": 1
+    "CAN": 1,
+    "MEX": 1
   },
   "events": [
     {
@@ -4033,6 +4034,13 @@
       "t": "2026-06-24T18:06:54Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
+    },
+    {
+      "iso": "MEX",
+      "title": "OMS declarar\u00e1 el fin del brote de hantavirus el 2 de julio, si no hay m\u00e1s contagios - Diario De M\u00e9xico",
+      "t": "2026-06-24T16:19:34Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ1B3NUdoMUlOLVVpOGFLT2dGYWVNS0xWcnN6LVE1dnNkVVB3MUNpOVR2ZnBycmtfRk84eVdTNm1kZ1BZbXpYR2hNRWtHQ19HYTVCNUNZUlhoaTVzV2d4Vjh4MmZWbnN4bmVia2hfald1WmpQZGFHU0toVnVWeDg1akVGYXp5a1E2TzU3c0FpQm83SW4tSnBzM1JjVDlTdzZYLTVFTHB30gGrAUFVX3lxTFAxZTVIVEhHam9LMXJFOUlSZ1hPdHcxblFKeHN5YlNpLXp2d2ZLWjBGTXlFMXF0NWc2dURvUFdlRG9ab1VpOHk2aEJnSWlQUUJzQVBCcFZqY25jWWRwZnMyLWpZN19nV1o2YVpNcDJ5WDFuRUpNXzBldl9pUFZWSmhTczY3MGIzU0xWWTc4UVp6ZlRnX0JBUlc1V1N2Wmw2TXFZSnpqSTJZaVdObw?oc=5"
     },
     {
       "iso": "USA",
@@ -4058,7 +4066,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-28T03:50:14Z",
+      "last_update": "2026-06-28T03:55:06Z",
       "signals": 1,
       "recent": [
         {
