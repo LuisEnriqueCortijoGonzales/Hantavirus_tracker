@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-28T06:50:06.370707Z",
-  "next_update": "2026-06-28T06:55:00Z",
+  "generated": "2026-06-28T06:55:10.879221Z",
+  "next_update": "2026-06-28T07:00:00Z",
   "days_active": 51,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -52,7 +52,7 @@
       "ytd": 15,
       "alert": "vigilancia",
       "cfr": 39.0,
-      "var_pct": 6,
+      "var_pct": 5,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
@@ -89,7 +89,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "PRY": {
@@ -149,13 +149,13 @@
     },
     "CAN": {
       "ytd": 4,
-      "alert": "vigilancia",
+      "alert": "endemico",
       "cfr": 29.0,
       "var_pct": 6,
       "strain": "hps",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GTM": {
@@ -689,10 +689,10 @@
       37,
       36,
       36,
-      36,
       35,
       35,
       35,
+      34,
       34
     ],
     "PRY": [
@@ -786,7 +786,7 @@
       3,
       3,
       3,
-      4,
+      3,
       4,
       4,
       4
@@ -1823,18 +1823,18 @@
       35,
       35,
       35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
       34,
       34,
       34,
@@ -4006,7 +4006,7 @@
     "composite": 8,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 13,
+    "kalshi": 12,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.18,
     "continents": [
@@ -4016,24 +4016,9 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "USA": 2,
-    "CAN": 1
+    "USA": 1
   },
   "events": [
-    {
-      "iso": "USA",
-      "title": "Hantavirus Reveals Latin America Is Unprepared, Warns The Lancet Commentary - AIDS Healthcare Foundation",
-      "t": "2026-06-25T22:30:06Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORlk0TG5hbmwxai00eXlFWElTVm9CVjFaWHF0aDFYNmFURmNhc0NzcklFekdiQ0RJcnJlR294MEJzNTJzN3N5a3l5UEVxeHZkb19LYjB3bFc2dzU2eEIwQUlPcE50LVRSQnFKOFZFdnZkV1d5VS1Nck54MGhocU90S2pia1RHWDJlWllWbkN3N2RIZlBIMjE0V0RuNjRSTzgxU3NEM0szTUl3SVh5SVFF?oc=5"
-    },
-    {
-      "iso": "CAN",
-      "title": "Hantavirus self-isolation complete for 34 Canadians, Health Canada says - National - Global News",
-      "t": "2026-06-24T18:06:54Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
-    },
     {
       "iso": "USA",
       "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
@@ -4058,7 +4043,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-28T06:50:06Z",
+      "last_update": "2026-06-28T06:55:10Z",
       "signals": 1,
       "recent": [
         {
