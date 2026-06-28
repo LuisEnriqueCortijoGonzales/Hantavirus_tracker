@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-28T04:55:18.384447Z",
-  "next_update": "2026-06-28T05:00:00Z",
+  "generated": "2026-06-28T05:00:07.119632Z",
+  "next_update": "2026-06-28T05:05:00Z",
   "days_active": 51,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -74,22 +74,22 @@
       "ytd": 10,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": 3,
+      "var_pct": 2,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 2,
+      "signals": 0,
       "gov_alert": false
     },
     "USA": {
       "ytd": 34,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": -5,
+      "var_pct": -6,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 3,
+      "signals": 2,
       "gov_alert": false
     },
     "PRY": {
@@ -664,7 +664,7 @@
       8
     ],
     "MEX": [
-      10,
+      9,
       10,
       10,
       10,
@@ -687,7 +687,7 @@
       38,
       37,
       37,
-      37,
+      36,
       36,
       36,
       35,
@@ -1245,12 +1245,12 @@
       2430,
       2419,
       2408,
-      2398,
+      2397,
       2387,
       2377,
       2367,
       2357,
-      2348,
+      2347,
       2338,
       2329,
       2320
@@ -1401,7 +1401,6 @@
     "2026-06-28T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-26T05:00:00Z",
     "2026-06-26T06:00:00Z",
     "2026-06-26T07:00:00Z",
     "2026-06-26T08:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-06-28T01:00:00Z",
     "2026-06-28T02:00:00Z",
     "2026-06-28T03:00:00Z",
-    "2026-06-28T04:00:00Z"
+    "2026-06-28T04:00:00Z",
+    "2026-06-28T05:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -1462,7 +1462,6 @@
       168,
       168,
       168,
-      168,
       167,
       167,
       167,
@@ -1499,6 +1498,7 @@
       165,
       165,
       165,
+      164,
       164
     ],
     "CHL": [
@@ -1509,7 +1509,6 @@
       66,
       66,
       66,
-      66,
       65,
       65,
       65,
@@ -1546,6 +1545,7 @@
       65,
       65,
       65,
+      64,
       64,
       64,
       64,
@@ -1555,7 +1555,6 @@
       162,
       162,
       162,
-      162,
       163,
       163,
       163,
@@ -1583,6 +1582,7 @@
       163,
       163,
       163,
+      164,
       164,
       164,
       164,
@@ -1627,7 +1627,7 @@
       20,
       20,
       20,
-      20,
+      21,
       21,
       21,
       21,
@@ -1836,20 +1836,20 @@
       35,
       35,
       35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35,
-      35
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34,
+      34
     ],
     "PRY": [
       9,
@@ -2411,7 +2411,6 @@
       413,
       413,
       413,
-      413,
       412,
       412,
       412,
@@ -2449,6 +2448,7 @@
       410,
       410,
       409,
+      409,
       409
     ],
     "SWE": [
@@ -2458,7 +2458,6 @@
       178,
       178,
       178,
-      178,
       177,
       177,
       177,
@@ -2496,6 +2495,7 @@
       177,
       177,
       177,
+      176,
       176,
       176,
       176,
@@ -2503,7 +2503,6 @@
     ],
     "DEU": [
       303,
-      303,
       302,
       302,
       302,
@@ -2539,6 +2538,7 @@
       301,
       301,
       301,
+      300,
       300,
       300,
       300,
@@ -3553,7 +3553,6 @@
     ],
     "RUS": [
       2338,
-      2338,
       2337,
       2337,
       2337,
@@ -3599,6 +3598,7 @@
       2321,
       2321,
       2321,
+      2320,
       2320
     ],
     "BLR": [
@@ -3853,7 +3853,6 @@
     ],
     "CHN": [
       3000,
-      3000,
       2999,
       2999,
       2998,
@@ -3899,7 +3898,8 @@
       2976,
       2976,
       2975,
-      2975
+      2975,
+      2974
     ],
     "KOR": [
       106,
@@ -3910,7 +3910,7 @@
       106,
       106,
       106,
-      106,
+      105,
       105,
       105,
       105,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 9,
+    "composite": 8,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 17,
+    "kalshi": 12,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.18,
     "continents": [
@@ -4016,9 +4016,8 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "USA": 3,
-    "CAN": 1,
-    "MEX": 2
+    "USA": 2,
+    "CAN": 1
   },
   "events": [
     {
@@ -4034,27 +4033,6 @@
       "t": "2026-06-24T18:06:54Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
-    },
-    {
-      "iso": "MEX",
-      "title": "OMS declarar\u00e1 el fin del brote de hantavirus el 2 de julio, si no hay m\u00e1s contagios - Diario De M\u00e9xico",
-      "t": "2026-06-24T16:19:34Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ1B3NUdoMUlOLVVpOGFLT2dGYWVNS0xWcnN6LVE1dnNkVVB3MUNpOVR2ZnBycmtfRk84eVdTNm1kZ1BZbXpYR2hNRWtHQ19HYTVCNUNZUlhoaTVzV2d4Vjh4MmZWbnN4bmVia2hfald1WmpQZGFHU0toVnVWeDg1akVGYXp5a1E2TzU3c0FpQm83SW4tSnBzM1JjVDlTdzZYLTVFTHB30gGrAUFVX3lxTFAxZTVIVEhHam9LMXJFOUlSZ1hPdHcxblFKeHN5YlNpLXp2d2ZLWjBGTXlFMXF0NWc2dURvUFdlRG9ab1VpOHk2aEJnSWlQUUJzQVBCcFZqY25jWWRwZnMyLWpZN19nV1o2YVpNcDJ5WDFuRUpNXzBldl9pUFZWSmhTczY3MGIzU0xWWTc4UVp6ZlRnX0JBUlc1V1N2Wmw2TXFZSnpqSTJZaVdObw?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Estados Unidos levanta cuarentena por brote de hantavirus en crucero del Atl\u00e1ntico Sur - Tribuna de M\u00e9xico",
-      "t": "2026-06-23T14:18:59Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQkxiVnhXczdHQmh4anFaRDJDdnNReXhWVFFJc0tFTU9TYmtPNXpHUFlhVXh0bDFuUHFaNGFYOFEyZHUtVjYyM2xpcHp2X1V3SGoxMVZ3bjc4UFBoS043MXJfSmoyaXB5NXNSdzQxYVdaUFVfZlJpaWRpUVpmWWJsZFFVYVZ0R3I3dWtmQkdKUEw1d19DZkRGRk5CZk9oZHBmdUFQSGhEeHFTNV9mMHJwNTJ2MndwZw?oc=5"
-    },
-    {
-      "iso": "MEX",
-      "title": "Estados Unidos levanta cuarentena por brote de hantavirus en crucero del Atl\u00e1ntico Sur - Tribuna de M\u00e9xico",
-      "t": "2026-06-23T14:18:59Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQkxiVnhXczdHQmh4anFaRDJDdnNReXhWVFFJc0tFTU9TYmtPNXpHUFlhVXh0bDFuUHFaNGFYOFEyZHUtVjYyM2xpcHp2X1V3SGoxMVZ3bjc4UFBoS043MXJfSmoyaXB5NXNSdzQxYVdaUFVfZlJpaWRpUVpmWWJsZFFVYVZ0R3I3dWtmQkdKUEw1d19DZkRGRk5CZk9oZHBmdUFQSGhEeHFTNV9mMHJwNTJ2MndwZw?oc=5"
     },
     {
       "iso": "USA",
@@ -4080,18 +4058,13 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-28T04:55:18Z",
-      "signals": 2,
+      "last_update": "2026-06-28T05:00:07Z",
+      "signals": 1,
       "recent": [
         {
           "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
           "t": "2026-06-22T17:09:00Z",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzFvUTdYMWJhaHIwU0VtNndtM0Ffd1lMbDVMc09IVWE5TTExR0g3c1hUQjNUekhmelFibjBHM2FDaHpndGc4Mm9jR2hsYzZURWhJcGJNZWlQckphSmpCV3FwYWtiX1ZFaHRDc3ZFWW44YW9Yb1VPQmhiN3hyTU5FVVZiajcyRXFjZDBIejZHeGNtSkFnOUJxSWFHd29uaDJPZGxiX1pZX0xJdzR0V1RpNXE3VEMxZHdZX1RISkxmcVF0b1ZtYzVkdVFoZi1LRUsySmdRQjFBaW1mV3NVV1RPUDBKVdIB_gFBVV95cUxPWXZWdDFobXRPU2tSSUVKWGdZaWpKc2ZFbGtBRldyZDV5SkNmZWR5Uk1uWFdmRmEydWRlRkJqV1JNRW9rWWN5aTk3VUdpVmRnVjFEUFRtRFJtcmtMb2RDc2Q2TlZNZ2NfRWcwaEdtQ0RYLXlpQXduWWJqRm1oT3BfS3J4Z3ptU3ZGOXlfTk90SktFTUxXSXJfRmlfRkxTaGtBLTJVTzl2ZGNsRkI5QzctNzU4Zkx6UWgyWEhYUXg3REprYlp5dG41bXdsUVctLWM4a2M1ckZORzFDbGRkV0dBalpkTjhwQkVJUTBtSEtOMEFmRWg5NzVTb2FNNHllZw?oc=5"
-        },
-        {
-          "title": "Estados Unidos levanta cuarentena por brote de hantavirus en crucero del Atl\u00e1ntico Sur - Tribuna de M\u00e9xico",
-          "t": "2026-06-23T14:18:59Z",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQkxiVnhXczdHQmh4anFaRDJDdnNReXhWVFFJc0tFTU9TYmtPNXpHUFlhVXh0bDFuUHFaNGFYOFEyZHUtVjYyM2xpcHp2X1V3SGoxMVZ3bjc4UFBoS043MXJfSmoyaXB5NXNSdzQxYVdaUFVfZlJpaWRpUVpmWWJsZFFVYVZ0R3I3dWtmQkdKUEw1d19DZkRGRk5CZk9oZHBmdUFQSGhEeHFTNV9mMHJwNTJ2MndwZw?oc=5"
         }
       ]
     }
