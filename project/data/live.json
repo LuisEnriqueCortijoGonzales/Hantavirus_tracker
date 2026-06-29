@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-29T19:00:06.380312Z",
-  "next_update": "2026-06-29T19:05:00Z",
+  "generated": "2026-06-29T19:05:16.128405Z",
+  "next_update": "2026-06-29T19:10:00Z",
   "days_active": 52,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -151,11 +151,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 5,
+      "var_pct": 4,
       "strain": "hps",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GTM": {
@@ -785,7 +785,7 @@
       3,
       3,
       3,
-      4,
+      3,
       4,
       4,
       4,
@@ -1251,7 +1251,7 @@
       2351,
       2342,
       2333,
-      2324,
+      2323,
       2315,
       2306
     ],
@@ -4006,7 +4006,7 @@
     "composite": 20,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 22,
+    "kalshi": 24,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.19,
     "continents": [
@@ -4016,7 +4016,6 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "CAN": 1,
     "ARG": 3,
     "USA": 1
   },
@@ -4043,13 +4042,6 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTE5TNkVwRWxxRjJUS1l1N2xTUzFCNDRWR1NJdDZ0YVVDSS1UaW5FSjlLMFJQOHNCY1FaN1hTTE5TTzBVLWE2d0dMVUVGZUhwbmh4bnUxWW9GQktWUzZHUE8yTXlmTHM4S1JBeXZZN21KQjNtb2kxYjAtcFFlYzR2X9IBgAFBVV95cUxNZDJ5NTROVm1xZk4zUUVjdHI1SndUc3JJUWh6Y1JfT0R2ODVYSWtrU3BYeEV0dHNnQWlDNlc3WkxjQWFqMGZrMTJXYkNsYUlRMkdVdUNrMFNHREc3Tkx6SUFzQlJ5NUIzR1V6OWFpRVdRVTR0djRzM2k2Z1pGUEtWMg?oc=5"
     },
     {
-      "iso": "CAN",
-      "title": "Hantavirus self-isolation complete for 34 Canadians, Health Canada says - National - Global News",
-      "t": "2026-06-24T18:06:54Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
-    },
-    {
       "iso": "USA",
       "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
       "t": "2026-06-22T17:09:00Z",
@@ -4073,7 +4065,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-29T19:00:06Z",
+      "last_update": "2026-06-29T19:05:16Z",
       "signals": 4,
       "recent": [
         {
