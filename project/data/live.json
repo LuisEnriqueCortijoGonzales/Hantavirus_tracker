@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-29T03:05:13.168128Z",
-  "next_update": "2026-06-29T03:10:00Z",
+  "generated": "2026-06-29T03:10:17.641282Z",
+  "next_update": "2026-06-29T03:15:00Z",
   "days_active": 52,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -269,14 +269,14 @@
       "gov_alert": false
     },
     "FRA": {
-      "ytd": 24,
+      "ytd": 25,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": -1,
+      "var_pct": 0,
       "strain": "puumala",
       "new_today": 0,
-      "r0": 0.0,
-      "signals": 0,
+      "r0": 3.5,
+      "signals": 1,
       "gov_alert": false
     },
     "CHE": {
@@ -572,7 +572,7 @@
       189,
       186,
       184,
-      182,
+      181,
       179,
       177,
       175,
@@ -701,7 +701,7 @@
       8,
       8,
       8,
-      8,
+      9,
       9,
       9,
       9,
@@ -881,7 +881,7 @@
       422,
       420,
       418,
-      416,
+      415,
       413,
       411,
       409,
@@ -965,7 +965,7 @@
       25,
       25,
       25,
-      24
+      25
     ],
     "CHE": [
       8,
@@ -2693,13 +2693,13 @@
       25,
       25,
       25,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24,
-      24
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25
     ],
     "CHE": [
       8,
@@ -4008,7 +4008,7 @@
     "polymarket": 4,
     "kalshi": 12,
     "max_andes_r0": 0.0,
-    "avg_other_r0": 0.19,
+    "avg_other_r0": 0.26,
     "continents": [
       "Americas"
     ],
@@ -4016,9 +4016,17 @@
     "outbreak_count": 4
   },
   "signal_summary": {
+    "FRA": 1,
     "USA": 1
   },
   "events": [
+    {
+      "iso": "FRA",
+      "title": "El brote de hantavirus deber\u00eda concluir oficialmente el 2 de julio, seg\u00fan la OMS - France 24",
+      "t": "2026-06-25T10:15:19Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMWxCWEFRSVZxRFNRQlBDdWt6U3NnTFhlcUtMZ2J4dVR2cG14VEhFNy1VaWY4QjVEX1J1d2xjZnRtS2dpVG5jd3RsUmZ3X2tCYjJkdmlQUzY3Y2ZwZkE1a3NMSGpRTGhtMHFNU05fbnRXNzVpZTE1Q1J5UFRzVXpXVndWZ0Jqb2F6S2MtWEdUWGdPU2RwUTJVLWM4SnIxT3ltbmVnSTBEcnlGYTdSVHhNTDh4cXM4MTZuLS1XUkhqbGZjWExTTmZfSXlBajh3X0wtcVpzNGJtYlJvdw?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
@@ -4043,7 +4051,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-29T03:05:13Z",
+      "last_update": "2026-06-29T03:10:17Z",
       "signals": 1,
       "recent": [
         {
