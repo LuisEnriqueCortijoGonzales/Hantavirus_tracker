@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-29T18:45:13.891633Z",
-  "next_update": "2026-06-29T18:50:00Z",
+  "generated": "2026-06-29T18:50:13.120290Z",
+  "next_update": "2026-06-29T18:55:00Z",
   "days_active": 52,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 163,
+      "ytd": 164,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": -7,
       "strain": "andes",
       "new_today": 0,
-      "r0": 0.0,
-      "signals": 2,
+      "r0": 3.5,
+      "signals": 3,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      191,
-      189,
-      186,
-      184,
-      182,
+      192,
+      190,
+      187,
+      185,
+      183,
       180,
-      177,
-      175,
-      173,
-      171,
-      169,
-      167,
-      165,
-      163
+      178,
+      176,
+      174,
+      172,
+      170,
+      168,
+      166,
+      164
     ],
     "CHL": [
       73,
@@ -1452,11 +1452,21 @@
   ],
   "hourly_history": {
     "ARG": [
+      168,
+      168,
+      168,
       167,
       167,
       167,
       167,
       167,
+      167,
+      167,
+      167,
+      167,
+      167,
+      167,
+      167,
       166,
       166,
       166,
@@ -1489,17 +1499,7 @@
       164,
       164,
       164,
-      164,
-      164,
-      164,
-      164,
-      164,
-      163,
-      163,
-      163,
-      163,
-      163,
-      163
+      164
     ],
     "CHL": [
       65,
@@ -4003,11 +4003,11 @@
     ]
   },
   "pandemic": {
-    "composite": 8,
-    "epidemio": 8,
+    "composite": 21,
+    "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 12,
-    "max_andes_r0": 0.0,
+    "kalshi": 29,
+    "max_andes_r0": 3.5,
     "avg_other_r0": 0.19,
     "continents": [
       "Americas"
@@ -4017,10 +4017,17 @@
   },
   "signal_summary": {
     "CAN": 1,
-    "ARG": 2,
+    "ARG": 3,
     "USA": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Argentina halla hantavirus en roedores en Ushuaia pero descarta nexo con brote de crucero - Levante-EMV",
+      "t": "2026-06-29T18:45:46Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS0NMTzZBeGkyRjVXT21iVG5QOHFQbmRaRW11Q2YxN3NUeEVIWUJzMHZMOXZRbFpJMHg0VjQ4MFYxNld6djJTLTZuQU5BLUhRcFNIeEhFZ0FMaldSRkFsWU9KdFpyYzdGVG5jLTNOWkJJc3NQald0OEZyZVM1a2Uxc2hQb3JFd0QwOXI0ckZJVG4wQXhOUVVXMlhHN3g2WW9hZlVIOF9DeGJQdkdlUFlYN9IBtgFBVV95cUxOeXdqSmZOS0RVbVRfblhIRkYwcXI0XzN0THJwVnBUZHNBd1l1eXpqRnM2OVNaUF9NczIzUWJaQ0tza2JMZW9Ec1pERElQVnp1Tld4ek45ejZqNUQ3QXZRQ0I2UkY1dzRnWnE2WVdveGgwOWcxNEUyTll3TlpRaVVJM2poVEYzRGZVM0hhOU5NNTNxclluSzQ0b2MydnZMOGE1Z01vU21nOFExaFVGaWg2OExaSEhiQQ?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina descarta v\u00ednculo entre hallazgo de hantavirus en Tierra del Fuego y brote mortal del crucero Hondius - Diario 24 Horas Quintana Roo",
@@ -4066,9 +4073,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-29T18:45:13Z",
-      "signals": 3,
+      "last_update": "2026-06-29T18:50:13Z",
+      "signals": 4,
       "recent": [
+        {
+          "title": "Argentina halla hantavirus en roedores en Ushuaia pero descarta nexo con brote de crucero - Levante-EMV",
+          "t": "2026-06-29T18:45:46Z",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS0NMTzZBeGkyRjVXT21iVG5QOHFQbmRaRW11Q2YxN3NUeEVIWUJzMHZMOXZRbFpJMHg0VjQ4MFYxNld6djJTLTZuQU5BLUhRcFNIeEhFZ0FMaldSRkFsWU9KdFpyYzdGVG5jLTNOWkJJc3NQald0OEZyZVM1a2Uxc2hQb3JFd0QwOXI0ckZJVG4wQXhOUVVXMlhHN3g2WW9hZlVIOF9DeGJQdkdlUFlYN9IBtgFBVV95cUxOeXdqSmZOS0RVbVRfblhIRkYwcXI0XzN0THJwVnBUZHNBd1l1eXpqRnM2OVNaUF9NczIzUWJaQ0tza2JMZW9Ec1pERElQVnp1Tld4ek45ejZqNUQ3QXZRQ0I2UkY1dzRnWnE2WVdveGgwOWcxNEUyTll3TlpRaVVJM2poVEYzRGZVM0hhOU5NNTNxclluSzQ0b2MydnZMOGE1Z01vU21nOFExaFVGaWg2OExaSEhiQQ?oc=5"
+        },
         {
           "title": "Argentina halla hantavirus en Tierra del Fuego sin nexo con brote del crucero 'Hondius' - El Nuevo Herald",
           "t": "2026-06-29T15:02:10Z",
