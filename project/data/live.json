@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-29T14:50:12.388355Z",
-  "next_update": "2026-06-29T14:55:00Z",
+  "generated": "2026-06-29T14:55:11.627913Z",
+  "next_update": "2026-06-29T15:00:00Z",
   "days_active": 52,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 162,
+      "ytd": 163,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": -8,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      190,
-      187,
-      185,
-      183,
-      180,
-      178,
-      176,
-      174,
-      172,
+      191,
+      188,
+      186,
+      184,
+      181,
+      179,
+      177,
+      175,
+      173,
       170,
       168,
       166,
       164,
-      162
+      163
     ],
     "CHL": [
       73,
@@ -1453,6 +1453,16 @@
   "hourly_history": {
     "ARG": [
       166,
+      166,
+      166,
+      166,
+      166,
+      166,
+      166,
+      166,
+      166,
+      166,
+      166,
       165,
       165,
       165,
@@ -1465,7 +1475,7 @@
       165,
       165,
       165,
-      164,
+      165,
       164,
       164,
       164,
@@ -1489,17 +1499,7 @@
       163,
       163,
       163,
-      163,
-      162,
-      162,
-      162,
-      162,
-      162,
-      162,
-      162,
-      162,
-      162,
-      162
+      163
     ],
     "CHL": [
       65,
@@ -4016,9 +4016,17 @@
     "outbreak_count": 4
   },
   "signal_summary": {
+    "ARG": 1,
     "USA": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Argentina halla hantavirus en Tierra del Fuego sin nexo con brote del crucero Hondius - Diario Libre",
+      "t": "2026-06-29T14:46:00Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX1hMVnNWcU8zOGJiNjBZbDdiOFJUdG1waEFYTndyY0JqU1N1bldxcEhvOE9lNnFJQklGX1U2ZFBxWnk2Tno0Wm1LTHA5TVBLbm9jLUxpOWl2dW1HdjMzUDJISFBsUk11emRUUjk1d3YzVWVYRGV2NXNkdWpZUm1xakY0UnE3b2xrSEdmbFBZZGstemhiel8zc2VPLUFaaU9xRmNMLW83Ynl4Vmx2UjdSZ2x5SzTSAboBQVVfeXFMT2llRFNXRzBLZW15MVdmSVlQd1FNQnZEWDNQZWdNb2VqeXQxWGNuRjFFWmdwZEI0RGFkLWpuMjVTdk9qNTBlbkNaU3h0UnRIRDkwN3lMQkd0bUYxUE1kelc3YWltRTR0dVN5NE5hOFFULTFmQWxDdEM5aDd2UjhLQ1p2cE9WcmFCb1ZaLURiR2JVVGlCMEtqNUF5dGdHNGxzMTZCMEFoT3BHRzYybVllOFFrVWtBM0NPVTFn?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
@@ -4043,9 +4051,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-29T14:50:12Z",
-      "signals": 1,
+      "last_update": "2026-06-29T14:55:11Z",
+      "signals": 2,
       "recent": [
+        {
+          "title": "Argentina halla hantavirus en Tierra del Fuego sin nexo con brote del crucero Hondius - Diario Libre",
+          "t": "2026-06-29T14:46:00Z",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX1hMVnNWcU8zOGJiNjBZbDdiOFJUdG1waEFYTndyY0JqU1N1bldxcEhvOE9lNnFJQklGX1U2ZFBxWnk2Tno0Wm1LTHA5TVBLbm9jLUxpOWl2dW1HdjMzUDJISFBsUk11emRUUjk1d3YzVWVYRGV2NXNkdWpZUm1xakY0UnE3b2xrSEdmbFBZZGstemhiel8zc2VPLUFaaU9xRmNMLW83Ynl4Vmx2UjdSZ2x5SzTSAboBQVVfeXFMT2llRFNXRzBLZW15MVdmSVlQd1FNQnZEWDNQZWdNb2VqeXQxWGNuRjFFWmdwZEI0RGFkLWpuMjVTdk9qNTBlbkNaU3h0UnRIRDkwN3lMQkd0bUYxUE1kelc3YWltRTR0dVN5NE5hOFFULTFmQWxDdEM5aDd2UjhLQ1p2cE9WcmFCb1ZaLURiR2JVVGlCMEtqNUF5dGdHNGxzMTZCMEFoT3BHRzYybVllOFFrVWtBM0NPVTFn?oc=5"
+        },
         {
           "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
           "t": "2026-06-22T17:09:00Z",
