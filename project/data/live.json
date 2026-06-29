@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-29T03:20:10.913146Z",
-  "next_update": "2026-06-29T03:25:00Z",
+  "generated": "2026-06-29T03:25:10.154122Z",
+  "next_update": "2026-06-29T03:30:00Z",
   "days_active": 52,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -85,11 +85,11 @@
       "ytd": 34,
       "alert": "brote",
       "cfr": 36.0,
-      "var_pct": -6,
+      "var_pct": -7,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "PRY": {
@@ -269,14 +269,14 @@
       "gov_alert": false
     },
     "FRA": {
-      "ytd": 25,
+      "ytd": 24,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": 0,
+      "var_pct": -1,
       "strain": "puumala",
       "new_today": 0,
-      "r0": 3.5,
-      "signals": 1,
+      "r0": 0.0,
+      "signals": 0,
       "gov_alert": false
     },
     "CHE": {
@@ -467,7 +467,7 @@
       "gov_alert": false
     },
     "RUS": {
-      "ytd": 2312,
+      "ytd": 2311,
       "alert": "vigilancia",
       "cfr": 0.9,
       "var_pct": -3,
@@ -685,10 +685,10 @@
       38,
       37,
       37,
-      37,
       36,
       36,
       36,
+      35,
       35,
       35,
       34,
@@ -965,7 +965,7 @@
       25,
       25,
       25,
-      25
+      24
     ],
     "CHE": [
       8,
@@ -1253,7 +1253,7 @@
       2339,
       2329,
       2320,
-      2312
+      2311
     ],
     "BLR": [
       37,
@@ -1341,7 +1341,7 @@
       3116,
       3100,
       3085,
-      3071,
+      3070,
       3056,
       3042,
       3028,
@@ -2693,13 +2693,13 @@
       25,
       25,
       25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25,
-      25
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24
     ],
     "CHE": [
       8,
@@ -4008,33 +4008,15 @@
     "polymarket": 4,
     "kalshi": 12,
     "max_andes_r0": 0.0,
-    "avg_other_r0": 0.26,
+    "avg_other_r0": 0.19,
     "continents": [
       "Americas"
     ],
     "emergency_count": 0,
     "outbreak_count": 4
   },
-  "signal_summary": {
-    "FRA": 1,
-    "USA": 1
-  },
-  "events": [
-    {
-      "iso": "FRA",
-      "title": "El brote de hantavirus deber\u00eda concluir oficialmente el 2 de julio, seg\u00fan la OMS - France 24",
-      "t": "2026-06-25T10:15:19Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMWxCWEFRSVZxRFNRQlBDdWt6U3NnTFhlcUtMZ2J4dVR2cG14VEhFNy1VaWY4QjVEX1J1d2xjZnRtS2dpVG5jd3RsUmZ3X2tCYjJkdmlQUzY3Y2ZwZkE1a3NMSGpRTGhtMHFNU05fbnRXNzVpZTE1Q1J5UFRzVXpXVndWZ0Jqb2F6S2MtWEdUWGdPU2RwUTJVLWM4SnIxT3ltbmVnSTBEcnlGYTdSVHhNTDh4cXM4MTZuLS1XUkhqbGZjWExTTmZfSXlBajh3X0wtcVpzNGJtYlJvdw?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
-      "t": "2026-06-22T17:09:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzFvUTdYMWJhaHIwU0VtNndtM0Ffd1lMbDVMc09IVWE5TTExR0g3c1hUQjNUekhmelFibjBHM2FDaHpndGc4Mm9jR2hsYzZURWhJcGJNZWlQckphSmpCV3FwYWtiX1ZFaHRDc3ZFWW44YW9Yb1VPQmhiN3hyTU5FVVZiajcyRXFjZDBIejZHeGNtSkFnOUJxSWFHd29uaDJPZGxiX1pZX0xJdzR0V1RpNXE3VEMxZHdZX1RISkxmcVF0b1ZtYzVkdVFoZi1LRUsySmdRQjFBaW1mV3NVV1RPUDBKVdIB_gFBVV95cUxPWXZWdDFobXRPU2tSSUVKWGdZaWpKc2ZFbGtBRldyZDV5SkNmZWR5Uk1uWFdmRmEydWRlRkJqV1JNRW9rWWN5aTk3VUdpVmRnVjFEUFRtRFJtcmtMb2RDc2Q2TlZNZ2NfRWcwaEdtQ0RYLXlpQXduWWJqRm1oT3BfS3J4Z3ptU3ZGOXlfTk90SktFTUxXSXJfRmlfRkxTaGtBLTJVTzl2ZGNsRkI5QzctNzU4Zkx6UWgyWEhYUXg3REprYlp5dG41bXdsUVctLWM4a2M1ckZORzFDbGRkV0dBalpkTjhwQkVJUTBtSEtOMEFmRWg5NzVTb2FNNHllZw?oc=5"
-    }
-  ],
+  "signal_summary": {},
+  "events": [],
   "maritime_events": [
     {
       "id": "cruise-iberia-2026-05",
@@ -4051,15 +4033,9 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-29T03:20:10Z",
-      "signals": 1,
-      "recent": [
-        {
-          "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
-          "t": "2026-06-22T17:09:00Z",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzFvUTdYMWJhaHIwU0VtNndtM0Ffd1lMbDVMc09IVWE5TTExR0g3c1hUQjNUekhmelFibjBHM2FDaHpndGc4Mm9jR2hsYzZURWhJcGJNZWlQckphSmpCV3FwYWtiX1ZFaHRDc3ZFWW44YW9Yb1VPQmhiN3hyTU5FVVZiajcyRXFjZDBIejZHeGNtSkFnOUJxSWFHd29uaDJPZGxiX1pZX0xJdzR0V1RpNXE3VEMxZHdZX1RISkxmcVF0b1ZtYzVkdVFoZi1LRUsySmdRQjFBaW1mV3NVV1RPUDBKVdIB_gFBVV95cUxPWXZWdDFobXRPU2tSSUVKWGdZaWpKc2ZFbGtBRldyZDV5SkNmZWR5Uk1uWFdmRmEydWRlRkJqV1JNRW9rWWN5aTk3VUdpVmRnVjFEUFRtRFJtcmtMb2RDc2Q2TlZNZ2NfRWcwaEdtQ0RYLXlpQXduWWJqRm1oT3BfS3J4Z3ptU3ZGOXlfTk90SktFTUxXSXJfRmlfRkxTaGtBLTJVTzl2ZGNsRkI5QzctNzU4Zkx6UWgyWEhYUXg3REprYlp5dG41bXdsUVctLWM4a2M1ckZORzFDbGRkV0dBalpkTjhwQkVJUTBtSEtOMEFmRWg5NzVTb2FNNHllZw?oc=5"
-        }
-      ]
+      "last_update": "2026-06-29T03:25:10Z",
+      "signals": 0,
+      "recent": []
     }
   ]
 }
