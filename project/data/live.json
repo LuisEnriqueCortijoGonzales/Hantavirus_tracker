@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-29T00:20:16.833793Z",
-  "next_update": "2026-06-29T00:25:00Z",
+  "generated": "2026-06-29T00:25:16.140396Z",
+  "next_update": "2026-06-29T00:30:00Z",
   "days_active": 52,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 164,
+      "ytd": 163,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": -8,
       "strain": "andes",
       "new_today": 0,
-      "r0": 3.5,
-      "signals": 1,
+      "r0": 0.0,
+      "signals": 0,
       "gov_alert": false
     },
     "CHL": {
@@ -269,14 +269,14 @@
       "gov_alert": false
     },
     "FRA": {
-      "ytd": 24,
+      "ytd": 25,
       "alert": "endemico",
       "cfr": 0.1,
-      "var_pct": -1,
+      "var_pct": 0,
       "strain": "puumala",
       "new_today": 0,
-      "r0": 0.0,
-      "signals": 0,
+      "r0": 3.5,
+      "signals": 1,
       "gov_alert": false
     },
     "CHE": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      192,
-      190,
-      187,
-      185,
-      183,
-      180,
-      178,
-      176,
-      174,
-      172,
-      170,
-      168,
-      166,
-      164
+      191,
+      189,
+      186,
+      184,
+      182,
+      179,
+      177,
+      175,
+      173,
+      171,
+      169,
+      167,
+      165,
+      163
     ],
     "CHL": [
       74,
@@ -965,7 +965,7 @@
       25,
       25,
       25,
-      24
+      25
     ],
     "CHE": [
       8,
@@ -1244,7 +1244,7 @@
       2432,
       2421,
       2410,
-      2400,
+      2399,
       2389,
       2379,
       2369,
@@ -1252,7 +1252,7 @@
       2349,
       2340,
       2331,
-      2322,
+      2321,
       2313
     ],
     "BLR": [
@@ -1452,16 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      168,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
       167,
       167,
       167,
@@ -1477,7 +1467,6 @@
       166,
       166,
       166,
-      165,
       165,
       165,
       165,
@@ -1499,7 +1488,18 @@
       164,
       164,
       164,
-      164
+      164,
+      164,
+      164,
+      164,
+      163,
+      163,
+      163,
+      163,
+      163,
+      163,
+      163,
+      163
     ],
     "CHL": [
       65,
@@ -2696,10 +2696,10 @@
       25,
       25,
       25,
-      24,
-      24,
-      24,
-      24
+      25,
+      25,
+      25,
+      25
     ],
     "CHE": [
       8,
@@ -4003,12 +4003,12 @@
     ]
   },
   "pandemic": {
-    "composite": 21,
-    "epidemio": 26,
+    "composite": 9,
+    "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 28,
-    "max_andes_r0": 3.5,
-    "avg_other_r0": 0.19,
+    "kalshi": 15,
+    "max_andes_r0": 0.0,
+    "avg_other_r0": 0.26,
     "continents": [
       "Americas"
     ],
@@ -4016,23 +4016,23 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "ARG": 1,
+    "FRA": 1,
     "USA": 1
   },
   "events": [
+    {
+      "iso": "FRA",
+      "title": "El brote de hantavirus deber\u00eda concluir oficialmente el 2 de julio, seg\u00fan la OMS - France 24",
+      "t": "2026-06-25T10:15:19Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMWxCWEFRSVZxRFNRQlBDdWt6U3NnTFhlcUtMZ2J4dVR2cG14VEhFNy1VaWY4QjVEX1J1d2xjZnRtS2dpVG5jd3RsUmZ3X2tCYjJkdmlQUzY3Y2ZwZkE1a3NMSGpRTGhtMHFNU05fbnRXNzVpZTE1Q1J5UFRzVXpXVndWZ0Jqb2F6S2MtWEdUWGdPU2RwUTJVLWM4SnIxT3ltbmVnSTBEcnlGYTdSVHhNTDh4cXM4MTZuLS1XUkhqbGZjWExTTmZfSXlBajh3X0wtcVpzNGJtYlJvdw?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
       "t": "2026-06-22T17:09:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzFvUTdYMWJhaHIwU0VtNndtM0Ffd1lMbDVMc09IVWE5TTExR0g3c1hUQjNUekhmelFibjBHM2FDaHpndGc4Mm9jR2hsYzZURWhJcGJNZWlQckphSmpCV3FwYWtiX1ZFaHRDc3ZFWW44YW9Yb1VPQmhiN3hyTU5FVVZiajcyRXFjZDBIejZHeGNtSkFnOUJxSWFHd29uaDJPZGxiX1pZX0xJdzR0V1RpNXE3VEMxZHdZX1RISkxmcVF0b1ZtYzVkdVFoZi1LRUsySmdRQjFBaW1mV3NVV1RPUDBKVdIB_gFBVV95cUxPWXZWdDFobXRPU2tSSUVKWGdZaWpKc2ZFbGtBRldyZDV5SkNmZWR5Uk1uWFdmRmEydWRlRkJqV1JNRW9rWWN5aTk3VUdpVmRnVjFEUFRtRFJtcmtMb2RDc2Q2TlZNZ2NfRWcwaEdtQ0RYLXlpQXduWWJqRm1oT3BfS3J4Z3ptU3ZGOXlfTk90SktFTUxXSXJfRmlfRkxTaGtBLTJVTzl2ZGNsRkI5QzctNzU4Zkx6UWgyWEhYUXg3REprYlp5dG41bXdsUVctLWM4a2M1ckZORzFDbGRkV0dBalpkTjhwQkVJUTBtSEtOMEFmRWg5NzVTb2FNNHllZw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus en Argentina: la letalidad alcanz\u00f3 un r\u00e9cord hist\u00f3rico en la temporada 2025-2026 - Infobae",
-      "t": "2026-06-17T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbU9lQmRwWXRVQ1ZvTmhWMW1uLVphWGlTQnpPaUdLSll4ZjQ5UEtGRmpiUUFmdTYzRlR6Vk1hWkdvRkhOV1ZiLTlXSWxDNE1vMlhjYWl2SUJxRVFnSURzTk03MnROT2ZrLW9mSXhQek9kUm04SFVERlVfY1laT3Bydk92d3o5U1VSSEtXYzAxZm9manlSQ1FFTFBkVWxMWWN6MGtDV2dSY2Rzc0FOZ1BnUnEwWHd4ZTkxY0tUQ19NM0J0QURSUmkwakY5V3rSAecBQVVfeXFMT182emFDUmRHSEhzYnEyZ19YNXFDM1NWRFc2WkVYaC1jUnZ4dzdQTVUyZlFqZ2VmTmRnYmtBMC1uTUhDUHhvTGdDQjl0Mkl6bGx5ODBFRldSMVJGSFByZnFFM0dVS3Jpel9KOEhKTi16bkxEbzNXR2RuMFpWNWhQTWt3UkhyaHJCNVk4YVk4WWJIdThadHhXd1ozWGFEVUhRMHFFRGJtVDdnQzhGQlBZeFFvNlp4RURRbzBnT0NOdmR5cVZRWTI3X2RLUHVfbVUwWXBDOUxpZVFBb3BRb3dWajA5Nm1wVHA4?oc=5"
     }
   ],
   "maritime_events": [
@@ -4051,7 +4051,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-29T00:20:16Z",
+      "last_update": "2026-06-29T00:25:16Z",
       "signals": 1,
       "recent": [
         {
