@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-29T15:35:10.877683Z",
-  "next_update": "2026-06-29T15:40:00Z",
+  "generated": "2026-06-29T15:40:15.388031Z",
+  "next_update": "2026-06-29T15:45:00Z",
   "days_active": 52,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 162,
+      "ytd": 163,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": -8,
+      "var_pct": -7,
       "strain": "andes",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 1,
+      "signals": 2,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      191,
-      188,
-      186,
+      192,
+      189,
+      187,
       184,
-      181,
-      179,
-      177,
+      182,
+      180,
+      178,
       175,
-      172,
-      170,
-      168,
-      166,
-      164,
-      162
+      173,
+      171,
+      169,
+      167,
+      165,
+      163
     ],
     "CHL": [
       73,
@@ -880,7 +880,7 @@
       423,
       421,
       419,
-      417,
+      416,
       414,
       412,
       410,
@@ -1247,7 +1247,7 @@
       2393,
       2383,
       2372,
-      2363,
+      2362,
       2353,
       2343,
       2334,
@@ -1452,6 +1452,14 @@
   ],
   "hourly_history": {
     "ARG": [
+      167,
+      167,
+      167,
+      167,
+      167,
+      167,
+      167,
+      167,
       166,
       166,
       166,
@@ -1462,6 +1470,8 @@
       166,
       166,
       166,
+      166,
+      166,
       165,
       165,
       165,
@@ -1487,16 +1497,6 @@
       164,
       164,
       164,
-      163,
-      163,
-      163,
-      163,
-      163,
-      163,
-      163,
-      163,
-      163,
-      163,
       163,
       163,
       163
@@ -4006,7 +4006,7 @@
     "composite": 8,
     "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 14,
+    "kalshi": 12,
     "max_andes_r0": 0.0,
     "avg_other_r0": 0.19,
     "continents": [
@@ -4016,10 +4016,17 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "ARG": 1,
+    "ARG": 2,
     "USA": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Argentina descarta v\u00ednculo entre hallazgo de hantavirus en Tierra del Fuego y brote mortal del crucero Hondius - Diario 24 Horas Quintana Roo",
+      "t": "2026-06-29T15:30:32Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9KRXlGdnVoc0RJdzBMdUtQeVZaZlEtaEthejhRRTcyWC1yenYwWmYwbGJKMHkzTUZ2OHhsSmR1SThiTGctM1UyaVZmZG5ReTJhcnJpNWh1WjFmSEtzMVVJWHFNZXh0S3ZzUGh4LVhoOA?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina halla hantavirus en Tierra del Fuego sin nexo con brote del crucero \"Hondius\" - El Economista",
@@ -4051,13 +4058,18 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-29T15:35:10Z",
-      "signals": 2,
+      "last_update": "2026-06-29T15:40:15Z",
+      "signals": 3,
       "recent": [
         {
           "title": "Argentina halla hantavirus en Tierra del Fuego sin nexo con brote del crucero \"Hondius\" - El Economista",
           "t": "2026-06-29T15:05:48Z",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWTFLeHFDN2VodEZiVGVza190NjBNQzZRS2VCTGJ6M1ZXd3V5S1JVa2t0RENtbndDVlJFWFdpNFdLSmNDYmlsMndNc1hYRmxvXzMtVG4zWF93RUV1VUl2ODVsVTZRZlhHclhuV2x6MmhsbnZvMl9CYThHcEtNYkZTSlFsUEU4MXR1akUwY0k5NTBHa0RwSE9aOEZ6NE9KVzFOREpYZkpmRHhLMll5dE1KWjh2eGx2Mk1VSHVYdEwyMWUyaVRxS2ZxbGRJWTYyeXU40gHWAUFVX3lxTE5CZVNBdFdDNWhucW16ME5kMUc4M3hIdkc3ZHhVYUVSQ2ZkdUNaZUNzMnppNEpoNFgwajN1UG9JbmZXUXBlaEtrV0tCMzBNeEhwSktucWk3RE5SeGdIQnVGSF9YeGV2VER2c213Tkp6OHVBaEQ5cmxJTTh5V2NwTW91VVBRMjJMMVBucVdfdW9kUmQ2T0gyYWtFaFlpMjk2TVo5eGlXaWFVblRfV1NleGpzVE4yMld3UUowOVdmTVl0dGNtYU9lNER3RHRnQ2VwWmJPdDNYYWc?oc=5"
+        },
+        {
+          "title": "Argentina descarta v\u00ednculo entre hallazgo de hantavirus en Tierra del Fuego y brote mortal del crucero Hondius - Diario 24 Horas Quintana Roo",
+          "t": "2026-06-29T15:30:32Z",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9KRXlGdnVoc0RJdzBMdUtQeVZaZlEtaEthejhRRTcyWC1yenYwWmYwbGJKMHkzTUZ2OHhsSmR1SThiTGctM1UyaVZmZG5ReTJhcnJpNWh1WjFmSEtzMVVJWHFNZXh0S3ZzUGh4LVhoOA?oc=5"
         },
         {
           "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
