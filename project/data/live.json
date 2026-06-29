@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-29T21:45:13.145803Z",
-  "next_update": "2026-06-29T21:50:00Z",
+  "generated": "2026-06-29T21:50:12.381508Z",
+  "next_update": "2026-06-29T21:55:00Z",
   "days_active": 52,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -82,14 +82,14 @@
       "gov_alert": false
     },
     "USA": {
-      "ytd": 34,
+      "ytd": 33,
       "alert": "brote",
       "cfr": 36.0,
       "var_pct": -6,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "PRY": {
@@ -684,7 +684,6 @@
       38,
       37,
       37,
-      37,
       36,
       36,
       36,
@@ -693,7 +692,8 @@
       35,
       34,
       34,
-      34
+      34,
+      33
     ],
     "PRY": [
       8,
@@ -1846,10 +1846,10 @@
       34,
       34,
       34,
-      34,
-      34,
-      34,
-      34
+      33,
+      33,
+      33,
+      33
     ],
     "PRY": [
       9,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 21,
+    "composite": 20,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 29,
+    "kalshi": 24,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.19,
     "continents": [
@@ -4017,8 +4017,7 @@
   },
   "signal_summary": {
     "CAN": 1,
-    "ARG": 4,
-    "USA": 1
+    "ARG": 4
   },
   "events": [
     {
@@ -4055,13 +4054,6 @@
       "t": "2026-06-24T18:06:54Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
-      "t": "2026-06-22T17:09:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzFvUTdYMWJhaHIwU0VtNndtM0Ffd1lMbDVMc09IVWE5TTExR0g3c1hUQjNUekhmelFibjBHM2FDaHpndGc4Mm9jR2hsYzZURWhJcGJNZWlQckphSmpCV3FwYWtiX1ZFaHRDc3ZFWW44YW9Yb1VPQmhiN3hyTU5FVVZiajcyRXFjZDBIejZHeGNtSkFnOUJxSWFHd29uaDJPZGxiX1pZX0xJdzR0V1RpNXE3VEMxZHdZX1RISkxmcVF0b1ZtYzVkdVFoZi1LRUsySmdRQjFBaW1mV3NVV1RPUDBKVdIB_gFBVV95cUxPWXZWdDFobXRPU2tSSUVKWGdZaWpKc2ZFbGtBRldyZDV5SkNmZWR5Uk1uWFdmRmEydWRlRkJqV1JNRW9rWWN5aTk3VUdpVmRnVjFEUFRtRFJtcmtMb2RDc2Q2TlZNZ2NfRWcwaEdtQ0RYLXlpQXduWWJqRm1oT3BfS3J4Z3ptU3ZGOXlfTk90SktFTUxXSXJfRmlfRkxTaGtBLTJVTzl2ZGNsRkI5QzctNzU4Zkx6UWgyWEhYUXg3REprYlp5dG41bXdsUVctLWM4a2M1ckZORzFDbGRkV0dBalpkTjhwQkVJUTBtSEtOMEFmRWg5NzVTb2FNNHllZw?oc=5"
     }
   ],
   "maritime_events": [
@@ -4080,8 +4072,8 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-29T21:45:13Z",
-      "signals": 4,
+      "last_update": "2026-06-29T21:50:12Z",
+      "signals": 3,
       "recent": [
         {
           "title": "Argentina halla hantavirus en roedores silvestres en Usuahia, pero descarta un nexo con el brote del crucero MV Hondius - 20Minutos",
@@ -4097,11 +4089,6 @@
           "title": "Argentina descarta v\u00ednculo entre hallazgo de hantavirus en Tierra del Fuego y brote mortal del crucero Hondius - Diario 24 Horas Quintana Roo",
           "t": "2026-06-29T15:30:32Z",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9KRXlGdnVoc0RJdzBMdUtQeVZaZlEtaEthejhRRTcyWC1yenYwWmYwbGJKMHkzTUZ2OHhsSmR1SThiTGctM1UyaVZmZG5ReTJhcnJpNWh1WjFmSEtzMVVJWHFNZXh0S3ZzUGh4LVhoOA?oc=5"
-        },
-        {
-          "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
-          "t": "2026-06-22T17:09:00Z",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzFvUTdYMWJhaHIwU0VtNndtM0Ffd1lMbDVMc09IVWE5TTExR0g3c1hUQjNUekhmelFibjBHM2FDaHpndGc4Mm9jR2hsYzZURWhJcGJNZWlQckphSmpCV3FwYWtiX1ZFaHRDc3ZFWW44YW9Yb1VPQmhiN3hyTU5FVVZiajcyRXFjZDBIejZHeGNtSkFnOUJxSWFHd29uaDJPZGxiX1pZX0xJdzR0V1RpNXE3VEMxZHdZX1RISkxmcVF0b1ZtYzVkdVFoZi1LRUsySmdRQjFBaW1mV3NVV1RPUDBKVdIB_gFBVV95cUxPWXZWdDFobXRPU2tSSUVKWGdZaWpKc2ZFbGtBRldyZDV5SkNmZWR5Uk1uWFdmRmEydWRlRkJqV1JNRW9rWWN5aTk3VUdpVmRnVjFEUFRtRFJtcmtMb2RDc2Q2TlZNZ2NfRWcwaEdtQ0RYLXlpQXduWWJqRm1oT3BfS3J4Z3ptU3ZGOXlfTk90SktFTUxXSXJfRmlfRkxTaGtBLTJVTzl2ZGNsRkI5QzctNzU4Zkx6UWgyWEhYUXg3REprYlp5dG41bXdsUVctLWM4a2M1ckZORzFDbGRkV0dBalpkTjhwQkVJUTBtSEtOMEFmRWg5NzVTb2FNNHllZw?oc=5"
         }
       ]
     }
