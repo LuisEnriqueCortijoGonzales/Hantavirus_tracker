@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-29T20:20:04.885774Z",
-  "next_update": "2026-06-29T20:25:00Z",
+  "generated": "2026-06-29T20:25:09.372231Z",
+  "next_update": "2026-06-29T20:30:00Z",
   "days_active": 52,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 164,
+      "ytd": 161,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": -7,
+      "var_pct": -8,
       "strain": "andes",
       "new_today": 0,
-      "r0": 3.5,
-      "signals": 3,
+      "r0": 0.0,
+      "signals": 0,
       "gov_alert": false
     },
     "CHL": {
@@ -82,14 +82,14 @@
       "gov_alert": false
     },
     "USA": {
-      "ytd": 34,
+      "ytd": 33,
       "alert": "brote",
       "cfr": 36.0,
       "var_pct": -6,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.3,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "PRY": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      192,
-      190,
+      189,
       187,
-      185,
-      183,
+      184,
+      182,
       180,
       178,
-      176,
-      174,
-      172,
-      170,
-      168,
-      166,
-      164
+      175,
+      173,
+      171,
+      169,
+      167,
+      165,
+      163,
+      161
     ],
     "CHL": [
       73,
@@ -687,13 +687,13 @@
       37,
       36,
       36,
-      36,
       35,
       35,
       35,
       34,
       34,
-      34
+      34,
+      33
     ],
     "PRY": [
       8,
@@ -1245,7 +1245,7 @@
       2412,
       2401,
       2391,
-      2381,
+      2380,
       2370,
       2361,
       2351,
@@ -1452,37 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      168,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
-      166,
-      166,
-      166,
-      166,
-      166,
-      166,
-      166,
-      166,
-      166,
-      166,
-      166,
-      166,
-      165,
-      165,
-      165,
-      165,
-      165,
-      165,
       165,
       165,
       165,
@@ -1499,7 +1468,38 @@
       164,
       164,
       164,
-      164
+      164,
+      164,
+      164,
+      164,
+      163,
+      163,
+      163,
+      163,
+      163,
+      163,
+      163,
+      163,
+      163,
+      163,
+      163,
+      163,
+      162,
+      162,
+      162,
+      162,
+      162,
+      162,
+      162,
+      162,
+      162,
+      162,
+      162,
+      162,
+      162,
+      161,
+      161,
+      161
     ],
     "CHL": [
       65,
@@ -1847,9 +1847,9 @@
       34,
       34,
       34,
-      34,
-      34,
-      34
+      33,
+      33,
+      33
     ],
     "PRY": [
       9,
@@ -4003,11 +4003,11 @@
     ]
   },
   "pandemic": {
-    "composite": 21,
-    "epidemio": 26,
+    "composite": 9,
+    "epidemio": 8,
     "polymarket": 4,
-    "kalshi": 28,
-    "max_andes_r0": 3.5,
+    "kalshi": 16,
+    "max_andes_r0": 0.0,
     "avg_other_r0": 0.19,
     "continents": [
       "Americas"
@@ -4016,45 +4016,15 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "CAN": 1,
-    "ARG": 3,
-    "USA": 1
+    "CAN": 1
   },
   "events": [
-    {
-      "iso": "ARG",
-      "title": "Argentina halla hantavirus en roedores en Ushuaia pero descarta nexo con brote de crucero - El Peri\u00f3dico",
-      "t": "2026-06-29T18:45:46Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWk5vLVQwbjlIWDFYLU1Yb3haRFRJeTJBQ3I4OE5wdjdOWGRFeEhBQzNiMXpYYV9FdXhNMTBtRGg0NEJaMnBCM0c1cGZxVVZRX004ZnBDcHZzd1dlSEtJbjhlaFB4ckFvWGR4YWE0MmdXaWFvMEFzWkFmOWY1YzJoZXpqQ2RTQ0NyVFYzQlg1dE5RY3YtV1N2OGRxSjVNVGcwOENHZy0zeFktOWfSAasBQVVfeXFMUFFnZGR0MHMwY2pQbjRDMURUWUxCYU9BUEkwNkNXNkNBS0xlajJwY093ZlA3SG00U0cybnZKc0RtSDBseDZPMTVhaGp0bTNhVGdhWVFaZjBzMU5aRHY5YUVvUkxZZ0R2OE1MRVh1VDhmdV9KVF9RZ2pOLXNzalBhTkZpeXMxdGZTZHIwWHFTR1AxOGtZSzRKMjJxYmMxMktPR1FTbTRMT3llNjBZ?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina descarta v\u00ednculo entre hallazgo de hantavirus en Tierra del Fuego y brote mortal del crucero Hondius - Diario 24 Horas Quintana Roo",
-      "t": "2026-06-29T15:30:32Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9KRXlGdnVoc0RJdzBMdUtQeVZaZlEtaEthejhRRTcyWC1yenYwWmYwbGJKMHkzTUZ2OHhsSmR1SThiTGctM1UyaVZmZG5ReTJhcnJpNWh1WjFmSEtzMVVJWHFNZXh0S3ZzUGh4LVhoOA?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Argentina halla hantavirus en Tierra del Fuego sin nexo con brote del crucero 'Hondius' - El Nuevo Herald",
-      "t": "2026-06-29T15:02:10Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTE5TNkVwRWxxRjJUS1l1N2xTUzFCNDRWR1NJdDZ0YVVDSS1UaW5FSjlLMFJQOHNCY1FaN1hTTE5TTzBVLWE2d0dMVUVGZUhwbmh4bnUxWW9GQktWUzZHUE8yTXlmTHM4S1JBeXZZN21KQjNtb2kxYjAtcFFlYzR2X9IBgAFBVV95cUxNZDJ5NTROVm1xZk4zUUVjdHI1SndUc3JJUWh6Y1JfT0R2ODVYSWtrU3BYeEV0dHNnQWlDNlc3WkxjQWFqMGZrMTJXYkNsYUlRMkdVdUNrMFNHREc3Tkx6SUFzQlJ5NUIzR1V6OWFpRVdRVTR0djRzM2k2Z1pGUEtWMg?oc=5"
-    },
     {
       "iso": "CAN",
       "title": "Hantavirus self-isolation complete for 34 Canadians, Health Canada says - National - Global News",
       "t": "2026-06-24T18:06:54Z",
       "source": "GoogleNews-EN",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
-    },
-    {
-      "iso": "USA",
-      "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
-      "t": "2026-06-22T17:09:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzFvUTdYMWJhaHIwU0VtNndtM0Ffd1lMbDVMc09IVWE5TTExR0g3c1hUQjNUekhmelFibjBHM2FDaHpndGc4Mm9jR2hsYzZURWhJcGJNZWlQckphSmpCV3FwYWtiX1ZFaHRDc3ZFWW44YW9Yb1VPQmhiN3hyTU5FVVZiajcyRXFjZDBIejZHeGNtSkFnOUJxSWFHd29uaDJPZGxiX1pZX0xJdzR0V1RpNXE3VEMxZHdZX1RISkxmcVF0b1ZtYzVkdVFoZi1LRUsySmdRQjFBaW1mV3NVV1RPUDBKVdIB_gFBVV95cUxPWXZWdDFobXRPU2tSSUVKWGdZaWpKc2ZFbGtBRldyZDV5SkNmZWR5Uk1uWFdmRmEydWRlRkJqV1JNRW9rWWN5aTk3VUdpVmRnVjFEUFRtRFJtcmtMb2RDc2Q2TlZNZ2NfRWcwaEdtQ0RYLXlpQXduWWJqRm1oT3BfS3J4Z3ptU3ZGOXlfTk90SktFTUxXSXJfRmlfRkxTaGtBLTJVTzl2ZGNsRkI5QzctNzU4Zkx6UWgyWEhYUXg3REprYlp5dG41bXdsUVctLWM4a2M1ckZORzFDbGRkV0dBalpkTjhwQkVJUTBtSEtOMEFmRWg5NzVTb2FNNHllZw?oc=5"
     }
   ],
   "maritime_events": [
@@ -4073,30 +4043,9 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-29T20:20:04Z",
-      "signals": 4,
-      "recent": [
-        {
-          "title": "Argentina halla hantavirus en roedores en Ushuaia pero descarta nexo con brote de crucero - El Peri\u00f3dico",
-          "t": "2026-06-29T18:45:46Z",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWk5vLVQwbjlIWDFYLU1Yb3haRFRJeTJBQ3I4OE5wdjdOWGRFeEhBQzNiMXpYYV9FdXhNMTBtRGg0NEJaMnBCM0c1cGZxVVZRX004ZnBDcHZzd1dlSEtJbjhlaFB4ckFvWGR4YWE0MmdXaWFvMEFzWkFmOWY1YzJoZXpqQ2RTQ0NyVFYzQlg1dE5RY3YtV1N2OGRxSjVNVGcwOENHZy0zeFktOWfSAasBQVVfeXFMUFFnZGR0MHMwY2pQbjRDMURUWUxCYU9BUEkwNkNXNkNBS0xlajJwY093ZlA3SG00U0cybnZKc0RtSDBseDZPMTVhaGp0bTNhVGdhWVFaZjBzMU5aRHY5YUVvUkxZZ0R2OE1MRVh1VDhmdV9KVF9RZ2pOLXNzalBhTkZpeXMxdGZTZHIwWHFTR1AxOGtZSzRKMjJxYmMxMktPR1FTbTRMT3llNjBZ?oc=5"
-        },
-        {
-          "title": "Argentina halla hantavirus en Tierra del Fuego sin nexo con brote del crucero 'Hondius' - El Nuevo Herald",
-          "t": "2026-06-29T15:02:10Z",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTE5TNkVwRWxxRjJUS1l1N2xTUzFCNDRWR1NJdDZ0YVVDSS1UaW5FSjlLMFJQOHNCY1FaN1hTTE5TTzBVLWE2d0dMVUVGZUhwbmh4bnUxWW9GQktWUzZHUE8yTXlmTHM4S1JBeXZZN21KQjNtb2kxYjAtcFFlYzR2X9IBgAFBVV95cUxNZDJ5NTROVm1xZk4zUUVjdHI1SndUc3JJUWh6Y1JfT0R2ODVYSWtrU3BYeEV0dHNnQWlDNlc3WkxjQWFqMGZrMTJXYkNsYUlRMkdVdUNrMFNHREc3Tkx6SUFzQlJ5NUIzR1V6OWFpRVdRVTR0djRzM2k2Z1pGUEtWMg?oc=5"
-        },
-        {
-          "title": "Argentina descarta v\u00ednculo entre hallazgo de hantavirus en Tierra del Fuego y brote mortal del crucero Hondius - Diario 24 Horas Quintana Roo",
-          "t": "2026-06-29T15:30:32Z",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9KRXlGdnVoc0RJdzBMdUtQeVZaZlEtaEthejhRRTcyWC1yenYwWmYwbGJKMHkzTUZ2OHhsSmR1SThiTGctM1UyaVZmZG5ReTJhcnJpNWh1WjFmSEtzMVVJWHFNZXh0S3ZzUGh4LVhoOA?oc=5"
-        },
-        {
-          "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
-          "t": "2026-06-22T17:09:00Z",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzFvUTdYMWJhaHIwU0VtNndtM0Ffd1lMbDVMc09IVWE5TTExR0g3c1hUQjNUekhmelFibjBHM2FDaHpndGc4Mm9jR2hsYzZURWhJcGJNZWlQckphSmpCV3FwYWtiX1ZFaHRDc3ZFWW44YW9Yb1VPQmhiN3hyTU5FVVZiajcyRXFjZDBIejZHeGNtSkFnOUJxSWFHd29uaDJPZGxiX1pZX0xJdzR0V1RpNXE3VEMxZHdZX1RISkxmcVF0b1ZtYzVkdVFoZi1LRUsySmdRQjFBaW1mV3NVV1RPUDBKVdIB_gFBVV95cUxPWXZWdDFobXRPU2tSSUVKWGdZaWpKc2ZFbGtBRldyZDV5SkNmZWR5Uk1uWFdmRmEydWRlRkJqV1JNRW9rWWN5aTk3VUdpVmRnVjFEUFRtRFJtcmtMb2RDc2Q2TlZNZ2NfRWcwaEdtQ0RYLXlpQXduWWJqRm1oT3BfS3J4Z3ptU3ZGOXlfTk90SktFTUxXSXJfRmlfRkxTaGtBLTJVTzl2ZGNsRkI5QzctNzU4Zkx6UWgyWEhYUXg3REprYlp5dG41bXdsUVctLWM4a2M1ckZORzFDbGRkV0dBalpkTjhwQkVJUTBtSEtOMEFmRWg5NzVTb2FNNHllZw?oc=5"
-        }
-      ]
+      "last_update": "2026-06-29T20:25:09Z",
+      "signals": 0,
+      "recent": []
     }
   ]
 }
