@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-29T00:00:14.644136Z",
-  "next_update": "2026-06-29T00:05:00Z",
+  "generated": "2026-06-29T00:05:13.885810Z",
+  "next_update": "2026-06-29T00:10:00Z",
   "days_active": 52,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 163,
+      "ytd": 164,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": -8,
       "strain": "andes",
       "new_today": 0,
-      "r0": 0.0,
-      "signals": 0,
+      "r0": 3.5,
+      "signals": 1,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      191,
-      189,
-      186,
-      184,
-      182,
+      192,
+      190,
+      187,
+      185,
+      183,
       180,
-      177,
-      175,
-      173,
-      171,
-      169,
-      167,
-      165,
-      163
+      178,
+      176,
+      174,
+      172,
+      170,
+      168,
+      166,
+      164
     ],
     "CHL": [
       74,
@@ -915,7 +915,7 @@
       306,
       304,
       303,
-      302,
+      301,
       300,
       299
     ],
@@ -1336,7 +1336,7 @@
       28
     ],
     "CHN": [
-      3150,
+      3149,
       3133,
       3118,
       3102,
@@ -1452,6 +1452,16 @@
   ],
   "hourly_history": {
     "ARG": [
+      168,
+      167,
+      167,
+      167,
+      167,
+      167,
+      167,
+      167,
+      167,
+      167,
       167,
       167,
       167,
@@ -1479,6 +1489,7 @@
       165,
       165,
       165,
+      165,
       164,
       164,
       164,
@@ -1488,18 +1499,7 @@
       164,
       164,
       164,
-      164,
-      164,
-      164,
-      164,
-      163,
-      163,
-      163,
-      163,
-      163,
-      163,
-      163,
-      163
+      164
     ],
     "CHL": [
       65,
@@ -4003,11 +4003,11 @@
     ]
   },
   "pandemic": {
-    "composite": 8,
-    "epidemio": 8,
+    "composite": 20,
+    "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 12,
-    "max_andes_r0": 0.0,
+    "kalshi": 24,
+    "max_andes_r0": 3.5,
     "avg_other_r0": 0.19,
     "continents": [
       "Americas"
@@ -4016,9 +4016,17 @@
     "outbreak_count": 4
   },
   "signal_summary": {
+    "ARG": 1,
     "USA": 1
   },
   "events": [
+    {
+      "iso": "ARG",
+      "title": "Ireland Joins Argentina, Cape Verde, Spain, the Netherlands and Tenerife as Hantavirus Cruise Outbreak Ends with Irish Passengers Safely Released After Forty-Two-Day Quarantine Raising New Focus on Travel Health Security - Travel And Tour World",
+      "t": "2026-06-26T12:06:15Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8zb2RTSnc2YjZ6dU1iWXl2eGdFWkt0aW43Y0RCS1o3bjBPeHVhYjdBWk9aNFItWHdIRmJ5dmZTWWNtZFktVlBuaEpvQWJCeS1oWHZyQnVFaWhHcThzanA3bUtEQUIza0RPM1o3Qmtn?oc=5"
+    },
     {
       "iso": "USA",
       "title": "Estados Unidos pone fin a la cuarentena tras el letal brote de hantavirus en el crucero MV Hondius - Infobae",
@@ -4043,7 +4051,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-29T00:00:14Z",
+      "last_update": "2026-06-29T00:05:13Z",
       "signals": 1,
       "recent": [
         {
