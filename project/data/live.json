@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-29T20:05:12.372101Z",
-  "next_update": "2026-06-29T20:10:00Z",
+  "generated": "2026-06-29T20:10:16.883734Z",
+  "next_update": "2026-06-29T20:15:00Z",
   "days_active": 52,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 165,
+      "ytd": 164,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": -6,
+      "var_pct": -7,
       "strain": "andes",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 4,
+      "signals": 3,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      193,
-      191,
-      188,
-      186,
+      192,
+      190,
+      187,
+      185,
       183,
-      181,
-      179,
-      177,
-      175,
-      173,
+      180,
+      178,
+      176,
+      174,
+      172,
       170,
       168,
       166,
-      165
+      164
     ],
     "CHL": [
       73,
@@ -1249,7 +1249,7 @@
       2371,
       2361,
       2351,
-      2342,
+      2341,
       2332,
       2323,
       2314,
@@ -1332,7 +1332,7 @@
       29,
       29,
       29,
-      29,
+      28,
       28
     ],
     "CHN": [
@@ -1344,7 +1344,7 @@
       3060,
       3046,
       3032,
-      3019,
+      3018,
       3005,
       2992,
       2979,
@@ -1453,16 +1453,6 @@
   "hourly_history": {
     "ARG": [
       168,
-      168,
-      168,
-      168,
-      168,
-      168,
-      168,
-      168,
-      168,
-      168,
-      168,
       167,
       167,
       167,
@@ -1499,7 +1489,17 @@
       165,
       165,
       165,
-      165
+      165,
+      164,
+      164,
+      164,
+      164,
+      164,
+      164,
+      164,
+      164,
+      164,
+      164
     ],
     "CHL": [
       65,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 21,
+    "composite": 20,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 28,
+    "kalshi": 25,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.19,
     "continents": [
@@ -4017,7 +4017,7 @@
   },
   "signal_summary": {
     "CAN": 1,
-    "ARG": 4,
+    "ARG": 3,
     "USA": 1
   },
   "events": [
@@ -4055,13 +4055,6 @@
       "t": "2026-06-22T17:09:00Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQzFvUTdYMWJhaHIwU0VtNndtM0Ffd1lMbDVMc09IVWE5TTExR0g3c1hUQjNUekhmelFibjBHM2FDaHpndGc4Mm9jR2hsYzZURWhJcGJNZWlQckphSmpCV3FwYWtiX1ZFaHRDc3ZFWW44YW9Yb1VPQmhiN3hyTU5FVVZiajcyRXFjZDBIejZHeGNtSkFnOUJxSWFHd29uaDJPZGxiX1pZX0xJdzR0V1RpNXE3VEMxZHdZX1RISkxmcVF0b1ZtYzVkdVFoZi1LRUsySmdRQjFBaW1mV3NVV1RPUDBKVdIB_gFBVV95cUxPWXZWdDFobXRPU2tSSUVKWGdZaWpKc2ZFbGtBRldyZDV5SkNmZWR5Uk1uWFdmRmEydWRlRkJqV1JNRW9rWWN5aTk3VUdpVmRnVjFEUFRtRFJtcmtMb2RDc2Q2TlZNZ2NfRWcwaEdtQ0RYLXlpQXduWWJqRm1oT3BfS3J4Z3ptU3ZGOXlfTk90SktFTUxXSXJfRmlfRkxTaGtBLTJVTzl2ZGNsRkI5QzctNzU4Zkx6UWgyWEhYUXg3REprYlp5dG41bXdsUVctLWM4a2M1ckZORzFDbGRkV0dBalpkTjhwQkVJUTBtSEtOMEFmRWg5NzVTb2FNNHllZw?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus en Argentina: la letalidad alcanz\u00f3 un r\u00e9cord hist\u00f3rico en la temporada 2025-2026 - Infobae",
-      "t": "2026-06-17T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbU9lQmRwWXRVQ1ZvTmhWMW1uLVphWGlTQnpPaUdLSll4ZjQ5UEtGRmpiUUFmdTYzRlR6Vk1hWkdvRkhOV1ZiLTlXSWxDNE1vMlhjYWl2SUJxRVFnSURzTk03MnROT2ZrLW9mSXhQek9kUm04SFVERlVfY1laT3Bydk92d3o5U1VSSEtXYzAxZm9manlSQ1FFTFBkVWxMWWN6MGtDV2dSY2Rzc0FOZ1BnUnEwWHd4ZTkxY0tUQ19NM0J0QURSUmkwakY5V3rSAecBQVVfeXFMT182emFDUmRHSEhzYnEyZ19YNXFDM1NWRFc2WkVYaC1jUnZ4dzdQTVUyZlFqZ2VmTmRnYmtBMC1uTUhDUHhvTGdDQjl0Mkl6bGx5ODBFRldSMVJGSFByZnFFM0dVS3Jpel9KOEhKTi16bkxEbzNXR2RuMFpWNWhQTWt3UkhyaHJCNVk4YVk4WWJIdThadHhXd1ozWGFEVUhRMHFFRGJtVDdnQzhGQlBZeFFvNlp4RURRbzBnT0NOdmR5cVZRWTI3X2RLUHVfbVUwWXBDOUxpZVFBb3BRb3dWajA5Nm1wVHA4?oc=5"
     }
   ],
   "maritime_events": [
@@ -4080,7 +4073,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-29T20:05:12Z",
+      "last_update": "2026-06-29T20:10:16Z",
       "signals": 4,
       "recent": [
         {
