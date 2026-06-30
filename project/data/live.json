@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-30T21:35:13.884678Z",
-  "next_update": "2026-06-30T21:40:00Z",
+  "generated": "2026-06-30T21:40:07.876459Z",
+  "next_update": "2026-06-30T21:45:00Z",
   "days_active": 53,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 164,
+      "ytd": 163,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": -5,
+      "var_pct": -6,
       "strain": "andes",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 6,
+      "signals": 5,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      192,
-      190,
+      191,
+      189,
       187,
-      185,
-      183,
-      181,
+      184,
+      182,
+      180,
       178,
-      176,
-      174,
-      172,
-      170,
-      168,
-      166,
-      164
+      175,
+      173,
+      171,
+      169,
+      167,
+      165,
+      163
     ],
     "CHL": [
       72,
@@ -1340,7 +1340,7 @@
       3104,
       3089,
       3074,
-      3060,
+      3059,
       3045,
       3031,
       3018,
@@ -1452,16 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      168,
-      168,
-      168,
-      168,
-      168,
-      168,
-      167,
-      167,
-      167,
-      167,
       167,
       167,
       167,
@@ -1499,7 +1489,17 @@
       164,
       164,
       164,
-      164
+      164,
+      164,
+      164,
+      164,
+      164,
+      164,
+      164,
+      164,
+      163,
+      163,
+      163
     ],
     "CHL": [
       64,
@@ -4006,7 +4006,7 @@
     "composite": 20,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 23,
+    "kalshi": 26,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.13,
     "continents": [
@@ -4016,7 +4016,7 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "ARG": 6
+    "ARG": 5
   },
   "events": [
     {
@@ -4053,13 +4053,6 @@
       "t": "2026-06-29T13:04:17Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZmFFaHNfYnl2UXc5OEhoRHFJU2hneGo5X1hZTFlGMWZSNEJxdmhhaFF1UkotVjFzZTF4V04yV2dTSUhPNng2ZTVWUmdEc2xRblF6cEFReGZqUm9iZ1QyV25wNGN1V1pYSG1zWEZwSnpycEZSV2d0NVlrcllRM3Z6U09MYnFGN0ZyNXpWaUhQa24tZGQ2ZnpSZjYzTC14cFhSYXZlcmNNdnpLTWtSRnh1UkQ5S3ZuQ0JtUWloaDkzUXM0NXY4cWc?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Hantavirus en Argentina: la letalidad alcanz\u00f3 un r\u00e9cord hist\u00f3rico en la temporada 2025-2026 - Infobae",
-      "t": "2026-06-17T07:00:00Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbU9lQmRwWXRVQ1ZvTmhWMW1uLVphWGlTQnpPaUdLSll4ZjQ5UEtGRmpiUUFmdTYzRlR6Vk1hWkdvRkhOV1ZiLTlXSWxDNE1vMlhjYWl2SUJxRVFnSURzTk03MnROT2ZrLW9mSXhQek9kUm04SFVERlVfY1laT3Bydk92d3o5U1VSSEtXYzAxZm9manlSQ1FFTFBkVWxMWWN6MGtDV2dSY2Rzc0FOZ1BnUnEwWHd4ZTkxY0tUQ19NM0J0QURSUmkwakY5V3rSAecBQVVfeXFMT182emFDUmRHSEhzYnEyZ19YNXFDM1NWRFc2WkVYaC1jUnZ4dzdQTVUyZlFqZ2VmTmRnYmtBMC1uTUhDUHhvTGdDQjl0Mkl6bGx5ODBFRldSMVJGSFByZnFFM0dVS3Jpel9KOEhKTi16bkxEbzNXR2RuMFpWNWhQTWt3UkhyaHJCNVk4YVk4WWJIdThadHhXd1ozWGFEVUhRMHFFRGJtVDdnQzhGQlBZeFFvNlp4RURRbzBnT0NOdmR5cVZRWTI3X2RLUHVfbVUwWXBDOUxpZVFBb3BRb3dWajA5Nm1wVHA4?oc=5"
     }
   ],
   "maritime_events": [
@@ -4078,7 +4071,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-30T21:35:13Z",
+      "last_update": "2026-06-30T21:40:07Z",
       "signals": 4,
       "recent": [
         {
