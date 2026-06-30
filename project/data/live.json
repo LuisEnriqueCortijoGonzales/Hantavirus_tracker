@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-30T22:55:12.350716Z",
-  "next_update": "2026-06-30T23:00:00Z",
+  "generated": "2026-06-30T23:00:16.877665Z",
+  "next_update": "2026-06-30T23:05:00Z",
   "days_active": 53,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -784,7 +784,7 @@
       3,
       3,
       3,
-      3,
+      4,
       4,
       4,
       4,
@@ -1336,15 +1336,15 @@
       28
     ],
     "CHN": [
-      3119,
+      3118,
       3103,
       3088,
       3073,
       3059,
-      3045,
+      3044,
       3031,
       3017,
-      3004,
+      3003,
       2990,
       2978,
       2965,
@@ -1401,7 +1401,6 @@
     "2026-06-30T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-28T23:00:00Z",
     "2026-06-29T00:00:00Z",
     "2026-06-29T01:00:00Z",
     "2026-06-29T02:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-06-30T19:00:00Z",
     "2026-06-30T20:00:00Z",
     "2026-06-30T21:00:00Z",
-    "2026-06-30T22:00:00Z"
+    "2026-06-30T22:00:00Z",
+    "2026-06-30T23:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -1458,7 +1458,6 @@
       167,
       167,
       167,
-      167,
       166,
       166,
       166,
@@ -1496,6 +1495,7 @@
       164,
       164,
       164,
+      163,
       163,
       163,
       163,
@@ -1515,7 +1515,7 @@
       64,
       64,
       64,
-      64,
+      63,
       63,
       63,
       63,
@@ -1589,7 +1589,7 @@
       165,
       165,
       165,
-      165,
+      166,
       166,
       166,
       166,
@@ -1820,7 +1820,7 @@
       34,
       34,
       34,
-      34,
+      33,
       33,
       33,
       33,
@@ -2406,7 +2406,6 @@
       408,
       408,
       408,
-      408,
       407,
       407,
       407,
@@ -2445,6 +2444,7 @@
       405,
       405,
       405,
+      404,
       404,
       404,
       404,
@@ -2468,7 +2468,7 @@
       176,
       176,
       176,
-      176,
+      175,
       175,
       175,
       175,
@@ -2509,7 +2509,6 @@
       299,
       299,
       299,
-      299,
       298,
       298,
       298,
@@ -2548,6 +2547,7 @@
       297,
       297,
       297,
+      296,
       296,
       296
     ],
@@ -2633,7 +2633,7 @@
       76,
       76,
       76,
-      76,
+      75,
       75,
       75,
       75,
@@ -3177,7 +3177,7 @@
       41,
       41,
       41,
-      41,
+      40,
       40,
       40,
       40,
@@ -3553,7 +3553,6 @@
     ],
     "RUS": [
       2313,
-      2313,
       2312,
       2312,
       2312,
@@ -3599,6 +3598,7 @@
       2297,
       2297,
       2297,
+      2296,
       2296
     ],
     "BLR": [
@@ -3852,7 +3852,6 @@
       28
     ],
     "CHN": [
-      2965,
       2964,
       2964,
       2963,
@@ -3899,7 +3898,8 @@
       2942,
       2942,
       2941,
-      2941
+      2941,
+      2940
     ],
     "KOR": [
       105,
@@ -3919,7 +3919,7 @@
       105,
       105,
       105,
-      105,
+      104,
       104,
       104,
       104,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 22,
+    "composite": 20,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 30,
+    "kalshi": 26,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.13,
     "continents": [
@@ -4016,9 +4016,17 @@
     "outbreak_count": 4
   },
   "signal_summary": {
+    "CAN": 1,
     "ARG": 5
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "Self-isolation over for travellers exposed to hantavirus - Yahoo News Canada",
+      "t": "2026-06-30T20:07:58Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbWIwQnN2WTlfQU5pc3VJVXZzN3JTUWJET3lYV3BkYjlvRkNDeXRVTkJSSkVIbl9zcllCNU5OWkY1R25YZzhRR19nNVRGTWZIYjdQTi1UQlNUQm9ZZmpPa00zMkY4R1FJcHVqNHNjMFR3TEM2THFEUXFSM1JmUlN4ZENIMWRKdw?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina detecta nueva variante de hantavirus en Tierra del Fuego - Noticias RCN",
@@ -4071,7 +4079,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-30T22:55:12Z",
+      "last_update": "2026-06-30T23:00:16Z",
       "signals": 4,
       "recent": [
         {
