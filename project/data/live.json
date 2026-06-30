@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-30T21:10:12.378915Z",
-  "next_update": "2026-06-30T21:15:00Z",
+  "generated": "2026-06-30T21:15:16.865714Z",
+  "next_update": "2026-06-30T21:20:00Z",
   "days_active": 53,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -784,7 +784,7 @@
       3,
       3,
       3,
-      3,
+      4,
       4,
       4,
       4,
@@ -1240,7 +1240,7 @@
       4
     ],
     "RUS": [
-      2423,
+      2422,
       2412,
       2401,
       2390,
@@ -1341,10 +1341,10 @@
       3089,
       3074,
       3060,
-      3046,
+      3045,
       3032,
       3018,
-      3005,
+      3004,
       2991,
       2978,
       2966,
@@ -4006,7 +4006,7 @@
     "composite": 21,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 28,
+    "kalshi": 27,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.13,
     "continents": [
@@ -4016,9 +4016,17 @@
     "outbreak_count": 4
   },
   "signal_summary": {
+    "CAN": 1,
     "ARG": 5
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "Self-isolation over for travellers exposed to hantavirus - Yahoo News Canada",
+      "t": "2026-06-30T20:07:58Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbWIwQnN2WTlfQU5pc3VJVXZzN3JTUWJET3lYV3BkYjlvRkNDeXRVTkJSSkVIbl9zcllCNU5OWkY1R25YZzhRR19nNVRGTWZIYjdQTi1UQlNUQm9ZZmpPa00zMkY4R1FJcHVqNHNjMFR3TEM2THFEUXFSM1JmUlN4ZENIMWRKdw?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina detecta nueva variante de hantavirus en Tierra del Fuego - Noticias RCN",
@@ -4071,7 +4079,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-30T21:10:12Z",
+      "last_update": "2026-06-30T21:15:16Z",
       "signals": 4,
       "recent": [
         {
