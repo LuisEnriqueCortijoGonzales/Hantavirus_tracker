@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-30T03:50:05.668616Z",
-  "next_update": "2026-06-30T03:55:00Z",
+  "generated": "2026-06-30T03:55:15.374530Z",
+  "next_update": "2026-06-30T04:00:00Z",
   "days_active": 53,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -74,11 +74,11 @@
       "ytd": 10,
       "alert": "vigilancia",
       "cfr": 30.0,
-      "var_pct": -3,
+      "var_pct": -2,
       "strain": "hps",
       "new_today": 0,
       "r0": 0.0,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "USA": {
@@ -1240,7 +1240,7 @@
       4
     ],
     "RUS": [
-      2431,
+      2430,
       2419,
       2409,
       2398,
@@ -1249,7 +1249,7 @@
       2367,
       2358,
       2348,
-      2339,
+      2338,
       2329,
       2320,
       2311,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 21,
+    "composite": 20,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 29,
+    "kalshi": 24,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.12,
     "continents": [
@@ -4016,7 +4016,8 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "ARG": 4
+    "ARG": 4,
+    "MEX": 1
   },
   "events": [
     {
@@ -4046,6 +4047,13 @@
       "t": "2026-06-29T15:05:48Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWTFLeHFDN2VodEZiVGVza190NjBNQzZRS2VCTGJ6M1ZXd3V5S1JVa2t0RENtbndDVlJFWFdpNFdLSmNDYmlsMndNc1hYRmxvXzMtVG4zWF93RUV1VUl2ODVsVTZRZlhHclhuV2x6MmhsbnZvMl9CYThHcEtNYkZTSlFsUEU4MXR1akUwY0k5NTBHa0RwSE9aOEZ6NE9KVzFOREpYZkpmRHhLMll5dE1KWjh2eGx2Mk1VSHVYdEwyMWUyaVRxS2ZxbGRJWTYyeXU40gHWAUFVX3lxTE5CZVNBdFdDNWhucW16ME5kMUc4M3hIdkc3ZHhVYUVSQ2ZkdUNaZUNzMnppNEpoNFgwajN1UG9JbmZXUXBlaEtrV0tCMzBNeEhwSktucWk3RE5SeGdIQnVGSF9YeGV2VER2c213Tkp6OHVBaEQ5cmxJTTh5V2NwTW91VVBRMjJMMVBucVdfdW9kUmQ2T0gyYWtFaFlpMjk2TVo5eGlXaWFVblRfV1NleGpzVE4yMld3UUowOVdmTVl0dGNtYU9lNER3RHRnQ2VwWmJPdDNYYWc?oc=5"
+    },
+    {
+      "iso": "MEX",
+      "title": "OMS declarar\u00e1 el fin del brote de hantavirus el 2 de julio, si no hay m\u00e1s contagios - Diario De M\u00e9xico",
+      "t": "2026-06-24T16:19:34Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ1B3NUdoMUlOLVVpOGFLT2dGYWVNS0xWcnN6LVE1dnNkVVB3MUNpOVR2ZnBycmtfRk84eVdTNm1kZ1BZbXpYR2hNRWtHQ19HYTVCNUNZUlhoaTVzV2d4Vjh4MmZWbnN4bmVia2hfald1WmpQZGFHU0toVnVWeDg1akVGYXp5a1E2TzU3c0FpQm83SW4tSnBzM1JjVDlTdzZYLTVFTHB30gGrAUFVX3lxTFAxZTVIVEhHam9LMXJFOUlSZ1hPdHcxblFKeHN5YlNpLXp2d2ZLWjBGTXlFMXF0NWc2dURvUFdlRG9ab1VpOHk2aEJnSWlQUUJzQVBCcFZqY25jWWRwZnMyLWpZN19nV1o2YVpNcDJ5WDFuRUpNXzBldl9pUFZWSmhTczY3MGIzU0xWWTc4UVp6ZlRnX0JBUlc1V1N2Wmw2TXFZSnpqSTJZaVdObw?oc=5"
     }
   ],
   "maritime_events": [
@@ -4064,7 +4072,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-30T03:50:05Z",
+      "last_update": "2026-06-30T03:55:15Z",
       "signals": 3,
       "recent": [
         {
