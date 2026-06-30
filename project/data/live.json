@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-30T23:40:10.901829Z",
-  "next_update": "2026-06-30T23:45:00Z",
+  "generated": "2026-06-30T23:45:10.126724Z",
+  "next_update": "2026-06-30T23:50:00Z",
   "days_active": 53,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GTM": {
@@ -784,7 +784,7 @@
       3,
       3,
       3,
-      4,
+      3,
       4,
       4,
       4,
@@ -888,7 +888,7 @@
       404
     ],
     "SWE": [
-      184,
+      183,
       183,
       182,
       181,
@@ -1338,12 +1338,12 @@
     "CHN": [
       3118,
       3103,
-      3088,
+      3087,
       3073,
       3058,
       3044,
       3030,
-      3017,
+      3016,
       3003,
       2990,
       2977,
@@ -4006,7 +4006,7 @@
     "composite": 20,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 25,
+    "kalshi": 24,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.13,
     "continents": [
@@ -4016,17 +4016,9 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "CAN": 1,
     "ARG": 5
   },
   "events": [
-    {
-      "iso": "CAN",
-      "title": "Self-isolation over for travellers exposed to hantavirus - Yahoo News Canada",
-      "t": "2026-06-30T20:07:58Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbWIwQnN2WTlfQU5pc3VJVXZzN3JTUWJET3lYV3BkYjlvRkNDeXRVTkJSSkVIbl9zcllCNU5OWkY1R25YZzhRR19nNVRGTWZIYjdQTi1UQlNUQm9ZZmpPa00zMkY4R1FJcHVqNHNjMFR3TEM2THFEUXFSM1JmUlN4ZENIMWRKdw?oc=5"
-    },
     {
       "iso": "ARG",
       "title": "Argentina detecta nueva variante de hantavirus en Tierra del Fuego - Noticias RCN",
@@ -4079,7 +4071,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-06-30T23:40:10Z",
+      "last_update": "2026-06-30T23:45:10Z",
       "signals": 4,
       "recent": [
         {
