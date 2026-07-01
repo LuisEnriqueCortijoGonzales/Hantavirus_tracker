@@ -1,18 +1,18 @@
 {
-  "generated": "2026-07-01T04:30:14.662178Z",
-  "next_update": "2026-07-01T04:35:00Z",
+  "generated": "2026-07-01T04:35:13.859987Z",
+  "next_update": "2026-07-01T04:40:00Z",
   "days_active": 54,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 164,
+      "ytd": 163,
       "alert": "brote",
       "cfr": 37.3,
-      "var_pct": -5,
+      "var_pct": -6,
       "strain": "andes",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 6,
+      "signals": 5,
       "gov_alert": false
     },
     "CHL": {
@@ -151,11 +151,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 4,
+      "var_pct": 3,
       "strain": "hps",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      192,
-      189,
-      187,
+      191,
+      188,
+      186,
       184,
-      182,
-      180,
-      178,
-      176,
+      181,
+      179,
+      177,
+      175,
       173,
       171,
       169,
       167,
       165,
-      164
+      163
     ],
     "CHL": [
       72,
@@ -782,7 +782,7 @@
       3,
       3,
       3,
-      4,
+      3,
       4,
       4,
       4,
@@ -1338,7 +1338,7 @@
     "CHN": [
       3115,
       3100,
-      3085,
+      3084,
       3070,
       3055,
       3041,
@@ -1453,16 +1453,6 @@
   "hourly_history": {
     "ARG": [
       167,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
-      167,
       166,
       166,
       166,
@@ -1499,7 +1489,17 @@
       164,
       164,
       164,
-      164
+      164,
+      163,
+      163,
+      163,
+      163,
+      163,
+      163,
+      163,
+      163,
+      163,
+      163
     ],
     "CHL": [
       64,
@@ -4006,7 +4006,7 @@
     "composite": 20,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 23,
+    "kalshi": 24,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.11,
     "continents": [
@@ -4016,8 +4016,8 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "CAN": 2,
-    "ARG": 6
+    "CAN": 1,
+    "ARG": 5
   },
   "events": [
     {
@@ -4061,20 +4061,6 @@
       "t": "2026-06-29T13:04:17Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZmFFaHNfYnl2UXc5OEhoRHFJU2hneGo5X1hZTFlGMWZSNEJxdmhhaFF1UkotVjFzZTF4V04yV2dTSUhPNng2ZTVWUmdEc2xRblF6cEFReGZqUm9iZ1QyV25wNGN1V1pYSG1zWEZwSnpycEZSV2d0NVlrcllRM3Z6U09MYnFGN0ZyNXpWaUhQa24tZGQ2ZnpSZjYzTC14cFhSYXZlcmNNdnpLTWtSRnh1UkQ5S3ZuQ0JtUWloaDkzUXM0NXY4cWc?oc=5"
-    },
-    {
-      "iso": "ARG",
-      "title": "Ireland Joins Argentina, Cape Verde, Spain, the Netherlands and Tenerife as Hantavirus Cruise Outbreak Ends with Irish Passengers Safely Released After Forty-Two-Day Quarantine Raising New Focus on Travel Health Security - Travel And Tour World",
-      "t": "2026-06-26T12:06:15Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8zb2RTSnc2YjZ6dU1iWXl2eGdFWkt0aW43Y0RCS1o3bjBPeHVhYjdBWk9aNFItWHdIRmJ5dmZTWWNtZFktVlBuaEpvQWJCeS1oWHZyQnVFaWhHcThzanA3bUtEQUIza0RPM1o3Qmtn?oc=5"
-    },
-    {
-      "iso": "CAN",
-      "title": "Hantavirus self-isolation complete for 34 Canadians, Health Canada says - National - Global News",
-      "t": "2026-06-24T18:06:54Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
     }
   ],
   "maritime_events": [
@@ -4093,7 +4079,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-07-01T04:30:14Z",
+      "last_update": "2026-07-01T04:35:13Z",
       "signals": 4,
       "recent": [
         {
