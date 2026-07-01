@@ -1,18 +1,18 @@
 {
-  "generated": "2026-07-01T18:25:04.860595Z",
-  "next_update": "2026-07-01T18:30:00Z",
+  "generated": "2026-07-01T18:30:04.134333Z",
+  "next_update": "2026-07-01T18:35:00Z",
   "days_active": 54,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 162,
+      "ytd": 161,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": -6,
       "strain": "andes",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 5,
+      "signals": 4,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      189,
-      187,
-      185,
-      182,
-      180,
-      178,
-      176,
-      174,
+      188,
+      186,
+      184,
+      181,
+      179,
+      177,
+      175,
+      173,
       171,
       169,
       167,
       165,
-      164,
-      162
+      163,
+      161
     ],
     "CHL": [
       71,
@@ -1454,16 +1454,6 @@
     "ARG": [
       165,
       165,
-      165,
-      165,
-      165,
-      165,
-      165,
-      165,
-      165,
-      165,
-      165,
-      165,
       164,
       164,
       164,
@@ -1499,7 +1489,17 @@
       162,
       162,
       162,
-      162
+      162,
+      162,
+      162,
+      161,
+      161,
+      161,
+      161,
+      161,
+      161,
+      161,
+      161
     ],
     "CHL": [
       63,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 21,
+    "composite": 20,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 29,
+    "kalshi": 24,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.18,
     "continents": [
@@ -4016,7 +4016,7 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "ARG": 5,
+    "ARG": 4,
     "FRA": 1
   },
   "events": [
@@ -4049,13 +4049,6 @@
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWTFLeHFDN2VodEZiVGVza190NjBNQzZRS2VCTGJ6M1ZXd3V5S1JVa2t0RENtbndDVlJFWFdpNFdLSmNDYmlsMndNc1hYRmxvXzMtVG4zWF93RUV1VUl2ODVsVTZRZlhHclhuV2x6MmhsbnZvMl9CYThHcEtNYkZTSlFsUEU4MXR1akUwY0k5NTBHa0RwSE9aOEZ6NE9KVzFOREpYZkpmRHhLMll5dE1KWjh2eGx2Mk1VSHVYdEwyMWUyaVRxS2ZxbGRJWTYyeXU40gHWAUFVX3lxTE5CZVNBdFdDNWhucW16ME5kMUc4M3hIdkc3ZHhVYUVSQ2ZkdUNaZUNzMnppNEpoNFgwajN1UG9JbmZXUXBlaEtrV0tCMzBNeEhwSktucWk3RE5SeGdIQnVGSF9YeGV2VER2c213Tkp6OHVBaEQ5cmxJTTh5V2NwTW91VVBRMjJMMVBucVdfdW9kUmQ2T0gyYWtFaFlpMjk2TVo5eGlXaWFVblRfV1NleGpzVE4yMld3UUowOVdmTVl0dGNtYU9lNER3RHRnQ2VwWmJPdDNYYWc?oc=5"
     },
     {
-      "iso": "ARG",
-      "title": "ANLIS Malbr\u00e1n identific\u00f3 hantavirus en roedores de Tierra del Fuego sin relaci\u00f3n con el brote del crucero MV Hondius - Argentina.gob.ar",
-      "t": "2026-06-29T13:04:17Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZmFFaHNfYnl2UXc5OEhoRHFJU2hneGo5X1hZTFlGMWZSNEJxdmhhaFF1UkotVjFzZTF4V04yV2dTSUhPNng2ZTVWUmdEc2xRblF6cEFReGZqUm9iZ1QyV25wNGN1V1pYSG1zWEZwSnpycEZSV2d0NVlrcllRM3Z6U09MYnFGN0ZyNXpWaUhQa24tZGQ2ZnpSZjYzTC14cFhSYXZlcmNNdnpLTWtSRnh1UkQ5S3ZuQ0JtUWloaDkzUXM0NXY4cWc?oc=5"
-    },
-    {
       "iso": "FRA",
       "title": "El brote de hantavirus deber\u00eda concluir oficialmente el 2 de julio, seg\u00fan la OMS - France 24",
       "t": "2026-06-25T10:15:19Z",
@@ -4079,14 +4072,9 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-07-01T18:25:04Z",
-      "signals": 4,
+      "last_update": "2026-07-01T18:30:04Z",
+      "signals": 3,
       "recent": [
-        {
-          "title": "ANLIS Malbr\u00e1n identific\u00f3 hantavirus en roedores de Tierra del Fuego sin relaci\u00f3n con el brote del crucero MV Hondius - Argentina.gob.ar",
-          "t": "2026-06-29T13:04:17Z",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZmFFaHNfYnl2UXc5OEhoRHFJU2hneGo5X1hZTFlGMWZSNEJxdmhhaFF1UkotVjFzZTF4V04yV2dTSUhPNng2ZTVWUmdEc2xRblF6cEFReGZqUm9iZ1QyV25wNGN1V1pYSG1zWEZwSnpycEZSV2d0NVlrcllRM3Z6U09MYnFGN0ZyNXpWaUhQa24tZGQ2ZnpSZjYzTC14cFhSYXZlcmNNdnpLTWtSRnh1UkQ5S3ZuQ0JtUWloaDkzUXM0NXY4cWc?oc=5"
-        },
         {
           "title": "Argentina halla hantavirus en Tierra del Fuego sin nexo con brote del crucero \"Hondius\" - El Economista",
           "t": "2026-06-29T15:05:48Z",
