@@ -1,18 +1,18 @@
 {
-  "generated": "2026-07-01T11:25:15.397626Z",
-  "next_update": "2026-07-01T11:30:00Z",
+  "generated": "2026-07-01T11:30:14.663332Z",
+  "next_update": "2026-07-01T11:35:00Z",
   "days_active": 54,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 161,
+      "ytd": 162,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": -6,
       "strain": "andes",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 4,
+      "signals": 5,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      189,
-      187,
-      184,
-      182,
-      180,
+      190,
+      188,
+      185,
+      183,
+      181,
       178,
-      175,
-      173,
-      171,
-      169,
-      167,
-      165,
-      163,
-      161
+      176,
+      174,
+      172,
+      170,
+      168,
+      166,
+      164,
+      162
     ],
     "CHL": [
       72,
@@ -1452,6 +1452,12 @@
   ],
   "hourly_history": {
     "ARG": [
+      166,
+      166,
+      166,
+      166,
+      166,
+      166,
       165,
       165,
       165,
@@ -1461,6 +1467,10 @@
       165,
       165,
       165,
+      165,
+      165,
+      165,
+      165,
       164,
       164,
       164,
@@ -1489,17 +1499,7 @@
       162,
       162,
       162,
-      162,
-      162,
-      162,
-      162,
-      162,
-      162,
-      162,
-      162,
-      162,
-      162,
-      161
+      162
     ],
     "CHL": [
       64,
@@ -4006,7 +4006,7 @@
     "composite": 20,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 24,
+    "kalshi": 26,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.11,
     "continents": [
@@ -4017,7 +4017,7 @@
   },
   "signal_summary": {
     "CAN": 1,
-    "ARG": 4
+    "ARG": 5
   },
   "events": [
     {
@@ -4049,6 +4049,13 @@
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWTFLeHFDN2VodEZiVGVza190NjBNQzZRS2VCTGJ6M1ZXd3V5S1JVa2t0RENtbndDVlJFWFdpNFdLSmNDYmlsMndNc1hYRmxvXzMtVG4zWF93RUV1VUl2ODVsVTZRZlhHclhuV2x6MmhsbnZvMl9CYThHcEtNYkZTSlFsUEU4MXR1akUwY0k5NTBHa0RwSE9aOEZ6NE9KVzFOREpYZkpmRHhLMll5dE1KWjh2eGx2Mk1VSHVYdEwyMWUyaVRxS2ZxbGRJWTYyeXU40gHWAUFVX3lxTE5CZVNBdFdDNWhucW16ME5kMUc4M3hIdkc3ZHhVYUVSQ2ZkdUNaZUNzMnppNEpoNFgwajN1UG9JbmZXUXBlaEtrV0tCMzBNeEhwSktucWk3RE5SeGdIQnVGSF9YeGV2VER2c213Tkp6OHVBaEQ5cmxJTTh5V2NwTW91VVBRMjJMMVBucVdfdW9kUmQ2T0gyYWtFaFlpMjk2TVo5eGlXaWFVblRfV1NleGpzVE4yMld3UUowOVdmTVl0dGNtYU9lNER3RHRnQ2VwWmJPdDNYYWc?oc=5"
     },
     {
+      "iso": "ARG",
+      "title": "Ireland Joins Argentina, Cape Verde, Spain, the Netherlands and Tenerife as Hantavirus Cruise Outbreak Ends with Irish Passengers Safely Released After Forty-Two-Day Quarantine Raising New Focus on Travel Health Security - Travel And Tour World",
+      "t": "2026-06-26T12:06:15Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8zb2RTSnc2YjZ6dU1iWXl2eGdFWkt0aW43Y0RCS1o3bjBPeHVhYjdBWk9aNFItWHdIRmJ5dmZTWWNtZFktVlBuaEpvQWJCeS1oWHZyQnVFaWhHcThzanA3bUtEQUIza0RPM1o3Qmtn?oc=5"
+    },
+    {
       "iso": "CAN",
       "title": "Hantavirus self-isolation complete for 34 Canadians, Health Canada says - National - Global News",
       "t": "2026-06-24T18:06:54Z",
@@ -4072,7 +4079,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-07-01T11:25:15Z",
+      "last_update": "2026-07-01T11:30:14Z",
       "signals": 3,
       "recent": [
         {
