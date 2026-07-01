@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-01T01:40:08.635146Z",
-  "next_update": "2026-07-01T01:45:00Z",
+  "generated": "2026-07-01T01:45:02.653965Z",
+  "next_update": "2026-07-01T01:50:00Z",
   "days_active": 54,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -155,7 +155,7 @@
       "strain": "hps",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -784,7 +784,7 @@
       3,
       3,
       3,
-      3,
+      4,
       4,
       4,
       4,
@@ -922,7 +922,7 @@
     "POL": [
       55,
       55,
-      55,
+      54,
       54,
       54,
       54,
@@ -1243,7 +1243,7 @@
       2420,
       2410,
       2399,
-      2389,
+      2388,
       2378,
       2368,
       2358,
@@ -1339,7 +1339,7 @@
       3117,
       3101,
       3086,
-      3072,
+      3071,
       3057,
       3043,
       3029,
@@ -1347,7 +1347,7 @@
       3002,
       2989,
       2976,
-      2964,
+      2963,
       2951,
       2939
     ],
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 20,
+    "composite": 21,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 26,
+    "kalshi": 27,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.11,
     "continents": [
@@ -4016,9 +4016,17 @@
     "outbreak_count": 4
   },
   "signal_summary": {
+    "CAN": 1,
     "ARG": 4
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "Self-isolation over for travellers exposed to hantavirus - Yahoo News Canada",
+      "t": "2026-06-30T20:07:58Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbWIwQnN2WTlfQU5pc3VJVXZzN3JTUWJET3lYV3BkYjlvRkNDeXRVTkJSSkVIbl9zcllCNU5OWkY1R25YZzhRR19nNVRGTWZIYjdQTi1UQlNUQm9ZZmpPa00zMkY4R1FJcHVqNHNjMFR3TEM2THFEUXFSM1JmUlN4ZENIMWRKdw?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina detecta nueva variante de hantavirus en Tierra del Fuego - Noticias RCN",
@@ -4064,7 +4072,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-07-01T01:40:08Z",
+      "last_update": "2026-07-01T01:45:02Z",
       "signals": 3,
       "recent": [
         {
