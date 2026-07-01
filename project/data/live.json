@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-01T08:50:07.146204Z",
-  "next_update": "2026-07-01T08:55:00Z",
+  "generated": "2026-07-01T09:00:10.859808Z",
+  "next_update": "2026-07-01T09:05:00Z",
   "days_active": 54,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -12,7 +12,7 @@
       "strain": "andes",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 4,
+      "signals": 5,
       "gov_alert": false
     },
     "CHL": {
@@ -151,11 +151,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 2,
+      "var_pct": 3,
       "strain": "hps",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -533,7 +533,7 @@
       "gov_alert": false
     },
     "CHN": {
-      "ytd": 2936,
+      "ytd": 2935,
       "alert": "vigilancia",
       "cfr": 1.2,
       "var_pct": -3,
@@ -568,18 +568,18 @@
   },
   "history": {
     "ARG": [
-      189,
-      187,
+      190,
+      188,
       185,
-      182,
-      180,
-      178,
+      183,
+      181,
+      179,
       176,
       174,
-      171,
-      169,
-      167,
-      165,
+      172,
+      170,
+      168,
+      166,
       164,
       162
     ],
@@ -588,7 +588,7 @@
       71,
       70,
       69,
-      69,
+      68,
       68,
       67,
       66,
@@ -783,7 +783,7 @@
       3,
       3,
       3,
-      3,
+      4,
       4,
       4,
       4,
@@ -1246,12 +1246,12 @@
       2385,
       2375,
       2365,
-      2356,
+      2355,
       2346,
       2337,
       2327,
       2318,
-      2310,
+      2309,
       2301,
       2292
     ],
@@ -1348,8 +1348,8 @@
       2985,
       2972,
       2960,
-      2948,
-      2936
+      2947,
+      2935
     ],
     "KOR": [
       108,
@@ -1401,7 +1401,6 @@
     "2026-07-01T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-29T09:00:00Z",
     "2026-06-29T10:00:00Z",
     "2026-06-29T11:00:00Z",
     "2026-06-29T12:00:00Z",
@@ -1448,10 +1447,20 @@
     "2026-07-01T05:00:00Z",
     "2026-07-01T06:00:00Z",
     "2026-07-01T07:00:00Z",
-    "2026-07-01T08:00:00Z"
+    "2026-07-01T08:00:00Z",
+    "2026-07-01T09:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
+      166,
+      166,
+      166,
+      166,
+      166,
+      166,
+      166,
+      166,
+      165,
       165,
       165,
       165,
@@ -1489,15 +1498,6 @@
       163,
       163,
       163,
-      162,
-      162,
-      162,
-      162,
-      162,
-      162,
-      162,
-      162,
-      162,
       162,
       162
     ],
@@ -1505,7 +1505,6 @@
       64,
       64,
       64,
-      64,
       63,
       63,
       63,
@@ -1544,6 +1543,7 @@
       63,
       63,
       63,
+      62,
       62,
       62,
       62,
@@ -1579,7 +1579,7 @@
       165,
       165,
       165,
-      165,
+      166,
       166,
       166,
       166,
@@ -1645,7 +1645,7 @@
       21,
       21,
       21,
-      21,
+      20,
       20,
       20,
       20,
@@ -1810,7 +1810,7 @@
       34,
       34,
       34,
-      34,
+      33,
       33,
       33,
       33,
@@ -2409,7 +2409,6 @@
       407,
       407,
       407,
-      407,
       406,
       406,
       406,
@@ -2449,6 +2448,7 @@
       404,
       404,
       404,
+      403,
       403
     ],
     "SWE": [
@@ -2458,7 +2458,6 @@
       176,
       176,
       176,
-      176,
       175,
       175,
       175,
@@ -2499,6 +2498,7 @@
       175,
       175,
       175,
+      174,
       174
     ],
     "DEU": [
@@ -2518,7 +2518,6 @@
       298,
       298,
       298,
-      298,
       297,
       297,
       297,
@@ -2538,6 +2537,7 @@
       297,
       297,
       297,
+      296,
       296,
       296,
       296,
@@ -2623,7 +2623,7 @@
       76,
       76,
       76,
-      76,
+      75,
       75,
       75,
       75,
@@ -2891,7 +2891,7 @@
       9,
       9,
       9,
-      9,
+      8,
       8,
       8,
       8,
@@ -3167,7 +3167,7 @@
       41,
       41,
       41,
-      41,
+      40,
       40,
       40,
       40,
@@ -3241,7 +3241,7 @@
       32,
       32,
       32,
-      32,
+      31,
       31,
       31,
       31,
@@ -3554,7 +3554,6 @@
     "RUS": [
       2309,
       2309,
-      2309,
       2308,
       2308,
       2308,
@@ -3599,7 +3598,8 @@
       2294,
       2293,
       2293,
-      2293
+      2293,
+      2292
     ],
     "BLR": [
       36,
@@ -3852,7 +3852,6 @@
       28
     ],
     "CHN": [
-      2960,
       2959,
       2959,
       2958,
@@ -3899,7 +3898,8 @@
       2937,
       2937,
       2936,
-      2936
+      2936,
+      2935
     ],
     "KOR": [
       105,
@@ -3909,7 +3909,7 @@
       105,
       105,
       105,
-      105,
+      104,
       104,
       104,
       104,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 21,
+    "composite": 20,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 28,
+    "kalshi": 24,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.11,
     "continents": [
@@ -4016,9 +4016,17 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "ARG": 4
+    "CAN": 1,
+    "ARG": 5
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "Self-isolation over for travellers exposed to hantavirus - Yahoo News Canada",
+      "t": "2026-06-30T20:07:58Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbWIwQnN2WTlfQU5pc3VJVXZzN3JTUWJET3lYV3BkYjlvRkNDeXRVTkJSSkVIbl9zcllCNU5OWkY1R25YZzhRR19nNVRGTWZIYjdQTi1UQlNUQm9ZZmpPa00zMkY4R1FJcHVqNHNjMFR3TEM2THFEUXFSM1JmUlN4ZENIMWRKdw?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina detecta nueva variante de hantavirus en Tierra del Fuego - Noticias RCN",
@@ -4046,6 +4054,13 @@
       "t": "2026-06-29T15:05:48Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWTFLeHFDN2VodEZiVGVza190NjBNQzZRS2VCTGJ6M1ZXd3V5S1JVa2t0RENtbndDVlJFWFdpNFdLSmNDYmlsMndNc1hYRmxvXzMtVG4zWF93RUV1VUl2ODVsVTZRZlhHclhuV2x6MmhsbnZvMl9CYThHcEtNYkZTSlFsUEU4MXR1akUwY0k5NTBHa0RwSE9aOEZ6NE9KVzFOREpYZkpmRHhLMll5dE1KWjh2eGx2Mk1VSHVYdEwyMWUyaVRxS2ZxbGRJWTYyeXU40gHWAUFVX3lxTE5CZVNBdFdDNWhucW16ME5kMUc4M3hIdkc3ZHhVYUVSQ2ZkdUNaZUNzMnppNEpoNFgwajN1UG9JbmZXUXBlaEtrV0tCMzBNeEhwSktucWk3RE5SeGdIQnVGSF9YeGV2VER2c213Tkp6OHVBaEQ5cmxJTTh5V2NwTW91VVBRMjJMMVBucVdfdW9kUmQ2T0gyYWtFaFlpMjk2TVo5eGlXaWFVblRfV1NleGpzVE4yMld3UUowOVdmTVl0dGNtYU9lNER3RHRnQ2VwWmJPdDNYYWc?oc=5"
+    },
+    {
+      "iso": "ARG",
+      "title": "ANLIS Malbr\u00e1n identific\u00f3 hantavirus en roedores de Tierra del Fuego sin relaci\u00f3n con el brote del crucero MV Hondius - Argentina.gob.ar",
+      "t": "2026-06-29T13:04:17Z",
+      "source": "GoogleNews-ES",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZmFFaHNfYnl2UXc5OEhoRHFJU2hneGo5X1hZTFlGMWZSNEJxdmhhaFF1UkotVjFzZTF4V04yV2dTSUhPNng2ZTVWUmdEc2xRblF6cEFReGZqUm9iZ1QyV25wNGN1V1pYSG1zWEZwSnpycEZSV2d0NVlrcllRM3Z6U09MYnFGN0ZyNXpWaUhQa24tZGQ2ZnpSZjYzTC14cFhSYXZlcmNNdnpLTWtSRnh1UkQ5S3ZuQ0JtUWloaDkzUXM0NXY4cWc?oc=5"
     }
   ],
   "maritime_events": [
@@ -4064,9 +4079,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-07-01T08:50:07Z",
-      "signals": 3,
+      "last_update": "2026-07-01T09:00:10Z",
+      "signals": 4,
       "recent": [
+        {
+          "title": "ANLIS Malbr\u00e1n identific\u00f3 hantavirus en roedores de Tierra del Fuego sin relaci\u00f3n con el brote del crucero MV Hondius - Argentina.gob.ar",
+          "t": "2026-06-29T13:04:17Z",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZmFFaHNfYnl2UXc5OEhoRHFJU2hneGo5X1hZTFlGMWZSNEJxdmhhaFF1UkotVjFzZTF4V04yV2dTSUhPNng2ZTVWUmdEc2xRblF6cEFReGZqUm9iZ1QyV25wNGN1V1pYSG1zWEZwSnpycEZSV2d0NVlrcllRM3Z6U09MYnFGN0ZyNXpWaUhQa24tZGQ2ZnpSZjYzTC14cFhSYXZlcmNNdnpLTWtSRnh1UkQ5S3ZuQ0JtUWloaDkzUXM0NXY4cWc?oc=5"
+        },
         {
           "title": "Argentina halla hantavirus en Tierra del Fuego sin nexo con brote del crucero \"Hondius\" - El Economista",
           "t": "2026-06-29T15:05:48Z",
