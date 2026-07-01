@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-01T09:05:15.364351Z",
-  "next_update": "2026-07-01T09:10:00Z",
+  "generated": "2026-07-01T09:20:02.609210Z",
+  "next_update": "2026-07-01T09:25:00Z",
   "days_active": 54,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -151,11 +151,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 3,
+      "var_pct": 2,
       "strain": "hps",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 1,
+      "signals": 0,
       "gov_alert": false
     },
     "GTM": {
@@ -783,7 +783,7 @@
       3,
       3,
       3,
-      4,
+      3,
       4,
       4,
       4,
@@ -1341,7 +1341,7 @@
       3082,
       3067,
       3053,
-      3039,
+      3038,
       3025,
       3011,
       2998,
@@ -4006,7 +4006,7 @@
     "composite": 20,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 22,
+    "kalshi": 26,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.11,
     "continents": [
@@ -4016,17 +4016,9 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "CAN": 1,
     "ARG": 4
   },
   "events": [
-    {
-      "iso": "CAN",
-      "title": "Self-isolation over for travellers exposed to hantavirus - Yahoo News Canada",
-      "t": "2026-06-30T20:07:58Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbWIwQnN2WTlfQU5pc3VJVXZzN3JTUWJET3lYV3BkYjlvRkNDeXRVTkJSSkVIbl9zcllCNU5OWkY1R25YZzhRR19nNVRGTWZIYjdQTi1UQlNUQm9ZZmpPa00zMkY4R1FJcHVqNHNjMFR3TEM2THFEUXFSM1JmUlN4ZENIMWRKdw?oc=5"
-    },
     {
       "iso": "ARG",
       "title": "Argentina detecta nueva variante de hantavirus en Tierra del Fuego - Noticias RCN",
@@ -4036,7 +4028,7 @@
     },
     {
       "iso": "ARG",
-      "title": "Argentina halla hantavirus en roedores silvestres en Usuahia, pero descarta un nexo con el brote del crucero MV Hondius - 20minutos.es",
+      "title": "Argentina halla hantavirus en roedores silvestres en Usuahia, pero descarta un nexo con el brote del crucero MV Hondius - 20Minutos",
       "t": "2026-06-29T19:36:23Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcUFuYS05ZUNjeUJ0VWhRbGRLaFVaZjBkSGloaGpTTFRBWTlCYnVwVVlBamtERmhJcmc1MkpHTFhuOEF3MjZRWDVzOUs2cV9KRFV3QU10azdhcXZXaWhTbDNJdnNEY0Z0ZlJhMFpQUXhORXYybFVXaDdRX3Fya0VVWlg5R1JIWXdLR0hIOEYxTGY2aEwyYUxrRlktQmtDLTlHdWE3NS05UFZDaU85SGdRRUxIRm1NQUJoVTB2LTd0UXFkOWhrZDNEWVBBUDhaT3E0aWtDbW5ycWxILUtrckVuTHlBY1c4blA2Wk14WGVQRTfSAfYBQVVfeXFMTkxpSlNmVFJzOGE2NzNfUGtBblJZMi1SX2hnQzhNRTRIRTA5Z2NuSlhnT2dPNkF6bjI0S041OHRoeTlBYkE1c3JvUDRTMTh3RlB6VGZhc2hPN1pDbDVlSkZpMkUyQ1ljX29zdHJReGtaOW5XZ2RzOTJQZExwNHE1QWJhNGxhVXhGanM5TXN6M0tFUWJCcDg1QlZWQUJBcV90SWpaTUIwS1dzcVhpcUhNNXdqWmduVnM2dW9BR24wMTk1eklQeTJCMm0xSkdUcEZua3M2V0plRTNqRU5UVUpzZWRqX1E0TWRBaU5CblhncG1ZRjhxUi13?oc=5"
@@ -4072,7 +4064,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-07-01T09:05:15Z",
+      "last_update": "2026-07-01T09:20:02Z",
       "signals": 3,
       "recent": [
         {
@@ -4081,7 +4073,7 @@
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWTFLeHFDN2VodEZiVGVza190NjBNQzZRS2VCTGJ6M1ZXd3V5S1JVa2t0RENtbndDVlJFWFdpNFdLSmNDYmlsMndNc1hYRmxvXzMtVG4zWF93RUV1VUl2ODVsVTZRZlhHclhuV2x6MmhsbnZvMl9CYThHcEtNYkZTSlFsUEU4MXR1akUwY0k5NTBHa0RwSE9aOEZ6NE9KVzFOREpYZkpmRHhLMll5dE1KWjh2eGx2Mk1VSHVYdEwyMWUyaVRxS2ZxbGRJWTYyeXU40gHWAUFVX3lxTE5CZVNBdFdDNWhucW16ME5kMUc4M3hIdkc3ZHhVYUVSQ2ZkdUNaZUNzMnppNEpoNFgwajN1UG9JbmZXUXBlaEtrV0tCMzBNeEhwSktucWk3RE5SeGdIQnVGSF9YeGV2VER2c213Tkp6OHVBaEQ5cmxJTTh5V2NwTW91VVBRMjJMMVBucVdfdW9kUmQ2T0gyYWtFaFlpMjk2TVo5eGlXaWFVblRfV1NleGpzVE4yMld3UUowOVdmTVl0dGNtYU9lNER3RHRnQ2VwWmJPdDNYYWc?oc=5"
         },
         {
-          "title": "Argentina halla hantavirus en roedores silvestres en Usuahia, pero descarta un nexo con el brote del crucero MV Hondius - 20minutos.es",
+          "title": "Argentina halla hantavirus en roedores silvestres en Usuahia, pero descarta un nexo con el brote del crucero MV Hondius - 20Minutos",
           "t": "2026-06-29T19:36:23Z",
           "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcUFuYS05ZUNjeUJ0VWhRbGRLaFVaZjBkSGloaGpTTFRBWTlCYnVwVVlBamtERmhJcmc1MkpHTFhuOEF3MjZRWDVzOUs2cV9KRFV3QU10azdhcXZXaWhTbDNJdnNEY0Z0ZlJhMFpQUXhORXYybFVXaDdRX3Fya0VVWlg5R1JIWXdLR0hIOEYxTGY2aEwyYUxrRlktQmtDLTlHdWE3NS05UFZDaU85SGdRRUxIRm1NQUJoVTB2LTd0UXFkOWhrZDNEWVBBUDhaT3E0aWtDbW5ycWxILUtrckVuTHlBY1c4blA2Wk14WGVQRTfSAfYBQVVfeXFMTkxpSlNmVFJzOGE2NzNfUGtBblJZMi1SX2hnQzhNRTRIRTA5Z2NuSlhnT2dPNkF6bjI0S041OHRoeTlBYkE1c3JvUDRTMTh3RlB6VGZhc2hPN1pDbDVlSkZpMkUyQ1ljX29zdHJReGtaOW5XZ2RzOTJQZExwNHE1QWJhNGxhVXhGanM5TXN6M0tFUWJCcDg1QlZWQUJBcV90SWpaTUIwS1dzcVhpcUhNNXdqWmduVnM2dW9BR24wMTk1eklQeTJCMm0xSkdUcEZua3M2V0plRTNqRU5UVUpzZWRqX1E0TWRBaU5CblhncG1ZRjhxUi13?oc=5"
         },
