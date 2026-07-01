@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-01T09:20:02.609210Z",
-  "next_update": "2026-07-01T09:25:00Z",
+  "generated": "2026-07-01T09:35:10.915815Z",
+  "next_update": "2026-07-01T09:40:00Z",
   "days_active": 54,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -151,11 +151,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 2,
+      "var_pct": 3,
       "strain": "hps",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -570,7 +570,7 @@
     "ARG": [
       189,
       187,
-      185,
+      184,
       182,
       180,
       178,
@@ -604,7 +604,7 @@
       152,
       154,
       156,
-      157,
+      158,
       159,
       160,
       162,
@@ -783,7 +783,7 @@
       3,
       3,
       3,
-      3,
+      4,
       4,
       4,
       4,
@@ -1242,7 +1242,7 @@
     "RUS": [
       2417,
       2406,
-      2396,
+      2395,
       2385,
       2375,
       2365,
@@ -1337,17 +1337,17 @@
     ],
     "CHN": [
       3112,
-      3097,
-      3082,
+      3096,
+      3081,
       3067,
-      3053,
+      3052,
       3038,
-      3025,
+      3024,
       3011,
       2998,
       2985,
       2972,
-      2960,
+      2959,
       2947,
       2935
     ],
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 20,
+    "composite": 21,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 26,
+    "kalshi": 27,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.11,
     "continents": [
@@ -4016,9 +4016,17 @@
     "outbreak_count": 4
   },
   "signal_summary": {
+    "CAN": 1,
     "ARG": 4
   },
   "events": [
+    {
+      "iso": "CAN",
+      "title": "Self-isolation over for travellers exposed to hantavirus - Yahoo News Canada",
+      "t": "2026-06-30T20:07:58Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbWIwQnN2WTlfQU5pc3VJVXZzN3JTUWJET3lYV3BkYjlvRkNDeXRVTkJSSkVIbl9zcllCNU5OWkY1R25YZzhRR19nNVRGTWZIYjdQTi1UQlNUQm9ZZmpPa00zMkY4R1FJcHVqNHNjMFR3TEM2THFEUXFSM1JmUlN4ZENIMWRKdw?oc=5"
+    },
     {
       "iso": "ARG",
       "title": "Argentina detecta nueva variante de hantavirus en Tierra del Fuego - Noticias RCN",
@@ -4064,7 +4072,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-07-01T09:20:02Z",
+      "last_update": "2026-07-01T09:35:10Z",
       "signals": 3,
       "recent": [
         {
