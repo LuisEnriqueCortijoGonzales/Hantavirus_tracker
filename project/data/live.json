@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-01T09:45:04.133671Z",
-  "next_update": "2026-07-01T09:50:00Z",
+  "generated": "2026-07-01T09:50:03.378030Z",
+  "next_update": "2026-07-01T09:55:00Z",
   "days_active": 54,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -875,7 +875,7 @@
       430,
       428,
       426,
-      424,
+      423,
       421,
       419,
       417,
@@ -1252,7 +1252,7 @@
       2327,
       2318,
       2309,
-      2301,
+      2300,
       2292
     ],
     "BLR": [
@@ -1336,7 +1336,7 @@
       28
     ],
     "CHN": [
-      3112,
+      3111,
       3096,
       3081,
       3067,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 20,
+    "composite": 21,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 26,
+    "kalshi": 28,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.11,
     "continents": [
@@ -4064,7 +4064,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-07-01T09:45:04Z",
+      "last_update": "2026-07-01T09:50:03Z",
       "signals": 3,
       "recent": [
         {
