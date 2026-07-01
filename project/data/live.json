@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-01T13:00:16.880100Z",
-  "next_update": "2026-07-01T13:05:00Z",
+  "generated": "2026-07-01T13:05:05.672816Z",
+  "next_update": "2026-07-01T13:10:00Z",
   "days_active": 54,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -151,11 +151,11 @@
       "ytd": 4,
       "alert": "endemico",
       "cfr": 29.0,
-      "var_pct": 2,
+      "var_pct": 3,
       "strain": "hps",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 0,
+      "signals": 1,
       "gov_alert": false
     },
     "GTM": {
@@ -600,7 +600,7 @@
       62
     ],
     "BRA": [
-      149,
+      150,
       152,
       154,
       156,
@@ -783,7 +783,7 @@
       3,
       3,
       3,
-      3,
+      4,
       4,
       4,
       4,
@@ -911,7 +911,7 @@
       308,
       306,
       305,
-      304,
+      303,
       302,
       301,
       299,
@@ -1241,10 +1241,10 @@
     ],
     "RUS": [
       2415,
-      2405,
+      2404,
       2394,
       2384,
-      2374,
+      2373,
       2364,
       2354,
       2344,
@@ -1342,7 +1342,7 @@
       3065,
       3050,
       3036,
-      3023,
+      3022,
       3009,
       2996,
       2983,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 20,
+    "composite": 21,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 25,
+    "kalshi": 28,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.11,
     "continents": [
@@ -4016,6 +4016,7 @@
     "outbreak_count": 4
   },
   "signal_summary": {
+    "CAN": 1,
     "ARG": 5
   },
   "events": [
@@ -4053,6 +4054,13 @@
       "t": "2026-06-29T13:04:17Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZmFFaHNfYnl2UXc5OEhoRHFJU2hneGo5X1hZTFlGMWZSNEJxdmhhaFF1UkotVjFzZTF4V04yV2dTSUhPNng2ZTVWUmdEc2xRblF6cEFReGZqUm9iZ1QyV25wNGN1V1pYSG1zWEZwSnpycEZSV2d0NVlrcllRM3Z6U09MYnFGN0ZyNXpWaUhQa24tZGQ2ZnpSZjYzTC14cFhSYXZlcmNNdnpLTWtSRnh1UkQ5S3ZuQ0JtUWloaDkzUXM0NXY4cWc?oc=5"
+    },
+    {
+      "iso": "CAN",
+      "title": "Hantavirus self-isolation complete for 34 Canadians, Health Canada says - National - Global News",
+      "t": "2026-06-24T18:06:54Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
     }
   ],
   "maritime_events": [
@@ -4071,7 +4079,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-07-01T13:00:16Z",
+      "last_update": "2026-07-01T13:05:05Z",
       "signals": 4,
       "recent": [
         {
