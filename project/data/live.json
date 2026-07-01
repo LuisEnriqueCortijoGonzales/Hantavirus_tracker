@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-01T20:05:16.159878Z",
-  "next_update": "2026-07-01T20:10:00Z",
+  "generated": "2026-07-01T20:10:10.159641Z",
+  "next_update": "2026-07-01T20:15:00Z",
   "days_active": 54,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -1247,7 +1247,7 @@
       2371,
       2361,
       2351,
-      2342,
+      2341,
       2332,
       2323,
       2314,
@@ -1330,7 +1330,7 @@
       29,
       29,
       29,
-      29,
+      28,
       28,
       28,
       28
@@ -1342,7 +1342,7 @@
       3060,
       3046,
       3032,
-      3019,
+      3018,
       3005,
       2992,
       2979,
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 21,
+    "composite": 22,
     "epidemio": 26,
     "polymarket": 4,
-    "kalshi": 27,
+    "kalshi": 30,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.18,
     "continents": [
@@ -4021,13 +4021,6 @@
     "FRA": 1
   },
   "events": [
-    {
-      "iso": "CAN",
-      "title": "Self-isolation over for travellers exposed to hantavirus - Yahoo News Canada",
-      "t": "2026-06-30T20:07:58Z",
-      "source": "GoogleNews-EN",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbWIwQnN2WTlfQU5pc3VJVXZzN3JTUWJET3lYV3BkYjlvRkNDeXRVTkJSSkVIbl9zcllCNU5OWkY1R25YZzhRR19nNVRGTWZIYjdQTi1UQlNUQm9ZZmpPa00zMkY4R1FJcHVqNHNjMFR3TEM2THFEUXFSM1JmUlN4ZENIMWRKdw?oc=5"
-    },
     {
       "iso": "ARG",
       "title": "Argentina detecta nueva variante de hantavirus en Tierra del Fuego - Noticias RCN",
@@ -4062,6 +4055,13 @@
       "t": "2026-06-25T10:15:19Z",
       "source": "GoogleNews-ES",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMWxCWEFRSVZxRFNRQlBDdWt6U3NnTFhlcUtMZ2J4dVR2cG14VEhFNy1VaWY4QjVEX1J1d2xjZnRtS2dpVG5jd3RsUmZ3X2tCYjJkdmlQUzY3Y2ZwZkE1a3NMSGpRTGhtMHFNU05fbnRXNzVpZTE1Q1J5UFRzVXpXVndWZ0Jqb2F6S2MtWEdUWGdPU2RwUTJVLWM4SnIxT3ltbmVnSTBEcnlGYTdSVHhNTDh4cXM4MTZuLS1XUkhqbGZjWExTTmZfSXlBajh3X0wtcVpzNGJtYlJvdw?oc=5"
+    },
+    {
+      "iso": "CAN",
+      "title": "Hantavirus self-isolation complete for 34 Canadians, Health Canada says - National - Global News",
+      "t": "2026-06-24T18:06:54Z",
+      "source": "GoogleNews-EN",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeXQySnRrSktDQWV0ajRsdE5PMVdqZHkyWkpKZTE5dnZ3Sm5pX2hGMDNSSnoyTUI5dUhjM3RhWFdXaGRUZjRzV2RORlFpc1laT3kyMnNJd2VjRkpGVFZWaTFvSVcyRHR6X0pqSWxmRDN6MnVxRmJiZGRyWUhNQjg4QUJUaTdZSHpPNnBqVGk1MnhZX0poWUo2NkFDRUZ3dVU?oc=5"
     }
   ],
   "maritime_events": [
@@ -4080,7 +4080,7 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-07-01T20:05:16Z",
+      "last_update": "2026-07-01T20:10:10Z",
       "signals": 3,
       "recent": [
         {
