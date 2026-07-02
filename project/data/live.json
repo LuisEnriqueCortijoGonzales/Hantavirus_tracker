@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-02T02:55:07.141042Z",
-  "next_update": "2026-07-02T03:00:00Z",
+  "generated": "2026-07-02T03:00:06.377918Z",
+  "next_update": "2026-07-02T03:05:00Z",
   "days_active": 55,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -909,7 +909,7 @@
       310,
       308,
       307,
-      306,
+      305,
       304,
       303,
       301,
@@ -1337,7 +1337,7 @@
     ],
     "CHN": [
       3101,
-      3086,
+      3085,
       3071,
       3056,
       3042,
@@ -1401,7 +1401,6 @@
     "2026-07-02T12:00Z"
   ],
   "hourly_dates": [
-    "2026-06-30T03:00:00Z",
     "2026-06-30T04:00:00Z",
     "2026-06-30T05:00:00Z",
     "2026-06-30T06:00:00Z",
@@ -1448,7 +1447,8 @@
     "2026-07-01T23:00:00Z",
     "2026-07-02T00:00:00Z",
     "2026-07-02T01:00:00Z",
-    "2026-07-02T02:00:00Z"
+    "2026-07-02T02:00:00Z",
+    "2026-07-02T03:00:00Z"
   ],
   "hourly_history": {
     "ARG": [
@@ -1462,7 +1462,6 @@
       162,
       162,
       162,
-      162,
       161,
       161,
       161,
@@ -1489,6 +1488,7 @@
       160,
       160,
       160,
+      159,
       159,
       159,
       159,
@@ -1525,7 +1525,7 @@
       63,
       63,
       63,
-      63,
+      62,
       62,
       62,
       62,
@@ -1561,7 +1561,7 @@
       165,
       165,
       165,
-      165,
+      166,
       166,
       166,
       166,
@@ -1627,7 +1627,7 @@
       21,
       21,
       21,
-      21,
+      20,
       20,
       20,
       20,
@@ -2404,7 +2404,6 @@
     "FIN": [
       406,
       406,
-      406,
       405,
       405,
       405,
@@ -2444,6 +2443,7 @@
       403,
       403,
       403,
+      402,
       402,
       402,
       402,
@@ -2480,7 +2480,7 @@
       175,
       175,
       175,
-      175,
+      174,
       174,
       174,
       174,
@@ -2519,7 +2519,6 @@
       297,
       297,
       297,
-      297,
       296,
       296,
       296,
@@ -2539,6 +2538,7 @@
       296,
       296,
       296,
+      295,
       295,
       295,
       295,
@@ -2594,7 +2594,7 @@
       53,
       53,
       53,
-      53,
+      52,
       52,
       52,
       52,
@@ -2605,7 +2605,7 @@
       76,
       76,
       76,
-      76,
+      75,
       75,
       75,
       75,
@@ -2873,7 +2873,7 @@
       9,
       9,
       9,
-      9,
+      8,
       8,
       8,
       8,
@@ -3223,7 +3223,7 @@
       32,
       32,
       32,
-      32,
+      31,
       31,
       31,
       31,
@@ -3553,7 +3553,6 @@
     ],
     "RUS": [
       2303,
-      2303,
       2302,
       2302,
       2302,
@@ -3599,6 +3598,7 @@
       2287,
       2287,
       2287,
+      2286,
       2286
     ],
     "BLR": [
@@ -3852,7 +3852,6 @@
       28
     ],
     "CHN": [
-      2951,
       2950,
       2950,
       2949,
@@ -3899,6 +3898,7 @@
       2929,
       2928,
       2928,
+      2927,
       2927
     ],
     "KOR": [
@@ -4003,10 +4003,10 @@
     ]
   },
   "pandemic": {
-    "composite": 21,
+    "composite": 20,
     "epidemio": 26,
     "polymarket": 3,
-    "kalshi": 30,
+    "kalshi": 23,
     "max_andes_r0": 3.5,
     "avg_other_r0": 0.18,
     "continents": [
@@ -4022,10 +4022,10 @@
   "events": [
     {
       "iso": "ARG",
-      "title": "Argentina halla hantavirus en roedores silvestres en Usuahia, pero descarta un nexo con el brote del crucero MV Hondius - 20Minutos",
-      "t": "2026-06-29T19:36:23Z",
+      "title": "Argentina detecta hantavirus por primera vez en Ushuaia, pero descartan que originara el brote del MV Hondius - El Peri\u00f3dico",
+      "t": "2026-06-29T18:45:46Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcUFuYS05ZUNjeUJ0VWhRbGRLaFVaZjBkSGloaGpTTFRBWTlCYnVwVVlBamtERmhJcmc1MkpHTFhuOEF3MjZRWDVzOUs2cV9KRFV3QU10azdhcXZXaWhTbDNJdnNEY0Z0ZlJhMFpQUXhORXYybFVXaDdRX3Fya0VVWlg5R1JIWXdLR0hIOEYxTGY2aEwyYUxrRlktQmtDLTlHdWE3NS05UFZDaU85SGdRRUxIRm1NQUJoVTB2LTd0UXFkOWhrZDNEWVBBUDhaT3E0aWtDbW5ycWxILUtrckVuTHlBY1c4blA2Wk14WGVQRTfSAfYBQVVfeXFMTkxpSlNmVFJzOGE2NzNfUGtBblJZMi1SX2hnQzhNRTRIRTA5Z2NuSlhnT2dPNkF6bjI0S041OHRoeTlBYkE1c3JvUDRTMTh3RlB6VGZhc2hPN1pDbDVlSkZpMkUyQ1ljX29zdHJReGtaOW5XZ2RzOTJQZExwNHE1QWJhNGxhVXhGanM5TXN6M0tFUWJCcDg1QlZWQUJBcV90SWpaTUIwS1dzcVhpcUhNNXdqWmduVnM2dW9BR24wMTk1eklQeTJCMm0xSkdUcEZua3M2V0plRTNqRU5UVUpzZWRqX1E0TWRBaU5CblhncG1ZRjhxUi13?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWk5vLVQwbjlIWDFYLU1Yb3haRFRJeTJBQ3I4OE5wdjdOWGRFeEhBQzNiMXpYYV9FdXhNMTBtRGg0NEJaMnBCM0c1cGZxVVZRX004ZnBDcHZzd1dlSEtJbjhlaFB4ckFvWGR4YWE0MmdXaWFvMEFzWkFmOWY1YzJoZXpqQ2RTQ0NyVFYzQlg1dE5RY3YtV1N2OGRxSjVNVGcwOENHZy0zeFktOWfSAasBQVVfeXFMUFFnZGR0MHMwY2pQbjRDMURUWUxCYU9BUEkwNkNXNkNBS0xlajJwY093ZlA3SG00U0cybnZKc0RtSDBseDZPMTVhaGp0bTNhVGdhWVFaZjBzMU5aRHY5YUVvUkxZZ0R2OE1MRVh1VDhmdV9KVF9RZ2pOLXNzalBhTkZpeXMxdGZTZHIwWHFTR1AxOGtZSzRKMjJxYmMxMktPR1FTbTRMT3llNjBZ?oc=5"
     },
     {
       "iso": "ARG",
@@ -4058,18 +4058,13 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-07-02T02:55:07Z",
-      "signals": 2,
+      "last_update": "2026-07-02T03:00:06Z",
+      "signals": 1,
       "recent": [
         {
           "title": "Argentina halla hantavirus en Tierra del Fuego sin nexo con brote del crucero \"Hondius\" - El Economista",
           "t": "2026-06-29T15:05:48Z",
           "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWTFLeHFDN2VodEZiVGVza190NjBNQzZRS2VCTGJ6M1ZXd3V5S1JVa2t0RENtbndDVlJFWFdpNFdLSmNDYmlsMndNc1hYRmxvXzMtVG4zWF93RUV1VUl2ODVsVTZRZlhHclhuV2x6MmhsbnZvMl9CYThHcEtNYkZTSlFsUEU4MXR1akUwY0k5NTBHa0RwSE9aOEZ6NE9KVzFOREpYZkpmRHhLMll5dE1KWjh2eGx2Mk1VSHVYdEwyMWUyaVRxS2ZxbGRJWTYyeXU40gHWAUFVX3lxTE5CZVNBdFdDNWhucW16ME5kMUc4M3hIdkc3ZHhVYUVSQ2ZkdUNaZUNzMnppNEpoNFgwajN1UG9JbmZXUXBlaEtrV0tCMzBNeEhwSktucWk3RE5SeGdIQnVGSF9YeGV2VER2c213Tkp6OHVBaEQ5cmxJTTh5V2NwTW91VVBRMjJMMVBucVdfdW9kUmQ2T0gyYWtFaFlpMjk2TVo5eGlXaWFVblRfV1NleGpzVE4yMld3UUowOVdmTVl0dGNtYU9lNER3RHRnQ2VwWmJPdDNYYWc?oc=5"
-        },
-        {
-          "title": "Argentina halla hantavirus en roedores silvestres en Usuahia, pero descarta un nexo con el brote del crucero MV Hondius - 20Minutos",
-          "t": "2026-06-29T19:36:23Z",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcUFuYS05ZUNjeUJ0VWhRbGRLaFVaZjBkSGloaGpTTFRBWTlCYnVwVVlBamtERmhJcmc1MkpHTFhuOEF3MjZRWDVzOUs2cV9KRFV3QU10azdhcXZXaWhTbDNJdnNEY0Z0ZlJhMFpQUXhORXYybFVXaDdRX3Fya0VVWlg5R1JIWXdLR0hIOEYxTGY2aEwyYUxrRlktQmtDLTlHdWE3NS05UFZDaU85SGdRRUxIRm1NQUJoVTB2LTd0UXFkOWhrZDNEWVBBUDhaT3E0aWtDbW5ycWxILUtrckVuTHlBY1c4blA2Wk14WGVQRTfSAfYBQVVfeXFMTkxpSlNmVFJzOGE2NzNfUGtBblJZMi1SX2hnQzhNRTRIRTA5Z2NuSlhnT2dPNkF6bjI0S041OHRoeTlBYkE1c3JvUDRTMTh3RlB6VGZhc2hPN1pDbDVlSkZpMkUyQ1ljX29zdHJReGtaOW5XZ2RzOTJQZExwNHE1QWJhNGxhVXhGanM5TXN6M0tFUWJCcDg1QlZWQUJBcV90SWpaTUIwS1dzcVhpcUhNNXdqWmduVnM2dW9BR24wMTk1eklQeTJCMm0xSkdUcEZua3M2V0plRTNqRU5UVUpzZWRqX1E0TWRBaU5CblhncG1ZRjhxUi13?oc=5"
         }
       ]
     }
