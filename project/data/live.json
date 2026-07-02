@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-02T03:00:06.377918Z",
-  "next_update": "2026-07-02T03:05:00Z",
+  "generated": "2026-07-02T03:05:05.636739Z",
+  "next_update": "2026-07-02T03:10:00Z",
   "days_active": 55,
   "source": "raspberry-pi-backend",
   "countries": {
@@ -1249,7 +1249,7 @@
       2348,
       2339,
       2330,
-      2321,
+      2320,
       2312,
       2303,
       2294,
@@ -1336,7 +1336,7 @@
       28
     ],
     "CHN": [
-      3101,
+      3100,
       3085,
       3071,
       3056,
@@ -1347,7 +1347,7 @@
       2988,
       2975,
       2963,
-      2951,
+      2950,
       2938,
       2927
     ],
@@ -4022,10 +4022,10 @@
   "events": [
     {
       "iso": "ARG",
-      "title": "Argentina detecta hantavirus por primera vez en Ushuaia, pero descartan que originara el brote del MV Hondius - El Peri\u00f3dico",
-      "t": "2026-06-29T18:45:46Z",
+      "title": "Argentina halla hantavirus en roedores en Ushuaia pero descarta nexo con brote de crucero - Infobae",
+      "t": "2026-06-29T18:59:07Z",
       "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWk5vLVQwbjlIWDFYLU1Yb3haRFRJeTJBQ3I4OE5wdjdOWGRFeEhBQzNiMXpYYV9FdXhNMTBtRGg0NEJaMnBCM0c1cGZxVVZRX004ZnBDcHZzd1dlSEtJbjhlaFB4ckFvWGR4YWE0MmdXaWFvMEFzWkFmOWY1YzJoZXpqQ2RTQ0NyVFYzQlg1dE5RY3YtV1N2OGRxSjVNVGcwOENHZy0zeFktOWfSAasBQVVfeXFMUFFnZGR0MHMwY2pQbjRDMURUWUxCYU9BUEkwNkNXNkNBS0xlajJwY093ZlA3SG00U0cybnZKc0RtSDBseDZPMTVhaGp0bTNhVGdhWVFaZjBzMU5aRHY5YUVvUkxZZ0R2OE1MRVh1VDhmdV9KVF9RZ2pOLXNzalBhTkZpeXMxdGZTZHIwWHFTR1AxOGtZSzRKMjJxYmMxMktPR1FTbTRMT3llNjBZ?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQ1pleHVVd0g5Y3VKZHk5Y3pDbGZvM18xTE84WWhYR1g5NC1HS0JOVU1oaGkyV09KYkpIYkZIX2w2QXVQWjJ0Qk5lRVhSRFkzcGoyclhiWTFVOWwzVDRXMWR5X1NJZE1LRmp6NXUxTmJUOUpmT1RZdXFKV2xxdHlpNjBQY29udkdrOWE5WnFWRnNKM3Vydk0yalBaR2g1VU5MQ2hjYjd6d0FlcHhlM2w2R2ZTTGowcHZTb2FyYzYyanJCd2RDRG44WDNhTEg5MUVTUUlKd3Q3RlA2QdIB9AFBVV95cUxQcktJUVVnblRPTncxelVNRkFoTkdzRlZqU2ViLVNfNDV0SFYyQ2Y4UTd0X3JiNGdhWWpkZHM0Ri1SU002bzB6ajJ1bDNqT2RpMElJYjExd0hOZ0diVnNJeThfVVBZQ1dxMEFXR1ExSk95Nng3SmRBSk1ycW04eUVqN2ZZbXhkWG5yek5KYTV2N3NKSFJWNnVxa0xlOGlZaFpCdXBrWVo0MlZjRXFQdG15Q3FjOXJFUlpjUlROOXpXWGExY0lJaVlHQ1JDWTBHUWo1QWZta2NqZXdtSEJqVi01aVRBV09WSXJRalYtTUVqMkF5Q1FC?oc=5"
     },
     {
       "iso": "ARG",
@@ -4058,9 +4058,14 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-07-02T03:00:06Z",
-      "signals": 1,
+      "last_update": "2026-07-02T03:05:05Z",
+      "signals": 2,
       "recent": [
+        {
+          "title": "Argentina halla hantavirus en roedores en Ushuaia pero descarta nexo con brote de crucero - Infobae",
+          "t": "2026-06-29T18:59:07Z",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQ1pleHVVd0g5Y3VKZHk5Y3pDbGZvM18xTE84WWhYR1g5NC1HS0JOVU1oaGkyV09KYkpIYkZIX2w2QXVQWjJ0Qk5lRVhSRFkzcGoyclhiWTFVOWwzVDRXMWR5X1NJZE1LRmp6NXUxTmJUOUpmT1RZdXFKV2xxdHlpNjBQY29udkdrOWE5WnFWRnNKM3Vydk0yalBaR2g1VU5MQ2hjYjd6d0FlcHhlM2w2R2ZTTGowcHZTb2FyYzYyanJCd2RDRG44WDNhTEg5MUVTUUlKd3Q3RlA2QdIB9AFBVV95cUxQcktJUVVnblRPTncxelVNRkFoTkdzRlZqU2ViLVNfNDV0SFYyQ2Y4UTd0X3JiNGdhWWpkZHM0Ri1SU002bzB6ajJ1bDNqT2RpMElJYjExd0hOZ0diVnNJeThfVVBZQ1dxMEFXR1ExSk95Nng3SmRBSk1ycW04eUVqN2ZZbXhkWG5yek5KYTV2N3NKSFJWNnVxa0xlOGlZaFpCdXBrWVo0MlZjRXFQdG15Q3FjOXJFUlpjUlROOXpXWGExY0lJaVlHQ1JDWTBHUWo1QWZta2NqZXdtSEJqVi01aVRBV09WSXJRalYtTUVqMkF5Q1FC?oc=5"
+        },
         {
           "title": "Argentina halla hantavirus en Tierra del Fuego sin nexo con brote del crucero \"Hondius\" - El Economista",
           "t": "2026-06-29T15:05:48Z",
