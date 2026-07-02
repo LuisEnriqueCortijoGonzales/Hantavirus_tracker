@@ -1,18 +1,18 @@
 {
-  "generated": "2026-07-02T03:05:05.636739Z",
-  "next_update": "2026-07-02T03:10:00Z",
+  "generated": "2026-07-02T03:15:19.868769Z",
+  "next_update": "2026-07-02T03:20:00Z",
   "days_active": 55,
   "source": "raspberry-pi-backend",
   "countries": {
     "ARG": {
-      "ytd": 159,
+      "ytd": 158,
       "alert": "brote",
       "cfr": 37.3,
       "var_pct": -7,
       "strain": "andes",
       "new_today": 0,
       "r0": 3.5,
-      "signals": 2,
+      "signals": 1,
       "gov_alert": false
     },
     "CHL": {
@@ -568,20 +568,20 @@
   },
   "history": {
     "ARG": [
-      186,
-      183,
-      181,
-      179,
-      177,
+      185,
+      182,
+      180,
+      178,
+      176,
       174,
-      172,
-      170,
-      168,
-      166,
-      164,
+      171,
+      169,
+      167,
+      165,
+      163,
       162,
       160,
-      159
+      158
     ],
     "CHL": [
       71,
@@ -698,7 +698,7 @@
     "PRY": [
       8,
       8,
-      8,
+      9,
       9,
       9,
       9,
@@ -878,7 +878,7 @@
       422,
       420,
       418,
-      416,
+      415,
       413,
       411,
       409,
@@ -1248,7 +1248,7 @@
       2358,
       2348,
       2339,
-      2330,
+      2329,
       2320,
       2312,
       2303,
@@ -1342,7 +1342,7 @@
       3056,
       3042,
       3028,
-      3015,
+      3014,
       3001,
       2988,
       2975,
@@ -1452,16 +1452,6 @@
   ],
   "hourly_history": {
     "ARG": [
-      162,
-      162,
-      162,
-      162,
-      162,
-      162,
-      162,
-      162,
-      162,
-      162,
       161,
       161,
       161,
@@ -1499,7 +1489,17 @@
       159,
       159,
       159,
-      159
+      159,
+      159,
+      158,
+      158,
+      158,
+      158,
+      158,
+      158,
+      158,
+      158,
+      158
     ],
     "CHL": [
       63,
@@ -4016,17 +4016,10 @@
     "outbreak_count": 4
   },
   "signal_summary": {
-    "ARG": 2,
+    "ARG": 1,
     "FRA": 1
   },
   "events": [
-    {
-      "iso": "ARG",
-      "title": "Argentina halla hantavirus en roedores en Ushuaia pero descarta nexo con brote de crucero - Infobae",
-      "t": "2026-06-29T18:59:07Z",
-      "source": "GoogleNews-ES",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQ1pleHVVd0g5Y3VKZHk5Y3pDbGZvM18xTE84WWhYR1g5NC1HS0JOVU1oaGkyV09KYkpIYkZIX2w2QXVQWjJ0Qk5lRVhSRFkzcGoyclhiWTFVOWwzVDRXMWR5X1NJZE1LRmp6NXUxTmJUOUpmT1RZdXFKV2xxdHlpNjBQY29udkdrOWE5WnFWRnNKM3Vydk0yalBaR2g1VU5MQ2hjYjd6d0FlcHhlM2w2R2ZTTGowcHZTb2FyYzYyanJCd2RDRG44WDNhTEg5MUVTUUlKd3Q3RlA2QdIB9AFBVV95cUxQcktJUVVnblRPTncxelVNRkFoTkdzRlZqU2ViLVNfNDV0SFYyQ2Y4UTd0X3JiNGdhWWpkZHM0Ri1SU002bzB6ajJ1bDNqT2RpMElJYjExd0hOZ0diVnNJeThfVVBZQ1dxMEFXR1ExSk95Nng3SmRBSk1ycW04eUVqN2ZZbXhkWG5yek5KYTV2N3NKSFJWNnVxa0xlOGlZaFpCdXBrWVo0MlZjRXFQdG15Q3FjOXJFUlpjUlROOXpXWGExY0lJaVlHQ1JDWTBHUWo1QWZta2NqZXdtSEJqVi01aVRBV09WSXJRalYtTUVqMkF5Q1FC?oc=5"
-    },
     {
       "iso": "ARG",
       "title": "Argentina halla hantavirus en Tierra del Fuego sin nexo con brote del crucero \"Hondius\" - El Economista",
@@ -4058,14 +4051,9 @@
       "started": "2026-05-04T00:00Z",
       "note_es": "En cuarentena \u00b7 14 casos sospechosos a bordo",
       "note_en": "Quarantined \u00b7 14 suspected cases on board",
-      "last_update": "2026-07-02T03:05:05Z",
-      "signals": 2,
+      "last_update": "2026-07-02T03:15:19Z",
+      "signals": 1,
       "recent": [
-        {
-          "title": "Argentina halla hantavirus en roedores en Ushuaia pero descarta nexo con brote de crucero - Infobae",
-          "t": "2026-06-29T18:59:07Z",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQ1pleHVVd0g5Y3VKZHk5Y3pDbGZvM18xTE84WWhYR1g5NC1HS0JOVU1oaGkyV09KYkpIYkZIX2w2QXVQWjJ0Qk5lRVhSRFkzcGoyclhiWTFVOWwzVDRXMWR5X1NJZE1LRmp6NXUxTmJUOUpmT1RZdXFKV2xxdHlpNjBQY29udkdrOWE5WnFWRnNKM3Vydk0yalBaR2g1VU5MQ2hjYjd6d0FlcHhlM2w2R2ZTTGowcHZTb2FyYzYyanJCd2RDRG44WDNhTEg5MUVTUUlKd3Q3RlA2QdIB9AFBVV95cUxQcktJUVVnblRPTncxelVNRkFoTkdzRlZqU2ViLVNfNDV0SFYyQ2Y4UTd0X3JiNGdhWWpkZHM0Ri1SU002bzB6ajJ1bDNqT2RpMElJYjExd0hOZ0diVnNJeThfVVBZQ1dxMEFXR1ExSk95Nng3SmRBSk1ycW04eUVqN2ZZbXhkWG5yek5KYTV2N3NKSFJWNnVxa0xlOGlZaFpCdXBrWVo0MlZjRXFQdG15Q3FjOXJFUlpjUlROOXpXWGExY0lJaVlHQ1JDWTBHUWo1QWZta2NqZXdtSEJqVi01aVRBV09WSXJRalYtTUVqMkF5Q1FC?oc=5"
-        },
         {
           "title": "Argentina halla hantavirus en Tierra del Fuego sin nexo con brote del crucero \"Hondius\" - El Economista",
           "t": "2026-06-29T15:05:48Z",
